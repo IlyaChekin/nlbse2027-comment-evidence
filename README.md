@@ -1,6 +1,6 @@
 # NLBSE 2027 multitask code classification
 
-[Paper (PDF)](paper/main.pdf) · [Round 38 model and checksums](https://github.com/IlyaChekin/nlbse2027-comment-evidence/releases/tag/v1.0.0)
+[Paper (PDF)](paper/main.pdf) · [Round 38 model and checksums](https://github.com/IlyaChekin/nlbse2027-comment-evidence/releases/tag/v1.0.1)
 
 The tool accepts CSV with a `Function` column and emits two binary columns, `vulnerability` and `MAT`. The released configuration is Round 38. Its frozen public predictions have F1 scores of 0.954278 and 0.935722, with mean F1 0.945000 across 30,655 functions. Its local competition score is 0.964721 on RTX 4090. The source, model archive and verification steps are described in [REPRODUCE.md](REPRODUCE.md).
 
