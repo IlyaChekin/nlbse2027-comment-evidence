@@ -1,0 +1,26 @@
+{
+  "previous": 0.9647211005823113,
+  "gap": 0.005278899417688665,
+  "model_revision": "d9f3a534af4252f04b10cd9f78e05037542d10f6",
+  "selection": {
+    "small": null,
+    "direct": null
+  },
+  "tested": 990,
+  "roles": {
+    "test_a": {
+      "options": 585,
+      "sha256": "860e8b26bd078d32e5adb47a84154aee83cbccd9bf62af2a8356cb4fbb80e61d"
+    },
+    "test_b": {
+      "options": 624,
+      "sha256": "320dde921660cfa375a5ec65e38dea2805712b320c87785255d39592f8f6bc6f"
+    },
+    "official": {
+      "options": 624,
+      "sha256": "daffad5b5b97669648291f59667dce50a68861d8bfc5303f9778c09a6868962d"
+    }
+  },
+  "table_sha256": "fb4bdfd7090efa6b273b5bd430d5b4f24754a8ce99b547031fb340dab4f89729",
+  "code_sha256": "af9e579d5d58a32a87539300a3cba5ace6c1d57256cbeb2e5798b19f74e67167"
+}

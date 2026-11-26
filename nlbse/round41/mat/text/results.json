@@ -1,0 +1,1745 @@
+{
+  "dev": {
+    "baseline": {
+      "tp": 278,
+      "fp": 0,
+      "fn": 44,
+      "f1": 0.9266666666666666,
+      "recovered": 0,
+      "delta_fp": 0,
+      "recovered_without_comment": 0
+    },
+    "results": {
+      "signature": {
+        "frozen": {
+          "tp": 278,
+          "fp": 0,
+          "fn": 44,
+          "f1": 0.9266666666666666,
+          "recovered": 0,
+          "delta_fp": 0,
+          "recovered_without_comment": 0
+        },
+        "matched": {
+          "tp": 278,
+          "fp": 0,
+          "fn": 44,
+          "f1": 0.9266666666666666,
+          "recovered": 0,
+          "delta_fp": 0,
+          "recovered_without_comment": 0
+        },
+        "average_precision": 0.0036308812687609092,
+        "projects": {
+          "linux": {
+            "tp": 265,
+            "fp": 0,
+            "fn": 42,
+            "f1": 0.9265734265734266,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0,
+            "cut": -0.13239907703801812
+          },
+          "tcpdump": {
+            "tp": 13,
+            "fp": 0,
+            "fn": 2,
+            "f1": 0.9285714285714286,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0,
+            "cut": -4.9243099401452435
+          }
+        }
+      },
+      "signature_body": {
+        "frozen": {
+          "tp": 278,
+          "fp": 0,
+          "fn": 44,
+          "f1": 0.9266666666666666,
+          "recovered": 0,
+          "delta_fp": 0,
+          "recovered_without_comment": 0
+        },
+        "matched": {
+          "tp": 278,
+          "fp": 0,
+          "fn": 44,
+          "f1": 0.9266666666666666,
+          "recovered": 0,
+          "delta_fp": 0,
+          "recovered_without_comment": 0
+        },
+        "average_precision": 0.00679751725435541,
+        "projects": {
+          "linux": {
+            "tp": 265,
+            "fp": 0,
+            "fn": 42,
+            "f1": 0.9265734265734266,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0,
+            "cut": -0.12542862960415846
+          },
+          "tcpdump": {
+            "tp": 13,
+            "fp": 0,
+            "fn": 2,
+            "f1": 0.9285714285714286,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0,
+            "cut": -4.515899278004825
+          }
+        }
+      },
+      "comment": {
+        "frozen": {
+          "tp": 278,
+          "fp": 0,
+          "fn": 44,
+          "f1": 0.9266666666666666,
+          "recovered": 0,
+          "delta_fp": 0,
+          "recovered_without_comment": 0
+        },
+        "matched": {
+          "tp": 278,
+          "fp": 0,
+          "fn": 44,
+          "f1": 0.9266666666666666,
+          "recovered": 0,
+          "delta_fp": 0,
+          "recovered_without_comment": 0
+        },
+        "average_precision": 0.003549237104832022,
+        "projects": {
+          "linux": {
+            "tp": 265,
+            "fp": 0,
+            "fn": 42,
+            "f1": 0.9265734265734266,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0,
+            "cut": 1.7292015186252172
+          },
+          "tcpdump": {
+            "tp": 13,
+            "fp": 0,
+            "fn": 2,
+            "f1": 0.9285714285714286,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0,
+            "cut": -1.5393036043041128
+          }
+        }
+      },
+      "comment_placement": {
+        "frozen": {
+          "tp": 278,
+          "fp": 0,
+          "fn": 44,
+          "f1": 0.9266666666666666,
+          "recovered": 0,
+          "delta_fp": 0,
+          "recovered_without_comment": 0
+        },
+        "matched": {
+          "tp": 278,
+          "fp": 0,
+          "fn": 44,
+          "f1": 0.9266666666666666,
+          "recovered": 0,
+          "delta_fp": 0,
+          "recovered_without_comment": 0
+        },
+        "average_precision": 0.0035482292320345886,
+        "projects": {
+          "linux": {
+            "tp": 265,
+            "fp": 0,
+            "fn": 42,
+            "f1": 0.9265734265734266,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0,
+            "cut": 1.7292015186252172
+          },
+          "tcpdump": {
+            "tp": 13,
+            "fp": 0,
+            "fn": 2,
+            "f1": 0.9285714285714286,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0,
+            "cut": -1.5393036043041128
+          }
+        }
+      },
+      "joint": {
+        "frozen": {
+          "tp": 278,
+          "fp": 0,
+          "fn": 44,
+          "f1": 0.9266666666666666,
+          "recovered": 0,
+          "delta_fp": 0,
+          "recovered_without_comment": 0
+        },
+        "matched": {
+          "tp": 278,
+          "fp": 0,
+          "fn": 44,
+          "f1": 0.9266666666666666,
+          "recovered": 0,
+          "delta_fp": 0,
+          "recovered_without_comment": 0
+        },
+        "average_precision": 0.004983140105720686,
+        "projects": {
+          "linux": {
+            "tp": 265,
+            "fp": 0,
+            "fn": 42,
+            "f1": 0.9265734265734266,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0,
+            "cut": -2.8105063590149966
+          },
+          "tcpdump": {
+            "tp": 13,
+            "fp": 0,
+            "fn": 2,
+            "f1": 0.9285714285714286,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0,
+            "cut": -6.802465000048374
+          }
+        }
+      },
+      "lexical": {
+        "frozen": {
+          "tp": 278,
+          "fp": 0,
+          "fn": 44,
+          "f1": 0.9266666666666666,
+          "recovered": 0,
+          "delta_fp": 0,
+          "recovered_without_comment": 0
+        },
+        "matched": {
+          "tp": 278,
+          "fp": 0,
+          "fn": 44,
+          "f1": 0.9266666666666666,
+          "recovered": 0,
+          "delta_fp": 0,
+          "recovered_without_comment": 0
+        },
+        "average_precision": 0.0020447046795854826,
+        "projects": {
+          "linux": {
+            "tp": 265,
+            "fp": 0,
+            "fn": 42,
+            "f1": 0.9265734265734266,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0,
+            "cut": 0.0
+          },
+          "tcpdump": {
+            "tp": 13,
+            "fp": 0,
+            "fn": 2,
+            "f1": 0.9285714285714286,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0,
+            "cut": 0.0
+          }
+        }
+      },
+      "license_line": {
+        "frozen": {
+          "tp": 278,
+          "fp": 0,
+          "fn": 44,
+          "f1": 0.9266666666666666,
+          "recovered": 0,
+          "delta_fp": 0,
+          "recovered_without_comment": 0
+        },
+        "matched": {
+          "tp": 278,
+          "fp": 0,
+          "fn": 44,
+          "f1": 0.9266666666666666,
+          "recovered": 0,
+          "delta_fp": 0,
+          "recovered_without_comment": 0
+        },
+        "average_precision": 0.0020447046795854826,
+        "projects": {
+          "linux": {
+            "tp": 265,
+            "fp": 0,
+            "fn": 42,
+            "f1": 0.9265734265734266,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0,
+            "cut": 0.0
+          },
+          "tcpdump": {
+            "tp": 13,
+            "fp": 0,
+            "fn": 2,
+            "f1": 0.9285714285714286,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0,
+            "cut": 0.0
+          }
+        }
+      },
+      "line_splice": {
+        "frozen": {
+          "tp": 278,
+          "fp": 0,
+          "fn": 44,
+          "f1": 0.9266666666666666,
+          "recovered": 0,
+          "delta_fp": 0,
+          "recovered_without_comment": 0
+        },
+        "matched": {
+          "tp": 278,
+          "fp": 0,
+          "fn": 44,
+          "f1": 0.9266666666666666,
+          "recovered": 0,
+          "delta_fp": 0,
+          "recovered_without_comment": 0
+        },
+        "average_precision": 0.0020447046795854826,
+        "projects": {
+          "linux": {
+            "tp": 265,
+            "fp": 0,
+            "fn": 42,
+            "f1": 0.9265734265734266,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0,
+            "cut": 0.0
+          },
+          "tcpdump": {
+            "tp": 13,
+            "fp": 0,
+            "fn": 2,
+            "f1": 0.9285714285714286,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0,
+            "cut": 0.0
+          }
+        }
+      },
+      "debt_lexicon": {
+        "frozen": {
+          "tp": 278,
+          "fp": 0,
+          "fn": 44,
+          "f1": 0.9266666666666666,
+          "recovered": 0,
+          "delta_fp": 0,
+          "recovered_without_comment": 0
+        },
+        "matched": {
+          "tp": 278,
+          "fp": 0,
+          "fn": 44,
+          "f1": 0.9266666666666666,
+          "recovered": 0,
+          "delta_fp": 0,
+          "recovered_without_comment": 0
+        },
+        "average_precision": 0.0020929310883827826,
+        "projects": {
+          "linux": {
+            "tp": 265,
+            "fp": 0,
+            "fn": 42,
+            "f1": 0.9265734265734266,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0,
+            "cut": 1.0
+          },
+          "tcpdump": {
+            "tp": 13,
+            "fp": 0,
+            "fn": 2,
+            "f1": 0.9285714285714286,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0,
+            "cut": 1.0
+          }
+        }
+      }
+    },
+    "predictions_sha256": "389fb6aa4c8d034cbd648f35994bd316d7020affd271274e3288b677f01aa17e"
+  },
+  "test_a": {
+    "baseline": {
+      "tp": 753,
+      "fp": 0,
+      "fn": 77,
+      "f1": 0.9513581806696146,
+      "recovered": 0,
+      "delta_fp": 0,
+      "recovered_without_comment": 0
+    },
+    "results": {
+      "signature": {
+        "frozen": {
+          "tp": 753,
+          "fp": 0,
+          "fn": 77,
+          "f1": 0.9513581806696146,
+          "recovered": 0,
+          "delta_fp": 0,
+          "recovered_without_comment": 0
+        },
+        "matched": {
+          "tp": 753,
+          "fp": 0,
+          "fn": 77,
+          "f1": 0.9513581806696146,
+          "recovered": 0,
+          "delta_fp": 0,
+          "recovered_without_comment": 0
+        },
+        "average_precision": 0.0034154198119050105,
+        "projects": {
+          "chromium": {
+            "tp": 276,
+            "fp": 0,
+            "fn": 42,
+            "f1": 0.9292929292929293,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0,
+            "cut": -1.6737671882180782
+          },
+          "ffmpeg": {
+            "tp": 155,
+            "fp": 0,
+            "fn": 17,
+            "f1": 0.9480122324159022,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0,
+            "cut": -2.9708574513286483
+          },
+          "qemu": {
+            "tp": 322,
+            "fp": 0,
+            "fn": 18,
+            "f1": 0.972809667673716,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0,
+            "cut": -1.9717184276635624
+          }
+        }
+      },
+      "signature_body": {
+        "frozen": {
+          "tp": 753,
+          "fp": 0,
+          "fn": 77,
+          "f1": 0.9513581806696146,
+          "recovered": 0,
+          "delta_fp": 0,
+          "recovered_without_comment": 0
+        },
+        "matched": {
+          "tp": 753,
+          "fp": 0,
+          "fn": 77,
+          "f1": 0.9513581806696146,
+          "recovered": 0,
+          "delta_fp": 0,
+          "recovered_without_comment": 0
+        },
+        "average_precision": 0.004684838375581445,
+        "projects": {
+          "chromium": {
+            "tp": 276,
+            "fp": 0,
+            "fn": 42,
+            "f1": 0.9292929292929293,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0,
+            "cut": -2.064357267729557
+          },
+          "ffmpeg": {
+            "tp": 155,
+            "fp": 0,
+            "fn": 17,
+            "f1": 0.9480122324159022,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0,
+            "cut": -3.0142925718898015
+          },
+          "qemu": {
+            "tp": 322,
+            "fp": 0,
+            "fn": 18,
+            "f1": 0.972809667673716,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0,
+            "cut": -2.554567908909563
+          }
+        }
+      },
+      "comment": {
+        "frozen": {
+          "tp": 753,
+          "fp": 0,
+          "fn": 77,
+          "f1": 0.9513581806696146,
+          "recovered": 0,
+          "delta_fp": 0,
+          "recovered_without_comment": 0
+        },
+        "matched": {
+          "tp": 753,
+          "fp": 0,
+          "fn": 77,
+          "f1": 0.9513581806696146,
+          "recovered": 0,
+          "delta_fp": 0,
+          "recovered_without_comment": 0
+        },
+        "average_precision": 0.006428924613431567,
+        "projects": {
+          "chromium": {
+            "tp": 276,
+            "fp": 0,
+            "fn": 42,
+            "f1": 0.9292929292929293,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0,
+            "cut": 1.516511735864439
+          },
+          "ffmpeg": {
+            "tp": 155,
+            "fp": 0,
+            "fn": 17,
+            "f1": 0.9480122324159022,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0,
+            "cut": 1.6533601248158716
+          },
+          "qemu": {
+            "tp": 322,
+            "fp": 0,
+            "fn": 18,
+            "f1": 0.972809667673716,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0,
+            "cut": 1.1958377364440471
+          }
+        }
+      },
+      "comment_placement": {
+        "frozen": {
+          "tp": 753,
+          "fp": 0,
+          "fn": 77,
+          "f1": 0.9513581806696146,
+          "recovered": 0,
+          "delta_fp": 0,
+          "recovered_without_comment": 0
+        },
+        "matched": {
+          "tp": 753,
+          "fp": 0,
+          "fn": 77,
+          "f1": 0.9513581806696146,
+          "recovered": 0,
+          "delta_fp": 0,
+          "recovered_without_comment": 0
+        },
+        "average_precision": 0.006373238282868156,
+        "projects": {
+          "chromium": {
+            "tp": 276,
+            "fp": 0,
+            "fn": 42,
+            "f1": 0.9292929292929293,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0,
+            "cut": 1.516511735864439
+          },
+          "ffmpeg": {
+            "tp": 155,
+            "fp": 0,
+            "fn": 17,
+            "f1": 0.9480122324159022,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0,
+            "cut": 1.6533601248158716
+          },
+          "qemu": {
+            "tp": 322,
+            "fp": 0,
+            "fn": 18,
+            "f1": 0.972809667673716,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0,
+            "cut": 1.1958377364440471
+          }
+        }
+      },
+      "joint": {
+        "frozen": {
+          "tp": 753,
+          "fp": 1,
+          "fn": 77,
+          "f1": 0.9507575757575758,
+          "recovered": 0,
+          "delta_fp": 1,
+          "recovered_without_comment": 0
+        },
+        "matched": {
+          "tp": 753,
+          "fp": 0,
+          "fn": 77,
+          "f1": 0.9513581806696146,
+          "recovered": 0,
+          "delta_fp": 0,
+          "recovered_without_comment": 0
+        },
+        "average_precision": 0.0071680979555625995,
+        "projects": {
+          "chromium": {
+            "tp": 276,
+            "fp": 0,
+            "fn": 42,
+            "f1": 0.9292929292929293,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0,
+            "cut": -4.452963144262397
+          },
+          "ffmpeg": {
+            "tp": 155,
+            "fp": 0,
+            "fn": 17,
+            "f1": 0.9480122324159022,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0,
+            "cut": -2.8024142387745834
+          },
+          "qemu": {
+            "tp": 322,
+            "fp": 0,
+            "fn": 18,
+            "f1": 0.972809667673716,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0,
+            "cut": -4.519115742082943
+          }
+        }
+      },
+      "lexical": {
+        "frozen": {
+          "tp": 753,
+          "fp": 0,
+          "fn": 77,
+          "f1": 0.9513581806696146,
+          "recovered": 0,
+          "delta_fp": 0,
+          "recovered_without_comment": 0
+        },
+        "matched": {
+          "tp": 753,
+          "fp": 0,
+          "fn": 77,
+          "f1": 0.9513581806696146,
+          "recovered": 0,
+          "delta_fp": 0,
+          "recovered_without_comment": 0
+        },
+        "average_precision": 0.0025374855824682814,
+        "projects": {
+          "chromium": {
+            "tp": 276,
+            "fp": 0,
+            "fn": 42,
+            "f1": 0.9292929292929293,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0,
+            "cut": 0.0
+          },
+          "ffmpeg": {
+            "tp": 155,
+            "fp": 0,
+            "fn": 17,
+            "f1": 0.9480122324159022,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0,
+            "cut": 0.0
+          },
+          "qemu": {
+            "tp": 322,
+            "fp": 0,
+            "fn": 18,
+            "f1": 0.972809667673716,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0,
+            "cut": 0.0
+          }
+        }
+      },
+      "license_line": {
+        "frozen": {
+          "tp": 753,
+          "fp": 0,
+          "fn": 77,
+          "f1": 0.9513581806696146,
+          "recovered": 0,
+          "delta_fp": 0,
+          "recovered_without_comment": 0
+        },
+        "matched": {
+          "tp": 753,
+          "fp": 0,
+          "fn": 77,
+          "f1": 0.9513581806696146,
+          "recovered": 0,
+          "delta_fp": 0,
+          "recovered_without_comment": 0
+        },
+        "average_precision": 0.0025374855824682814,
+        "projects": {
+          "chromium": {
+            "tp": 276,
+            "fp": 0,
+            "fn": 42,
+            "f1": 0.9292929292929293,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0,
+            "cut": 0.0
+          },
+          "ffmpeg": {
+            "tp": 155,
+            "fp": 0,
+            "fn": 17,
+            "f1": 0.9480122324159022,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0,
+            "cut": 0.0
+          },
+          "qemu": {
+            "tp": 322,
+            "fp": 0,
+            "fn": 18,
+            "f1": 0.972809667673716,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0,
+            "cut": 0.0
+          }
+        }
+      },
+      "line_splice": {
+        "frozen": {
+          "tp": 753,
+          "fp": 0,
+          "fn": 77,
+          "f1": 0.9513581806696146,
+          "recovered": 0,
+          "delta_fp": 0,
+          "recovered_without_comment": 0
+        },
+        "matched": {
+          "tp": 753,
+          "fp": 0,
+          "fn": 77,
+          "f1": 0.9513581806696146,
+          "recovered": 0,
+          "delta_fp": 0,
+          "recovered_without_comment": 0
+        },
+        "average_precision": 0.0025374855824682814,
+        "projects": {
+          "chromium": {
+            "tp": 276,
+            "fp": 0,
+            "fn": 42,
+            "f1": 0.9292929292929293,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0,
+            "cut": 0.0
+          },
+          "ffmpeg": {
+            "tp": 155,
+            "fp": 0,
+            "fn": 17,
+            "f1": 0.9480122324159022,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0,
+            "cut": 0.0
+          },
+          "qemu": {
+            "tp": 322,
+            "fp": 0,
+            "fn": 18,
+            "f1": 0.972809667673716,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0,
+            "cut": 0.0
+          }
+        }
+      },
+      "debt_lexicon": {
+        "frozen": {
+          "tp": 753,
+          "fp": 0,
+          "fn": 77,
+          "f1": 0.9513581806696146,
+          "recovered": 0,
+          "delta_fp": 0,
+          "recovered_without_comment": 0
+        },
+        "matched": {
+          "tp": 753,
+          "fp": 0,
+          "fn": 77,
+          "f1": 0.9513581806696146,
+          "recovered": 0,
+          "delta_fp": 0,
+          "recovered_without_comment": 0
+        },
+        "average_precision": 0.0025660810488374076,
+        "projects": {
+          "chromium": {
+            "tp": 276,
+            "fp": 0,
+            "fn": 42,
+            "f1": 0.9292929292929293,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0,
+            "cut": 1.0
+          },
+          "ffmpeg": {
+            "tp": 155,
+            "fp": 0,
+            "fn": 17,
+            "f1": 0.9480122324159022,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0,
+            "cut": 1.0
+          },
+          "qemu": {
+            "tp": 322,
+            "fp": 0,
+            "fn": 18,
+            "f1": 0.972809667673716,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0,
+            "cut": 1.0
+          }
+        }
+      }
+    },
+    "predictions_sha256": "ed7771feaf84d2edd15ba6f2caade0dc2685655117e4a2dab719179c2e2cd510"
+  },
+  "test_b": {
+    "baseline": {
+      "tp": 181,
+      "fp": 0,
+      "fn": 23,
+      "f1": 0.9402597402597402,
+      "recovered": 0,
+      "delta_fp": 0,
+      "recovered_without_comment": 0
+    },
+    "results": {
+      "signature": {
+        "frozen": {
+          "tp": 181,
+          "fp": 0,
+          "fn": 23,
+          "f1": 0.9402597402597402,
+          "recovered": 0,
+          "delta_fp": 0,
+          "recovered_without_comment": 0
+        },
+        "matched": {
+          "tp": 181,
+          "fp": 0,
+          "fn": 23,
+          "f1": 0.9402597402597402,
+          "recovered": 0,
+          "delta_fp": 0,
+          "recovered_without_comment": 0
+        },
+        "average_precision": 0.005365446844392243,
+        "projects": {
+          "android": {
+            "tp": 32,
+            "fp": 0,
+            "fn": 2,
+            "f1": 0.9696969696969697,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0,
+            "cut": -2.7869282557225143
+          },
+          "file": {
+            "tp": 1,
+            "fp": 0,
+            "fn": 0,
+            "f1": 1.0,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0,
+            "cut": -4.804414880125723
+          },
+          "imagemagick": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 0,
+            "f1": 0.0,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0,
+            "cut": -3.2189669973810773
+          },
+          "krb5": {
+            "tp": 2,
+            "fp": 0,
+            "fn": 2,
+            "f1": 0.6666666666666666,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0,
+            "cut": -4.11137269615288
+          },
+          "mozilla firefox": {
+            "tp": 120,
+            "fp": 0,
+            "fn": 15,
+            "f1": 0.9411764705882353,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0,
+            "cut": -2.995636448754377
+          },
+          "php": {
+            "tp": 11,
+            "fp": 0,
+            "fn": 1,
+            "f1": 0.9565217391304348,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0,
+            "cut": -3.8062226760688027
+          },
+          "radare2": {
+            "tp": 15,
+            "fp": 0,
+            "fn": 3,
+            "f1": 0.9090909090909091,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0,
+            "cut": -3.118221309776591
+          }
+        }
+      },
+      "signature_body": {
+        "frozen": {
+          "tp": 181,
+          "fp": 0,
+          "fn": 23,
+          "f1": 0.9402597402597402,
+          "recovered": 0,
+          "delta_fp": 0,
+          "recovered_without_comment": 0
+        },
+        "matched": {
+          "tp": 181,
+          "fp": 0,
+          "fn": 23,
+          "f1": 0.9402597402597402,
+          "recovered": 0,
+          "delta_fp": 0,
+          "recovered_without_comment": 0
+        },
+        "average_precision": 0.006617383146673603,
+        "projects": {
+          "android": {
+            "tp": 32,
+            "fp": 0,
+            "fn": 2,
+            "f1": 0.9696969696969697,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0,
+            "cut": -3.2752964791960046
+          },
+          "file": {
+            "tp": 1,
+            "fp": 0,
+            "fn": 0,
+            "f1": 1.0,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0,
+            "cut": -4.876668227905064
+          },
+          "imagemagick": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 0,
+            "f1": 0.0,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0,
+            "cut": -3.1856561606896605
+          },
+          "krb5": {
+            "tp": 2,
+            "fp": 0,
+            "fn": 2,
+            "f1": 0.6666666666666666,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0,
+            "cut": -4.448887681841601
+          },
+          "mozilla firefox": {
+            "tp": 120,
+            "fp": 0,
+            "fn": 15,
+            "f1": 0.9411764705882353,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0,
+            "cut": -3.0472696053944706
+          },
+          "php": {
+            "tp": 11,
+            "fp": 0,
+            "fn": 1,
+            "f1": 0.9565217391304348,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0,
+            "cut": -4.063005813902983
+          },
+          "radare2": {
+            "tp": 15,
+            "fp": 0,
+            "fn": 3,
+            "f1": 0.9090909090909091,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0,
+            "cut": -3.2286204355849613
+          }
+        }
+      },
+      "comment": {
+        "frozen": {
+          "tp": 181,
+          "fp": 1,
+          "fn": 23,
+          "f1": 0.9378238341968912,
+          "recovered": 0,
+          "delta_fp": 1,
+          "recovered_without_comment": 0
+        },
+        "matched": {
+          "tp": 181,
+          "fp": 0,
+          "fn": 23,
+          "f1": 0.9402597402597402,
+          "recovered": 0,
+          "delta_fp": 0,
+          "recovered_without_comment": 0
+        },
+        "average_precision": 0.0028635300270218066,
+        "projects": {
+          "android": {
+            "tp": 32,
+            "fp": 0,
+            "fn": 2,
+            "f1": 0.9696969696969697,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0,
+            "cut": 1.516511735864439
+          },
+          "file": {
+            "tp": 1,
+            "fp": 0,
+            "fn": 0,
+            "f1": 1.0,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0,
+            "cut": 0.802417862369019
+          },
+          "imagemagick": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 0,
+            "f1": 0.0,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0,
+            "cut": 0.686804158009994
+          },
+          "krb5": {
+            "tp": 2,
+            "fp": 0,
+            "fn": 2,
+            "f1": 0.6666666666666666,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0,
+            "cut": 0.19891279752117708
+          },
+          "mozilla firefox": {
+            "tp": 120,
+            "fp": 0,
+            "fn": 15,
+            "f1": 0.9411764705882353,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0,
+            "cut": 2.5772765865778036
+          },
+          "php": {
+            "tp": 11,
+            "fp": 0,
+            "fn": 1,
+            "f1": 0.9565217391304348,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0,
+            "cut": 0.8034111239391466
+          },
+          "radare2": {
+            "tp": 15,
+            "fp": 0,
+            "fn": 3,
+            "f1": 0.9090909090909091,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0,
+            "cut": -1.6290958822448949
+          }
+        }
+      },
+      "comment_placement": {
+        "frozen": {
+          "tp": 181,
+          "fp": 1,
+          "fn": 23,
+          "f1": 0.9378238341968912,
+          "recovered": 0,
+          "delta_fp": 1,
+          "recovered_without_comment": 0
+        },
+        "matched": {
+          "tp": 181,
+          "fp": 0,
+          "fn": 23,
+          "f1": 0.9402597402597402,
+          "recovered": 0,
+          "delta_fp": 0,
+          "recovered_without_comment": 0
+        },
+        "average_precision": 0.0028613011783389488,
+        "projects": {
+          "android": {
+            "tp": 32,
+            "fp": 0,
+            "fn": 2,
+            "f1": 0.9696969696969697,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0,
+            "cut": 1.516511735864439
+          },
+          "file": {
+            "tp": 1,
+            "fp": 0,
+            "fn": 0,
+            "f1": 1.0,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0,
+            "cut": 0.802417862369019
+          },
+          "imagemagick": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 0,
+            "f1": 0.0,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0,
+            "cut": 0.686804158009994
+          },
+          "krb5": {
+            "tp": 2,
+            "fp": 0,
+            "fn": 2,
+            "f1": 0.6666666666666666,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0,
+            "cut": 0.19891279752117708
+          },
+          "mozilla firefox": {
+            "tp": 120,
+            "fp": 0,
+            "fn": 15,
+            "f1": 0.9411764705882353,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0,
+            "cut": 2.5772765865778036
+          },
+          "php": {
+            "tp": 11,
+            "fp": 0,
+            "fn": 1,
+            "f1": 0.9565217391304348,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0,
+            "cut": 0.8034111239391466
+          },
+          "radare2": {
+            "tp": 15,
+            "fp": 0,
+            "fn": 3,
+            "f1": 0.9090909090909091,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0,
+            "cut": -1.6290958822448949
+          }
+        }
+      },
+      "joint": {
+        "frozen": {
+          "tp": 181,
+          "fp": 0,
+          "fn": 23,
+          "f1": 0.9402597402597402,
+          "recovered": 0,
+          "delta_fp": 0,
+          "recovered_without_comment": 0
+        },
+        "matched": {
+          "tp": 181,
+          "fp": 0,
+          "fn": 23,
+          "f1": 0.9402597402597402,
+          "recovered": 0,
+          "delta_fp": 0,
+          "recovered_without_comment": 0
+        },
+        "average_precision": 0.0035951999168649853,
+        "projects": {
+          "android": {
+            "tp": 32,
+            "fp": 0,
+            "fn": 2,
+            "f1": 0.9696969696969697,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0,
+            "cut": -4.889272506654297
+          },
+          "file": {
+            "tp": 1,
+            "fp": 0,
+            "fn": 0,
+            "f1": 1.0,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0,
+            "cut": -6.605278481927625
+          },
+          "imagemagick": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 0,
+            "f1": 0.0,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0,
+            "cut": -4.596953170310851
+          },
+          "krb5": {
+            "tp": 2,
+            "fp": 0,
+            "fn": 2,
+            "f1": 0.6666666666666666,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0,
+            "cut": -5.5351174330501545
+          },
+          "mozilla firefox": {
+            "tp": 120,
+            "fp": 0,
+            "fn": 15,
+            "f1": 0.9411764705882353,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0,
+            "cut": -4.478352390568772
+          },
+          "php": {
+            "tp": 11,
+            "fp": 0,
+            "fn": 1,
+            "f1": 0.9565217391304348,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0,
+            "cut": -5.386357993241655
+          },
+          "radare2": {
+            "tp": 15,
+            "fp": 0,
+            "fn": 3,
+            "f1": 0.9090909090909091,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0,
+            "cut": -5.578003674047535
+          }
+        }
+      },
+      "lexical": {
+        "frozen": {
+          "tp": 181,
+          "fp": 0,
+          "fn": 23,
+          "f1": 0.9402597402597402,
+          "recovered": 0,
+          "delta_fp": 0,
+          "recovered_without_comment": 0
+        },
+        "matched": {
+          "tp": 181,
+          "fp": 0,
+          "fn": 23,
+          "f1": 0.9402597402597402,
+          "recovered": 0,
+          "delta_fp": 0,
+          "recovered_without_comment": 0
+        },
+        "average_precision": 0.0029800466442083443,
+        "projects": {
+          "android": {
+            "tp": 32,
+            "fp": 0,
+            "fn": 2,
+            "f1": 0.9696969696969697,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0,
+            "cut": 0.0
+          },
+          "file": {
+            "tp": 1,
+            "fp": 0,
+            "fn": 0,
+            "f1": 1.0,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0,
+            "cut": 0.0
+          },
+          "imagemagick": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 0,
+            "f1": 0.0,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0,
+            "cut": 0.0
+          },
+          "krb5": {
+            "tp": 2,
+            "fp": 0,
+            "fn": 2,
+            "f1": 0.6666666666666666,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0,
+            "cut": 0.0
+          },
+          "mozilla firefox": {
+            "tp": 120,
+            "fp": 0,
+            "fn": 15,
+            "f1": 0.9411764705882353,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0,
+            "cut": 0.0
+          },
+          "php": {
+            "tp": 11,
+            "fp": 0,
+            "fn": 1,
+            "f1": 0.9565217391304348,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0,
+            "cut": 0.0
+          },
+          "radare2": {
+            "tp": 15,
+            "fp": 0,
+            "fn": 3,
+            "f1": 0.9090909090909091,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0,
+            "cut": 0.0
+          }
+        }
+      },
+      "license_line": {
+        "frozen": {
+          "tp": 181,
+          "fp": 0,
+          "fn": 23,
+          "f1": 0.9402597402597402,
+          "recovered": 0,
+          "delta_fp": 0,
+          "recovered_without_comment": 0
+        },
+        "matched": {
+          "tp": 181,
+          "fp": 0,
+          "fn": 23,
+          "f1": 0.9402597402597402,
+          "recovered": 0,
+          "delta_fp": 0,
+          "recovered_without_comment": 0
+        },
+        "average_precision": 0.0029800466442083443,
+        "projects": {
+          "android": {
+            "tp": 32,
+            "fp": 0,
+            "fn": 2,
+            "f1": 0.9696969696969697,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0,
+            "cut": 0.0
+          },
+          "file": {
+            "tp": 1,
+            "fp": 0,
+            "fn": 0,
+            "f1": 1.0,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0,
+            "cut": 0.0
+          },
+          "imagemagick": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 0,
+            "f1": 0.0,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0,
+            "cut": 0.0
+          },
+          "krb5": {
+            "tp": 2,
+            "fp": 0,
+            "fn": 2,
+            "f1": 0.6666666666666666,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0,
+            "cut": 0.0
+          },
+          "mozilla firefox": {
+            "tp": 120,
+            "fp": 0,
+            "fn": 15,
+            "f1": 0.9411764705882353,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0,
+            "cut": 0.0
+          },
+          "php": {
+            "tp": 11,
+            "fp": 0,
+            "fn": 1,
+            "f1": 0.9565217391304348,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0,
+            "cut": 0.0
+          },
+          "radare2": {
+            "tp": 15,
+            "fp": 0,
+            "fn": 3,
+            "f1": 0.9090909090909091,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0,
+            "cut": 0.0
+          }
+        }
+      },
+      "line_splice": {
+        "frozen": {
+          "tp": 181,
+          "fp": 0,
+          "fn": 23,
+          "f1": 0.9402597402597402,
+          "recovered": 0,
+          "delta_fp": 0,
+          "recovered_without_comment": 0
+        },
+        "matched": {
+          "tp": 181,
+          "fp": 0,
+          "fn": 23,
+          "f1": 0.9402597402597402,
+          "recovered": 0,
+          "delta_fp": 0,
+          "recovered_without_comment": 0
+        },
+        "average_precision": 0.0029800466442083443,
+        "projects": {
+          "android": {
+            "tp": 32,
+            "fp": 0,
+            "fn": 2,
+            "f1": 0.9696969696969697,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0,
+            "cut": 0.0
+          },
+          "file": {
+            "tp": 1,
+            "fp": 0,
+            "fn": 0,
+            "f1": 1.0,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0,
+            "cut": 0.0
+          },
+          "imagemagick": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 0,
+            "f1": 0.0,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0,
+            "cut": 0.0
+          },
+          "krb5": {
+            "tp": 2,
+            "fp": 0,
+            "fn": 2,
+            "f1": 0.6666666666666666,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0,
+            "cut": 0.0
+          },
+          "mozilla firefox": {
+            "tp": 120,
+            "fp": 0,
+            "fn": 15,
+            "f1": 0.9411764705882353,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0,
+            "cut": 0.0
+          },
+          "php": {
+            "tp": 11,
+            "fp": 0,
+            "fn": 1,
+            "f1": 0.9565217391304348,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0,
+            "cut": 0.0
+          },
+          "radare2": {
+            "tp": 15,
+            "fp": 0,
+            "fn": 3,
+            "f1": 0.9090909090909091,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0,
+            "cut": 0.0
+          }
+        }
+      },
+      "debt_lexicon": {
+        "frozen": {
+          "tp": 181,
+          "fp": 0,
+          "fn": 23,
+          "f1": 0.9402597402597402,
+          "recovered": 0,
+          "delta_fp": 0,
+          "recovered_without_comment": 0
+        },
+        "matched": {
+          "tp": 181,
+          "fp": 0,
+          "fn": 23,
+          "f1": 0.9402597402597402,
+          "recovered": 0,
+          "delta_fp": 0,
+          "recovered_without_comment": 0
+        },
+        "average_precision": 0.0034078929996998438,
+        "projects": {
+          "android": {
+            "tp": 32,
+            "fp": 0,
+            "fn": 2,
+            "f1": 0.9696969696969697,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0,
+            "cut": 1.0
+          },
+          "file": {
+            "tp": 1,
+            "fp": 0,
+            "fn": 0,
+            "f1": 1.0,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0,
+            "cut": 0.0
+          },
+          "imagemagick": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 0,
+            "f1": 0.0,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0,
+            "cut": 1.0
+          },
+          "krb5": {
+            "tp": 2,
+            "fp": 0,
+            "fn": 2,
+            "f1": 0.6666666666666666,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0,
+            "cut": 1.0
+          },
+          "mozilla firefox": {
+            "tp": 120,
+            "fp": 0,
+            "fn": 15,
+            "f1": 0.9411764705882353,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0,
+            "cut": 1.0
+          },
+          "php": {
+            "tp": 11,
+            "fp": 0,
+            "fn": 1,
+            "f1": 0.9565217391304348,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0,
+            "cut": 1.0
+          },
+          "radare2": {
+            "tp": 15,
+            "fp": 0,
+            "fn": 3,
+            "f1": 0.9090909090909091,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0,
+            "cut": 0.0
+          }
+        }
+      }
+    },
+    "predictions_sha256": "fb93d655bcbb5e71761173fe46ee4eefd1a7e725dade643473a3f57ae29133bb"
+  }
+}

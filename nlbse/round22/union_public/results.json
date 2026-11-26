@@ -1,0 +1,132 @@
+{
+  "stats": {
+    "reference": {
+      "score": 0.9619542868125264,
+      "cost": {
+        "wall_seconds": 7.91495211282745,
+        "forward_seconds": 5.941400829935446,
+        "analytic_gflops": 14772.563702884041,
+        "routed": 1990,
+        "scanned": 7279,
+        "scan_seconds": 3.988669949118048
+      },
+      "trials": [
+        {
+          "wall_seconds": 7.91495211282745,
+          "forward_seconds": 5.902676815167069,
+          "analytic_gflops": 14772.563702884041,
+          "routed": 1990,
+          "scanned": 7279,
+          "scan_seconds": 3.8835823661647737
+        },
+        {
+          "wall_seconds": 7.7448381572030485,
+          "forward_seconds": 5.941400829935446,
+          "analytic_gflops": 14772.563702884041,
+          "routed": 1990,
+          "scanned": 7279,
+          "scan_seconds": 3.988669949118048
+        },
+        {
+          "wall_seconds": 8.535838840063661,
+          "forward_seconds": 6.465548132313415,
+          "analytic_gflops": 14772.563702884041,
+          "routed": 1990,
+          "scanned": 7279,
+          "scan_seconds": 4.326599085005
+        },
+        {
+          "wall_seconds": 7.399318075040355,
+          "forward_seconds": 5.627241802401841,
+          "analytic_gflops": 14772.563702884041,
+          "routed": 1990,
+          "scanned": 7279,
+          "scan_seconds": 3.766023735050112
+        },
+        {
+          "wall_seconds": 8.103709836956114,
+          "forward_seconds": 6.319704608991742,
+          "analytic_gflops": 14772.563702884041,
+          "routed": 1990,
+          "scanned": 7279,
+          "scan_seconds": 4.332535043125972
+        }
+      ]
+    },
+    "short_circuit": {
+      "score": 0.9621126507058285,
+      "cost": {
+        "wall_seconds": 6.922113349894062,
+        "forward_seconds": 5.149581363424659,
+        "analytic_gflops": 14772.563702884041,
+        "routed": 1990,
+        "scanned": 7279,
+        "scan_seconds": 3.061014074832201
+      },
+      "trials": [
+        {
+          "wall_seconds": 6.922113349894062,
+          "forward_seconds": 5.149581363424659,
+          "analytic_gflops": 14772.563702884041,
+          "routed": 1990,
+          "scanned": 7279,
+          "scan_seconds": 3.0695573179982603
+        },
+        {
+          "wall_seconds": 7.369894817005843,
+          "forward_seconds": 5.361364846583456,
+          "analytic_gflops": 14772.563702884041,
+          "routed": 1990,
+          "scanned": 7279,
+          "scan_seconds": 3.2011102470569313
+        },
+        {
+          "wall_seconds": 6.68766083708033,
+          "forward_seconds": 4.785406474256888,
+          "analytic_gflops": 14772.563702884041,
+          "routed": 1990,
+          "scanned": 7279,
+          "scan_seconds": 2.9361433947924525
+        },
+        {
+          "wall_seconds": 6.599949310068041,
+          "forward_seconds": 4.869840839877725,
+          "analytic_gflops": 14772.563702884041,
+          "routed": 1990,
+          "scanned": 7279,
+          "scan_seconds": 2.95304960408248
+        },
+        {
+          "wall_seconds": 7.219770702067763,
+          "forward_seconds": 5.212048352928832,
+          "analytic_gflops": 14772.563702884041,
+          "routed": 1990,
+          "scanned": 7279,
+          "scan_seconds": 3.061014074832201
+        }
+      ]
+    }
+  },
+  "quality": {
+    "vulnerability": {
+      "precision": 0.9313205363171603,
+      "recall": 0.9605053720652607,
+      "f1": 0.945687839757089
+    },
+    "MAT": {
+      "precision": 0.9977528089887641,
+      "recall": 0.8792079207920792,
+      "f1": 0.9347368421052632
+    },
+    "mean": {
+      "precision": 0.9645366726529622,
+      "recall": 0.9198566464286699,
+      "f1": 0.9402123409311761
+    }
+  },
+  "probe_count": 7279,
+  "public_sha256": "4d5e1fcffa59d08ee3f285209c9538c425cd2723dbeefb2530e1520364a1b2b0",
+  "program_sha256": "5fa7468518a1b36889acc92d7e33295ab8749b70da761c8ab22d557f6058b273",
+  "baseline_predictions_sha256": "639fec19f9e106a206bbc512d1eeebae5577f9873cb671020a58d2d24d14535d",
+  "scanner_predictions_sha256": "f71c2283968bfa8e19a11fc976b414c38dcebdd4bc790dbfc829b46e34b1b92a"
+}

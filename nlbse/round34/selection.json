@@ -1,0 +1,50 @@
+{
+  "rows": 1314,
+  "eligible": 3,
+  "selected": {
+    "stage": "attention_comparison",
+    "key": "0.4_distilled_pairs_fit_1",
+    "protocol": "fixed",
+    "mode": "distilled_pairs",
+    "source": "fit",
+    "width": 0.4,
+    "strength": 1.0,
+    "cut": 0.0,
+    "cal_f1": 0.0008742939846342335,
+    "cal_over_recut": 0.0008742939846342335,
+    "review_f1": 0.0007944237978898538,
+    "cal_tp": 6,
+    "cal_fp": 4,
+    "review_tp": 3,
+    "review_fp": 1,
+    "a_tp": 6,
+    "b_tp": 1,
+    "a_fp_saved": 14,
+    "b_fp_saved": 7,
+    "a_tp_paired": 5,
+    "b_tp_paired": 0,
+    "a_fp_paired": 10,
+    "b_fp_paired": -1,
+    "cal_calls": 50,
+    "review_calls": 43
+  },
+  "table_sha256": "0d7cd6e637462c6daac58de4a752a055818ecc5cea9f7951806df1e34a869e3d",
+  "receipts": {
+    "comparison": {
+      "test_a": "5401a4b8f1639995c3b1ace1d8e4884677be92f3f72984debed5d5ee19601d0b",
+      "test_b": "94230fcd1e0caf54b5e1fe6ba3ef76a554e9de3e8754a371fbe00dc99bbfece2",
+      "official": "9fef075f6b56d6377253d872f943111c195c6989ecd4c6fc3ee0b748404b7d8a"
+    },
+    "compact_comparison": {
+      "test_a": "dc8b966ded1fcb8d1ffa682b3c64c09321d6c1274a0651a1c766e1e6ea97a319",
+      "test_b": "217db4fad17de3738f195bf076f92a00577c0e6bcccb17ec33112818b3b460cc",
+      "official": "bf0b16ce284df37070c218fea880950dfa77829fe837ccd744d540dd1d3f07f1"
+    },
+    "attention_comparison": {
+      "test_a": "ca4a530866a60c647cf23768c4e979416e68cc36782699c3f8ffc57f2116c472",
+      "test_b": "b8e920ef0e2222c371966e0bb4a87b93d40e42c3104b9a8ee2cc5bdf78f83117",
+      "official": "dce3b0f571a341c3a3ed9235af35515fa5ebbbd8962df78e6c1f459d25c79674"
+    }
+  },
+  "teacher_cost_sha256": "cd38973fc4948d6f689c4f78ecebc04b589a8654006c763e45f02c4db0d7bc4c"
+}

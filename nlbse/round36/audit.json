@@ -1,0 +1,400 @@
+{
+  "clauses": {
+    "dev": {
+      "rows": 21797,
+      "misses": 44,
+      "absent_comment": 33,
+      "arms": {
+        "comment_word": {
+          "frozen": {
+            "recovered": 0,
+            "fp": 0
+          },
+          "matched": {
+            "recovered": 0,
+            "fp": 0
+          },
+          "matched_without_comment": 0
+        },
+        "comment_both": {
+          "frozen": {
+            "recovered": 0,
+            "fp": 0
+          },
+          "matched": {
+            "recovered": 0,
+            "fp": 0
+          },
+          "matched_without_comment": 0
+        },
+        "clause_word": {
+          "frozen": {
+            "recovered": 0,
+            "fp": 0
+          },
+          "matched": {
+            "recovered": 0,
+            "fp": 0
+          },
+          "matched_without_comment": 0
+        },
+        "clause_both": {
+          "frozen": {
+            "recovered": 0,
+            "fp": 0
+          },
+          "matched": {
+            "recovered": 0,
+            "fp": 0
+          },
+          "matched_without_comment": 0
+        }
+      }
+    },
+    "test_a": {
+      "rows": 31098,
+      "misses": 77,
+      "absent_comment": 54,
+      "arms": {
+        "comment_word": {
+          "frozen": {
+            "recovered": 0,
+            "fp": 2
+          },
+          "matched": {
+            "recovered": 0,
+            "fp": 0
+          },
+          "matched_without_comment": 0
+        },
+        "comment_both": {
+          "frozen": {
+            "recovered": 0,
+            "fp": 6
+          },
+          "matched": {
+            "recovered": 0,
+            "fp": 0
+          },
+          "matched_without_comment": 0
+        },
+        "clause_word": {
+          "frozen": {
+            "recovered": 0,
+            "fp": 0
+          },
+          "matched": {
+            "recovered": 0,
+            "fp": 0
+          },
+          "matched_without_comment": 0
+        },
+        "clause_both": {
+          "frozen": {
+            "recovered": 0,
+            "fp": 0
+          },
+          "matched": {
+            "recovered": 0,
+            "fp": 0
+          },
+          "matched_without_comment": 0
+        }
+      }
+    },
+    "test_b": {
+      "rows": 7899,
+      "misses": 23,
+      "absent_comment": 21,
+      "arms": {
+        "comment_word": {
+          "frozen": {
+            "recovered": 0,
+            "fp": 2
+          },
+          "matched": {
+            "recovered": 0,
+            "fp": 0
+          },
+          "matched_without_comment": 0
+        },
+        "comment_both": {
+          "frozen": {
+            "recovered": 0,
+            "fp": 3
+          },
+          "matched": {
+            "recovered": 0,
+            "fp": 0
+          },
+          "matched_without_comment": 0
+        },
+        "clause_word": {
+          "frozen": {
+            "recovered": 0,
+            "fp": 1
+          },
+          "matched": {
+            "recovered": 0,
+            "fp": 0
+          },
+          "matched_without_comment": 0
+        },
+        "clause_both": {
+          "frozen": {
+            "recovered": 0,
+            "fp": 1
+          },
+          "matched": {
+            "recovered": 0,
+            "fp": 0
+          },
+          "matched_without_comment": 0
+        }
+      }
+    }
+  },
+  "syntax": {
+    "dev": {
+      "rows": 21797,
+      "misses": 44,
+      "absent_comment": 33,
+      "arms": {
+        "declaration_point": {
+          "frozen": {
+            "recovered": 0,
+            "fp": 0
+          },
+          "matched": {
+            "recovered": 0,
+            "fp": 0
+          },
+          "matched_without_comment": 0
+        },
+        "declaration_pair": {
+          "frozen": {
+            "recovered": 0,
+            "fp": 0
+          },
+          "matched": {
+            "recovered": 0,
+            "fp": 0
+          },
+          "matched_without_comment": 0
+        },
+        "body_point": {
+          "frozen": {
+            "recovered": 0,
+            "fp": 0
+          },
+          "matched": {
+            "recovered": 0,
+            "fp": 0
+          },
+          "matched_without_comment": 0
+        },
+        "body_pair": {
+          "frozen": {
+            "recovered": 0,
+            "fp": 0
+          },
+          "matched": {
+            "recovered": 0,
+            "fp": 0
+          },
+          "matched_without_comment": 0
+        },
+        "joined_point": {
+          "frozen": {
+            "recovered": 0,
+            "fp": 0
+          },
+          "matched": {
+            "recovered": 0,
+            "fp": 0
+          },
+          "matched_without_comment": 0
+        },
+        "joined_pair": {
+          "frozen": {
+            "recovered": 0,
+            "fp": 0
+          },
+          "matched": {
+            "recovered": 0,
+            "fp": 0
+          },
+          "matched_without_comment": 0
+        }
+      }
+    },
+    "test_a": {
+      "rows": 31098,
+      "misses": 77,
+      "absent_comment": 54,
+      "arms": {
+        "declaration_point": {
+          "frozen": {
+            "recovered": 0,
+            "fp": 10
+          },
+          "matched": {
+            "recovered": 0,
+            "fp": 0
+          },
+          "matched_without_comment": 0
+        },
+        "declaration_pair": {
+          "frozen": {
+            "recovered": 0,
+            "fp": 15
+          },
+          "matched": {
+            "recovered": 0,
+            "fp": 0
+          },
+          "matched_without_comment": 0
+        },
+        "body_point": {
+          "frozen": {
+            "recovered": 0,
+            "fp": 0
+          },
+          "matched": {
+            "recovered": 0,
+            "fp": 0
+          },
+          "matched_without_comment": 0
+        },
+        "body_pair": {
+          "frozen": {
+            "recovered": 0,
+            "fp": 1
+          },
+          "matched": {
+            "recovered": 0,
+            "fp": 0
+          },
+          "matched_without_comment": 0
+        },
+        "joined_point": {
+          "frozen": {
+            "recovered": 0,
+            "fp": 0
+          },
+          "matched": {
+            "recovered": 0,
+            "fp": 0
+          },
+          "matched_without_comment": 0
+        },
+        "joined_pair": {
+          "frozen": {
+            "recovered": 0,
+            "fp": 0
+          },
+          "matched": {
+            "recovered": 0,
+            "fp": 0
+          },
+          "matched_without_comment": 0
+        }
+      }
+    },
+    "test_b": {
+      "rows": 7899,
+      "misses": 23,
+      "absent_comment": 21,
+      "arms": {
+        "declaration_point": {
+          "frozen": {
+            "recovered": 0,
+            "fp": 6
+          },
+          "matched": {
+            "recovered": 0,
+            "fp": 0
+          },
+          "matched_without_comment": 0
+        },
+        "declaration_pair": {
+          "frozen": {
+            "recovered": 0,
+            "fp": 8
+          },
+          "matched": {
+            "recovered": 0,
+            "fp": 0
+          },
+          "matched_without_comment": 0
+        },
+        "body_point": {
+          "frozen": {
+            "recovered": 0,
+            "fp": 0
+          },
+          "matched": {
+            "recovered": 0,
+            "fp": 0
+          },
+          "matched_without_comment": 0
+        },
+        "body_pair": {
+          "frozen": {
+            "recovered": 0,
+            "fp": 2
+          },
+          "matched": {
+            "recovered": 0,
+            "fp": 0
+          },
+          "matched_without_comment": 0
+        },
+        "joined_point": {
+          "frozen": {
+            "recovered": 0,
+            "fp": 0
+          },
+          "matched": {
+            "recovered": 0,
+            "fp": 0
+          },
+          "matched_without_comment": 0
+        },
+        "joined_pair": {
+          "frozen": {
+            "recovered": 0,
+            "fp": 0
+          },
+          "matched": {
+            "recovered": 0,
+            "fp": 0
+          },
+          "matched_without_comment": 0
+        }
+      }
+    }
+  },
+  "public": {
+    "released_score": 0.964473011244635,
+    "baseline_mat": {
+      "tp": 444,
+      "fp": 0,
+      "fn": 61,
+      "tn": 30150
+    },
+    "public_misses": 61,
+    "source_marker_absent_without_other_comments": 30,
+    "source_marker_absent_with_other_comments": 11,
+    "source_marker_absent_confirmed": 41,
+    "other_misses": 20,
+    "tp_needed_with_fixed_cost_and_vulnerability": 17,
+    "tp_needed_scenario": 0.9700918712411007,
+    "scenario_for_recovering_all_other_misses": 0.9710629690623803,
+    "source_audit_sha256": [
+      "bde9cb8020e0b207f4d22ba3c93d348a554dc99c13c077bdda02949c2ef32f55",
+      "84484741b5f058404da4f8f0ad4649b8b194441984b636eb5be56bcb4fc363b8"
+    ],
+    "release_sha256": "e2e3b8b402fdbaa8853f15ec3b9fa01a4a0170acf568c80c1145d842d5db50d2"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "rows": 133259,
+  "positive": 48765,
+  "location": 48636,
+  "positive_without_valid_line": 129,
+  "original_scanner_sha256": "e7012779349249fd090281403f000affa0f6b415b7086a653173e6b303801bde",
+  "extended_scanner_sha256": "466c407a6cd1d4cbc5cde666581cbf9e0da58a224931d46c4cec225f049377b6",
+  "predictions_sha256": "935fa5c7af15e9b60e39d0139e79825cfe883ae6a73be599e875def37dd635b1",
+  "points": {
+    "test_a": "cbe8079a1b5c80e33ce24f593f68b2a73a977a28bc56559383d6ce32d388e2e1",
+    "test_b": "6f553d4aba4f335ecdc41a33d8bfa2d81993fd1db5f3f1072a33f04a8b02ffe1",
+    "official": "fcb614e442ae3fd2cf5c29d42ee63bff99c84dc3976ce881262ee7e1ea3b36e9"
+  },
+  "columns": [
+    "rule_union",
+    "first_rule",
+    "line_count",
+    "first_line",
+    "last_line",
+    "distinct_lines",
+    "min_gap",
+    "valid_lines",
+    "source_lines"
+  ],
+  "seconds": 53.050583814037964,
+  "original_seconds": 53.11394750489853,
+  "code_sha256": "a186c21a2eef217bd6267ae71efb53f81190ab0c7ae7255bdd729d3cf119b25c"
+}

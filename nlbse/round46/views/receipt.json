@@ -1,0 +1,70 @@
+{
+  "rows": 84223,
+  "matrix": {
+    "test_a": "1ab131c284d8a7e0e0334cf45dbc8f2b34ffa528a69a62ecfd26ff57e399e4e7",
+    "test_b": "60b77f55b6ceccfedf9419153dd4aefc11b825afc2f52765e71f105815b50196",
+    "official": "e66efb0e64cdfdc3ef8c8c7e0b52075e72d6cd0cc30284e1c00c597e9a6ab29e"
+  },
+  "revision": "8123ea2e9354afb7ffcc6c8641d1b2f5ecf18301",
+  "tokenize_seconds": 52.68985905800946,
+  "upstream_sha256": "aab936121c6b8b8ff5d6a5a31f81c5f33bcc1694cb6fe8c6a83e32fc344f58c9",
+  "assets": {
+    "LICENSE": "832dd9e00a68dd83b3c3fb9f5588dad7dcf337a0db50f7d9483f310cd292e92e",
+    "config.json": "e6bf24d1cf58278dcb4ded7e885b71cb1c56299b34c8046b1b64395d17b1891f",
+    "tokenizer.json": "c0382117ea329cdf097041132f6d735924b697924d6f6fc3945713e96ce87539",
+    "tokenizer_config.json": "283ec39d07ebfd1904aa2dee3c7d73524ed96c489fdb3915629900d3ab3ac319",
+    "vocab.json": "ca10d7e9fb3ed18575dd1e277a2579c16d108e32f27439684afa0e10b1440910",
+    "merges.txt": "599bab54075088774b1733fde865d5bd747cbcc7a547c5bc12610e874e26f5e3"
+  },
+  "roster_sha256": "4023f305e64e927d060e9e3010c7ff15b0138e80ab6a8efaf8fb183623d4349b",
+  "unix_tokenizer": {
+    "vocab.json": "81c76e8f61bb1df102044d9b3d72070e3b2ac4d484b087ecb23b8633d6874f4b",
+    "special_tokens_map.json": "c611b1f7d416eb001ee4f293d903ea8c88e703463f1d403f1866a0352743fd00",
+    "config.json": "a7c07558348da020fb6055541fd593f21a6f0142a398da17bc452d50d3aef927",
+    "tokenizer_config.json": "44b6e7a4fd703a619b6f8c297a8799f71ac14fdcb7f2d1ad8d8211649abed5e4",
+    "merges.txt": "3b84414c9f8804a621da0fd4bfe77104ef536c350baaaf3c99003356b0cc85f4"
+  },
+  "windows": {
+    "qwen_96": {
+      "sha256": "add5104b4d02341ef5b90c710d273461f7a108eb2b8fba14f33b14e74787529b",
+      "tokens": 5528216,
+      "full_source": 23961,
+      "length_quantiles": [
+        69.0,
+        78.0,
+        96.0
+      ]
+    },
+    "qwen_384": {
+      "sha256": "5ab2f83b8c9c9606272d1cb62765f629ac9e7be38108c2ec3853bd2dae757137",
+      "tokens": 11971669,
+      "full_source": 76592,
+      "length_quantiles": [
+        121.0,
+        288.0,
+        382.0
+      ]
+    },
+    "unix_96": {
+      "sha256": "bc2086fe073e9734011d235543978d86115b691cae9993cbc8753d45b6f6cdff",
+      "tokens": 6879317,
+      "full_source": 23961,
+      "length_quantiles": [
+        89.0,
+        89.0,
+        96.0
+      ]
+    },
+    "unix_384": {
+      "sha256": "4aa5ae03eb982b431f0eb20eace0ab1d5213ebeb173beefc199bd6dd72378e74",
+      "tokens": 14658999,
+      "full_source": 76592,
+      "length_quantiles": [
+        148.0,
+        369.0,
+        384.0
+      ]
+    }
+  },
+  "code_sha256": "e1e5da15412b127b85e31fa960bc8844620d58f4f0ffb987f980333c2588e40d"
+}

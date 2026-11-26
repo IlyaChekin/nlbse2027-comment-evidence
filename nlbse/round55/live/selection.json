@@ -1,0 +1,322 @@
+{
+  "selected": {
+    "policy": {
+      "key": "unqueried/3.8/local/v/0.35",
+      "arm": "local",
+      "view": "v",
+      "panel": "unqueried",
+      "width": 3.8,
+      "mix": 0.35,
+      "rule": "tp",
+      "cut": 1.5458342258919866,
+      "a_tp": 3,
+      "b_tp": 3,
+      "a_over_tp": -5,
+      "b_over_tp": 0,
+      "a_removed_fp": 3,
+      "b_removed_fp": 0,
+      "a_over_fp": 1,
+      "b_over_fp": 0,
+      "cal_f1": 0.0003470297726980709,
+      "cal_over": 0.0003470297726980709,
+      "review_f1": 0.00034888701587609816,
+      "review_tp": 0,
+      "review_fp": -1,
+      "file_held_tp": 0,
+      "file_held_fp": -1,
+      "qualified": true
+    },
+    "reproduced": true,
+    "proof": {
+      "cal": {
+        "change": {
+          "before": {
+            "tp": 1328,
+            "fp": 51,
+            "fn": 60,
+            "tn": 2853
+          },
+          "after": {
+            "tp": 1328,
+            "fp": 50,
+            "fn": 60,
+            "tn": 2854
+          },
+          "delta_tp": 0,
+          "delta_fp": -1,
+          "f1_before": 0.959884351282978,
+          "f1_after": 0.9602313810556761
+        },
+        "new_files": {
+          "before": {
+            "tp": 74,
+            "fp": 1,
+            "fn": 4,
+            "tn": 134
+          },
+          "after": {
+            "tp": 74,
+            "fp": 1,
+            "fn": 4,
+            "tn": 134
+          },
+          "delta_tp": 0,
+          "delta_fp": 0,
+          "f1_before": 0.9673202614379085,
+          "f1_after": 0.9673202614379085
+        },
+        "unseen_file_rows": 213,
+        "reference_cost": {
+          "forward_seconds": 1.3343965092208236,
+          "wall_seconds": 1.726347372867167,
+          "analytic_gflops": 2180.5960699940006,
+          "projection_gflops": 0.02615296,
+          "new_rows": 170,
+          "routed": 283,
+          "scanner_calls": 1030,
+          "retained_bytes": 1012495472,
+          "eager_rows": 0,
+          "late_rows": 57
+        },
+        "candidate_cost": {
+          "forward_seconds": 0.9798402525484562,
+          "wall_seconds": 1.3587923080194741,
+          "analytic_gflops": 2196.9190466390005,
+          "projection_gflops": 0.02615296,
+          "new_rows": 849,
+          "routed": 283,
+          "scanner_calls": 1030,
+          "retained_bytes": 1012495472,
+          "eager_rows": 0,
+          "late_rows": 57
+        }
+      },
+      "held": {
+        "change": {
+          "before": {
+            "tp": 1313,
+            "fp": 48,
+            "fn": 70,
+            "tn": 2863
+          },
+          "after": {
+            "tp": 1313,
+            "fp": 47,
+            "fn": 70,
+            "tn": 2864
+          },
+          "delta_tp": 0,
+          "delta_fp": -1,
+          "f1_before": 0.956997084548105,
+          "f1_after": 0.957345971563981
+        },
+        "new_files": {
+          "before": {
+            "tp": 69,
+            "fp": 3,
+            "fn": 4,
+            "tn": 124
+          },
+          "after": {
+            "tp": 69,
+            "fp": 2,
+            "fn": 4,
+            "tn": 125
+          },
+          "delta_tp": 0,
+          "delta_fp": -1,
+          "f1_before": 0.9517241379310345,
+          "f1_after": 0.9583333333333334
+        },
+        "unseen_file_rows": 200,
+        "reference_cost": {
+          "forward_seconds": 1.0099584283307195,
+          "wall_seconds": 1.3834557859227061,
+          "analytic_gflops": 2240.039104709,
+          "projection_gflops": 0.021507072,
+          "new_rows": 189,
+          "routed": 271,
+          "scanner_calls": 1036,
+          "retained_bytes": 1029284152,
+          "eager_rows": 0,
+          "late_rows": 44
+        },
+        "candidate_cost": {
+          "forward_seconds": 1.0254342819098383,
+          "wall_seconds": 1.420772380195558,
+          "analytic_gflops": 2256.635121146,
+          "projection_gflops": 0.021507072,
+          "new_rows": 801,
+          "routed": 271,
+          "scanner_calls": 1036,
+          "retained_bytes": 1029284152,
+          "eager_rows": 0,
+          "late_rows": 44
+        }
+      }
+    },
+    "weights_sha256": "6a17a6d27128f7c11ae9ac1db2ba3fe2b4fbbd3842ce9ae9267c2a45592b84d9"
+  },
+  "candidates": [
+    {
+      "policy": {
+        "key": "unqueried/3.8/local/v/0.35",
+        "arm": "local",
+        "view": "v",
+        "panel": "unqueried",
+        "width": 3.8,
+        "mix": 0.35,
+        "rule": "tp",
+        "cut": 1.5458342258919866,
+        "a_tp": 3,
+        "b_tp": 3,
+        "a_over_tp": -5,
+        "b_over_tp": 0,
+        "a_removed_fp": 3,
+        "b_removed_fp": 0,
+        "a_over_fp": 1,
+        "b_over_fp": 0,
+        "cal_f1": 0.0003470297726980709,
+        "cal_over": 0.0003470297726980709,
+        "review_f1": 0.00034888701587609816,
+        "review_tp": 0,
+        "review_fp": -1,
+        "file_held_tp": 0,
+        "file_held_fp": -1,
+        "qualified": true
+      },
+      "reproduced": true,
+      "proof": {
+        "cal": {
+          "change": {
+            "before": {
+              "tp": 1328,
+              "fp": 51,
+              "fn": 60,
+              "tn": 2853
+            },
+            "after": {
+              "tp": 1328,
+              "fp": 50,
+              "fn": 60,
+              "tn": 2854
+            },
+            "delta_tp": 0,
+            "delta_fp": -1,
+            "f1_before": 0.959884351282978,
+            "f1_after": 0.9602313810556761
+          },
+          "new_files": {
+            "before": {
+              "tp": 74,
+              "fp": 1,
+              "fn": 4,
+              "tn": 134
+            },
+            "after": {
+              "tp": 74,
+              "fp": 1,
+              "fn": 4,
+              "tn": 134
+            },
+            "delta_tp": 0,
+            "delta_fp": 0,
+            "f1_before": 0.9673202614379085,
+            "f1_after": 0.9673202614379085
+          },
+          "unseen_file_rows": 213,
+          "reference_cost": {
+            "forward_seconds": 1.3343965092208236,
+            "wall_seconds": 1.726347372867167,
+            "analytic_gflops": 2180.5960699940006,
+            "projection_gflops": 0.02615296,
+            "new_rows": 170,
+            "routed": 283,
+            "scanner_calls": 1030,
+            "retained_bytes": 1012495472,
+            "eager_rows": 0,
+            "late_rows": 57
+          },
+          "candidate_cost": {
+            "forward_seconds": 0.9798402525484562,
+            "wall_seconds": 1.3587923080194741,
+            "analytic_gflops": 2196.9190466390005,
+            "projection_gflops": 0.02615296,
+            "new_rows": 849,
+            "routed": 283,
+            "scanner_calls": 1030,
+            "retained_bytes": 1012495472,
+            "eager_rows": 0,
+            "late_rows": 57
+          }
+        },
+        "held": {
+          "change": {
+            "before": {
+              "tp": 1313,
+              "fp": 48,
+              "fn": 70,
+              "tn": 2863
+            },
+            "after": {
+              "tp": 1313,
+              "fp": 47,
+              "fn": 70,
+              "tn": 2864
+            },
+            "delta_tp": 0,
+            "delta_fp": -1,
+            "f1_before": 0.956997084548105,
+            "f1_after": 0.957345971563981
+          },
+          "new_files": {
+            "before": {
+              "tp": 69,
+              "fp": 3,
+              "fn": 4,
+              "tn": 124
+            },
+            "after": {
+              "tp": 69,
+              "fp": 2,
+              "fn": 4,
+              "tn": 125
+            },
+            "delta_tp": 0,
+            "delta_fp": -1,
+            "f1_before": 0.9517241379310345,
+            "f1_after": 0.9583333333333334
+          },
+          "unseen_file_rows": 200,
+          "reference_cost": {
+            "forward_seconds": 1.0099584283307195,
+            "wall_seconds": 1.3834557859227061,
+            "analytic_gflops": 2240.039104709,
+            "projection_gflops": 0.021507072,
+            "new_rows": 189,
+            "routed": 271,
+            "scanner_calls": 1036,
+            "retained_bytes": 1029284152,
+            "eager_rows": 0,
+            "late_rows": 44
+          },
+          "candidate_cost": {
+            "forward_seconds": 1.0254342819098383,
+            "wall_seconds": 1.420772380195558,
+            "analytic_gflops": 2256.635121146,
+            "projection_gflops": 0.021507072,
+            "new_rows": 801,
+            "routed": 271,
+            "scanner_calls": 1036,
+            "retained_bytes": 1029284152,
+            "eager_rows": 0,
+            "late_rows": 44
+          }
+        }
+      },
+      "weights_sha256": "6a17a6d27128f7c11ae9ac1db2ba3fe2b4fbbd3842ce9ae9267c2a45592b84d9"
+    }
+  ],
+  "offline_sha256": "747a1701747b30b2f10ac65ee033b24cd51b7789997ce406cbbea8fbc9f4c631",
+  "code_sha256": "244b5dcac1ec5b5deda7107a4a4c7f1ceb09f10b4845f32077a52f6f0c94870e"
+}

@@ -1,0 +1,301 @@
+{
+  "selected": null,
+  "eligible": 0,
+  "count": 399,
+  "tables": {
+    "test_a": "341f6a341ac19daac4f976623c8a3265c2a92286102d3520f6fe08e523755171",
+    "test_b": "743cf3ea6061cf2310a9a2b529c50fd619df0086e2dc6a897d8e1b2ab5ac6966",
+    "official": "375e63ff0f0f672780177c31c655f53834c552edab7c57a828bd2797ec3430bb"
+  },
+  "table_sha256": "3135724a399f54f2843fa587a72af07d7141b1b4a44e11681116595fae42d38e",
+  "oracle": {
+    "test_a": {
+      "cal": {
+        "any_budget": {
+          "before": {
+            "tp": 3772,
+            "fp": 237,
+            "fn": 105,
+            "tn": 7562
+          },
+          "after": {
+            "tp": 3828,
+            "fp": 178,
+            "fn": 49,
+            "tn": 7621
+          },
+          "delta_tp": 56,
+          "delta_fp": -59,
+          "f1_before": 0.956632006086736,
+          "f1_after": 0.9712038563998477
+        },
+        "same_budget": {
+          "before": {
+            "tp": 3772,
+            "fp": 237,
+            "fn": 105,
+            "tn": 7562
+          },
+          "after": {
+            "tp": 3828,
+            "fp": 178,
+            "fn": 49,
+            "tn": 7621
+          },
+          "delta_tp": 56,
+          "delta_fp": -59,
+          "f1_before": 0.956632006086736,
+          "f1_after": 0.9712038563998477
+        },
+        "routing": {
+          "calls": 2802,
+          "characters": 1869942,
+          "swap": 83,
+          "old_calls": 2802,
+          "old_characters": 1872243,
+          "removed_large": 0,
+          "added_large": 0
+        }
+      },
+      "held": {
+        "any_budget": {
+          "before": {
+            "tp": 6542,
+            "fp": 352,
+            "fn": 2907,
+            "tn": 21297
+          },
+          "after": {
+            "tp": 7281,
+            "fp": 312,
+            "fn": 2168,
+            "tn": 21337
+          },
+          "delta_tp": 739,
+          "delta_fp": -40,
+          "f1_before": 0.800587407452732,
+          "f1_after": 0.8544771740406055
+        },
+        "same_budget": {
+          "before": {
+            "tp": 6542,
+            "fp": 352,
+            "fn": 2907,
+            "tn": 21297
+          },
+          "after": {
+            "tp": 7281,
+            "fp": 312,
+            "fn": 2168,
+            "tn": 21337
+          },
+          "delta_tp": 739,
+          "delta_fp": -40,
+          "f1_before": 0.800587407452732,
+          "f1_after": 0.8544771740406055
+        },
+        "routing": {
+          "calls": 15721,
+          "characters": 8838128,
+          "swap": 725,
+          "old_calls": 15721,
+          "old_characters": 8861333,
+          "removed_large": 7,
+          "added_large": 7
+        }
+      }
+    },
+    "test_b": {
+      "cal": {
+        "any_budget": {
+          "before": {
+            "tp": 4117,
+            "fp": 253,
+            "fn": 301,
+            "tn": 8708
+          },
+          "after": {
+            "tp": 4291,
+            "fp": 196,
+            "fn": 127,
+            "tn": 8765
+          },
+          "delta_tp": 174,
+          "delta_fp": -57,
+          "f1_before": 0.9369594902139281,
+          "f1_after": 0.9637282425603594
+        },
+        "same_budget": {
+          "before": {
+            "tp": 4117,
+            "fp": 253,
+            "fn": 301,
+            "tn": 8708
+          },
+          "after": {
+            "tp": 4291,
+            "fp": 196,
+            "fn": 127,
+            "tn": 8765
+          },
+          "delta_tp": 174,
+          "delta_fp": -57,
+          "f1_before": 0.9369594902139281,
+          "f1_after": 0.9637282425603594
+        },
+        "routing": {
+          "calls": 3211,
+          "characters": 2068311,
+          "swap": 179,
+          "old_calls": 3211,
+          "old_characters": 2075111,
+          "removed_large": 0,
+          "added_large": 0
+        }
+      },
+      "held": {
+        "any_budget": {
+          "before": {
+            "tp": 2424,
+            "fp": 178,
+            "fn": 430,
+            "tn": 4867
+          },
+          "after": {
+            "tp": 2579,
+            "fp": 151,
+            "fn": 275,
+            "tn": 4894
+          },
+          "delta_tp": 155,
+          "delta_fp": -27,
+          "f1_before": 0.8885630498533724,
+          "f1_after": 0.9237106017191977
+        },
+        "same_budget": {
+          "before": {
+            "tp": 2424,
+            "fp": 178,
+            "fn": 430,
+            "tn": 4867
+          },
+          "after": {
+            "tp": 2579,
+            "fp": 151,
+            "fn": 275,
+            "tn": 4894
+          },
+          "delta_tp": 155,
+          "delta_fp": -27,
+          "f1_before": 0.8885630498533724,
+          "f1_after": 0.9237106017191977
+        },
+        "routing": {
+          "calls": 2537,
+          "characters": 1623659,
+          "swap": 149,
+          "old_calls": 2537,
+          "old_characters": 1628838,
+          "removed_large": 1,
+          "added_large": 1
+        }
+      }
+    },
+    "official": {
+      "cal": {
+        "any_budget": {
+          "before": {
+            "tp": 1320,
+            "fp": 47,
+            "fn": 68,
+            "tn": 2857
+          },
+          "after": {
+            "tp": 1345,
+            "fp": 42,
+            "fn": 43,
+            "tn": 2862
+          },
+          "delta_tp": 25,
+          "delta_fp": -5,
+          "f1_before": 0.9582577132486388,
+          "f1_after": 0.9693693693693693
+        },
+        "same_budget": {
+          "before": {
+            "tp": 1320,
+            "fp": 47,
+            "fn": 68,
+            "tn": 2857
+          },
+          "after": {
+            "tp": 1345,
+            "fp": 42,
+            "fn": 43,
+            "tn": 2862
+          },
+          "delta_tp": 25,
+          "delta_fp": -5,
+          "f1_before": 0.9582577132486388,
+          "f1_after": 0.9693693693693693
+        },
+        "routing": {
+          "calls": 1030,
+          "characters": 668340,
+          "swap": 26,
+          "old_calls": 1030,
+          "old_characters": 668875,
+          "removed_large": 0,
+          "added_large": 0
+        }
+      },
+      "held": {
+        "any_budget": {
+          "before": {
+            "tp": 1309,
+            "fp": 51,
+            "fn": 74,
+            "tn": 2860
+          },
+          "after": {
+            "tp": 1340,
+            "fp": 47,
+            "fn": 43,
+            "tn": 2864
+          },
+          "delta_tp": 31,
+          "delta_fp": -4,
+          "f1_before": 0.954429456799125,
+          "f1_after": 0.9675090252707581
+        },
+        "same_budget": {
+          "before": {
+            "tp": 1309,
+            "fp": 51,
+            "fn": 74,
+            "tn": 2860
+          },
+          "after": {
+            "tp": 1340,
+            "fp": 47,
+            "fn": 43,
+            "tn": 2864
+          },
+          "delta_tp": 31,
+          "delta_fp": -4,
+          "f1_before": 0.954429456799125,
+          "f1_after": 0.9675090252707581
+        },
+        "routing": {
+          "calls": 1036,
+          "characters": 699468,
+          "swap": 31,
+          "old_calls": 1036,
+          "old_characters": 700979,
+          "removed_large": 0,
+          "added_large": 0
+        }
+      }
+    }
+  }
+}

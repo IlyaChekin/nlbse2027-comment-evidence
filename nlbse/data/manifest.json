@@ -1,0 +1,67 @@
+{
+  "files": [
+    {
+      "split": "train",
+      "role": "fit plus internal heldout",
+      "path": "nlbse/data/raw/train-00000-of-00001.parquet",
+      "rows": 214586,
+      "has_labels": true,
+      "columns": [
+        "Projectname",
+        "Filepath",
+        "Function",
+        "Label"
+      ],
+      "sha256": "668a958c873060904e611bd3f45088acdbdb48631e6f626afda8ea7831fa6319",
+      "url": "https://huggingface.co/datasets/NLBSE/nlbse27-code-comment-classification/resolve/feca19b90d1cc9fcf8ba5d6e693c4a94e249585c/data/train-00000-of-00001.parquet",
+      "bytes": 43333818
+    },
+    {
+      "split": "test",
+      "role": "public validation",
+      "path": "nlbse/data/raw/test-00000-of-00001.parquet",
+      "rows": 30655,
+      "has_labels": true,
+      "columns": [
+        "Projectname",
+        "Filepath",
+        "Function",
+        "Label"
+      ],
+      "sha256": "4d5e1fcffa59d08ee3f285209c9538c425cd2723dbeefb2530e1520364a1b2b0",
+      "url": "https://huggingface.co/datasets/NLBSE/nlbse27-code-comment-classification/resolve/feca19b90d1cc9fcf8ba5d6e693c4a94e249585c/data/test-00000-of-00001.parquet",
+      "bytes": 7151632
+    }
+  ],
+  "dataset_revision": "feca19b90d1cc9fcf8ba5d6e693c4a94e249585c",
+  "upstream_commit": "cd7dce03fa6cd0c009a5e85b949a9e62d707885d",
+  "model_revisions": {
+    "official": "b8ffd89b848e0b3fdf8a043816b5d1801c923a0b",
+    "pretrained_codebert": "3b0952feddeffad0063f274080e3c23d75e7eb39"
+  },
+  "model_assets_sha256": {
+    "nlbse/models/official/config.json": "0448d995f50e8a687a5c8c31a3b430ef02c277146eb8be23dd7e71261498b7b9",
+    "nlbse/models/codebert/config.json": "742474d6148a061fa975dadc09ce93725fa9673c55421ed316ef75532cc6b7aa",
+    "nlbse/models/codebert/merges.txt": "1ce1664773c50f3e0cc8842619a93edc4624525b728b188a9e0be33b7726adc5",
+    "nlbse/models/official/merges.txt": "1ce1664773c50f3e0cc8842619a93edc4624525b728b188a9e0be33b7726adc5",
+    "nlbse/models/codebert/special_tokens_map.json": "7638f5bbbe86ef6d604ef28ad3647dc690d6d117c81c0d63e885416be8da1150",
+    "nlbse/models/official/special_tokens_map.json": "f23c8e6099631c233c16d9bf8dab198f610826cdd1b358f270f6d55c1863e857",
+    "nlbse/models/codebert/tokenizer_config.json": "994f46754c5bf4014f1aa92d34b1374319c3a6b3f702105cd5b742beaecd18ce",
+    "nlbse/models/codebert/vocab.json": "06b4d46c8e752d410213d9548eb27a54db70fda0319b6271fb8d59dead5e1cab",
+    "nlbse/models/official/tokenizer.json": "1f33749d010b4d63908e5c174c341622cb45039dd73a139dcd95bd74cc7e304b",
+    "nlbse/models/official/tokenizer_config.json": "4ea8648e4067230942ac6b32dd61328675bc99ae0a9f4cc665c30a95f0f68712",
+    "nlbse/models/official/vocab.json": "ed19656ea1707df69134c4af35c8ceda2cc9860bf2c3495026153a133670ab5e",
+    "nlbse/models/codebert/pytorch_model.bin": "28b61fd8fa069f6bc966f4cb9572a4026ab2a784fca8fb224020d91b744e32d6",
+    "nlbse/models/official/model.safetensors": "9d21c7fd1dafd6ec2493a5092cc92bcec370cb5b6f19b04191592c537fec9fbd"
+  },
+  "gpu_host": "Banana",
+  "raw_root": "/home/user/shared-task-experiments-20261120",
+  "split_manifest": {
+    "path": "nlbse/data/split_manifest.csv",
+    "host": "Banana",
+    "sha256": "b794ea08d416c7232e914dcc3dc3356135bd91456792d2989cf65a32e290bf75",
+    "seed": 42,
+    "rows": 214586,
+    "local_copy": "nlbse/data/split_manifest.csv.gz"
+  }
+}

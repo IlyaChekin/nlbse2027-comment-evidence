@@ -1,0 +1,71 @@
+{
+  "parent_split_sha256": "2823097d9b25fadebffcc6a3daa50034854d7a59c5df5c90d4e6d6d48231cfc9",
+  "input_sha256": "668a958c873060904e611bd3f45088acdbdb48631e6f626afda8ea7831fa6319",
+  "partition_sha256": "bbfc2bd70f345d7932e26760fbe304a933b4bb01e25fecd9cbf10f5f0a2def1d",
+  "counts": {
+    "0": {
+      "fit_rows": 122988,
+      "held_rows": 30482,
+      "fit_files": 21156,
+      "held_files": 5383,
+      "copies_removed": 158,
+      "held_positives": [
+        9890,
+        438
+      ]
+    },
+    "1": {
+      "fit_rows": 123244,
+      "held_rows": 30245,
+      "fit_files": 21234,
+      "held_files": 5308,
+      "copies_removed": 139,
+      "held_positives": [
+        10090,
+        452
+      ]
+    },
+    "2": {
+      "fit_rows": 121292,
+      "held_rows": 32193,
+      "fit_files": 21168,
+      "held_files": 5366,
+      "copies_removed": 143,
+      "held_positives": [
+        10627,
+        435
+      ]
+    },
+    "3": {
+      "fit_rows": 122264,
+      "held_rows": 31208,
+      "fit_files": 21202,
+      "held_files": 5332,
+      "copies_removed": 156,
+      "held_positives": [
+        10155,
+        446
+      ]
+    },
+    "4": {
+      "fit_rows": 124003,
+      "held_rows": 29500,
+      "fit_files": 21380,
+      "held_files": 5172,
+      "copies_removed": 125,
+      "held_positives": [
+        10017,
+        412
+      ]
+    }
+  },
+  "families": [
+    "unix",
+    "compact"
+  ],
+  "epochs": {
+    "unix": 1,
+    "compact": 2
+  },
+  "seed": 42
+}

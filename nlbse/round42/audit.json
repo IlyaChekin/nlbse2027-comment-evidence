@@ -1,0 +1,51 @@
+{
+  "control": 0.9647211005823113,
+  "gap": 0.005278899417688665,
+  "paired": {
+    "test_a": {
+      "held_rows": 31098,
+      "options": 600,
+      "results_sha256": "2e4e8d321431a3ba7da6d60c277f4137168f03118565b2b54742f7554fd3e974",
+      "training_sha256": "ec5f17a3d3d2b5b02a80652447ea97aa427ea22d4de07843f921960f18d0ed92"
+    },
+    "test_b": {
+      "held_rows": 7899,
+      "options": 600,
+      "results_sha256": "6586b59db3eb6a92ac2c1439b5d274cf07ce8e5fd256f3346e3c52b3d55c23d4",
+      "training_sha256": "c2bd79ef04a69be528fbdeaf840c3f98e6e4662a1c1815e7bf1520dd778dae19"
+    },
+    "official": {
+      "held_rows": 4294,
+      "options": 575,
+      "results_sha256": "e05163eee767a6a3c000ecc5a834171f7da15a3437866b145889c65a7b764899",
+      "training_sha256": "ec1bb726202c554cb5909b6ac280bce44e5b80db22d02267e5136ab741e65e3e"
+    }
+  },
+  "extension": {
+    "test_a": {
+      "held_rows": 31098,
+      "options": 234,
+      "results_sha256": "08a5992d60838ca446dd33a7ebb14c69de6f8d2fd560b6f14646e141f63d952a",
+      "training_sha256": "10040f7bde5aa9581ff9b147fb2a58428aac409244ebdcf4f8a195ab0659cb2c"
+    },
+    "test_b": {
+      "held_rows": 7899,
+      "options": 234,
+      "results_sha256": "cbd75cca6518495fc6ad9549a888de56a1ddeef3b770070034c8ef6385bf023c",
+      "training_sha256": "92123fb2e8f8de165a0087f449090b94e7969fd8d1ce0326ace6c88afc8f663c"
+    },
+    "official": {
+      "held_rows": 4294,
+      "options": 221,
+      "results_sha256": "48208d545bbdfa35f4ee6c3862722d05c16af4f17866e233b6615fe11dde092a",
+      "training_sha256": "8ade5fbd2fb3ee3dee32550b798cf2d65d70530e380c887636e3089958be9a83"
+    }
+  },
+  "signed_comparison": [
+    "1eab81ff353287f3b0d4f8d87cbaff4981369139cb3173bd8ca96d517bafe1fc",
+    "ad12bf10f3c5fe537c69a0cd71eeb5e9d84d9346b870549d54ae63f0a188d404"
+  ],
+  "chosen_paired": null,
+  "chosen_wide": null,
+  "code_sha256": "a7158861cbdabe85e3fe091740cbb812c4100ad28c4f3f605abcf576d2588263"
+}

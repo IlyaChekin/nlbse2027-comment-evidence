@@ -1,0 +1,29 @@
+{
+  "scope": "projects",
+  "seed": 101,
+  "epochs": 1,
+  "fit_rows": 153628,
+  "teacher_sha256": "95f928cfdee573d2465961cf500cac3b5ccc50b4f5686e4106360e55538fe24d",
+  "base_sha256": "d230266ed3d64499dbd2dab60c93445b291d34096fc605d07b376e500868d881",
+  "training": {
+    "control": {
+      "checkpoint": "control.pt",
+      "sha256": "aa5118e42e4878f6da246132e4ee25a14e7ef551424fa61e2d13b39c26c9b625",
+      "steps": 1201,
+      "training_seconds": 15.349698580801487
+    },
+    "rank_boundary": {
+      "checkpoint": "rank_boundary.pt",
+      "sha256": "a141b9dbe3c7f00fe36a3366a9c51d91751ee9b91002c40c934632adafdb75c4",
+      "steps": 1201,
+      "training_seconds": 15.878567267209291
+    },
+    "rank_pairs": {
+      "checkpoint": "rank_pairs.pt",
+      "sha256": "08322dd9db20dca68e83090c69bceac0e4355265f0de4ac384f29c6eea7da795",
+      "steps": 1201,
+      "training_seconds": 16.04682346782647
+    }
+  },
+  "out_of_fold_sha256": "d2951402b86228c7217436170a777ada4deb491efad08546a59da8703e2447c3"
+}

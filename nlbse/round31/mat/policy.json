@@ -1,0 +1,24 @@
+{
+  "selection": "canonical",
+  "frozen": {
+    "body": 0.0,
+    "body_alpha": 0.0,
+    "documentation": 0.0,
+    "code_or_doc": 0.0,
+    "code_and_doc": 0.0
+  },
+  "fit_rows": 153628,
+  "features": [
+    "body",
+    "body_alpha",
+    "whole_comment",
+    "comment_line"
+  ],
+  "partition_sha256": "2823097d9b25fadebffcc6a3daa50034854d7a59c5df5c90d4e6d6d48231cfc9",
+  "data_manifest_sha256": "8cd6dc7cf3101d2e3a055ff7c7154653402fbb6491959f4f636504cd378b56ef",
+  "code_sha256": "79da4572a539dc1099b5a3a4323a93b6f13a0cd99c1a2ea8a36868a3231835c5",
+  "prediction_field": "Function",
+  "fit_ids_sha256": "ab3a665a16bb5a4add71933c96c4d34d7cdb269dd683a355cf3b3eb347a924ed",
+  "project_metadata_usage": "exclude same-project fit hits for validation; never serves as predictor",
+  "marker_sha256": "b9de02b5da565049134bc75f8a11d6664779e45e8fd5c77f6b006c9908ee354a"
+}

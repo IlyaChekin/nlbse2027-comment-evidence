@@ -1,0 +1,22 @@
+{
+  "scope": "official",
+  "seed": 42,
+  "epochs": 1,
+  "fit_rows": 193100,
+  "teacher_sha256": "5c9baca0d58a2c82fbdf1f4317708168173f6b07f108361215e79952a4ae71e7",
+  "base_sha256": "6bac2292b7abcdef62261ea4c4f62cd1527d72a34d091bc292ec6b1b98c2fda5",
+  "training": {
+    "control": {
+      "checkpoint": "control.pt",
+      "sha256": "de5bc91521cef440d3553182c349f46b66dc559d2ffc4f888ef141b438863f7c",
+      "steps": 1509,
+      "training_seconds": 19.580151214031503
+    },
+    "witness": {
+      "checkpoint": "witness.pt",
+      "sha256": "57dbcdbb2923d2ac8cc6c3ac0b5462dd4ee392a7b511ce571bc33e40bbdfd4d3",
+      "steps": 1509,
+      "training_seconds": 21.37983070896007
+    }
+  }
+}

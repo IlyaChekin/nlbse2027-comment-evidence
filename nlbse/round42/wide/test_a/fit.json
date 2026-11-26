@@ -1,0 +1,65 @@
+{
+  "matrix_sha256": "1ab131c284d8a7e0e0334cf45dbc8f2b34ffa528a69a62ecfd26ff57e399e4e7",
+  "fit_sources": [
+    "46aeb4c8d40afc0a32d1046667af4e7cf863c2c55e7bcf109641020f26f20992",
+    "538884c3a378619ac6080ad3f59091b4e287ee31c4a9ddd5e5bf8fcc1d05edfe"
+  ],
+  "pair_source_sha256": "728d6d3c3d2dba36f5ec39a4d5d573eaa0df847e411892f65fe08d3a02b52935",
+  "hashes": {
+    "roster.npz": "57bdd5f657cac83effe2a7f634775f985b94ec49098f80ea6d88c2c53f0071a3",
+    "weights.joblib": "be76990f5779ac5d6fc7295acdf13b52fbe306970b17628585ae716a41cc7898",
+    "scores.npz": "607ea5d9440e8667ddd6c6f472b8ecc64f7e5e7305fb9482ac4d029aed823a06"
+  },
+  "notes": {
+    "strict/0": {
+      "rows": 126,
+      "anchors": 107,
+      "negative_teacher_order": 0,
+      "mean_teacher_margin": 0.5492762923240662
+    },
+    "broad/0": {
+      "rows": 1409,
+      "anchors": 683,
+      "negative_teacher_order": 0,
+      "mean_teacher_margin": 0.9438795447349548
+    },
+    "broad_gold/0": {
+      "rows": 1409,
+      "anchors": 683,
+      "negative_teacher_order": 0,
+      "mean_teacher_margin": 0.9438795447349548
+    },
+    "broad_contrast/0": {
+      "rows": 411,
+      "anchors": 305,
+      "negative_teacher_order": 222,
+      "mean_teacher_margin": -0.046781618148088455
+    },
+    "strict/2": {
+      "rows": 48,
+      "anchors": 42,
+      "negative_teacher_order": 0,
+      "mean_teacher_margin": 0.9987156391143799
+    },
+    "broad/2": {
+      "rows": 287,
+      "anchors": 171,
+      "negative_teacher_order": 0,
+      "mean_teacher_margin": 1.649609088897705
+    },
+    "broad_gold/2": {
+      "rows": 287,
+      "anchors": 171,
+      "negative_teacher_order": 0,
+      "mean_teacher_margin": 1.649609088897705
+    },
+    "broad_contrast/2": {
+      "rows": 93,
+      "anchors": 69,
+      "negative_teacher_order": 44,
+      "mean_teacher_margin": 0.0649852603673935
+    }
+  },
+  "code_sha256": "f864133379425e9183ee0a9af5f22a19a309541b0e7d797f03d71d938cae65b4",
+  "seconds": 16.235683196922764
+}

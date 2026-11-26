@@ -1,0 +1,77 @@
+{
+  "scope": "full public",
+  "file_cluster_95_percent_delta": {
+    "vulnerability": [
+      0.00025831006688725456,
+      0.0021700497141765303
+    ],
+    "MAT": [
+      0.0,
+      0.0
+    ],
+    "mean": [
+      0.00012915503344362728,
+      0.0010850248570882651
+    ]
+  },
+  "remaining": {
+    "queried_rule_absent": {
+      "before": {
+        "tp": 310,
+        "fp": 328,
+        "fn": 256,
+        "tn": 3582
+      },
+      "after": {
+        "tp": 336,
+        "fp": 331,
+        "fn": 230,
+        "tn": 3579
+      },
+      "delta_tp": 26,
+      "delta_fp": 3,
+      "f1_before": 0.5149501661129569,
+      "f1_after": 0.5450121654501217
+    },
+    "not_queried_rule_absent": {
+      "before": {
+        "tp": 201,
+        "fp": 41,
+        "fn": 89,
+        "tn": 15723
+      },
+      "after": {
+        "tp": 201,
+        "fp": 41,
+        "fn": 89,
+        "tn": 15723
+      },
+      "delta_tp": 0,
+      "delta_fp": 0,
+      "f1_before": 0.7556390977443609,
+      "f1_after": 0.7556390977443609
+    },
+    "rule_fired": {
+      "before": {
+        "tp": 9144,
+        "fp": 343,
+        "fn": 52,
+        "tn": 586
+      },
+      "after": {
+        "tp": 9144,
+        "fp": 343,
+        "fn": 52,
+        "tn": 586
+      },
+      "delta_tp": 0,
+      "delta_fp": 0,
+      "f1_before": 0.9788577851522775,
+      "f1_after": 0.9788577851522775
+    }
+  },
+  "hash": "364b80017f5cc80290d7326aec6cedca096c0b1312b01f893cdb53c6ac429214",
+  "required_vulnerability_f1_if_all_else_fixed": 0.9722052595555035,
+  "score_with_zero_time_and_operations": 0.9644879540400296,
+  "goal_gap": 0.0075946764582003334
+}

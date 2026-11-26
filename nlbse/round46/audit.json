@@ -1,0 +1,96 @@
+{
+  "score": 0.9647211005823113,
+  "gap": 0.005278899417688665,
+  "tables": {
+    "comparison": {
+      "selection": {
+        "small": null,
+        "direct": null
+      },
+      "tested": 924,
+      "checked": {
+        "test_a": {
+          "options": 319,
+          "source_sha256": "d5fa0c7748f05757328b4ee6dca4768427e65c127c21d4850c735700834caf56",
+          "predictions_sha256": "b5063e1b75b8e2c08a80d7cce5a92969cd8492c72d8f2926cb5446be1252a5f2"
+        },
+        "test_b": {
+          "options": 348,
+          "source_sha256": "b48ab1af4c84c080e5a61e81516177875cd3c8e11573a649baab973365aa2280",
+          "predictions_sha256": "ef346662ba180d0b26c0d785f31698f451b3ec17a0639823f9738f51bce9f1f4"
+        },
+        "official": {
+          "options": 348,
+          "source_sha256": "4425a2873d034d0d6eae148acfd9b04c9d5c481933a5c6e841642f76881986ba",
+          "predictions_sha256": "b5e1868b9719123c147f424a315c9ddea1644452cbb1136098046bb51e655597"
+        }
+      },
+      "selection_sha256": "5cc8aeb8d2b1718ba88ddd2f62e4cd852fddf3968f134fa6c1c3f448f21b1211"
+    },
+    "paired_comparison": {
+      "selection": {
+        "small": null,
+        "direct": null
+      },
+      "tested": 594,
+      "checked": {
+        "test_a": {
+          "options": 209,
+          "source_sha256": "aaa6c5f558d2a078b71dd0837afc0fd31c011949d6dc67c0c2524cdd604d08e7",
+          "predictions_sha256": "20291d93a07577c1d934b90ebeb41bf281073c728ca8d07615a4c9f51a28ad46"
+        },
+        "test_b": {
+          "options": 228,
+          "source_sha256": "4e558aaa14ec04e3f65af767548ef5d40bba67a2ded3fb7c427f6b5018257fe6",
+          "predictions_sha256": "8a03289ccabe755872259bcaad85486bbb7dd1a711ea3fae6500ef1757b94408"
+        },
+        "official": {
+          "options": 228,
+          "source_sha256": "35ae1b1b6398c814b79a2d806833deae8826ec1a05310cd316dddfe3559c4e8c",
+          "predictions_sha256": "14c074cd1754e36a835bd71c6bfed4ee02977312abba6d9974f15bf8a9c05f92"
+        }
+      },
+      "selection_sha256": "9b21e1807fb455f70c12e1d8ea6d39bbd6c4bb541d9f52b8c4d955659600f1c2"
+    },
+    "length": {
+      "selection": {
+        "direct": null,
+        "small": null
+      },
+      "tested": 1008,
+      "checked": {
+        "test_a": {
+          "options": 348,
+          "source_sha256": "f2771d18f0d1c9a57fd9c6cc449a763f1098b2990b6562be590ce8dd23cb142f",
+          "predictions_sha256": "999b6cc7b0ed8ee17cf45a8c8bf6bed99e0cf2c5e2efbc514075ed26230aa76e"
+        },
+        "test_b": {
+          "options": 348,
+          "source_sha256": "3542a86332747516668b3562346d03677b5e9e82872ed304f91fc7c5a7ab5cd3",
+          "predictions_sha256": "71a0f5a452ed706423cc219bea75852fb549e9efb300497244df8b3df8009f07"
+        },
+        "official": {
+          "options": 348,
+          "source_sha256": "3cfcbc457ae5a444266a9726b912dbb044b6ce944379ccc3467c925f330fd656",
+          "predictions_sha256": "b2fd484bcd3465bb9b01d6fa80851b4a45f2f271c81cf034a2ec986435bc0407"
+        }
+      },
+      "selection_sha256": "1097b332ff1fcfbfdce29ae2440d668dedbddb91e2d0bd5485b2f5d9739b4035"
+    }
+  },
+  "coverage_sha256": "93c635cddcfc386206aab76af13ce584f21944cd46e0e46991efe2f2181176de",
+  "routed": {
+    "rows": 75,
+    "measured_piece": 0.0012831101672538165,
+    "quality_score": 0.00015114706564478553,
+    "net_estimate": -0.001131963101609031,
+    "decision_differences": 1,
+    "unpadded_gflops": 8798.443831296,
+    "unpadded_compute_score_cost": 0.0005865629220864,
+    "cached_quality_gain": 0.00025552579835922404,
+    "sha256": "e672eaa89ce5365a0bbc061998cc0416bf3b6ed6f5b05586adc89abb255bced2"
+  },
+  "code_sha256": "a2bde6025b27d1c4940cc5d5e37c465211c2dd71ec8c6880784c00528b01065a",
+  "micro_sha256": "f49e35c7d19d62baf96cbf960cb912e06076b073ea94152e272cd65922d81476",
+  "archive_sha256": "debd19f64365645bb2bf56ce5096bd96e9e1e6ae14685fb2427a8387e834f9d7"
+}

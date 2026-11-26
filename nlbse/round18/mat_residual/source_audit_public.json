@@ -1,0 +1,1012 @@
+{
+  "sources": {
+    "chromium": [
+      [
+        "https://raw.githubusercontent.com/chromium/chromium/57f97b28b5e571f2a1c9ad54398c8efa6e1043b2/",
+        ""
+      ],
+      [
+        "https://chromium.googlesource.com/chromium/src/+/57f97b28b5e571f2a1c9ad54398c8efa6e1043b2/",
+        "?format=TEXT"
+      ]
+    ],
+    "mozilla firefox": [
+      [
+        "https://hg-edge.mozilla.org/mozilla-central/raw-file/4d46db3ff28b/",
+        ""
+      ],
+      [
+        "https://hg.mozilla.org/mozilla-central/raw-file/4d46db3ff28b/",
+        ""
+      ]
+    ],
+    "linux": [
+      [
+        "https://raw.githubusercontent.com/torvalds/linux/e2ca6ba6ba0152361aa4fcbf6067db71b2c7a770/",
+        ""
+      ],
+      [
+        "https://kernel.googlesource.com/pub/scm/linux/kernel/git/torvalds/linux/+/e2ca6ba6ba0152361aa4fcbf6067db71b2c7a770/",
+        "?format=TEXT"
+      ]
+    ]
+  },
+  "totals": {
+    "chromium/missed_positive": {
+      "marker_in_adjacent_preceding_comment": 2
+    },
+    "chromium/same_file_control": {
+      "match_without_adjacent_marker": 1
+    },
+    "linux/missed_positive": {
+      "marker_in_adjacent_preceding_comment": 26,
+      "no_token_match": 2,
+      "match_without_adjacent_marker": 1,
+      "source_unavailable": 4,
+      "marker_inside_matched_span": 1
+    },
+    "linux/same_file_control": {
+      "match_without_adjacent_marker": 54,
+      "source_unavailable": 9,
+      "no_token_match": 6
+    },
+    "mozilla firefox/missed_positive": {
+      "marker_in_adjacent_preceding_comment": 1,
+      "no_token_match": 1
+    }
+  },
+  "source_receipts": [
+    {
+      "project": "chromium",
+      "file": "third_party/libxml/src/HTMLtree.c",
+      "status": "retrieved",
+      "url": "https://raw.githubusercontent.com/chromium/chromium/57f97b28b5e571f2a1c9ad54398c8efa6e1043b2/third_party/libxml/src/HTMLtree.c",
+      "sha256": "8e6c635a82df8772988f44eca80254f423da6ffbf06174e8f11e8454fcd2c9d4",
+      "bytes": 33329
+    },
+    {
+      "project": "chromium",
+      "file": "third_party/qcms/src/matrix.c",
+      "status": "retrieved",
+      "url": "https://raw.githubusercontent.com/chromium/chromium/57f97b28b5e571f2a1c9ad54398c8efa6e1043b2/third_party/qcms/src/matrix.c",
+      "sha256": "9f3db17be770edf89c02cbd6d9c7eaa0b186e73be66264bde0a2b5323e17fc3e",
+      "bytes": 3625
+    },
+    {
+      "project": "linux",
+      "file": "arch/arc/kernel/fpu.c",
+      "status": "retrieved",
+      "url": "https://raw.githubusercontent.com/torvalds/linux/e2ca6ba6ba0152361aa4fcbf6067db71b2c7a770/arch/arc/kernel/fpu.c",
+      "sha256": "42ee622c8aab0aca5c4d87775d90dc94f707ad129f8b9c998e92c9f227127fee",
+      "bytes": 2414
+    },
+    {
+      "project": "linux",
+      "file": "arch/arm/mach-omap2/clockdomain.c",
+      "status": "retrieved",
+      "url": "https://kernel.googlesource.com/pub/scm/linux/kernel/git/torvalds/linux/+/e2ca6ba6ba0152361aa4fcbf6067db71b2c7a770/arch/arm/mach-omap2/clockdomain.c?format=TEXT",
+      "sha256": "36ce46ea25f2d2be250385a36385e77c13a4ff65482ba8c1eb8a412b6c637cb7",
+      "bytes": 38164
+    },
+    {
+      "project": "linux",
+      "file": "arch/arm64/kernel/ptrace.c",
+      "status": "retrieved",
+      "url": "https://raw.githubusercontent.com/torvalds/linux/e2ca6ba6ba0152361aa4fcbf6067db71b2c7a770/arch/arm64/kernel/ptrace.c",
+      "sha256": "3ad9503ed430ba55b57b264de86ec8cce223fd4271311130ec81a49353da03d5",
+      "bytes": 54323
+    },
+    {
+      "project": "linux",
+      "file": "arch/parisc/kernel/smp.c",
+      "status": "retrieved",
+      "url": "https://kernel.googlesource.com/pub/scm/linux/kernel/git/torvalds/linux/+/e2ca6ba6ba0152361aa4fcbf6067db71b2c7a770/arch/parisc/kernel/smp.c?format=TEXT",
+      "sha256": "7bc917df721ef463ac8626e4c861b5ae06c521e70e796182d8cb822ada653ca2",
+      "bytes": 11521
+    },
+    {
+      "project": "linux",
+      "file": "arch/powerpc/kernel/btext.c",
+      "status": "retrieved",
+      "url": "https://raw.githubusercontent.com/torvalds/linux/e2ca6ba6ba0152361aa4fcbf6067db71b2c7a770/arch/powerpc/kernel/btext.c",
+      "sha256": "5e12556048dfa20c912a6871af8a43642fc87e663ceb58411fcc08373a8ebf59",
+      "bytes": 38252
+    },
+    {
+      "project": "linux",
+      "file": "arch/sparc/include/asm/spinlock_32.h",
+      "status": "retrieved",
+      "url": "https://kernel.googlesource.com/pub/scm/linux/kernel/git/torvalds/linux/+/e2ca6ba6ba0152361aa4fcbf6067db71b2c7a770/arch/sparc/include/asm/spinlock_32.h?format=TEXT",
+      "sha256": "c28bb0da0e597f4de144de8cc1a6675a588dfe54624a5175662447ba6935c22a",
+      "bytes": 4324
+    },
+    {
+      "project": "linux",
+      "file": "arch/x86/kernel/apic/io_apic.c",
+      "status": "retrieved",
+      "url": "https://kernel.googlesource.com/pub/scm/linux/kernel/git/torvalds/linux/+/e2ca6ba6ba0152361aa4fcbf6067db71b2c7a770/arch/x86/kernel/apic/io_apic.c?format=TEXT",
+      "sha256": "0345f4ba39cdd0ade460b35d5af4e2fa8004ea24fe7bb1be7159adb5ecf05713",
+      "bytes": 82597
+    },
+    {
+      "project": "linux",
+      "file": "arch/x86/kernel/uprobes.c",
+      "status": "retrieved",
+      "url": "https://kernel.googlesource.com/pub/scm/linux/kernel/git/torvalds/linux/+/e2ca6ba6ba0152361aa4fcbf6067db71b2c7a770/arch/x86/kernel/uprobes.c?format=TEXT",
+      "sha256": "c3019d1ae511f5ab83552c1c007848297ae5a3be64b3b22d8f5153286e18b866",
+      "bytes": 34649
+    },
+    {
+      "project": "linux",
+      "file": "drivers/ata/pata_legacy.c",
+      "status": "retrieved",
+      "url": "https://kernel.googlesource.com/pub/scm/linux/kernel/git/torvalds/linux/+/e2ca6ba6ba0152361aa4fcbf6067db71b2c7a770/drivers/ata/pata_legacy.c?format=TEXT",
+      "sha256": "75889b01fe98aae7f1543831cf5a761fef78876b8e6cc91b07a65b3ecaf897d8",
+      "bytes": 33856
+    },
+    {
+      "project": "linux",
+      "file": "drivers/atm/lanai.c",
+      "status": "retrieved",
+      "url": "https://kernel.googlesource.com/pub/scm/linux/kernel/git/torvalds/linux/+/e2ca6ba6ba0152361aa4fcbf6067db71b2c7a770/drivers/atm/lanai.c?format=TEXT",
+      "sha256": "a752c8a4461acdb09afe886157bc010cd0083e9dd63acd9366a69f5097359f04",
+      "bytes": 82207
+    },
+    {
+      "project": "linux",
+      "file": "drivers/clk/ti/clkt_iclk.c",
+      "status": "retrieved",
+      "url": "https://kernel.googlesource.com/pub/scm/linux/kernel/git/torvalds/linux/+/e2ca6ba6ba0152361aa4fcbf6067db71b2c7a770/drivers/clk/ti/clkt_iclk.c?format=TEXT",
+      "sha256": "e463e86a965e6f3d3aec43e58260ce91476a93d9d3dc98f6853df36eb8a69639",
+      "bytes": 2558
+    },
+    {
+      "project": "linux",
+      "file": "drivers/gpu/drm/amd/amdgpu/amdgpu_amdkfd_gfx_v10.c",
+      "status": "retrieved",
+      "url": "https://kernel.googlesource.com/pub/scm/linux/kernel/git/torvalds/linux/+/e2ca6ba6ba0152361aa4fcbf6067db71b2c7a770/drivers/gpu/drm/amd/amdgpu/amdgpu_amdkfd_gfx_v10.c?format=TEXT",
+      "sha256": "4e763c90b2b0629cdb10681c1fe9aa4ea51972c39876fcf509a41ee432f1dce4",
+      "bytes": 22278
+    },
+    {
+      "project": "linux",
+      "file": "drivers/gpu/drm/amd/display/dc/dce120/dce120_timing_generator.c",
+      "status": "unavailable",
+      "responses": {
+        "https://raw.githubusercontent.com/torvalds/linux/e2ca6ba6ba0152361aa4fcbf6067db71b2c7a770/drivers/gpu/drm/amd/display/dc/dce120/dce120_timing_generator.c": "URLError",
+        "https://kernel.googlesource.com/pub/scm/linux/kernel/git/torvalds/linux/+/e2ca6ba6ba0152361aa4fcbf6067db71b2c7a770/drivers/gpu/drm/amd/display/dc/dce120/dce120_timing_generator.c?format=TEXT": "SSLError"
+      }
+    },
+    {
+      "project": "linux",
+      "file": "drivers/gpu/drm/gma500/cdv_intel_dp.c",
+      "status": "retrieved",
+      "url": "https://kernel.googlesource.com/pub/scm/linux/kernel/git/torvalds/linux/+/e2ca6ba6ba0152361aa4fcbf6067db71b2c7a770/drivers/gpu/drm/gma500/cdv_intel_dp.c?format=TEXT",
+      "sha256": "154974a7fa9e3b0329c373cdf74fcb2f15d5ad4225cb0ea91756a451dff2214f",
+      "bytes": 56844
+    },
+    {
+      "project": "linux",
+      "file": "drivers/gpu/drm/i915/i915_gpu_error.c",
+      "status": "unavailable",
+      "responses": {
+        "https://raw.githubusercontent.com/torvalds/linux/e2ca6ba6ba0152361aa4fcbf6067db71b2c7a770/drivers/gpu/drm/i915/i915_gpu_error.c": 429,
+        "https://kernel.googlesource.com/pub/scm/linux/kernel/git/torvalds/linux/+/e2ca6ba6ba0152361aa4fcbf6067db71b2c7a770/drivers/gpu/drm/i915/i915_gpu_error.c?format=TEXT": "URLError"
+      }
+    },
+    {
+      "project": "linux",
+      "file": "drivers/gpu/drm/radeon/radeon_device.c",
+      "status": "retrieved",
+      "url": "https://kernel.googlesource.com/pub/scm/linux/kernel/git/torvalds/linux/+/e2ca6ba6ba0152361aa4fcbf6067db71b2c7a770/drivers/gpu/drm/radeon/radeon_device.c?format=TEXT",
+      "sha256": "c16c358a9db86e855e7d8ecc2e1cb65adbebd36fff74ac7896766c7c4e47d01b",
+      "bytes": 50181
+    },
+    {
+      "project": "linux",
+      "file": "drivers/infiniband/hw/qib/qib_user_pages.c",
+      "status": "retrieved",
+      "url": "https://kernel.googlesource.com/pub/scm/linux/kernel/git/torvalds/linux/+/e2ca6ba6ba0152361aa4fcbf6067db71b2c7a770/drivers/infiniband/hw/qib/qib_user_pages.c?format=TEXT",
+      "sha256": "783eb4233bf896301750ea308747f28eb1c01d4b1004790e20f822e48d455979",
+      "bytes": 4399
+    },
+    {
+      "project": "linux",
+      "file": "drivers/misc/vmw_vmci/vmci_context.c",
+      "status": "unavailable",
+      "responses": {
+        "https://raw.githubusercontent.com/torvalds/linux/e2ca6ba6ba0152361aa4fcbf6067db71b2c7a770/drivers/misc/vmw_vmci/vmci_context.c": 429,
+        "https://kernel.googlesource.com/pub/scm/linux/kernel/git/torvalds/linux/+/e2ca6ba6ba0152361aa4fcbf6067db71b2c7a770/drivers/misc/vmw_vmci/vmci_context.c?format=TEXT": "URLError"
+      }
+    },
+    {
+      "project": "linux",
+      "file": "drivers/net/ethernet/atheros/atlx/atl2.c",
+      "status": "retrieved",
+      "url": "https://kernel.googlesource.com/pub/scm/linux/kernel/git/torvalds/linux/+/e2ca6ba6ba0152361aa4fcbf6067db71b2c7a770/drivers/net/ethernet/atheros/atlx/atl2.c?format=TEXT",
+      "sha256": "4b70e7d1cbbf30e9c85ae1671b19c6c7d17fc824ecfe8e878b09393be3301219",
+      "bytes": 80290
+    },
+    {
+      "project": "linux",
+      "file": "drivers/net/phy/phylink.c",
+      "status": "retrieved",
+      "url": "https://raw.githubusercontent.com/torvalds/linux/e2ca6ba6ba0152361aa4fcbf6067db71b2c7a770/drivers/net/phy/phylink.c",
+      "sha256": "f7fc0ce4f710aada43a14bc37443b23b7f89b1e21bafbfd749769a87dfd75319",
+      "bytes": 100363
+    },
+    {
+      "project": "linux",
+      "file": "drivers/net/wireless/intel/ipw2x00/ipw2100.c",
+      "status": "unavailable",
+      "responses": {
+        "https://raw.githubusercontent.com/torvalds/linux/e2ca6ba6ba0152361aa4fcbf6067db71b2c7a770/drivers/net/wireless/intel/ipw2x00/ipw2100.c": 429,
+        "https://kernel.googlesource.com/pub/scm/linux/kernel/git/torvalds/linux/+/e2ca6ba6ba0152361aa4fcbf6067db71b2c7a770/drivers/net/wireless/intel/ipw2x00/ipw2100.c?format=TEXT": "SSLError"
+      }
+    },
+    {
+      "project": "linux",
+      "file": "drivers/net/wireless/intel/ipw2x00/ipw2200.c",
+      "status": "retrieved",
+      "url": "https://kernel.googlesource.com/pub/scm/linux/kernel/git/torvalds/linux/+/e2ca6ba6ba0152361aa4fcbf6067db71b2c7a770/drivers/net/wireless/intel/ipw2x00/ipw2200.c?format=TEXT",
+      "sha256": "5d1c397579ffc4a247f5672bbaae0559dbc15ec87b2e196c2d6e0da258e35610",
+      "bytes": 329655
+    },
+    {
+      "project": "linux",
+      "file": "drivers/parisc/ccio-dma.c",
+      "status": "retrieved",
+      "url": "https://kernel.googlesource.com/pub/scm/linux/kernel/git/torvalds/linux/+/e2ca6ba6ba0152361aa4fcbf6067db71b2c7a770/drivers/parisc/ccio-dma.c?format=TEXT",
+      "sha256": "a28aed76a66f7421d5645a85cabc7d94617d92ccf56be7c8fbbf85021ef03344",
+      "bytes": 47638
+    },
+    {
+      "project": "linux",
+      "file": "drivers/staging/media/atomisp/pci/base/circbuf/interface/ia_css_circbuf.h",
+      "status": "retrieved",
+      "url": "https://kernel.googlesource.com/pub/scm/linux/kernel/git/torvalds/linux/+/e2ca6ba6ba0152361aa4fcbf6067db71b2c7a770/drivers/staging/media/atomisp/pci/base/circbuf/interface/ia_css_circbuf.h?format=TEXT",
+      "sha256": "e83c3bf20e754f3f9290a69163035adb48ea3ee59f978af5c37f08cfd8ebbe17",
+      "bytes": 9102
+    },
+    {
+      "project": "linux",
+      "file": "drivers/staging/rtl8712/rtl871x_mlme.c",
+      "status": "retrieved",
+      "url": "https://kernel.googlesource.com/pub/scm/linux/kernel/git/torvalds/linux/+/e2ca6ba6ba0152361aa4fcbf6067db71b2c7a770/drivers/staging/rtl8712/rtl871x_mlme.c?format=TEXT",
+      "sha256": "cc225bbcc44b9ac0d23cf157bc7b8ee3bada0a07ad4069f00f94f1961cd53c34",
+      "bytes": 52041
+    },
+    {
+      "project": "linux",
+      "file": "drivers/tty/n_gsm.c",
+      "status": "retrieved",
+      "url": "https://kernel.googlesource.com/pub/scm/linux/kernel/git/torvalds/linux/+/e2ca6ba6ba0152361aa4fcbf6067db71b2c7a770/drivers/tty/n_gsm.c?format=TEXT",
+      "sha256": "4d1dce27015c07bc64fc4b04c07191b9fd1ee08948058262c98c7a996c5b0755",
+      "bytes": 94829
+    },
+    {
+      "project": "linux",
+      "file": "drivers/usb/core/hub.c",
+      "status": "retrieved",
+      "url": "https://raw.githubusercontent.com/torvalds/linux/e2ca6ba6ba0152361aa4fcbf6067db71b2c7a770/drivers/usb/core/hub.c",
+      "sha256": "66e569836f5b9f4a3bae62387e98d0f875fa3e4425cfa721836c92d861f04df9",
+      "bytes": 183053
+    },
+    {
+      "project": "linux",
+      "file": "drivers/vhost/vhost.c",
+      "status": "retrieved",
+      "url": "https://kernel.googlesource.com/pub/scm/linux/kernel/git/torvalds/linux/+/e2ca6ba6ba0152361aa4fcbf6067db71b2c7a770/drivers/vhost/vhost.c?format=TEXT",
+      "sha256": "9e756a666774f1e3d1dbd10ed9219a947aba482a92054abc1f1e6dadc998a846",
+      "bytes": 64369
+    },
+    {
+      "project": "linux",
+      "file": "fs/buffer.c",
+      "status": "retrieved",
+      "url": "https://raw.githubusercontent.com/torvalds/linux/e2ca6ba6ba0152361aa4fcbf6067db71b2c7a770/fs/buffer.c",
+      "sha256": "8eab2ce8eb5b9e992131b4d438efc2727b1e67eca4b451fae25568df8107f031",
+      "bytes": 80747
+    },
+    {
+      "project": "linux",
+      "file": "fs/reiserfs/file.c",
+      "status": "retrieved",
+      "url": "https://kernel.googlesource.com/pub/scm/linux/kernel/git/torvalds/linux/+/e2ca6ba6ba0152361aa4fcbf6067db71b2c7a770/fs/reiserfs/file.c?format=TEXT",
+      "sha256": "34ddfe0a3af2c68b2780e254d22a86f1a4342399474c586821cc229b34eb91a4",
+      "bytes": 7620
+    },
+    {
+      "project": "linux",
+      "file": "lib/test_firmware.c",
+      "status": "retrieved",
+      "url": "https://kernel.googlesource.com/pub/scm/linux/kernel/git/torvalds/linux/+/e2ca6ba6ba0152361aa4fcbf6067db71b2c7a770/lib/test_firmware.c?format=TEXT",
+      "sha256": "7ae9ea5d22a6cae1668803dc7f8ac87883128611b25db04bc09a837a1cc10605",
+      "bytes": 37391
+    },
+    {
+      "project": "linux",
+      "file": "mm/swap_cgroup.c",
+      "status": "retrieved",
+      "url": "https://kernel.googlesource.com/pub/scm/linux/kernel/git/torvalds/linux/+/e2ca6ba6ba0152361aa4fcbf6067db71b2c7a770/mm/swap_cgroup.c?format=TEXT",
+      "sha256": "bbf0aedc6f0a6aede859496b7280beca54cd7b5cfb0d6725aa470ee5a1d0071e",
+      "bytes": 5296
+    },
+    {
+      "project": "linux",
+      "file": "tools/tracing/rtla/src/utils.c",
+      "status": "retrieved",
+      "url": "https://raw.githubusercontent.com/torvalds/linux/e2ca6ba6ba0152361aa4fcbf6067db71b2c7a770/tools/tracing/rtla/src/utils.c",
+      "sha256": "dad49acf018a41e32b81caacb58f1028316ba67f654c9ace61f34069ae48812e",
+      "bytes": 10541
+    },
+    {
+      "project": "mozilla firefox",
+      "file": "gfx/skia/skia/src/codec/SkCodecPriv.h",
+      "status": "retrieved",
+      "url": "https://hg-edge.mozilla.org/mozilla-central/raw-file/4d46db3ff28b/gfx/skia/skia/src/codec/SkCodecPriv.h",
+      "sha256": "e3f45e7df02c533b0942f2ab47632337de2e8ab8fe6c74f255d91fd6888f013a",
+      "bytes": 7609
+    },
+    {
+      "project": "mozilla firefox",
+      "file": "gfx/skia/skia/src/core/SkTTopoSort.h",
+      "status": "retrieved",
+      "url": "https://hg-edge.mozilla.org/mozilla-central/raw-file/4d46db3ff28b/gfx/skia/skia/src/core/SkTTopoSort.h",
+      "sha256": "7ab75e9206f0295e97fcbc38fd8078979bc8ed97c59369965a111f8db020ee55",
+      "bytes": 3784
+    }
+  ],
+  "observations": [
+    {
+      "project": "chromium",
+      "row": 2942,
+      "mat_positive": true,
+      "observation": "marker_in_adjacent_preceding_comment"
+    },
+    {
+      "project": "chromium",
+      "row": 2943,
+      "mat_positive": false,
+      "observation": "match_without_adjacent_marker"
+    },
+    {
+      "project": "chromium",
+      "row": 5901,
+      "mat_positive": true,
+      "observation": "marker_in_adjacent_preceding_comment"
+    },
+    {
+      "project": "linux",
+      "row": 13864,
+      "mat_positive": true,
+      "observation": "marker_in_adjacent_preceding_comment"
+    },
+    {
+      "project": "linux",
+      "row": 13990,
+      "mat_positive": true,
+      "observation": "marker_in_adjacent_preceding_comment"
+    },
+    {
+      "project": "linux",
+      "row": 16670,
+      "mat_positive": false,
+      "observation": "match_without_adjacent_marker"
+    },
+    {
+      "project": "linux",
+      "row": 16671,
+      "mat_positive": false,
+      "observation": "match_without_adjacent_marker"
+    },
+    {
+      "project": "linux",
+      "row": 16672,
+      "mat_positive": true,
+      "observation": "marker_in_adjacent_preceding_comment"
+    },
+    {
+      "project": "linux",
+      "row": 16673,
+      "mat_positive": false,
+      "observation": "match_without_adjacent_marker"
+    },
+    {
+      "project": "linux",
+      "row": 22024,
+      "mat_positive": true,
+      "observation": "marker_in_adjacent_preceding_comment"
+    },
+    {
+      "project": "linux",
+      "row": 22116,
+      "mat_positive": true,
+      "observation": "marker_in_adjacent_preceding_comment"
+    },
+    {
+      "project": "linux",
+      "row": 22117,
+      "mat_positive": false,
+      "observation": "match_without_adjacent_marker"
+    },
+    {
+      "project": "linux",
+      "row": 3765,
+      "mat_positive": false,
+      "observation": "match_without_adjacent_marker"
+    },
+    {
+      "project": "linux",
+      "row": 3766,
+      "mat_positive": true,
+      "observation": "no_token_match"
+    },
+    {
+      "project": "linux",
+      "row": 4061,
+      "mat_positive": false,
+      "observation": "match_without_adjacent_marker"
+    },
+    {
+      "project": "linux",
+      "row": 4062,
+      "mat_positive": false,
+      "observation": "match_without_adjacent_marker"
+    },
+    {
+      "project": "linux",
+      "row": 4063,
+      "mat_positive": false,
+      "observation": "match_without_adjacent_marker"
+    },
+    {
+      "project": "linux",
+      "row": 4064,
+      "mat_positive": false,
+      "observation": "match_without_adjacent_marker"
+    },
+    {
+      "project": "linux",
+      "row": 4065,
+      "mat_positive": true,
+      "observation": "match_without_adjacent_marker"
+    },
+    {
+      "project": "linux",
+      "row": 4066,
+      "mat_positive": false,
+      "observation": "match_without_adjacent_marker"
+    },
+    {
+      "project": "linux",
+      "row": 4067,
+      "mat_positive": false,
+      "observation": "match_without_adjacent_marker"
+    },
+    {
+      "project": "linux",
+      "row": 4068,
+      "mat_positive": false,
+      "observation": "match_without_adjacent_marker"
+    },
+    {
+      "project": "linux",
+      "row": 4069,
+      "mat_positive": false,
+      "observation": "match_without_adjacent_marker"
+    },
+    {
+      "project": "linux",
+      "row": 4187,
+      "mat_positive": true,
+      "observation": "marker_in_adjacent_preceding_comment"
+    },
+    {
+      "project": "linux",
+      "row": 4784,
+      "mat_positive": true,
+      "observation": "marker_in_adjacent_preceding_comment"
+    },
+    {
+      "project": "linux",
+      "row": 4785,
+      "mat_positive": false,
+      "observation": "match_without_adjacent_marker"
+    },
+    {
+      "project": "linux",
+      "row": 4833,
+      "mat_positive": false,
+      "observation": "match_without_adjacent_marker"
+    },
+    {
+      "project": "linux",
+      "row": 4834,
+      "mat_positive": true,
+      "observation": "marker_in_adjacent_preceding_comment"
+    },
+    {
+      "project": "linux",
+      "row": 4835,
+      "mat_positive": false,
+      "observation": "match_without_adjacent_marker"
+    },
+    {
+      "project": "linux",
+      "row": 5424,
+      "mat_positive": true,
+      "observation": "marker_in_adjacent_preceding_comment"
+    },
+    {
+      "project": "linux",
+      "row": 6614,
+      "mat_positive": true,
+      "observation": "marker_in_adjacent_preceding_comment"
+    },
+    {
+      "project": "linux",
+      "row": 6909,
+      "mat_positive": true,
+      "observation": "source_unavailable"
+    },
+    {
+      "project": "linux",
+      "row": 7343,
+      "mat_positive": true,
+      "observation": "no_token_match"
+    },
+    {
+      "project": "linux",
+      "row": 7344,
+      "mat_positive": false,
+      "observation": "match_without_adjacent_marker"
+    },
+    {
+      "project": "linux",
+      "row": 7345,
+      "mat_positive": false,
+      "observation": "match_without_adjacent_marker"
+    },
+    {
+      "project": "linux",
+      "row": 7346,
+      "mat_positive": false,
+      "observation": "match_without_adjacent_marker"
+    },
+    {
+      "project": "linux",
+      "row": 7697,
+      "mat_positive": false,
+      "observation": "source_unavailable"
+    },
+    {
+      "project": "linux",
+      "row": 7698,
+      "mat_positive": false,
+      "observation": "source_unavailable"
+    },
+    {
+      "project": "linux",
+      "row": 7699,
+      "mat_positive": true,
+      "observation": "source_unavailable"
+    },
+    {
+      "project": "linux",
+      "row": 8353,
+      "mat_positive": true,
+      "observation": "marker_in_adjacent_preceding_comment"
+    },
+    {
+      "project": "linux",
+      "row": 8354,
+      "mat_positive": true,
+      "observation": "marker_in_adjacent_preceding_comment"
+    },
+    {
+      "project": "linux",
+      "row": 8355,
+      "mat_positive": false,
+      "observation": "match_without_adjacent_marker"
+    },
+    {
+      "project": "linux",
+      "row": 9843,
+      "mat_positive": true,
+      "observation": "marker_inside_matched_span"
+    },
+    {
+      "project": "linux",
+      "row": 12077,
+      "mat_positive": true,
+      "observation": "source_unavailable"
+    },
+    {
+      "project": "linux",
+      "row": 12078,
+      "mat_positive": false,
+      "observation": "source_unavailable"
+    },
+    {
+      "project": "linux",
+      "row": 12717,
+      "mat_positive": false,
+      "observation": "match_without_adjacent_marker"
+    },
+    {
+      "project": "linux",
+      "row": 27090,
+      "mat_positive": true,
+      "observation": "marker_in_adjacent_preceding_comment"
+    },
+    {
+      "project": "linux",
+      "row": 14991,
+      "mat_positive": false,
+      "observation": "match_without_adjacent_marker"
+    },
+    {
+      "project": "linux",
+      "row": 14992,
+      "mat_positive": false,
+      "observation": "match_without_adjacent_marker"
+    },
+    {
+      "project": "linux",
+      "row": 14993,
+      "mat_positive": true,
+      "observation": "marker_in_adjacent_preceding_comment"
+    },
+    {
+      "project": "linux",
+      "row": 14995,
+      "mat_positive": false,
+      "observation": "match_without_adjacent_marker"
+    },
+    {
+      "project": "linux",
+      "row": 14996,
+      "mat_positive": false,
+      "observation": "match_without_adjacent_marker"
+    },
+    {
+      "project": "linux",
+      "row": 15495,
+      "mat_positive": false,
+      "observation": "source_unavailable"
+    },
+    {
+      "project": "linux",
+      "row": 15496,
+      "mat_positive": false,
+      "observation": "source_unavailable"
+    },
+    {
+      "project": "linux",
+      "row": 15497,
+      "mat_positive": false,
+      "observation": "source_unavailable"
+    },
+    {
+      "project": "linux",
+      "row": 15498,
+      "mat_positive": false,
+      "observation": "source_unavailable"
+    },
+    {
+      "project": "linux",
+      "row": 15499,
+      "mat_positive": false,
+      "observation": "source_unavailable"
+    },
+    {
+      "project": "linux",
+      "row": 15500,
+      "mat_positive": true,
+      "observation": "source_unavailable"
+    },
+    {
+      "project": "linux",
+      "row": 15502,
+      "mat_positive": false,
+      "observation": "source_unavailable"
+    },
+    {
+      "project": "linux",
+      "row": 15503,
+      "mat_positive": false,
+      "observation": "match_without_adjacent_marker"
+    },
+    {
+      "project": "linux",
+      "row": 15504,
+      "mat_positive": false,
+      "observation": "match_without_adjacent_marker"
+    },
+    {
+      "project": "linux",
+      "row": 15505,
+      "mat_positive": false,
+      "observation": "match_without_adjacent_marker"
+    },
+    {
+      "project": "linux",
+      "row": 15506,
+      "mat_positive": false,
+      "observation": "match_without_adjacent_marker"
+    },
+    {
+      "project": "linux",
+      "row": 15507,
+      "mat_positive": false,
+      "observation": "match_without_adjacent_marker"
+    },
+    {
+      "project": "linux",
+      "row": 15508,
+      "mat_positive": true,
+      "observation": "marker_in_adjacent_preceding_comment"
+    },
+    {
+      "project": "linux",
+      "row": 15509,
+      "mat_positive": false,
+      "observation": "match_without_adjacent_marker"
+    },
+    {
+      "project": "linux",
+      "row": 15510,
+      "mat_positive": false,
+      "observation": "match_without_adjacent_marker"
+    },
+    {
+      "project": "linux",
+      "row": 15512,
+      "mat_positive": false,
+      "observation": "match_without_adjacent_marker"
+    },
+    {
+      "project": "linux",
+      "row": 15513,
+      "mat_positive": false,
+      "observation": "match_without_adjacent_marker"
+    },
+    {
+      "project": "linux",
+      "row": 15514,
+      "mat_positive": false,
+      "observation": "no_token_match"
+    },
+    {
+      "project": "linux",
+      "row": 16361,
+      "mat_positive": true,
+      "observation": "marker_in_adjacent_preceding_comment"
+    },
+    {
+      "project": "linux",
+      "row": 18731,
+      "mat_positive": true,
+      "observation": "marker_in_adjacent_preceding_comment"
+    },
+    {
+      "project": "linux",
+      "row": 19004,
+      "mat_positive": true,
+      "observation": "marker_in_adjacent_preceding_comment"
+    },
+    {
+      "project": "linux",
+      "row": 19005,
+      "mat_positive": false,
+      "observation": "match_without_adjacent_marker"
+    },
+    {
+      "project": "linux",
+      "row": 19006,
+      "mat_positive": false,
+      "observation": "match_without_adjacent_marker"
+    },
+    {
+      "project": "linux",
+      "row": 19539,
+      "mat_positive": true,
+      "observation": "marker_in_adjacent_preceding_comment"
+    },
+    {
+      "project": "linux",
+      "row": 19822,
+      "mat_positive": false,
+      "observation": "match_without_adjacent_marker"
+    },
+    {
+      "project": "linux",
+      "row": 19823,
+      "mat_positive": false,
+      "observation": "match_without_adjacent_marker"
+    },
+    {
+      "project": "linux",
+      "row": 19824,
+      "mat_positive": false,
+      "observation": "match_without_adjacent_marker"
+    },
+    {
+      "project": "linux",
+      "row": 19826,
+      "mat_positive": false,
+      "observation": "match_without_adjacent_marker"
+    },
+    {
+      "project": "linux",
+      "row": 19827,
+      "mat_positive": true,
+      "observation": "marker_in_adjacent_preceding_comment"
+    },
+    {
+      "project": "linux",
+      "row": 19828,
+      "mat_positive": false,
+      "observation": "match_without_adjacent_marker"
+    },
+    {
+      "project": "linux",
+      "row": 19829,
+      "mat_positive": false,
+      "observation": "match_without_adjacent_marker"
+    },
+    {
+      "project": "linux",
+      "row": 24650,
+      "mat_positive": false,
+      "observation": "match_without_adjacent_marker"
+    },
+    {
+      "project": "linux",
+      "row": 24651,
+      "mat_positive": false,
+      "observation": "no_token_match"
+    },
+    {
+      "project": "linux",
+      "row": 20296,
+      "mat_positive": false,
+      "observation": "match_without_adjacent_marker"
+    },
+    {
+      "project": "linux",
+      "row": 20297,
+      "mat_positive": true,
+      "observation": "marker_in_adjacent_preceding_comment"
+    },
+    {
+      "project": "linux",
+      "row": 20298,
+      "mat_positive": false,
+      "observation": "match_without_adjacent_marker"
+    },
+    {
+      "project": "linux",
+      "row": 26428,
+      "mat_positive": false,
+      "observation": "no_token_match"
+    },
+    {
+      "project": "linux",
+      "row": 26429,
+      "mat_positive": false,
+      "observation": "no_token_match"
+    },
+    {
+      "project": "linux",
+      "row": 26430,
+      "mat_positive": false,
+      "observation": "no_token_match"
+    },
+    {
+      "project": "linux",
+      "row": 26754,
+      "mat_positive": false,
+      "observation": "match_without_adjacent_marker"
+    },
+    {
+      "project": "linux",
+      "row": 26755,
+      "mat_positive": false,
+      "observation": "no_token_match"
+    },
+    {
+      "project": "linux",
+      "row": 20881,
+      "mat_positive": false,
+      "observation": "match_without_adjacent_marker"
+    },
+    {
+      "project": "linux",
+      "row": 20882,
+      "mat_positive": true,
+      "observation": "marker_in_adjacent_preceding_comment"
+    },
+    {
+      "project": "linux",
+      "row": 20883,
+      "mat_positive": false,
+      "observation": "match_without_adjacent_marker"
+    },
+    {
+      "project": "linux",
+      "row": 21702,
+      "mat_positive": true,
+      "observation": "marker_in_adjacent_preceding_comment"
+    },
+    {
+      "project": "linux",
+      "row": 23672,
+      "mat_positive": true,
+      "observation": "marker_in_adjacent_preceding_comment"
+    },
+    {
+      "project": "linux",
+      "row": 23673,
+      "mat_positive": false,
+      "observation": "match_without_adjacent_marker"
+    },
+    {
+      "project": "linux",
+      "row": 23674,
+      "mat_positive": false,
+      "observation": "match_without_adjacent_marker"
+    },
+    {
+      "project": "linux",
+      "row": 23675,
+      "mat_positive": false,
+      "observation": "match_without_adjacent_marker"
+    },
+    {
+      "project": "linux",
+      "row": 23676,
+      "mat_positive": false,
+      "observation": "match_without_adjacent_marker"
+    },
+    {
+      "project": "linux",
+      "row": 23942,
+      "mat_positive": true,
+      "observation": "marker_in_adjacent_preceding_comment"
+    },
+    {
+      "project": "linux",
+      "row": 23943,
+      "mat_positive": false,
+      "observation": "match_without_adjacent_marker"
+    },
+    {
+      "project": "linux",
+      "row": 3352,
+      "mat_positive": false,
+      "observation": "match_without_adjacent_marker"
+    },
+    {
+      "project": "linux",
+      "row": 3353,
+      "mat_positive": true,
+      "observation": "marker_in_adjacent_preceding_comment"
+    },
+    {
+      "project": "mozilla firefox",
+      "row": 11164,
+      "mat_positive": true,
+      "observation": "marker_in_adjacent_preceding_comment"
+    },
+    {
+      "project": "mozilla firefox",
+      "row": 11173,
+      "mat_positive": true,
+      "observation": "no_token_match"
+    }
+  ],
+  "code_sha256": "1f9230c8fe92f97f8e098bb36d786553b9cc781a6c60d143a1a93deb02641ccc",
+  "partition_sha256": "2823097d9b25fadebffcc6a3daa50034854d7a59c5df5c90d4e6d6d48231cfc9"
+}

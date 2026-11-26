@@ -1,0 +1,9 @@
+{
+  "eligible_offline": 2,
+  "selection_sha256": "810885af8ce80afd437b654fbb84c1acf97954c8dd42a0c8a512512fb303aa67",
+  "results": {
+    "selection.json": "ebd0817b64c920d8f4ea3496c8ac5db19b9302ab9bd03c26c26bd7cc4fde4d12"
+  },
+  "runner_sha256": "344264d98dba8811a251b420828989919e8513af63f905afae9946836fe703d6",
+  "pipeline_sha256": "496faab5ee6118c2b6ff684fcea25e63a6fe2aff45468bc5a22d7e86aa5dca74"
+}

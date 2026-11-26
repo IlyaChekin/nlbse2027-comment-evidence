@@ -1,0 +1,12 @@
+{
+  "mode": "matched",
+  "rows": 153628,
+  "steps": 1201,
+  "seed": 42,
+  "epochs": 1,
+  "short_positive": 1625,
+  "teacher_confident_short_miss": 24,
+  "teacher_sha256": "95f928cfdee573d2465961cf500cac3b5ccc50b4f5686e4106360e55538fe24d",
+  "model_sha256": "c434ca76565fcc7523cf2262deeeee45a2f6fa49dc2fac4cf55570c8d5c91c7e",
+  "seconds": 15.729037581011653
+}

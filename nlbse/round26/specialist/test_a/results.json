@@ -1,0 +1,1469 @@
+{
+  "options": {
+    "plain_0.4_0.4": {
+      "calibration": {
+        "before": {
+          "tp": 3791,
+          "fp": 354,
+          "fn": 86,
+          "tn": 7445
+        },
+        "after": {
+          "tp": 3791,
+          "fp": 354,
+          "fn": 86,
+          "tn": 7445
+        },
+        "delta_tp": 0,
+        "delta_fp": 0,
+        "f1_before": 0.9451508352031912,
+        "f1_after": 0.9451508352031912
+      },
+      "frozen": {
+        "before": {
+          "tp": 7106,
+          "fp": 3734,
+          "fn": 2343,
+          "tn": 17915
+        },
+        "after": {
+          "tp": 7103,
+          "fp": 3733,
+          "fn": 2346,
+          "tn": 17916
+        },
+        "delta_tp": -3,
+        "delta_fp": -1,
+        "f1_before": 0.7004780915767165,
+        "f1_after": 0.7003204338180922
+      },
+      "eval_calls": 1159,
+      "cal_calls": 96,
+      "threshold": -0.7264323368390364,
+      "width": 0.4,
+      "weight": 0.4,
+      "measured_query_full_negative_cohort": {
+        "wall_seconds": 1.3158026919700205,
+        "forward_seconds": 0.7665735043119639,
+        "analytic_gflops": 5003.8742958960065
+      },
+      "matched": {
+        "before": {
+          "tp": 7106,
+          "fp": 3734,
+          "fn": 2343,
+          "tn": 17915
+        },
+        "after": {
+          "tp": 7106,
+          "fp": 3734,
+          "fn": 2343,
+          "tn": 17915
+        },
+        "delta_tp": 0,
+        "delta_fp": 0,
+        "f1_before": 0.7004780915767165,
+        "f1_after": 0.7004780915767165
+      },
+      "per_project": {
+        "chromium": {
+          "before": {
+            "tp": 4048,
+            "fp": 3618,
+            "fn": 832,
+            "tn": 16211
+          },
+          "after": {
+            "tp": 4050,
+            "fp": 3618,
+            "fn": 830,
+            "tn": 16211
+          },
+          "delta_tp": 2,
+          "delta_fp": 0,
+          "f1_before": 0.6453052765821776,
+          "f1_after": 0.645521198597386
+        },
+        "ffmpeg": {
+          "before": {
+            "tp": 1341,
+            "fp": 47,
+            "fn": 270,
+            "tn": 416
+          },
+          "after": {
+            "tp": 1340,
+            "fp": 47,
+            "fn": 271,
+            "tn": 416
+          },
+          "delta_tp": -1,
+          "delta_fp": 0,
+          "f1_before": 0.8942980993664554,
+          "f1_after": 0.8939292861907938
+        },
+        "qemu": {
+          "before": {
+            "tp": 1717,
+            "fp": 69,
+            "fn": 1241,
+            "tn": 1288
+          },
+          "after": {
+            "tp": 1716,
+            "fp": 69,
+            "fn": 1242,
+            "tn": 1288
+          },
+          "delta_tp": -1,
+          "delta_fp": 0,
+          "f1_before": 0.7238617200674536,
+          "f1_after": 0.7235926628716003
+        }
+      }
+    },
+    "plain_0.4_0.8": {
+      "calibration": {
+        "before": {
+          "tp": 3791,
+          "fp": 354,
+          "fn": 86,
+          "tn": 7445
+        },
+        "after": {
+          "tp": 3791,
+          "fp": 354,
+          "fn": 86,
+          "tn": 7445
+        },
+        "delta_tp": 0,
+        "delta_fp": 0,
+        "f1_before": 0.9451508352031912,
+        "f1_after": 0.9451508352031912
+      },
+      "frozen": {
+        "before": {
+          "tp": 7106,
+          "fp": 3734,
+          "fn": 2343,
+          "tn": 17915
+        },
+        "after": {
+          "tp": 7089,
+          "fp": 3713,
+          "fn": 2360,
+          "tn": 17936
+        },
+        "delta_tp": -17,
+        "delta_fp": -21,
+        "f1_before": 0.7004780915767165,
+        "f1_after": 0.7001135746382895
+      },
+      "eval_calls": 1159,
+      "cal_calls": 96,
+      "threshold": -1.4516098302735774,
+      "width": 0.4,
+      "weight": 0.8,
+      "measured_query_full_negative_cohort": {
+        "wall_seconds": 1.3158026919700205,
+        "forward_seconds": 0.7665735043119639,
+        "analytic_gflops": 5003.8742958960065
+      },
+      "matched": {
+        "before": {
+          "tp": 7106,
+          "fp": 3734,
+          "fn": 2343,
+          "tn": 17915
+        },
+        "after": {
+          "tp": 7099,
+          "fp": 3734,
+          "fn": 2350,
+          "tn": 17915
+        },
+        "delta_tp": -7,
+        "delta_fp": 0,
+        "f1_before": 0.7004780915767165,
+        "f1_after": 0.7000295828813726
+      },
+      "per_project": {
+        "chromium": {
+          "before": {
+            "tp": 4048,
+            "fp": 3618,
+            "fn": 832,
+            "tn": 16211
+          },
+          "after": {
+            "tp": 4050,
+            "fp": 3618,
+            "fn": 830,
+            "tn": 16211
+          },
+          "delta_tp": 2,
+          "delta_fp": 0,
+          "f1_before": 0.6453052765821776,
+          "f1_after": 0.645521198597386
+        },
+        "ffmpeg": {
+          "before": {
+            "tp": 1341,
+            "fp": 47,
+            "fn": 270,
+            "tn": 416
+          },
+          "after": {
+            "tp": 1333,
+            "fp": 47,
+            "fn": 278,
+            "tn": 416
+          },
+          "delta_tp": -8,
+          "delta_fp": 0,
+          "f1_before": 0.8942980993664554,
+          "f1_after": 0.8913406887328653
+        },
+        "qemu": {
+          "before": {
+            "tp": 1717,
+            "fp": 69,
+            "fn": 1241,
+            "tn": 1288
+          },
+          "after": {
+            "tp": 1716,
+            "fp": 69,
+            "fn": 1242,
+            "tn": 1288
+          },
+          "delta_tp": -1,
+          "delta_fp": 0,
+          "f1_before": 0.7238617200674536,
+          "f1_after": 0.7235926628716003
+        }
+      }
+    },
+    "plain_1_0.4": {
+      "calibration": {
+        "before": {
+          "tp": 3791,
+          "fp": 354,
+          "fn": 86,
+          "tn": 7445
+        },
+        "after": {
+          "tp": 3791,
+          "fp": 354,
+          "fn": 86,
+          "tn": 7445
+        },
+        "delta_tp": 0,
+        "delta_fp": 0,
+        "f1_before": 0.9451508352031912,
+        "f1_after": 0.9451508352031912
+      },
+      "frozen": {
+        "before": {
+          "tp": 7106,
+          "fp": 3734,
+          "fn": 2343,
+          "tn": 17915
+        },
+        "after": {
+          "tp": 7103,
+          "fp": 3733,
+          "fn": 2346,
+          "tn": 17916
+        },
+        "delta_tp": -3,
+        "delta_fp": -1,
+        "f1_before": 0.7004780915767165,
+        "f1_after": 0.7003204338180922
+      },
+      "eval_calls": 6808,
+      "cal_calls": 376,
+      "threshold": -0.7264323368390364,
+      "width": 1.0,
+      "weight": 0.4,
+      "measured_query_full_negative_cohort": {
+        "wall_seconds": 1.3158026919700205,
+        "forward_seconds": 0.7665735043119639,
+        "analytic_gflops": 5003.8742958960065
+      },
+      "matched": {
+        "before": {
+          "tp": 7106,
+          "fp": 3734,
+          "fn": 2343,
+          "tn": 17915
+        },
+        "after": {
+          "tp": 7106,
+          "fp": 3734,
+          "fn": 2343,
+          "tn": 17915
+        },
+        "delta_tp": 0,
+        "delta_fp": 0,
+        "f1_before": 0.7004780915767165,
+        "f1_after": 0.7004780915767165
+      },
+      "per_project": {
+        "chromium": {
+          "before": {
+            "tp": 4048,
+            "fp": 3618,
+            "fn": 832,
+            "tn": 16211
+          },
+          "after": {
+            "tp": 4050,
+            "fp": 3618,
+            "fn": 830,
+            "tn": 16211
+          },
+          "delta_tp": 2,
+          "delta_fp": 0,
+          "f1_before": 0.6453052765821776,
+          "f1_after": 0.645521198597386
+        },
+        "ffmpeg": {
+          "before": {
+            "tp": 1341,
+            "fp": 47,
+            "fn": 270,
+            "tn": 416
+          },
+          "after": {
+            "tp": 1340,
+            "fp": 47,
+            "fn": 271,
+            "tn": 416
+          },
+          "delta_tp": -1,
+          "delta_fp": 0,
+          "f1_before": 0.8942980993664554,
+          "f1_after": 0.8939292861907938
+        },
+        "qemu": {
+          "before": {
+            "tp": 1717,
+            "fp": 69,
+            "fn": 1241,
+            "tn": 1288
+          },
+          "after": {
+            "tp": 1716,
+            "fp": 69,
+            "fn": 1242,
+            "tn": 1288
+          },
+          "delta_tp": -1,
+          "delta_fp": 0,
+          "f1_before": 0.7238617200674536,
+          "f1_after": 0.7235926628716003
+        }
+      }
+    },
+    "plain_1_0.8": {
+      "calibration": {
+        "before": {
+          "tp": 3791,
+          "fp": 354,
+          "fn": 86,
+          "tn": 7445
+        },
+        "after": {
+          "tp": 3791,
+          "fp": 354,
+          "fn": 86,
+          "tn": 7445
+        },
+        "delta_tp": 0,
+        "delta_fp": 0,
+        "f1_before": 0.9451508352031912,
+        "f1_after": 0.9451508352031912
+      },
+      "frozen": {
+        "before": {
+          "tp": 7106,
+          "fp": 3734,
+          "fn": 2343,
+          "tn": 17915
+        },
+        "after": {
+          "tp": 7089,
+          "fp": 3714,
+          "fn": 2360,
+          "tn": 17935
+        },
+        "delta_tp": -17,
+        "delta_fp": -20,
+        "f1_before": 0.7004780915767165,
+        "f1_after": 0.7000790045427612
+      },
+      "eval_calls": 6808,
+      "cal_calls": 376,
+      "threshold": -1.4516098302735774,
+      "width": 1.0,
+      "weight": 0.8,
+      "measured_query_full_negative_cohort": {
+        "wall_seconds": 1.3158026919700205,
+        "forward_seconds": 0.7665735043119639,
+        "analytic_gflops": 5003.8742958960065
+      },
+      "matched": {
+        "before": {
+          "tp": 7106,
+          "fp": 3734,
+          "fn": 2343,
+          "tn": 17915
+        },
+        "after": {
+          "tp": 7098,
+          "fp": 3734,
+          "fn": 2351,
+          "tn": 17915
+        },
+        "delta_tp": -8,
+        "delta_fp": 0,
+        "f1_before": 0.7004780915767165,
+        "f1_after": 0.6999654849366402
+      },
+      "per_project": {
+        "chromium": {
+          "before": {
+            "tp": 4048,
+            "fp": 3618,
+            "fn": 832,
+            "tn": 16211
+          },
+          "after": {
+            "tp": 4048,
+            "fp": 3618,
+            "fn": 832,
+            "tn": 16211
+          },
+          "delta_tp": 0,
+          "delta_fp": 0,
+          "f1_before": 0.6453052765821776,
+          "f1_after": 0.6453052765821776
+        },
+        "ffmpeg": {
+          "before": {
+            "tp": 1341,
+            "fp": 47,
+            "fn": 270,
+            "tn": 416
+          },
+          "after": {
+            "tp": 1333,
+            "fp": 47,
+            "fn": 278,
+            "tn": 416
+          },
+          "delta_tp": -8,
+          "delta_fp": 0,
+          "f1_before": 0.8942980993664554,
+          "f1_after": 0.8913406887328653
+        },
+        "qemu": {
+          "before": {
+            "tp": 1717,
+            "fp": 69,
+            "fn": 1241,
+            "tn": 1288
+          },
+          "after": {
+            "tp": 1717,
+            "fp": 69,
+            "fn": 1241,
+            "tn": 1288
+          },
+          "delta_tp": 0,
+          "delta_fp": 0,
+          "f1_before": 0.7238617200674536,
+          "f1_after": 0.7238617200674536
+        }
+      }
+    },
+    "plain_2_0.4": {
+      "calibration": {
+        "before": {
+          "tp": 3791,
+          "fp": 354,
+          "fn": 86,
+          "tn": 7445
+        },
+        "after": {
+          "tp": 3791,
+          "fp": 354,
+          "fn": 86,
+          "tn": 7445
+        },
+        "delta_tp": 0,
+        "delta_fp": 0,
+        "f1_before": 0.9451508352031912,
+        "f1_after": 0.9451508352031912
+      },
+      "frozen": {
+        "before": {
+          "tp": 7106,
+          "fp": 3734,
+          "fn": 2343,
+          "tn": 17915
+        },
+        "after": {
+          "tp": 7103,
+          "fp": 3733,
+          "fn": 2346,
+          "tn": 17916
+        },
+        "delta_tp": -3,
+        "delta_fp": -1,
+        "f1_before": 0.7004780915767165,
+        "f1_after": 0.7003204338180922
+      },
+      "eval_calls": 12004,
+      "cal_calls": 978,
+      "threshold": -0.7264323368390364,
+      "width": 2.0,
+      "weight": 0.4,
+      "measured_query_full_negative_cohort": {
+        "wall_seconds": 1.3158026919700205,
+        "forward_seconds": 0.7665735043119639,
+        "analytic_gflops": 5003.8742958960065
+      },
+      "matched": {
+        "before": {
+          "tp": 7106,
+          "fp": 3734,
+          "fn": 2343,
+          "tn": 17915
+        },
+        "after": {
+          "tp": 7106,
+          "fp": 3734,
+          "fn": 2343,
+          "tn": 17915
+        },
+        "delta_tp": 0,
+        "delta_fp": 0,
+        "f1_before": 0.7004780915767165,
+        "f1_after": 0.7004780915767165
+      },
+      "per_project": {
+        "chromium": {
+          "before": {
+            "tp": 4048,
+            "fp": 3618,
+            "fn": 832,
+            "tn": 16211
+          },
+          "after": {
+            "tp": 4050,
+            "fp": 3618,
+            "fn": 830,
+            "tn": 16211
+          },
+          "delta_tp": 2,
+          "delta_fp": 0,
+          "f1_before": 0.6453052765821776,
+          "f1_after": 0.645521198597386
+        },
+        "ffmpeg": {
+          "before": {
+            "tp": 1341,
+            "fp": 47,
+            "fn": 270,
+            "tn": 416
+          },
+          "after": {
+            "tp": 1340,
+            "fp": 47,
+            "fn": 271,
+            "tn": 416
+          },
+          "delta_tp": -1,
+          "delta_fp": 0,
+          "f1_before": 0.8942980993664554,
+          "f1_after": 0.8939292861907938
+        },
+        "qemu": {
+          "before": {
+            "tp": 1717,
+            "fp": 69,
+            "fn": 1241,
+            "tn": 1288
+          },
+          "after": {
+            "tp": 1716,
+            "fp": 69,
+            "fn": 1242,
+            "tn": 1288
+          },
+          "delta_tp": -1,
+          "delta_fp": 0,
+          "f1_before": 0.7238617200674536,
+          "f1_after": 0.7235926628716003
+        }
+      }
+    },
+    "plain_2_0.8": {
+      "calibration": {
+        "before": {
+          "tp": 3791,
+          "fp": 354,
+          "fn": 86,
+          "tn": 7445
+        },
+        "after": {
+          "tp": 3791,
+          "fp": 354,
+          "fn": 86,
+          "tn": 7445
+        },
+        "delta_tp": 0,
+        "delta_fp": 0,
+        "f1_before": 0.9451508352031912,
+        "f1_after": 0.9451508352031912
+      },
+      "frozen": {
+        "before": {
+          "tp": 7106,
+          "fp": 3734,
+          "fn": 2343,
+          "tn": 17915
+        },
+        "after": {
+          "tp": 7089,
+          "fp": 3714,
+          "fn": 2360,
+          "tn": 17935
+        },
+        "delta_tp": -17,
+        "delta_fp": -20,
+        "f1_before": 0.7004780915767165,
+        "f1_after": 0.7000790045427612
+      },
+      "eval_calls": 12004,
+      "cal_calls": 978,
+      "threshold": -1.4516098302735774,
+      "width": 2.0,
+      "weight": 0.8,
+      "measured_query_full_negative_cohort": {
+        "wall_seconds": 1.3158026919700205,
+        "forward_seconds": 0.7665735043119639,
+        "analytic_gflops": 5003.8742958960065
+      },
+      "matched": {
+        "before": {
+          "tp": 7106,
+          "fp": 3734,
+          "fn": 2343,
+          "tn": 17915
+        },
+        "after": {
+          "tp": 7098,
+          "fp": 3734,
+          "fn": 2351,
+          "tn": 17915
+        },
+        "delta_tp": -8,
+        "delta_fp": 0,
+        "f1_before": 0.7004780915767165,
+        "f1_after": 0.6999654849366402
+      },
+      "per_project": {
+        "chromium": {
+          "before": {
+            "tp": 4048,
+            "fp": 3618,
+            "fn": 832,
+            "tn": 16211
+          },
+          "after": {
+            "tp": 4048,
+            "fp": 3618,
+            "fn": 832,
+            "tn": 16211
+          },
+          "delta_tp": 0,
+          "delta_fp": 0,
+          "f1_before": 0.6453052765821776,
+          "f1_after": 0.6453052765821776
+        },
+        "ffmpeg": {
+          "before": {
+            "tp": 1341,
+            "fp": 47,
+            "fn": 270,
+            "tn": 416
+          },
+          "after": {
+            "tp": 1333,
+            "fp": 47,
+            "fn": 278,
+            "tn": 416
+          },
+          "delta_tp": -8,
+          "delta_fp": 0,
+          "f1_before": 0.8942980993664554,
+          "f1_after": 0.8913406887328653
+        },
+        "qemu": {
+          "before": {
+            "tp": 1717,
+            "fp": 69,
+            "fn": 1241,
+            "tn": 1288
+          },
+          "after": {
+            "tp": 1717,
+            "fp": 69,
+            "fn": 1241,
+            "tn": 1288
+          },
+          "delta_tp": 0,
+          "delta_fp": 0,
+          "f1_before": 0.7238617200674536,
+          "f1_after": 0.7238617200674536
+        }
+      }
+    },
+    "shared_0.4_0.4": {
+      "calibration": {
+        "before": {
+          "tp": 3791,
+          "fp": 354,
+          "fn": 86,
+          "tn": 7445
+        },
+        "after": {
+          "tp": 3791,
+          "fp": 354,
+          "fn": 86,
+          "tn": 7445
+        },
+        "delta_tp": 0,
+        "delta_fp": 0,
+        "f1_before": 0.9451508352031912,
+        "f1_after": 0.9451508352031912
+      },
+      "frozen": {
+        "before": {
+          "tp": 7106,
+          "fp": 3734,
+          "fn": 2343,
+          "tn": 17915
+        },
+        "after": {
+          "tp": 7107,
+          "fp": 3741,
+          "fn": 2342,
+          "tn": 17908
+        },
+        "delta_tp": 1,
+        "delta_fp": 7,
+        "f1_before": 0.7004780915767165,
+        "f1_after": 0.7003005370251761
+      },
+      "eval_calls": 1159,
+      "cal_calls": 96,
+      "threshold": -0.7517018011827532,
+      "width": 0.4,
+      "weight": 0.4,
+      "measured_query_full_negative_cohort": {
+        "wall_seconds": 1.124731571879238,
+        "forward_seconds": 0.610518021741882,
+        "analytic_gflops": 5003.8742958960065
+      },
+      "matched": {
+        "before": {
+          "tp": 7106,
+          "fp": 3734,
+          "fn": 2343,
+          "tn": 17915
+        },
+        "after": {
+          "tp": 7107,
+          "fp": 3734,
+          "fn": 2342,
+          "tn": 17915
+        },
+        "delta_tp": 1,
+        "delta_fp": 0,
+        "f1_before": 0.7004780915767165,
+        "f1_after": 0.7005421389847215
+      },
+      "per_project": {
+        "chromium": {
+          "before": {
+            "tp": 4048,
+            "fp": 3618,
+            "fn": 832,
+            "tn": 16211
+          },
+          "after": {
+            "tp": 4048,
+            "fp": 3618,
+            "fn": 832,
+            "tn": 16211
+          },
+          "delta_tp": 0,
+          "delta_fp": 0,
+          "f1_before": 0.6453052765821776,
+          "f1_after": 0.6453052765821776
+        },
+        "ffmpeg": {
+          "before": {
+            "tp": 1341,
+            "fp": 47,
+            "fn": 270,
+            "tn": 416
+          },
+          "after": {
+            "tp": 1341,
+            "fp": 47,
+            "fn": 270,
+            "tn": 416
+          },
+          "delta_tp": 0,
+          "delta_fp": 0,
+          "f1_before": 0.8942980993664554,
+          "f1_after": 0.8942980993664554
+        },
+        "qemu": {
+          "before": {
+            "tp": 1717,
+            "fp": 69,
+            "fn": 1241,
+            "tn": 1288
+          },
+          "after": {
+            "tp": 1718,
+            "fp": 69,
+            "fn": 1240,
+            "tn": 1288
+          },
+          "delta_tp": 1,
+          "delta_fp": 0,
+          "f1_before": 0.7238617200674536,
+          "f1_after": 0.7241306638566912
+        }
+      }
+    },
+    "shared_0.4_0.8": {
+      "calibration": {
+        "before": {
+          "tp": 3791,
+          "fp": 354,
+          "fn": 86,
+          "tn": 7445
+        },
+        "after": {
+          "tp": 3791,
+          "fp": 354,
+          "fn": 86,
+          "tn": 7445
+        },
+        "delta_tp": 0,
+        "delta_fp": 0,
+        "f1_before": 0.9451508352031912,
+        "f1_after": 0.9451508352031912
+      },
+      "frozen": {
+        "before": {
+          "tp": 7106,
+          "fp": 3734,
+          "fn": 2343,
+          "tn": 17915
+        },
+        "after": {
+          "tp": 7103,
+          "fp": 3722,
+          "fn": 2346,
+          "tn": 17927
+        },
+        "delta_tp": -3,
+        "delta_fp": -12,
+        "f1_before": 0.7004780915767165,
+        "f1_after": 0.7007004044589129
+      },
+      "eval_calls": 1159,
+      "cal_calls": 96,
+      "threshold": -1.4413273646859606,
+      "width": 0.4,
+      "weight": 0.8,
+      "measured_query_full_negative_cohort": {
+        "wall_seconds": 1.124731571879238,
+        "forward_seconds": 0.610518021741882,
+        "analytic_gflops": 5003.8742958960065
+      },
+      "matched": {
+        "before": {
+          "tp": 7106,
+          "fp": 3734,
+          "fn": 2343,
+          "tn": 17915
+        },
+        "after": {
+          "tp": 7106,
+          "fp": 3734,
+          "fn": 2343,
+          "tn": 17915
+        },
+        "delta_tp": 0,
+        "delta_fp": 0,
+        "f1_before": 0.7004780915767165,
+        "f1_after": 0.7004780915767165
+      },
+      "per_project": {
+        "chromium": {
+          "before": {
+            "tp": 4048,
+            "fp": 3618,
+            "fn": 832,
+            "tn": 16211
+          },
+          "after": {
+            "tp": 4050,
+            "fp": 3618,
+            "fn": 830,
+            "tn": 16211
+          },
+          "delta_tp": 2,
+          "delta_fp": 0,
+          "f1_before": 0.6453052765821776,
+          "f1_after": 0.645521198597386
+        },
+        "ffmpeg": {
+          "before": {
+            "tp": 1341,
+            "fp": 47,
+            "fn": 270,
+            "tn": 416
+          },
+          "after": {
+            "tp": 1340,
+            "fp": 47,
+            "fn": 271,
+            "tn": 416
+          },
+          "delta_tp": -1,
+          "delta_fp": 0,
+          "f1_before": 0.8942980993664554,
+          "f1_after": 0.8939292861907938
+        },
+        "qemu": {
+          "before": {
+            "tp": 1717,
+            "fp": 69,
+            "fn": 1241,
+            "tn": 1288
+          },
+          "after": {
+            "tp": 1716,
+            "fp": 69,
+            "fn": 1242,
+            "tn": 1288
+          },
+          "delta_tp": -1,
+          "delta_fp": 0,
+          "f1_before": 0.7238617200674536,
+          "f1_after": 0.7235926628716003
+        }
+      }
+    },
+    "shared_1_0.4": {
+      "calibration": {
+        "before": {
+          "tp": 3791,
+          "fp": 354,
+          "fn": 86,
+          "tn": 7445
+        },
+        "after": {
+          "tp": 3791,
+          "fp": 354,
+          "fn": 86,
+          "tn": 7445
+        },
+        "delta_tp": 0,
+        "delta_fp": 0,
+        "f1_before": 0.9451508352031912,
+        "f1_after": 0.9451508352031912
+      },
+      "frozen": {
+        "before": {
+          "tp": 7106,
+          "fp": 3734,
+          "fn": 2343,
+          "tn": 17915
+        },
+        "after": {
+          "tp": 7107,
+          "fp": 3741,
+          "fn": 2342,
+          "tn": 17908
+        },
+        "delta_tp": 1,
+        "delta_fp": 7,
+        "f1_before": 0.7004780915767165,
+        "f1_after": 0.7003005370251761
+      },
+      "eval_calls": 6808,
+      "cal_calls": 376,
+      "threshold": -0.7517018011827532,
+      "width": 1.0,
+      "weight": 0.4,
+      "measured_query_full_negative_cohort": {
+        "wall_seconds": 1.124731571879238,
+        "forward_seconds": 0.610518021741882,
+        "analytic_gflops": 5003.8742958960065
+      },
+      "matched": {
+        "before": {
+          "tp": 7106,
+          "fp": 3734,
+          "fn": 2343,
+          "tn": 17915
+        },
+        "after": {
+          "tp": 7107,
+          "fp": 3734,
+          "fn": 2342,
+          "tn": 17915
+        },
+        "delta_tp": 1,
+        "delta_fp": 0,
+        "f1_before": 0.7004780915767165,
+        "f1_after": 0.7005421389847215
+      },
+      "per_project": {
+        "chromium": {
+          "before": {
+            "tp": 4048,
+            "fp": 3618,
+            "fn": 832,
+            "tn": 16211
+          },
+          "after": {
+            "tp": 4048,
+            "fp": 3618,
+            "fn": 832,
+            "tn": 16211
+          },
+          "delta_tp": 0,
+          "delta_fp": 0,
+          "f1_before": 0.6453052765821776,
+          "f1_after": 0.6453052765821776
+        },
+        "ffmpeg": {
+          "before": {
+            "tp": 1341,
+            "fp": 47,
+            "fn": 270,
+            "tn": 416
+          },
+          "after": {
+            "tp": 1341,
+            "fp": 47,
+            "fn": 270,
+            "tn": 416
+          },
+          "delta_tp": 0,
+          "delta_fp": 0,
+          "f1_before": 0.8942980993664554,
+          "f1_after": 0.8942980993664554
+        },
+        "qemu": {
+          "before": {
+            "tp": 1717,
+            "fp": 69,
+            "fn": 1241,
+            "tn": 1288
+          },
+          "after": {
+            "tp": 1718,
+            "fp": 69,
+            "fn": 1240,
+            "tn": 1288
+          },
+          "delta_tp": 1,
+          "delta_fp": 0,
+          "f1_before": 0.7238617200674536,
+          "f1_after": 0.7241306638566912
+        }
+      }
+    },
+    "shared_1_0.8": {
+      "calibration": {
+        "before": {
+          "tp": 3791,
+          "fp": 354,
+          "fn": 86,
+          "tn": 7445
+        },
+        "after": {
+          "tp": 3791,
+          "fp": 354,
+          "fn": 86,
+          "tn": 7445
+        },
+        "delta_tp": 0,
+        "delta_fp": 0,
+        "f1_before": 0.9451508352031912,
+        "f1_after": 0.9451508352031912
+      },
+      "frozen": {
+        "before": {
+          "tp": 7106,
+          "fp": 3734,
+          "fn": 2343,
+          "tn": 17915
+        },
+        "after": {
+          "tp": 7103,
+          "fp": 3722,
+          "fn": 2346,
+          "tn": 17927
+        },
+        "delta_tp": -3,
+        "delta_fp": -12,
+        "f1_before": 0.7004780915767165,
+        "f1_after": 0.7007004044589129
+      },
+      "eval_calls": 6808,
+      "cal_calls": 376,
+      "threshold": -1.4413273646859606,
+      "width": 1.0,
+      "weight": 0.8,
+      "measured_query_full_negative_cohort": {
+        "wall_seconds": 1.124731571879238,
+        "forward_seconds": 0.610518021741882,
+        "analytic_gflops": 5003.8742958960065
+      },
+      "matched": {
+        "before": {
+          "tp": 7106,
+          "fp": 3734,
+          "fn": 2343,
+          "tn": 17915
+        },
+        "after": {
+          "tp": 7106,
+          "fp": 3734,
+          "fn": 2343,
+          "tn": 17915
+        },
+        "delta_tp": 0,
+        "delta_fp": 0,
+        "f1_before": 0.7004780915767165,
+        "f1_after": 0.7004780915767165
+      },
+      "per_project": {
+        "chromium": {
+          "before": {
+            "tp": 4048,
+            "fp": 3618,
+            "fn": 832,
+            "tn": 16211
+          },
+          "after": {
+            "tp": 4050,
+            "fp": 3618,
+            "fn": 830,
+            "tn": 16211
+          },
+          "delta_tp": 2,
+          "delta_fp": 0,
+          "f1_before": 0.6453052765821776,
+          "f1_after": 0.645521198597386
+        },
+        "ffmpeg": {
+          "before": {
+            "tp": 1341,
+            "fp": 47,
+            "fn": 270,
+            "tn": 416
+          },
+          "after": {
+            "tp": 1340,
+            "fp": 47,
+            "fn": 271,
+            "tn": 416
+          },
+          "delta_tp": -1,
+          "delta_fp": 0,
+          "f1_before": 0.8942980993664554,
+          "f1_after": 0.8939292861907938
+        },
+        "qemu": {
+          "before": {
+            "tp": 1717,
+            "fp": 69,
+            "fn": 1241,
+            "tn": 1288
+          },
+          "after": {
+            "tp": 1716,
+            "fp": 69,
+            "fn": 1242,
+            "tn": 1288
+          },
+          "delta_tp": -1,
+          "delta_fp": 0,
+          "f1_before": 0.7238617200674536,
+          "f1_after": 0.7235926628716003
+        }
+      }
+    },
+    "shared_2_0.4": {
+      "calibration": {
+        "before": {
+          "tp": 3791,
+          "fp": 354,
+          "fn": 86,
+          "tn": 7445
+        },
+        "after": {
+          "tp": 3791,
+          "fp": 354,
+          "fn": 86,
+          "tn": 7445
+        },
+        "delta_tp": 0,
+        "delta_fp": 0,
+        "f1_before": 0.9451508352031912,
+        "f1_after": 0.9451508352031912
+      },
+      "frozen": {
+        "before": {
+          "tp": 7106,
+          "fp": 3734,
+          "fn": 2343,
+          "tn": 17915
+        },
+        "after": {
+          "tp": 7107,
+          "fp": 3741,
+          "fn": 2342,
+          "tn": 17908
+        },
+        "delta_tp": 1,
+        "delta_fp": 7,
+        "f1_before": 0.7004780915767165,
+        "f1_after": 0.7003005370251761
+      },
+      "eval_calls": 12004,
+      "cal_calls": 978,
+      "threshold": -0.7517018011827532,
+      "width": 2.0,
+      "weight": 0.4,
+      "measured_query_full_negative_cohort": {
+        "wall_seconds": 1.124731571879238,
+        "forward_seconds": 0.610518021741882,
+        "analytic_gflops": 5003.8742958960065
+      },
+      "matched": {
+        "before": {
+          "tp": 7106,
+          "fp": 3734,
+          "fn": 2343,
+          "tn": 17915
+        },
+        "after": {
+          "tp": 7107,
+          "fp": 3734,
+          "fn": 2342,
+          "tn": 17915
+        },
+        "delta_tp": 1,
+        "delta_fp": 0,
+        "f1_before": 0.7004780915767165,
+        "f1_after": 0.7005421389847215
+      },
+      "per_project": {
+        "chromium": {
+          "before": {
+            "tp": 4048,
+            "fp": 3618,
+            "fn": 832,
+            "tn": 16211
+          },
+          "after": {
+            "tp": 4048,
+            "fp": 3618,
+            "fn": 832,
+            "tn": 16211
+          },
+          "delta_tp": 0,
+          "delta_fp": 0,
+          "f1_before": 0.6453052765821776,
+          "f1_after": 0.6453052765821776
+        },
+        "ffmpeg": {
+          "before": {
+            "tp": 1341,
+            "fp": 47,
+            "fn": 270,
+            "tn": 416
+          },
+          "after": {
+            "tp": 1341,
+            "fp": 47,
+            "fn": 270,
+            "tn": 416
+          },
+          "delta_tp": 0,
+          "delta_fp": 0,
+          "f1_before": 0.8942980993664554,
+          "f1_after": 0.8942980993664554
+        },
+        "qemu": {
+          "before": {
+            "tp": 1717,
+            "fp": 69,
+            "fn": 1241,
+            "tn": 1288
+          },
+          "after": {
+            "tp": 1718,
+            "fp": 69,
+            "fn": 1240,
+            "tn": 1288
+          },
+          "delta_tp": 1,
+          "delta_fp": 0,
+          "f1_before": 0.7238617200674536,
+          "f1_after": 0.7241306638566912
+        }
+      }
+    },
+    "shared_2_0.8": {
+      "calibration": {
+        "before": {
+          "tp": 3791,
+          "fp": 354,
+          "fn": 86,
+          "tn": 7445
+        },
+        "after": {
+          "tp": 3791,
+          "fp": 354,
+          "fn": 86,
+          "tn": 7445
+        },
+        "delta_tp": 0,
+        "delta_fp": 0,
+        "f1_before": 0.9451508352031912,
+        "f1_after": 0.9451508352031912
+      },
+      "frozen": {
+        "before": {
+          "tp": 7106,
+          "fp": 3734,
+          "fn": 2343,
+          "tn": 17915
+        },
+        "after": {
+          "tp": 7103,
+          "fp": 3722,
+          "fn": 2346,
+          "tn": 17927
+        },
+        "delta_tp": -3,
+        "delta_fp": -12,
+        "f1_before": 0.7004780915767165,
+        "f1_after": 0.7007004044589129
+      },
+      "eval_calls": 12004,
+      "cal_calls": 978,
+      "threshold": -1.4413273646859606,
+      "width": 2.0,
+      "weight": 0.8,
+      "measured_query_full_negative_cohort": {
+        "wall_seconds": 1.124731571879238,
+        "forward_seconds": 0.610518021741882,
+        "analytic_gflops": 5003.8742958960065
+      },
+      "matched": {
+        "before": {
+          "tp": 7106,
+          "fp": 3734,
+          "fn": 2343,
+          "tn": 17915
+        },
+        "after": {
+          "tp": 7106,
+          "fp": 3734,
+          "fn": 2343,
+          "tn": 17915
+        },
+        "delta_tp": 0,
+        "delta_fp": 0,
+        "f1_before": 0.7004780915767165,
+        "f1_after": 0.7004780915767165
+      },
+      "per_project": {
+        "chromium": {
+          "before": {
+            "tp": 4048,
+            "fp": 3618,
+            "fn": 832,
+            "tn": 16211
+          },
+          "after": {
+            "tp": 4050,
+            "fp": 3618,
+            "fn": 830,
+            "tn": 16211
+          },
+          "delta_tp": 2,
+          "delta_fp": 0,
+          "f1_before": 0.6453052765821776,
+          "f1_after": 0.645521198597386
+        },
+        "ffmpeg": {
+          "before": {
+            "tp": 1341,
+            "fp": 47,
+            "fn": 270,
+            "tn": 416
+          },
+          "after": {
+            "tp": 1340,
+            "fp": 47,
+            "fn": 271,
+            "tn": 416
+          },
+          "delta_tp": -1,
+          "delta_fp": 0,
+          "f1_before": 0.8942980993664554,
+          "f1_after": 0.8939292861907938
+        },
+        "qemu": {
+          "before": {
+            "tp": 1717,
+            "fp": 69,
+            "fn": 1241,
+            "tn": 1288
+          },
+          "after": {
+            "tp": 1716,
+            "fp": 69,
+            "fn": 1242,
+            "tn": 1288
+          },
+          "delta_tp": -1,
+          "delta_fp": 0,
+          "f1_before": 0.7238617200674536,
+          "f1_after": 0.7235926628716003
+        }
+      }
+    }
+  },
+  "weights_sha256": "426d109a54828edd68eb02885faeffed8b98836a81f0e2170ce2b2f4f0295056"
+}

@@ -1,0 +1,21 @@
+{
+  "rows": 129397,
+  "positive": 5366,
+  "shared_misses": 1683,
+  "shared_false_positives": 1359,
+  "anchored_misses": 1386,
+  "anchored_false_positives": 531,
+  "pairs": 3438,
+  "types": {
+    "0": 2495,
+    "2": 182,
+    "1": 761
+  },
+  "max_length_ratio": 3,
+  "source_sha256": {
+    "sparse": "6e3c3c1d02ed601d8be44e5b452dc9341d42ff78aa829c0839ce90bc9f68ed64",
+    "compact": "2be93c4b89022ec3eebd5e81b75353075eff43456882c4a796c742b56af84856"
+  },
+  "predictions_sha256": "3fb246217e0ab6b64ee0411ab8eef78af12c67d1bbe97cf7a1526c97ed0fe4c3",
+  "code_sha256": "fa797c40dce373c9a82b22ac2a9e1d01ce96b57753ed1e9f159fdda4fcecd224"
+}

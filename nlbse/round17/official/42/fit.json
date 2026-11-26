@@ -1,0 +1,34 @@
+{
+  "scope": "official",
+  "seed": 42,
+  "rows": 193100,
+  "kept_long": 12896,
+  "pairable": 18570,
+  "teacher_sha256": "5c9baca0d58a2c82fbdf1f4317708168173f6b07f108361215e79952a4ae71e7",
+  "selection_sha256": "d2951402b86228c7217436170a777ada4deb491efad08546a59da8703e2447c3",
+  "initial_sha256": "6bac2292b7abcdef62261ea4c4f62cd1527d72a34d091bc292ec6b1b98c2fda5",
+  "representation_sha256": null,
+  "modes": {
+    "crop": {
+      "path": "crop.pt",
+      "sha256": "684163f04d1e948a77a62c6c8f37c54f813e9e5b07cc9af6c8c32d1eff01c744",
+      "pairs": 0,
+      "steps": 1509,
+      "seconds": 19.159742263844237
+    },
+    "full": {
+      "path": "full.pt",
+      "sha256": "13664570ad89b81d9a087e16d734d8b2f6bfb1e1f754ac01cd268c12904fab64",
+      "pairs": 0,
+      "steps": 1509,
+      "seconds": 20.49851399497129
+    },
+    "paired": {
+      "path": "paired.pt",
+      "sha256": "55f7cb30400c5c80961f36a0271149931fd2b6b18525ff347d405bbcf235ae71",
+      "pairs": 18570,
+      "steps": 1509,
+      "seconds": 29.37716266606003
+    }
+  }
+}

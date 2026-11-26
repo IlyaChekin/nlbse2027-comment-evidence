@@ -1,0 +1,4186 @@
+{
+  "options": {
+    "token:no:blend:0.5": {
+      "calibration": {
+        "before": {
+          "tp": 34,
+          "fp": 106,
+          "fn": 44,
+          "tn": 1383
+        },
+        "after": {
+          "tp": 34,
+          "fp": 106,
+          "fn": 44,
+          "tn": 1383
+        },
+        "delta_tp": 0,
+        "delta_fp": 0,
+        "f1_before": 0.3119266055045872,
+        "f1_after": 0.3119266055045872
+      },
+      "matched": {
+        "before": {
+          "tp": 6675,
+          "fp": 903,
+          "fn": 2774,
+          "tn": 20746
+        },
+        "after": {
+          "tp": 6731,
+          "fp": 903,
+          "fn": 2718,
+          "tn": 20746
+        },
+        "delta_tp": 56,
+        "delta_fp": 0,
+        "f1_before": 0.7840488635696247,
+        "f1_after": 0.788034888485629
+      },
+      "frozen": {
+        "before": {
+          "tp": 6675,
+          "fp": 903,
+          "fn": 2774,
+          "tn": 20746
+        },
+        "after": {
+          "tp": 7003,
+          "fp": 2856,
+          "fn": 2446,
+          "tn": 18793
+        },
+        "delta_tp": 328,
+        "delta_fp": 1953,
+        "f1_before": 0.7840488635696247,
+        "f1_after": 0.7253987984255231
+      },
+      "per_project": {
+        "chromium": {
+          "before": {
+            "tp": 3669,
+            "fp": 825,
+            "fn": 1211,
+            "tn": 19004
+          },
+          "after": {
+            "tp": 3713,
+            "fp": 825,
+            "fn": 1167,
+            "tn": 19004
+          },
+          "delta_tp": 44,
+          "delta_fp": 0,
+          "f1_before": 0.7828034990398975,
+          "f1_after": 0.788490125291994
+        },
+        "ffmpeg": {
+          "before": {
+            "tp": 1317,
+            "fp": 36,
+            "fn": 294,
+            "tn": 427
+          },
+          "after": {
+            "tp": 1321,
+            "fp": 36,
+            "fn": 290,
+            "tn": 427
+          },
+          "delta_tp": 4,
+          "delta_fp": 0,
+          "f1_before": 0.888663967611336,
+          "f1_after": 0.8901617250673854
+        },
+        "qemu": {
+          "before": {
+            "tp": 1689,
+            "fp": 42,
+            "fn": 1269,
+            "tn": 1315
+          },
+          "after": {
+            "tp": 1697,
+            "fp": 42,
+            "fn": 1261,
+            "tn": 1315
+          },
+          "delta_tp": 8,
+          "delta_fp": 0,
+          "f1_before": 0.7204094689699296,
+          "f1_after": 0.7225888865233128
+        }
+      },
+      "project_tp": 56,
+      "threshold": 0.13492830097675323,
+      "cal_queries": 1567,
+      "test_queries": 12958
+    },
+    "token:no:blend:1": {
+      "calibration": {
+        "before": {
+          "tp": 34,
+          "fp": 106,
+          "fn": 44,
+          "tn": 1383
+        },
+        "after": {
+          "tp": 35,
+          "fp": 106,
+          "fn": 43,
+          "tn": 1383
+        },
+        "delta_tp": 1,
+        "delta_fp": 0,
+        "f1_before": 0.3119266055045872,
+        "f1_after": 0.319634703196347
+      },
+      "matched": {
+        "before": {
+          "tp": 6675,
+          "fp": 903,
+          "fn": 2774,
+          "tn": 20746
+        },
+        "after": {
+          "tp": 6744,
+          "fp": 903,
+          "fn": 2705,
+          "tn": 20746
+        },
+        "delta_tp": 69,
+        "delta_fp": 0,
+        "f1_before": 0.7840488635696247,
+        "f1_after": 0.7889564810481984
+      },
+      "frozen": {
+        "before": {
+          "tp": 6675,
+          "fp": 903,
+          "fn": 2774,
+          "tn": 20746
+        },
+        "after": {
+          "tp": 7165,
+          "fp": 4489,
+          "fn": 2284,
+          "tn": 17160
+        },
+        "delta_tp": 490,
+        "delta_fp": 3586,
+        "f1_before": 0.7840488635696247,
+        "f1_after": 0.6790503719850258
+      },
+      "per_project": {
+        "chromium": {
+          "before": {
+            "tp": 3669,
+            "fp": 825,
+            "fn": 1211,
+            "tn": 19004
+          },
+          "after": {
+            "tp": 3723,
+            "fp": 825,
+            "fn": 1157,
+            "tn": 19004
+          },
+          "delta_tp": 54,
+          "delta_fp": 0,
+          "f1_before": 0.7828034990398975,
+          "f1_after": 0.7897751378871447
+        },
+        "ffmpeg": {
+          "before": {
+            "tp": 1317,
+            "fp": 36,
+            "fn": 294,
+            "tn": 427
+          },
+          "after": {
+            "tp": 1321,
+            "fp": 36,
+            "fn": 290,
+            "tn": 427
+          },
+          "delta_tp": 4,
+          "delta_fp": 0,
+          "f1_before": 0.888663967611336,
+          "f1_after": 0.8901617250673854
+        },
+        "qemu": {
+          "before": {
+            "tp": 1689,
+            "fp": 42,
+            "fn": 1269,
+            "tn": 1315
+          },
+          "after": {
+            "tp": 1700,
+            "fp": 42,
+            "fn": 1258,
+            "tn": 1315
+          },
+          "delta_tp": 11,
+          "delta_fp": 0,
+          "f1_before": 0.7204094689699296,
+          "f1_after": 0.723404255319149
+        }
+      },
+      "project_tp": 69,
+      "threshold": 0.1376785933971405,
+      "cal_queries": 1567,
+      "test_queries": 12958
+    },
+    "token:no:veto:0.5": {
+      "calibration": {
+        "before": {
+          "tp": 34,
+          "fp": 106,
+          "fn": 44,
+          "tn": 1383
+        },
+        "after": {
+          "tp": 35,
+          "fp": 106,
+          "fn": 43,
+          "tn": 1383
+        },
+        "delta_tp": 1,
+        "delta_fp": 0,
+        "f1_before": 0.3119266055045872,
+        "f1_after": 0.319634703196347
+      },
+      "matched": {
+        "before": {
+          "tp": 6675,
+          "fp": 903,
+          "fn": 2774,
+          "tn": 20746
+        },
+        "after": {
+          "tp": 6687,
+          "fp": 903,
+          "fn": 2762,
+          "tn": 20746
+        },
+        "delta_tp": 12,
+        "delta_fp": 0,
+        "f1_before": 0.7840488635696247,
+        "f1_after": 0.7849052174423382
+      },
+      "frozen": {
+        "before": {
+          "tp": 6675,
+          "fp": 903,
+          "fn": 2774,
+          "tn": 20746
+        },
+        "after": {
+          "tp": 6707,
+          "fp": 1050,
+          "fn": 2742,
+          "tn": 20599
+        },
+        "delta_tp": 32,
+        "delta_fp": 147,
+        "f1_before": 0.7840488635696247,
+        "f1_after": 0.7796117633383703
+      },
+      "per_project": {
+        "chromium": {
+          "before": {
+            "tp": 3669,
+            "fp": 825,
+            "fn": 1211,
+            "tn": 19004
+          },
+          "after": {
+            "tp": 3674,
+            "fp": 825,
+            "fn": 1206,
+            "tn": 19004
+          },
+          "delta_tp": 5,
+          "delta_fp": 0,
+          "f1_before": 0.7828034990398975,
+          "f1_after": 0.783452393645378
+        },
+        "ffmpeg": {
+          "before": {
+            "tp": 1317,
+            "fp": 36,
+            "fn": 294,
+            "tn": 427
+          },
+          "after": {
+            "tp": 1321,
+            "fp": 36,
+            "fn": 290,
+            "tn": 427
+          },
+          "delta_tp": 4,
+          "delta_fp": 0,
+          "f1_before": 0.888663967611336,
+          "f1_after": 0.8901617250673854
+        },
+        "qemu": {
+          "before": {
+            "tp": 1689,
+            "fp": 42,
+            "fn": 1269,
+            "tn": 1315
+          },
+          "after": {
+            "tp": 1692,
+            "fp": 42,
+            "fn": 1266,
+            "tn": 1315
+          },
+          "delta_tp": 3,
+          "delta_fp": 0,
+          "f1_before": 0.7204094689699296,
+          "f1_after": 0.7212276214833759
+        }
+      },
+      "project_tp": 12,
+      "threshold": 0.1228809803724289,
+      "cal_queries": 1567,
+      "test_queries": 12958
+    },
+    "token:no:veto:1": {
+      "calibration": {
+        "before": {
+          "tp": 34,
+          "fp": 106,
+          "fn": 44,
+          "tn": 1383
+        },
+        "after": {
+          "tp": 34,
+          "fp": 106,
+          "fn": 44,
+          "tn": 1383
+        },
+        "delta_tp": 0,
+        "delta_fp": 0,
+        "f1_before": 0.3119266055045872,
+        "f1_after": 0.3119266055045872
+      },
+      "matched": {
+        "before": {
+          "tp": 6675,
+          "fp": 903,
+          "fn": 2774,
+          "tn": 20746
+        },
+        "after": {
+          "tp": 6690,
+          "fp": 903,
+          "fn": 2759,
+          "tn": 20746
+        },
+        "delta_tp": 15,
+        "delta_fp": 0,
+        "f1_before": 0.7840488635696247,
+        "f1_after": 0.7851191174744748
+      },
+      "frozen": {
+        "before": {
+          "tp": 6675,
+          "fp": 903,
+          "fn": 2774,
+          "tn": 20746
+        },
+        "after": {
+          "tp": 6732,
+          "fp": 1202,
+          "fn": 2717,
+          "tn": 20447
+        },
+        "delta_tp": 57,
+        "delta_fp": 299,
+        "f1_before": 0.7840488635696247,
+        "f1_after": 0.7745498475522061
+      },
+      "per_project": {
+        "chromium": {
+          "before": {
+            "tp": 3669,
+            "fp": 825,
+            "fn": 1211,
+            "tn": 19004
+          },
+          "after": {
+            "tp": 3672,
+            "fp": 825,
+            "fn": 1208,
+            "tn": 19004
+          },
+          "delta_tp": 3,
+          "delta_fp": 0,
+          "f1_before": 0.7828034990398975,
+          "f1_after": 0.7831929188439799
+        },
+        "ffmpeg": {
+          "before": {
+            "tp": 1317,
+            "fp": 36,
+            "fn": 294,
+            "tn": 427
+          },
+          "after": {
+            "tp": 1322,
+            "fp": 36,
+            "fn": 289,
+            "tn": 427
+          },
+          "delta_tp": 5,
+          "delta_fp": 0,
+          "f1_before": 0.888663967611336,
+          "f1_after": 0.8905355338497811
+        },
+        "qemu": {
+          "before": {
+            "tp": 1689,
+            "fp": 42,
+            "fn": 1269,
+            "tn": 1315
+          },
+          "after": {
+            "tp": 1696,
+            "fp": 42,
+            "fn": 1262,
+            "tn": 1315
+          },
+          "delta_tp": 7,
+          "delta_fp": 0,
+          "f1_before": 0.7204094689699296,
+          "f1_after": 0.7223168654173765
+        }
+      },
+      "project_tp": 15,
+      "threshold": 0.11115618050098419,
+      "cal_queries": 1567,
+      "test_queries": 12958
+    },
+    "token:no:promote:0.5": {
+      "calibration": {
+        "before": {
+          "tp": 34,
+          "fp": 106,
+          "fn": 44,
+          "tn": 1383
+        },
+        "after": {
+          "tp": 34,
+          "fp": 106,
+          "fn": 44,
+          "tn": 1383
+        },
+        "delta_tp": 0,
+        "delta_fp": 0,
+        "f1_before": 0.3119266055045872,
+        "f1_after": 0.3119266055045872
+      },
+      "matched": {
+        "before": {
+          "tp": 6675,
+          "fp": 903,
+          "fn": 2774,
+          "tn": 20746
+        },
+        "after": {
+          "tp": 6717,
+          "fp": 903,
+          "fn": 2732,
+          "tn": 20746
+        },
+        "delta_tp": 42,
+        "delta_fp": 0,
+        "f1_before": 0.7840488635696247,
+        "f1_after": 0.7870408342609408
+      },
+      "frozen": {
+        "before": {
+          "tp": 6675,
+          "fp": 903,
+          "fn": 2774,
+          "tn": 20746
+        },
+        "after": {
+          "tp": 6927,
+          "fp": 2364,
+          "fn": 2522,
+          "tn": 19285
+        },
+        "delta_tp": 252,
+        "delta_fp": 1461,
+        "f1_before": 0.7840488635696247,
+        "f1_after": 0.7392742796157951
+      },
+      "per_project": {
+        "chromium": {
+          "before": {
+            "tp": 3669,
+            "fp": 825,
+            "fn": 1211,
+            "tn": 19004
+          },
+          "after": {
+            "tp": 3699,
+            "fp": 825,
+            "fn": 1181,
+            "tn": 19004
+          },
+          "delta_tp": 30,
+          "delta_fp": 0,
+          "f1_before": 0.7828034990398975,
+          "f1_after": 0.7866865163760102
+        },
+        "ffmpeg": {
+          "before": {
+            "tp": 1317,
+            "fp": 36,
+            "fn": 294,
+            "tn": 427
+          },
+          "after": {
+            "tp": 1320,
+            "fp": 36,
+            "fn": 291,
+            "tn": 427
+          },
+          "delta_tp": 3,
+          "delta_fp": 0,
+          "f1_before": 0.888663967611336,
+          "f1_after": 0.8897876643073812
+        },
+        "qemu": {
+          "before": {
+            "tp": 1689,
+            "fp": 42,
+            "fn": 1269,
+            "tn": 1315
+          },
+          "after": {
+            "tp": 1698,
+            "fp": 42,
+            "fn": 1260,
+            "tn": 1315
+          },
+          "delta_tp": 9,
+          "delta_fp": 0,
+          "f1_before": 0.7204094689699296,
+          "f1_after": 0.722860791826309
+        }
+      },
+      "project_tp": 42,
+      "threshold": 0.15312322974205017,
+      "cal_queries": 1567,
+      "test_queries": 12958
+    },
+    "token:no:promote:1": {
+      "calibration": {
+        "before": {
+          "tp": 34,
+          "fp": 106,
+          "fn": 44,
+          "tn": 1383
+        },
+        "after": {
+          "tp": 34,
+          "fp": 106,
+          "fn": 44,
+          "tn": 1383
+        },
+        "delta_tp": 0,
+        "delta_fp": 0,
+        "f1_before": 0.3119266055045872,
+        "f1_after": 0.3119266055045872
+      },
+      "matched": {
+        "before": {
+          "tp": 6675,
+          "fp": 903,
+          "fn": 2774,
+          "tn": 20746
+        },
+        "after": {
+          "tp": 6733,
+          "fp": 903,
+          "fn": 2716,
+          "tn": 20746
+        },
+        "delta_tp": 58,
+        "delta_fp": 0,
+        "f1_before": 0.7840488635696247,
+        "f1_after": 0.7881767632426104
+      },
+      "frozen": {
+        "before": {
+          "tp": 6675,
+          "fp": 903,
+          "fn": 2774,
+          "tn": 20746
+        },
+        "after": {
+          "tp": 7061,
+          "fp": 3603,
+          "fn": 2388,
+          "tn": 18046
+        },
+        "delta_tp": 386,
+        "delta_fp": 2700,
+        "f1_before": 0.7840488635696247,
+        "f1_after": 0.7021329488390593
+      },
+      "per_project": {
+        "chromium": {
+          "before": {
+            "tp": 3669,
+            "fp": 825,
+            "fn": 1211,
+            "tn": 19004
+          },
+          "after": {
+            "tp": 3710,
+            "fp": 825,
+            "fn": 1170,
+            "tn": 19004
+          },
+          "delta_tp": 41,
+          "delta_fp": 0,
+          "f1_before": 0.7828034990398975,
+          "f1_after": 0.7881040892193308
+        },
+        "ffmpeg": {
+          "before": {
+            "tp": 1317,
+            "fp": 36,
+            "fn": 294,
+            "tn": 427
+          },
+          "after": {
+            "tp": 1325,
+            "fp": 36,
+            "fn": 286,
+            "tn": 427
+          },
+          "delta_tp": 8,
+          "delta_fp": 0,
+          "f1_before": 0.888663967611336,
+          "f1_after": 0.8916554508748318
+        },
+        "qemu": {
+          "before": {
+            "tp": 1689,
+            "fp": 42,
+            "fn": 1269,
+            "tn": 1315
+          },
+          "after": {
+            "tp": 1698,
+            "fp": 42,
+            "fn": 1260,
+            "tn": 1315
+          },
+          "delta_tp": 9,
+          "delta_fp": 0,
+          "f1_before": 0.7204094689699296,
+          "f1_after": 0.722860791826309
+        }
+      },
+      "project_tp": 58,
+      "threshold": 0.16641798615455627,
+      "cal_queries": 1567,
+      "test_queries": 12958
+    },
+    "token:yes:blend:0.5": {
+      "calibration": {
+        "before": {
+          "tp": 996,
+          "fp": 192,
+          "fn": 1,
+          "tn": 46
+        },
+        "after": {
+          "tp": 996,
+          "fp": 192,
+          "fn": 1,
+          "tn": 46
+        },
+        "delta_tp": 0,
+        "delta_fp": 0,
+        "f1_before": 0.9116704805491991,
+        "f1_after": 0.9116704805491991
+      },
+      "matched": {
+        "before": {
+          "tp": 6675,
+          "fp": 903,
+          "fn": 2774,
+          "tn": 20746
+        },
+        "after": {
+          "tp": 6693,
+          "fp": 903,
+          "fn": 2756,
+          "tn": 20746
+        },
+        "delta_tp": 18,
+        "delta_fp": 0,
+        "f1_before": 0.7840488635696247,
+        "f1_after": 0.7853329422117923
+      },
+      "frozen": {
+        "before": {
+          "tp": 6675,
+          "fp": 903,
+          "fn": 2774,
+          "tn": 20746
+        },
+        "after": {
+          "tp": 6649,
+          "fp": 902,
+          "fn": 2800,
+          "tn": 20747
+        },
+        "delta_tp": -26,
+        "delta_fp": -1,
+        "f1_before": 0.7840488635696247,
+        "f1_after": 0.782235294117647
+      },
+      "per_project": {
+        "chromium": {
+          "before": {
+            "tp": 3669,
+            "fp": 825,
+            "fn": 1211,
+            "tn": 19004
+          },
+          "after": {
+            "tp": 3687,
+            "fp": 825,
+            "fn": 1193,
+            "tn": 19004
+          },
+          "delta_tp": 18,
+          "delta_fp": 0,
+          "f1_before": 0.7828034990398975,
+          "f1_after": 0.7851362862010222
+        },
+        "ffmpeg": {
+          "before": {
+            "tp": 1317,
+            "fp": 36,
+            "fn": 294,
+            "tn": 427
+          },
+          "after": {
+            "tp": 1317,
+            "fp": 36,
+            "fn": 294,
+            "tn": 427
+          },
+          "delta_tp": 0,
+          "delta_fp": 0,
+          "f1_before": 0.888663967611336,
+          "f1_after": 0.888663967611336
+        },
+        "qemu": {
+          "before": {
+            "tp": 1689,
+            "fp": 42,
+            "fn": 1269,
+            "tn": 1315
+          },
+          "after": {
+            "tp": 1689,
+            "fp": 42,
+            "fn": 1269,
+            "tn": 1315
+          },
+          "delta_tp": 0,
+          "delta_fp": 0,
+          "f1_before": 0.7204094689699296,
+          "f1_after": 0.7204094689699296
+        }
+      },
+      "project_tp": 18,
+      "threshold": 0.13113057613372803,
+      "cal_queries": 1235,
+      "test_queries": 2763
+    },
+    "token:yes:blend:1": {
+      "calibration": {
+        "before": {
+          "tp": 996,
+          "fp": 192,
+          "fn": 1,
+          "tn": 46
+        },
+        "after": {
+          "tp": 996,
+          "fp": 192,
+          "fn": 1,
+          "tn": 46
+        },
+        "delta_tp": 0,
+        "delta_fp": 0,
+        "f1_before": 0.9116704805491991,
+        "f1_after": 0.9116704805491991
+      },
+      "matched": {
+        "before": {
+          "tp": 6675,
+          "fp": 903,
+          "fn": 2774,
+          "tn": 20746
+        },
+        "after": {
+          "tp": 6689,
+          "fp": 903,
+          "fn": 2760,
+          "tn": 20746
+        },
+        "delta_tp": 14,
+        "delta_fp": 0,
+        "f1_before": 0.7840488635696247,
+        "f1_after": 0.7850478258318174
+      },
+      "frozen": {
+        "before": {
+          "tp": 6675,
+          "fp": 903,
+          "fn": 2774,
+          "tn": 20746
+        },
+        "after": {
+          "tp": 6618,
+          "fp": 901,
+          "fn": 2831,
+          "tn": 20748
+        },
+        "delta_tp": -57,
+        "delta_fp": -2,
+        "f1_before": 0.7840488635696247,
+        "f1_after": 0.7800565770862801
+      },
+      "per_project": {
+        "chromium": {
+          "before": {
+            "tp": 3669,
+            "fp": 825,
+            "fn": 1211,
+            "tn": 19004
+          },
+          "after": {
+            "tp": 3683,
+            "fp": 825,
+            "fn": 1197,
+            "tn": 19004
+          },
+          "delta_tp": 14,
+          "delta_fp": 0,
+          "f1_before": 0.7828034990398975,
+          "f1_after": 0.7846186621218577
+        },
+        "ffmpeg": {
+          "before": {
+            "tp": 1317,
+            "fp": 36,
+            "fn": 294,
+            "tn": 427
+          },
+          "after": {
+            "tp": 1317,
+            "fp": 36,
+            "fn": 294,
+            "tn": 427
+          },
+          "delta_tp": 0,
+          "delta_fp": 0,
+          "f1_before": 0.888663967611336,
+          "f1_after": 0.888663967611336
+        },
+        "qemu": {
+          "before": {
+            "tp": 1689,
+            "fp": 42,
+            "fn": 1269,
+            "tn": 1315
+          },
+          "after": {
+            "tp": 1689,
+            "fp": 42,
+            "fn": 1269,
+            "tn": 1315
+          },
+          "delta_tp": 0,
+          "delta_fp": 0,
+          "f1_before": 0.7204094689699296,
+          "f1_after": 0.7204094689699296
+        }
+      },
+      "project_tp": 14,
+      "threshold": 0.11298449337482452,
+      "cal_queries": 1235,
+      "test_queries": 2763
+    },
+    "token:yes:veto:0.5": {
+      "calibration": {
+        "before": {
+          "tp": 996,
+          "fp": 192,
+          "fn": 1,
+          "tn": 46
+        },
+        "after": {
+          "tp": 996,
+          "fp": 192,
+          "fn": 1,
+          "tn": 46
+        },
+        "delta_tp": 0,
+        "delta_fp": 0,
+        "f1_before": 0.9116704805491991,
+        "f1_after": 0.9116704805491991
+      },
+      "matched": {
+        "before": {
+          "tp": 6675,
+          "fp": 903,
+          "fn": 2774,
+          "tn": 20746
+        },
+        "after": {
+          "tp": 6661,
+          "fp": 903,
+          "fn": 2788,
+          "tn": 20746
+        },
+        "delta_tp": -14,
+        "delta_fp": 0,
+        "f1_before": 0.7840488635696247,
+        "f1_after": 0.7830482572150709
+      },
+      "frozen": {
+        "before": {
+          "tp": 6675,
+          "fp": 903,
+          "fn": 2774,
+          "tn": 20746
+        },
+        "after": {
+          "tp": 6665,
+          "fp": 904,
+          "fn": 2784,
+          "tn": 20745
+        },
+        "delta_tp": -10,
+        "delta_fp": 1,
+        "f1_before": 0.7840488635696247,
+        "f1_after": 0.7832882829944764
+      },
+      "per_project": {
+        "chromium": {
+          "before": {
+            "tp": 3669,
+            "fp": 825,
+            "fn": 1211,
+            "tn": 19004
+          },
+          "after": {
+            "tp": 3655,
+            "fp": 825,
+            "fn": 1225,
+            "tn": 19004
+          },
+          "delta_tp": -14,
+          "delta_fp": 0,
+          "f1_before": 0.7828034990398975,
+          "f1_after": 0.780982905982906
+        },
+        "ffmpeg": {
+          "before": {
+            "tp": 1317,
+            "fp": 36,
+            "fn": 294,
+            "tn": 427
+          },
+          "after": {
+            "tp": 1317,
+            "fp": 36,
+            "fn": 294,
+            "tn": 427
+          },
+          "delta_tp": 0,
+          "delta_fp": 0,
+          "f1_before": 0.888663967611336,
+          "f1_after": 0.888663967611336
+        },
+        "qemu": {
+          "before": {
+            "tp": 1689,
+            "fp": 42,
+            "fn": 1269,
+            "tn": 1315
+          },
+          "after": {
+            "tp": 1689,
+            "fp": 42,
+            "fn": 1269,
+            "tn": 1315
+          },
+          "delta_tp": 0,
+          "delta_fp": 0,
+          "f1_before": 0.7204094689699296,
+          "f1_after": 0.7204094689699296
+        }
+      },
+      "project_tp": -14,
+      "threshold": 0.12630578875541687,
+      "cal_queries": 1235,
+      "test_queries": 2763
+    },
+    "token:yes:veto:1": {
+      "calibration": {
+        "before": {
+          "tp": 996,
+          "fp": 192,
+          "fn": 1,
+          "tn": 46
+        },
+        "after": {
+          "tp": 996,
+          "fp": 192,
+          "fn": 1,
+          "tn": 46
+        },
+        "delta_tp": 0,
+        "delta_fp": 0,
+        "f1_before": 0.9116704805491991,
+        "f1_after": 0.9116704805491991
+      },
+      "matched": {
+        "before": {
+          "tp": 6675,
+          "fp": 903,
+          "fn": 2774,
+          "tn": 20746
+        },
+        "after": {
+          "tp": 6642,
+          "fp": 903,
+          "fn": 2807,
+          "tn": 20746
+        },
+        "delta_tp": -33,
+        "delta_fp": 0,
+        "f1_before": 0.7840488635696247,
+        "f1_after": 0.7816876544662822
+      },
+      "frozen": {
+        "before": {
+          "tp": 6675,
+          "fp": 903,
+          "fn": 2774,
+          "tn": 20746
+        },
+        "after": {
+          "tp": 6641,
+          "fp": 903,
+          "fn": 2808,
+          "tn": 20746
+        },
+        "delta_tp": -34,
+        "delta_fp": 0,
+        "f1_before": 0.7840488635696247,
+        "f1_after": 0.7816159595127405
+      },
+      "per_project": {
+        "chromium": {
+          "before": {
+            "tp": 3669,
+            "fp": 825,
+            "fn": 1211,
+            "tn": 19004
+          },
+          "after": {
+            "tp": 3636,
+            "fp": 825,
+            "fn": 1244,
+            "tn": 19004
+          },
+          "delta_tp": -33,
+          "delta_fp": 0,
+          "f1_before": 0.7828034990398975,
+          "f1_after": 0.7785033722299539
+        },
+        "ffmpeg": {
+          "before": {
+            "tp": 1317,
+            "fp": 36,
+            "fn": 294,
+            "tn": 427
+          },
+          "after": {
+            "tp": 1317,
+            "fp": 36,
+            "fn": 294,
+            "tn": 427
+          },
+          "delta_tp": 0,
+          "delta_fp": 0,
+          "f1_before": 0.888663967611336,
+          "f1_after": 0.888663967611336
+        },
+        "qemu": {
+          "before": {
+            "tp": 1689,
+            "fp": 42,
+            "fn": 1269,
+            "tn": 1315
+          },
+          "after": {
+            "tp": 1689,
+            "fp": 42,
+            "fn": 1269,
+            "tn": 1315
+          },
+          "delta_tp": 0,
+          "delta_fp": 0,
+          "f1_before": 0.7204094689699296,
+          "f1_after": 0.7204094689699296
+        }
+      },
+      "project_tp": -33,
+      "threshold": 0.11290817707777023,
+      "cal_queries": 1235,
+      "test_queries": 2763
+    },
+    "token:yes:promote:0.5": {
+      "calibration": {
+        "before": {
+          "tp": 996,
+          "fp": 192,
+          "fn": 1,
+          "tn": 46
+        },
+        "after": {
+          "tp": 995,
+          "fp": 192,
+          "fn": 2,
+          "tn": 46
+        },
+        "delta_tp": -1,
+        "delta_fp": 0,
+        "f1_before": 0.9116704805491991,
+        "f1_after": 0.9111721611721612
+      },
+      "matched": {
+        "before": {
+          "tp": 6675,
+          "fp": 903,
+          "fn": 2774,
+          "tn": 20746
+        },
+        "after": {
+          "tp": 6681,
+          "fp": 903,
+          "fn": 2768,
+          "tn": 20746
+        },
+        "delta_tp": 6,
+        "delta_fp": 0,
+        "f1_before": 0.7840488635696247,
+        "f1_after": 0.7844771913344684
+      },
+      "frozen": {
+        "before": {
+          "tp": 6675,
+          "fp": 903,
+          "fn": 2774,
+          "tn": 20746
+        },
+        "after": {
+          "tp": 6666,
+          "fp": 903,
+          "fn": 2783,
+          "tn": 20746
+        },
+        "delta_tp": -9,
+        "delta_fp": 0,
+        "f1_before": 0.7840488635696247,
+        "f1_after": 0.7834058056175813
+      },
+      "per_project": {
+        "chromium": {
+          "before": {
+            "tp": 3669,
+            "fp": 825,
+            "fn": 1211,
+            "tn": 19004
+          },
+          "after": {
+            "tp": 3675,
+            "fp": 825,
+            "fn": 1205,
+            "tn": 19004
+          },
+          "delta_tp": 6,
+          "delta_fp": 0,
+          "f1_before": 0.7828034990398975,
+          "f1_after": 0.7835820895522388
+        },
+        "ffmpeg": {
+          "before": {
+            "tp": 1317,
+            "fp": 36,
+            "fn": 294,
+            "tn": 427
+          },
+          "after": {
+            "tp": 1317,
+            "fp": 36,
+            "fn": 294,
+            "tn": 427
+          },
+          "delta_tp": 0,
+          "delta_fp": 0,
+          "f1_before": 0.888663967611336,
+          "f1_after": 0.888663967611336
+        },
+        "qemu": {
+          "before": {
+            "tp": 1689,
+            "fp": 42,
+            "fn": 1269,
+            "tn": 1315
+          },
+          "after": {
+            "tp": 1689,
+            "fp": 42,
+            "fn": 1269,
+            "tn": 1315
+          },
+          "delta_tp": 0,
+          "delta_fp": 0,
+          "f1_before": 0.7204094689699296,
+          "f1_after": 0.7204094689699296
+        }
+      },
+      "project_tp": 6,
+      "threshold": 0.1512945592403412,
+      "cal_queries": 1235,
+      "test_queries": 2763
+    },
+    "token:yes:promote:1": {
+      "calibration": {
+        "before": {
+          "tp": 996,
+          "fp": 192,
+          "fn": 1,
+          "tn": 46
+        },
+        "after": {
+          "tp": 994,
+          "fp": 192,
+          "fn": 3,
+          "tn": 46
+        },
+        "delta_tp": -2,
+        "delta_fp": 0,
+        "f1_before": 0.9116704805491991,
+        "f1_after": 0.9106733852496565
+      },
+      "matched": {
+        "before": {
+          "tp": 6675,
+          "fp": 903,
+          "fn": 2774,
+          "tn": 20746
+        },
+        "after": {
+          "tp": 6683,
+          "fp": 903,
+          "fn": 2766,
+          "tn": 20746
+        },
+        "delta_tp": 8,
+        "delta_fp": 0,
+        "f1_before": 0.7840488635696247,
+        "f1_after": 0.7846199002054594
+      },
+      "frozen": {
+        "before": {
+          "tp": 6675,
+          "fp": 903,
+          "fn": 2774,
+          "tn": 20746
+        },
+        "after": {
+          "tp": 6657,
+          "fp": 902,
+          "fn": 2792,
+          "tn": 20747
+        },
+        "delta_tp": -18,
+        "delta_fp": -1,
+        "f1_before": 0.7840488635696247,
+        "f1_after": 0.7828080903104422
+      },
+      "per_project": {
+        "chromium": {
+          "before": {
+            "tp": 3669,
+            "fp": 825,
+            "fn": 1211,
+            "tn": 19004
+          },
+          "after": {
+            "tp": 3677,
+            "fp": 825,
+            "fn": 1203,
+            "tn": 19004
+          },
+          "delta_tp": 8,
+          "delta_fp": 0,
+          "f1_before": 0.7828034990398975,
+          "f1_after": 0.7838413984225112
+        },
+        "ffmpeg": {
+          "before": {
+            "tp": 1317,
+            "fp": 36,
+            "fn": 294,
+            "tn": 427
+          },
+          "after": {
+            "tp": 1317,
+            "fp": 36,
+            "fn": 294,
+            "tn": 427
+          },
+          "delta_tp": 0,
+          "delta_fp": 0,
+          "f1_before": 0.888663967611336,
+          "f1_after": 0.888663967611336
+        },
+        "qemu": {
+          "before": {
+            "tp": 1689,
+            "fp": 42,
+            "fn": 1269,
+            "tn": 1315
+          },
+          "after": {
+            "tp": 1689,
+            "fp": 42,
+            "fn": 1269,
+            "tn": 1315
+          },
+          "delta_tp": 0,
+          "delta_fp": 0,
+          "f1_before": 0.7204094689699296,
+          "f1_after": 0.7204094689699296
+        }
+      },
+      "project_tp": 8,
+      "threshold": 0.15766258537769318,
+      "cal_queries": 1235,
+      "test_queries": 2763
+    },
+    "token:unqueried:blend:0.5": {
+      "calibration": {
+        "before": {
+          "tp": 18,
+          "fp": 0,
+          "fn": 43,
+          "tn": 5984
+        },
+        "after": {
+          "tp": 18,
+          "fp": 0,
+          "fn": 43,
+          "tn": 5984
+        },
+        "delta_tp": 0,
+        "delta_fp": 0,
+        "f1_before": 0.45569620253164556,
+        "f1_after": 0.45569620253164556
+      },
+      "matched": {
+        "before": {
+          "tp": 6675,
+          "fp": 903,
+          "fn": 2774,
+          "tn": 20746
+        },
+        "after": {
+          "tp": 6677,
+          "fp": 903,
+          "fn": 2772,
+          "tn": 20746
+        },
+        "delta_tp": 2,
+        "delta_fp": 0,
+        "f1_before": 0.7840488635696247,
+        "f1_after": 0.7841916730283633
+      },
+      "frozen": {
+        "before": {
+          "tp": 6675,
+          "fp": 903,
+          "fn": 2774,
+          "tn": 20746
+        },
+        "after": {
+          "tp": 6688,
+          "fp": 1139,
+          "fn": 2761,
+          "tn": 20510
+        },
+        "delta_tp": 13,
+        "delta_fp": 236,
+        "f1_before": 0.7840488635696247,
+        "f1_after": 0.7742532993748553
+      },
+      "per_project": {
+        "chromium": {
+          "before": {
+            "tp": 3669,
+            "fp": 825,
+            "fn": 1211,
+            "tn": 19004
+          },
+          "after": {
+            "tp": 3669,
+            "fp": 825,
+            "fn": 1211,
+            "tn": 19004
+          },
+          "delta_tp": 0,
+          "delta_fp": 0,
+          "f1_before": 0.7828034990398975,
+          "f1_after": 0.7828034990398975
+        },
+        "ffmpeg": {
+          "before": {
+            "tp": 1317,
+            "fp": 36,
+            "fn": 294,
+            "tn": 427
+          },
+          "after": {
+            "tp": 1319,
+            "fp": 36,
+            "fn": 292,
+            "tn": 427
+          },
+          "delta_tp": 2,
+          "delta_fp": 0,
+          "f1_before": 0.888663967611336,
+          "f1_after": 0.8894133513149022
+        },
+        "qemu": {
+          "before": {
+            "tp": 1689,
+            "fp": 42,
+            "fn": 1269,
+            "tn": 1315
+          },
+          "after": {
+            "tp": 1689,
+            "fp": 42,
+            "fn": 1269,
+            "tn": 1315
+          },
+          "delta_tp": 0,
+          "delta_fp": 0,
+          "f1_before": 0.7204094689699296,
+          "f1_after": 0.7204094689699296
+        }
+      },
+      "project_tp": 2,
+      "threshold": 0.09419797360897064,
+      "cal_queries": 6045,
+      "test_queries": 11349
+    },
+    "token:unqueried:blend:1": {
+      "calibration": {
+        "before": {
+          "tp": 18,
+          "fp": 0,
+          "fn": 43,
+          "tn": 5984
+        },
+        "after": {
+          "tp": 18,
+          "fp": 0,
+          "fn": 43,
+          "tn": 5984
+        },
+        "delta_tp": 0,
+        "delta_fp": 0,
+        "f1_before": 0.45569620253164556,
+        "f1_after": 0.45569620253164556
+      },
+      "matched": {
+        "before": {
+          "tp": 6675,
+          "fp": 903,
+          "fn": 2774,
+          "tn": 20746
+        },
+        "after": {
+          "tp": 6677,
+          "fp": 903,
+          "fn": 2772,
+          "tn": 20746
+        },
+        "delta_tp": 2,
+        "delta_fp": 0,
+        "f1_before": 0.7840488635696247,
+        "f1_after": 0.7841916730283633
+      },
+      "frozen": {
+        "before": {
+          "tp": 6675,
+          "fp": 903,
+          "fn": 2774,
+          "tn": 20746
+        },
+        "after": {
+          "tp": 6689,
+          "fp": 1160,
+          "fn": 2760,
+          "tn": 20489
+        },
+        "delta_tp": 14,
+        "delta_fp": 257,
+        "f1_before": 0.7840488635696247,
+        "f1_after": 0.7733842062666204
+      },
+      "per_project": {
+        "chromium": {
+          "before": {
+            "tp": 3669,
+            "fp": 825,
+            "fn": 1211,
+            "tn": 19004
+          },
+          "after": {
+            "tp": 3669,
+            "fp": 825,
+            "fn": 1211,
+            "tn": 19004
+          },
+          "delta_tp": 0,
+          "delta_fp": 0,
+          "f1_before": 0.7828034990398975,
+          "f1_after": 0.7828034990398975
+        },
+        "ffmpeg": {
+          "before": {
+            "tp": 1317,
+            "fp": 36,
+            "fn": 294,
+            "tn": 427
+          },
+          "after": {
+            "tp": 1319,
+            "fp": 36,
+            "fn": 292,
+            "tn": 427
+          },
+          "delta_tp": 2,
+          "delta_fp": 0,
+          "f1_before": 0.888663967611336,
+          "f1_after": 0.8894133513149022
+        },
+        "qemu": {
+          "before": {
+            "tp": 1689,
+            "fp": 42,
+            "fn": 1269,
+            "tn": 1315
+          },
+          "after": {
+            "tp": 1689,
+            "fp": 42,
+            "fn": 1269,
+            "tn": 1315
+          },
+          "delta_tp": 0,
+          "delta_fp": 0,
+          "f1_before": 0.7204094689699296,
+          "f1_after": 0.7204094689699296
+        }
+      },
+      "project_tp": 2,
+      "threshold": 0.14751876890659332,
+      "cal_queries": 6045,
+      "test_queries": 11349
+    },
+    "token:unqueried:veto:0.5": {
+      "calibration": {
+        "before": {
+          "tp": 18,
+          "fp": 0,
+          "fn": 43,
+          "tn": 5984
+        },
+        "after": {
+          "tp": 18,
+          "fp": 0,
+          "fn": 43,
+          "tn": 5984
+        },
+        "delta_tp": 0,
+        "delta_fp": 0,
+        "f1_before": 0.45569620253164556,
+        "f1_after": 0.45569620253164556
+      },
+      "matched": {
+        "before": {
+          "tp": 6675,
+          "fp": 903,
+          "fn": 2774,
+          "tn": 20746
+        },
+        "after": {
+          "tp": 6678,
+          "fp": 903,
+          "fn": 2771,
+          "tn": 20746
+        },
+        "delta_tp": 3,
+        "delta_fp": 0,
+        "f1_before": 0.7840488635696247,
+        "f1_after": 0.7842630651790957
+      },
+      "frozen": {
+        "before": {
+          "tp": 6675,
+          "fp": 903,
+          "fn": 2774,
+          "tn": 20746
+        },
+        "after": {
+          "tp": 6675,
+          "fp": 903,
+          "fn": 2774,
+          "tn": 20746
+        },
+        "delta_tp": 0,
+        "delta_fp": 0,
+        "f1_before": 0.7840488635696247,
+        "f1_after": 0.7840488635696247
+      },
+      "per_project": {
+        "chromium": {
+          "before": {
+            "tp": 3669,
+            "fp": 825,
+            "fn": 1211,
+            "tn": 19004
+          },
+          "after": {
+            "tp": 3669,
+            "fp": 825,
+            "fn": 1211,
+            "tn": 19004
+          },
+          "delta_tp": 0,
+          "delta_fp": 0,
+          "f1_before": 0.7828034990398975,
+          "f1_after": 0.7828034990398975
+        },
+        "ffmpeg": {
+          "before": {
+            "tp": 1317,
+            "fp": 36,
+            "fn": 294,
+            "tn": 427
+          },
+          "after": {
+            "tp": 1317,
+            "fp": 36,
+            "fn": 294,
+            "tn": 427
+          },
+          "delta_tp": 0,
+          "delta_fp": 0,
+          "f1_before": 0.888663967611336,
+          "f1_after": 0.888663967611336
+        },
+        "qemu": {
+          "before": {
+            "tp": 1689,
+            "fp": 42,
+            "fn": 1269,
+            "tn": 1315
+          },
+          "after": {
+            "tp": 1692,
+            "fp": 42,
+            "fn": 1266,
+            "tn": 1315
+          },
+          "delta_tp": 3,
+          "delta_fp": 0,
+          "f1_before": 0.7204094689699296,
+          "f1_after": 0.7212276214833759
+        }
+      },
+      "project_tp": 3,
+      "threshold": 0.12217559665441513,
+      "cal_queries": 6045,
+      "test_queries": 11349
+    },
+    "token:unqueried:veto:1": {
+      "calibration": {
+        "before": {
+          "tp": 18,
+          "fp": 0,
+          "fn": 43,
+          "tn": 5984
+        },
+        "after": {
+          "tp": 18,
+          "fp": 0,
+          "fn": 43,
+          "tn": 5984
+        },
+        "delta_tp": 0,
+        "delta_fp": 0,
+        "f1_before": 0.45569620253164556,
+        "f1_after": 0.45569620253164556
+      },
+      "matched": {
+        "before": {
+          "tp": 6675,
+          "fp": 903,
+          "fn": 2774,
+          "tn": 20746
+        },
+        "after": {
+          "tp": 6678,
+          "fp": 903,
+          "fn": 2771,
+          "tn": 20746
+        },
+        "delta_tp": 3,
+        "delta_fp": 0,
+        "f1_before": 0.7840488635696247,
+        "f1_after": 0.7842630651790957
+      },
+      "frozen": {
+        "before": {
+          "tp": 6675,
+          "fp": 903,
+          "fn": 2774,
+          "tn": 20746
+        },
+        "after": {
+          "tp": 6675,
+          "fp": 903,
+          "fn": 2774,
+          "tn": 20746
+        },
+        "delta_tp": 0,
+        "delta_fp": 0,
+        "f1_before": 0.7840488635696247,
+        "f1_after": 0.7840488635696247
+      },
+      "per_project": {
+        "chromium": {
+          "before": {
+            "tp": 3669,
+            "fp": 825,
+            "fn": 1211,
+            "tn": 19004
+          },
+          "after": {
+            "tp": 3669,
+            "fp": 825,
+            "fn": 1211,
+            "tn": 19004
+          },
+          "delta_tp": 0,
+          "delta_fp": 0,
+          "f1_before": 0.7828034990398975,
+          "f1_after": 0.7828034990398975
+        },
+        "ffmpeg": {
+          "before": {
+            "tp": 1317,
+            "fp": 36,
+            "fn": 294,
+            "tn": 427
+          },
+          "after": {
+            "tp": 1317,
+            "fp": 36,
+            "fn": 294,
+            "tn": 427
+          },
+          "delta_tp": 0,
+          "delta_fp": 0,
+          "f1_before": 0.888663967611336,
+          "f1_after": 0.888663967611336
+        },
+        "qemu": {
+          "before": {
+            "tp": 1689,
+            "fp": 42,
+            "fn": 1269,
+            "tn": 1315
+          },
+          "after": {
+            "tp": 1692,
+            "fp": 42,
+            "fn": 1266,
+            "tn": 1315
+          },
+          "delta_tp": 3,
+          "delta_fp": 0,
+          "f1_before": 0.7204094689699296,
+          "f1_after": 0.7212276214833759
+        }
+      },
+      "project_tp": 3,
+      "threshold": 0.12217559665441513,
+      "cal_queries": 6045,
+      "test_queries": 11349
+    },
+    "token:unqueried:promote:0.5": {
+      "calibration": {
+        "before": {
+          "tp": 18,
+          "fp": 0,
+          "fn": 43,
+          "tn": 5984
+        },
+        "after": {
+          "tp": 18,
+          "fp": 0,
+          "fn": 43,
+          "tn": 5984
+        },
+        "delta_tp": 0,
+        "delta_fp": 0,
+        "f1_before": 0.45569620253164556,
+        "f1_after": 0.45569620253164556
+      },
+      "matched": {
+        "before": {
+          "tp": 6675,
+          "fp": 903,
+          "fn": 2774,
+          "tn": 20746
+        },
+        "after": {
+          "tp": 6677,
+          "fp": 903,
+          "fn": 2772,
+          "tn": 20746
+        },
+        "delta_tp": 2,
+        "delta_fp": 0,
+        "f1_before": 0.7840488635696247,
+        "f1_after": 0.7841916730283633
+      },
+      "frozen": {
+        "before": {
+          "tp": 6675,
+          "fp": 903,
+          "fn": 2774,
+          "tn": 20746
+        },
+        "after": {
+          "tp": 6681,
+          "fp": 981,
+          "fn": 2768,
+          "tn": 20668
+        },
+        "delta_tp": 6,
+        "delta_fp": 78,
+        "f1_before": 0.7840488635696247,
+        "f1_after": 0.7809011746829525
+      },
+      "per_project": {
+        "chromium": {
+          "before": {
+            "tp": 3669,
+            "fp": 825,
+            "fn": 1211,
+            "tn": 19004
+          },
+          "after": {
+            "tp": 3669,
+            "fp": 825,
+            "fn": 1211,
+            "tn": 19004
+          },
+          "delta_tp": 0,
+          "delta_fp": 0,
+          "f1_before": 0.7828034990398975,
+          "f1_after": 0.7828034990398975
+        },
+        "ffmpeg": {
+          "before": {
+            "tp": 1317,
+            "fp": 36,
+            "fn": 294,
+            "tn": 427
+          },
+          "after": {
+            "tp": 1319,
+            "fp": 36,
+            "fn": 292,
+            "tn": 427
+          },
+          "delta_tp": 2,
+          "delta_fp": 0,
+          "f1_before": 0.888663967611336,
+          "f1_after": 0.8894133513149022
+        },
+        "qemu": {
+          "before": {
+            "tp": 1689,
+            "fp": 42,
+            "fn": 1269,
+            "tn": 1315
+          },
+          "after": {
+            "tp": 1689,
+            "fp": 42,
+            "fn": 1269,
+            "tn": 1315
+          },
+          "delta_tp": 0,
+          "delta_fp": 0,
+          "f1_before": 0.7204094689699296,
+          "f1_after": 0.7204094689699296
+        }
+      },
+      "project_tp": 2,
+      "threshold": 0.12217559665441513,
+      "cal_queries": 6045,
+      "test_queries": 11349
+    },
+    "token:unqueried:promote:1": {
+      "calibration": {
+        "before": {
+          "tp": 18,
+          "fp": 0,
+          "fn": 43,
+          "tn": 5984
+        },
+        "after": {
+          "tp": 18,
+          "fp": 0,
+          "fn": 43,
+          "tn": 5984
+        },
+        "delta_tp": 0,
+        "delta_fp": 0,
+        "f1_before": 0.45569620253164556,
+        "f1_after": 0.45569620253164556
+      },
+      "matched": {
+        "before": {
+          "tp": 6675,
+          "fp": 903,
+          "fn": 2774,
+          "tn": 20746
+        },
+        "after": {
+          "tp": 6677,
+          "fp": 903,
+          "fn": 2772,
+          "tn": 20746
+        },
+        "delta_tp": 2,
+        "delta_fp": 0,
+        "f1_before": 0.7840488635696247,
+        "f1_after": 0.7841916730283633
+      },
+      "frozen": {
+        "before": {
+          "tp": 6675,
+          "fp": 903,
+          "fn": 2774,
+          "tn": 20746
+        },
+        "after": {
+          "tp": 6689,
+          "fp": 1160,
+          "fn": 2760,
+          "tn": 20489
+        },
+        "delta_tp": 14,
+        "delta_fp": 257,
+        "f1_before": 0.7840488635696247,
+        "f1_after": 0.7733842062666204
+      },
+      "per_project": {
+        "chromium": {
+          "before": {
+            "tp": 3669,
+            "fp": 825,
+            "fn": 1211,
+            "tn": 19004
+          },
+          "after": {
+            "tp": 3669,
+            "fp": 825,
+            "fn": 1211,
+            "tn": 19004
+          },
+          "delta_tp": 0,
+          "delta_fp": 0,
+          "f1_before": 0.7828034990398975,
+          "f1_after": 0.7828034990398975
+        },
+        "ffmpeg": {
+          "before": {
+            "tp": 1317,
+            "fp": 36,
+            "fn": 294,
+            "tn": 427
+          },
+          "after": {
+            "tp": 1319,
+            "fp": 36,
+            "fn": 292,
+            "tn": 427
+          },
+          "delta_tp": 2,
+          "delta_fp": 0,
+          "f1_before": 0.888663967611336,
+          "f1_after": 0.8894133513149022
+        },
+        "qemu": {
+          "before": {
+            "tp": 1689,
+            "fp": 42,
+            "fn": 1269,
+            "tn": 1315
+          },
+          "after": {
+            "tp": 1689,
+            "fp": 42,
+            "fn": 1269,
+            "tn": 1315
+          },
+          "delta_tp": 0,
+          "delta_fp": 0,
+          "f1_before": 0.7204094689699296,
+          "f1_after": 0.7204094689699296
+        }
+      },
+      "project_tp": 2,
+      "threshold": 0.14751876890659332,
+      "cal_queries": 6045,
+      "test_queries": 11349
+    },
+    "both:no:blend:0.5": {
+      "calibration": {
+        "before": {
+          "tp": 34,
+          "fp": 106,
+          "fn": 44,
+          "tn": 1383
+        },
+        "after": {
+          "tp": 34,
+          "fp": 106,
+          "fn": 44,
+          "tn": 1383
+        },
+        "delta_tp": 0,
+        "delta_fp": 0,
+        "f1_before": 0.3119266055045872,
+        "f1_after": 0.3119266055045872
+      },
+      "matched": {
+        "before": {
+          "tp": 6675,
+          "fp": 903,
+          "fn": 2774,
+          "tn": 20746
+        },
+        "after": {
+          "tp": 6719,
+          "fp": 903,
+          "fn": 2730,
+          "tn": 20746
+        },
+        "delta_tp": 44,
+        "delta_fp": 0,
+        "f1_before": 0.7840488635696247,
+        "f1_after": 0.7871829418311757
+      },
+      "frozen": {
+        "before": {
+          "tp": 6675,
+          "fp": 903,
+          "fn": 2774,
+          "tn": 20746
+        },
+        "after": {
+          "tp": 6966,
+          "fp": 2599,
+          "fn": 2483,
+          "tn": 19050
+        },
+        "delta_tp": 291,
+        "delta_fp": 1696,
+        "f1_before": 0.7840488635696247,
+        "f1_after": 0.7327232565478069
+      },
+      "per_project": {
+        "chromium": {
+          "before": {
+            "tp": 3669,
+            "fp": 825,
+            "fn": 1211,
+            "tn": 19004
+          },
+          "after": {
+            "tp": 3704,
+            "fp": 825,
+            "fn": 1176,
+            "tn": 19004
+          },
+          "delta_tp": 35,
+          "delta_fp": 0,
+          "f1_before": 0.7828034990398975,
+          "f1_after": 0.7873312785630779
+        },
+        "ffmpeg": {
+          "before": {
+            "tp": 1317,
+            "fp": 36,
+            "fn": 294,
+            "tn": 427
+          },
+          "after": {
+            "tp": 1318,
+            "fp": 36,
+            "fn": 293,
+            "tn": 427
+          },
+          "delta_tp": 1,
+          "delta_fp": 0,
+          "f1_before": 0.888663967611336,
+          "f1_after": 0.8890387858347386
+        },
+        "qemu": {
+          "before": {
+            "tp": 1689,
+            "fp": 42,
+            "fn": 1269,
+            "tn": 1315
+          },
+          "after": {
+            "tp": 1697,
+            "fp": 42,
+            "fn": 1261,
+            "tn": 1315
+          },
+          "delta_tp": 8,
+          "delta_fp": 0,
+          "f1_before": 0.7204094689699296,
+          "f1_after": 0.7225888865233128
+        }
+      },
+      "project_tp": 44,
+      "threshold": 0.13325701653957367,
+      "cal_queries": 1567,
+      "test_queries": 12958
+    },
+    "both:no:blend:1": {
+      "calibration": {
+        "before": {
+          "tp": 34,
+          "fp": 106,
+          "fn": 44,
+          "tn": 1383
+        },
+        "after": {
+          "tp": 32,
+          "fp": 106,
+          "fn": 46,
+          "tn": 1383
+        },
+        "delta_tp": -2,
+        "delta_fp": 0,
+        "f1_before": 0.3119266055045872,
+        "f1_after": 0.2962962962962963
+      },
+      "matched": {
+        "before": {
+          "tp": 6675,
+          "fp": 903,
+          "fn": 2774,
+          "tn": 20746
+        },
+        "after": {
+          "tp": 6730,
+          "fp": 903,
+          "fn": 2719,
+          "tn": 20746
+        },
+        "delta_tp": 55,
+        "delta_fp": 0,
+        "f1_before": 0.7840488635696247,
+        "f1_after": 0.7879639386488702
+      },
+      "frozen": {
+        "before": {
+          "tp": 6675,
+          "fp": 903,
+          "fn": 2774,
+          "tn": 20746
+        },
+        "after": {
+          "tp": 7098,
+          "fp": 3781,
+          "fn": 2351,
+          "tn": 17868
+        },
+        "delta_tp": 423,
+        "delta_fp": 2878,
+        "f1_before": 0.7840488635696247,
+        "f1_after": 0.6983471074380165
+      },
+      "per_project": {
+        "chromium": {
+          "before": {
+            "tp": 3669,
+            "fp": 825,
+            "fn": 1211,
+            "tn": 19004
+          },
+          "after": {
+            "tp": 3712,
+            "fp": 825,
+            "fn": 1168,
+            "tn": 19004
+          },
+          "delta_tp": 43,
+          "delta_fp": 0,
+          "f1_before": 0.7828034990398975,
+          "f1_after": 0.7883614739301263
+        },
+        "ffmpeg": {
+          "before": {
+            "tp": 1317,
+            "fp": 36,
+            "fn": 294,
+            "tn": 427
+          },
+          "after": {
+            "tp": 1318,
+            "fp": 36,
+            "fn": 293,
+            "tn": 427
+          },
+          "delta_tp": 1,
+          "delta_fp": 0,
+          "f1_before": 0.888663967611336,
+          "f1_after": 0.8890387858347386
+        },
+        "qemu": {
+          "before": {
+            "tp": 1689,
+            "fp": 42,
+            "fn": 1269,
+            "tn": 1315
+          },
+          "after": {
+            "tp": 1700,
+            "fp": 42,
+            "fn": 1258,
+            "tn": 1315
+          },
+          "delta_tp": 11,
+          "delta_fp": 0,
+          "f1_before": 0.7204094689699296,
+          "f1_after": 0.723404255319149
+        }
+      },
+      "project_tp": 55,
+      "threshold": 0.1472632884979248,
+      "cal_queries": 1567,
+      "test_queries": 12958
+    },
+    "both:no:veto:0.5": {
+      "calibration": {
+        "before": {
+          "tp": 34,
+          "fp": 106,
+          "fn": 44,
+          "tn": 1383
+        },
+        "after": {
+          "tp": 35,
+          "fp": 106,
+          "fn": 43,
+          "tn": 1383
+        },
+        "delta_tp": 1,
+        "delta_fp": 0,
+        "f1_before": 0.3119266055045872,
+        "f1_after": 0.319634703196347
+      },
+      "matched": {
+        "before": {
+          "tp": 6675,
+          "fp": 903,
+          "fn": 2774,
+          "tn": 20746
+        },
+        "after": {
+          "tp": 6688,
+          "fp": 903,
+          "fn": 2761,
+          "tn": 20746
+        },
+        "delta_tp": 13,
+        "delta_fp": 0,
+        "f1_before": 0.7840488635696247,
+        "f1_after": 0.7849765258215963
+      },
+      "frozen": {
+        "before": {
+          "tp": 6675,
+          "fp": 903,
+          "fn": 2774,
+          "tn": 20746
+        },
+        "after": {
+          "tp": 6719,
+          "fp": 1102,
+          "fn": 2730,
+          "tn": 20547
+        },
+        "delta_tp": 44,
+        "delta_fp": 199,
+        "f1_before": 0.7840488635696247,
+        "f1_after": 0.7781123335263462
+      },
+      "per_project": {
+        "chromium": {
+          "before": {
+            "tp": 3669,
+            "fp": 825,
+            "fn": 1211,
+            "tn": 19004
+          },
+          "after": {
+            "tp": 3674,
+            "fp": 825,
+            "fn": 1206,
+            "tn": 19004
+          },
+          "delta_tp": 5,
+          "delta_fp": 0,
+          "f1_before": 0.7828034990398975,
+          "f1_after": 0.783452393645378
+        },
+        "ffmpeg": {
+          "before": {
+            "tp": 1317,
+            "fp": 36,
+            "fn": 294,
+            "tn": 427
+          },
+          "after": {
+            "tp": 1320,
+            "fp": 36,
+            "fn": 291,
+            "tn": 427
+          },
+          "delta_tp": 3,
+          "delta_fp": 0,
+          "f1_before": 0.888663967611336,
+          "f1_after": 0.8897876643073812
+        },
+        "qemu": {
+          "before": {
+            "tp": 1689,
+            "fp": 42,
+            "fn": 1269,
+            "tn": 1315
+          },
+          "after": {
+            "tp": 1694,
+            "fp": 42,
+            "fn": 1264,
+            "tn": 1315
+          },
+          "delta_tp": 5,
+          "delta_fp": 0,
+          "f1_before": 0.7204094689699296,
+          "f1_after": 0.7217724755006392
+        }
+      },
+      "project_tp": 13,
+      "threshold": 0.11975225806236267,
+      "cal_queries": 1567,
+      "test_queries": 12958
+    },
+    "both:no:veto:1": {
+      "calibration": {
+        "before": {
+          "tp": 34,
+          "fp": 106,
+          "fn": 44,
+          "tn": 1383
+        },
+        "after": {
+          "tp": 31,
+          "fp": 106,
+          "fn": 47,
+          "tn": 1383
+        },
+        "delta_tp": -3,
+        "delta_fp": 0,
+        "f1_before": 0.3119266055045872,
+        "f1_after": 0.28837209302325584
+      },
+      "matched": {
+        "before": {
+          "tp": 6675,
+          "fp": 903,
+          "fn": 2774,
+          "tn": 20746
+        },
+        "after": {
+          "tp": 6693,
+          "fp": 903,
+          "fn": 2756,
+          "tn": 20746
+        },
+        "delta_tp": 18,
+        "delta_fp": 0,
+        "f1_before": 0.7840488635696247,
+        "f1_after": 0.7853329422117923
+      },
+      "frozen": {
+        "before": {
+          "tp": 6675,
+          "fp": 903,
+          "fn": 2774,
+          "tn": 20746
+        },
+        "after": {
+          "tp": 6737,
+          "fp": 1220,
+          "fn": 2712,
+          "tn": 20429
+        },
+        "delta_tp": 62,
+        "delta_fp": 317,
+        "f1_before": 0.7840488635696247,
+        "f1_after": 0.7741008847523843
+      },
+      "per_project": {
+        "chromium": {
+          "before": {
+            "tp": 3669,
+            "fp": 825,
+            "fn": 1211,
+            "tn": 19004
+          },
+          "after": {
+            "tp": 3671,
+            "fp": 825,
+            "fn": 1209,
+            "tn": 19004
+          },
+          "delta_tp": 2,
+          "delta_fp": 0,
+          "f1_before": 0.7828034990398975,
+          "f1_after": 0.7830631399317406
+        },
+        "ffmpeg": {
+          "before": {
+            "tp": 1317,
+            "fp": 36,
+            "fn": 294,
+            "tn": 427
+          },
+          "after": {
+            "tp": 1319,
+            "fp": 36,
+            "fn": 292,
+            "tn": 427
+          },
+          "delta_tp": 2,
+          "delta_fp": 0,
+          "f1_before": 0.888663967611336,
+          "f1_after": 0.8894133513149022
+        },
+        "qemu": {
+          "before": {
+            "tp": 1689,
+            "fp": 42,
+            "fn": 1269,
+            "tn": 1315
+          },
+          "after": {
+            "tp": 1703,
+            "fp": 42,
+            "fn": 1255,
+            "tn": 1315
+          },
+          "delta_tp": 14,
+          "delta_fp": 0,
+          "f1_before": 0.7204094689699296,
+          "f1_after": 0.7242185838826282
+        }
+      },
+      "project_tp": 18,
+      "threshold": 0.10991537570953369,
+      "cal_queries": 1567,
+      "test_queries": 12958
+    },
+    "both:no:promote:0.5": {
+      "calibration": {
+        "before": {
+          "tp": 34,
+          "fp": 106,
+          "fn": 44,
+          "tn": 1383
+        },
+        "after": {
+          "tp": 33,
+          "fp": 106,
+          "fn": 45,
+          "tn": 1383
+        },
+        "delta_tp": -1,
+        "delta_fp": 0,
+        "f1_before": 0.3119266055045872,
+        "f1_after": 0.30414746543778803
+      },
+      "matched": {
+        "before": {
+          "tp": 6675,
+          "fp": 903,
+          "fn": 2774,
+          "tn": 20746
+        },
+        "after": {
+          "tp": 6706,
+          "fp": 903,
+          "fn": 2743,
+          "tn": 20746
+        },
+        "delta_tp": 31,
+        "delta_fp": 0,
+        "f1_before": 0.7840488635696247,
+        "f1_after": 0.786258646969164
+      },
+      "frozen": {
+        "before": {
+          "tp": 6675,
+          "fp": 903,
+          "fn": 2774,
+          "tn": 20746
+        },
+        "after": {
+          "tp": 6886,
+          "fp": 2107,
+          "fn": 2563,
+          "tn": 19542
+        },
+        "delta_tp": 211,
+        "delta_fp": 1204,
+        "f1_before": 0.7840488635696247,
+        "f1_after": 0.7467736687994795
+      },
+      "per_project": {
+        "chromium": {
+          "before": {
+            "tp": 3669,
+            "fp": 825,
+            "fn": 1211,
+            "tn": 19004
+          },
+          "after": {
+            "tp": 3695,
+            "fp": 825,
+            "fn": 1185,
+            "tn": 19004
+          },
+          "delta_tp": 26,
+          "delta_fp": 0,
+          "f1_before": 0.7828034990398975,
+          "f1_after": 0.7861702127659574
+        },
+        "ffmpeg": {
+          "before": {
+            "tp": 1317,
+            "fp": 36,
+            "fn": 294,
+            "tn": 427
+          },
+          "after": {
+            "tp": 1318,
+            "fp": 36,
+            "fn": 293,
+            "tn": 427
+          },
+          "delta_tp": 1,
+          "delta_fp": 0,
+          "f1_before": 0.888663967611336,
+          "f1_after": 0.8890387858347386
+        },
+        "qemu": {
+          "before": {
+            "tp": 1689,
+            "fp": 42,
+            "fn": 1269,
+            "tn": 1315
+          },
+          "after": {
+            "tp": 1693,
+            "fp": 42,
+            "fn": 1265,
+            "tn": 1315
+          },
+          "delta_tp": 4,
+          "delta_fp": 0,
+          "f1_before": 0.7204094689699296,
+          "f1_after": 0.7215001065416577
+        }
+      },
+      "project_tp": 31,
+      "threshold": 0.15218688547611237,
+      "cal_queries": 1567,
+      "test_queries": 12958
+    },
+    "both:no:promote:1": {
+      "calibration": {
+        "before": {
+          "tp": 34,
+          "fp": 106,
+          "fn": 44,
+          "tn": 1383
+        },
+        "after": {
+          "tp": 35,
+          "fp": 106,
+          "fn": 43,
+          "tn": 1383
+        },
+        "delta_tp": 1,
+        "delta_fp": 0,
+        "f1_before": 0.3119266055045872,
+        "f1_after": 0.319634703196347
+      },
+      "matched": {
+        "before": {
+          "tp": 6675,
+          "fp": 903,
+          "fn": 2774,
+          "tn": 20746
+        },
+        "after": {
+          "tp": 6718,
+          "fp": 903,
+          "fn": 2731,
+          "tn": 20746
+        },
+        "delta_tp": 43,
+        "delta_fp": 0,
+        "f1_before": 0.7840488635696247,
+        "f1_after": 0.787111892208553
+      },
+      "frozen": {
+        "before": {
+          "tp": 6675,
+          "fp": 903,
+          "fn": 2774,
+          "tn": 20746
+        },
+        "after": {
+          "tp": 7024,
+          "fp": 3110,
+          "fn": 2425,
+          "tn": 18539
+        },
+        "delta_tp": 349,
+        "delta_fp": 2207,
+        "f1_before": 0.7840488635696247,
+        "f1_after": 0.7173568911811264
+      },
+      "per_project": {
+        "chromium": {
+          "before": {
+            "tp": 3669,
+            "fp": 825,
+            "fn": 1211,
+            "tn": 19004
+          },
+          "after": {
+            "tp": 3700,
+            "fp": 825,
+            "fn": 1180,
+            "tn": 19004
+          },
+          "delta_tp": 31,
+          "delta_fp": 0,
+          "f1_before": 0.7828034990398975,
+          "f1_after": 0.786815523657629
+        },
+        "ffmpeg": {
+          "before": {
+            "tp": 1317,
+            "fp": 36,
+            "fn": 294,
+            "tn": 427
+          },
+          "after": {
+            "tp": 1319,
+            "fp": 36,
+            "fn": 292,
+            "tn": 427
+          },
+          "delta_tp": 2,
+          "delta_fp": 0,
+          "f1_before": 0.888663967611336,
+          "f1_after": 0.8894133513149022
+        },
+        "qemu": {
+          "before": {
+            "tp": 1689,
+            "fp": 42,
+            "fn": 1269,
+            "tn": 1315
+          },
+          "after": {
+            "tp": 1699,
+            "fp": 42,
+            "fn": 1259,
+            "tn": 1315
+          },
+          "delta_tp": 10,
+          "delta_fp": 0,
+          "f1_before": 0.7204094689699296,
+          "f1_after": 0.7231325814002979
+        }
+      },
+      "project_tp": 43,
+      "threshold": 0.16889676451683044,
+      "cal_queries": 1567,
+      "test_queries": 12958
+    },
+    "both:yes:blend:0.5": {
+      "calibration": {
+        "before": {
+          "tp": 996,
+          "fp": 192,
+          "fn": 1,
+          "tn": 46
+        },
+        "after": {
+          "tp": 996,
+          "fp": 192,
+          "fn": 1,
+          "tn": 46
+        },
+        "delta_tp": 0,
+        "delta_fp": 0,
+        "f1_before": 0.9116704805491991,
+        "f1_after": 0.9116704805491991
+      },
+      "matched": {
+        "before": {
+          "tp": 6675,
+          "fp": 903,
+          "fn": 2774,
+          "tn": 20746
+        },
+        "after": {
+          "tp": 6696,
+          "fp": 903,
+          "fn": 2753,
+          "tn": 20746
+        },
+        "delta_tp": 21,
+        "delta_fp": 0,
+        "f1_before": 0.7840488635696247,
+        "f1_after": 0.7855466916940403
+      },
+      "frozen": {
+        "before": {
+          "tp": 6675,
+          "fp": 903,
+          "fn": 2774,
+          "tn": 20746
+        },
+        "after": {
+          "tp": 6652,
+          "fp": 902,
+          "fn": 2797,
+          "tn": 20747
+        },
+        "delta_tp": -23,
+        "delta_fp": -1,
+        "f1_before": 0.7840488635696247,
+        "f1_after": 0.7824501558548491
+      },
+      "per_project": {
+        "chromium": {
+          "before": {
+            "tp": 3669,
+            "fp": 825,
+            "fn": 1211,
+            "tn": 19004
+          },
+          "after": {
+            "tp": 3690,
+            "fp": 825,
+            "fn": 1190,
+            "tn": 19004
+          },
+          "delta_tp": 21,
+          "delta_fp": 0,
+          "f1_before": 0.7828034990398975,
+          "f1_after": 0.785524215007983
+        },
+        "ffmpeg": {
+          "before": {
+            "tp": 1317,
+            "fp": 36,
+            "fn": 294,
+            "tn": 427
+          },
+          "after": {
+            "tp": 1317,
+            "fp": 36,
+            "fn": 294,
+            "tn": 427
+          },
+          "delta_tp": 0,
+          "delta_fp": 0,
+          "f1_before": 0.888663967611336,
+          "f1_after": 0.888663967611336
+        },
+        "qemu": {
+          "before": {
+            "tp": 1689,
+            "fp": 42,
+            "fn": 1269,
+            "tn": 1315
+          },
+          "after": {
+            "tp": 1689,
+            "fp": 42,
+            "fn": 1269,
+            "tn": 1315
+          },
+          "delta_tp": 0,
+          "delta_fp": 0,
+          "f1_before": 0.7204094689699296,
+          "f1_after": 0.7204094689699296
+        }
+      },
+      "project_tp": 21,
+      "threshold": 0.13281404972076416,
+      "cal_queries": 1235,
+      "test_queries": 2763
+    },
+    "both:yes:blend:1": {
+      "calibration": {
+        "before": {
+          "tp": 996,
+          "fp": 192,
+          "fn": 1,
+          "tn": 46
+        },
+        "after": {
+          "tp": 996,
+          "fp": 192,
+          "fn": 1,
+          "tn": 46
+        },
+        "delta_tp": 0,
+        "delta_fp": 0,
+        "f1_before": 0.9116704805491991,
+        "f1_after": 0.9116704805491991
+      },
+      "matched": {
+        "before": {
+          "tp": 6675,
+          "fp": 903,
+          "fn": 2774,
+          "tn": 20746
+        },
+        "after": {
+          "tp": 6698,
+          "fp": 903,
+          "fn": 2751,
+          "tn": 20746
+        },
+        "delta_tp": 23,
+        "delta_fp": 0,
+        "f1_before": 0.7840488635696247,
+        "f1_after": 0.7856891495601173
+      },
+      "frozen": {
+        "before": {
+          "tp": 6675,
+          "fp": 903,
+          "fn": 2774,
+          "tn": 20746
+        },
+        "after": {
+          "tp": 6632,
+          "fp": 901,
+          "fn": 2817,
+          "tn": 20748
+        },
+        "delta_tp": -43,
+        "delta_fp": -2,
+        "f1_before": 0.7840488635696247,
+        "f1_after": 0.7810623012601579
+      },
+      "per_project": {
+        "chromium": {
+          "before": {
+            "tp": 3669,
+            "fp": 825,
+            "fn": 1211,
+            "tn": 19004
+          },
+          "after": {
+            "tp": 3692,
+            "fp": 825,
+            "fn": 1188,
+            "tn": 19004
+          },
+          "delta_tp": 23,
+          "delta_fp": 0,
+          "f1_before": 0.7828034990398975,
+          "f1_after": 0.7857826966052995
+        },
+        "ffmpeg": {
+          "before": {
+            "tp": 1317,
+            "fp": 36,
+            "fn": 294,
+            "tn": 427
+          },
+          "after": {
+            "tp": 1317,
+            "fp": 36,
+            "fn": 294,
+            "tn": 427
+          },
+          "delta_tp": 0,
+          "delta_fp": 0,
+          "f1_before": 0.888663967611336,
+          "f1_after": 0.888663967611336
+        },
+        "qemu": {
+          "before": {
+            "tp": 1689,
+            "fp": 42,
+            "fn": 1269,
+            "tn": 1315
+          },
+          "after": {
+            "tp": 1689,
+            "fp": 42,
+            "fn": 1269,
+            "tn": 1315
+          },
+          "delta_tp": 0,
+          "delta_fp": 0,
+          "f1_before": 0.7204094689699296,
+          "f1_after": 0.7204094689699296
+        }
+      },
+      "project_tp": 23,
+      "threshold": 0.12194915860891342,
+      "cal_queries": 1235,
+      "test_queries": 2763
+    },
+    "both:yes:veto:0.5": {
+      "calibration": {
+        "before": {
+          "tp": 996,
+          "fp": 192,
+          "fn": 1,
+          "tn": 46
+        },
+        "after": {
+          "tp": 996,
+          "fp": 192,
+          "fn": 1,
+          "tn": 46
+        },
+        "delta_tp": 0,
+        "delta_fp": 0,
+        "f1_before": 0.9116704805491991,
+        "f1_after": 0.9116704805491991
+      },
+      "matched": {
+        "before": {
+          "tp": 6675,
+          "fp": 903,
+          "fn": 2774,
+          "tn": 20746
+        },
+        "after": {
+          "tp": 6664,
+          "fp": 903,
+          "fn": 2785,
+          "tn": 20746
+        },
+        "delta_tp": -11,
+        "delta_fp": 0,
+        "f1_before": 0.7840488635696247,
+        "f1_after": 0.7832628114715562
+      },
+      "frozen": {
+        "before": {
+          "tp": 6675,
+          "fp": 903,
+          "fn": 2774,
+          "tn": 20746
+        },
+        "after": {
+          "tp": 6669,
+          "fp": 904,
+          "fn": 2780,
+          "tn": 20745
+        },
+        "delta_tp": -6,
+        "delta_fp": 1,
+        "f1_before": 0.7840488635696247,
+        "f1_after": 0.7835741980965809
+      },
+      "per_project": {
+        "chromium": {
+          "before": {
+            "tp": 3669,
+            "fp": 825,
+            "fn": 1211,
+            "tn": 19004
+          },
+          "after": {
+            "tp": 3658,
+            "fp": 825,
+            "fn": 1222,
+            "tn": 19004
+          },
+          "delta_tp": -11,
+          "delta_fp": 0,
+          "f1_before": 0.7828034990398975,
+          "f1_after": 0.7813734914023284
+        },
+        "ffmpeg": {
+          "before": {
+            "tp": 1317,
+            "fp": 36,
+            "fn": 294,
+            "tn": 427
+          },
+          "after": {
+            "tp": 1317,
+            "fp": 36,
+            "fn": 294,
+            "tn": 427
+          },
+          "delta_tp": 0,
+          "delta_fp": 0,
+          "f1_before": 0.888663967611336,
+          "f1_after": 0.888663967611336
+        },
+        "qemu": {
+          "before": {
+            "tp": 1689,
+            "fp": 42,
+            "fn": 1269,
+            "tn": 1315
+          },
+          "after": {
+            "tp": 1689,
+            "fp": 42,
+            "fn": 1269,
+            "tn": 1315
+          },
+          "delta_tp": 0,
+          "delta_fp": 0,
+          "f1_before": 0.7204094689699296,
+          "f1_after": 0.7204094689699296
+        }
+      },
+      "project_tp": -11,
+      "threshold": 0.12693725526332855,
+      "cal_queries": 1235,
+      "test_queries": 2763
+    },
+    "both:yes:veto:1": {
+      "calibration": {
+        "before": {
+          "tp": 996,
+          "fp": 192,
+          "fn": 1,
+          "tn": 46
+        },
+        "after": {
+          "tp": 996,
+          "fp": 192,
+          "fn": 1,
+          "tn": 46
+        },
+        "delta_tp": 0,
+        "delta_fp": 0,
+        "f1_before": 0.9116704805491991,
+        "f1_after": 0.9116704805491991
+      },
+      "matched": {
+        "before": {
+          "tp": 6675,
+          "fp": 903,
+          "fn": 2774,
+          "tn": 20746
+        },
+        "after": {
+          "tp": 6649,
+          "fp": 903,
+          "fn": 2800,
+          "tn": 20746
+        },
+        "delta_tp": -26,
+        "delta_fp": 0,
+        "f1_before": 0.7840488635696247,
+        "f1_after": 0.7821892829833539
+      },
+      "frozen": {
+        "before": {
+          "tp": 6675,
+          "fp": 903,
+          "fn": 2774,
+          "tn": 20746
+        },
+        "after": {
+          "tp": 6658,
+          "fp": 904,
+          "fn": 2791,
+          "tn": 20745
+        },
+        "delta_tp": -17,
+        "delta_fp": 1,
+        "f1_before": 0.7840488635696247,
+        "f1_after": 0.782787608018341
+      },
+      "per_project": {
+        "chromium": {
+          "before": {
+            "tp": 3669,
+            "fp": 825,
+            "fn": 1211,
+            "tn": 19004
+          },
+          "after": {
+            "tp": 3643,
+            "fp": 825,
+            "fn": 1237,
+            "tn": 19004
+          },
+          "delta_tp": -26,
+          "delta_fp": 0,
+          "f1_before": 0.7828034990398975,
+          "f1_after": 0.7794180573384681
+        },
+        "ffmpeg": {
+          "before": {
+            "tp": 1317,
+            "fp": 36,
+            "fn": 294,
+            "tn": 427
+          },
+          "after": {
+            "tp": 1317,
+            "fp": 36,
+            "fn": 294,
+            "tn": 427
+          },
+          "delta_tp": 0,
+          "delta_fp": 0,
+          "f1_before": 0.888663967611336,
+          "f1_after": 0.888663967611336
+        },
+        "qemu": {
+          "before": {
+            "tp": 1689,
+            "fp": 42,
+            "fn": 1269,
+            "tn": 1315
+          },
+          "after": {
+            "tp": 1689,
+            "fp": 42,
+            "fn": 1269,
+            "tn": 1315
+          },
+          "delta_tp": 0,
+          "delta_fp": 0,
+          "f1_before": 0.7204094689699296,
+          "f1_after": 0.7204094689699296
+        }
+      },
+      "project_tp": -26,
+      "threshold": 0.11385168135166168,
+      "cal_queries": 1235,
+      "test_queries": 2763
+    },
+    "both:yes:promote:0.5": {
+      "calibration": {
+        "before": {
+          "tp": 996,
+          "fp": 192,
+          "fn": 1,
+          "tn": 46
+        },
+        "after": {
+          "tp": 995,
+          "fp": 192,
+          "fn": 2,
+          "tn": 46
+        },
+        "delta_tp": -1,
+        "delta_fp": 0,
+        "f1_before": 0.9116704805491991,
+        "f1_after": 0.9111721611721612
+      },
+      "matched": {
+        "before": {
+          "tp": 6675,
+          "fp": 903,
+          "fn": 2774,
+          "tn": 20746
+        },
+        "after": {
+          "tp": 6683,
+          "fp": 903,
+          "fn": 2766,
+          "tn": 20746
+        },
+        "delta_tp": 8,
+        "delta_fp": 0,
+        "f1_before": 0.7840488635696247,
+        "f1_after": 0.7846199002054594
+      },
+      "frozen": {
+        "before": {
+          "tp": 6675,
+          "fp": 903,
+          "fn": 2774,
+          "tn": 20746
+        },
+        "after": {
+          "tp": 6670,
+          "fp": 903,
+          "fn": 2779,
+          "tn": 20746
+        },
+        "delta_tp": -5,
+        "delta_fp": 0,
+        "f1_before": 0.7840488635696247,
+        "f1_after": 0.7836916931030431
+      },
+      "per_project": {
+        "chromium": {
+          "before": {
+            "tp": 3669,
+            "fp": 825,
+            "fn": 1211,
+            "tn": 19004
+          },
+          "after": {
+            "tp": 3677,
+            "fp": 825,
+            "fn": 1203,
+            "tn": 19004
+          },
+          "delta_tp": 8,
+          "delta_fp": 0,
+          "f1_before": 0.7828034990398975,
+          "f1_after": 0.7838413984225112
+        },
+        "ffmpeg": {
+          "before": {
+            "tp": 1317,
+            "fp": 36,
+            "fn": 294,
+            "tn": 427
+          },
+          "after": {
+            "tp": 1317,
+            "fp": 36,
+            "fn": 294,
+            "tn": 427
+          },
+          "delta_tp": 0,
+          "delta_fp": 0,
+          "f1_before": 0.888663967611336,
+          "f1_after": 0.888663967611336
+        },
+        "qemu": {
+          "before": {
+            "tp": 1689,
+            "fp": 42,
+            "fn": 1269,
+            "tn": 1315
+          },
+          "after": {
+            "tp": 1689,
+            "fp": 42,
+            "fn": 1269,
+            "tn": 1315
+          },
+          "delta_tp": 0,
+          "delta_fp": 0,
+          "f1_before": 0.7204094689699296,
+          "f1_after": 0.7204094689699296
+        }
+      },
+      "project_tp": 8,
+      "threshold": 0.1490652710199356,
+      "cal_queries": 1235,
+      "test_queries": 2763
+    },
+    "both:yes:promote:1": {
+      "calibration": {
+        "before": {
+          "tp": 996,
+          "fp": 192,
+          "fn": 1,
+          "tn": 46
+        },
+        "after": {
+          "tp": 995,
+          "fp": 192,
+          "fn": 2,
+          "tn": 46
+        },
+        "delta_tp": -1,
+        "delta_fp": 0,
+        "f1_before": 0.9116704805491991,
+        "f1_after": 0.9111721611721612
+      },
+      "matched": {
+        "before": {
+          "tp": 6675,
+          "fp": 903,
+          "fn": 2774,
+          "tn": 20746
+        },
+        "after": {
+          "tp": 6684,
+          "fp": 903,
+          "fn": 2765,
+          "tn": 20746
+        },
+        "delta_tp": 9,
+        "delta_fp": 0,
+        "f1_before": 0.7840488635696247,
+        "f1_after": 0.7846912420756046
+      },
+      "frozen": {
+        "before": {
+          "tp": 6675,
+          "fp": 903,
+          "fn": 2774,
+          "tn": 20746
+        },
+        "after": {
+          "tp": 6661,
+          "fp": 903,
+          "fn": 2788,
+          "tn": 20746
+        },
+        "delta_tp": -14,
+        "delta_fp": 0,
+        "f1_before": 0.7840488635696247,
+        "f1_after": 0.7830482572150709
+      },
+      "per_project": {
+        "chromium": {
+          "before": {
+            "tp": 3669,
+            "fp": 825,
+            "fn": 1211,
+            "tn": 19004
+          },
+          "after": {
+            "tp": 3678,
+            "fp": 825,
+            "fn": 1202,
+            "tn": 19004
+          },
+          "delta_tp": 9,
+          "delta_fp": 0,
+          "f1_before": 0.7828034990398975,
+          "f1_after": 0.7839710114036023
+        },
+        "ffmpeg": {
+          "before": {
+            "tp": 1317,
+            "fp": 36,
+            "fn": 294,
+            "tn": 427
+          },
+          "after": {
+            "tp": 1317,
+            "fp": 36,
+            "fn": 294,
+            "tn": 427
+          },
+          "delta_tp": 0,
+          "delta_fp": 0,
+          "f1_before": 0.888663967611336,
+          "f1_after": 0.888663967611336
+        },
+        "qemu": {
+          "before": {
+            "tp": 1689,
+            "fp": 42,
+            "fn": 1269,
+            "tn": 1315
+          },
+          "after": {
+            "tp": 1689,
+            "fp": 42,
+            "fn": 1269,
+            "tn": 1315
+          },
+          "delta_tp": 0,
+          "delta_fp": 0,
+          "f1_before": 0.7204094689699296,
+          "f1_after": 0.7204094689699296
+        }
+      },
+      "project_tp": 9,
+      "threshold": 0.15444961190223694,
+      "cal_queries": 1235,
+      "test_queries": 2763
+    },
+    "both:unqueried:blend:0.5": {
+      "calibration": {
+        "before": {
+          "tp": 18,
+          "fp": 0,
+          "fn": 43,
+          "tn": 5984
+        },
+        "after": {
+          "tp": 18,
+          "fp": 0,
+          "fn": 43,
+          "tn": 5984
+        },
+        "delta_tp": 0,
+        "delta_fp": 0,
+        "f1_before": 0.45569620253164556,
+        "f1_after": 0.45569620253164556
+      },
+      "matched": {
+        "before": {
+          "tp": 6675,
+          "fp": 903,
+          "fn": 2774,
+          "tn": 20746
+        },
+        "after": {
+          "tp": 6678,
+          "fp": 903,
+          "fn": 2771,
+          "tn": 20746
+        },
+        "delta_tp": 3,
+        "delta_fp": 0,
+        "f1_before": 0.7840488635696247,
+        "f1_after": 0.7842630651790957
+      },
+      "frozen": {
+        "before": {
+          "tp": 6675,
+          "fp": 903,
+          "fn": 2774,
+          "tn": 20746
+        },
+        "after": {
+          "tp": 6679,
+          "fp": 930,
+          "fn": 2770,
+          "tn": 20719
+        },
+        "delta_tp": 4,
+        "delta_fp": 27,
+        "f1_before": 0.7840488635696247,
+        "f1_after": 0.7830929769023333
+      },
+      "per_project": {
+        "chromium": {
+          "before": {
+            "tp": 3669,
+            "fp": 825,
+            "fn": 1211,
+            "tn": 19004
+          },
+          "after": {
+            "tp": 3669,
+            "fp": 825,
+            "fn": 1211,
+            "tn": 19004
+          },
+          "delta_tp": 0,
+          "delta_fp": 0,
+          "f1_before": 0.7828034990398975,
+          "f1_after": 0.7828034990398975
+        },
+        "ffmpeg": {
+          "before": {
+            "tp": 1317,
+            "fp": 36,
+            "fn": 294,
+            "tn": 427
+          },
+          "after": {
+            "tp": 1320,
+            "fp": 36,
+            "fn": 291,
+            "tn": 427
+          },
+          "delta_tp": 3,
+          "delta_fp": 0,
+          "f1_before": 0.888663967611336,
+          "f1_after": 0.8897876643073812
+        },
+        "qemu": {
+          "before": {
+            "tp": 1689,
+            "fp": 42,
+            "fn": 1269,
+            "tn": 1315
+          },
+          "after": {
+            "tp": 1689,
+            "fp": 42,
+            "fn": 1269,
+            "tn": 1315
+          },
+          "delta_tp": 0,
+          "delta_fp": 0,
+          "f1_before": 0.7204094689699296,
+          "f1_after": 0.7204094689699296
+        }
+      },
+      "project_tp": 3,
+      "threshold": 0.13158753514289856,
+      "cal_queries": 6045,
+      "test_queries": 11349
+    },
+    "both:unqueried:blend:1": {
+      "calibration": {
+        "before": {
+          "tp": 18,
+          "fp": 0,
+          "fn": 43,
+          "tn": 5984
+        },
+        "after": {
+          "tp": 18,
+          "fp": 0,
+          "fn": 43,
+          "tn": 5984
+        },
+        "delta_tp": 0,
+        "delta_fp": 0,
+        "f1_before": 0.45569620253164556,
+        "f1_after": 0.45569620253164556
+      },
+      "matched": {
+        "before": {
+          "tp": 6675,
+          "fp": 903,
+          "fn": 2774,
+          "tn": 20746
+        },
+        "after": {
+          "tp": 6678,
+          "fp": 903,
+          "fn": 2771,
+          "tn": 20746
+        },
+        "delta_tp": 3,
+        "delta_fp": 0,
+        "f1_before": 0.7840488635696247,
+        "f1_after": 0.7842630651790957
+      },
+      "frozen": {
+        "before": {
+          "tp": 6675,
+          "fp": 903,
+          "fn": 2774,
+          "tn": 20746
+        },
+        "after": {
+          "tp": 6679,
+          "fp": 920,
+          "fn": 2770,
+          "tn": 20729
+        },
+        "delta_tp": 4,
+        "delta_fp": 17,
+        "f1_before": 0.7840488635696247,
+        "f1_after": 0.7835523228531206
+      },
+      "per_project": {
+        "chromium": {
+          "before": {
+            "tp": 3669,
+            "fp": 825,
+            "fn": 1211,
+            "tn": 19004
+          },
+          "after": {
+            "tp": 3669,
+            "fp": 825,
+            "fn": 1211,
+            "tn": 19004
+          },
+          "delta_tp": 0,
+          "delta_fp": 0,
+          "f1_before": 0.7828034990398975,
+          "f1_after": 0.7828034990398975
+        },
+        "ffmpeg": {
+          "before": {
+            "tp": 1317,
+            "fp": 36,
+            "fn": 294,
+            "tn": 427
+          },
+          "after": {
+            "tp": 1320,
+            "fp": 36,
+            "fn": 291,
+            "tn": 427
+          },
+          "delta_tp": 3,
+          "delta_fp": 0,
+          "f1_before": 0.888663967611336,
+          "f1_after": 0.8897876643073812
+        },
+        "qemu": {
+          "before": {
+            "tp": 1689,
+            "fp": 42,
+            "fn": 1269,
+            "tn": 1315
+          },
+          "after": {
+            "tp": 1689,
+            "fp": 42,
+            "fn": 1269,
+            "tn": 1315
+          },
+          "delta_tp": 0,
+          "delta_fp": 0,
+          "f1_before": 0.7204094689699296,
+          "f1_after": 0.7204094689699296
+        }
+      },
+      "project_tp": 3,
+      "threshold": 0.2516128122806549,
+      "cal_queries": 6045,
+      "test_queries": 11349
+    },
+    "both:unqueried:veto:0.5": {
+      "calibration": {
+        "before": {
+          "tp": 18,
+          "fp": 0,
+          "fn": 43,
+          "tn": 5984
+        },
+        "after": {
+          "tp": 18,
+          "fp": 0,
+          "fn": 43,
+          "tn": 5984
+        },
+        "delta_tp": 0,
+        "delta_fp": 0,
+        "f1_before": 0.45569620253164556,
+        "f1_after": 0.45569620253164556
+      },
+      "matched": {
+        "before": {
+          "tp": 6675,
+          "fp": 903,
+          "fn": 2774,
+          "tn": 20746
+        },
+        "after": {
+          "tp": 6678,
+          "fp": 903,
+          "fn": 2771,
+          "tn": 20746
+        },
+        "delta_tp": 3,
+        "delta_fp": 0,
+        "f1_before": 0.7840488635696247,
+        "f1_after": 0.7842630651790957
+      },
+      "frozen": {
+        "before": {
+          "tp": 6675,
+          "fp": 903,
+          "fn": 2774,
+          "tn": 20746
+        },
+        "after": {
+          "tp": 6675,
+          "fp": 903,
+          "fn": 2774,
+          "tn": 20746
+        },
+        "delta_tp": 0,
+        "delta_fp": 0,
+        "f1_before": 0.7840488635696247,
+        "f1_after": 0.7840488635696247
+      },
+      "per_project": {
+        "chromium": {
+          "before": {
+            "tp": 3669,
+            "fp": 825,
+            "fn": 1211,
+            "tn": 19004
+          },
+          "after": {
+            "tp": 3669,
+            "fp": 825,
+            "fn": 1211,
+            "tn": 19004
+          },
+          "delta_tp": 0,
+          "delta_fp": 0,
+          "f1_before": 0.7828034990398975,
+          "f1_after": 0.7828034990398975
+        },
+        "ffmpeg": {
+          "before": {
+            "tp": 1317,
+            "fp": 36,
+            "fn": 294,
+            "tn": 427
+          },
+          "after": {
+            "tp": 1317,
+            "fp": 36,
+            "fn": 294,
+            "tn": 427
+          },
+          "delta_tp": 0,
+          "delta_fp": 0,
+          "f1_before": 0.888663967611336,
+          "f1_after": 0.888663967611336
+        },
+        "qemu": {
+          "before": {
+            "tp": 1689,
+            "fp": 42,
+            "fn": 1269,
+            "tn": 1315
+          },
+          "after": {
+            "tp": 1692,
+            "fp": 42,
+            "fn": 1266,
+            "tn": 1315
+          },
+          "delta_tp": 3,
+          "delta_fp": 0,
+          "f1_before": 0.7204094689699296,
+          "f1_after": 0.7212276214833759
+        }
+      },
+      "project_tp": 3,
+      "threshold": 0.12217559665441513,
+      "cal_queries": 6045,
+      "test_queries": 11349
+    },
+    "both:unqueried:veto:1": {
+      "calibration": {
+        "before": {
+          "tp": 18,
+          "fp": 0,
+          "fn": 43,
+          "tn": 5984
+        },
+        "after": {
+          "tp": 18,
+          "fp": 0,
+          "fn": 43,
+          "tn": 5984
+        },
+        "delta_tp": 0,
+        "delta_fp": 0,
+        "f1_before": 0.45569620253164556,
+        "f1_after": 0.45569620253164556
+      },
+      "matched": {
+        "before": {
+          "tp": 6675,
+          "fp": 903,
+          "fn": 2774,
+          "tn": 20746
+        },
+        "after": {
+          "tp": 6678,
+          "fp": 903,
+          "fn": 2771,
+          "tn": 20746
+        },
+        "delta_tp": 3,
+        "delta_fp": 0,
+        "f1_before": 0.7840488635696247,
+        "f1_after": 0.7842630651790957
+      },
+      "frozen": {
+        "before": {
+          "tp": 6675,
+          "fp": 903,
+          "fn": 2774,
+          "tn": 20746
+        },
+        "after": {
+          "tp": 6675,
+          "fp": 902,
+          "fn": 2774,
+          "tn": 20747
+        },
+        "delta_tp": 0,
+        "delta_fp": -1,
+        "f1_before": 0.7840488635696247,
+        "f1_after": 0.7840949136614589
+      },
+      "per_project": {
+        "chromium": {
+          "before": {
+            "tp": 3669,
+            "fp": 825,
+            "fn": 1211,
+            "tn": 19004
+          },
+          "after": {
+            "tp": 3669,
+            "fp": 825,
+            "fn": 1211,
+            "tn": 19004
+          },
+          "delta_tp": 0,
+          "delta_fp": 0,
+          "f1_before": 0.7828034990398975,
+          "f1_after": 0.7828034990398975
+        },
+        "ffmpeg": {
+          "before": {
+            "tp": 1317,
+            "fp": 36,
+            "fn": 294,
+            "tn": 427
+          },
+          "after": {
+            "tp": 1317,
+            "fp": 36,
+            "fn": 294,
+            "tn": 427
+          },
+          "delta_tp": 0,
+          "delta_fp": 0,
+          "f1_before": 0.888663967611336,
+          "f1_after": 0.888663967611336
+        },
+        "qemu": {
+          "before": {
+            "tp": 1689,
+            "fp": 42,
+            "fn": 1269,
+            "tn": 1315
+          },
+          "after": {
+            "tp": 1692,
+            "fp": 42,
+            "fn": 1266,
+            "tn": 1315
+          },
+          "delta_tp": 3,
+          "delta_fp": 0,
+          "f1_before": 0.7204094689699296,
+          "f1_after": 0.7212276214833759
+        }
+      },
+      "project_tp": 3,
+      "threshold": 0.12217559665441513,
+      "cal_queries": 6045,
+      "test_queries": 11349
+    },
+    "both:unqueried:promote:0.5": {
+      "calibration": {
+        "before": {
+          "tp": 18,
+          "fp": 0,
+          "fn": 43,
+          "tn": 5984
+        },
+        "after": {
+          "tp": 18,
+          "fp": 0,
+          "fn": 43,
+          "tn": 5984
+        },
+        "delta_tp": 0,
+        "delta_fp": 0,
+        "f1_before": 0.45569620253164556,
+        "f1_after": 0.45569620253164556
+      },
+      "matched": {
+        "before": {
+          "tp": 6675,
+          "fp": 903,
+          "fn": 2774,
+          "tn": 20746
+        },
+        "after": {
+          "tp": 6678,
+          "fp": 903,
+          "fn": 2771,
+          "tn": 20746
+        },
+        "delta_tp": 3,
+        "delta_fp": 0,
+        "f1_before": 0.7840488635696247,
+        "f1_after": 0.7842630651790957
+      },
+      "frozen": {
+        "before": {
+          "tp": 6675,
+          "fp": 903,
+          "fn": 2774,
+          "tn": 20746
+        },
+        "after": {
+          "tp": 6679,
+          "fp": 931,
+          "fn": 2770,
+          "tn": 20718
+        },
+        "delta_tp": 4,
+        "delta_fp": 28,
+        "f1_before": 0.7840488635696247,
+        "f1_after": 0.7830470719268421
+      },
+      "per_project": {
+        "chromium": {
+          "before": {
+            "tp": 3669,
+            "fp": 825,
+            "fn": 1211,
+            "tn": 19004
+          },
+          "after": {
+            "tp": 3669,
+            "fp": 825,
+            "fn": 1211,
+            "tn": 19004
+          },
+          "delta_tp": 0,
+          "delta_fp": 0,
+          "f1_before": 0.7828034990398975,
+          "f1_after": 0.7828034990398975
+        },
+        "ffmpeg": {
+          "before": {
+            "tp": 1317,
+            "fp": 36,
+            "fn": 294,
+            "tn": 427
+          },
+          "after": {
+            "tp": 1320,
+            "fp": 36,
+            "fn": 291,
+            "tn": 427
+          },
+          "delta_tp": 3,
+          "delta_fp": 0,
+          "f1_before": 0.888663967611336,
+          "f1_after": 0.8897876643073812
+        },
+        "qemu": {
+          "before": {
+            "tp": 1689,
+            "fp": 42,
+            "fn": 1269,
+            "tn": 1315
+          },
+          "after": {
+            "tp": 1689,
+            "fp": 42,
+            "fn": 1269,
+            "tn": 1315
+          },
+          "delta_tp": 0,
+          "delta_fp": 0,
+          "f1_before": 0.7204094689699296,
+          "f1_after": 0.7204094689699296
+        }
+      },
+      "project_tp": 3,
+      "threshold": 0.13158753514289856,
+      "cal_queries": 6045,
+      "test_queries": 11349
+    },
+    "both:unqueried:promote:1": {
+      "calibration": {
+        "before": {
+          "tp": 18,
+          "fp": 0,
+          "fn": 43,
+          "tn": 5984
+        },
+        "after": {
+          "tp": 18,
+          "fp": 0,
+          "fn": 43,
+          "tn": 5984
+        },
+        "delta_tp": 0,
+        "delta_fp": 0,
+        "f1_before": 0.45569620253164556,
+        "f1_after": 0.45569620253164556
+      },
+      "matched": {
+        "before": {
+          "tp": 6675,
+          "fp": 903,
+          "fn": 2774,
+          "tn": 20746
+        },
+        "after": {
+          "tp": 6678,
+          "fp": 903,
+          "fn": 2771,
+          "tn": 20746
+        },
+        "delta_tp": 3,
+        "delta_fp": 0,
+        "f1_before": 0.7840488635696247,
+        "f1_after": 0.7842630651790957
+      },
+      "frozen": {
+        "before": {
+          "tp": 6675,
+          "fp": 903,
+          "fn": 2774,
+          "tn": 20746
+        },
+        "after": {
+          "tp": 6679,
+          "fp": 920,
+          "fn": 2770,
+          "tn": 20729
+        },
+        "delta_tp": 4,
+        "delta_fp": 17,
+        "f1_before": 0.7840488635696247,
+        "f1_after": 0.7835523228531206
+      },
+      "per_project": {
+        "chromium": {
+          "before": {
+            "tp": 3669,
+            "fp": 825,
+            "fn": 1211,
+            "tn": 19004
+          },
+          "after": {
+            "tp": 3669,
+            "fp": 825,
+            "fn": 1211,
+            "tn": 19004
+          },
+          "delta_tp": 0,
+          "delta_fp": 0,
+          "f1_before": 0.7828034990398975,
+          "f1_after": 0.7828034990398975
+        },
+        "ffmpeg": {
+          "before": {
+            "tp": 1317,
+            "fp": 36,
+            "fn": 294,
+            "tn": 427
+          },
+          "after": {
+            "tp": 1320,
+            "fp": 36,
+            "fn": 291,
+            "tn": 427
+          },
+          "delta_tp": 3,
+          "delta_fp": 0,
+          "f1_before": 0.888663967611336,
+          "f1_after": 0.8897876643073812
+        },
+        "qemu": {
+          "before": {
+            "tp": 1689,
+            "fp": 42,
+            "fn": 1269,
+            "tn": 1315
+          },
+          "after": {
+            "tp": 1689,
+            "fp": 42,
+            "fn": 1269,
+            "tn": 1315
+          },
+          "delta_tp": 0,
+          "delta_fp": 0,
+          "f1_before": 0.7204094689699296,
+          "f1_after": 0.7204094689699296
+        }
+      },
+      "project_tp": 3,
+      "threshold": 0.2516128122806549,
+      "cal_queries": 6045,
+      "test_queries": 11349
+    }
+  },
+  "selected": {
+    "no": "token:no:blend:1",
+    "yes": "token:yes:blend:0.5",
+    "unqueried": "token:unqueried:blend:0.5"
+  },
+  "source_policy_sha256": "4370ff9c0791721cfcde30f70b35ddae0664ac006c589c1708c32fb1d5888cc6"
+}

@@ -1,0 +1,320 @@
+{
+  "release": {
+    "metrics": {
+      "vulnerability": {
+        "precision": 0.934853090172239,
+        "recall": 0.9179267807401512,
+        "f1": 0.9263126192149382
+      },
+      "MAT": {
+        "precision": 0.9977477477477478,
+        "recall": 0.8772277227722772,
+        "f1": 0.9336143308746049
+      },
+      "mean": {
+        "precision": 0.9663004189599934,
+        "recall": 0.8975772517562142,
+        "f1": 0.9299634750447716
+      }
+    },
+    "cost": {
+      "wall_seconds": 3.816866376902908,
+      "forward_seconds": 1.6962286736816168,
+      "analytic_gflops": 13860.222378532004,
+      "routed": 2038,
+      "teacher_rows": 0
+    },
+    "trials": [
+      {
+        "wall_seconds": 3.816866376902908,
+        "forward_seconds": 1.6962286736816168,
+        "analytic_gflops": 13860.222378532004,
+        "routed": 2038,
+        "teacher_rows": 0
+      },
+      {
+        "wall_seconds": 4.2992585501633584,
+        "forward_seconds": 1.8549789239186794,
+        "analytic_gflops": 13860.222378532004,
+        "routed": 2038,
+        "teacher_rows": 0
+      },
+      {
+        "wall_seconds": 3.742199104046449,
+        "forward_seconds": 1.6821933020837605,
+        "analytic_gflops": 13860.222378532004,
+        "routed": 2038,
+        "teacher_rows": 0
+      }
+    ],
+    "score": 0.9567148244668913,
+    "matched_fp": {
+      "before": {
+        "tp": 9229,
+        "fp": 643,
+        "fn": 823,
+        "tn": 19960
+      },
+      "after": {
+        "tp": 9229,
+        "fp": 643,
+        "fn": 823,
+        "tn": 19960
+      },
+      "delta_tp": 0,
+      "delta_fp": 0,
+      "f1_before": 0.9264203975105401,
+      "f1_after": 0.9264203975105401,
+      "corrected_confident_fp": 0,
+      "removed_fp": 0,
+      "added_fp": 0
+    },
+    "frozen": {
+      "before": {
+        "tp": 9227,
+        "fp": 643,
+        "fn": 825,
+        "tn": 19960
+      },
+      "after": {
+        "tp": 9227,
+        "fp": 643,
+        "fn": 825,
+        "tn": 19960
+      },
+      "delta_tp": 0,
+      "delta_fp": 0,
+      "f1_before": 0.9263126192149382,
+      "f1_after": 0.9263126192149382,
+      "corrected_confident_fp": 0,
+      "removed_fp": 0,
+      "added_fp": 0
+    },
+    "interval": {
+      "vulnerability": [
+        0.0,
+        0.0
+      ],
+      "MAT": [
+        0.0,
+        0.0
+      ],
+      "mean": [
+        0.0,
+        0.0
+      ]
+    }
+  },
+  "uncertainty": {
+    "metrics": {
+      "vulnerability": {
+        "precision": 0.9348739495798319,
+        "recall": 0.9296657381615598,
+        "f1": 0.9322625698324022
+      },
+      "MAT": {
+        "precision": 0.9977477477477478,
+        "recall": 0.8772277227722772,
+        "f1": 0.9336143308746049
+      },
+      "mean": {
+        "precision": 0.9663108486637899,
+        "recall": 0.9034467304669185,
+        "f1": 0.9329384503535035
+      }
+    },
+    "cost": {
+      "wall_seconds": 4.258066658163443,
+      "forward_seconds": 2.119425311451778,
+      "analytic_gflops": 39946.709436964,
+      "routed": 2038,
+      "teacher_rows": 1182
+    },
+    "trials": [
+      {
+        "wall_seconds": 4.704156698891893,
+        "forward_seconds": 2.0848882680293173,
+        "analytic_gflops": 39946.709436964,
+        "routed": 2038,
+        "teacher_rows": 1182
+      },
+      {
+        "wall_seconds": 4.184484869940206,
+        "forward_seconds": 2.119425311451778,
+        "analytic_gflops": 39946.709436964,
+        "routed": 2038,
+        "teacher_rows": 1182
+      },
+      {
+        "wall_seconds": 4.258066658163443,
+        "forward_seconds": 2.192312718136236,
+        "analytic_gflops": 39946.709436964,
+        "routed": 2038,
+        "teacher_rows": 1182
+      }
+    ],
+    "score": 0.9566760711873475,
+    "matched_fp": {
+      "before": {
+        "tp": 9229,
+        "fp": 643,
+        "fn": 823,
+        "tn": 19960
+      },
+      "after": {
+        "tp": 9343,
+        "fp": 643,
+        "fn": 709,
+        "tn": 19960
+      },
+      "delta_tp": 114,
+      "delta_fp": 0,
+      "f1_before": 0.9264203975105401,
+      "f1_after": 0.9325281964267891,
+      "corrected_confident_fp": 0,
+      "removed_fp": 86,
+      "added_fp": 86
+    },
+    "frozen": {
+      "before": {
+        "tp": 9227,
+        "fp": 643,
+        "fn": 825,
+        "tn": 19960
+      },
+      "after": {
+        "tp": 9345,
+        "fp": 651,
+        "fn": 707,
+        "tn": 19952
+      },
+      "delta_tp": 118,
+      "delta_fp": 8,
+      "f1_before": 0.9263126192149382,
+      "f1_after": 0.9322625698324022,
+      "corrected_confident_fp": 0,
+      "removed_fp": 83,
+      "added_fp": 91
+    },
+    "interval": {
+      "vulnerability": [
+        0.00407174568398482,
+        0.007858374360615714
+      ],
+      "MAT": [
+        0.0,
+        0.0
+      ],
+      "mean": [
+        0.00203587284199241,
+        0.003929187180307857
+      ]
+    }
+  },
+  "loss_gain": {
+    "metrics": {
+      "vulnerability": {
+        "precision": 0.9335074327038971,
+        "recall": 0.924592120970951,
+        "f1": 0.9290283886445422
+      },
+      "MAT": {
+        "precision": 0.9977477477477478,
+        "recall": 0.8772277227722772,
+        "f1": 0.9336143308746049
+      },
+      "mean": {
+        "precision": 0.9656275902258225,
+        "recall": 0.9009099218716141,
+        "f1": 0.9313213597595735
+      }
+    },
+    "cost": {
+      "wall_seconds": 4.0299927848391235,
+      "forward_seconds": 2.037877385504544,
+      "analytic_gflops": 22624.832163364004,
+      "routed": 2038,
+      "teacher_rows": 681
+    },
+    "trials": [
+      {
+        "wall_seconds": 4.1185090290382504,
+        "forward_seconds": 2.037877385504544,
+        "analytic_gflops": 22624.832163364004,
+        "routed": 2038,
+        "teacher_rows": 681
+      },
+      {
+        "wall_seconds": 3.9754171278327703,
+        "forward_seconds": 1.8622281902935356,
+        "analytic_gflops": 22624.832163364004,
+        "routed": 2038,
+        "teacher_rows": 681
+      },
+      {
+        "wall_seconds": 4.0299927848391235,
+        "forward_seconds": 2.101267512422055,
+        "analytic_gflops": 22624.832163364004,
+        "routed": 2038,
+        "teacher_rows": 681
+      }
+    ],
+    "score": 0.956876918234419,
+    "matched_fp": {
+      "before": {
+        "tp": 9229,
+        "fp": 643,
+        "fn": 823,
+        "tn": 19960
+      },
+      "after": {
+        "tp": 9275,
+        "fp": 643,
+        "fn": 777,
+        "tn": 19960
+      },
+      "delta_tp": 46,
+      "delta_fp": 0,
+      "f1_before": 0.9264203975105401,
+      "f1_after": 0.928893340010015,
+      "corrected_confident_fp": 0,
+      "removed_fp": 30,
+      "added_fp": 30
+    },
+    "frozen": {
+      "before": {
+        "tp": 9227,
+        "fp": 643,
+        "fn": 825,
+        "tn": 19960
+      },
+      "after": {
+        "tp": 9294,
+        "fp": 662,
+        "fn": 758,
+        "tn": 19941
+      },
+      "delta_tp": 67,
+      "delta_fp": 19,
+      "f1_before": 0.9263126192149382,
+      "f1_after": 0.9290283886445422,
+      "corrected_confident_fp": 0,
+      "removed_fp": 30,
+      "added_fp": 49
+    },
+    "interval": {
+      "vulnerability": [
+        0.0014563936640914793,
+        0.003962470125507627
+      ],
+      "MAT": [
+        0.0,
+        0.0
+      ],
+      "mean": [
+        0.0007281968320457397,
+        0.0019812350627538135
+      ]
+    }
+  }
+}

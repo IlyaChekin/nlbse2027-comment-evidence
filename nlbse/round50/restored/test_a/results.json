@@ -1,0 +1,132 @@
+{
+  "rotation": "test_a",
+  "fit_pairs": 4259,
+  "keys": 8027,
+  "line_positions": {
+    "eligible_gaps": 216893,
+    "different": 11317
+  },
+  "threshold_margin": 3.8,
+  "summary": {
+    "cal": {
+      "0.9": {
+        "truth_rows": 2275,
+        "changed_rows": 1354,
+        "break_edits": 1447,
+        "scans_if_replacing": 2340,
+        "rescanned": 1354,
+        "extra_chars": 19293,
+        "scanner_seconds": 0.8946880619041622,
+        "transform_seconds": 0.46520736813545227,
+        "coverage": {
+          "before": {
+            "tp": 582,
+            "fp": 213,
+            "fn": 45,
+            "tn": 1435
+          },
+          "after": {
+            "tp": 584,
+            "fp": 213,
+            "fn": 43,
+            "tn": 1435
+          },
+          "delta_tp": 2,
+          "delta_fp": 0,
+          "f1_before": 0.8185654008438819,
+          "f1_after": 0.8202247191011236
+        }
+      },
+      "0.97": {
+        "truth_rows": 2275,
+        "changed_rows": 30,
+        "break_edits": 30,
+        "scans_if_replacing": 2340,
+        "rescanned": 30,
+        "extra_chars": -108,
+        "scanner_seconds": 0.10562212090007961,
+        "transform_seconds": 0.3331772780511528,
+        "coverage": {
+          "before": {
+            "tp": 582,
+            "fp": 213,
+            "fn": 45,
+            "tn": 1435
+          },
+          "after": {
+            "tp": 582,
+            "fp": 213,
+            "fn": 45,
+            "tn": 1435
+          },
+          "delta_tp": 0,
+          "delta_fp": 0,
+          "f1_before": 0.8185654008438819,
+          "f1_after": 0.8185654008438819
+        }
+      }
+    },
+    "held": {
+      "0.9": {
+        "truth_rows": 14558,
+        "changed_rows": 930,
+        "break_edits": 1007,
+        "scans_if_replacing": 14717,
+        "rescanned": 930,
+        "extra_chars": 7635,
+        "scanner_seconds": 1.5176531129982322,
+        "transform_seconds": 1.5526435140054673,
+        "coverage": {
+          "before": {
+            "tp": 1780,
+            "fp": 107,
+            "fn": 362,
+            "tn": 12309
+          },
+          "after": {
+            "tp": 1780,
+            "fp": 107,
+            "fn": 362,
+            "tn": 12309
+          },
+          "delta_tp": 0,
+          "delta_fp": 0,
+          "f1_before": 0.8835939439066766,
+          "f1_after": 0.8835939439066766
+        }
+      },
+      "0.97": {
+        "truth_rows": 14558,
+        "changed_rows": 29,
+        "break_edits": 29,
+        "scans_if_replacing": 14717,
+        "rescanned": 29,
+        "extra_chars": -156,
+        "scanner_seconds": 0.11931088310666382,
+        "transform_seconds": 1.4452842068858445,
+        "coverage": {
+          "before": {
+            "tp": 1780,
+            "fp": 107,
+            "fn": 362,
+            "tn": 12309
+          },
+          "after": {
+            "tp": 1780,
+            "fp": 107,
+            "fn": 362,
+            "tn": 12309
+          },
+          "delta_tp": 0,
+          "delta_fp": 0,
+          "f1_before": 0.8835939439066766,
+          "f1_after": 0.8835939439066766
+        }
+      }
+    }
+  },
+  "predictions_sha256": "2e53d6baeb82bc2b22af9f86facddae21046d6033636bab3c3e37a4cdf2cc2a6",
+  "weights_sha256": "ccfdea921cec687be2c5c519dbd6b66dbbde52c7abdf7a0d39bc176d5242ed76",
+  "matrix_sha256": "1ab131c284d8a7e0e0334cf45dbc8f2b34ffa528a69a62ecfd26ff57e399e4e7",
+  "elapsed": 7.609218030003831
+}

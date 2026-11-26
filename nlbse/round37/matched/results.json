@@ -1,0 +1,1098 @@
+{
+  "analysis": {
+    "test_a": {
+      "regimes": {
+        "negative_consensus": {
+          "observed_rows": 32163,
+          "anchors": 282,
+          "matched_anchors": 233,
+          "pairs": 580,
+          "files": 166,
+          "error_type": "fn",
+          "pair_ranking": {
+            "compact": {
+              "pair_win": 0.5157367668097281,
+              "interval": [
+                0.4630202678248279,
+                0.5802152152152152
+              ],
+              "unique_positive": 233,
+              "scored_pairs": 580
+            },
+            "prior": {
+              "pair_win": 0.5207439198855508,
+              "interval": [
+                0.4668552917425554,
+                0.5757707914993305
+              ],
+              "unique_positive": 233,
+              "scored_pairs": 580
+            },
+            "current": {
+              "pair_win": 0.5815450643776823,
+              "interval": [
+                0.5204213784279144,
+                0.6452968163568125
+              ],
+              "unique_positive": 233,
+              "scored_pairs": 580
+            },
+            "unix": {
+              "pair_win": 0.6037195994277539,
+              "interval": [
+                0.5264859708562218,
+                0.6946621061359868
+              ],
+              "unique_positive": 233,
+              "scored_pairs": 580
+            },
+            "stack": {
+              "pair_win": 0.6058655221745352,
+              "interval": [
+                0.5424095753543053,
+                0.6810489808571651
+              ],
+              "unique_positive": 233,
+              "scored_pairs": 580
+            },
+            "current_on_teacher_pairs": {
+              "pair_win": 0.5815450643776823,
+              "interval": [
+                0.5204213784279144,
+                0.6452968163568125
+              ],
+              "unique_positive": 233,
+              "scored_pairs": 580
+            }
+          }
+        },
+        "negative_veto": {
+          "observed_rows": 22491,
+          "anchors": 847,
+          "matched_anchors": 631,
+          "pairs": 1455,
+          "files": 478,
+          "error_type": "fn",
+          "pair_ranking": {
+            "compact": {
+              "pair_win": 0.6204437400950872,
+              "interval": [
+                0.5840442507645258,
+                0.6575538539563148
+              ],
+              "unique_positive": 631,
+              "scored_pairs": 1455
+            },
+            "prior": {
+              "pair_win": 0.6376122556788166,
+              "interval": [
+                0.602584035721453,
+                0.6734506545692418
+              ],
+              "unique_positive": 631,
+              "scored_pairs": 1455
+            },
+            "current": {
+              "pair_win": 0.6687797147385103,
+              "interval": [
+                0.6364242485741644,
+                0.7032784497214958
+              ],
+              "unique_positive": 631,
+              "scored_pairs": 1455
+            },
+            "unix": {
+              "pair_win": 0.6840993132593766,
+              "interval": [
+                0.6455092059838898,
+                0.7232520322318116
+              ],
+              "unique_positive": 631,
+              "scored_pairs": 1455
+            },
+            "stack": {
+              "pair_win": 0.6833069202324353,
+              "interval": [
+                0.6460668574464491,
+                0.7207437638789174
+              ],
+              "unique_positive": 631,
+              "scored_pairs": 1455
+            },
+            "current_on_teacher_pairs": {
+              "pair_win": 0.6687797147385103,
+              "interval": [
+                0.6364242485741644,
+                0.7032784497214958
+              ],
+              "unique_positive": 631,
+              "scored_pairs": 1455
+            }
+          }
+        },
+        "negative_retained": {
+          "observed_rows": 54654,
+          "anchors": 41,
+          "matched_anchors": 1,
+          "pairs": 1,
+          "files": 1,
+          "error_type": "fp",
+          "pair_ranking": {
+            "compact": {
+              "pair_win": 1.0,
+              "interval": [
+                1.0,
+                1.0
+              ],
+              "unique_positive": 1,
+              "scored_pairs": 1
+            },
+            "prior": {
+              "pair_win": 1.0,
+              "interval": [
+                1.0,
+                1.0
+              ],
+              "unique_positive": 1,
+              "scored_pairs": 1
+            },
+            "current": {
+              "pair_win": 1.0,
+              "interval": [
+                1.0,
+                1.0
+              ],
+              "unique_positive": 1,
+              "scored_pairs": 1
+            },
+            "unix": {
+              "pair_win": 0.0,
+              "interval": [
+                0.0,
+                0.0
+              ],
+              "unique_positive": 1,
+              "scored_pairs": 1
+            },
+            "stack": {
+              "pair_win": 1.0,
+              "interval": [
+                1.0,
+                1.0
+              ],
+              "unique_positive": 1,
+              "scored_pairs": 1
+            },
+            "current_on_teacher_pairs": {
+              "pair_win": 1.0,
+              "interval": [
+                1.0,
+                1.0
+              ],
+              "unique_positive": 1,
+              "scored_pairs": 1
+            }
+          }
+        },
+        "positive_retained": {
+          "observed_rows": 33335,
+          "anchors": 3453,
+          "matched_anchors": 2519,
+          "pairs": 5822,
+          "files": 1868,
+          "error_type": "fp",
+          "pair_ranking": {
+            "compact": {
+              "pair_win": 0.8180494905385737,
+              "interval": [
+                0.805274197808472,
+                0.8322825944366131
+              ],
+              "unique_positive": 2519,
+              "scored_pairs": 5822
+            },
+            "prior": {
+              "pair_win": 0.7943628423977768,
+              "interval": [
+                0.7805793462048971,
+                0.8081414903972653
+              ],
+              "unique_positive": 2519,
+              "scored_pairs": 5822
+            },
+            "current": {
+              "pair_win": 0.8923514622204579,
+              "interval": [
+                0.8814666642692754,
+                0.9033806530251023
+              ],
+              "unique_positive": 2519,
+              "scored_pairs": 5822
+            }
+          }
+        },
+        "unqueried_miss": {
+          "observed_rows": 72046,
+          "anchors": 164,
+          "matched_anchors": 135,
+          "pairs": 358,
+          "files": 101,
+          "error_type": "fn",
+          "pair_ranking": {
+            "compact": {
+              "pair_win": 0.6975308641975307,
+              "interval": [
+                0.6275132978723403,
+                0.7730923814049259
+              ],
+              "unique_positive": 135,
+              "scored_pairs": 358
+            },
+            "prior": {
+              "pair_win": 0.6753086419753086,
+              "interval": [
+                0.6137165450121654,
+                0.7440457762052188
+              ],
+              "unique_positive": 135,
+              "scored_pairs": 358
+            },
+            "current": {
+              "pair_win": 0.6753086419753086,
+              "interval": [
+                0.6137165450121654,
+                0.7440457762052188
+              ],
+              "unique_positive": 135,
+              "scored_pairs": 358
+            },
+            "unix": {
+              "pair_win": 0.5843621399176955,
+              "interval": [
+                0.4817652329749103,
+                0.725423387096774
+              ],
+              "unique_positive": 81,
+              "scored_pairs": 224
+            },
+            "stack": {
+              "pair_win": 0.5987654320987653,
+              "interval": [
+                0.4843306737588652,
+                0.7511807628524045
+              ],
+              "unique_positive": 81,
+              "scored_pairs": 224
+            },
+            "current_on_teacher_pairs": {
+              "pair_win": 0.6049382716049384,
+              "interval": [
+                0.5198015873015873,
+                0.692661943319838
+              ],
+              "unique_positive": 81,
+              "scored_pairs": 224
+            }
+          }
+        },
+        "unqueried_fp": {
+          "observed_rows": 72046,
+          "anchors": 221,
+          "matched_anchors": 153,
+          "pairs": 313,
+          "files": 138,
+          "error_type": "fp",
+          "pair_ranking": {
+            "compact": {
+              "pair_win": 0.8093681917211328,
+              "interval": [
+                0.745843137254902,
+                0.8657718120805369
+              ],
+              "unique_positive": 153,
+              "scored_pairs": 313
+            },
+            "prior": {
+              "pair_win": 0.7941176470588235,
+              "interval": [
+                0.730953021523179,
+                0.8496228036669213
+              ],
+              "unique_positive": 153,
+              "scored_pairs": 313
+            },
+            "current": {
+              "pair_win": 0.7941176470588235,
+              "interval": [
+                0.730953021523179,
+                0.8496228036669213
+              ],
+              "unique_positive": 153,
+              "scored_pairs": 313
+            },
+            "unix": {
+              "pair_win": 0.7777777777777778,
+              "interval": [
+                0.5454545454545454,
+                1.0
+              ],
+              "unique_positive": 9,
+              "scored_pairs": 9
+            },
+            "stack": {
+              "pair_win": 0.8888888888888888,
+              "interval": [
+                0.7272727272727273,
+                1.0
+              ],
+              "unique_positive": 9,
+              "scored_pairs": 9
+            },
+            "current_on_teacher_pairs": {
+              "pair_win": 0.6666666666666666,
+              "interval": [
+                0.375,
+                0.8888888888888888
+              ],
+              "unique_positive": 9,
+              "scored_pairs": 9
+            }
+          }
+        }
+      },
+      "predictions_sha256": "728d6d3c3d2dba36f5ec39a4d5d573eaa0df847e411892f65fe08d3a02b52935",
+      "points_sha256": "cbe8079a1b5c80e33ce24f593f68b2a73a977a28bc56559383d6ce32d388e2e1",
+      "teacher_sha256": "35a20e983fd9799a043395abdbea1dfb92c09f4c7ccabeb971103f1b72f2d379"
+    },
+    "test_b": {
+      "regimes": {
+        "negative_consensus": {
+          "observed_rows": 36472,
+          "anchors": 707,
+          "matched_anchors": 523,
+          "pairs": 1279,
+          "files": 410,
+          "error_type": "fn",
+          "pair_ranking": {
+            "compact": {
+              "pair_win": 0.5882727852135117,
+              "interval": [
+                0.5481538942062442,
+                0.6245368557104809
+              ],
+              "unique_positive": 523,
+              "scored_pairs": 1279
+            },
+            "prior": {
+              "pair_win": 0.5863607393244104,
+              "interval": [
+                0.5475256017186002,
+                0.6243567857426844
+              ],
+              "unique_positive": 523,
+              "scored_pairs": 1279
+            },
+            "current": {
+              "pair_win": 0.6073932441045251,
+              "interval": [
+                0.5682516709601059,
+                0.6452961804806301
+              ],
+              "unique_positive": 523,
+              "scored_pairs": 1279
+            },
+            "unix": {
+              "pair_win": 0.6644359464627151,
+              "interval": [
+                0.6256509425627922,
+                0.7005820899284204
+              ],
+              "unique_positive": 523,
+              "scored_pairs": 1279
+            },
+            "stack": {
+              "pair_win": 0.6437221159974506,
+              "interval": [
+                0.6059169200679544,
+                0.6791030426573643
+              ],
+              "unique_positive": 523,
+              "scored_pairs": 1279
+            },
+            "current_on_teacher_pairs": {
+              "pair_win": 0.6073932441045251,
+              "interval": [
+                0.5682516709601059,
+                0.6452961804806301
+              ],
+              "unique_positive": 523,
+              "scored_pairs": 1279
+            }
+          }
+        },
+        "negative_veto": {
+          "observed_rows": 18276,
+          "anchors": 1822,
+          "matched_anchors": 1019,
+          "pairs": 2253,
+          "files": 589,
+          "error_type": "fn",
+          "pair_ranking": {
+            "compact": {
+              "pair_win": 0.5575727837749428,
+              "interval": [
+                0.5242682958881408,
+                0.5935674356063404
+              ],
+              "unique_positive": 1019,
+              "scored_pairs": 2253
+            },
+            "prior": {
+              "pair_win": 0.5701668302257115,
+              "interval": [
+                0.5295255628836442,
+                0.6126498745456058
+              ],
+              "unique_positive": 1019,
+              "scored_pairs": 2253
+            },
+            "current": {
+              "pair_win": 0.6187438665358195,
+              "interval": [
+                0.5866659096028027,
+                0.6557884977959371
+              ],
+              "unique_positive": 1019,
+              "scored_pairs": 2253
+            },
+            "unix": {
+              "pair_win": 0.5904481517827936,
+              "interval": [
+                0.5527993878564753,
+                0.6312091309538271
+              ],
+              "unique_positive": 1019,
+              "scored_pairs": 2253
+            },
+            "stack": {
+              "pair_win": 0.6030421982335623,
+              "interval": [
+                0.5692897660157433,
+                0.6405386237382293
+              ],
+              "unique_positive": 1019,
+              "scored_pairs": 2253
+            },
+            "current_on_teacher_pairs": {
+              "pair_win": 0.6187438665358195,
+              "interval": [
+                0.5866659096028027,
+                0.6557884977959371
+              ],
+              "unique_positive": 1019,
+              "scored_pairs": 2253
+            }
+          }
+        },
+        "negative_retained": {
+          "observed_rows": 54748,
+          "anchors": 289,
+          "matched_anchors": 81,
+          "pairs": 158,
+          "files": 34,
+          "error_type": "fp",
+          "pair_ranking": {
+            "compact": {
+              "pair_win": 0.5144032921810701,
+              "interval": [
+                0.3988876597836775,
+                0.6477987421383646
+              ],
+              "unique_positive": 81,
+              "scored_pairs": 158
+            },
+            "prior": {
+              "pair_win": 0.5432098765432097,
+              "interval": [
+                0.42398175705467367,
+                0.644043071654373
+              ],
+              "unique_positive": 81,
+              "scored_pairs": 158
+            },
+            "current": {
+              "pair_win": 0.37037037037037035,
+              "interval": [
+                0.2578798548868972,
+                0.49537269277767054
+              ],
+              "unique_positive": 81,
+              "scored_pairs": 158
+            },
+            "unix": {
+              "pair_win": 0.4547325102880659,
+              "interval": [
+                0.3456730769230769,
+                0.5723321449792037
+              ],
+              "unique_positive": 81,
+              "scored_pairs": 158
+            },
+            "stack": {
+              "pair_win": 0.38888888888888884,
+              "interval": [
+                0.281568421870146,
+                0.5290528002699055
+              ],
+              "unique_positive": 81,
+              "scored_pairs": 158
+            },
+            "current_on_teacher_pairs": {
+              "pair_win": 0.37037037037037035,
+              "interval": [
+                0.2578798548868972,
+                0.49537269277767054
+              ],
+              "unique_positive": 81,
+              "scored_pairs": 158
+            }
+          }
+        },
+        "positive_retained": {
+          "observed_rows": 32282,
+          "anchors": 2877,
+          "matched_anchors": 2032,
+          "pairs": 4676,
+          "files": 1558,
+          "error_type": "fp",
+          "pair_ranking": {
+            "compact": {
+              "pair_win": 0.775262467191601,
+              "interval": [
+                0.7589881788167433,
+                0.7902354508923338
+              ],
+              "unique_positive": 2032,
+              "scored_pairs": 4676
+            },
+            "prior": {
+              "pair_win": 0.740239501312336,
+              "interval": [
+                0.7236599876683636,
+                0.7569719124902614
+              ],
+              "unique_positive": 2032,
+              "scored_pairs": 4676
+            },
+            "current": {
+              "pair_win": 0.8755741469816273,
+              "interval": [
+                0.8628777335511284,
+                0.8881579162331357
+              ],
+              "unique_positive": 2032,
+              "scored_pairs": 4676
+            }
+          }
+        },
+        "unqueried_miss": {
+          "observed_rows": 92989,
+          "anchors": 454,
+          "matched_anchors": 336,
+          "pairs": 838,
+          "files": 283,
+          "error_type": "fn",
+          "pair_ranking": {
+            "compact": {
+              "pair_win": 0.6746031746031745,
+              "interval": [
+                0.6284185398708388,
+                0.7278554731850662
+              ],
+              "unique_positive": 336,
+              "scored_pairs": 838
+            },
+            "prior": {
+              "pair_win": 0.660218253968254,
+              "interval": [
+                0.618100382658172,
+                0.7038712519836297
+              ],
+              "unique_positive": 336,
+              "scored_pairs": 838
+            },
+            "current": {
+              "pair_win": 0.660218253968254,
+              "interval": [
+                0.618100382658172,
+                0.7038712519836297
+              ],
+              "unique_positive": 336,
+              "scored_pairs": 838
+            },
+            "unix": {
+              "pair_win": 0.6801587301587301,
+              "interval": [
+                0.6120611682102253,
+                0.7446808510638299
+              ],
+              "unique_positive": 210,
+              "scored_pairs": 528
+            },
+            "stack": {
+              "pair_win": 0.6825396825396824,
+              "interval": [
+                0.6261901395173454,
+                0.7393103832442068
+              ],
+              "unique_positive": 210,
+              "scored_pairs": 528
+            },
+            "current_on_teacher_pairs": {
+              "pair_win": 0.6142857142857143,
+              "interval": [
+                0.5585857573675371,
+                0.6691732621440536
+              ],
+              "unique_positive": 210,
+              "scored_pairs": 528
+            }
+          }
+        },
+        "unqueried_fp": {
+          "observed_rows": 92989,
+          "anchors": 343,
+          "matched_anchors": 255,
+          "pairs": 565,
+          "files": 240,
+          "error_type": "fp",
+          "pair_ranking": {
+            "compact": {
+              "pair_win": 0.8437908496732026,
+              "interval": [
+                0.8039761412377449,
+                0.8821945158996557
+              ],
+              "unique_positive": 255,
+              "scored_pairs": 565
+            },
+            "prior": {
+              "pair_win": 0.826797385620915,
+              "interval": [
+                0.7874909277618208,
+                0.8647520997375328
+              ],
+              "unique_positive": 255,
+              "scored_pairs": 565
+            },
+            "current": {
+              "pair_win": 0.826797385620915,
+              "interval": [
+                0.7874909277618208,
+                0.8647520997375328
+              ],
+              "unique_positive": 255,
+              "scored_pairs": 565
+            },
+            "unix": {
+              "pair_win": 0.9230769230769231,
+              "interval": [
+                0.7692307692307693,
+                1.0
+              ],
+              "unique_positive": 13,
+              "scored_pairs": 14
+            },
+            "stack": {
+              "pair_win": 0.9230769230769231,
+              "interval": [
+                0.7692307692307693,
+                1.0
+              ],
+              "unique_positive": 13,
+              "scored_pairs": 14
+            },
+            "current_on_teacher_pairs": {
+              "pair_win": 0.6923076923076923,
+              "interval": [
+                0.38461538461538464,
+                0.9230769230769231
+              ],
+              "unique_positive": 13,
+              "scored_pairs": 14
+            }
+          }
+        }
+      },
+      "predictions_sha256": "b98678762b5d1991288d158e2bb1be2496d9908821e56ff4996f26764652599b",
+      "points_sha256": "6f553d4aba4f335ecdc41a33d8bfa2d81993fd1db5f3f1072a33f04a8b02ffe1",
+      "teacher_sha256": "58557b2d442690df11416d63d11f75ae9f0994603034b146729ed8e2476a0705"
+    },
+    "official": {
+      "regimes": {
+        "negative_consensus": {
+          "observed_rows": 49828,
+          "anchors": 1123,
+          "matched_anchors": 850,
+          "pairs": 2084,
+          "files": 610,
+          "error_type": "fn",
+          "pair_ranking": {
+            "compact": {
+              "pair_win": 0.5847058823529411,
+              "interval": [
+                0.5553883723114496,
+                0.6154179773138881
+              ],
+              "unique_positive": 850,
+              "scored_pairs": 2084
+            },
+            "prior": {
+              "pair_win": 0.6107843137254901,
+              "interval": [
+                0.5843260340440328,
+                0.6395289812994439
+              ],
+              "unique_positive": 850,
+              "scored_pairs": 2084
+            },
+            "current": {
+              "pair_win": 0.6345098039215686,
+              "interval": [
+                0.6071907180209177,
+                0.6631251574657462
+              ],
+              "unique_positive": 850,
+              "scored_pairs": 2084
+            },
+            "unix": {
+              "pair_win": 0.6421568627450981,
+              "interval": [
+                0.6100747449856994,
+                0.6764158765522743
+              ],
+              "unique_positive": 850,
+              "scored_pairs": 2084
+            },
+            "stack": {
+              "pair_win": 0.6356862745098039,
+              "interval": [
+                0.6057368345185474,
+                0.6665748259860786
+              ],
+              "unique_positive": 850,
+              "scored_pairs": 2084
+            },
+            "current_on_teacher_pairs": {
+              "pair_win": 0.6345098039215686,
+              "interval": [
+                0.6071907180209177,
+                0.6631251574657462
+              ],
+              "unique_positive": 850,
+              "scored_pairs": 2084
+            }
+          }
+        },
+        "negative_veto": {
+          "observed_rows": 15909,
+          "anchors": 1827,
+          "matched_anchors": 950,
+          "pairs": 1988,
+          "files": 557,
+          "error_type": "fn",
+          "pair_ranking": {
+            "compact": {
+              "pair_win": 0.5650877192982455,
+              "interval": [
+                0.527002905782329,
+                0.59993138317082
+              ],
+              "unique_positive": 950,
+              "scored_pairs": 1988
+            },
+            "prior": {
+              "pair_win": 0.588421052631579,
+              "interval": [
+                0.5532023226945889,
+                0.6226922154359129
+              ],
+              "unique_positive": 950,
+              "scored_pairs": 1988
+            },
+            "current": {
+              "pair_win": 0.624561403508772,
+              "interval": [
+                0.5913941210993732,
+                0.657692043251714
+              ],
+              "unique_positive": 950,
+              "scored_pairs": 1988
+            },
+            "unix": {
+              "pair_win": 0.6170175438596491,
+              "interval": [
+                0.5801444128787879,
+                0.6549399228529624
+              ],
+              "unique_positive": 950,
+              "scored_pairs": 1988
+            },
+            "stack": {
+              "pair_win": 0.6250877192982456,
+              "interval": [
+                0.5920356765538414,
+                0.6585232872019
+              ],
+              "unique_positive": 950,
+              "scored_pairs": 1988
+            },
+            "current_on_teacher_pairs": {
+              "pair_win": 0.624561403508772,
+              "interval": [
+                0.5913941210993732,
+                0.657692043251714
+              ],
+              "unique_positive": 950,
+              "scored_pairs": 1988
+            }
+          }
+        },
+        "negative_retained": {
+          "observed_rows": 65737,
+          "anchors": 507,
+          "matched_anchors": 163,
+          "pairs": 310,
+          "files": 72,
+          "error_type": "fp",
+          "pair_ranking": {
+            "compact": {
+              "pair_win": 0.5010224948875255,
+              "interval": [
+                0.44407986111111114,
+                0.5727056277056277
+              ],
+              "unique_positive": 163,
+              "scored_pairs": 310
+            },
+            "prior": {
+              "pair_win": 0.5286298568507157,
+              "interval": [
+                0.4452826516273594,
+                0.6159759507829975
+              ],
+              "unique_positive": 163,
+              "scored_pairs": 310
+            },
+            "current": {
+              "pair_win": 0.47648261758691207,
+              "interval": [
+                0.38424802169467415,
+                0.571809191207316
+              ],
+              "unique_positive": 163,
+              "scored_pairs": 310
+            },
+            "unix": {
+              "pair_win": 0.3762781186094069,
+              "interval": [
+                0.2825452125461864,
+                0.4723227969348659
+              ],
+              "unique_positive": 163,
+              "scored_pairs": 310
+            },
+            "stack": {
+              "pair_win": 0.4110429447852761,
+              "interval": [
+                0.31788164665523155,
+                0.5109408602150538
+              ],
+              "unique_positive": 163,
+              "scored_pairs": 310
+            },
+            "current_on_teacher_pairs": {
+              "pair_win": 0.47648261758691207,
+              "interval": [
+                0.38424802169467415,
+                0.571809191207316
+              ],
+              "unique_positive": 163,
+              "scored_pairs": 310
+            }
+          }
+        },
+        "positive_retained": {
+          "observed_rows": 42750,
+          "anchors": 2245,
+          "matched_anchors": 1654,
+          "pairs": 3870,
+          "files": 1338,
+          "error_type": "fp",
+          "pair_ranking": {
+            "compact": {
+              "pair_win": 0.7353889560661023,
+              "interval": [
+                0.7169266682364874,
+                0.7532614622200461
+              ],
+              "unique_positive": 1654,
+              "scored_pairs": 3870
+            },
+            "prior": {
+              "pair_win": 0.7158403869407497,
+              "interval": [
+                0.6960922335739277,
+                0.7340412314751532
+              ],
+              "unique_positive": 1654,
+              "scored_pairs": 3870
+            },
+            "current": {
+              "pair_win": 0.8336356307940348,
+              "interval": [
+                0.8175707923030229,
+                0.8492150733511324
+              ],
+              "unique_positive": 1654,
+              "scored_pairs": 3870
+            }
+          }
+        },
+        "unqueried_miss": {
+          "observed_rows": 84613,
+          "anchors": 321,
+          "matched_anchors": 244,
+          "pairs": 598,
+          "files": 179,
+          "error_type": "fn",
+          "pair_ranking": {
+            "compact": {
+              "pair_win": 0.6154371584699453,
+              "interval": [
+                0.5603990972584477,
+                0.6733072916666666
+              ],
+              "unique_positive": 244,
+              "scored_pairs": 598
+            },
+            "prior": {
+              "pair_win": 0.6413934426229508,
+              "interval": [
+                0.5899240109776305,
+                0.7031386038557215
+              ],
+              "unique_positive": 244,
+              "scored_pairs": 598
+            },
+            "current": {
+              "pair_win": 0.6413934426229508,
+              "interval": [
+                0.5899240109776305,
+                0.7031386038557215
+              ],
+              "unique_positive": 244,
+              "scored_pairs": 598
+            },
+            "unix": {
+              "pair_win": 0.659536541889483,
+              "interval": [
+                0.5818153490028489,
+                0.7478365384615383
+              ],
+              "unique_positive": 187,
+              "scored_pairs": 468
+            },
+            "stack": {
+              "pair_win": 0.6577540106951871,
+              "interval": [
+                0.5806369378823376,
+                0.7412165788446526
+              ],
+              "unique_positive": 187,
+              "scored_pairs": 468
+            },
+            "current_on_teacher_pairs": {
+              "pair_win": 0.6203208556149733,
+              "interval": [
+                0.560087728794965,
+                0.6901504039115645
+              ],
+              "unique_positive": 187,
+              "scored_pairs": 468
+            }
+          }
+        },
+        "unqueried_fp": {
+          "observed_rows": 84613,
+          "anchors": 150,
+          "matched_anchors": 94,
+          "pairs": 198,
+          "files": 83,
+          "error_type": "fp",
+          "pair_ranking": {
+            "compact": {
+              "pair_win": 0.7836879432624114,
+              "interval": [
+                0.7106227106227107,
+                0.8507903874269005
+              ],
+              "unique_positive": 94,
+              "scored_pairs": 198
+            },
+            "prior": {
+              "pair_win": 0.7872340425531915,
+              "interval": [
+                0.7114428294573643,
+                0.8547300388927018
+              ],
+              "unique_positive": 94,
+              "scored_pairs": 198
+            },
+            "current": {
+              "pair_win": 0.7872340425531915,
+              "interval": [
+                0.7114428294573643,
+                0.8547300388927018
+              ],
+              "unique_positive": 94,
+              "scored_pairs": 198
+            },
+            "unix": {
+              "pair_win": 1.0,
+              "interval": [
+                1.0,
+                1.0
+              ],
+              "unique_positive": 4,
+              "scored_pairs": 4
+            },
+            "stack": {
+              "pair_win": 0.75,
+              "interval": [
+                0.25,
+                1.0
+              ],
+              "unique_positive": 4,
+              "scored_pairs": 4
+            },
+            "current_on_teacher_pairs": {
+              "pair_win": 0.25,
+              "interval": [
+                0.0,
+                0.75
+              ],
+              "unique_positive": 4,
+              "scored_pairs": 4
+            }
+          }
+        }
+      },
+      "predictions_sha256": "9a736956406e632f82c2fa97a3475280fe3cf1e22f2fc73d9b7541dcb6b942d7",
+      "points_sha256": "fcb614e442ae3fd2cf5c29d42ee63bff99c84dc3976ce881262ee7e1ea3b36e9",
+      "teacher_sha256": "3c209a8460890cb8236a4bb96f69909b28e5b12a7553e9a01993f0f93dc07755"
+    }
+  },
+  "code_sha256": "260ced5af4a5e36ecdf2f40e313107a8865e500bc5d27e6ce824ed80a3aadfcf",
+  "neighbors": 3
+}

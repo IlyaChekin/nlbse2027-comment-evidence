@@ -1,0 +1,79 @@
+{
+  "scope": {
+    "threshold": 0.18,
+    "positives": 5366,
+    "baseline_comparison": {
+      "before": {
+        "tp": 3381,
+        "fp": 2792,
+        "fn": 1985,
+        "tn": 121239
+      },
+      "after": {
+        "tp": 3494,
+        "fp": 2792,
+        "fn": 1872,
+        "tn": 121239
+      },
+      "delta_tp": 113,
+      "delta_fp": 0,
+      "f1_before": 0.586012652742872,
+      "f1_after": 0.5997253690353588
+    },
+    "baseline_missed": 1985,
+    "baseline_false_alarm": 2792,
+    "both_low_misses": 1683,
+    "both_high_alarms": 1359,
+    "teacher_detects_both_low": 85,
+    "teacher_rejects_both_high": 245,
+    "ap": {
+      "compact": 0.6238841831519419,
+      "sparse": 0.47570903900093076,
+      "frozen_unix_probe": 0.6292845781423436
+    },
+    "earlier_overlap": 89762,
+    "earlier_overlap_ap": {
+      "unix": 0.7345370115620203,
+      "compact": 0.7098014134652078
+    }
+  },
+  "sources": {
+    "sparse": "6e3c3c1d02ed601d8be44e5b452dc9341d42ff78aa829c0839ce90bc9f68ed64",
+    "compact": "2be93c4b89022ec3eebd5e81b75353075eff43456882c4a796c742b56af84856"
+  },
+  "folds": {
+    "0": {
+      "fit": 96839,
+      "held": 32376,
+      "balance": 4.0,
+      "seconds": 38.53248455515131,
+      "sha256": "fabdc72751f4560ec448b4d60490a042e4aa99c7c3d27d3b4dd7a166db1f87b5"
+    },
+    "1": {
+      "fit": 97271,
+      "held": 31954,
+      "balance": 4.0,
+      "seconds": 43.098988253157586,
+      "sha256": "bbd64f07fe6021784a4935892b583275998439e00b802f6040735354ca4e1bda"
+    },
+    "2": {
+      "fit": 96313,
+      "held": 32871,
+      "balance": 4.0,
+      "seconds": 39.10224051005207,
+      "sha256": "36f63e97b7026e77c02ac934ae8758c203e6c5f188d6510ef042c8ff50eb0f48"
+    },
+    "3": {
+      "fit": 96986,
+      "held": 32196,
+      "balance": 4.0,
+      "seconds": 46.325547360116616,
+      "sha256": "17696617fc43430f8827010d9da6cf56c3e1c727227114681d4682a5b9dcad7a"
+    }
+  },
+  "predictions_sha256": "3c209a8460890cb8236a4bb96f69909b28e5b12a7553e9a01993f0f93dc07755",
+  "code_sha256": "f993a2025bc95d69b34d74cb239a0c8563be9593f7d398cbda3ed169ad85360b",
+  "upstream_sha256": "e28385bb916434983692dfdd57f5c78c64f92d4a26614965d1e9d150b4a37145",
+  "rows": 129397,
+  "seed": 42
+}

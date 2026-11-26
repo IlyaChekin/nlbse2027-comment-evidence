@@ -1,0 +1,20 @@
+\begin{table}[t]
+\centering
+\small\setlength{\tabcolsep}{3pt}
+\caption{MAT F1 on matched extra windows. The final row uses a tag rule. The project results use a separately trained encoder.}
+\label{tab:masking}
+\begin{tabular}{lrr}
+\toprule
+Second window & Public & Project holdout \\
+\midrule
+None & 0.9048 & 0.9301 \\
+Code only & 0.9048 & 0.9301 \\
+All comments & 0.9257 & 0.9390 \\
+Full & 0.9266 & 0.9390 \\
+Previously seen comments & 0.9048 & 0.9301 \\
+Omitted comments only & 0.9257 & 0.9390 \\
+Omitted comments, tags masked & 0.9038 & 0.9302 \\
+Omitted tags, rule & 0.9266 & 0.9395 \\
+\bottomrule
+\end{tabular}
+\end{table}

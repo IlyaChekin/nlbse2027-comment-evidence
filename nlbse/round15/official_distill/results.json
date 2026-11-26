@@ -1,0 +1,164 @@
+{
+  "release": {
+    "quality": {
+      "vulnerability": {
+        "precision": 0.934853090172239,
+        "recall": 0.9179267807401512,
+        "f1": 0.9263126192149382
+      },
+      "MAT": {
+        "precision": 0.9977477477477478,
+        "recall": 0.8772277227722772,
+        "f1": 0.9336143308746049
+      },
+      "mean": {
+        "precision": 0.9663004189599934,
+        "recall": 0.8975772517562142,
+        "f1": 0.9299634750447716
+      }
+    },
+    "score": 0.9566867474668376,
+    "cost": {
+      "wall_seconds": 4.062225238187239,
+      "forward_seconds": 1.8366136739496142,
+      "analytic_gflops": 13860.222378532004,
+      "routed": 2038
+    },
+    "trials": [
+      {
+        "wall_seconds": 3.7854272180702537,
+        "forward_seconds": 1.8035203635226935,
+        "analytic_gflops": 13860.222378532004,
+        "routed": 2038
+      },
+      {
+        "wall_seconds": 4.092343979980797,
+        "forward_seconds": 1.8366136739496142,
+        "analytic_gflops": 13860.222378532004,
+        "routed": 2038
+      },
+      {
+        "wall_seconds": 4.062225238187239,
+        "forward_seconds": 1.9832983850501478,
+        "analytic_gflops": 13860.222378532004,
+        "routed": 2038
+      }
+    ],
+    "vulnerability": {
+      "before": {
+        "tp": 9227,
+        "fp": 643,
+        "fn": 825,
+        "tn": 19960
+      },
+      "after": {
+        "tp": 9227,
+        "fp": 643,
+        "fn": 825,
+        "tn": 19960
+      },
+      "delta_tp": 0,
+      "delta_fp": 0,
+      "f1_before": 0.9263126192149382,
+      "f1_after": 0.9263126192149382,
+      "corrected_confident_fp": 0,
+      "removed_fp": 0,
+      "added_fp": 0
+    },
+    "interval": {
+      "vulnerability": [
+        0.0,
+        0.0
+      ],
+      "MAT": [
+        0.0,
+        0.0
+      ],
+      "mean": [
+        0.0,
+        0.0
+      ]
+    }
+  },
+  "original_teacher": {
+    "quality": {
+      "vulnerability": {
+        "precision": 0.9319618665328651,
+        "recall": 0.9238957421408674,
+        "f1": 0.9279112754158965
+      },
+      "MAT": {
+        "precision": 0.9977477477477478,
+        "recall": 0.8772277227722772,
+        "f1": 0.9336143308746049
+      },
+      "mean": {
+        "precision": 0.9648548071403065,
+        "recall": 0.9005617324565723,
+        "f1": 0.9307628031452506
+      }
+    },
+    "score": 0.9572003862487399,
+    "cost": {
+      "wall_seconds": 3.69923138897866,
+      "forward_seconds": 1.653679437469691,
+      "analytic_gflops": 13898.396263748004,
+      "routed": 2078
+    },
+    "trials": [
+      {
+        "wall_seconds": 3.746667535044253,
+        "forward_seconds": 1.7393049623351544,
+        "analytic_gflops": 13898.396263748004,
+        "routed": 2078
+      },
+      {
+        "wall_seconds": 3.6929222920443863,
+        "forward_seconds": 1.653679437469691,
+        "analytic_gflops": 13898.396263748004,
+        "routed": 2078
+      },
+      {
+        "wall_seconds": 3.69923138897866,
+        "forward_seconds": 1.6341700297780335,
+        "analytic_gflops": 13898.396263748004,
+        "routed": 2078
+      }
+    ],
+    "vulnerability": {
+      "before": {
+        "tp": 9227,
+        "fp": 643,
+        "fn": 825,
+        "tn": 19960
+      },
+      "after": {
+        "tp": 9287,
+        "fp": 678,
+        "fn": 765,
+        "tn": 19925
+      },
+      "delta_tp": 60,
+      "delta_fp": 35,
+      "f1_before": 0.9263126192149382,
+      "f1_after": 0.9279112754158965,
+      "corrected_confident_fp": 0,
+      "removed_fp": 31,
+      "added_fp": 66
+    },
+    "interval": {
+      "vulnerability": [
+        0.00018486089381319903,
+        0.00307703709150795
+      ],
+      "MAT": [
+        0.0,
+        0.0
+      ],
+      "mean": [
+        9.243044690659952e-05,
+        0.001538518545753975
+      ]
+    }
+  }
+}

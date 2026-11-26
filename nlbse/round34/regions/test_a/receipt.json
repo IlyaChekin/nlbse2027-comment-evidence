@@ -1,0 +1,60 @@
+{
+  "rotation": "test_a",
+  "names": [
+    "head",
+    "body",
+    "middle",
+    "tail"
+  ],
+  "span": 1.8,
+  "fit_rows": 22442,
+  "times": {
+    "0": {
+      "seconds": 3.851803866913542,
+      "wall_seconds": 4.213893039850518,
+      "gflops": 281567.6741437439,
+      "windows": 12407
+    },
+    "1": {
+      "seconds": 4.123947036685422,
+      "wall_seconds": 4.538248399971053,
+      "gflops": 309837.73810175987,
+      "windows": 14001
+    },
+    "2": {
+      "seconds": 3.772502940148115,
+      "wall_seconds": 4.301000288920477,
+      "gflops": 290827.6542320639,
+      "windows": 13130
+    },
+    "3": {
+      "seconds": 3.348987920442596,
+      "wall_seconds": 3.766665390925482,
+      "gflops": 265264.77630873595,
+      "windows": 11934
+    },
+    "dev": {
+      "seconds": 0.9105845079757273,
+      "wall_seconds": 1.1537860468961298,
+      "gflops": 75238.148769792,
+      "windows": 3062
+    },
+    "test": {
+      "seconds": 2.909550153184682,
+      "wall_seconds": 3.258157846983522,
+      "gflops": 211291.91123865594,
+      "windows": 10927
+    }
+  },
+  "head_absolute_error": [
+    0.0,
+    0.001953125,
+    0.0078125,
+    0.0078125
+  ],
+  "teacher_sha256": "35a20e983fd9799a043395abdbea1dfb92c09f4c7ccabeb971103f1b72f2d379",
+  "teacher_recipe_sha256": "dc553016ac39cf2f74a5e060d1d4b4e1023342dff2dbf4a5718ab6e634406a80",
+  "points_sha256": "cbe8079a1b5c80e33ce24f593f68b2a73a977a28bc56559383d6ce32d388e2e1",
+  "predictions_sha256": "f0fe4a970a419c42bebb26f4f3dc36e36c8203df7fa26d3971b62dd0cbd64e3f",
+  "code_sha256": "98689aa2478113d634900c604a1c75ca90603ea90c8b561347781cc35054b759"
+}

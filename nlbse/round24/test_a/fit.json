@@ -1,0 +1,79 @@
+{
+  "rows": 160035,
+  "manifest_sha256": "fe83f32299386d886d8e6962e02d3531b154aca9d23bbccaf2a86f08cc8005a5",
+  "exact_cohorts_sha256": "c5d74ea7f7e5ce182168c6a2b2172f4d06a57b53cfc67b61beecc9ae1a803f63",
+  "models": {
+    "token": {
+      "weights_sha256": "bf75f9ef46dc9123eaa15ae42ab27085d38b424b1e349f1d8334bbbbe4e2ee01",
+      "predictions_sha256": "7cd35a9638639b2212ee19dd1bb087d58c3046aebaffebf8f0bc49b286a06b67",
+      "folds": [
+        {
+          "fold": 0,
+          "fit": 119799,
+          "held": 40072,
+          "copies_removed": 164
+        },
+        {
+          "fold": 1,
+          "fit": 120696,
+          "held": 39177,
+          "copies_removed": 162
+        },
+        {
+          "fold": 2,
+          "fit": 118974,
+          "held": 40886,
+          "copies_removed": 175
+        },
+        {
+          "fold": 3,
+          "fit": 119959,
+          "held": 39900,
+          "copies_removed": 176
+        }
+      ],
+      "oof_ap": {
+        "0": 0.5815108183443116,
+        "1": 0.9857335140082355
+      },
+      "dev": "849688e1c6864435845d6a9832eef968ace774cf8b46c730e873ffe1bebc086a",
+      "test": "0a215812789201b807b4f56efa15ce3bc2fc5050eeb238e27252b9e21f02baf7"
+    },
+    "both": {
+      "weights_sha256": "cab49fb59922f3b1b8dee11ac95e288eed50f5560c063211924458485b1b2238",
+      "predictions_sha256": "3f75a16dc9a917355050d0080892781e435624954675a827139f46ca00d136bd",
+      "folds": [
+        {
+          "fold": 0,
+          "fit": 119799,
+          "held": 40072,
+          "copies_removed": 164
+        },
+        {
+          "fold": 1,
+          "fit": 120696,
+          "held": 39177,
+          "copies_removed": 162
+        },
+        {
+          "fold": 2,
+          "fit": 118974,
+          "held": 40886,
+          "copies_removed": 175
+        },
+        {
+          "fold": 3,
+          "fit": 119959,
+          "held": 39900,
+          "copies_removed": 176
+        }
+      ],
+      "oof_ap": {
+        "0": 0.5719767810391596,
+        "1": 0.9853298512620905
+      },
+      "dev": "37efea7914ea08a3c1ab63454c621a637284c01c5517d2ecd184fa6ca1e05552",
+      "test": "81e64c6cb8c068d2c320480a9a6eef692420bed7cbc3c80f96266c4185f43c52"
+    }
+  }
+}

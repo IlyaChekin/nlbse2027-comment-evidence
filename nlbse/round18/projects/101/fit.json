@@ -1,0 +1,50 @@
+{
+  "scope": "projects",
+  "seed": 101,
+  "rows": 153628,
+  "kept_long": 10563,
+  "pairable": 14660,
+  "teacher_sha256": "95f928cfdee573d2465961cf500cac3b5ccc50b4f5686e4106360e55538fe24d",
+  "selection_sha256": "d2951402b86228c7217436170a777ada4deb491efad08546a59da8703e2447c3",
+  "initial_sha256": "d230266ed3d64499dbd2dab60c93445b291d34096fc605d07b376e500868d881",
+  "representation_sha256": null,
+  "teacher_override": {
+    "structural_sha256": "75bd58ee3e65e10e8fd54551c1e6fcfd49a0e741b3c81cb461ba0af20e4aaeb9",
+    "neural_oof_sha256": "d2951402b86228c7217436170a777ada4deb491efad08546a59da8703e2447c3",
+    "teacher_rows": 153628,
+    "positive_advice": 1524,
+    "negative_advice": 4331,
+    "fraction_with_advice": 0.03811154216679251,
+    "mean_advice_weight": 0.010012898594141006
+  },
+  "modes": {
+    "full": {
+      "path": "full.pt",
+      "sha256": "6d40ff4c1640a4dd4efa5333e2d432408344ebde478744d4ae6c51b6e528a4e8",
+      "pairs": 0,
+      "steps": 1201,
+      "seconds": 16.902711346047
+    },
+    "structure": {
+      "path": "structure.pt",
+      "sha256": "24aba52981826b0e4e3d169f34381de90250a3518b17296e49f91cdfbcb449ca",
+      "pairs": 0,
+      "steps": 1201,
+      "seconds": 16.22308011702262
+    },
+    "blend": {
+      "path": "blend.pt",
+      "sha256": "34d0e129c9251cca2ea27c1d250e5a08481826ff4f42b0368fd9122020207796",
+      "pairs": 0,
+      "steps": 1201,
+      "seconds": 16.189187388168648
+    },
+    "complement": {
+      "path": "complement.pt",
+      "sha256": "f5d5db484703f4cdc87cc8a7b8c9f8dc4a646a7a2da10ed178a173bead0ae63a",
+      "pairs": 0,
+      "steps": 1201,
+      "seconds": 16.37418229598552
+    }
+  }
+}

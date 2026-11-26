@@ -1,0 +1,252 @@
+{
+  "rows": 10711,
+  "results": {
+    "join_parentheses": {
+      "scanned": 2743,
+      "wall_seconds": 1.6249447918962687,
+      "partitions": {
+        "test_a/dev": {
+          "all": {
+            "cohort": 3959,
+            "positive": 110,
+            "new_tp": 8,
+            "new_fp": 70
+          },
+          "android": {
+            "cohort": 55,
+            "positive": 4,
+            "new_tp": 0,
+            "new_fp": 1
+          },
+          "file": {
+            "cohort": 1,
+            "positive": 0,
+            "new_tp": 0,
+            "new_fp": 0
+          },
+          "imagemagick": {
+            "cohort": 13,
+            "positive": 1,
+            "new_tp": 0,
+            "new_fp": 1
+          },
+          "krb5": {
+            "cohort": 1,
+            "positive": 0,
+            "new_tp": 0,
+            "new_fp": 0
+          },
+          "linux": {
+            "cohort": 3671,
+            "positive": 89,
+            "new_tp": 8,
+            "new_fp": 66
+          },
+          "mozilla firefox": {
+            "cohort": 142,
+            "positive": 1,
+            "new_tp": 0,
+            "new_fp": 2
+          },
+          "php": {
+            "cohort": 54,
+            "positive": 6,
+            "new_tp": 0,
+            "new_fp": 0
+          },
+          "tcpdump": {
+            "cohort": 22,
+            "positive": 9,
+            "new_tp": 0,
+            "new_fp": 0
+          }
+        },
+        "test_b/dev": {
+          "all": {
+            "cohort": 4019,
+            "positive": 173,
+            "new_tp": 14,
+            "new_fp": 75
+          },
+          "chromium": {
+            "cohort": 662,
+            "positive": 40,
+            "new_tp": 8,
+            "new_fp": 28
+          },
+          "ffmpeg": {
+            "cohort": 34,
+            "positive": 13,
+            "new_tp": 0,
+            "new_fp": 0
+          },
+          "linux": {
+            "cohort": 3214,
+            "positive": 65,
+            "new_tp": 4,
+            "new_fp": 46
+          },
+          "qemu": {
+            "cohort": 94,
+            "positive": 53,
+            "new_tp": 2,
+            "new_fp": 1
+          },
+          "tcpdump": {
+            "cohort": 15,
+            "positive": 2,
+            "new_tp": 0,
+            "new_fp": 0
+          }
+        }
+      },
+      "column_hits": {
+        "rule_478": 0,
+        "rule_483": 0,
+        "rule_242": 0,
+        "rule_676": 0,
+        "rule_415": 0,
+        "rule_416": 0,
+        "rule_783": 152,
+        "rule_467": 0,
+        "rule_401": 0,
+        "rule_244": 0,
+        "rule_243": 0,
+        "rule_135": 0,
+        "rule_14": 0,
+        "rule_690": 0,
+        "rule_587": 0,
+        "rule_781": 0,
+        "rule_782": 0,
+        "rule_560": 0,
+        "rule_806": 0,
+        "rule_195": 0
+      }
+    },
+    "break_braces": {
+      "scanned": 292,
+      "wall_seconds": 0.30310631985776126,
+      "partitions": {
+        "test_a/dev": {
+          "all": {
+            "cohort": 3959,
+            "positive": 110,
+            "new_tp": 0,
+            "new_fp": 0
+          },
+          "android": {
+            "cohort": 55,
+            "positive": 4,
+            "new_tp": 0,
+            "new_fp": 0
+          },
+          "file": {
+            "cohort": 1,
+            "positive": 0,
+            "new_tp": 0,
+            "new_fp": 0
+          },
+          "imagemagick": {
+            "cohort": 13,
+            "positive": 1,
+            "new_tp": 0,
+            "new_fp": 0
+          },
+          "krb5": {
+            "cohort": 1,
+            "positive": 0,
+            "new_tp": 0,
+            "new_fp": 0
+          },
+          "linux": {
+            "cohort": 3671,
+            "positive": 89,
+            "new_tp": 0,
+            "new_fp": 0
+          },
+          "mozilla firefox": {
+            "cohort": 142,
+            "positive": 1,
+            "new_tp": 0,
+            "new_fp": 0
+          },
+          "php": {
+            "cohort": 54,
+            "positive": 6,
+            "new_tp": 0,
+            "new_fp": 0
+          },
+          "tcpdump": {
+            "cohort": 22,
+            "positive": 9,
+            "new_tp": 0,
+            "new_fp": 0
+          }
+        },
+        "test_b/dev": {
+          "all": {
+            "cohort": 4019,
+            "positive": 173,
+            "new_tp": 0,
+            "new_fp": 0
+          },
+          "chromium": {
+            "cohort": 662,
+            "positive": 40,
+            "new_tp": 0,
+            "new_fp": 0
+          },
+          "ffmpeg": {
+            "cohort": 34,
+            "positive": 13,
+            "new_tp": 0,
+            "new_fp": 0
+          },
+          "linux": {
+            "cohort": 3214,
+            "positive": 65,
+            "new_tp": 0,
+            "new_fp": 0
+          },
+          "qemu": {
+            "cohort": 94,
+            "positive": 53,
+            "new_tp": 0,
+            "new_fp": 0
+          },
+          "tcpdump": {
+            "cohort": 15,
+            "positive": 2,
+            "new_tp": 0,
+            "new_fp": 0
+          }
+        }
+      },
+      "column_hits": {
+        "rule_478": 0,
+        "rule_483": 0,
+        "rule_242": 0,
+        "rule_676": 0,
+        "rule_415": 0,
+        "rule_416": 0,
+        "rule_783": 0,
+        "rule_467": 0,
+        "rule_401": 0,
+        "rule_244": 0,
+        "rule_243": 0,
+        "rule_135": 0,
+        "rule_14": 0,
+        "rule_690": 0,
+        "rule_587": 0,
+        "rule_781": 0,
+        "rule_782": 0,
+        "rule_560": 0,
+        "rule_806": 0,
+        "rule_195": 0
+      }
+    }
+  },
+  "code_sha256": "6ce35ef178de0113b03b8b9d95054f9ec2cd952750ae571b11c9ce8b99563fb6",
+  "scanner_sha256": "0f88215f24eb30b9f340eaa58a9c1d9a051e761dd18c79f55785ab17783210c0",
+  "partition_sha256": "843999619478ee3d2a9c34b1d92a1332a03f1d1268c6676b0ff877385551f8f5"
+}

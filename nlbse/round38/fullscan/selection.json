@@ -1,0 +1,78 @@
+{
+  "tested": 144,
+  "eligible": 0,
+  "best": [
+    {
+      "key": "0.9/0.25/all-point",
+      "rule": "tp",
+      "cal_f1": 0.0006933075848920556,
+      "review_f1": 0.0006328486930653465,
+      "cal_over_first": 0.0,
+      "review_over_first": 0.0,
+      "A_tp": -2,
+      "B_tp": 0,
+      "A_fp": -2,
+      "B_fp": 0,
+      "selected": false
+    },
+    {
+      "key": "0.9/0.25/joint-point",
+      "rule": "tp",
+      "cal_f1": 0.0006933075848920556,
+      "review_f1": 0.0006328486930653465,
+      "cal_over_first": 0.0,
+      "review_over_first": 0.0,
+      "A_tp": -3,
+      "B_tp": 0,
+      "A_fp": -2,
+      "B_fp": 0,
+      "selected": false
+    },
+    {
+      "key": "0.9/0.55/all-point",
+      "rule": "fixed",
+      "cal_f1": 0.0006933075848920556,
+      "review_f1": 0.0002842273946422891,
+      "cal_over_first": 0.0,
+      "review_over_first": 0.0,
+      "A_tp": 3,
+      "B_tp": 0,
+      "A_fp": 0,
+      "B_fp": -1,
+      "selected": false
+    },
+    {
+      "key": "0.9/0.55/all-point",
+      "rule": "tp",
+      "cal_f1": 0.0006933075848920556,
+      "review_f1": 0.0002842273946422891,
+      "cal_over_first": 0.0,
+      "review_over_first": 0.0,
+      "A_tp": 3,
+      "B_tp": 0,
+      "A_fp": 0,
+      "B_fp": -1,
+      "selected": false
+    },
+    {
+      "key": "0.9/0.55/all-pair",
+      "rule": "tp",
+      "cal_f1": 0.0006933075848920556,
+      "review_f1": 0.0006328486930653465,
+      "cal_over_first": 0.0,
+      "review_over_first": 0.0,
+      "A_tp": 0,
+      "B_tp": -1,
+      "A_fp": -1,
+      "B_fp": -3,
+      "selected": false
+    }
+  ],
+  "sources": {
+    "test_a": "011e30c2555febdef73d23958ce56092f0323de5146108592dd7f779d6df3cdf",
+    "test_b": "090e1c996061d1742f6ea04747dbb9cff63f3cfd3e0b146c9563edfcdbf3faf0",
+    "official": "76cb17c58f2c67afb8362fe7ea34b802bcbae7ba10bd79d800f132d8c1fe1000"
+  },
+  "comparison_sha256": "7a9da8fd73ffa3c0051d319cc42b2ffc15457d19ccf2ac26e69fc7eb4944701d",
+  "code_sha256": "9404670a1406c40ab46fe4b92d889af2cd0ad08640104492fc1680ef6c207aad"
+}

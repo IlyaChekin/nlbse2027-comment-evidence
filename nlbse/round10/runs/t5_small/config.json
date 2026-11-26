@@ -1,0 +1,19 @@
+{
+  "family": "t5_small",
+  "cap": 512,
+  "batch": 64,
+  "seed": 42,
+  "epochs": 2,
+  "rows": 193100,
+  "source_layers": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "teacher_weight": 0.26,
+  "temperature": 1.7,
+  "upstream_sha256": "968fb0f45e1efc8cf3dd50012d1f82ad82098107cbadde2c0fdd8e61bac02908"
+}

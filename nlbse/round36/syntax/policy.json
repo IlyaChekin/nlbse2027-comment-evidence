@@ -1,0 +1,26 @@
+{
+  "fit": {
+    "positives": 241,
+    "negatives": 1393,
+    "pairs": 1332,
+    "paired_positives": 230,
+    "paired_controls": 1215
+  },
+  "cutoffs": {
+    "declaration_point": 7.1637631843016125,
+    "declaration_pair": 8.09181652827726,
+    "body_point": 13.927882131229488,
+    "body_pair": 10.614587541448511,
+    "joined_point": 16.08121012173144,
+    "joined_pair": 13.335535445868706
+  },
+  "provenance_sha256": "5e9af6588ca283b8cf331df8f4335df0996470076b017f8e3093e333724c39c5",
+  "partition_sha256": "2823097d9b25fadebffcc6a3daa50034854d7a59c5df5c90d4e6d6d48231cfc9",
+  "code_sha256": "5f8199d438058ea4f48a63b2006529229a8d11e9846d627dd52a9f6f6ea877bc",
+  "dependencies_sha256": "02e0c5491c59b4d303f05738522da65b11df5241038cf0084851cf2b90e94494",
+  "model_sha256": "a30effc35453e9235aa8dc196a3a8ba54b984e0d403a7fa15cb6ca551c37c35b",
+  "data_manifest_sha256": "8cd6dc7cf3101d2e3a055ff7c7154653402fbb6491959f4f636504cd378b56ef",
+  "bytes": 24000,
+  "nodes": 2400,
+  "inference_uses_function_only": true
+}

@@ -1,0 +1,145 @@
+{
+  "base_threshold": 0.36398876404494385,
+  "selected": "center",
+  "recipes": {
+    "standard": {
+      "alpha": 1.0,
+      "threshold": 0.36364689469337463,
+      "dev": {
+        "before": {
+          "tp": 6268,
+          "fp": 1414,
+          "fn": 3276,
+          "tn": 20295
+        },
+        "after": {
+          "tp": 6268,
+          "fp": 1414,
+          "fn": 3276,
+          "tn": 20295
+        },
+        "delta_tp": 0,
+        "delta_fp": 0,
+        "f1_before": 0.7277371415302449,
+        "f1_after": 0.7277371415302449
+      }
+    },
+    "center": {
+      "alpha": 0.35,
+      "threshold": 0.36364689469337463,
+      "dev": {
+        "before": {
+          "tp": 6268,
+          "fp": 1414,
+          "fn": 3276,
+          "tn": 20295
+        },
+        "after": {
+          "tp": 6282,
+          "fp": 1414,
+          "fn": 3262,
+          "tn": 20295
+        },
+        "delta_tp": 14,
+        "delta_fp": 0,
+        "f1_before": 0.7277371415302449,
+        "f1_after": 0.7287703016241299
+      }
+    },
+    "distributed": {
+      "alpha": 0.65,
+      "threshold": 0.3663630187511444,
+      "dev": {
+        "before": {
+          "tp": 6268,
+          "fp": 1414,
+          "fn": 3276,
+          "tn": 20295
+        },
+        "after": {
+          "tp": 6274,
+          "fp": 1414,
+          "fn": 3270,
+          "tn": 20295
+        },
+        "delta_tp": 6,
+        "delta_fp": 0,
+        "f1_before": 0.7277371415302449,
+        "f1_after": 0.7281801299907149
+      }
+    },
+    "rare_tiles": {
+      "alpha": 0.65,
+      "threshold": 0.3697701096534729,
+      "dev": {
+        "before": {
+          "tp": 6268,
+          "fp": 1414,
+          "fn": 3276,
+          "tn": 20295
+        },
+        "after": {
+          "tp": 6270,
+          "fp": 1414,
+          "fn": 3274,
+          "tn": 20295
+        },
+        "delta_tp": 2,
+        "delta_fp": 0,
+        "f1_before": 0.7277371415302449,
+        "f1_after": 0.7278848386347806
+      }
+    },
+    "full": {
+      "alpha": 1.0,
+      "threshold": 0.3664763569831848,
+      "dev": {
+        "before": {
+          "tp": 6268,
+          "fp": 1414,
+          "fn": 3276,
+          "tn": 20295
+        },
+        "after": {
+          "tp": 6280,
+          "fp": 1414,
+          "fn": 3264,
+          "tn": 20295
+        },
+        "delta_tp": 12,
+        "delta_fp": 0,
+        "f1_before": 0.7277371415302449,
+        "f1_after": 0.7286228100707739
+      }
+    }
+  },
+  "selection": "maximum additional true positives at matched development FP",
+  "dev_cost": {
+    "standard": {
+      "wall_seconds": 0.4230512271169573,
+      "forward_seconds": 0.3648692818824202,
+      "analytic_gflops": 1459.4235466399998
+    },
+    "center": {
+      "wall_seconds": 0.17335282592102885,
+      "forward_seconds": 0.11546069663017988,
+      "analytic_gflops": 1459.4235466399998
+    },
+    "distributed": {
+      "wall_seconds": 0.17221356998197734,
+      "forward_seconds": 0.1121442262083292,
+      "analytic_gflops": 1438.96124136
+    },
+    "rare_tiles": {
+      "wall_seconds": 0.17413545679301023,
+      "forward_seconds": 0.1129858223721385,
+      "analytic_gflops": 1446.3868633759998
+    },
+    "full": {
+      "wall_seconds": 0.20292034489102662,
+      "forward_seconds": 0.13950376911088824,
+      "analytic_gflops": 1739.7048599200002
+    }
+  },
+  "dev_fp": 1414
+}

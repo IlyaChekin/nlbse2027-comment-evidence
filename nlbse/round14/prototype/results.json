@@ -1,0 +1,366 @@
+{
+  "test_a": {
+    "raw": {
+      "exact": {
+        "base": {
+          "tp": 746,
+          "fp": 2,
+          "fn": 84,
+          "f1": 0.9455006337135615
+        },
+        "candidate": {
+          "tp": 746,
+          "fp": 2,
+          "fn": 84,
+          "f1": 0.9455006337135615
+        },
+        "recovered": 0,
+        "lost": 0,
+        "extra_fp": 0
+      },
+      "frozen": {
+        "base": {
+          "tp": 746,
+          "fp": 2,
+          "fn": 84,
+          "f1": 0.9455006337135615
+        },
+        "candidate": {
+          "tp": 746,
+          "fp": 2,
+          "fn": 84,
+          "f1": 0.9455006337135615
+        },
+        "recovered": 0,
+        "lost": 0,
+        "extra_fp": 0
+      }
+    },
+    "tagged": {
+      "exact": {
+        "base": {
+          "tp": 746,
+          "fp": 2,
+          "fn": 84,
+          "f1": 0.9455006337135615
+        },
+        "candidate": {
+          "tp": 746,
+          "fp": 2,
+          "fn": 84,
+          "f1": 0.9455006337135615
+        },
+        "recovered": 0,
+        "lost": 0,
+        "extra_fp": 0
+      },
+      "frozen": {
+        "base": {
+          "tp": 746,
+          "fp": 2,
+          "fn": 84,
+          "f1": 0.9455006337135615
+        },
+        "candidate": {
+          "tp": 746,
+          "fp": 2,
+          "fn": 84,
+          "f1": 0.9455006337135615
+        },
+        "recovered": 0,
+        "lost": 0,
+        "extra_fp": 0
+      }
+    },
+    "margin": {
+      "exact": {
+        "base": {
+          "tp": 746,
+          "fp": 2,
+          "fn": 84,
+          "f1": 0.9455006337135615
+        },
+        "candidate": {
+          "tp": 746,
+          "fp": 2,
+          "fn": 84,
+          "f1": 0.9455006337135615
+        },
+        "recovered": 0,
+        "lost": 0,
+        "extra_fp": 0
+      },
+      "frozen": {
+        "base": {
+          "tp": 746,
+          "fp": 2,
+          "fn": 84,
+          "f1": 0.9455006337135615
+        },
+        "candidate": {
+          "tp": 746,
+          "fp": 2,
+          "fn": 84,
+          "f1": 0.9455006337135615
+        },
+        "recovered": 0,
+        "lost": 0,
+        "extra_fp": 0
+      }
+    },
+    "missing_margin": {
+      "exact": {
+        "base": {
+          "tp": 746,
+          "fp": 2,
+          "fn": 84,
+          "f1": 0.9455006337135615
+        },
+        "candidate": {
+          "tp": 746,
+          "fp": 2,
+          "fn": 84,
+          "f1": 0.9455006337135615
+        },
+        "recovered": 0,
+        "lost": 0,
+        "extra_fp": 0
+      },
+      "frozen": {
+        "base": {
+          "tp": 746,
+          "fp": 2,
+          "fn": 84,
+          "f1": 0.9455006337135615
+        },
+        "candidate": {
+          "tp": 746,
+          "fp": 2,
+          "fn": 84,
+          "f1": 0.9455006337135615
+        },
+        "recovered": 0,
+        "lost": 0,
+        "extra_fp": 0
+      }
+    },
+    "agreement": {
+      "exact": {
+        "base": {
+          "tp": 746,
+          "fp": 2,
+          "fn": 84,
+          "f1": 0.9455006337135615
+        },
+        "candidate": {
+          "tp": 746,
+          "fp": 2,
+          "fn": 84,
+          "f1": 0.9455006337135615
+        },
+        "recovered": 0,
+        "lost": 0,
+        "extra_fp": 0
+      },
+      "frozen": {
+        "base": {
+          "tp": 746,
+          "fp": 2,
+          "fn": 84,
+          "f1": 0.9455006337135615
+        },
+        "candidate": {
+          "tp": 746,
+          "fp": 2,
+          "fn": 84,
+          "f1": 0.9455006337135615
+        },
+        "recovered": 0,
+        "lost": 0,
+        "extra_fp": 0
+      }
+    }
+  },
+  "test_b": {
+    "raw": {
+      "exact": {
+        "base": {
+          "tp": 180,
+          "fp": 0,
+          "fn": 24,
+          "f1": 0.9375
+        },
+        "candidate": {
+          "tp": 180,
+          "fp": 0,
+          "fn": 24,
+          "f1": 0.9375
+        },
+        "recovered": 0,
+        "lost": 0,
+        "extra_fp": 0
+      },
+      "frozen": {
+        "base": {
+          "tp": 180,
+          "fp": 0,
+          "fn": 24,
+          "f1": 0.9375
+        },
+        "candidate": {
+          "tp": 180,
+          "fp": 0,
+          "fn": 24,
+          "f1": 0.9375
+        },
+        "recovered": 0,
+        "lost": 0,
+        "extra_fp": 0
+      }
+    },
+    "tagged": {
+      "exact": {
+        "base": {
+          "tp": 180,
+          "fp": 0,
+          "fn": 24,
+          "f1": 0.9375
+        },
+        "candidate": {
+          "tp": 180,
+          "fp": 0,
+          "fn": 24,
+          "f1": 0.9375
+        },
+        "recovered": 0,
+        "lost": 0,
+        "extra_fp": 0
+      },
+      "frozen": {
+        "base": {
+          "tp": 180,
+          "fp": 0,
+          "fn": 24,
+          "f1": 0.9375
+        },
+        "candidate": {
+          "tp": 180,
+          "fp": 0,
+          "fn": 24,
+          "f1": 0.9375
+        },
+        "recovered": 0,
+        "lost": 0,
+        "extra_fp": 0
+      }
+    },
+    "margin": {
+      "exact": {
+        "base": {
+          "tp": 180,
+          "fp": 0,
+          "fn": 24,
+          "f1": 0.9375
+        },
+        "candidate": {
+          "tp": 180,
+          "fp": 0,
+          "fn": 24,
+          "f1": 0.9375
+        },
+        "recovered": 0,
+        "lost": 0,
+        "extra_fp": 0
+      },
+      "frozen": {
+        "base": {
+          "tp": 180,
+          "fp": 0,
+          "fn": 24,
+          "f1": 0.9375
+        },
+        "candidate": {
+          "tp": 180,
+          "fp": 0,
+          "fn": 24,
+          "f1": 0.9375
+        },
+        "recovered": 0,
+        "lost": 0,
+        "extra_fp": 0
+      }
+    },
+    "missing_margin": {
+      "exact": {
+        "base": {
+          "tp": 180,
+          "fp": 0,
+          "fn": 24,
+          "f1": 0.9375
+        },
+        "candidate": {
+          "tp": 180,
+          "fp": 0,
+          "fn": 24,
+          "f1": 0.9375
+        },
+        "recovered": 0,
+        "lost": 0,
+        "extra_fp": 0
+      },
+      "frozen": {
+        "base": {
+          "tp": 180,
+          "fp": 0,
+          "fn": 24,
+          "f1": 0.9375
+        },
+        "candidate": {
+          "tp": 180,
+          "fp": 0,
+          "fn": 24,
+          "f1": 0.9375
+        },
+        "recovered": 0,
+        "lost": 0,
+        "extra_fp": 0
+      }
+    },
+    "agreement": {
+      "exact": {
+        "base": {
+          "tp": 180,
+          "fp": 0,
+          "fn": 24,
+          "f1": 0.9375
+        },
+        "candidate": {
+          "tp": 180,
+          "fp": 0,
+          "fn": 24,
+          "f1": 0.9375
+        },
+        "recovered": 0,
+        "lost": 0,
+        "extra_fp": 0
+      },
+      "frozen": {
+        "base": {
+          "tp": 180,
+          "fp": 0,
+          "fn": 24,
+          "f1": 0.9375
+        },
+        "candidate": {
+          "tp": 180,
+          "fp": 0,
+          "fn": 24,
+          "f1": 0.9375
+        },
+        "recovered": 0,
+        "lost": 0,
+        "extra_fp": 0
+      }
+    }
+  }
+}

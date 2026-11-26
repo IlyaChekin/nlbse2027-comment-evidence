@@ -1,0 +1,29 @@
+{
+  "rows": 30655,
+  "binary_decisions": 61310,
+  "changed_bits": 40,
+  "wins": 5,
+  "pairs": 5,
+  "score": 0.9647211005823113,
+  "control": 0.9646199363614312,
+  "prior": 0.9645726616919852,
+  "changed_region": 1290,
+  "interval": {
+    "vulnerability": [
+      5.0349079795800056e-05,
+      0.0013042641480404652
+    ],
+    "MAT": [
+      0.0,
+      0.0
+    ],
+    "mean": [
+      2.5174539897900028e-05,
+      0.0006521320740202326
+    ]
+  },
+  "promoted": true,
+  "reached_target": false,
+  "profile_sha256": "8c5f381e6c147641fc75e642061d64eac4c7fb55d6cd91d05fe4326522785934",
+  "code_sha256": "36647f8fa790e3f42db5a2653d955847ec1eaba72b23fdd679bb947668613c9a"
+}

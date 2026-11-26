@@ -1,0 +1,1963 @@
+{
+  "selected": "token:no:blend:0.5",
+  "best": "token:no:blend:0.5",
+  "candidates": {
+    "both:no:blend:0.5": {
+      "cohort_only": true,
+      "mode": "both",
+      "kind": "blend",
+      "scope": "no",
+      "mix": 0.5,
+      "threshold": 0.24722349643707275,
+      "calibration": {
+        "before": {
+          "tp": 1337,
+          "fp": 100,
+          "fn": 51,
+          "tn": 2804
+        },
+        "after": {
+          "tp": 1339,
+          "fp": 100,
+          "fn": 49,
+          "tn": 2804
+        },
+        "delta_tp": 2,
+        "delta_fp": 0,
+        "f1_before": 0.9465486725663717,
+        "f1_after": 0.9472939511850018
+      },
+      "review": {
+        "before": {
+          "tp": 1327,
+          "fp": 104,
+          "fn": 56,
+          "tn": 2807
+        },
+        "after": {
+          "tp": 1333,
+          "fp": 107,
+          "fn": 50,
+          "tn": 2804
+        },
+        "delta_tp": 6,
+        "delta_fp": 3,
+        "f1_before": 0.9431414356787491,
+        "f1_after": 0.9443854055968828
+      },
+      "proxy": -0.0001115608334324143,
+      "quality_gain": 0.0002235835855890489,
+      "measured_cost": {
+        "seconds": 0.23461708799004555,
+        "trials": [
+          0.2339157999958843,
+          0.2353183759842068,
+          0.2372070059645921,
+          0.2293458660133183
+        ],
+        "nnz": 303373,
+        "rows": 645
+      },
+      "project_tp": [
+        44,
+        15
+      ]
+    },
+    "both:no:blend:1": {
+      "cohort_only": true,
+      "mode": "both",
+      "kind": "blend",
+      "scope": "no",
+      "mix": 1.0,
+      "threshold": 0.21925392746925354,
+      "calibration": {
+        "before": {
+          "tp": 1337,
+          "fp": 100,
+          "fn": 51,
+          "tn": 2804
+        },
+        "after": {
+          "tp": 1342,
+          "fp": 100,
+          "fn": 46,
+          "tn": 2804
+        },
+        "delta_tp": 5,
+        "delta_fp": 0,
+        "f1_before": 0.9465486725663717,
+        "f1_after": 0.9484098939929329
+      },
+      "review": {
+        "before": {
+          "tp": 1327,
+          "fp": 104,
+          "fn": 56,
+          "tn": 2807
+        },
+        "after": {
+          "tp": 1335,
+          "fp": 112,
+          "fn": 48,
+          "tn": 2799
+        },
+        "delta_tp": 8,
+        "delta_fp": 8,
+        "f1_before": 0.9431414356787491,
+        "f1_after": 0.9434628975265018
+      },
+      "proxy": 0.00022322200894689658,
+      "quality_gain": 0.0005583664279683598,
+      "measured_cost": {
+        "seconds": 0.23461708799004555,
+        "trials": [
+          0.2339157999958843,
+          0.2353183759842068,
+          0.2372070059645921,
+          0.2293458660133183
+        ],
+        "nnz": 303373,
+        "rows": 645
+      },
+      "project_tp": [
+        55,
+        17
+      ]
+    },
+    "both:no:promote:0.5": {
+      "cohort_only": true,
+      "mode": "both",
+      "kind": "promote",
+      "scope": "no",
+      "mix": 0.5,
+      "threshold": 0.27212706208229065,
+      "calibration": {
+        "before": {
+          "tp": 1337,
+          "fp": 100,
+          "fn": 51,
+          "tn": 2804
+        },
+        "after": {
+          "tp": 1339,
+          "fp": 100,
+          "fn": 49,
+          "tn": 2804
+        },
+        "delta_tp": 2,
+        "delta_fp": 0,
+        "f1_before": 0.9465486725663717,
+        "f1_after": 0.9472939511850018
+      },
+      "review": {
+        "before": {
+          "tp": 1327,
+          "fp": 104,
+          "fn": 56,
+          "tn": 2807
+        },
+        "after": {
+          "tp": 1333,
+          "fp": 107,
+          "fn": 50,
+          "tn": 2804
+        },
+        "delta_tp": 6,
+        "delta_fp": 3,
+        "f1_before": 0.9431414356787491,
+        "f1_after": 0.9443854055968828
+      },
+      "proxy": -0.0001115608334324143,
+      "quality_gain": 0.0002235835855890489,
+      "measured_cost": {
+        "seconds": 0.23461708799004555,
+        "trials": [
+          0.2339157999958843,
+          0.2353183759842068,
+          0.2372070059645921,
+          0.2293458660133183
+        ],
+        "nnz": 303373,
+        "rows": 645
+      },
+      "project_tp": [
+        31,
+        5
+      ]
+    },
+    "both:no:promote:1": {
+      "cohort_only": true,
+      "mode": "both",
+      "kind": "promote",
+      "scope": "no",
+      "mix": 1.0,
+      "threshold": 0.28325557708740234,
+      "calibration": {
+        "before": {
+          "tp": 1337,
+          "fp": 100,
+          "fn": 51,
+          "tn": 2804
+        },
+        "after": {
+          "tp": 1338,
+          "fp": 100,
+          "fn": 50,
+          "tn": 2804
+        },
+        "delta_tp": 1,
+        "delta_fp": 0,
+        "f1_before": 0.9465486725663717,
+        "f1_after": 0.9469214437367304
+      },
+      "review": {
+        "before": {
+          "tp": 1327,
+          "fp": 104,
+          "fn": 56,
+          "tn": 2807
+        },
+        "after": {
+          "tp": 1333,
+          "fp": 109,
+          "fn": 50,
+          "tn": 2802
+        },
+        "delta_tp": 6,
+        "delta_fp": 5,
+        "f1_before": 0.9431414356787491,
+        "f1_after": 0.943716814159292
+      },
+      "proxy": -0.00022331306791384688,
+      "quality_gain": 0.00011183135110761632,
+      "measured_cost": {
+        "seconds": 0.23461708799004555,
+        "trials": [
+          0.2339157999958843,
+          0.2353183759842068,
+          0.2372070059645921,
+          0.2293458660133183
+        ],
+        "nnz": 303373,
+        "rows": 645
+      },
+      "project_tp": [
+        43,
+        9
+      ]
+    },
+    "both:no:veto:0.5": {
+      "cohort_only": true,
+      "mode": "both",
+      "kind": "veto",
+      "scope": "no",
+      "mix": 0.5,
+      "threshold": 0.23666957020759583,
+      "calibration": {
+        "before": {
+          "tp": 1337,
+          "fp": 100,
+          "fn": 51,
+          "tn": 2804
+        },
+        "after": {
+          "tp": 1339,
+          "fp": 100,
+          "fn": 49,
+          "tn": 2804
+        },
+        "delta_tp": 2,
+        "delta_fp": 0,
+        "f1_before": 0.9465486725663717,
+        "f1_after": 0.9472939511850018
+      },
+      "review": {
+        "before": {
+          "tp": 1327,
+          "fp": 104,
+          "fn": 56,
+          "tn": 2807
+        },
+        "after": {
+          "tp": 1331,
+          "fp": 109,
+          "fn": 52,
+          "tn": 2802
+        },
+        "delta_tp": 4,
+        "delta_fp": 5,
+        "f1_before": 0.9431414356787491,
+        "f1_after": 0.942968473255402
+      },
+      "proxy": -0.0001115608334324143,
+      "quality_gain": 0.0002235835855890489,
+      "measured_cost": {
+        "seconds": 0.23461708799004555,
+        "trials": [
+          0.2339157999958843,
+          0.2353183759842068,
+          0.2372070059645921,
+          0.2293458660133183
+        ],
+        "nnz": 303373,
+        "rows": 645
+      },
+      "project_tp": [
+        13,
+        7
+      ]
+    },
+    "both:no:veto:1": {
+      "cohort_only": true,
+      "mode": "both",
+      "kind": "veto",
+      "scope": "no",
+      "mix": 1.0,
+      "threshold": 0.2240992933511734,
+      "calibration": {
+        "before": {
+          "tp": 1337,
+          "fp": 100,
+          "fn": 51,
+          "tn": 2804
+        },
+        "after": {
+          "tp": 1338,
+          "fp": 100,
+          "fn": 50,
+          "tn": 2804
+        },
+        "delta_tp": 1,
+        "delta_fp": 0,
+        "f1_before": 0.9465486725663717,
+        "f1_after": 0.9469214437367304
+      },
+      "review": {
+        "before": {
+          "tp": 1327,
+          "fp": 104,
+          "fn": 56,
+          "tn": 2807
+        },
+        "after": {
+          "tp": 1330,
+          "fp": 106,
+          "fn": 53,
+          "tn": 2805
+        },
+        "delta_tp": 3,
+        "delta_fp": 2,
+        "f1_before": 0.9431414356787491,
+        "f1_after": 0.9435970202199362
+      },
+      "proxy": -0.00022331306791384688,
+      "quality_gain": 0.00011183135110761632,
+      "measured_cost": {
+        "seconds": 0.23461708799004555,
+        "trials": [
+          0.2339157999958843,
+          0.2353183759842068,
+          0.2372070059645921,
+          0.2293458660133183
+        ],
+        "nnz": 303373,
+        "rows": 645
+      },
+      "project_tp": [
+        18,
+        8
+      ]
+    },
+    "both:unqueried:blend:0.5": {
+      "cohort_only": true,
+      "mode": "both",
+      "kind": "blend",
+      "scope": "unqueried",
+      "mix": 0.5,
+      "threshold": 0.12150818109512329,
+      "calibration": {
+        "before": {
+          "tp": 1337,
+          "fp": 100,
+          "fn": 51,
+          "tn": 2804
+        },
+        "after": {
+          "tp": 1337,
+          "fp": 100,
+          "fn": 51,
+          "tn": 2804
+        },
+        "delta_tp": 0,
+        "delta_fp": 0,
+        "f1_before": 0.9465486725663717,
+        "f1_after": 0.9465486725663717
+      },
+      "review": {
+        "before": {
+          "tp": 1327,
+          "fp": 104,
+          "fn": 56,
+          "tn": 2807
+        },
+        "after": {
+          "tp": 1327,
+          "fp": 105,
+          "fn": 56,
+          "tn": 2806
+        },
+        "delta_tp": 0,
+        "delta_fp": 1,
+        "f1_before": 0.9431414356787491,
+        "f1_after": 0.9428063943161634
+      },
+      "proxy": -0.0006097617065118959,
+      "quality_gain": 0.0,
+      "measured_cost": {
+        "seconds": 0.42686215101275593,
+        "trials": [
+          0.4332221420481801,
+          0.4286475779954344,
+          0.42507672403007746,
+          0.42240049992688
+        ],
+        "nnz": 660148,
+        "rows": 2289
+      },
+      "project_tp": [
+        3,
+        0
+      ]
+    },
+    "both:unqueried:blend:1": {
+      "cohort_only": true,
+      "mode": "both",
+      "kind": "blend",
+      "scope": "unqueried",
+      "mix": 1.0,
+      "threshold": 0.15107540786266327,
+      "calibration": {
+        "before": {
+          "tp": 1337,
+          "fp": 100,
+          "fn": 51,
+          "tn": 2804
+        },
+        "after": {
+          "tp": 1337,
+          "fp": 100,
+          "fn": 51,
+          "tn": 2804
+        },
+        "delta_tp": 0,
+        "delta_fp": 0,
+        "f1_before": 0.9465486725663717,
+        "f1_after": 0.9465486725663717
+      },
+      "review": {
+        "before": {
+          "tp": 1327,
+          "fp": 104,
+          "fn": 56,
+          "tn": 2807
+        },
+        "after": {
+          "tp": 1327,
+          "fp": 106,
+          "fn": 56,
+          "tn": 2805
+        },
+        "delta_tp": 0,
+        "delta_fp": 2,
+        "f1_before": 0.9431414356787491,
+        "f1_after": 0.9424715909090909
+      },
+      "proxy": -0.0006097617065118959,
+      "quality_gain": 0.0,
+      "measured_cost": {
+        "seconds": 0.42686215101275593,
+        "trials": [
+          0.4332221420481801,
+          0.4286475779954344,
+          0.42507672403007746,
+          0.42240049992688
+        ],
+        "nnz": 660148,
+        "rows": 2289
+      },
+      "project_tp": [
+        3,
+        1
+      ]
+    },
+    "both:unqueried:promote:0.5": {
+      "cohort_only": true,
+      "mode": "both",
+      "kind": "promote",
+      "scope": "unqueried",
+      "mix": 0.5,
+      "threshold": 0.12150818109512329,
+      "calibration": {
+        "before": {
+          "tp": 1337,
+          "fp": 100,
+          "fn": 51,
+          "tn": 2804
+        },
+        "after": {
+          "tp": 1337,
+          "fp": 100,
+          "fn": 51,
+          "tn": 2804
+        },
+        "delta_tp": 0,
+        "delta_fp": 0,
+        "f1_before": 0.9465486725663717,
+        "f1_after": 0.9465486725663717
+      },
+      "review": {
+        "before": {
+          "tp": 1327,
+          "fp": 104,
+          "fn": 56,
+          "tn": 2807
+        },
+        "after": {
+          "tp": 1327,
+          "fp": 105,
+          "fn": 56,
+          "tn": 2806
+        },
+        "delta_tp": 0,
+        "delta_fp": 1,
+        "f1_before": 0.9431414356787491,
+        "f1_after": 0.9428063943161634
+      },
+      "proxy": -0.0006097617065118959,
+      "quality_gain": 0.0,
+      "measured_cost": {
+        "seconds": 0.42686215101275593,
+        "trials": [
+          0.4332221420481801,
+          0.4286475779954344,
+          0.42507672403007746,
+          0.42240049992688
+        ],
+        "nnz": 660148,
+        "rows": 2289
+      },
+      "project_tp": [
+        3,
+        0
+      ]
+    },
+    "both:unqueried:promote:1": {
+      "cohort_only": true,
+      "mode": "both",
+      "kind": "promote",
+      "scope": "unqueried",
+      "mix": 1.0,
+      "threshold": 0.15107540786266327,
+      "calibration": {
+        "before": {
+          "tp": 1337,
+          "fp": 100,
+          "fn": 51,
+          "tn": 2804
+        },
+        "after": {
+          "tp": 1337,
+          "fp": 100,
+          "fn": 51,
+          "tn": 2804
+        },
+        "delta_tp": 0,
+        "delta_fp": 0,
+        "f1_before": 0.9465486725663717,
+        "f1_after": 0.9465486725663717
+      },
+      "review": {
+        "before": {
+          "tp": 1327,
+          "fp": 104,
+          "fn": 56,
+          "tn": 2807
+        },
+        "after": {
+          "tp": 1327,
+          "fp": 106,
+          "fn": 56,
+          "tn": 2805
+        },
+        "delta_tp": 0,
+        "delta_fp": 2,
+        "f1_before": 0.9431414356787491,
+        "f1_after": 0.9424715909090909
+      },
+      "proxy": -0.0006097617065118959,
+      "quality_gain": 0.0,
+      "measured_cost": {
+        "seconds": 0.42686215101275593,
+        "trials": [
+          0.4332221420481801,
+          0.4286475779954344,
+          0.42507672403007746,
+          0.42240049992688
+        ],
+        "nnz": 660148,
+        "rows": 2289
+      },
+      "project_tp": [
+        3,
+        1
+      ]
+    },
+    "both:unqueried:veto:0.5": {
+      "cohort_only": true,
+      "mode": "both",
+      "kind": "veto",
+      "scope": "unqueried",
+      "mix": 0.5,
+      "threshold": 0.11739867925643921,
+      "calibration": {
+        "before": {
+          "tp": 1337,
+          "fp": 100,
+          "fn": 51,
+          "tn": 2804
+        },
+        "after": {
+          "tp": 1337,
+          "fp": 100,
+          "fn": 51,
+          "tn": 2804
+        },
+        "delta_tp": 0,
+        "delta_fp": 0,
+        "f1_before": 0.9465486725663717,
+        "f1_after": 0.9465486725663717
+      },
+      "review": {
+        "before": {
+          "tp": 1327,
+          "fp": 104,
+          "fn": 56,
+          "tn": 2807
+        },
+        "after": {
+          "tp": 1327,
+          "fp": 104,
+          "fn": 56,
+          "tn": 2807
+        },
+        "delta_tp": 0,
+        "delta_fp": 0,
+        "f1_before": 0.9431414356787491,
+        "f1_after": 0.9431414356787491
+      },
+      "proxy": -0.0006097617065118959,
+      "quality_gain": 0.0,
+      "measured_cost": {
+        "seconds": 0.42686215101275593,
+        "trials": [
+          0.4332221420481801,
+          0.4286475779954344,
+          0.42507672403007746,
+          0.42240049992688
+        ],
+        "nnz": 660148,
+        "rows": 2289
+      },
+      "project_tp": [
+        3,
+        3
+      ]
+    },
+    "both:unqueried:veto:1": {
+      "cohort_only": true,
+      "mode": "both",
+      "kind": "veto",
+      "scope": "unqueried",
+      "mix": 1.0,
+      "threshold": 0.11739867925643921,
+      "calibration": {
+        "before": {
+          "tp": 1337,
+          "fp": 100,
+          "fn": 51,
+          "tn": 2804
+        },
+        "after": {
+          "tp": 1337,
+          "fp": 100,
+          "fn": 51,
+          "tn": 2804
+        },
+        "delta_tp": 0,
+        "delta_fp": 0,
+        "f1_before": 0.9465486725663717,
+        "f1_after": 0.9465486725663717
+      },
+      "review": {
+        "before": {
+          "tp": 1327,
+          "fp": 104,
+          "fn": 56,
+          "tn": 2807
+        },
+        "after": {
+          "tp": 1327,
+          "fp": 104,
+          "fn": 56,
+          "tn": 2807
+        },
+        "delta_tp": 0,
+        "delta_fp": 0,
+        "f1_before": 0.9431414356787491,
+        "f1_after": 0.9431414356787491
+      },
+      "proxy": -0.0006097617065118959,
+      "quality_gain": 0.0,
+      "measured_cost": {
+        "seconds": 0.42686215101275593,
+        "trials": [
+          0.4332221420481801,
+          0.4286475779954344,
+          0.42507672403007746,
+          0.42240049992688
+        ],
+        "nnz": 660148,
+        "rows": 2289
+      },
+      "project_tp": [
+        3,
+        3
+      ]
+    },
+    "both:yes:blend:0.5": {
+      "cohort_only": true,
+      "mode": "both",
+      "kind": "blend",
+      "scope": "yes",
+      "mix": 0.5,
+      "threshold": 0.2391035556793213,
+      "calibration": {
+        "before": {
+          "tp": 1337,
+          "fp": 100,
+          "fn": 51,
+          "tn": 2804
+        },
+        "after": {
+          "tp": 1337,
+          "fp": 100,
+          "fn": 51,
+          "tn": 2804
+        },
+        "delta_tp": 0,
+        "delta_fp": 0,
+        "f1_before": 0.9465486725663717,
+        "f1_after": 0.9465486725663717
+      },
+      "review": {
+        "before": {
+          "tp": 1327,
+          "fp": 104,
+          "fn": 56,
+          "tn": 2807
+        },
+        "after": {
+          "tp": 1328,
+          "fp": 105,
+          "fn": 55,
+          "tn": 2806
+        },
+        "delta_tp": 1,
+        "delta_fp": 1,
+        "f1_before": 0.9431414356787491,
+        "f1_after": 0.9431818181818182
+      },
+      "proxy": -0.00021916204558841386,
+      "quality_gain": 0.0,
+      "measured_cost": {
+        "seconds": 0.153423895011656,
+        "trials": [
+          0.15526679600588977,
+          0.15321006695739925,
+          0.15363772306591272,
+          0.1517886770889163
+        ],
+        "nnz": 195647,
+        "rows": 385
+      },
+      "project_tp": [
+        21,
+        4
+      ]
+    },
+    "both:yes:blend:1": {
+      "cohort_only": true,
+      "mode": "both",
+      "kind": "blend",
+      "scope": "yes",
+      "mix": 1.0,
+      "threshold": 0.21638596057891846,
+      "calibration": {
+        "before": {
+          "tp": 1337,
+          "fp": 100,
+          "fn": 51,
+          "tn": 2804
+        },
+        "after": {
+          "tp": 1337,
+          "fp": 100,
+          "fn": 51,
+          "tn": 2804
+        },
+        "delta_tp": 0,
+        "delta_fp": 0,
+        "f1_before": 0.9465486725663717,
+        "f1_after": 0.9465486725663717
+      },
+      "review": {
+        "before": {
+          "tp": 1327,
+          "fp": 104,
+          "fn": 56,
+          "tn": 2807
+        },
+        "after": {
+          "tp": 1328,
+          "fp": 106,
+          "fn": 55,
+          "tn": 2805
+        },
+        "delta_tp": 1,
+        "delta_fp": 2,
+        "f1_before": 0.9431414356787491,
+        "f1_after": 0.9428470003549876
+      },
+      "proxy": -0.00021916204558841386,
+      "quality_gain": 0.0,
+      "measured_cost": {
+        "seconds": 0.153423895011656,
+        "trials": [
+          0.15526679600588977,
+          0.15321006695739925,
+          0.15363772306591272,
+          0.1517886770889163
+        ],
+        "nnz": 195647,
+        "rows": 385
+      },
+      "project_tp": [
+        23,
+        4
+      ]
+    },
+    "both:yes:promote:0.5": {
+      "cohort_only": true,
+      "mode": "both",
+      "kind": "promote",
+      "scope": "yes",
+      "mix": 0.5,
+      "threshold": 0.26992160081863403,
+      "calibration": {
+        "before": {
+          "tp": 1337,
+          "fp": 100,
+          "fn": 51,
+          "tn": 2804
+        },
+        "after": {
+          "tp": 1337,
+          "fp": 100,
+          "fn": 51,
+          "tn": 2804
+        },
+        "delta_tp": 0,
+        "delta_fp": 0,
+        "f1_before": 0.9465486725663717,
+        "f1_after": 0.9465486725663717
+      },
+      "review": {
+        "before": {
+          "tp": 1327,
+          "fp": 104,
+          "fn": 56,
+          "tn": 2807
+        },
+        "after": {
+          "tp": 1327,
+          "fp": 103,
+          "fn": 56,
+          "tn": 2808
+        },
+        "delta_tp": 0,
+        "delta_fp": -1,
+        "f1_before": 0.9431414356787491,
+        "f1_after": 0.9434767152506222
+      },
+      "proxy": -0.00021916204558841386,
+      "quality_gain": 0.0,
+      "measured_cost": {
+        "seconds": 0.153423895011656,
+        "trials": [
+          0.15526679600588977,
+          0.15321006695739925,
+          0.15363772306591272,
+          0.1517886770889163
+        ],
+        "nnz": 195647,
+        "rows": 385
+      },
+      "project_tp": [
+        8,
+        4
+      ]
+    },
+    "both:yes:promote:1": {
+      "cohort_only": true,
+      "mode": "both",
+      "kind": "promote",
+      "scope": "yes",
+      "mix": 1.0,
+      "threshold": 0.26992160081863403,
+      "calibration": {
+        "before": {
+          "tp": 1337,
+          "fp": 100,
+          "fn": 51,
+          "tn": 2804
+        },
+        "after": {
+          "tp": 1337,
+          "fp": 100,
+          "fn": 51,
+          "tn": 2804
+        },
+        "delta_tp": 0,
+        "delta_fp": 0,
+        "f1_before": 0.9465486725663717,
+        "f1_after": 0.9465486725663717
+      },
+      "review": {
+        "before": {
+          "tp": 1327,
+          "fp": 104,
+          "fn": 56,
+          "tn": 2807
+        },
+        "after": {
+          "tp": 1327,
+          "fp": 103,
+          "fn": 56,
+          "tn": 2808
+        },
+        "delta_tp": 0,
+        "delta_fp": -1,
+        "f1_before": 0.9431414356787491,
+        "f1_after": 0.9434767152506222
+      },
+      "proxy": -0.00021916204558841386,
+      "quality_gain": 0.0,
+      "measured_cost": {
+        "seconds": 0.153423895011656,
+        "trials": [
+          0.15526679600588977,
+          0.15321006695739925,
+          0.15363772306591272,
+          0.1517886770889163
+        ],
+        "nnz": 195647,
+        "rows": 385
+      },
+      "project_tp": [
+        9,
+        4
+      ]
+    },
+    "token:no:blend:0.5": {
+      "cohort_only": true,
+      "mode": "token",
+      "kind": "blend",
+      "scope": "no",
+      "mix": 0.5,
+      "threshold": 0.24839651584625244,
+      "calibration": {
+        "before": {
+          "tp": 1337,
+          "fp": 100,
+          "fn": 51,
+          "tn": 2804
+        },
+        "after": {
+          "tp": 1340,
+          "fp": 100,
+          "fn": 48,
+          "tn": 2804
+        },
+        "delta_tp": 3,
+        "delta_fp": 0,
+        "f1_before": 0.9465486725663717,
+        "f1_after": 0.9476661951909476
+      },
+      "review": {
+        "before": {
+          "tp": 1327,
+          "fp": 104,
+          "fn": 56,
+          "tn": 2807
+        },
+        "after": {
+          "tp": 1332,
+          "fp": 111,
+          "fn": 51,
+          "tn": 2800
+        },
+        "delta_tp": 5,
+        "delta_fp": 7,
+        "f1_before": 0.9431414356787491,
+        "f1_after": 0.9426751592356688
+      },
+      "proxy": 0.0002410339636205111,
+      "quality_gain": 0.0003352567873727952,
+      "measured_cost": {
+        "seconds": 0.0659604724496603,
+        "trials": [
+          0.06698219012469053,
+          0.06571314297616482,
+          0.06620780192315578,
+          0.06548571796156466
+        ],
+        "nnz": 85992,
+        "rows": 645
+      },
+      "project_tp": [
+        56,
+        9
+      ]
+    },
+    "token:no:blend:1": {
+      "cohort_only": true,
+      "mode": "token",
+      "kind": "blend",
+      "scope": "no",
+      "mix": 1.0,
+      "threshold": 0.26605015993118286,
+      "calibration": {
+        "before": {
+          "tp": 1337,
+          "fp": 100,
+          "fn": 51,
+          "tn": 2804
+        },
+        "after": {
+          "tp": 1339,
+          "fp": 100,
+          "fn": 49,
+          "tn": 2804
+        },
+        "delta_tp": 2,
+        "delta_fp": 0,
+        "f1_before": 0.9465486725663717,
+        "f1_after": 0.9472939511850018
+      },
+      "review": {
+        "before": {
+          "tp": 1327,
+          "fp": 104,
+          "fn": 56,
+          "tn": 2807
+        },
+        "after": {
+          "tp": 1327,
+          "fp": 103,
+          "fn": 56,
+          "tn": 2808
+        },
+        "delta_tp": 0,
+        "delta_fp": -1,
+        "f1_before": 0.9431414356787491,
+        "f1_after": 0.9434767152506222
+      },
+      "proxy": 0.0001293607618367648,
+      "quality_gain": 0.0002235835855890489,
+      "measured_cost": {
+        "seconds": 0.0659604724496603,
+        "trials": [
+          0.06698219012469053,
+          0.06571314297616482,
+          0.06620780192315578,
+          0.06548571796156466
+        ],
+        "nnz": 85992,
+        "rows": 645
+      },
+      "project_tp": [
+        69,
+        13
+      ]
+    },
+    "token:no:promote:0.5": {
+      "cohort_only": true,
+      "mode": "token",
+      "kind": "promote",
+      "scope": "no",
+      "mix": 0.5,
+      "threshold": 0.26663926243782043,
+      "calibration": {
+        "before": {
+          "tp": 1337,
+          "fp": 100,
+          "fn": 51,
+          "tn": 2804
+        },
+        "after": {
+          "tp": 1338,
+          "fp": 100,
+          "fn": 50,
+          "tn": 2804
+        },
+        "delta_tp": 1,
+        "delta_fp": 0,
+        "f1_before": 0.9465486725663717,
+        "f1_after": 0.9469214437367304
+      },
+      "review": {
+        "before": {
+          "tp": 1327,
+          "fp": 104,
+          "fn": 56,
+          "tn": 2807
+        },
+        "after": {
+          "tp": 1332,
+          "fp": 109,
+          "fn": 51,
+          "tn": 2802
+        },
+        "delta_tp": 5,
+        "delta_fp": 5,
+        "f1_before": 0.9431414356787491,
+        "f1_after": 0.943342776203966
+      },
+      "proxy": 1.760852735533224e-05,
+      "quality_gain": 0.00011183135110761632,
+      "measured_cost": {
+        "seconds": 0.0659604724496603,
+        "trials": [
+          0.06698219012469053,
+          0.06571314297616482,
+          0.06620780192315578,
+          0.06548571796156466
+        ],
+        "nnz": 85992,
+        "rows": 645
+      },
+      "project_tp": [
+        42,
+        3
+      ]
+    },
+    "token:no:promote:1": {
+      "cohort_only": true,
+      "mode": "token",
+      "kind": "promote",
+      "scope": "no",
+      "mix": 1.0,
+      "threshold": 0.2841356694698334,
+      "calibration": {
+        "before": {
+          "tp": 1337,
+          "fp": 100,
+          "fn": 51,
+          "tn": 2804
+        },
+        "after": {
+          "tp": 1338,
+          "fp": 100,
+          "fn": 50,
+          "tn": 2804
+        },
+        "delta_tp": 1,
+        "delta_fp": 0,
+        "f1_before": 0.9465486725663717,
+        "f1_after": 0.9469214437367304
+      },
+      "review": {
+        "before": {
+          "tp": 1327,
+          "fp": 104,
+          "fn": 56,
+          "tn": 2807
+        },
+        "after": {
+          "tp": 1330,
+          "fp": 108,
+          "fn": 53,
+          "tn": 2803
+        },
+        "delta_tp": 3,
+        "delta_fp": 4,
+        "f1_before": 0.9431414356787491,
+        "f1_after": 0.9429280397022333
+      },
+      "proxy": 1.760852735533224e-05,
+      "quality_gain": 0.00011183135110761632,
+      "measured_cost": {
+        "seconds": 0.0659604724496603,
+        "trials": [
+          0.06698219012469053,
+          0.06571314297616482,
+          0.06620780192315578,
+          0.06548571796156466
+        ],
+        "nnz": 85992,
+        "rows": 645
+      },
+      "project_tp": [
+        58,
+        10
+      ]
+    },
+    "token:no:veto:0.5": {
+      "cohort_only": true,
+      "mode": "token",
+      "kind": "veto",
+      "scope": "no",
+      "mix": 0.5,
+      "threshold": 0.23424912989139557,
+      "calibration": {
+        "before": {
+          "tp": 1337,
+          "fp": 100,
+          "fn": 51,
+          "tn": 2804
+        },
+        "after": {
+          "tp": 1339,
+          "fp": 100,
+          "fn": 49,
+          "tn": 2804
+        },
+        "delta_tp": 2,
+        "delta_fp": 0,
+        "f1_before": 0.9465486725663717,
+        "f1_after": 0.9472939511850018
+      },
+      "review": {
+        "before": {
+          "tp": 1327,
+          "fp": 104,
+          "fn": 56,
+          "tn": 2807
+        },
+        "after": {
+          "tp": 1330,
+          "fp": 110,
+          "fn": 53,
+          "tn": 2801
+        },
+        "delta_tp": 3,
+        "delta_fp": 6,
+        "f1_before": 0.9431414356787491,
+        "f1_after": 0.9422600070846617
+      },
+      "proxy": 0.0001293607618367648,
+      "quality_gain": 0.0002235835855890489,
+      "measured_cost": {
+        "seconds": 0.0659604724496603,
+        "trials": [
+          0.06698219012469053,
+          0.06571314297616482,
+          0.06620780192315578,
+          0.06548571796156466
+        ],
+        "nnz": 85992,
+        "rows": 645
+      },
+      "project_tp": [
+        12,
+        5
+      ]
+    },
+    "token:no:veto:1": {
+      "cohort_only": true,
+      "mode": "token",
+      "kind": "veto",
+      "scope": "no",
+      "mix": 1.0,
+      "threshold": 0.22846469283103943,
+      "calibration": {
+        "before": {
+          "tp": 1337,
+          "fp": 100,
+          "fn": 51,
+          "tn": 2804
+        },
+        "after": {
+          "tp": 1339,
+          "fp": 100,
+          "fn": 49,
+          "tn": 2804
+        },
+        "delta_tp": 2,
+        "delta_fp": 0,
+        "f1_before": 0.9465486725663717,
+        "f1_after": 0.9472939511850018
+      },
+      "review": {
+        "before": {
+          "tp": 1327,
+          "fp": 104,
+          "fn": 56,
+          "tn": 2807
+        },
+        "after": {
+          "tp": 1331,
+          "fp": 105,
+          "fn": 52,
+          "tn": 2806
+        },
+        "delta_tp": 4,
+        "delta_fp": 1,
+        "f1_before": 0.9431414356787491,
+        "f1_after": 0.9443064916637105
+      },
+      "proxy": 0.0001293607618367648,
+      "quality_gain": 0.0002235835855890489,
+      "measured_cost": {
+        "seconds": 0.0659604724496603,
+        "trials": [
+          0.06698219012469053,
+          0.06571314297616482,
+          0.06620780192315578,
+          0.06548571796156466
+        ],
+        "nnz": 85992,
+        "rows": 645
+      },
+      "project_tp": [
+        15,
+        4
+      ]
+    },
+    "token:unqueried:blend:0.5": {
+      "cohort_only": true,
+      "mode": "token",
+      "kind": "blend",
+      "scope": "unqueried",
+      "mix": 0.5,
+      "threshold": 0.1207447424530983,
+      "calibration": {
+        "before": {
+          "tp": 1337,
+          "fp": 100,
+          "fn": 51,
+          "tn": 2804
+        },
+        "after": {
+          "tp": 1337,
+          "fp": 100,
+          "fn": 51,
+          "tn": 2804
+        },
+        "delta_tp": 0,
+        "delta_fp": 0,
+        "f1_before": 0.9465486725663717,
+        "f1_after": 0.9465486725663717
+      },
+      "review": {
+        "before": {
+          "tp": 1327,
+          "fp": 104,
+          "fn": 56,
+          "tn": 2807
+        },
+        "after": {
+          "tp": 1327,
+          "fp": 104,
+          "fn": 56,
+          "tn": 2807
+        },
+        "delta_tp": 0,
+        "delta_fp": 0,
+        "f1_before": 0.9431414356787491,
+        "f1_after": 0.9431414356787491
+      },
+      "proxy": -0.00016361225781396746,
+      "quality_gain": 0.0,
+      "measured_cost": {
+        "seconds": 0.114536352455616,
+        "trials": [
+          0.12484706193208694,
+          0.11455691000446677,
+          0.11447962000966072,
+          0.11451579490676522
+        ],
+        "nnz": 175375,
+        "rows": 2289
+      },
+      "project_tp": [
+        2,
+        0
+      ]
+    },
+    "token:unqueried:blend:1": {
+      "cohort_only": true,
+      "mode": "token",
+      "kind": "blend",
+      "scope": "unqueried",
+      "mix": 1.0,
+      "threshold": 0.12409080564975739,
+      "calibration": {
+        "before": {
+          "tp": 1337,
+          "fp": 100,
+          "fn": 51,
+          "tn": 2804
+        },
+        "after": {
+          "tp": 1338,
+          "fp": 100,
+          "fn": 50,
+          "tn": 2804
+        },
+        "delta_tp": 1,
+        "delta_fp": 0,
+        "f1_before": 0.9465486725663717,
+        "f1_after": 0.9469214437367304
+      },
+      "review": {
+        "before": {
+          "tp": 1327,
+          "fp": 104,
+          "fn": 56,
+          "tn": 2807
+        },
+        "after": {
+          "tp": 1327,
+          "fp": 105,
+          "fn": 56,
+          "tn": 2806
+        },
+        "delta_tp": 0,
+        "delta_fp": 1,
+        "f1_before": 0.9431414356787491,
+        "f1_after": 0.9428063943161634
+      },
+      "proxy": -5.1780906706351136e-05,
+      "quality_gain": 0.00011183135110761632,
+      "measured_cost": {
+        "seconds": 0.114536352455616,
+        "trials": [
+          0.12484706193208694,
+          0.11455691000446677,
+          0.11447962000966072,
+          0.11451579490676522
+        ],
+        "nnz": 175375,
+        "rows": 2289
+      },
+      "project_tp": [
+        2,
+        2
+      ]
+    },
+    "token:unqueried:promote:0.5": {
+      "cohort_only": true,
+      "mode": "token",
+      "kind": "promote",
+      "scope": "unqueried",
+      "mix": 0.5,
+      "threshold": 0.1207447424530983,
+      "calibration": {
+        "before": {
+          "tp": 1337,
+          "fp": 100,
+          "fn": 51,
+          "tn": 2804
+        },
+        "after": {
+          "tp": 1337,
+          "fp": 100,
+          "fn": 51,
+          "tn": 2804
+        },
+        "delta_tp": 0,
+        "delta_fp": 0,
+        "f1_before": 0.9465486725663717,
+        "f1_after": 0.9465486725663717
+      },
+      "review": {
+        "before": {
+          "tp": 1327,
+          "fp": 104,
+          "fn": 56,
+          "tn": 2807
+        },
+        "after": {
+          "tp": 1327,
+          "fp": 104,
+          "fn": 56,
+          "tn": 2807
+        },
+        "delta_tp": 0,
+        "delta_fp": 0,
+        "f1_before": 0.9431414356787491,
+        "f1_after": 0.9431414356787491
+      },
+      "proxy": -0.00016361225781396746,
+      "quality_gain": 0.0,
+      "measured_cost": {
+        "seconds": 0.114536352455616,
+        "trials": [
+          0.12484706193208694,
+          0.11455691000446677,
+          0.11447962000966072,
+          0.11451579490676522
+        ],
+        "nnz": 175375,
+        "rows": 2289
+      },
+      "project_tp": [
+        2,
+        3
+      ]
+    },
+    "token:unqueried:promote:1": {
+      "cohort_only": true,
+      "mode": "token",
+      "kind": "promote",
+      "scope": "unqueried",
+      "mix": 1.0,
+      "threshold": 0.12409080564975739,
+      "calibration": {
+        "before": {
+          "tp": 1337,
+          "fp": 100,
+          "fn": 51,
+          "tn": 2804
+        },
+        "after": {
+          "tp": 1338,
+          "fp": 100,
+          "fn": 50,
+          "tn": 2804
+        },
+        "delta_tp": 1,
+        "delta_fp": 0,
+        "f1_before": 0.9465486725663717,
+        "f1_after": 0.9469214437367304
+      },
+      "review": {
+        "before": {
+          "tp": 1327,
+          "fp": 104,
+          "fn": 56,
+          "tn": 2807
+        },
+        "after": {
+          "tp": 1327,
+          "fp": 105,
+          "fn": 56,
+          "tn": 2806
+        },
+        "delta_tp": 0,
+        "delta_fp": 1,
+        "f1_before": 0.9431414356787491,
+        "f1_after": 0.9428063943161634
+      },
+      "proxy": -5.1780906706351136e-05,
+      "quality_gain": 0.00011183135110761632,
+      "measured_cost": {
+        "seconds": 0.114536352455616,
+        "trials": [
+          0.12484706193208694,
+          0.11455691000446677,
+          0.11447962000966072,
+          0.11451579490676522
+        ],
+        "nnz": 175375,
+        "rows": 2289
+      },
+      "project_tp": [
+        2,
+        4
+      ]
+    },
+    "token:unqueried:veto:0.5": {
+      "cohort_only": true,
+      "mode": "token",
+      "kind": "veto",
+      "scope": "unqueried",
+      "mix": 0.5,
+      "threshold": 0.11739867925643921,
+      "calibration": {
+        "before": {
+          "tp": 1337,
+          "fp": 100,
+          "fn": 51,
+          "tn": 2804
+        },
+        "after": {
+          "tp": 1337,
+          "fp": 100,
+          "fn": 51,
+          "tn": 2804
+        },
+        "delta_tp": 0,
+        "delta_fp": 0,
+        "f1_before": 0.9465486725663717,
+        "f1_after": 0.9465486725663717
+      },
+      "review": {
+        "before": {
+          "tp": 1327,
+          "fp": 104,
+          "fn": 56,
+          "tn": 2807
+        },
+        "after": {
+          "tp": 1327,
+          "fp": 104,
+          "fn": 56,
+          "tn": 2807
+        },
+        "delta_tp": 0,
+        "delta_fp": 0,
+        "f1_before": 0.9431414356787491,
+        "f1_after": 0.9431414356787491
+      },
+      "proxy": -0.00016361225781396746,
+      "quality_gain": 0.0,
+      "measured_cost": {
+        "seconds": 0.114536352455616,
+        "trials": [
+          0.12484706193208694,
+          0.11455691000446677,
+          0.11447962000966072,
+          0.11451579490676522
+        ],
+        "nnz": 175375,
+        "rows": 2289
+      },
+      "project_tp": [
+        3,
+        3
+      ]
+    },
+    "token:unqueried:veto:1": {
+      "cohort_only": true,
+      "mode": "token",
+      "kind": "veto",
+      "scope": "unqueried",
+      "mix": 1.0,
+      "threshold": 0.11739867925643921,
+      "calibration": {
+        "before": {
+          "tp": 1337,
+          "fp": 100,
+          "fn": 51,
+          "tn": 2804
+        },
+        "after": {
+          "tp": 1337,
+          "fp": 100,
+          "fn": 51,
+          "tn": 2804
+        },
+        "delta_tp": 0,
+        "delta_fp": 0,
+        "f1_before": 0.9465486725663717,
+        "f1_after": 0.9465486725663717
+      },
+      "review": {
+        "before": {
+          "tp": 1327,
+          "fp": 104,
+          "fn": 56,
+          "tn": 2807
+        },
+        "after": {
+          "tp": 1327,
+          "fp": 104,
+          "fn": 56,
+          "tn": 2807
+        },
+        "delta_tp": 0,
+        "delta_fp": 0,
+        "f1_before": 0.9431414356787491,
+        "f1_after": 0.9431414356787491
+      },
+      "proxy": -0.00016361225781396746,
+      "quality_gain": 0.0,
+      "measured_cost": {
+        "seconds": 0.114536352455616,
+        "trials": [
+          0.12484706193208694,
+          0.11455691000446677,
+          0.11447962000966072,
+          0.11451579490676522
+        ],
+        "nnz": 175375,
+        "rows": 2289
+      },
+      "project_tp": [
+        3,
+        3
+      ]
+    },
+    "token:yes:blend:0.5": {
+      "cohort_only": true,
+      "mode": "token",
+      "kind": "blend",
+      "scope": "yes",
+      "mix": 0.5,
+      "threshold": 0.24034562706947327,
+      "calibration": {
+        "before": {
+          "tp": 1337,
+          "fp": 100,
+          "fn": 51,
+          "tn": 2804
+        },
+        "after": {
+          "tp": 1337,
+          "fp": 100,
+          "fn": 51,
+          "tn": 2804
+        },
+        "delta_tp": 0,
+        "delta_fp": 0,
+        "f1_before": 0.9465486725663717,
+        "f1_after": 0.9465486725663717
+      },
+      "review": {
+        "before": {
+          "tp": 1327,
+          "fp": 104,
+          "fn": 56,
+          "tn": 2807
+        },
+        "after": {
+          "tp": 1327,
+          "fp": 105,
+          "fn": 56,
+          "tn": 2806
+        },
+        "delta_tp": 0,
+        "delta_fp": 1,
+        "f1_before": 0.9431414356787491,
+        "f1_after": 0.9428063943161634
+      },
+      "proxy": -6.684451310807355e-05,
+      "quality_gain": 0.0,
+      "measured_cost": {
+        "seconds": 0.046794352936558425,
+        "trials": [
+          0.04628120386041701,
+          0.04619217989966273,
+          0.04730750201269984,
+          0.04873377410694957
+        ],
+        "nnz": 57789,
+        "rows": 385
+      },
+      "project_tp": [
+        18,
+        4
+      ]
+    },
+    "token:yes:blend:1": {
+      "cohort_only": true,
+      "mode": "token",
+      "kind": "blend",
+      "scope": "yes",
+      "mix": 1.0,
+      "threshold": 0.2324262112379074,
+      "calibration": {
+        "before": {
+          "tp": 1337,
+          "fp": 100,
+          "fn": 51,
+          "tn": 2804
+        },
+        "after": {
+          "tp": 1337,
+          "fp": 100,
+          "fn": 51,
+          "tn": 2804
+        },
+        "delta_tp": 0,
+        "delta_fp": 0,
+        "f1_before": 0.9465486725663717,
+        "f1_after": 0.9465486725663717
+      },
+      "review": {
+        "before": {
+          "tp": 1327,
+          "fp": 104,
+          "fn": 56,
+          "tn": 2807
+        },
+        "after": {
+          "tp": 1328,
+          "fp": 104,
+          "fn": 55,
+          "tn": 2807
+        },
+        "delta_tp": 1,
+        "delta_fp": 0,
+        "f1_before": 0.9431414356787491,
+        "f1_after": 0.9435168738898757
+      },
+      "proxy": -6.684451310807355e-05,
+      "quality_gain": 0.0,
+      "measured_cost": {
+        "seconds": 0.046794352936558425,
+        "trials": [
+          0.04628120386041701,
+          0.04619217989966273,
+          0.04730750201269984,
+          0.04873377410694957
+        ],
+        "nnz": 57789,
+        "rows": 385
+      },
+      "project_tp": [
+        14,
+        5
+      ]
+    },
+    "token:yes:promote:0.5": {
+      "cohort_only": true,
+      "mode": "token",
+      "kind": "promote",
+      "scope": "yes",
+      "mix": 0.5,
+      "threshold": 0.2532191872596741,
+      "calibration": {
+        "before": {
+          "tp": 1337,
+          "fp": 100,
+          "fn": 51,
+          "tn": 2804
+        },
+        "after": {
+          "tp": 1337,
+          "fp": 100,
+          "fn": 51,
+          "tn": 2804
+        },
+        "delta_tp": 0,
+        "delta_fp": 0,
+        "f1_before": 0.9465486725663717,
+        "f1_after": 0.9465486725663717
+      },
+      "review": {
+        "before": {
+          "tp": 1327,
+          "fp": 104,
+          "fn": 56,
+          "tn": 2807
+        },
+        "after": {
+          "tp": 1327,
+          "fp": 105,
+          "fn": 56,
+          "tn": 2806
+        },
+        "delta_tp": 0,
+        "delta_fp": 1,
+        "f1_before": 0.9431414356787491,
+        "f1_after": 0.9428063943161634
+      },
+      "proxy": -6.684451310807355e-05,
+      "quality_gain": 0.0,
+      "measured_cost": {
+        "seconds": 0.046794352936558425,
+        "trials": [
+          0.04628120386041701,
+          0.04619217989966273,
+          0.04730750201269984,
+          0.04873377410694957
+        ],
+        "nnz": 57789,
+        "rows": 385
+      },
+      "project_tp": [
+        6,
+        4
+      ]
+    },
+    "token:yes:promote:1": {
+      "cohort_only": true,
+      "mode": "token",
+      "kind": "promote",
+      "scope": "yes",
+      "mix": 1.0,
+      "threshold": 0.26992160081863403,
+      "calibration": {
+        "before": {
+          "tp": 1337,
+          "fp": 100,
+          "fn": 51,
+          "tn": 2804
+        },
+        "after": {
+          "tp": 1337,
+          "fp": 100,
+          "fn": 51,
+          "tn": 2804
+        },
+        "delta_tp": 0,
+        "delta_fp": 0,
+        "f1_before": 0.9465486725663717,
+        "f1_after": 0.9465486725663717
+      },
+      "review": {
+        "before": {
+          "tp": 1327,
+          "fp": 104,
+          "fn": 56,
+          "tn": 2807
+        },
+        "after": {
+          "tp": 1327,
+          "fp": 103,
+          "fn": 56,
+          "tn": 2808
+        },
+        "delta_tp": 0,
+        "delta_fp": -1,
+        "f1_before": 0.9431414356787491,
+        "f1_after": 0.9434767152506222
+      },
+      "proxy": -6.684451310807355e-05,
+      "quality_gain": 0.0,
+      "measured_cost": {
+        "seconds": 0.046794352936558425,
+        "trials": [
+          0.04628120386041701,
+          0.04619217989966273,
+          0.04730750201269984,
+          0.04873377410694957
+        ],
+        "nnz": 57789,
+        "rows": 385
+      },
+      "project_tp": [
+        8,
+        5
+      ]
+    }
+  },
+  "cal_rows": 4292,
+  "source_policy_sha256": "56fe94ac47fe038772f83a799f8e0f80a77776e157076cbb6f2323e5e586a952",
+  "heldout_sha256": "5ca27d13ff69a5984127744e94894a23ab6a39678858133df871f604121fd424",
+  "models_sha256": "a488516dbf11f3eb677a1d00253bcf02f4ab1a4c87fd2dd0200ec094d44d41bc",
+  "script_sha256": "4cf69fbb12335387d8518b7185949694ffd1ac50fe2408620100ec08a2fcd859"
+}

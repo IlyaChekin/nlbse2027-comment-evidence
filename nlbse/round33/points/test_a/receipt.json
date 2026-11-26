@@ -1,0 +1,14 @@
+{
+  "rotation": "test_a",
+  "phases": {
+    "dev": "ec04dd10337e0be934054436268665434ec84a409d35c0f1926c06488c37f63e",
+    "test": "1336b5d8f4f6a29d4601587e46f1ec5aa0b0046cd5751672386f6eb9a951c510",
+    "oof": "e176b27c9f8ec076639ae300ee0dcc5dad6c71106ea1ea0717bea30ec2ffa9eb"
+  },
+  "source": "acaa3c322324cfcb13feeb2f058ad8a2d6d9547141f1eae2f9cb5a04f2a53eff",
+  "exact_replay": true,
+  "cutoff": 0.139944389462471,
+  "code_sha256": "51a717a9563c7ab18844cc5a7078ad1bf55d871c57493c9086da7f00e49b6633",
+  "compact_oof_sha256": "9837490206482b7cef217d0aa07e5180aa4da9291c650c47f2383b86c1a822fd",
+  "sparse_oof_sha256": "7cd35a9638639b2212ee19dd1bb087d58c3046aebaffebf8f0bc49b286a06b67"
+}

@@ -1,0 +1,388 @@
+{
+  "matrix_sha256": "e66efb0e64cdfdc3ef8c8c7e0b52075e72d6cd0cc30284e1c00c597e9a6ab29e",
+  "embeddings": {
+    "96": "8a07c14a54816a9b0a73cacd5a83b39a83feac6f75886ee20d2dd991a34efc84",
+    "384": "51ad60cb155776dda494bd43562a44664a47d1d0446f763a8add254ba7eb0081"
+  },
+  "prior_sha256": "8b987f7a2458a8d9f7caa35811baf1a7e81407a1672453861f014630f4e0c6bc",
+  "pairs_sha256": "9a736956406e632f82c2fa97a3475280fe3cf1e22f2fc73d9b7541dcb6b942d7",
+  "compact_sha256": "d04fba2d981c3758fea8fa737f5c70791c4ccead316321f4a52bff6ae452dc9f",
+  "excluded": 32,
+  "bank_sizes": {
+    "knn_embed96": {
+      "negative_consensus": 848,
+      "negative_veto": 950
+    },
+    "knn_embed384": {
+      "negative_consensus": 848,
+      "negative_veto": 950
+    },
+    "knn_raw384": {
+      "negative_consensus": 848,
+      "negative_veto": 950
+    }
+  },
+  "score_sha256": "4f98b02e34617a7dd5bfd21c7c256db76c29b8a65a803b7b2869c02e072c9fd9",
+  "weights_sha256": "513ffe90e7fb6c3ffb7e4692fed9ef9562552fae4b782fd4ec8f32501ee1556d",
+  "diagnostics": {
+    "negative_consensus": {
+      "pairs": 2076,
+      "stats": {
+        "reference": {
+          "pair_win": 0.6350235849056604,
+          "interval": [
+            0.6078430255310607,
+            0.6631664650013767
+          ],
+          "unique_positive": 848
+        },
+        "numeric": {
+          "pair_win": 0.6155660377358491,
+          "interval": [
+            0.5874278579170067,
+            0.6431642568842929
+          ],
+          "unique_positive": 848
+        },
+        "unix96": {
+          "pair_win": 0.5982704402515723,
+          "interval": [
+            0.5688342890667881,
+            0.6307555354650424
+          ],
+          "unique_positive": 848
+        },
+        "unix384": {
+          "pair_win": 0.6014150943396226,
+          "interval": [
+            0.5699847444698705,
+            0.6330760260665658
+          ],
+          "unique_positive": 848
+        },
+        "qwen96": {
+          "pair_win": 0.5784198113207547,
+          "interval": [
+            0.549193448548054,
+            0.6135992604849062
+          ],
+          "unique_positive": 848
+        },
+        "qwen384": {
+          "pair_win": 0.5817610062893083,
+          "interval": [
+            0.5481911442311092,
+            0.6176604745698623
+          ],
+          "unique_positive": 848
+        },
+        "embed96": {
+          "pair_win": 0.5982704402515723,
+          "interval": [
+            0.568574837724322,
+            0.6285368908226077
+          ],
+          "unique_positive": 848
+        },
+        "raw96": {
+          "pair_win": 0.5913915094339622,
+          "interval": [
+            0.5635470573313036,
+            0.6203367474911111
+          ],
+          "unique_positive": 848
+        },
+        "embed384": {
+          "pair_win": 0.5998427672955975,
+          "interval": [
+            0.5714122953869047,
+            0.6293280041075761
+          ],
+          "unique_positive": 848
+        },
+        "raw384": {
+          "pair_win": 0.5835298742138364,
+          "interval": [
+            0.5535134995848063,
+            0.6124209801863514
+          ],
+          "unique_positive": 848
+        },
+        "knn_embed96": {
+          "pair_win": 0.645440251572327,
+          "interval": [
+            0.617219735552522,
+            0.6738572222886792
+          ],
+          "unique_positive": 848
+        },
+        "knn_embed384": {
+          "pair_win": 0.6517295597484276,
+          "interval": [
+            0.6238878447437457,
+            0.6799459135847045
+          ],
+          "unique_positive": 848
+        },
+        "knn_raw384": {
+          "pair_win": 0.6536949685534592,
+          "interval": [
+            0.6264641046261603,
+            0.6808087269834312
+          ],
+          "unique_positive": 848
+        },
+        "merge384": {
+          "pair_win": 0.6157625786163522,
+          "interval": [
+            0.586109457171519,
+            0.6449595218597881
+          ],
+          "unique_positive": 848
+        }
+      },
+      "unique_embed": 363,
+      "unique_unix": 346
+    },
+    "negative_veto": {
+      "pairs": 1988,
+      "stats": {
+        "reference": {
+          "pair_win": 0.624561403508772,
+          "interval": [
+            0.5913941210993732,
+            0.657692043251714
+          ],
+          "unique_positive": 950
+        },
+        "numeric": {
+          "pair_win": 0.6389473684210526,
+          "interval": [
+            0.6081983607672333,
+            0.6710912041048642
+          ],
+          "unique_positive": 950
+        },
+        "unix96": {
+          "pair_win": 0.6075438596491229,
+          "interval": [
+            0.573876614064892,
+            0.6441090610767564
+          ],
+          "unique_positive": 950
+        },
+        "unix384": {
+          "pair_win": 0.6128070175438596,
+          "interval": [
+            0.5798499589147103,
+            0.6484892632619906
+          ],
+          "unique_positive": 950
+        },
+        "qwen96": {
+          "pair_win": 0.600701754385965,
+          "interval": [
+            0.5666654409935346,
+            0.6346343779677113
+          ],
+          "unique_positive": 950
+        },
+        "qwen384": {
+          "pair_win": 0.5928070175438596,
+          "interval": [
+            0.5570818986893377,
+            0.6306799486541232
+          ],
+          "unique_positive": 950
+        },
+        "embed96": {
+          "pair_win": 0.619298245614035,
+          "interval": [
+            0.5900031760490864,
+            0.6514775050354996
+          ],
+          "unique_positive": 950
+        },
+        "raw96": {
+          "pair_win": 0.6014035087719297,
+          "interval": [
+            0.5706562377418933,
+            0.634292852677258
+          ],
+          "unique_positive": 950
+        },
+        "embed384": {
+          "pair_win": 0.6226315789473684,
+          "interval": [
+            0.591845752231686,
+            0.6536297982765372
+          ],
+          "unique_positive": 950
+        },
+        "raw384": {
+          "pair_win": 0.5968421052631578,
+          "interval": [
+            0.564964757030282,
+            0.6316302634518337
+          ],
+          "unique_positive": 950
+        },
+        "knn_embed96": {
+          "pair_win": 0.6110526315789474,
+          "interval": [
+            0.5768236196404434,
+            0.6459252548741184
+          ],
+          "unique_positive": 950
+        },
+        "knn_embed384": {
+          "pair_win": 0.6164912280701754,
+          "interval": [
+            0.5800834980295195,
+            0.6530480964395352
+          ],
+          "unique_positive": 950
+        },
+        "knn_raw384": {
+          "pair_win": 0.613859649122807,
+          "interval": [
+            0.5779103236789441,
+            0.6502029076394659
+          ],
+          "unique_positive": 950
+        },
+        "merge384": {
+          "pair_win": 0.620701754385965,
+          "interval": [
+            0.5892019165205535,
+            0.6560994125846276
+          ],
+          "unique_positive": 950
+        }
+      },
+      "unique_embed": 287,
+      "unique_unix": 259
+    },
+    "negative_retained": {
+      "pairs": 310,
+      "stats": {
+        "reference": {
+          "pair_win": 0.5031319910514541,
+          "interval": [
+            0.4166155882174493,
+            0.5973462401795735
+          ],
+          "unique_positive": 149
+        },
+        "numeric": {
+          "pair_win": 0.5114021325430722,
+          "interval": [
+            0.4313082658762806,
+            0.6105772611057844
+          ],
+          "unique_positive": 149
+        },
+        "unix96": {
+          "pair_win": 0.46437432813271734,
+          "interval": [
+            0.3910122823984527,
+            0.5587757241372927
+          ],
+          "unique_positive": 149
+        },
+        "unix384": {
+          "pair_win": 0.47408698683866474,
+          "interval": [
+            0.3953639021058273,
+            0.5718958889034647
+          ],
+          "unique_positive": 149
+        },
+        "qwen96": {
+          "pair_win": 0.4450782997762863,
+          "interval": [
+            0.3689080071974809,
+            0.5217142044853484
+          ],
+          "unique_positive": 149
+        },
+        "qwen384": {
+          "pair_win": 0.47543943751997436,
+          "interval": [
+            0.39829899757420084,
+            0.5643744201011643
+          ],
+          "unique_positive": 149
+        },
+        "embed96": {
+          "pair_win": 0.49495627415090504,
+          "interval": [
+            0.40489218001250094,
+            0.599482766259082
+          ],
+          "unique_positive": 149
+        },
+        "raw96": {
+          "pair_win": 0.5207269240826288,
+          "interval": [
+            0.44834821607167646,
+            0.6024953016262885
+          ],
+          "unique_positive": 149
+        },
+        "embed384": {
+          "pair_win": 0.4851259478776257,
+          "interval": [
+            0.4043482118716332,
+            0.5745265010200725
+          ],
+          "unique_positive": 149
+        },
+        "raw384": {
+          "pair_win": 0.5021383538162062,
+          "interval": [
+            0.4231134279043589,
+            0.583020450358025
+          ],
+          "unique_positive": 149
+        },
+        "knn_embed96": {
+          "pair_win": 0.49703216246840404,
+          "interval": [
+            0.4162093391354755,
+            0.5919747338293437
+          ],
+          "unique_positive": 149
+        },
+        "knn_embed384": {
+          "pair_win": 0.516556262529417,
+          "interval": [
+            0.43623740243454967,
+            0.6098262096752028
+          ],
+          "unique_positive": 149
+        },
+        "knn_raw384": {
+          "pair_win": 0.5309349487201837,
+          "interval": [
+            0.44957950978713696,
+            0.6230125244379277
+          ],
+          "unique_positive": 149
+        },
+        "merge384": {
+          "pair_win": 0.44590197274761034,
+          "interval": [
+            0.3581554387531496,
+            0.5469137522175156
+          ],
+          "unique_positive": 149
+        }
+      },
+      "unique_embed": 57,
+      "unique_unix": 47
+    }
+  },
+  "study_seconds": 20.243456688011065,
+  "code_sha256": "05ac829ea5bda3d4687072cab7e677eb40e5d805a20e9e1d715261d5fcb99dcd"
+}

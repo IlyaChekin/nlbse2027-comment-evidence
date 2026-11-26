@@ -1,0 +1,21 @@
+\begin{table}[t]
+\centering
+\small\setlength{\tabcolsep}{3pt}
+\caption{Performance on 30,655 public functions. Operations are estimated thousands of GFLOPs.}
+\label{tab:performance}
+\begin{tabular}{lrrr}
+\toprule
+Configuration & Mean F1 & Wall s & Ops \\
+\midrule
+Original serial & 0.9276 & 23.00 & 547.4 \\
+Same scores, overlap & 0.9276 & 15.64 & 547.4 \\
+Learned readout, 512 & 0.9299 & 15.47 & 544.7 \\
+Full updates, 768 & 0.9327 & 16.66 & 564.5 \\
+Selective updates, 50\% & 0.9311 & 15.33 & 485.2 \\
+Selective updates, 65\% & 0.9329 & 15.70 & 509.2 \\
+Whole-example early exit & 0.9190 & 13.76 & 424.8 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+Selective updates reach mean F1 0.9311, versus 0.9327 for full updates and 0.9276 for the original reference. The paired 95\% improvement interval relative to the original is +0.06 to +0.69 points. Compared with full updates, selective updates save 14.0\% of estimated operations and change elapsed time from 16.66 to 15.33 seconds (Table~\ref{tab:performance}). The context control keeps the readout, pooling rule and updated positions fixed at 65\% of tokens. Retaining the other tokens as attention keys and values produces F1 0.9329. Removing those keys and values gives 0.9098. Full computation with a readout fitted on the same rows without the four tag features reaches 0.9300 mean F1. The selected tool's local formula value is 0.9234.

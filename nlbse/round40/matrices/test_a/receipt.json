@@ -1,0 +1,72 @@
+{
+  "rotation": "test_a",
+  "sources": {
+    "release_options_sha256": "c902ae5cd8762a82fce49467cb79ecfc5950faa664523aaffdb0915c3eb06939",
+    "round38_crossfit": {
+      "0": {
+        "fit": 25229,
+        "held": 8084,
+        "pairs": 4388,
+        "gradient": 1.80871362500892e-05
+      },
+      "1": {
+        "fit": 24739,
+        "held": 8574,
+        "pairs": 4405,
+        "gradient": 1.7019004479532953e-05
+      },
+      "2": {
+        "fit": 25038,
+        "held": 8278,
+        "pairs": 4415,
+        "gradient": 1.6183772611680922e-05
+      },
+      "3": {
+        "fit": 24912,
+        "held": 8399,
+        "pairs": 4238,
+        "gradient": 1.545923046366578e-05
+      }
+    },
+    "pairs_sha256": "728d6d3c3d2dba36f5ec39a4d5d573eaa0df847e411892f65fe08d3a02b52935",
+    "first_scores_sha256": "cbe8079a1b5c80e33ce24f593f68b2a73a977a28bc56559383d6ce32d388e2e1",
+    "compact_sha256": "9837490206482b7cef217d0aa07e5180aa4da9291c650c47f2383b86c1a822fd",
+    "sparse_sources_sha256": {
+      "dev": "849688e1c6864435845d6a9832eef968ace774cf8b46c730e873ffe1bebc086a",
+      "test": "0a215812789201b807b4f56efa15ce3bc2fc5050eeb238e27252b9e21f02baf7",
+      "oof": "7cd35a9638639b2212ee19dd1bb087d58c3046aebaffebf8f0bc49b286a06b67"
+    },
+    "new_scores_sha256": "0e50c0b5cface60aa4268ca26fe2c9ad53f4feb4b0891a7742289c5ed4aed493"
+  },
+  "phases": {
+    "dev": {
+      "rows": 23271,
+      "sha256": "c142890d03985d115712ef3ea534b292d88921fc2be932dbbf28674fa46cc7ac"
+    },
+    "test": {
+      "rows": 31098,
+      "sha256": "cbdd67d2d8d64b188e07df914f61aebcc48a028a667a783dac82dd5d403def27"
+    },
+    "oof": {
+      "rows": 160035,
+      "sha256": "9cabd56fb84d97f7a1de8f22702d10e914c15984eafbd6477267417c064c48ed"
+    }
+  },
+  "threshold": 0.139944389462471,
+  "fields": {
+    "counterfactual": [
+      "queried",
+      "flag"
+    ],
+    "real_time": [
+      "pre",
+      "unqueried",
+      "signed",
+      "sparse",
+      "new",
+      "observed_regime"
+    ]
+  },
+  "code_sha256": "4a7fc685bac2f4e3b594d9ae8057523e7153e777cff69d176f8c71d66847fd1c",
+  "data_sha256": "4fa9bc92ad59523895c4c6702399cb155cd71ebfeb575d14ea440c0b98a98b51"
+}

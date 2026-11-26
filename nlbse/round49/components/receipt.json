@@ -1,0 +1,45 @@
+{
+  "rows": 214586,
+  "columns": [
+    "W",
+    "Big-Vul",
+    "Devign"
+  ],
+  "matched": 212606,
+  "unique_components": 212114,
+  "label_conflicts": 0,
+  "usable": 212114,
+  "counts": {
+    "0": 143134,
+    "1": 64408,
+    "2": 1034,
+    "3": 724,
+    "4": 1574,
+    "5": 1240,
+    "6": 0,
+    "7": 0
+  },
+  "sets": {
+    "devign": {
+      "archive_rows": 27282,
+      "source_matches": 5952,
+      "crc32": "0b969f2c"
+    },
+    "big-vul": {
+      "archive_rows": 144358,
+      "source_matches": 37927,
+      "crc32": "2f2a1576"
+    },
+    "OSPR": {
+      "archive_rows": 688134,
+      "source_matches": 172756,
+      "crc32": "f22e03ff"
+    }
+  },
+  "training_sha256": "668a958c873060904e611bd3f45088acdbdb48631e6f626afda8ea7831fa6319",
+  "archive_sha256": "235f85dc6c0ed888fead3a2f2b55497bca5b07c8e0ee10a0c043b0557f29d49c",
+  "previous_source_sha256": "efdc3d93f4806b898a78e5288e751ae3b1241ca190f50fa017bef04a32119e03",
+  "predictions_sha256": "d5586f1994e1bf559935c212ff97b31ee3fb806d2ac6c2dff7a83e90a4733d88",
+  "code_sha256": "a2d936592ca46d17dcc3490bbf6279a21cd996c83ffb932f3281b7c509879b3a",
+  "seconds": 70.42409387603402
+}

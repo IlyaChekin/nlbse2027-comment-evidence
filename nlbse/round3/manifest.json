@@ -1,0 +1,15 @@
+{
+  "dataset_revision": "feca19b90d1cc9fcf8ba5d6e693c4a94e249585c",
+  "split_sha256": "b794ea08d416c7232e914dcc3dc3356135bd91456792d2989cf65a32e290bf75",
+  "fit_rows": 20000,
+  "calibration_rows": 3042,
+  "selection_rows": 18444,
+  "seed": 42,
+  "batch_size": 32,
+  "bucket_window": 2048,
+  "length_cap": 512,
+  "checkpoint_sha256": {
+    "runs/compact6_full/checkpoint/model.safetensors": "32deb09f1b00607ceccf9f2597cc4ebe68f2865268c685b9b53e8620b49de61d",
+    "runs/final_fit/checkpoint/model.safetensors": "d53928edfd59b31bbd7497f9035ff9cf864674936493df63fc18510a18aadbf4"
+  }
+}

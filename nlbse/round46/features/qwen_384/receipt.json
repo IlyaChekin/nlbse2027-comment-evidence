@@ -1,0 +1,20 @@
+{
+  "name": "qwen_384",
+  "window_sha256": "5ab2f83b8c9c9606272d1cb62765f629ac9e7be38108c2ec3853bd2dae757137",
+  "window_receipt_sha256": "bf6e5d3817e653b2957dea9a92ffc2a5c9d16398e1caaf6459d54d7290769d32",
+  "model_sha256": "aff8914ec707fcaf9e2d4dc97197cded50b1c63e1d3a7a82e56f54d83ea47f80",
+  "features": {
+    "features.npy": "f94f227c4c3540fe217fe5d2d94fb9f02a3b5500458b3662b81e99d84bcc67d7"
+  },
+  "rows": 84223,
+  "cost": {
+    "forward_seconds": 105.84962430177256,
+    "wall_seconds": 106.61494931392372,
+    "analytic_gflops": 9152503.073452039
+  },
+  "padded_formula": "analytic",
+  "layers": 24,
+  "dimensions": 2688,
+  "code_sha256": "86e4669cf0f3e295d9d0ae59923a26bf6d6f58278d1c35b149ab875acb0c1167",
+  "dtype": "torch.bfloat16"
+}

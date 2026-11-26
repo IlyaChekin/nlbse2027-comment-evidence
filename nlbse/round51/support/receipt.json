@@ -1,0 +1,25 @@
+{
+  "rows": 214586,
+  "matches": {
+    "devign": {
+      "source_rows": 27282,
+      "matching_matches": 5916,
+      "crc32": "0b969f2c"
+    },
+    "big-vul": {
+      "source_rows": 144358,
+      "matching_matches": 37066,
+      "crc32": "2f2a1576"
+    }
+  },
+  "coverage": 43305,
+  "absent": 168809,
+  "external_positives": 4572,
+  "external_only": 2608,
+  "conflict_vulnerability": 0,
+  "source_sha256": "235f85dc6c0ed888fead3a2f2b55497bca5b07c8e0ee10a0c043b0557f29d49c",
+  "source_labels_sha256": "f2c0924713f0251ff0b36fd503f21831b3de095376845d2868054a00cc467271",
+  "mask_sha256": "496840dbd662261106d942a3830d235310082968ebe3119de9762a67cfaf9999",
+  "code_sha256": "e1aa893d8e3a9ccf61118a566d74a687e2042d13c21d906af160cf497c8f8bb3",
+  "seconds": 17.95176328602247
+}

@@ -1,0 +1,36 @@
+{
+  "rotation": "test_b",
+  "folds": {
+    "0": {
+      "rows": 36967,
+      "mse_before": 0.4943397641181946,
+      "mse_after": 0.10335133224725723,
+      "encoder_sha256": "d7fd4ef588750a4d4c5ed99325d120c73b911178e07e3bab66bbe207a65c6725"
+    },
+    "1": {
+      "rows": 36439,
+      "mse_before": 0.5057676434516907,
+      "mse_after": 0.10269810259342194,
+      "encoder_sha256": "a1d12183bf3a902578247f3ea6227c71551be748f34b1b87058a4eeafe9269c0"
+    },
+    "2": {
+      "rows": 37468,
+      "mse_before": 0.5024722218513489,
+      "mse_after": 0.1005762591958046,
+      "encoder_sha256": "a941c953a2747dea5e8165c6c9b9be9b053b7fd991a57c8553fdcfee4d6c506e"
+    },
+    "3": {
+      "rows": 36863,
+      "mse_before": 0.4848455786705017,
+      "mse_after": 0.10207479447126389,
+      "encoder_sha256": "21827df36c7d5b422994760b6f80237158c6f7bc9cdfcfb7ff3172db17828e21"
+    }
+  },
+  "matrix_sha256": "60b77f55b6ceccfedf9419153dd4aefc11b825afc2f52765e71f105815b50196",
+  "state_sha256": "3fc804d9de3284bd2bdfaa237cd8d48620103a1aef3e1d3f8ed8a76b63703c9f",
+  "alignment_sha256": "b504004273caf5396626d7a899b5ad0b990fff5a5f87c090902216e7f4b64c3e",
+  "code_sha256": "2ad17357357103c13b272a3c52577f8f187afb1db44fb7eb0505902a0ca97f1f",
+  "model_receipt_sha256": "37bacdbf5a1cd232b2e636f187166da5a89960ec765d0f70bfc6d8ecd38bb84b",
+  "seconds": 25.747470359085128,
+  "regularization": 3.5
+}

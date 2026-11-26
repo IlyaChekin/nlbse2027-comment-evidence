@@ -1,0 +1,46 @@
+{
+  "rows": 214586,
+  "wall_seconds": 38.39898515911773,
+  "source_sha256": "668a958c873060904e611bd3f45088acdbdb48631e6f626afda8ea7831fa6319",
+  "source_code_sha256": "b5dbc5a39515fa1dfb8f5c35640c0b2b012814ef177834b254ed8efba52a315b",
+  "workers": 5,
+  "dense_columns": [
+    "chars",
+    "nodes",
+    "depth",
+    "parse_error",
+    "block_count",
+    "branch_count",
+    "call_count",
+    "max_calls_in_block",
+    "branch_reads",
+    "branch_writes",
+    "branch_calls",
+    "branch_exits",
+    "condition_id_count",
+    "condition_reuse",
+    "condition_reuse_write",
+    "condition_reuse_call",
+    "condition_reuse_exit",
+    "repeat_access",
+    "block_steps",
+    "block_call_pair",
+    "call_arg_total",
+    "call_arg_max",
+    "branch_depth",
+    "node_kinds",
+    "function_count"
+  ],
+  "tree_sitter": "0.25.2",
+  "cpp_grammar": "0.23.4",
+  "parse_errors": 35128,
+  "nnz": [
+    8106348,
+    5881475
+  ],
+  "files": {
+    "rows.npz": "8e1feba4dffbba4f14a2ed71c6175874dc0c5cda6de3a08e3c29105645428abd",
+    "flat.npz": "9290cca87122eea3a3e6470e7b0d08d9fd68673a6b897e3fc1ecae91bd1a350c",
+    "linked.npz": "60c4eded6eb6b1e3a2497f95a0321e25a8e7d08480daeffe52ce5c47905b87fe"
+  }
+}

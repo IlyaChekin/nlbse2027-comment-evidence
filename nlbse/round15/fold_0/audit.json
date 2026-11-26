@@ -1,0 +1,23 @@
+{
+  "fold": 0,
+  "rows": 30482,
+  "vulnerability_positive": 9890,
+  "jointly_high": {
+    "0.8": {
+      "joint_high_positive": 8211,
+      "joint_false_positive": 225,
+      "files_with_joint_false_positive": 198
+    },
+    "0.9": {
+      "joint_high_positive": 7626,
+      "joint_false_positive": 110,
+      "files_with_joint_false_positive": 103
+    },
+    "0.95": {
+      "joint_high_positive": 7048,
+      "joint_false_positive": 57,
+      "files_with_joint_false_positive": 55
+    }
+  },
+  "joint_confident_false_negatives": 52
+}

@@ -1,0 +1,67 @@
+{
+  "arms": [
+    "layout_paired",
+    "joint_paired",
+    "stub_paired",
+    "previous_joint"
+  ],
+  "scopes": [
+    "comment",
+    "comment_and_length"
+  ],
+  "maximum_short_chars": 200,
+  "minimum_development_negatives": 500,
+  "cutoffs": {
+    "comment": {
+      "layout_paired": [
+        6.399534306446551,
+        6.6519182047514995
+      ],
+      "joint_paired": [
+        6.408228098431196,
+        6.838379037039737
+      ],
+      "stub_paired": [
+        1.6199021361224468,
+        1.6947035383714326
+      ],
+      "previous_joint": [
+        -4.925428629604158,
+        -2.8105063590149966
+      ]
+    },
+    "comment_and_length": {
+      "layout_paired": [
+        6.399534306446551,
+        3.3491838065477113,
+        6.6519182047514995,
+        6.6519182047514995
+      ],
+      "joint_paired": [
+        6.408228098431196,
+        3.2866007095010157,
+        6.838379037039737,
+        6.838379037039737
+      ],
+      "stub_paired": [
+        1.6199021361224468,
+        0.2935420834999477,
+        1.6947035383714326,
+        1.6947035383714326
+      ],
+      "previous_joint": [
+        -4.925428629604158,
+        -5.783815072222993,
+        -2.8105063590149966,
+        -2.8105063590149966
+      ]
+    }
+  },
+  "predictions_input": {
+    "dev": "2e45ab78d2b3915d4a9231dc57e18a32301c38456b7ed94705350b95752ea1e7",
+    "test_a": "dc01c29a3804bf38e715e665521eb66bf93b9f886861f486d5475f1944ebc0ea",
+    "test_b": "6cbd9db68448dc772fd9f43422ab61d2a1ea2e3d8897ccc3947bb3563a5003f4"
+  },
+  "initial_policy_sha256": "756d36dfb5f89e4ea4d90eefa43d948ba8552ba9ef3404f67dcace528c68b27a",
+  "code_sha256": "af202dbbefa66415682b787e7b515dbace572a0b225c28b876ba4019ffbed561"
+}

@@ -1,0 +1,14 @@
+{
+  "cutoffs": {
+    "tagged_call": 0.6931471805599453,
+    "tagged_call_exclusive": 0.6931471805599453,
+    "tagged_named": 0.6931471805599453,
+    "tagged_named_exclusive": 0.6931471805599453,
+    "repair_named": 0.0,
+    "repair_named_exclusive": 0.0
+  },
+  "index_sha256": "9b44df47a4d39113cde0aaf08745a0015e6f0dba5d27f2c3e866bec2f8e5a1f6",
+  "train_manifest_sha256": "8cd6dc7cf3101d2e3a055ff7c7154653402fbb6491959f4f636504cd378b56ef",
+  "partition_sha256": "2823097d9b25fadebffcc6a3daa50034854d7a59c5df5c90d4e6d6d48231cfc9",
+  "code_sha256": "ef0012e2c5ecc93d56c53bb68bab546c765f0e73ab8ce17265981bd3728e4596"
+}

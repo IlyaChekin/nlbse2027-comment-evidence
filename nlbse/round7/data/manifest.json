@@ -1,0 +1,15 @@
+{
+  "cppsatd": {
+    "file": "manual_annotations.csv",
+    "url": "https://zenodo.org/api/records/15284981/files/manual_annotations.csv/content",
+    "archive_record": "10.5281/zenodo.15284981",
+    "md5": "89c3f1717951a476e6a2b545aee2ff1f",
+    "sha256": "b871cfcabaee6b152fb999d5c106567169076eb9d0595d002e0c3962b13e0599"
+  },
+  "tesoro": {
+    "file": "tesoro_comment.parquet",
+    "url": "https://huggingface.co/datasets/NamCyan/tesoro-comment/resolve/a3100e141881e800cab82c3d14ee51441fa591f8/data/train-00000-of-00001.parquet",
+    "revision": "a3100e141881e800cab82c3d14ee51441fa591f8",
+    "sha256": "30335e5d5daa3ada78c6e44936d048728a63f542b8c4ba57959452583dd27e3c"
+  }
+}

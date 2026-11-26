@@ -1,0 +1,30 @@
+{
+  "variants": {
+    "original_teacher": {
+      "checkpoint": "original_teacher.pt",
+      "sha256": "6bac2292b7abcdef62261ea4c4f62cd1527d72a34d091bc292ec6b1b98c2fda5",
+      "steps": 1509,
+      "elapsed_at_last_logged_batch": 19.0
+    },
+    "overlap_in_fit": {
+      "checkpoint": "overlap_in_fit.pt",
+      "sha256": "cc38cbe605dbdb86d91d202b51daeea185ce58fd8d1bfd1fd22712c58f09783b",
+      "steps": 1509,
+      "elapsed_at_last_logged_batch": 18.7
+    },
+    "out_of_fold": {
+      "checkpoint": "out_of_fold.pt",
+      "sha256": "03f385cde13eb1e0452ceb4c8742ee874c864b83c6fd04e72fe7a7c010a934c6",
+      "steps": 1509,
+      "elapsed_at_last_logged_batch": 18.8
+    }
+  },
+  "fit_rows": 193100,
+  "teacher_overlap": 138268,
+  "teacher_mix": 0.5,
+  "seed": 42,
+  "official_fit_sha256": "b794ea08d416c7232e914dcc3dc3356135bd91456792d2989cf65a32e290bf75",
+  "mining_sha256": "d2951402b86228c7217436170a777ada4deb491efad08546a59da8703e2447c3",
+  "base_sha256": "4b04755eb94b50de992fe1cb04d2862ae8029aeda138cfef63d2598a86e3c968",
+  "published_checkpoints_verified_after_manifest_write_failure": true
+}

@@ -1,0 +1,14 @@
+{
+  "rotation": "test_a",
+  "base_sha256": "82560c352569e647754dfb74ae47f3700c1275a2f1795556190b6a0569c07d7f",
+  "pairs_sha256": "728d6d3c3d2dba36f5ec39a4d5d573eaa0df847e411892f65fe08d3a02b52935",
+  "source_sha256": "35a20e983fd9799a043395abdbea1dfb92c09f4c7ccabeb971103f1b72f2d379",
+  "scores_sha256": "4078a6d615cafc92eb2864f93cdd619697e8c8fe1d18506dd78d2581e6a1c425",
+  "oof_coverage": 32163,
+  "oof_rows": 32163,
+  "held": {
+    "dev": 1914,
+    "test": 8065
+  },
+  "code_sha256": "acb5efcb11eef6aaa1a10bb94edb1c0cb7c473f16f554cd5fd251823bb837daa"
+}

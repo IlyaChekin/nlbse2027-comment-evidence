@@ -1,0 +1,416 @@
+{
+  "rows": 60794,
+  "results": {
+    "join_parentheses": {
+      "scanned": 18567,
+      "wall_seconds": 11.472965416032821,
+      "partitions": {
+        "test_a/dev": {
+          "all": {
+            "cohort": 15132,
+            "positive": 398,
+            "new_tp": 47,
+            "new_fp": 239
+          },
+          "android": {
+            "cohort": 221,
+            "positive": 25,
+            "new_tp": 5,
+            "new_fp": 3
+          },
+          "file": {
+            "cohort": 3,
+            "positive": 0,
+            "new_tp": 0,
+            "new_fp": 0
+          },
+          "imagemagick": {
+            "cohort": 31,
+            "positive": 3,
+            "new_tp": 0,
+            "new_fp": 1
+          },
+          "krb5": {
+            "cohort": 5,
+            "positive": 1,
+            "new_tp": 0,
+            "new_fp": 0
+          },
+          "linux": {
+            "cohort": 14066,
+            "positive": 311,
+            "new_tp": 36,
+            "new_fp": 223
+          },
+          "mozilla firefox": {
+            "cohort": 556,
+            "positive": 13,
+            "new_tp": 6,
+            "new_fp": 10
+          },
+          "php": {
+            "cohort": 166,
+            "positive": 23,
+            "new_tp": 0,
+            "new_fp": 1
+          },
+          "radare2": {
+            "cohort": 3,
+            "positive": 0,
+            "new_tp": 0,
+            "new_fp": 0
+          },
+          "tcpdump": {
+            "cohort": 81,
+            "positive": 22,
+            "new_tp": 0,
+            "new_fp": 1
+          }
+        },
+        "test_a/test": {
+          "all": {
+            "cohort": 24367,
+            "positive": 2852,
+            "new_tp": 248,
+            "new_fp": 649
+          },
+          "chromium": {
+            "cohort": 20942,
+            "positive": 1235,
+            "new_tp": 190,
+            "new_fp": 609
+          },
+          "ffmpeg": {
+            "cohort": 789,
+            "positive": 334,
+            "new_tp": 13,
+            "new_fp": 2
+          },
+          "qemu": {
+            "cohort": 2636,
+            "positive": 1283,
+            "new_tp": 45,
+            "new_fp": 38
+          }
+        },
+        "test_b/dev": {
+          "all": {
+            "cohort": 17724,
+            "positive": 783,
+            "new_tp": 85,
+            "new_fp": 341
+          },
+          "chromium": {
+            "cohort": 3004,
+            "positive": 170,
+            "new_tp": 37,
+            "new_fp": 109
+          },
+          "ffmpeg": {
+            "cohort": 131,
+            "positive": 52,
+            "new_tp": 0,
+            "new_fp": 1
+          },
+          "linux": {
+            "cohort": 14066,
+            "positive": 311,
+            "new_tp": 36,
+            "new_fp": 223
+          },
+          "qemu": {
+            "cohort": 442,
+            "positive": 228,
+            "new_tp": 12,
+            "new_fp": 7
+          },
+          "tcpdump": {
+            "cohort": 81,
+            "positive": 22,
+            "new_tp": 0,
+            "new_fp": 1
+          }
+        },
+        "test_b/test": {
+          "all": {
+            "cohort": 5405,
+            "positive": 472,
+            "new_tp": 53,
+            "new_fp": 84
+          },
+          "android": {
+            "cohort": 1360,
+            "positive": 283,
+            "new_tp": 20,
+            "new_fp": 30
+          },
+          "file": {
+            "cohort": 24,
+            "positive": 6,
+            "new_tp": 2,
+            "new_fp": 1
+          },
+          "imagemagick": {
+            "cohort": 304,
+            "positive": 27,
+            "new_tp": 3,
+            "new_fp": 2
+          },
+          "krb5": {
+            "cohort": 91,
+            "positive": 17,
+            "new_tp": 0,
+            "new_fp": 0
+          },
+          "mozilla firefox": {
+            "cohort": 2850,
+            "positive": 50,
+            "new_tp": 18,
+            "new_fp": 50
+          },
+          "php": {
+            "cohort": 667,
+            "positive": 85,
+            "new_tp": 9,
+            "new_fp": 1
+          },
+          "radare2": {
+            "cohort": 109,
+            "positive": 4,
+            "new_tp": 1,
+            "new_fp": 0
+          }
+        }
+      },
+      "column_hits": {
+        "rule_478": 1,
+        "rule_483": 2,
+        "rule_242": 0,
+        "rule_676": 0,
+        "rule_415": 0,
+        "rule_416": 0,
+        "rule_783": 1289,
+        "rule_467": 0,
+        "rule_401": 0,
+        "rule_244": 0,
+        "rule_243": 0,
+        "rule_135": 0,
+        "rule_14": 0,
+        "rule_690": 0,
+        "rule_587": 0,
+        "rule_781": 0,
+        "rule_782": 0,
+        "rule_560": 0,
+        "rule_806": 0,
+        "rule_195": 2
+      }
+    },
+    "break_braces": {
+      "scanned": 2362,
+      "wall_seconds": 1.0684099979698658,
+      "partitions": {
+        "test_a/dev": {
+          "all": {
+            "cohort": 15132,
+            "positive": 398,
+            "new_tp": 0,
+            "new_fp": 2
+          },
+          "android": {
+            "cohort": 221,
+            "positive": 25,
+            "new_tp": 0,
+            "new_fp": 0
+          },
+          "file": {
+            "cohort": 3,
+            "positive": 0,
+            "new_tp": 0,
+            "new_fp": 0
+          },
+          "imagemagick": {
+            "cohort": 31,
+            "positive": 3,
+            "new_tp": 0,
+            "new_fp": 0
+          },
+          "krb5": {
+            "cohort": 5,
+            "positive": 1,
+            "new_tp": 0,
+            "new_fp": 0
+          },
+          "linux": {
+            "cohort": 14066,
+            "positive": 311,
+            "new_tp": 0,
+            "new_fp": 0
+          },
+          "mozilla firefox": {
+            "cohort": 556,
+            "positive": 13,
+            "new_tp": 0,
+            "new_fp": 2
+          },
+          "php": {
+            "cohort": 166,
+            "positive": 23,
+            "new_tp": 0,
+            "new_fp": 0
+          },
+          "radare2": {
+            "cohort": 3,
+            "positive": 0,
+            "new_tp": 0,
+            "new_fp": 0
+          },
+          "tcpdump": {
+            "cohort": 81,
+            "positive": 22,
+            "new_tp": 0,
+            "new_fp": 0
+          }
+        },
+        "test_a/test": {
+          "all": {
+            "cohort": 24367,
+            "positive": 2852,
+            "new_tp": 2,
+            "new_fp": 1
+          },
+          "chromium": {
+            "cohort": 20942,
+            "positive": 1235,
+            "new_tp": 2,
+            "new_fp": 1
+          },
+          "ffmpeg": {
+            "cohort": 789,
+            "positive": 334,
+            "new_tp": 0,
+            "new_fp": 0
+          },
+          "qemu": {
+            "cohort": 2636,
+            "positive": 1283,
+            "new_tp": 0,
+            "new_fp": 0
+          }
+        },
+        "test_b/dev": {
+          "all": {
+            "cohort": 17724,
+            "positive": 783,
+            "new_tp": 1,
+            "new_fp": 1
+          },
+          "chromium": {
+            "cohort": 3004,
+            "positive": 170,
+            "new_tp": 1,
+            "new_fp": 1
+          },
+          "ffmpeg": {
+            "cohort": 131,
+            "positive": 52,
+            "new_tp": 0,
+            "new_fp": 0
+          },
+          "linux": {
+            "cohort": 14066,
+            "positive": 311,
+            "new_tp": 0,
+            "new_fp": 0
+          },
+          "qemu": {
+            "cohort": 442,
+            "positive": 228,
+            "new_tp": 0,
+            "new_fp": 0
+          },
+          "tcpdump": {
+            "cohort": 81,
+            "positive": 22,
+            "new_tp": 0,
+            "new_fp": 0
+          }
+        },
+        "test_b/test": {
+          "all": {
+            "cohort": 5405,
+            "positive": 472,
+            "new_tp": 0,
+            "new_fp": 2
+          },
+          "android": {
+            "cohort": 1360,
+            "positive": 283,
+            "new_tp": 0,
+            "new_fp": 0
+          },
+          "file": {
+            "cohort": 24,
+            "positive": 6,
+            "new_tp": 0,
+            "new_fp": 0
+          },
+          "imagemagick": {
+            "cohort": 304,
+            "positive": 27,
+            "new_tp": 0,
+            "new_fp": 0
+          },
+          "krb5": {
+            "cohort": 91,
+            "positive": 17,
+            "new_tp": 0,
+            "new_fp": 0
+          },
+          "mozilla firefox": {
+            "cohort": 2850,
+            "positive": 50,
+            "new_tp": 0,
+            "new_fp": 2
+          },
+          "php": {
+            "cohort": 667,
+            "positive": 85,
+            "new_tp": 0,
+            "new_fp": 0
+          },
+          "radare2": {
+            "cohort": 109,
+            "positive": 4,
+            "new_tp": 0,
+            "new_fp": 0
+          }
+        }
+      },
+      "column_hits": {
+        "rule_478": 0,
+        "rule_483": 0,
+        "rule_242": 0,
+        "rule_676": 0,
+        "rule_415": 0,
+        "rule_416": 0,
+        "rule_783": 2,
+        "rule_467": 3,
+        "rule_401": 0,
+        "rule_244": 0,
+        "rule_243": 0,
+        "rule_135": 0,
+        "rule_14": 0,
+        "rule_690": 0,
+        "rule_587": 0,
+        "rule_781": 0,
+        "rule_782": 0,
+        "rule_560": 0,
+        "rule_806": 0,
+        "rule_195": 0
+      }
+    }
+  },
+  "code_sha256": "6ce35ef178de0113b03b8b9d95054f9ec2cd952750ae571b11c9ce8b99563fb6",
+  "scanner_sha256": "0f88215f24eb30b9f340eaa58a9c1d9a051e761dd18c79f55785ab17783210c0",
+  "partition_sha256": "843999619478ee3d2a9c34b1d92a1332a03f1d1268c6676b0ff877385551f8f5"
+}

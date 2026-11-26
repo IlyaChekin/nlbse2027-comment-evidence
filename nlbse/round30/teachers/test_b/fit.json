@@ -1,0 +1,74 @@
+{
+  "scope": {
+    "threshold": 0.18,
+    "positives": 4716,
+    "baseline_comparison": {
+      "before": {
+        "tp": 3027,
+        "fp": 2245,
+        "fn": 1689,
+        "tn": 113617
+      },
+      "after": {
+        "tp": 2985,
+        "fp": 2245,
+        "fn": 1731,
+        "tn": 113617
+      },
+      "delta_tp": -42,
+      "delta_fp": 0,
+      "f1_before": 0.606127352823388,
+      "f1_after": 0.6002413030363966
+    },
+    "baseline_missed": 1689,
+    "baseline_false_alarm": 2245,
+    "both_low_misses": 1433,
+    "both_high_alarms": 1055,
+    "teacher_detects_both_low": 146,
+    "teacher_rejects_both_high": 373,
+    "ap": {
+      "compact": 0.6501058603191472,
+      "sparse": 0.4974394748223398,
+      "frozen_unix_probe": 0.23315120053768235
+    },
+    "earlier_overlap": 99804,
+    "earlier_overlap_ap": {
+      "unix": 0.7346973999204287,
+      "compact": 0.7124054813309375
+    }
+  },
+  "sources": {
+    "sparse": "467132ed043c789b92d194b805788b9e95f53d1108edcf533d18555c2eb6b75b",
+    "compact": "90e907d17f9ddadb401086b5ba0a34d2fa4a38e54cf26db7f24cc6fa31e5b5d9",
+    "embeddings": "190c6ef0d07da7145bb4409537b181fa34a26818b3c75dccb2f415dfaf47496a"
+  },
+  "folds": {
+    "0": {
+      "fit": 90157,
+      "held": 30290,
+      "seconds": 1.2215965630020946,
+      "sha256": "c22fab881fcf9c7a678145b90a9090ad97f18b551571748e16c195807503ad0d"
+    },
+    "1": {
+      "fit": 90785,
+      "held": 29671,
+      "seconds": 0.9665104108862579,
+      "sha256": "b12da4c243baa9d286362df10611082de0c1b6c0e5a648c1bdba6b718b287471"
+    },
+    "2": {
+      "fit": 89941,
+      "held": 30458,
+      "seconds": 0.9023892108816653,
+      "sha256": "61e97cc396979e94cc7d9bf485f082e1fe83111203860378194f01f1933d5c3d"
+    },
+    "3": {
+      "fit": 90259,
+      "held": 30159,
+      "seconds": 0.9094981169328094,
+      "sha256": "a5494054afa31dd7d06b907e47ffae9cdfa6a736f4d9517f661dd2ef5c58991c"
+    }
+  },
+  "predictions_sha256": "42ed2920a2e91ea29d96996366b814121fc841e9700a45e0e15449597c739689",
+  "code_sha256": "38ee22bf8ae5c109d785b8da517bd4131c8127b981f4a5245cdd574b7c381284",
+  "rows": 120578
+}

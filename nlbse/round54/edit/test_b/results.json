@@ -1,0 +1,4923 @@
+{
+  "rotation": "test_b",
+  "proof": {
+    "matrix_sha256": "60b77f55b6ceccfedf9419153dd4aefc11b825afc2f52765e71f105815b50196",
+    "models_sha256": "149768364f467db89c0fd96a3b0f2da82dd3918fe423af541126a0927f8f5c32",
+    "predictions_sha256": "9749cfe54cee5480a950cf5dd875a585975b1b5816b9f3c1053174df0d3bd0a5",
+    "code_sha256": "e72282a740f4aa78e5f7dfb6bb21308a729c640913ce872be72ad40ef5473164",
+    "design_sha256": "7b2a766f087e4365e08791e657cc6b6d6afb9554e8b0c43f5c5eaf582b9c7356",
+    "styles_sha256": "e0af256a5f4e7d592bf03dcd7578eaf2565aa188d4910701ba6269f5b7a321e8"
+  },
+  "training": {
+    "pairs": 6605,
+    "examples": 240327,
+    "gap_changes": 16695,
+    "probed": 46299,
+    "helpful": 2438,
+    "harmful": 240
+  },
+  "phases": {
+    "cal": {
+      "rows": 3211,
+      "known": 3144,
+      "seconds": 14.213190132984892
+    },
+    "held": {
+      "rows": 2537,
+      "known": 2423,
+      "seconds": 18.093372063012794
+    }
+  },
+  "policy": {
+    "source/1/0.035": 0.9758682004354607,
+    "source/1/0.15": 0.974709729641843,
+    "source/1/0.4": 0.9617855977149885,
+    "source/3/0.035": 0.9758682004354607,
+    "source/3/0.15": 0.974709729641843,
+    "source/3/0.4": 0.9617855977149885,
+    "effect/1/0.035": 0.9216885574366788,
+    "effect/1/0.15": 0.8227982795637445,
+    "effect/1/0.4": 0.7027336832164365,
+    "effect/3/0.035": 0.9216885574366788,
+    "effect/3/0.15": 0.8227982795637445,
+    "effect/3/0.4": 0.7027336832164365,
+    "joint/1/0.035": 0.5664208355625848,
+    "joint/1/0.15": 0.44458350937483676,
+    "joint/1/0.4": 0.3021208188039402,
+    "joint/3/0.035": 0.5664208355625848,
+    "joint/3/0.15": 0.44458350937483676,
+    "joint/3/0.4": 0.3021208188039402
+  },
+  "comparison": {
+    "cal": {
+      "source_candidates": 3001,
+      "source/1/0.035": {
+        "W": {
+          "before": {
+            "tp": 919,
+            "fp": 210,
+            "fn": 79,
+            "tn": 1936
+          },
+          "after": {
+            "tp": 919,
+            "fp": 210,
+            "fn": 79,
+            "tn": 1936
+          },
+          "delta_tp": 0,
+          "delta_fp": 0,
+          "f1_before": 0.8641278796426892,
+          "f1_after": 0.8641278796426892
+        },
+        "common_style_rows": 3000,
+        "common_W": {
+          "before": {
+            "tp": 796,
+            "fp": 208,
+            "fn": 73,
+            "tn": 1923
+          },
+          "after": {
+            "tp": 796,
+            "fp": 208,
+            "fn": 73,
+            "tn": 1923
+          },
+          "delta_tp": 0,
+          "delta_fp": 0,
+          "f1_before": 0.8499733048585157,
+          "f1_after": 0.8499733048585157
+        },
+        "style_controls": {
+          "LLVM": {
+            "before": {
+              "tp": 796,
+              "fp": 208,
+              "fn": 73,
+              "tn": 1923
+            },
+            "after": {
+              "tp": 796,
+              "fp": 208,
+              "fn": 73,
+              "tn": 1923
+            },
+            "delta_tp": 0,
+            "delta_fp": 0,
+            "f1_before": 0.8499733048585157,
+            "f1_after": 0.8499733048585157
+          },
+          "GNU": {
+            "before": {
+              "tp": 796,
+              "fp": 208,
+              "fn": 73,
+              "tn": 1923
+            },
+            "after": {
+              "tp": 775,
+              "fp": 269,
+              "fn": 94,
+              "tn": 1862
+            },
+            "delta_tp": -21,
+            "delta_fp": 61,
+            "f1_before": 0.8499733048585157,
+            "f1_after": 0.8102456874019864
+          },
+          "Chromium": {
+            "before": {
+              "tp": 796,
+              "fp": 208,
+              "fn": 73,
+              "tn": 1923
+            },
+            "after": {
+              "tp": 790,
+              "fp": 205,
+              "fn": 79,
+              "tn": 1926
+            },
+            "delta_tp": -6,
+            "delta_fp": -3,
+            "f1_before": 0.8499733048585157,
+            "f1_after": 0.8476394849785408
+          },
+          "WebKit": {
+            "before": {
+              "tp": 796,
+              "fp": 208,
+              "fn": 73,
+              "tn": 1923
+            },
+            "after": {
+              "tp": 783,
+              "fp": 264,
+              "fn": 86,
+              "tn": 1867
+            },
+            "delta_tp": -13,
+            "delta_fp": 56,
+            "f1_before": 0.8499733048585157,
+            "f1_after": 0.8173277661795407
+          },
+          "Microsoft": {
+            "before": {
+              "tp": 796,
+              "fp": 208,
+              "fn": 73,
+              "tn": 1923
+            },
+            "after": {
+              "tp": 798,
+              "fp": 300,
+              "fn": 71,
+              "tn": 1831
+            },
+            "delta_tp": 2,
+            "delta_fp": 92,
+            "f1_before": 0.8499733048585157,
+            "f1_after": 0.8113879003558719
+          }
+        },
+        "scanner_seconds": 1.2893262540455908,
+        "touched": 117,
+        "unavailable": 0,
+        "cases_changed": 0
+      },
+      "source/1/0.15": {
+        "W": {
+          "before": {
+            "tp": 919,
+            "fp": 210,
+            "fn": 79,
+            "tn": 1936
+          },
+          "after": {
+            "tp": 922,
+            "fp": 210,
+            "fn": 76,
+            "tn": 1936
+          },
+          "delta_tp": 3,
+          "delta_fp": 0,
+          "f1_before": 0.8641278796426892,
+          "f1_after": 0.8657276995305164
+        },
+        "common_style_rows": 3000,
+        "common_W": {
+          "before": {
+            "tp": 796,
+            "fp": 208,
+            "fn": 73,
+            "tn": 1923
+          },
+          "after": {
+            "tp": 797,
+            "fp": 208,
+            "fn": 72,
+            "tn": 1923
+          },
+          "delta_tp": 1,
+          "delta_fp": 0,
+          "f1_before": 0.8499733048585157,
+          "f1_after": 0.8505869797225186
+        },
+        "style_controls": {
+          "LLVM": {
+            "before": {
+              "tp": 796,
+              "fp": 208,
+              "fn": 73,
+              "tn": 1923
+            },
+            "after": {
+              "tp": 796,
+              "fp": 208,
+              "fn": 73,
+              "tn": 1923
+            },
+            "delta_tp": 0,
+            "delta_fp": 0,
+            "f1_before": 0.8499733048585157,
+            "f1_after": 0.8499733048585157
+          },
+          "GNU": {
+            "before": {
+              "tp": 796,
+              "fp": 208,
+              "fn": 73,
+              "tn": 1923
+            },
+            "after": {
+              "tp": 775,
+              "fp": 269,
+              "fn": 94,
+              "tn": 1862
+            },
+            "delta_tp": -21,
+            "delta_fp": 61,
+            "f1_before": 0.8499733048585157,
+            "f1_after": 0.8102456874019864
+          },
+          "Chromium": {
+            "before": {
+              "tp": 796,
+              "fp": 208,
+              "fn": 73,
+              "tn": 1923
+            },
+            "after": {
+              "tp": 790,
+              "fp": 205,
+              "fn": 79,
+              "tn": 1926
+            },
+            "delta_tp": -6,
+            "delta_fp": -3,
+            "f1_before": 0.8499733048585157,
+            "f1_after": 0.8476394849785408
+          },
+          "WebKit": {
+            "before": {
+              "tp": 796,
+              "fp": 208,
+              "fn": 73,
+              "tn": 1923
+            },
+            "after": {
+              "tp": 783,
+              "fp": 264,
+              "fn": 86,
+              "tn": 1867
+            },
+            "delta_tp": -13,
+            "delta_fp": 56,
+            "f1_before": 0.8499733048585157,
+            "f1_after": 0.8173277661795407
+          },
+          "Microsoft": {
+            "before": {
+              "tp": 796,
+              "fp": 208,
+              "fn": 73,
+              "tn": 1923
+            },
+            "after": {
+              "tp": 798,
+              "fp": 300,
+              "fn": 71,
+              "tn": 1831
+            },
+            "delta_tp": 2,
+            "delta_fp": 92,
+            "f1_before": 0.8499733048585157,
+            "f1_after": 0.8113879003558719
+          }
+        },
+        "scanner_seconds": 1.2893262540455908,
+        "touched": 579,
+        "unavailable": 0,
+        "cases_changed": 3
+      },
+      "source/1/0.4": {
+        "W": {
+          "before": {
+            "tp": 919,
+            "fp": 210,
+            "fn": 79,
+            "tn": 1936
+          },
+          "after": {
+            "tp": 924,
+            "fp": 210,
+            "fn": 74,
+            "tn": 1936
+          },
+          "delta_tp": 5,
+          "delta_fp": 0,
+          "f1_before": 0.8641278796426892,
+          "f1_after": 0.8667917448405253
+        },
+        "common_style_rows": 3000,
+        "common_W": {
+          "before": {
+            "tp": 796,
+            "fp": 208,
+            "fn": 73,
+            "tn": 1923
+          },
+          "after": {
+            "tp": 799,
+            "fp": 208,
+            "fn": 70,
+            "tn": 1923
+          },
+          "delta_tp": 3,
+          "delta_fp": 0,
+          "f1_before": 0.8499733048585157,
+          "f1_after": 0.8518123667377399
+        },
+        "style_controls": {
+          "LLVM": {
+            "before": {
+              "tp": 796,
+              "fp": 208,
+              "fn": 73,
+              "tn": 1923
+            },
+            "after": {
+              "tp": 796,
+              "fp": 208,
+              "fn": 73,
+              "tn": 1923
+            },
+            "delta_tp": 0,
+            "delta_fp": 0,
+            "f1_before": 0.8499733048585157,
+            "f1_after": 0.8499733048585157
+          },
+          "GNU": {
+            "before": {
+              "tp": 796,
+              "fp": 208,
+              "fn": 73,
+              "tn": 1923
+            },
+            "after": {
+              "tp": 775,
+              "fp": 269,
+              "fn": 94,
+              "tn": 1862
+            },
+            "delta_tp": -21,
+            "delta_fp": 61,
+            "f1_before": 0.8499733048585157,
+            "f1_after": 0.8102456874019864
+          },
+          "Chromium": {
+            "before": {
+              "tp": 796,
+              "fp": 208,
+              "fn": 73,
+              "tn": 1923
+            },
+            "after": {
+              "tp": 790,
+              "fp": 205,
+              "fn": 79,
+              "tn": 1926
+            },
+            "delta_tp": -6,
+            "delta_fp": -3,
+            "f1_before": 0.8499733048585157,
+            "f1_after": 0.8476394849785408
+          },
+          "WebKit": {
+            "before": {
+              "tp": 796,
+              "fp": 208,
+              "fn": 73,
+              "tn": 1923
+            },
+            "after": {
+              "tp": 783,
+              "fp": 264,
+              "fn": 86,
+              "tn": 1867
+            },
+            "delta_tp": -13,
+            "delta_fp": 56,
+            "f1_before": 0.8499733048585157,
+            "f1_after": 0.8173277661795407
+          },
+          "Microsoft": {
+            "before": {
+              "tp": 796,
+              "fp": 208,
+              "fn": 73,
+              "tn": 1923
+            },
+            "after": {
+              "tp": 798,
+              "fp": 300,
+              "fn": 71,
+              "tn": 1831
+            },
+            "delta_tp": 2,
+            "delta_fp": 92,
+            "f1_before": 0.8499733048585157,
+            "f1_after": 0.8113879003558719
+          }
+        },
+        "scanner_seconds": 1.2893262540455908,
+        "touched": 1307,
+        "unavailable": 0,
+        "cases_changed": 5
+      },
+      "source/3/0.035": {
+        "W": {
+          "before": {
+            "tp": 919,
+            "fp": 210,
+            "fn": 79,
+            "tn": 1936
+          },
+          "after": {
+            "tp": 912,
+            "fp": 214,
+            "fn": 86,
+            "tn": 1932
+          },
+          "delta_tp": -7,
+          "delta_fp": 4,
+          "f1_before": 0.8641278796426892,
+          "f1_after": 0.8587570621468926
+        },
+        "common_style_rows": 3000,
+        "common_W": {
+          "before": {
+            "tp": 796,
+            "fp": 208,
+            "fn": 73,
+            "tn": 1923
+          },
+          "after": {
+            "tp": 789,
+            "fp": 212,
+            "fn": 80,
+            "tn": 1919
+          },
+          "delta_tp": -7,
+          "delta_fp": 4,
+          "f1_before": 0.8499733048585157,
+          "f1_after": 0.8438502673796792
+        },
+        "style_controls": {
+          "LLVM": {
+            "before": {
+              "tp": 796,
+              "fp": 208,
+              "fn": 73,
+              "tn": 1923
+            },
+            "after": {
+              "tp": 796,
+              "fp": 208,
+              "fn": 73,
+              "tn": 1923
+            },
+            "delta_tp": 0,
+            "delta_fp": 0,
+            "f1_before": 0.8499733048585157,
+            "f1_after": 0.8499733048585157
+          },
+          "GNU": {
+            "before": {
+              "tp": 796,
+              "fp": 208,
+              "fn": 73,
+              "tn": 1923
+            },
+            "after": {
+              "tp": 775,
+              "fp": 269,
+              "fn": 94,
+              "tn": 1862
+            },
+            "delta_tp": -21,
+            "delta_fp": 61,
+            "f1_before": 0.8499733048585157,
+            "f1_after": 0.8102456874019864
+          },
+          "Chromium": {
+            "before": {
+              "tp": 796,
+              "fp": 208,
+              "fn": 73,
+              "tn": 1923
+            },
+            "after": {
+              "tp": 790,
+              "fp": 205,
+              "fn": 79,
+              "tn": 1926
+            },
+            "delta_tp": -6,
+            "delta_fp": -3,
+            "f1_before": 0.8499733048585157,
+            "f1_after": 0.8476394849785408
+          },
+          "WebKit": {
+            "before": {
+              "tp": 796,
+              "fp": 208,
+              "fn": 73,
+              "tn": 1923
+            },
+            "after": {
+              "tp": 783,
+              "fp": 264,
+              "fn": 86,
+              "tn": 1867
+            },
+            "delta_tp": -13,
+            "delta_fp": 56,
+            "f1_before": 0.8499733048585157,
+            "f1_after": 0.8173277661795407
+          },
+          "Microsoft": {
+            "before": {
+              "tp": 796,
+              "fp": 208,
+              "fn": 73,
+              "tn": 1923
+            },
+            "after": {
+              "tp": 798,
+              "fp": 300,
+              "fn": 71,
+              "tn": 1831
+            },
+            "delta_tp": 2,
+            "delta_fp": 92,
+            "f1_before": 0.8499733048585157,
+            "f1_after": 0.8113879003558719
+          }
+        },
+        "scanner_seconds": 1.5604990529827774,
+        "touched": 117,
+        "unavailable": 0,
+        "cases_changed": 13
+      },
+      "source/3/0.15": {
+        "W": {
+          "before": {
+            "tp": 919,
+            "fp": 210,
+            "fn": 79,
+            "tn": 1936
+          },
+          "after": {
+            "tp": 894,
+            "fp": 224,
+            "fn": 104,
+            "tn": 1922
+          },
+          "delta_tp": -25,
+          "delta_fp": 14,
+          "f1_before": 0.8641278796426892,
+          "f1_after": 0.8449905482041588
+        },
+        "common_style_rows": 3000,
+        "common_W": {
+          "before": {
+            "tp": 796,
+            "fp": 208,
+            "fn": 73,
+            "tn": 1923
+          },
+          "after": {
+            "tp": 770,
+            "fp": 222,
+            "fn": 99,
+            "tn": 1909
+          },
+          "delta_tp": -26,
+          "delta_fp": 14,
+          "f1_before": 0.8499733048585157,
+          "f1_after": 0.8275120902740463
+        },
+        "style_controls": {
+          "LLVM": {
+            "before": {
+              "tp": 796,
+              "fp": 208,
+              "fn": 73,
+              "tn": 1923
+            },
+            "after": {
+              "tp": 796,
+              "fp": 208,
+              "fn": 73,
+              "tn": 1923
+            },
+            "delta_tp": 0,
+            "delta_fp": 0,
+            "f1_before": 0.8499733048585157,
+            "f1_after": 0.8499733048585157
+          },
+          "GNU": {
+            "before": {
+              "tp": 796,
+              "fp": 208,
+              "fn": 73,
+              "tn": 1923
+            },
+            "after": {
+              "tp": 775,
+              "fp": 269,
+              "fn": 94,
+              "tn": 1862
+            },
+            "delta_tp": -21,
+            "delta_fp": 61,
+            "f1_before": 0.8499733048585157,
+            "f1_after": 0.8102456874019864
+          },
+          "Chromium": {
+            "before": {
+              "tp": 796,
+              "fp": 208,
+              "fn": 73,
+              "tn": 1923
+            },
+            "after": {
+              "tp": 790,
+              "fp": 205,
+              "fn": 79,
+              "tn": 1926
+            },
+            "delta_tp": -6,
+            "delta_fp": -3,
+            "f1_before": 0.8499733048585157,
+            "f1_after": 0.8476394849785408
+          },
+          "WebKit": {
+            "before": {
+              "tp": 796,
+              "fp": 208,
+              "fn": 73,
+              "tn": 1923
+            },
+            "after": {
+              "tp": 783,
+              "fp": 264,
+              "fn": 86,
+              "tn": 1867
+            },
+            "delta_tp": -13,
+            "delta_fp": 56,
+            "f1_before": 0.8499733048585157,
+            "f1_after": 0.8173277661795407
+          },
+          "Microsoft": {
+            "before": {
+              "tp": 796,
+              "fp": 208,
+              "fn": 73,
+              "tn": 1923
+            },
+            "after": {
+              "tp": 798,
+              "fp": 300,
+              "fn": 71,
+              "tn": 1831
+            },
+            "delta_tp": 2,
+            "delta_fp": 92,
+            "f1_before": 0.8499733048585157,
+            "f1_after": 0.8113879003558719
+          }
+        },
+        "scanner_seconds": 1.5604990529827774,
+        "touched": 579,
+        "unavailable": 0,
+        "cases_changed": 74
+      },
+      "source/3/0.4": {
+        "W": {
+          "before": {
+            "tp": 919,
+            "fp": 210,
+            "fn": 79,
+            "tn": 1936
+          },
+          "after": {
+            "tp": 871,
+            "fp": 238,
+            "fn": 127,
+            "tn": 1908
+          },
+          "delta_tp": -48,
+          "delta_fp": 28,
+          "f1_before": 0.8641278796426892,
+          "f1_after": 0.8267679164689131
+        },
+        "common_style_rows": 3000,
+        "common_W": {
+          "before": {
+            "tp": 796,
+            "fp": 208,
+            "fn": 73,
+            "tn": 1923
+          },
+          "after": {
+            "tp": 751,
+            "fp": 236,
+            "fn": 118,
+            "tn": 1895
+          },
+          "delta_tp": -45,
+          "delta_fp": 28,
+          "f1_before": 0.8499733048585157,
+          "f1_after": 0.8092672413793104
+        },
+        "style_controls": {
+          "LLVM": {
+            "before": {
+              "tp": 796,
+              "fp": 208,
+              "fn": 73,
+              "tn": 1923
+            },
+            "after": {
+              "tp": 796,
+              "fp": 208,
+              "fn": 73,
+              "tn": 1923
+            },
+            "delta_tp": 0,
+            "delta_fp": 0,
+            "f1_before": 0.8499733048585157,
+            "f1_after": 0.8499733048585157
+          },
+          "GNU": {
+            "before": {
+              "tp": 796,
+              "fp": 208,
+              "fn": 73,
+              "tn": 1923
+            },
+            "after": {
+              "tp": 775,
+              "fp": 269,
+              "fn": 94,
+              "tn": 1862
+            },
+            "delta_tp": -21,
+            "delta_fp": 61,
+            "f1_before": 0.8499733048585157,
+            "f1_after": 0.8102456874019864
+          },
+          "Chromium": {
+            "before": {
+              "tp": 796,
+              "fp": 208,
+              "fn": 73,
+              "tn": 1923
+            },
+            "after": {
+              "tp": 790,
+              "fp": 205,
+              "fn": 79,
+              "tn": 1926
+            },
+            "delta_tp": -6,
+            "delta_fp": -3,
+            "f1_before": 0.8499733048585157,
+            "f1_after": 0.8476394849785408
+          },
+          "WebKit": {
+            "before": {
+              "tp": 796,
+              "fp": 208,
+              "fn": 73,
+              "tn": 1923
+            },
+            "after": {
+              "tp": 783,
+              "fp": 264,
+              "fn": 86,
+              "tn": 1867
+            },
+            "delta_tp": -13,
+            "delta_fp": 56,
+            "f1_before": 0.8499733048585157,
+            "f1_after": 0.8173277661795407
+          },
+          "Microsoft": {
+            "before": {
+              "tp": 796,
+              "fp": 208,
+              "fn": 73,
+              "tn": 1923
+            },
+            "after": {
+              "tp": 798,
+              "fp": 300,
+              "fn": 71,
+              "tn": 1831
+            },
+            "delta_tp": 2,
+            "delta_fp": 92,
+            "f1_before": 0.8499733048585157,
+            "f1_after": 0.8113879003558719
+          }
+        },
+        "scanner_seconds": 1.5604990529827774,
+        "touched": 1307,
+        "unavailable": 0,
+        "cases_changed": 141
+      },
+      "effect_candidates": 3001,
+      "effect/1/0.035": {
+        "W": {
+          "before": {
+            "tp": 919,
+            "fp": 210,
+            "fn": 79,
+            "tn": 1936
+          },
+          "after": {
+            "tp": 905,
+            "fp": 144,
+            "fn": 93,
+            "tn": 2002
+          },
+          "delta_tp": -14,
+          "delta_fp": -66,
+          "f1_before": 0.8641278796426892,
+          "f1_after": 0.8842208109428432
+        },
+        "common_style_rows": 3000,
+        "common_W": {
+          "before": {
+            "tp": 796,
+            "fp": 208,
+            "fn": 73,
+            "tn": 1923
+          },
+          "after": {
+            "tp": 782,
+            "fp": 142,
+            "fn": 87,
+            "tn": 1989
+          },
+          "delta_tp": -14,
+          "delta_fp": -66,
+          "f1_before": 0.8499733048585157,
+          "f1_after": 0.8722810931399888
+        },
+        "style_controls": {
+          "LLVM": {
+            "before": {
+              "tp": 796,
+              "fp": 208,
+              "fn": 73,
+              "tn": 1923
+            },
+            "after": {
+              "tp": 796,
+              "fp": 208,
+              "fn": 73,
+              "tn": 1923
+            },
+            "delta_tp": 0,
+            "delta_fp": 0,
+            "f1_before": 0.8499733048585157,
+            "f1_after": 0.8499733048585157
+          },
+          "GNU": {
+            "before": {
+              "tp": 796,
+              "fp": 208,
+              "fn": 73,
+              "tn": 1923
+            },
+            "after": {
+              "tp": 775,
+              "fp": 269,
+              "fn": 94,
+              "tn": 1862
+            },
+            "delta_tp": -21,
+            "delta_fp": 61,
+            "f1_before": 0.8499733048585157,
+            "f1_after": 0.8102456874019864
+          },
+          "Chromium": {
+            "before": {
+              "tp": 796,
+              "fp": 208,
+              "fn": 73,
+              "tn": 1923
+            },
+            "after": {
+              "tp": 790,
+              "fp": 205,
+              "fn": 79,
+              "tn": 1926
+            },
+            "delta_tp": -6,
+            "delta_fp": -3,
+            "f1_before": 0.8499733048585157,
+            "f1_after": 0.8476394849785408
+          },
+          "WebKit": {
+            "before": {
+              "tp": 796,
+              "fp": 208,
+              "fn": 73,
+              "tn": 1923
+            },
+            "after": {
+              "tp": 783,
+              "fp": 264,
+              "fn": 86,
+              "tn": 1867
+            },
+            "delta_tp": -13,
+            "delta_fp": 56,
+            "f1_before": 0.8499733048585157,
+            "f1_after": 0.8173277661795407
+          },
+          "Microsoft": {
+            "before": {
+              "tp": 796,
+              "fp": 208,
+              "fn": 73,
+              "tn": 1923
+            },
+            "after": {
+              "tp": 798,
+              "fp": 300,
+              "fn": 71,
+              "tn": 1831
+            },
+            "delta_tp": 2,
+            "delta_fp": 92,
+            "f1_before": 0.8499733048585157,
+            "f1_after": 0.8113879003558719
+          }
+        },
+        "scanner_seconds": 1.4407413539011031,
+        "touched": 112,
+        "unavailable": 0,
+        "cases_changed": 84
+      },
+      "effect/1/0.15": {
+        "W": {
+          "before": {
+            "tp": 919,
+            "fp": 210,
+            "fn": 79,
+            "tn": 1936
+          },
+          "after": {
+            "tp": 883,
+            "fp": 123,
+            "fn": 115,
+            "tn": 2023
+          },
+          "delta_tp": -36,
+          "delta_fp": -87,
+          "f1_before": 0.8641278796426892,
+          "f1_after": 0.8812375249500998
+        },
+        "common_style_rows": 3000,
+        "common_W": {
+          "before": {
+            "tp": 796,
+            "fp": 208,
+            "fn": 73,
+            "tn": 1923
+          },
+          "after": {
+            "tp": 762,
+            "fp": 121,
+            "fn": 107,
+            "tn": 2010
+          },
+          "delta_tp": -34,
+          "delta_fp": -87,
+          "f1_before": 0.8499733048585157,
+          "f1_after": 0.8698630136986302
+        },
+        "style_controls": {
+          "LLVM": {
+            "before": {
+              "tp": 796,
+              "fp": 208,
+              "fn": 73,
+              "tn": 1923
+            },
+            "after": {
+              "tp": 796,
+              "fp": 208,
+              "fn": 73,
+              "tn": 1923
+            },
+            "delta_tp": 0,
+            "delta_fp": 0,
+            "f1_before": 0.8499733048585157,
+            "f1_after": 0.8499733048585157
+          },
+          "GNU": {
+            "before": {
+              "tp": 796,
+              "fp": 208,
+              "fn": 73,
+              "tn": 1923
+            },
+            "after": {
+              "tp": 775,
+              "fp": 269,
+              "fn": 94,
+              "tn": 1862
+            },
+            "delta_tp": -21,
+            "delta_fp": 61,
+            "f1_before": 0.8499733048585157,
+            "f1_after": 0.8102456874019864
+          },
+          "Chromium": {
+            "before": {
+              "tp": 796,
+              "fp": 208,
+              "fn": 73,
+              "tn": 1923
+            },
+            "after": {
+              "tp": 790,
+              "fp": 205,
+              "fn": 79,
+              "tn": 1926
+            },
+            "delta_tp": -6,
+            "delta_fp": -3,
+            "f1_before": 0.8499733048585157,
+            "f1_after": 0.8476394849785408
+          },
+          "WebKit": {
+            "before": {
+              "tp": 796,
+              "fp": 208,
+              "fn": 73,
+              "tn": 1923
+            },
+            "after": {
+              "tp": 783,
+              "fp": 264,
+              "fn": 86,
+              "tn": 1867
+            },
+            "delta_tp": -13,
+            "delta_fp": 56,
+            "f1_before": 0.8499733048585157,
+            "f1_after": 0.8173277661795407
+          },
+          "Microsoft": {
+            "before": {
+              "tp": 796,
+              "fp": 208,
+              "fn": 73,
+              "tn": 1923
+            },
+            "after": {
+              "tp": 798,
+              "fp": 300,
+              "fn": 71,
+              "tn": 1831
+            },
+            "delta_tp": 2,
+            "delta_fp": 92,
+            "f1_before": 0.8499733048585157,
+            "f1_after": 0.8113879003558719
+          }
+        },
+        "scanner_seconds": 1.4407413539011031,
+        "touched": 481,
+        "unavailable": 0,
+        "cases_changed": 215
+      },
+      "effect/1/0.4": {
+        "W": {
+          "before": {
+            "tp": 919,
+            "fp": 210,
+            "fn": 79,
+            "tn": 1936
+          },
+          "after": {
+            "tp": 858,
+            "fp": 206,
+            "fn": 140,
+            "tn": 1940
+          },
+          "delta_tp": -61,
+          "delta_fp": -4,
+          "f1_before": 0.8641278796426892,
+          "f1_after": 0.8322017458777885
+        },
+        "common_style_rows": 3000,
+        "common_W": {
+          "before": {
+            "tp": 796,
+            "fp": 208,
+            "fn": 73,
+            "tn": 1923
+          },
+          "after": {
+            "tp": 739,
+            "fp": 202,
+            "fn": 130,
+            "tn": 1929
+          },
+          "delta_tp": -57,
+          "delta_fp": -6,
+          "f1_before": 0.8499733048585157,
+          "f1_after": 0.8165745856353591
+        },
+        "style_controls": {
+          "LLVM": {
+            "before": {
+              "tp": 796,
+              "fp": 208,
+              "fn": 73,
+              "tn": 1923
+            },
+            "after": {
+              "tp": 796,
+              "fp": 208,
+              "fn": 73,
+              "tn": 1923
+            },
+            "delta_tp": 0,
+            "delta_fp": 0,
+            "f1_before": 0.8499733048585157,
+            "f1_after": 0.8499733048585157
+          },
+          "GNU": {
+            "before": {
+              "tp": 796,
+              "fp": 208,
+              "fn": 73,
+              "tn": 1923
+            },
+            "after": {
+              "tp": 775,
+              "fp": 269,
+              "fn": 94,
+              "tn": 1862
+            },
+            "delta_tp": -21,
+            "delta_fp": 61,
+            "f1_before": 0.8499733048585157,
+            "f1_after": 0.8102456874019864
+          },
+          "Chromium": {
+            "before": {
+              "tp": 796,
+              "fp": 208,
+              "fn": 73,
+              "tn": 1923
+            },
+            "after": {
+              "tp": 790,
+              "fp": 205,
+              "fn": 79,
+              "tn": 1926
+            },
+            "delta_tp": -6,
+            "delta_fp": -3,
+            "f1_before": 0.8499733048585157,
+            "f1_after": 0.8476394849785408
+          },
+          "WebKit": {
+            "before": {
+              "tp": 796,
+              "fp": 208,
+              "fn": 73,
+              "tn": 1923
+            },
+            "after": {
+              "tp": 783,
+              "fp": 264,
+              "fn": 86,
+              "tn": 1867
+            },
+            "delta_tp": -13,
+            "delta_fp": 56,
+            "f1_before": 0.8499733048585157,
+            "f1_after": 0.8173277661795407
+          },
+          "Microsoft": {
+            "before": {
+              "tp": 796,
+              "fp": 208,
+              "fn": 73,
+              "tn": 1923
+            },
+            "after": {
+              "tp": 798,
+              "fp": 300,
+              "fn": 71,
+              "tn": 1831
+            },
+            "delta_tp": 2,
+            "delta_fp": 92,
+            "f1_before": 0.8499733048585157,
+            "f1_after": 0.8113879003558719
+          }
+        },
+        "scanner_seconds": 1.4407413539011031,
+        "touched": 1284,
+        "unavailable": 0,
+        "cases_changed": 404
+      },
+      "effect/3/0.035": {
+        "W": {
+          "before": {
+            "tp": 919,
+            "fp": 210,
+            "fn": 79,
+            "tn": 1936
+          },
+          "after": {
+            "tp": 906,
+            "fp": 162,
+            "fn": 92,
+            "tn": 1984
+          },
+          "delta_tp": -13,
+          "delta_fp": -48,
+          "f1_before": 0.8641278796426892,
+          "f1_after": 0.8770571151984511
+        },
+        "common_style_rows": 3000,
+        "common_W": {
+          "before": {
+            "tp": 796,
+            "fp": 208,
+            "fn": 73,
+            "tn": 1923
+          },
+          "after": {
+            "tp": 783,
+            "fp": 160,
+            "fn": 86,
+            "tn": 1971
+          },
+          "delta_tp": -13,
+          "delta_fp": -48,
+          "f1_before": 0.8499733048585157,
+          "f1_after": 0.8642384105960265
+        },
+        "style_controls": {
+          "LLVM": {
+            "before": {
+              "tp": 796,
+              "fp": 208,
+              "fn": 73,
+              "tn": 1923
+            },
+            "after": {
+              "tp": 796,
+              "fp": 208,
+              "fn": 73,
+              "tn": 1923
+            },
+            "delta_tp": 0,
+            "delta_fp": 0,
+            "f1_before": 0.8499733048585157,
+            "f1_after": 0.8499733048585157
+          },
+          "GNU": {
+            "before": {
+              "tp": 796,
+              "fp": 208,
+              "fn": 73,
+              "tn": 1923
+            },
+            "after": {
+              "tp": 775,
+              "fp": 269,
+              "fn": 94,
+              "tn": 1862
+            },
+            "delta_tp": -21,
+            "delta_fp": 61,
+            "f1_before": 0.8499733048585157,
+            "f1_after": 0.8102456874019864
+          },
+          "Chromium": {
+            "before": {
+              "tp": 796,
+              "fp": 208,
+              "fn": 73,
+              "tn": 1923
+            },
+            "after": {
+              "tp": 790,
+              "fp": 205,
+              "fn": 79,
+              "tn": 1926
+            },
+            "delta_tp": -6,
+            "delta_fp": -3,
+            "f1_before": 0.8499733048585157,
+            "f1_after": 0.8476394849785408
+          },
+          "WebKit": {
+            "before": {
+              "tp": 796,
+              "fp": 208,
+              "fn": 73,
+              "tn": 1923
+            },
+            "after": {
+              "tp": 783,
+              "fp": 264,
+              "fn": 86,
+              "tn": 1867
+            },
+            "delta_tp": -13,
+            "delta_fp": 56,
+            "f1_before": 0.8499733048585157,
+            "f1_after": 0.8173277661795407
+          },
+          "Microsoft": {
+            "before": {
+              "tp": 796,
+              "fp": 208,
+              "fn": 73,
+              "tn": 1923
+            },
+            "after": {
+              "tp": 798,
+              "fp": 300,
+              "fn": 71,
+              "tn": 1831
+            },
+            "delta_tp": 2,
+            "delta_fp": 92,
+            "f1_before": 0.8499733048585157,
+            "f1_after": 0.8113879003558719
+          }
+        },
+        "scanner_seconds": 1.4405745309777558,
+        "touched": 112,
+        "unavailable": 0,
+        "cases_changed": 69
+      },
+      "effect/3/0.15": {
+        "W": {
+          "before": {
+            "tp": 919,
+            "fp": 210,
+            "fn": 79,
+            "tn": 1936
+          },
+          "after": {
+            "tp": 879,
+            "fp": 164,
+            "fn": 119,
+            "tn": 1982
+          },
+          "delta_tp": -40,
+          "delta_fp": -46,
+          "f1_before": 0.8641278796426892,
+          "f1_after": 0.8613424791768741
+        },
+        "common_style_rows": 3000,
+        "common_W": {
+          "before": {
+            "tp": 796,
+            "fp": 208,
+            "fn": 73,
+            "tn": 1923
+          },
+          "after": {
+            "tp": 758,
+            "fp": 161,
+            "fn": 111,
+            "tn": 1970
+          },
+          "delta_tp": -38,
+          "delta_fp": -47,
+          "f1_before": 0.8499733048585157,
+          "f1_after": 0.8478747203579419
+        },
+        "style_controls": {
+          "LLVM": {
+            "before": {
+              "tp": 796,
+              "fp": 208,
+              "fn": 73,
+              "tn": 1923
+            },
+            "after": {
+              "tp": 796,
+              "fp": 208,
+              "fn": 73,
+              "tn": 1923
+            },
+            "delta_tp": 0,
+            "delta_fp": 0,
+            "f1_before": 0.8499733048585157,
+            "f1_after": 0.8499733048585157
+          },
+          "GNU": {
+            "before": {
+              "tp": 796,
+              "fp": 208,
+              "fn": 73,
+              "tn": 1923
+            },
+            "after": {
+              "tp": 775,
+              "fp": 269,
+              "fn": 94,
+              "tn": 1862
+            },
+            "delta_tp": -21,
+            "delta_fp": 61,
+            "f1_before": 0.8499733048585157,
+            "f1_after": 0.8102456874019864
+          },
+          "Chromium": {
+            "before": {
+              "tp": 796,
+              "fp": 208,
+              "fn": 73,
+              "tn": 1923
+            },
+            "after": {
+              "tp": 790,
+              "fp": 205,
+              "fn": 79,
+              "tn": 1926
+            },
+            "delta_tp": -6,
+            "delta_fp": -3,
+            "f1_before": 0.8499733048585157,
+            "f1_after": 0.8476394849785408
+          },
+          "WebKit": {
+            "before": {
+              "tp": 796,
+              "fp": 208,
+              "fn": 73,
+              "tn": 1923
+            },
+            "after": {
+              "tp": 783,
+              "fp": 264,
+              "fn": 86,
+              "tn": 1867
+            },
+            "delta_tp": -13,
+            "delta_fp": 56,
+            "f1_before": 0.8499733048585157,
+            "f1_after": 0.8173277661795407
+          },
+          "Microsoft": {
+            "before": {
+              "tp": 796,
+              "fp": 208,
+              "fn": 73,
+              "tn": 1923
+            },
+            "after": {
+              "tp": 798,
+              "fp": 300,
+              "fn": 71,
+              "tn": 1831
+            },
+            "delta_tp": 2,
+            "delta_fp": 92,
+            "f1_before": 0.8499733048585157,
+            "f1_after": 0.8113879003558719
+          }
+        },
+        "scanner_seconds": 1.4405745309777558,
+        "touched": 481,
+        "unavailable": 0,
+        "cases_changed": 215
+      },
+      "effect/3/0.4": {
+        "W": {
+          "before": {
+            "tp": 919,
+            "fp": 210,
+            "fn": 79,
+            "tn": 1936
+          },
+          "after": {
+            "tp": 836,
+            "fp": 291,
+            "fn": 162,
+            "tn": 1855
+          },
+          "delta_tp": -83,
+          "delta_fp": 81,
+          "f1_before": 0.8641278796426892,
+          "f1_after": 0.7868235294117647
+        },
+        "common_style_rows": 3000,
+        "common_W": {
+          "before": {
+            "tp": 796,
+            "fp": 208,
+            "fn": 73,
+            "tn": 1923
+          },
+          "after": {
+            "tp": 718,
+            "fp": 286,
+            "fn": 151,
+            "tn": 1845
+          },
+          "delta_tp": -78,
+          "delta_fp": 78,
+          "f1_before": 0.8499733048585157,
+          "f1_after": 0.7666844634276562
+        },
+        "style_controls": {
+          "LLVM": {
+            "before": {
+              "tp": 796,
+              "fp": 208,
+              "fn": 73,
+              "tn": 1923
+            },
+            "after": {
+              "tp": 796,
+              "fp": 208,
+              "fn": 73,
+              "tn": 1923
+            },
+            "delta_tp": 0,
+            "delta_fp": 0,
+            "f1_before": 0.8499733048585157,
+            "f1_after": 0.8499733048585157
+          },
+          "GNU": {
+            "before": {
+              "tp": 796,
+              "fp": 208,
+              "fn": 73,
+              "tn": 1923
+            },
+            "after": {
+              "tp": 775,
+              "fp": 269,
+              "fn": 94,
+              "tn": 1862
+            },
+            "delta_tp": -21,
+            "delta_fp": 61,
+            "f1_before": 0.8499733048585157,
+            "f1_after": 0.8102456874019864
+          },
+          "Chromium": {
+            "before": {
+              "tp": 796,
+              "fp": 208,
+              "fn": 73,
+              "tn": 1923
+            },
+            "after": {
+              "tp": 790,
+              "fp": 205,
+              "fn": 79,
+              "tn": 1926
+            },
+            "delta_tp": -6,
+            "delta_fp": -3,
+            "f1_before": 0.8499733048585157,
+            "f1_after": 0.8476394849785408
+          },
+          "WebKit": {
+            "before": {
+              "tp": 796,
+              "fp": 208,
+              "fn": 73,
+              "tn": 1923
+            },
+            "after": {
+              "tp": 783,
+              "fp": 264,
+              "fn": 86,
+              "tn": 1867
+            },
+            "delta_tp": -13,
+            "delta_fp": 56,
+            "f1_before": 0.8499733048585157,
+            "f1_after": 0.8173277661795407
+          },
+          "Microsoft": {
+            "before": {
+              "tp": 796,
+              "fp": 208,
+              "fn": 73,
+              "tn": 1923
+            },
+            "after": {
+              "tp": 798,
+              "fp": 300,
+              "fn": 71,
+              "tn": 1831
+            },
+            "delta_tp": 2,
+            "delta_fp": 92,
+            "f1_before": 0.8499733048585157,
+            "f1_after": 0.8113879003558719
+          }
+        },
+        "scanner_seconds": 1.4405745309777558,
+        "touched": 1284,
+        "unavailable": 0,
+        "cases_changed": 466
+      },
+      "joint_candidates": 3001,
+      "joint/1/0.035": {
+        "W": {
+          "before": {
+            "tp": 919,
+            "fp": 210,
+            "fn": 79,
+            "tn": 1936
+          },
+          "after": {
+            "tp": 924,
+            "fp": 209,
+            "fn": 74,
+            "tn": 1937
+          },
+          "delta_tp": 5,
+          "delta_fp": -1,
+          "f1_before": 0.8641278796426892,
+          "f1_after": 0.8671984983575786
+        },
+        "common_style_rows": 3000,
+        "common_W": {
+          "before": {
+            "tp": 796,
+            "fp": 208,
+            "fn": 73,
+            "tn": 1923
+          },
+          "after": {
+            "tp": 801,
+            "fp": 207,
+            "fn": 68,
+            "tn": 1924
+          },
+          "delta_tp": 5,
+          "delta_fp": -1,
+          "f1_before": 0.8499733048585157,
+          "f1_after": 0.853489611081513
+        },
+        "style_controls": {
+          "LLVM": {
+            "before": {
+              "tp": 796,
+              "fp": 208,
+              "fn": 73,
+              "tn": 1923
+            },
+            "after": {
+              "tp": 796,
+              "fp": 208,
+              "fn": 73,
+              "tn": 1923
+            },
+            "delta_tp": 0,
+            "delta_fp": 0,
+            "f1_before": 0.8499733048585157,
+            "f1_after": 0.8499733048585157
+          },
+          "GNU": {
+            "before": {
+              "tp": 796,
+              "fp": 208,
+              "fn": 73,
+              "tn": 1923
+            },
+            "after": {
+              "tp": 775,
+              "fp": 269,
+              "fn": 94,
+              "tn": 1862
+            },
+            "delta_tp": -21,
+            "delta_fp": 61,
+            "f1_before": 0.8499733048585157,
+            "f1_after": 0.8102456874019864
+          },
+          "Chromium": {
+            "before": {
+              "tp": 796,
+              "fp": 208,
+              "fn": 73,
+              "tn": 1923
+            },
+            "after": {
+              "tp": 790,
+              "fp": 205,
+              "fn": 79,
+              "tn": 1926
+            },
+            "delta_tp": -6,
+            "delta_fp": -3,
+            "f1_before": 0.8499733048585157,
+            "f1_after": 0.8476394849785408
+          },
+          "WebKit": {
+            "before": {
+              "tp": 796,
+              "fp": 208,
+              "fn": 73,
+              "tn": 1923
+            },
+            "after": {
+              "tp": 783,
+              "fp": 264,
+              "fn": 86,
+              "tn": 1867
+            },
+            "delta_tp": -13,
+            "delta_fp": 56,
+            "f1_before": 0.8499733048585157,
+            "f1_after": 0.8173277661795407
+          },
+          "Microsoft": {
+            "before": {
+              "tp": 796,
+              "fp": 208,
+              "fn": 73,
+              "tn": 1923
+            },
+            "after": {
+              "tp": 798,
+              "fp": 300,
+              "fn": 71,
+              "tn": 1831
+            },
+            "delta_tp": 2,
+            "delta_fp": 92,
+            "f1_before": 0.8499733048585157,
+            "f1_after": 0.8113879003558719
+          }
+        },
+        "scanner_seconds": 1.5699158979114145,
+        "touched": 112,
+        "unavailable": 0,
+        "cases_changed": 15
+      },
+      "joint/1/0.15": {
+        "W": {
+          "before": {
+            "tp": 919,
+            "fp": 210,
+            "fn": 79,
+            "tn": 1936
+          },
+          "after": {
+            "tp": 915,
+            "fp": 221,
+            "fn": 83,
+            "tn": 1925
+          },
+          "delta_tp": -4,
+          "delta_fp": 11,
+          "f1_before": 0.8641278796426892,
+          "f1_after": 0.8575445173383318
+        },
+        "common_style_rows": 3000,
+        "common_W": {
+          "before": {
+            "tp": 796,
+            "fp": 208,
+            "fn": 73,
+            "tn": 1923
+          },
+          "after": {
+            "tp": 792,
+            "fp": 219,
+            "fn": 77,
+            "tn": 1912
+          },
+          "delta_tp": -4,
+          "delta_fp": 11,
+          "f1_before": 0.8499733048585157,
+          "f1_after": 0.8425531914893617
+        },
+        "style_controls": {
+          "LLVM": {
+            "before": {
+              "tp": 796,
+              "fp": 208,
+              "fn": 73,
+              "tn": 1923
+            },
+            "after": {
+              "tp": 796,
+              "fp": 208,
+              "fn": 73,
+              "tn": 1923
+            },
+            "delta_tp": 0,
+            "delta_fp": 0,
+            "f1_before": 0.8499733048585157,
+            "f1_after": 0.8499733048585157
+          },
+          "GNU": {
+            "before": {
+              "tp": 796,
+              "fp": 208,
+              "fn": 73,
+              "tn": 1923
+            },
+            "after": {
+              "tp": 775,
+              "fp": 269,
+              "fn": 94,
+              "tn": 1862
+            },
+            "delta_tp": -21,
+            "delta_fp": 61,
+            "f1_before": 0.8499733048585157,
+            "f1_after": 0.8102456874019864
+          },
+          "Chromium": {
+            "before": {
+              "tp": 796,
+              "fp": 208,
+              "fn": 73,
+              "tn": 1923
+            },
+            "after": {
+              "tp": 790,
+              "fp": 205,
+              "fn": 79,
+              "tn": 1926
+            },
+            "delta_tp": -6,
+            "delta_fp": -3,
+            "f1_before": 0.8499733048585157,
+            "f1_after": 0.8476394849785408
+          },
+          "WebKit": {
+            "before": {
+              "tp": 796,
+              "fp": 208,
+              "fn": 73,
+              "tn": 1923
+            },
+            "after": {
+              "tp": 783,
+              "fp": 264,
+              "fn": 86,
+              "tn": 1867
+            },
+            "delta_tp": -13,
+            "delta_fp": 56,
+            "f1_before": 0.8499733048585157,
+            "f1_after": 0.8173277661795407
+          },
+          "Microsoft": {
+            "before": {
+              "tp": 796,
+              "fp": 208,
+              "fn": 73,
+              "tn": 1923
+            },
+            "after": {
+              "tp": 798,
+              "fp": 300,
+              "fn": 71,
+              "tn": 1831
+            },
+            "delta_tp": 2,
+            "delta_fp": 92,
+            "f1_before": 0.8499733048585157,
+            "f1_after": 0.8113879003558719
+          }
+        },
+        "scanner_seconds": 1.5699158979114145,
+        "touched": 481,
+        "unavailable": 0,
+        "cases_changed": 77
+      },
+      "joint/1/0.4": {
+        "W": {
+          "before": {
+            "tp": 919,
+            "fp": 210,
+            "fn": 79,
+            "tn": 1936
+          },
+          "after": {
+            "tp": 896,
+            "fp": 257,
+            "fn": 102,
+            "tn": 1889
+          },
+          "delta_tp": -23,
+          "delta_fp": 47,
+          "f1_before": 0.8641278796426892,
+          "f1_after": 0.8331008833100884
+        },
+        "common_style_rows": 3000,
+        "common_W": {
+          "before": {
+            "tp": 796,
+            "fp": 208,
+            "fn": 73,
+            "tn": 1923
+          },
+          "after": {
+            "tp": 774,
+            "fp": 254,
+            "fn": 95,
+            "tn": 1877
+          },
+          "delta_tp": -22,
+          "delta_fp": 46,
+          "f1_before": 0.8499733048585157,
+          "f1_after": 0.816025303110174
+        },
+        "style_controls": {
+          "LLVM": {
+            "before": {
+              "tp": 796,
+              "fp": 208,
+              "fn": 73,
+              "tn": 1923
+            },
+            "after": {
+              "tp": 796,
+              "fp": 208,
+              "fn": 73,
+              "tn": 1923
+            },
+            "delta_tp": 0,
+            "delta_fp": 0,
+            "f1_before": 0.8499733048585157,
+            "f1_after": 0.8499733048585157
+          },
+          "GNU": {
+            "before": {
+              "tp": 796,
+              "fp": 208,
+              "fn": 73,
+              "tn": 1923
+            },
+            "after": {
+              "tp": 775,
+              "fp": 269,
+              "fn": 94,
+              "tn": 1862
+            },
+            "delta_tp": -21,
+            "delta_fp": 61,
+            "f1_before": 0.8499733048585157,
+            "f1_after": 0.8102456874019864
+          },
+          "Chromium": {
+            "before": {
+              "tp": 796,
+              "fp": 208,
+              "fn": 73,
+              "tn": 1923
+            },
+            "after": {
+              "tp": 790,
+              "fp": 205,
+              "fn": 79,
+              "tn": 1926
+            },
+            "delta_tp": -6,
+            "delta_fp": -3,
+            "f1_before": 0.8499733048585157,
+            "f1_after": 0.8476394849785408
+          },
+          "WebKit": {
+            "before": {
+              "tp": 796,
+              "fp": 208,
+              "fn": 73,
+              "tn": 1923
+            },
+            "after": {
+              "tp": 783,
+              "fp": 264,
+              "fn": 86,
+              "tn": 1867
+            },
+            "delta_tp": -13,
+            "delta_fp": 56,
+            "f1_before": 0.8499733048585157,
+            "f1_after": 0.8173277661795407
+          },
+          "Microsoft": {
+            "before": {
+              "tp": 796,
+              "fp": 208,
+              "fn": 73,
+              "tn": 1923
+            },
+            "after": {
+              "tp": 798,
+              "fp": 300,
+              "fn": 71,
+              "tn": 1831
+            },
+            "delta_tp": 2,
+            "delta_fp": 92,
+            "f1_before": 0.8499733048585157,
+            "f1_after": 0.8113879003558719
+          }
+        },
+        "scanner_seconds": 1.5699158979114145,
+        "touched": 1284,
+        "unavailable": 0,
+        "cases_changed": 184
+      },
+      "joint/3/0.035": {
+        "W": {
+          "before": {
+            "tp": 919,
+            "fp": 210,
+            "fn": 79,
+            "tn": 1936
+          },
+          "after": {
+            "tp": 919,
+            "fp": 212,
+            "fn": 79,
+            "tn": 1934
+          },
+          "delta_tp": 0,
+          "delta_fp": 2,
+          "f1_before": 0.8641278796426892,
+          "f1_after": 0.8633161108501644
+        },
+        "common_style_rows": 3000,
+        "common_W": {
+          "before": {
+            "tp": 796,
+            "fp": 208,
+            "fn": 73,
+            "tn": 1923
+          },
+          "after": {
+            "tp": 796,
+            "fp": 210,
+            "fn": 73,
+            "tn": 1921
+          },
+          "delta_tp": 0,
+          "delta_fp": 2,
+          "f1_before": 0.8499733048585157,
+          "f1_after": 0.8490666666666666
+        },
+        "style_controls": {
+          "LLVM": {
+            "before": {
+              "tp": 796,
+              "fp": 208,
+              "fn": 73,
+              "tn": 1923
+            },
+            "after": {
+              "tp": 796,
+              "fp": 208,
+              "fn": 73,
+              "tn": 1923
+            },
+            "delta_tp": 0,
+            "delta_fp": 0,
+            "f1_before": 0.8499733048585157,
+            "f1_after": 0.8499733048585157
+          },
+          "GNU": {
+            "before": {
+              "tp": 796,
+              "fp": 208,
+              "fn": 73,
+              "tn": 1923
+            },
+            "after": {
+              "tp": 775,
+              "fp": 269,
+              "fn": 94,
+              "tn": 1862
+            },
+            "delta_tp": -21,
+            "delta_fp": 61,
+            "f1_before": 0.8499733048585157,
+            "f1_after": 0.8102456874019864
+          },
+          "Chromium": {
+            "before": {
+              "tp": 796,
+              "fp": 208,
+              "fn": 73,
+              "tn": 1923
+            },
+            "after": {
+              "tp": 790,
+              "fp": 205,
+              "fn": 79,
+              "tn": 1926
+            },
+            "delta_tp": -6,
+            "delta_fp": -3,
+            "f1_before": 0.8499733048585157,
+            "f1_after": 0.8476394849785408
+          },
+          "WebKit": {
+            "before": {
+              "tp": 796,
+              "fp": 208,
+              "fn": 73,
+              "tn": 1923
+            },
+            "after": {
+              "tp": 783,
+              "fp": 264,
+              "fn": 86,
+              "tn": 1867
+            },
+            "delta_tp": -13,
+            "delta_fp": 56,
+            "f1_before": 0.8499733048585157,
+            "f1_after": 0.8173277661795407
+          },
+          "Microsoft": {
+            "before": {
+              "tp": 796,
+              "fp": 208,
+              "fn": 73,
+              "tn": 1923
+            },
+            "after": {
+              "tp": 798,
+              "fp": 300,
+              "fn": 71,
+              "tn": 1831
+            },
+            "delta_tp": 2,
+            "delta_fp": 92,
+            "f1_before": 0.8499733048585157,
+            "f1_after": 0.8113879003558719
+          }
+        },
+        "scanner_seconds": 1.5285299869719893,
+        "touched": 112,
+        "unavailable": 0,
+        "cases_changed": 24
+      },
+      "joint/3/0.15": {
+        "W": {
+          "before": {
+            "tp": 919,
+            "fp": 210,
+            "fn": 79,
+            "tn": 1936
+          },
+          "after": {
+            "tp": 906,
+            "fp": 228,
+            "fn": 92,
+            "tn": 1918
+          },
+          "delta_tp": -13,
+          "delta_fp": 18,
+          "f1_before": 0.8641278796426892,
+          "f1_after": 0.849906191369606
+        },
+        "common_style_rows": 3000,
+        "common_W": {
+          "before": {
+            "tp": 796,
+            "fp": 208,
+            "fn": 73,
+            "tn": 1923
+          },
+          "after": {
+            "tp": 784,
+            "fp": 226,
+            "fn": 85,
+            "tn": 1905
+          },
+          "delta_tp": -12,
+          "delta_fp": 18,
+          "f1_before": 0.8499733048585157,
+          "f1_after": 0.83448642895157
+        },
+        "style_controls": {
+          "LLVM": {
+            "before": {
+              "tp": 796,
+              "fp": 208,
+              "fn": 73,
+              "tn": 1923
+            },
+            "after": {
+              "tp": 796,
+              "fp": 208,
+              "fn": 73,
+              "tn": 1923
+            },
+            "delta_tp": 0,
+            "delta_fp": 0,
+            "f1_before": 0.8499733048585157,
+            "f1_after": 0.8499733048585157
+          },
+          "GNU": {
+            "before": {
+              "tp": 796,
+              "fp": 208,
+              "fn": 73,
+              "tn": 1923
+            },
+            "after": {
+              "tp": 775,
+              "fp": 269,
+              "fn": 94,
+              "tn": 1862
+            },
+            "delta_tp": -21,
+            "delta_fp": 61,
+            "f1_before": 0.8499733048585157,
+            "f1_after": 0.8102456874019864
+          },
+          "Chromium": {
+            "before": {
+              "tp": 796,
+              "fp": 208,
+              "fn": 73,
+              "tn": 1923
+            },
+            "after": {
+              "tp": 790,
+              "fp": 205,
+              "fn": 79,
+              "tn": 1926
+            },
+            "delta_tp": -6,
+            "delta_fp": -3,
+            "f1_before": 0.8499733048585157,
+            "f1_after": 0.8476394849785408
+          },
+          "WebKit": {
+            "before": {
+              "tp": 796,
+              "fp": 208,
+              "fn": 73,
+              "tn": 1923
+            },
+            "after": {
+              "tp": 783,
+              "fp": 264,
+              "fn": 86,
+              "tn": 1867
+            },
+            "delta_tp": -13,
+            "delta_fp": 56,
+            "f1_before": 0.8499733048585157,
+            "f1_after": 0.8173277661795407
+          },
+          "Microsoft": {
+            "before": {
+              "tp": 796,
+              "fp": 208,
+              "fn": 73,
+              "tn": 1923
+            },
+            "after": {
+              "tp": 798,
+              "fp": 300,
+              "fn": 71,
+              "tn": 1831
+            },
+            "delta_tp": 2,
+            "delta_fp": 92,
+            "f1_before": 0.8499733048585157,
+            "f1_after": 0.8113879003558719
+          }
+        },
+        "scanner_seconds": 1.5285299869719893,
+        "touched": 481,
+        "unavailable": 0,
+        "cases_changed": 115
+      },
+      "joint/3/0.4": {
+        "W": {
+          "before": {
+            "tp": 919,
+            "fp": 210,
+            "fn": 79,
+            "tn": 1936
+          },
+          "after": {
+            "tp": 872,
+            "fp": 272,
+            "fn": 126,
+            "tn": 1874
+          },
+          "delta_tp": -47,
+          "delta_fp": 62,
+          "f1_before": 0.8641278796426892,
+          "f1_after": 0.8141923436041083
+        },
+        "common_style_rows": 3000,
+        "common_W": {
+          "before": {
+            "tp": 796,
+            "fp": 208,
+            "fn": 73,
+            "tn": 1923
+          },
+          "after": {
+            "tp": 750,
+            "fp": 269,
+            "fn": 119,
+            "tn": 1862
+          },
+          "delta_tp": -46,
+          "delta_fp": 61,
+          "f1_before": 0.8499733048585157,
+          "f1_after": 0.7944915254237288
+        },
+        "style_controls": {
+          "LLVM": {
+            "before": {
+              "tp": 796,
+              "fp": 208,
+              "fn": 73,
+              "tn": 1923
+            },
+            "after": {
+              "tp": 796,
+              "fp": 208,
+              "fn": 73,
+              "tn": 1923
+            },
+            "delta_tp": 0,
+            "delta_fp": 0,
+            "f1_before": 0.8499733048585157,
+            "f1_after": 0.8499733048585157
+          },
+          "GNU": {
+            "before": {
+              "tp": 796,
+              "fp": 208,
+              "fn": 73,
+              "tn": 1923
+            },
+            "after": {
+              "tp": 775,
+              "fp": 269,
+              "fn": 94,
+              "tn": 1862
+            },
+            "delta_tp": -21,
+            "delta_fp": 61,
+            "f1_before": 0.8499733048585157,
+            "f1_after": 0.8102456874019864
+          },
+          "Chromium": {
+            "before": {
+              "tp": 796,
+              "fp": 208,
+              "fn": 73,
+              "tn": 1923
+            },
+            "after": {
+              "tp": 790,
+              "fp": 205,
+              "fn": 79,
+              "tn": 1926
+            },
+            "delta_tp": -6,
+            "delta_fp": -3,
+            "f1_before": 0.8499733048585157,
+            "f1_after": 0.8476394849785408
+          },
+          "WebKit": {
+            "before": {
+              "tp": 796,
+              "fp": 208,
+              "fn": 73,
+              "tn": 1923
+            },
+            "after": {
+              "tp": 783,
+              "fp": 264,
+              "fn": 86,
+              "tn": 1867
+            },
+            "delta_tp": -13,
+            "delta_fp": 56,
+            "f1_before": 0.8499733048585157,
+            "f1_after": 0.8173277661795407
+          },
+          "Microsoft": {
+            "before": {
+              "tp": 796,
+              "fp": 208,
+              "fn": 73,
+              "tn": 1923
+            },
+            "after": {
+              "tp": 798,
+              "fp": 300,
+              "fn": 71,
+              "tn": 1831
+            },
+            "delta_tp": 2,
+            "delta_fp": 92,
+            "f1_before": 0.8499733048585157,
+            "f1_after": 0.8113879003558719
+          }
+        },
+        "scanner_seconds": 1.5285299869719893,
+        "touched": 1284,
+        "unavailable": 0,
+        "cases_changed": 258
+      }
+    },
+    "held": {
+      "source_candidates": 2340,
+      "source/1/0.035": {
+        "W": {
+          "before": {
+            "tp": 582,
+            "fp": 69,
+            "fn": 140,
+            "tn": 1632
+          },
+          "after": {
+            "tp": 582,
+            "fp": 69,
+            "fn": 140,
+            "tn": 1632
+          },
+          "delta_tp": 0,
+          "delta_fp": 0,
+          "f1_before": 0.8477785870356883,
+          "f1_after": 0.8477785870356883
+        },
+        "common_style_rows": 2309,
+        "common_W": {
+          "before": {
+            "tp": 486,
+            "fp": 65,
+            "fn": 136,
+            "tn": 1622
+          },
+          "after": {
+            "tp": 486,
+            "fp": 65,
+            "fn": 136,
+            "tn": 1622
+          },
+          "delta_tp": 0,
+          "delta_fp": 0,
+          "f1_before": 0.8286445012787724,
+          "f1_after": 0.8286445012787724
+        },
+        "style_controls": {
+          "LLVM": {
+            "before": {
+              "tp": 486,
+              "fp": 65,
+              "fn": 136,
+              "tn": 1622
+            },
+            "after": {
+              "tp": 486,
+              "fp": 67,
+              "fn": 136,
+              "tn": 1620
+            },
+            "delta_tp": 0,
+            "delta_fp": 2,
+            "f1_before": 0.8286445012787724,
+            "f1_after": 0.8272340425531914
+          },
+          "GNU": {
+            "before": {
+              "tp": 486,
+              "fp": 65,
+              "fn": 136,
+              "tn": 1622
+            },
+            "after": {
+              "tp": 507,
+              "fp": 107,
+              "fn": 115,
+              "tn": 1580
+            },
+            "delta_tp": 21,
+            "delta_fp": 42,
+            "f1_before": 0.8286445012787724,
+            "f1_after": 0.8203883495145631
+          },
+          "Chromium": {
+            "before": {
+              "tp": 486,
+              "fp": 65,
+              "fn": 136,
+              "tn": 1622
+            },
+            "after": {
+              "tp": 478,
+              "fp": 60,
+              "fn": 144,
+              "tn": 1627
+            },
+            "delta_tp": -8,
+            "delta_fp": -5,
+            "f1_before": 0.8286445012787724,
+            "f1_after": 0.8241379310344827
+          },
+          "WebKit": {
+            "before": {
+              "tp": 486,
+              "fp": 65,
+              "fn": 136,
+              "tn": 1622
+            },
+            "after": {
+              "tp": 507,
+              "fp": 93,
+              "fn": 115,
+              "tn": 1594
+            },
+            "delta_tp": 21,
+            "delta_fp": 28,
+            "f1_before": 0.8286445012787724,
+            "f1_after": 0.8297872340425532
+          },
+          "Microsoft": {
+            "before": {
+              "tp": 486,
+              "fp": 65,
+              "fn": 136,
+              "tn": 1622
+            },
+            "after": {
+              "tp": 524,
+              "fp": 124,
+              "fn": 98,
+              "tn": 1563
+            },
+            "delta_tp": 38,
+            "delta_fp": 59,
+            "f1_before": 0.8286445012787724,
+            "f1_after": 0.8251968503937008
+          }
+        },
+        "scanner_seconds": 1.7447888769675046,
+        "touched": 35,
+        "unavailable": 0,
+        "cases_changed": 0
+      },
+      "source/1/0.15": {
+        "W": {
+          "before": {
+            "tp": 582,
+            "fp": 69,
+            "fn": 140,
+            "tn": 1632
+          },
+          "after": {
+            "tp": 583,
+            "fp": 69,
+            "fn": 139,
+            "tn": 1632
+          },
+          "delta_tp": 1,
+          "delta_fp": 0,
+          "f1_before": 0.8477785870356883,
+          "f1_after": 0.8486171761280932
+        },
+        "common_style_rows": 2309,
+        "common_W": {
+          "before": {
+            "tp": 486,
+            "fp": 65,
+            "fn": 136,
+            "tn": 1622
+          },
+          "after": {
+            "tp": 486,
+            "fp": 65,
+            "fn": 136,
+            "tn": 1622
+          },
+          "delta_tp": 0,
+          "delta_fp": 0,
+          "f1_before": 0.8286445012787724,
+          "f1_after": 0.8286445012787724
+        },
+        "style_controls": {
+          "LLVM": {
+            "before": {
+              "tp": 486,
+              "fp": 65,
+              "fn": 136,
+              "tn": 1622
+            },
+            "after": {
+              "tp": 486,
+              "fp": 67,
+              "fn": 136,
+              "tn": 1620
+            },
+            "delta_tp": 0,
+            "delta_fp": 2,
+            "f1_before": 0.8286445012787724,
+            "f1_after": 0.8272340425531914
+          },
+          "GNU": {
+            "before": {
+              "tp": 486,
+              "fp": 65,
+              "fn": 136,
+              "tn": 1622
+            },
+            "after": {
+              "tp": 507,
+              "fp": 107,
+              "fn": 115,
+              "tn": 1580
+            },
+            "delta_tp": 21,
+            "delta_fp": 42,
+            "f1_before": 0.8286445012787724,
+            "f1_after": 0.8203883495145631
+          },
+          "Chromium": {
+            "before": {
+              "tp": 486,
+              "fp": 65,
+              "fn": 136,
+              "tn": 1622
+            },
+            "after": {
+              "tp": 478,
+              "fp": 60,
+              "fn": 144,
+              "tn": 1627
+            },
+            "delta_tp": -8,
+            "delta_fp": -5,
+            "f1_before": 0.8286445012787724,
+            "f1_after": 0.8241379310344827
+          },
+          "WebKit": {
+            "before": {
+              "tp": 486,
+              "fp": 65,
+              "fn": 136,
+              "tn": 1622
+            },
+            "after": {
+              "tp": 507,
+              "fp": 93,
+              "fn": 115,
+              "tn": 1594
+            },
+            "delta_tp": 21,
+            "delta_fp": 28,
+            "f1_before": 0.8286445012787724,
+            "f1_after": 0.8297872340425532
+          },
+          "Microsoft": {
+            "before": {
+              "tp": 486,
+              "fp": 65,
+              "fn": 136,
+              "tn": 1622
+            },
+            "after": {
+              "tp": 524,
+              "fp": 124,
+              "fn": 98,
+              "tn": 1563
+            },
+            "delta_tp": 38,
+            "delta_fp": 59,
+            "f1_before": 0.8286445012787724,
+            "f1_after": 0.8251968503937008
+          }
+        },
+        "scanner_seconds": 1.7447888769675046,
+        "touched": 172,
+        "unavailable": 0,
+        "cases_changed": 1
+      },
+      "source/1/0.4": {
+        "W": {
+          "before": {
+            "tp": 582,
+            "fp": 69,
+            "fn": 140,
+            "tn": 1632
+          },
+          "after": {
+            "tp": 583,
+            "fp": 69,
+            "fn": 139,
+            "tn": 1632
+          },
+          "delta_tp": 1,
+          "delta_fp": 0,
+          "f1_before": 0.8477785870356883,
+          "f1_after": 0.8486171761280932
+        },
+        "common_style_rows": 2309,
+        "common_W": {
+          "before": {
+            "tp": 486,
+            "fp": 65,
+            "fn": 136,
+            "tn": 1622
+          },
+          "after": {
+            "tp": 486,
+            "fp": 65,
+            "fn": 136,
+            "tn": 1622
+          },
+          "delta_tp": 0,
+          "delta_fp": 0,
+          "f1_before": 0.8286445012787724,
+          "f1_after": 0.8286445012787724
+        },
+        "style_controls": {
+          "LLVM": {
+            "before": {
+              "tp": 486,
+              "fp": 65,
+              "fn": 136,
+              "tn": 1622
+            },
+            "after": {
+              "tp": 486,
+              "fp": 67,
+              "fn": 136,
+              "tn": 1620
+            },
+            "delta_tp": 0,
+            "delta_fp": 2,
+            "f1_before": 0.8286445012787724,
+            "f1_after": 0.8272340425531914
+          },
+          "GNU": {
+            "before": {
+              "tp": 486,
+              "fp": 65,
+              "fn": 136,
+              "tn": 1622
+            },
+            "after": {
+              "tp": 507,
+              "fp": 107,
+              "fn": 115,
+              "tn": 1580
+            },
+            "delta_tp": 21,
+            "delta_fp": 42,
+            "f1_before": 0.8286445012787724,
+            "f1_after": 0.8203883495145631
+          },
+          "Chromium": {
+            "before": {
+              "tp": 486,
+              "fp": 65,
+              "fn": 136,
+              "tn": 1622
+            },
+            "after": {
+              "tp": 478,
+              "fp": 60,
+              "fn": 144,
+              "tn": 1627
+            },
+            "delta_tp": -8,
+            "delta_fp": -5,
+            "f1_before": 0.8286445012787724,
+            "f1_after": 0.8241379310344827
+          },
+          "WebKit": {
+            "before": {
+              "tp": 486,
+              "fp": 65,
+              "fn": 136,
+              "tn": 1622
+            },
+            "after": {
+              "tp": 507,
+              "fp": 93,
+              "fn": 115,
+              "tn": 1594
+            },
+            "delta_tp": 21,
+            "delta_fp": 28,
+            "f1_before": 0.8286445012787724,
+            "f1_after": 0.8297872340425532
+          },
+          "Microsoft": {
+            "before": {
+              "tp": 486,
+              "fp": 65,
+              "fn": 136,
+              "tn": 1622
+            },
+            "after": {
+              "tp": 524,
+              "fp": 124,
+              "fn": 98,
+              "tn": 1563
+            },
+            "delta_tp": 38,
+            "delta_fp": 59,
+            "f1_before": 0.8286445012787724,
+            "f1_after": 0.8251968503937008
+          }
+        },
+        "scanner_seconds": 1.7447888769675046,
+        "touched": 489,
+        "unavailable": 0,
+        "cases_changed": 1
+      },
+      "source/3/0.035": {
+        "W": {
+          "before": {
+            "tp": 582,
+            "fp": 69,
+            "fn": 140,
+            "tn": 1632
+          },
+          "after": {
+            "tp": 580,
+            "fp": 69,
+            "fn": 142,
+            "tn": 1632
+          },
+          "delta_tp": -2,
+          "delta_fp": 0,
+          "f1_before": 0.8477785870356883,
+          "f1_after": 0.8460977388767323
+        },
+        "common_style_rows": 2309,
+        "common_W": {
+          "before": {
+            "tp": 486,
+            "fp": 65,
+            "fn": 136,
+            "tn": 1622
+          },
+          "after": {
+            "tp": 484,
+            "fp": 65,
+            "fn": 138,
+            "tn": 1622
+          },
+          "delta_tp": -2,
+          "delta_fp": 0,
+          "f1_before": 0.8286445012787724,
+          "f1_after": 0.8266438941076003
+        },
+        "style_controls": {
+          "LLVM": {
+            "before": {
+              "tp": 486,
+              "fp": 65,
+              "fn": 136,
+              "tn": 1622
+            },
+            "after": {
+              "tp": 486,
+              "fp": 67,
+              "fn": 136,
+              "tn": 1620
+            },
+            "delta_tp": 0,
+            "delta_fp": 2,
+            "f1_before": 0.8286445012787724,
+            "f1_after": 0.8272340425531914
+          },
+          "GNU": {
+            "before": {
+              "tp": 486,
+              "fp": 65,
+              "fn": 136,
+              "tn": 1622
+            },
+            "after": {
+              "tp": 507,
+              "fp": 107,
+              "fn": 115,
+              "tn": 1580
+            },
+            "delta_tp": 21,
+            "delta_fp": 42,
+            "f1_before": 0.8286445012787724,
+            "f1_after": 0.8203883495145631
+          },
+          "Chromium": {
+            "before": {
+              "tp": 486,
+              "fp": 65,
+              "fn": 136,
+              "tn": 1622
+            },
+            "after": {
+              "tp": 478,
+              "fp": 60,
+              "fn": 144,
+              "tn": 1627
+            },
+            "delta_tp": -8,
+            "delta_fp": -5,
+            "f1_before": 0.8286445012787724,
+            "f1_after": 0.8241379310344827
+          },
+          "WebKit": {
+            "before": {
+              "tp": 486,
+              "fp": 65,
+              "fn": 136,
+              "tn": 1622
+            },
+            "after": {
+              "tp": 507,
+              "fp": 93,
+              "fn": 115,
+              "tn": 1594
+            },
+            "delta_tp": 21,
+            "delta_fp": 28,
+            "f1_before": 0.8286445012787724,
+            "f1_after": 0.8297872340425532
+          },
+          "Microsoft": {
+            "before": {
+              "tp": 486,
+              "fp": 65,
+              "fn": 136,
+              "tn": 1622
+            },
+            "after": {
+              "tp": 524,
+              "fp": 124,
+              "fn": 98,
+              "tn": 1563
+            },
+            "delta_tp": 38,
+            "delta_fp": 59,
+            "f1_before": 0.8286445012787724,
+            "f1_after": 0.8251968503937008
+          }
+        },
+        "scanner_seconds": 1.8383395900018513,
+        "touched": 35,
+        "unavailable": 0,
+        "cases_changed": 2
+      },
+      "source/3/0.15": {
+        "W": {
+          "before": {
+            "tp": 582,
+            "fp": 69,
+            "fn": 140,
+            "tn": 1632
+          },
+          "after": {
+            "tp": 578,
+            "fp": 71,
+            "fn": 144,
+            "tn": 1630
+          },
+          "delta_tp": -4,
+          "delta_fp": 2,
+          "f1_before": 0.8477785870356883,
+          "f1_after": 0.8431801604668125
+        },
+        "common_style_rows": 2309,
+        "common_W": {
+          "before": {
+            "tp": 486,
+            "fp": 65,
+            "fn": 136,
+            "tn": 1622
+          },
+          "after": {
+            "tp": 481,
+            "fp": 66,
+            "fn": 141,
+            "tn": 1621
+          },
+          "delta_tp": -5,
+          "delta_fp": 1,
+          "f1_before": 0.8286445012787724,
+          "f1_after": 0.8229255774165953
+        },
+        "style_controls": {
+          "LLVM": {
+            "before": {
+              "tp": 486,
+              "fp": 65,
+              "fn": 136,
+              "tn": 1622
+            },
+            "after": {
+              "tp": 486,
+              "fp": 67,
+              "fn": 136,
+              "tn": 1620
+            },
+            "delta_tp": 0,
+            "delta_fp": 2,
+            "f1_before": 0.8286445012787724,
+            "f1_after": 0.8272340425531914
+          },
+          "GNU": {
+            "before": {
+              "tp": 486,
+              "fp": 65,
+              "fn": 136,
+              "tn": 1622
+            },
+            "after": {
+              "tp": 507,
+              "fp": 107,
+              "fn": 115,
+              "tn": 1580
+            },
+            "delta_tp": 21,
+            "delta_fp": 42,
+            "f1_before": 0.8286445012787724,
+            "f1_after": 0.8203883495145631
+          },
+          "Chromium": {
+            "before": {
+              "tp": 486,
+              "fp": 65,
+              "fn": 136,
+              "tn": 1622
+            },
+            "after": {
+              "tp": 478,
+              "fp": 60,
+              "fn": 144,
+              "tn": 1627
+            },
+            "delta_tp": -8,
+            "delta_fp": -5,
+            "f1_before": 0.8286445012787724,
+            "f1_after": 0.8241379310344827
+          },
+          "WebKit": {
+            "before": {
+              "tp": 486,
+              "fp": 65,
+              "fn": 136,
+              "tn": 1622
+            },
+            "after": {
+              "tp": 507,
+              "fp": 93,
+              "fn": 115,
+              "tn": 1594
+            },
+            "delta_tp": 21,
+            "delta_fp": 28,
+            "f1_before": 0.8286445012787724,
+            "f1_after": 0.8297872340425532
+          },
+          "Microsoft": {
+            "before": {
+              "tp": 486,
+              "fp": 65,
+              "fn": 136,
+              "tn": 1622
+            },
+            "after": {
+              "tp": 524,
+              "fp": 124,
+              "fn": 98,
+              "tn": 1563
+            },
+            "delta_tp": 38,
+            "delta_fp": 59,
+            "f1_before": 0.8286445012787724,
+            "f1_after": 0.8251968503937008
+          }
+        },
+        "scanner_seconds": 1.8383395900018513,
+        "touched": 172,
+        "unavailable": 0,
+        "cases_changed": 12
+      },
+      "source/3/0.4": {
+        "W": {
+          "before": {
+            "tp": 582,
+            "fp": 69,
+            "fn": 140,
+            "tn": 1632
+          },
+          "after": {
+            "tp": 573,
+            "fp": 83,
+            "fn": 149,
+            "tn": 1618
+          },
+          "delta_tp": -9,
+          "delta_fp": 14,
+          "f1_before": 0.8477785870356883,
+          "f1_after": 0.8316400580551524
+        },
+        "common_style_rows": 2309,
+        "common_W": {
+          "before": {
+            "tp": 486,
+            "fp": 65,
+            "fn": 136,
+            "tn": 1622
+          },
+          "after": {
+            "tp": 477,
+            "fp": 78,
+            "fn": 145,
+            "tn": 1609
+          },
+          "delta_tp": -9,
+          "delta_fp": 13,
+          "f1_before": 0.8286445012787724,
+          "f1_after": 0.81053525913339
+        },
+        "style_controls": {
+          "LLVM": {
+            "before": {
+              "tp": 486,
+              "fp": 65,
+              "fn": 136,
+              "tn": 1622
+            },
+            "after": {
+              "tp": 486,
+              "fp": 67,
+              "fn": 136,
+              "tn": 1620
+            },
+            "delta_tp": 0,
+            "delta_fp": 2,
+            "f1_before": 0.8286445012787724,
+            "f1_after": 0.8272340425531914
+          },
+          "GNU": {
+            "before": {
+              "tp": 486,
+              "fp": 65,
+              "fn": 136,
+              "tn": 1622
+            },
+            "after": {
+              "tp": 507,
+              "fp": 107,
+              "fn": 115,
+              "tn": 1580
+            },
+            "delta_tp": 21,
+            "delta_fp": 42,
+            "f1_before": 0.8286445012787724,
+            "f1_after": 0.8203883495145631
+          },
+          "Chromium": {
+            "before": {
+              "tp": 486,
+              "fp": 65,
+              "fn": 136,
+              "tn": 1622
+            },
+            "after": {
+              "tp": 478,
+              "fp": 60,
+              "fn": 144,
+              "tn": 1627
+            },
+            "delta_tp": -8,
+            "delta_fp": -5,
+            "f1_before": 0.8286445012787724,
+            "f1_after": 0.8241379310344827
+          },
+          "WebKit": {
+            "before": {
+              "tp": 486,
+              "fp": 65,
+              "fn": 136,
+              "tn": 1622
+            },
+            "after": {
+              "tp": 507,
+              "fp": 93,
+              "fn": 115,
+              "tn": 1594
+            },
+            "delta_tp": 21,
+            "delta_fp": 28,
+            "f1_before": 0.8286445012787724,
+            "f1_after": 0.8297872340425532
+          },
+          "Microsoft": {
+            "before": {
+              "tp": 486,
+              "fp": 65,
+              "fn": 136,
+              "tn": 1622
+            },
+            "after": {
+              "tp": 524,
+              "fp": 124,
+              "fn": 98,
+              "tn": 1563
+            },
+            "delta_tp": 38,
+            "delta_fp": 59,
+            "f1_before": 0.8286445012787724,
+            "f1_after": 0.8251968503937008
+          }
+        },
+        "scanner_seconds": 1.8383395900018513,
+        "touched": 489,
+        "unavailable": 0,
+        "cases_changed": 43
+      },
+      "effect_candidates": 2340,
+      "effect/1/0.035": {
+        "W": {
+          "before": {
+            "tp": 582,
+            "fp": 69,
+            "fn": 140,
+            "tn": 1632
+          },
+          "after": {
+            "tp": 566,
+            "fp": 65,
+            "fn": 156,
+            "tn": 1636
+          },
+          "delta_tp": -16,
+          "delta_fp": -4,
+          "f1_before": 0.8477785870356883,
+          "f1_after": 0.8366592756836659
+        },
+        "common_style_rows": 2309,
+        "common_W": {
+          "before": {
+            "tp": 486,
+            "fp": 65,
+            "fn": 136,
+            "tn": 1622
+          },
+          "after": {
+            "tp": 470,
+            "fp": 61,
+            "fn": 152,
+            "tn": 1626
+          },
+          "delta_tp": -16,
+          "delta_fp": -4,
+          "f1_before": 0.8286445012787724,
+          "f1_after": 0.8152645273200347
+        },
+        "style_controls": {
+          "LLVM": {
+            "before": {
+              "tp": 486,
+              "fp": 65,
+              "fn": 136,
+              "tn": 1622
+            },
+            "after": {
+              "tp": 486,
+              "fp": 67,
+              "fn": 136,
+              "tn": 1620
+            },
+            "delta_tp": 0,
+            "delta_fp": 2,
+            "f1_before": 0.8286445012787724,
+            "f1_after": 0.8272340425531914
+          },
+          "GNU": {
+            "before": {
+              "tp": 486,
+              "fp": 65,
+              "fn": 136,
+              "tn": 1622
+            },
+            "after": {
+              "tp": 507,
+              "fp": 107,
+              "fn": 115,
+              "tn": 1580
+            },
+            "delta_tp": 21,
+            "delta_fp": 42,
+            "f1_before": 0.8286445012787724,
+            "f1_after": 0.8203883495145631
+          },
+          "Chromium": {
+            "before": {
+              "tp": 486,
+              "fp": 65,
+              "fn": 136,
+              "tn": 1622
+            },
+            "after": {
+              "tp": 478,
+              "fp": 60,
+              "fn": 144,
+              "tn": 1627
+            },
+            "delta_tp": -8,
+            "delta_fp": -5,
+            "f1_before": 0.8286445012787724,
+            "f1_after": 0.8241379310344827
+          },
+          "WebKit": {
+            "before": {
+              "tp": 486,
+              "fp": 65,
+              "fn": 136,
+              "tn": 1622
+            },
+            "after": {
+              "tp": 507,
+              "fp": 93,
+              "fn": 115,
+              "tn": 1594
+            },
+            "delta_tp": 21,
+            "delta_fp": 28,
+            "f1_before": 0.8286445012787724,
+            "f1_after": 0.8297872340425532
+          },
+          "Microsoft": {
+            "before": {
+              "tp": 486,
+              "fp": 65,
+              "fn": 136,
+              "tn": 1622
+            },
+            "after": {
+              "tp": 524,
+              "fp": 124,
+              "fn": 98,
+              "tn": 1563
+            },
+            "delta_tp": 38,
+            "delta_fp": 59,
+            "f1_before": 0.8286445012787724,
+            "f1_after": 0.8251968503937008
+          }
+        },
+        "scanner_seconds": 2.3321507608052343,
+        "touched": 43,
+        "unavailable": 0,
+        "cases_changed": 23
+      },
+      "effect/1/0.15": {
+        "W": {
+          "before": {
+            "tp": 582,
+            "fp": 69,
+            "fn": 140,
+            "tn": 1632
+          },
+          "after": {
+            "tp": 552,
+            "fp": 83,
+            "fn": 170,
+            "tn": 1618
+          },
+          "delta_tp": -30,
+          "delta_fp": 14,
+          "f1_before": 0.8477785870356883,
+          "f1_after": 0.8135593220338984
+        },
+        "common_style_rows": 2309,
+        "common_W": {
+          "before": {
+            "tp": 486,
+            "fp": 65,
+            "fn": 136,
+            "tn": 1622
+          },
+          "after": {
+            "tp": 458,
+            "fp": 78,
+            "fn": 164,
+            "tn": 1609
+          },
+          "delta_tp": -28,
+          "delta_fp": 13,
+          "f1_before": 0.8286445012787724,
+          "f1_after": 0.7910189982728842
+        },
+        "style_controls": {
+          "LLVM": {
+            "before": {
+              "tp": 486,
+              "fp": 65,
+              "fn": 136,
+              "tn": 1622
+            },
+            "after": {
+              "tp": 486,
+              "fp": 67,
+              "fn": 136,
+              "tn": 1620
+            },
+            "delta_tp": 0,
+            "delta_fp": 2,
+            "f1_before": 0.8286445012787724,
+            "f1_after": 0.8272340425531914
+          },
+          "GNU": {
+            "before": {
+              "tp": 486,
+              "fp": 65,
+              "fn": 136,
+              "tn": 1622
+            },
+            "after": {
+              "tp": 507,
+              "fp": 107,
+              "fn": 115,
+              "tn": 1580
+            },
+            "delta_tp": 21,
+            "delta_fp": 42,
+            "f1_before": 0.8286445012787724,
+            "f1_after": 0.8203883495145631
+          },
+          "Chromium": {
+            "before": {
+              "tp": 486,
+              "fp": 65,
+              "fn": 136,
+              "tn": 1622
+            },
+            "after": {
+              "tp": 478,
+              "fp": 60,
+              "fn": 144,
+              "tn": 1627
+            },
+            "delta_tp": -8,
+            "delta_fp": -5,
+            "f1_before": 0.8286445012787724,
+            "f1_after": 0.8241379310344827
+          },
+          "WebKit": {
+            "before": {
+              "tp": 486,
+              "fp": 65,
+              "fn": 136,
+              "tn": 1622
+            },
+            "after": {
+              "tp": 507,
+              "fp": 93,
+              "fn": 115,
+              "tn": 1594
+            },
+            "delta_tp": 21,
+            "delta_fp": 28,
+            "f1_before": 0.8286445012787724,
+            "f1_after": 0.8297872340425532
+          },
+          "Microsoft": {
+            "before": {
+              "tp": 486,
+              "fp": 65,
+              "fn": 136,
+              "tn": 1622
+            },
+            "after": {
+              "tp": 524,
+              "fp": 124,
+              "fn": 98,
+              "tn": 1563
+            },
+            "delta_tp": 38,
+            "delta_fp": 59,
+            "f1_before": 0.8286445012787724,
+            "f1_after": 0.8251968503937008
+          }
+        },
+        "scanner_seconds": 2.3321507608052343,
+        "touched": 351,
+        "unavailable": 0,
+        "cases_changed": 106
+      },
+      "effect/1/0.4": {
+        "W": {
+          "before": {
+            "tp": 582,
+            "fp": 69,
+            "fn": 140,
+            "tn": 1632
+          },
+          "after": {
+            "tp": 550,
+            "fp": 117,
+            "fn": 172,
+            "tn": 1584
+          },
+          "delta_tp": -32,
+          "delta_fp": 48,
+          "f1_before": 0.8477785870356883,
+          "f1_after": 0.7919366450683946
+        },
+        "common_style_rows": 2309,
+        "common_W": {
+          "before": {
+            "tp": 486,
+            "fp": 65,
+            "fn": 136,
+            "tn": 1622
+          },
+          "after": {
+            "tp": 455,
+            "fp": 110,
+            "fn": 167,
+            "tn": 1577
+          },
+          "delta_tp": -31,
+          "delta_fp": 45,
+          "f1_before": 0.8286445012787724,
+          "f1_after": 0.7666385846672283
+        },
+        "style_controls": {
+          "LLVM": {
+            "before": {
+              "tp": 486,
+              "fp": 65,
+              "fn": 136,
+              "tn": 1622
+            },
+            "after": {
+              "tp": 486,
+              "fp": 67,
+              "fn": 136,
+              "tn": 1620
+            },
+            "delta_tp": 0,
+            "delta_fp": 2,
+            "f1_before": 0.8286445012787724,
+            "f1_after": 0.8272340425531914
+          },
+          "GNU": {
+            "before": {
+              "tp": 486,
+              "fp": 65,
+              "fn": 136,
+              "tn": 1622
+            },
+            "after": {
+              "tp": 507,
+              "fp": 107,
+              "fn": 115,
+              "tn": 1580
+            },
+            "delta_tp": 21,
+            "delta_fp": 42,
+            "f1_before": 0.8286445012787724,
+            "f1_after": 0.8203883495145631
+          },
+          "Chromium": {
+            "before": {
+              "tp": 486,
+              "fp": 65,
+              "fn": 136,
+              "tn": 1622
+            },
+            "after": {
+              "tp": 478,
+              "fp": 60,
+              "fn": 144,
+              "tn": 1627
+            },
+            "delta_tp": -8,
+            "delta_fp": -5,
+            "f1_before": 0.8286445012787724,
+            "f1_after": 0.8241379310344827
+          },
+          "WebKit": {
+            "before": {
+              "tp": 486,
+              "fp": 65,
+              "fn": 136,
+              "tn": 1622
+            },
+            "after": {
+              "tp": 507,
+              "fp": 93,
+              "fn": 115,
+              "tn": 1594
+            },
+            "delta_tp": 21,
+            "delta_fp": 28,
+            "f1_before": 0.8286445012787724,
+            "f1_after": 0.8297872340425532
+          },
+          "Microsoft": {
+            "before": {
+              "tp": 486,
+              "fp": 65,
+              "fn": 136,
+              "tn": 1622
+            },
+            "after": {
+              "tp": 524,
+              "fp": 124,
+              "fn": 98,
+              "tn": 1563
+            },
+            "delta_tp": 38,
+            "delta_fp": 59,
+            "f1_before": 0.8286445012787724,
+            "f1_after": 0.8251968503937008
+          }
+        },
+        "scanner_seconds": 2.3321507608052343,
+        "touched": 929,
+        "unavailable": 0,
+        "cases_changed": 199
+      },
+      "effect/3/0.035": {
+        "W": {
+          "before": {
+            "tp": 582,
+            "fp": 69,
+            "fn": 140,
+            "tn": 1632
+          },
+          "after": {
+            "tp": 569,
+            "fp": 70,
+            "fn": 153,
+            "tn": 1631
+          },
+          "delta_tp": -13,
+          "delta_fp": 1,
+          "f1_before": 0.8477785870356883,
+          "f1_after": 0.8361498897869214
+        },
+        "common_style_rows": 2309,
+        "common_W": {
+          "before": {
+            "tp": 486,
+            "fp": 65,
+            "fn": 136,
+            "tn": 1622
+          },
+          "after": {
+            "tp": 473,
+            "fp": 66,
+            "fn": 149,
+            "tn": 1621
+          },
+          "delta_tp": -13,
+          "delta_fp": 1,
+          "f1_before": 0.8286445012787724,
+          "f1_after": 0.8148148148148148
+        },
+        "style_controls": {
+          "LLVM": {
+            "before": {
+              "tp": 486,
+              "fp": 65,
+              "fn": 136,
+              "tn": 1622
+            },
+            "after": {
+              "tp": 486,
+              "fp": 67,
+              "fn": 136,
+              "tn": 1620
+            },
+            "delta_tp": 0,
+            "delta_fp": 2,
+            "f1_before": 0.8286445012787724,
+            "f1_after": 0.8272340425531914
+          },
+          "GNU": {
+            "before": {
+              "tp": 486,
+              "fp": 65,
+              "fn": 136,
+              "tn": 1622
+            },
+            "after": {
+              "tp": 507,
+              "fp": 107,
+              "fn": 115,
+              "tn": 1580
+            },
+            "delta_tp": 21,
+            "delta_fp": 42,
+            "f1_before": 0.8286445012787724,
+            "f1_after": 0.8203883495145631
+          },
+          "Chromium": {
+            "before": {
+              "tp": 486,
+              "fp": 65,
+              "fn": 136,
+              "tn": 1622
+            },
+            "after": {
+              "tp": 478,
+              "fp": 60,
+              "fn": 144,
+              "tn": 1627
+            },
+            "delta_tp": -8,
+            "delta_fp": -5,
+            "f1_before": 0.8286445012787724,
+            "f1_after": 0.8241379310344827
+          },
+          "WebKit": {
+            "before": {
+              "tp": 486,
+              "fp": 65,
+              "fn": 136,
+              "tn": 1622
+            },
+            "after": {
+              "tp": 507,
+              "fp": 93,
+              "fn": 115,
+              "tn": 1594
+            },
+            "delta_tp": 21,
+            "delta_fp": 28,
+            "f1_before": 0.8286445012787724,
+            "f1_after": 0.8297872340425532
+          },
+          "Microsoft": {
+            "before": {
+              "tp": 486,
+              "fp": 65,
+              "fn": 136,
+              "tn": 1622
+            },
+            "after": {
+              "tp": 524,
+              "fp": 124,
+              "fn": 98,
+              "tn": 1563
+            },
+            "delta_tp": 38,
+            "delta_fp": 59,
+            "f1_before": 0.8286445012787724,
+            "f1_after": 0.8251968503937008
+          }
+        },
+        "scanner_seconds": 1.4112300341948867,
+        "touched": 43,
+        "unavailable": 0,
+        "cases_changed": 22
+      },
+      "effect/3/0.15": {
+        "W": {
+          "before": {
+            "tp": 582,
+            "fp": 69,
+            "fn": 140,
+            "tn": 1632
+          },
+          "after": {
+            "tp": 547,
+            "fp": 87,
+            "fn": 175,
+            "tn": 1614
+          },
+          "delta_tp": -35,
+          "delta_fp": 18,
+          "f1_before": 0.8477785870356883,
+          "f1_after": 0.8067846607669616
+        },
+        "common_style_rows": 2309,
+        "common_W": {
+          "before": {
+            "tp": 486,
+            "fp": 65,
+            "fn": 136,
+            "tn": 1622
+          },
+          "after": {
+            "tp": 455,
+            "fp": 82,
+            "fn": 167,
+            "tn": 1605
+          },
+          "delta_tp": -31,
+          "delta_fp": 17,
+          "f1_before": 0.8286445012787724,
+          "f1_after": 0.7851596203623814
+        },
+        "style_controls": {
+          "LLVM": {
+            "before": {
+              "tp": 486,
+              "fp": 65,
+              "fn": 136,
+              "tn": 1622
+            },
+            "after": {
+              "tp": 486,
+              "fp": 67,
+              "fn": 136,
+              "tn": 1620
+            },
+            "delta_tp": 0,
+            "delta_fp": 2,
+            "f1_before": 0.8286445012787724,
+            "f1_after": 0.8272340425531914
+          },
+          "GNU": {
+            "before": {
+              "tp": 486,
+              "fp": 65,
+              "fn": 136,
+              "tn": 1622
+            },
+            "after": {
+              "tp": 507,
+              "fp": 107,
+              "fn": 115,
+              "tn": 1580
+            },
+            "delta_tp": 21,
+            "delta_fp": 42,
+            "f1_before": 0.8286445012787724,
+            "f1_after": 0.8203883495145631
+          },
+          "Chromium": {
+            "before": {
+              "tp": 486,
+              "fp": 65,
+              "fn": 136,
+              "tn": 1622
+            },
+            "after": {
+              "tp": 478,
+              "fp": 60,
+              "fn": 144,
+              "tn": 1627
+            },
+            "delta_tp": -8,
+            "delta_fp": -5,
+            "f1_before": 0.8286445012787724,
+            "f1_after": 0.8241379310344827
+          },
+          "WebKit": {
+            "before": {
+              "tp": 486,
+              "fp": 65,
+              "fn": 136,
+              "tn": 1622
+            },
+            "after": {
+              "tp": 507,
+              "fp": 93,
+              "fn": 115,
+              "tn": 1594
+            },
+            "delta_tp": 21,
+            "delta_fp": 28,
+            "f1_before": 0.8286445012787724,
+            "f1_after": 0.8297872340425532
+          },
+          "Microsoft": {
+            "before": {
+              "tp": 486,
+              "fp": 65,
+              "fn": 136,
+              "tn": 1622
+            },
+            "after": {
+              "tp": 524,
+              "fp": 124,
+              "fn": 98,
+              "tn": 1563
+            },
+            "delta_tp": 38,
+            "delta_fp": 59,
+            "f1_before": 0.8286445012787724,
+            "f1_after": 0.8251968503937008
+          }
+        },
+        "scanner_seconds": 1.4112300341948867,
+        "touched": 351,
+        "unavailable": 0,
+        "cases_changed": 122
+      },
+      "effect/3/0.4": {
+        "W": {
+          "before": {
+            "tp": 582,
+            "fp": 69,
+            "fn": 140,
+            "tn": 1632
+          },
+          "after": {
+            "tp": 541,
+            "fp": 148,
+            "fn": 181,
+            "tn": 1553
+          },
+          "delta_tp": -41,
+          "delta_fp": 79,
+          "f1_before": 0.8477785870356883,
+          "f1_after": 0.7668320340184267
+        },
+        "common_style_rows": 2309,
+        "common_W": {
+          "before": {
+            "tp": 486,
+            "fp": 65,
+            "fn": 136,
+            "tn": 1622
+          },
+          "after": {
+            "tp": 449,
+            "fp": 142,
+            "fn": 173,
+            "tn": 1545
+          },
+          "delta_tp": -37,
+          "delta_fp": 77,
+          "f1_before": 0.8286445012787724,
+          "f1_after": 0.7403132728771641
+        },
+        "style_controls": {
+          "LLVM": {
+            "before": {
+              "tp": 486,
+              "fp": 65,
+              "fn": 136,
+              "tn": 1622
+            },
+            "after": {
+              "tp": 486,
+              "fp": 67,
+              "fn": 136,
+              "tn": 1620
+            },
+            "delta_tp": 0,
+            "delta_fp": 2,
+            "f1_before": 0.8286445012787724,
+            "f1_after": 0.8272340425531914
+          },
+          "GNU": {
+            "before": {
+              "tp": 486,
+              "fp": 65,
+              "fn": 136,
+              "tn": 1622
+            },
+            "after": {
+              "tp": 507,
+              "fp": 107,
+              "fn": 115,
+              "tn": 1580
+            },
+            "delta_tp": 21,
+            "delta_fp": 42,
+            "f1_before": 0.8286445012787724,
+            "f1_after": 0.8203883495145631
+          },
+          "Chromium": {
+            "before": {
+              "tp": 486,
+              "fp": 65,
+              "fn": 136,
+              "tn": 1622
+            },
+            "after": {
+              "tp": 478,
+              "fp": 60,
+              "fn": 144,
+              "tn": 1627
+            },
+            "delta_tp": -8,
+            "delta_fp": -5,
+            "f1_before": 0.8286445012787724,
+            "f1_after": 0.8241379310344827
+          },
+          "WebKit": {
+            "before": {
+              "tp": 486,
+              "fp": 65,
+              "fn": 136,
+              "tn": 1622
+            },
+            "after": {
+              "tp": 507,
+              "fp": 93,
+              "fn": 115,
+              "tn": 1594
+            },
+            "delta_tp": 21,
+            "delta_fp": 28,
+            "f1_before": 0.8286445012787724,
+            "f1_after": 0.8297872340425532
+          },
+          "Microsoft": {
+            "before": {
+              "tp": 486,
+              "fp": 65,
+              "fn": 136,
+              "tn": 1622
+            },
+            "after": {
+              "tp": 524,
+              "fp": 124,
+              "fn": 98,
+              "tn": 1563
+            },
+            "delta_tp": 38,
+            "delta_fp": 59,
+            "f1_before": 0.8286445012787724,
+            "f1_after": 0.8251968503937008
+          }
+        },
+        "scanner_seconds": 1.4112300341948867,
+        "touched": 929,
+        "unavailable": 0,
+        "cases_changed": 264
+      },
+      "joint_candidates": 2340,
+      "joint/1/0.035": {
+        "W": {
+          "before": {
+            "tp": 582,
+            "fp": 69,
+            "fn": 140,
+            "tn": 1632
+          },
+          "after": {
+            "tp": 587,
+            "fp": 72,
+            "fn": 135,
+            "tn": 1629
+          },
+          "delta_tp": 5,
+          "delta_fp": 3,
+          "f1_before": 0.8477785870356883,
+          "f1_after": 0.8501086169442433
+        },
+        "common_style_rows": 2309,
+        "common_W": {
+          "before": {
+            "tp": 486,
+            "fp": 65,
+            "fn": 136,
+            "tn": 1622
+          },
+          "after": {
+            "tp": 491,
+            "fp": 67,
+            "fn": 131,
+            "tn": 1620
+          },
+          "delta_tp": 5,
+          "delta_fp": 2,
+          "f1_before": 0.8286445012787724,
+          "f1_after": 0.8322033898305085
+        },
+        "style_controls": {
+          "LLVM": {
+            "before": {
+              "tp": 486,
+              "fp": 65,
+              "fn": 136,
+              "tn": 1622
+            },
+            "after": {
+              "tp": 486,
+              "fp": 67,
+              "fn": 136,
+              "tn": 1620
+            },
+            "delta_tp": 0,
+            "delta_fp": 2,
+            "f1_before": 0.8286445012787724,
+            "f1_after": 0.8272340425531914
+          },
+          "GNU": {
+            "before": {
+              "tp": 486,
+              "fp": 65,
+              "fn": 136,
+              "tn": 1622
+            },
+            "after": {
+              "tp": 507,
+              "fp": 107,
+              "fn": 115,
+              "tn": 1580
+            },
+            "delta_tp": 21,
+            "delta_fp": 42,
+            "f1_before": 0.8286445012787724,
+            "f1_after": 0.8203883495145631
+          },
+          "Chromium": {
+            "before": {
+              "tp": 486,
+              "fp": 65,
+              "fn": 136,
+              "tn": 1622
+            },
+            "after": {
+              "tp": 478,
+              "fp": 60,
+              "fn": 144,
+              "tn": 1627
+            },
+            "delta_tp": -8,
+            "delta_fp": -5,
+            "f1_before": 0.8286445012787724,
+            "f1_after": 0.8241379310344827
+          },
+          "WebKit": {
+            "before": {
+              "tp": 486,
+              "fp": 65,
+              "fn": 136,
+              "tn": 1622
+            },
+            "after": {
+              "tp": 507,
+              "fp": 93,
+              "fn": 115,
+              "tn": 1594
+            },
+            "delta_tp": 21,
+            "delta_fp": 28,
+            "f1_before": 0.8286445012787724,
+            "f1_after": 0.8297872340425532
+          },
+          "Microsoft": {
+            "before": {
+              "tp": 486,
+              "fp": 65,
+              "fn": 136,
+              "tn": 1622
+            },
+            "after": {
+              "tp": 524,
+              "fp": 124,
+              "fn": 98,
+              "tn": 1563
+            },
+            "delta_tp": 38,
+            "delta_fp": 59,
+            "f1_before": 0.8286445012787724,
+            "f1_after": 0.8251968503937008
+          }
+        },
+        "scanner_seconds": 3.1931377050932497,
+        "touched": 88,
+        "unavailable": 0,
+        "cases_changed": 17
+      },
+      "joint/1/0.15": {
+        "W": {
+          "before": {
+            "tp": 582,
+            "fp": 69,
+            "fn": 140,
+            "tn": 1632
+          },
+          "after": {
+            "tp": 590,
+            "fp": 84,
+            "fn": 132,
+            "tn": 1617
+          },
+          "delta_tp": 8,
+          "delta_fp": 15,
+          "f1_before": 0.8477785870356883,
+          "f1_after": 0.8452722063037249
+        },
+        "common_style_rows": 2309,
+        "common_W": {
+          "before": {
+            "tp": 486,
+            "fp": 65,
+            "fn": 136,
+            "tn": 1622
+          },
+          "after": {
+            "tp": 494,
+            "fp": 79,
+            "fn": 128,
+            "tn": 1608
+          },
+          "delta_tp": 8,
+          "delta_fp": 14,
+          "f1_before": 0.8286445012787724,
+          "f1_after": 0.8267782426778243
+        },
+        "style_controls": {
+          "LLVM": {
+            "before": {
+              "tp": 486,
+              "fp": 65,
+              "fn": 136,
+              "tn": 1622
+            },
+            "after": {
+              "tp": 486,
+              "fp": 67,
+              "fn": 136,
+              "tn": 1620
+            },
+            "delta_tp": 0,
+            "delta_fp": 2,
+            "f1_before": 0.8286445012787724,
+            "f1_after": 0.8272340425531914
+          },
+          "GNU": {
+            "before": {
+              "tp": 486,
+              "fp": 65,
+              "fn": 136,
+              "tn": 1622
+            },
+            "after": {
+              "tp": 507,
+              "fp": 107,
+              "fn": 115,
+              "tn": 1580
+            },
+            "delta_tp": 21,
+            "delta_fp": 42,
+            "f1_before": 0.8286445012787724,
+            "f1_after": 0.8203883495145631
+          },
+          "Chromium": {
+            "before": {
+              "tp": 486,
+              "fp": 65,
+              "fn": 136,
+              "tn": 1622
+            },
+            "after": {
+              "tp": 478,
+              "fp": 60,
+              "fn": 144,
+              "tn": 1627
+            },
+            "delta_tp": -8,
+            "delta_fp": -5,
+            "f1_before": 0.8286445012787724,
+            "f1_after": 0.8241379310344827
+          },
+          "WebKit": {
+            "before": {
+              "tp": 486,
+              "fp": 65,
+              "fn": 136,
+              "tn": 1622
+            },
+            "after": {
+              "tp": 507,
+              "fp": 93,
+              "fn": 115,
+              "tn": 1594
+            },
+            "delta_tp": 21,
+            "delta_fp": 28,
+            "f1_before": 0.8286445012787724,
+            "f1_after": 0.8297872340425532
+          },
+          "Microsoft": {
+            "before": {
+              "tp": 486,
+              "fp": 65,
+              "fn": 136,
+              "tn": 1622
+            },
+            "after": {
+              "tp": 524,
+              "fp": 124,
+              "fn": 98,
+              "tn": 1563
+            },
+            "delta_tp": 38,
+            "delta_fp": 59,
+            "f1_before": 0.8286445012787724,
+            "f1_after": 0.8251968503937008
+          }
+        },
+        "scanner_seconds": 3.1931377050932497,
+        "touched": 473,
+        "unavailable": 0,
+        "cases_changed": 75
+      },
+      "joint/1/0.4": {
+        "W": {
+          "before": {
+            "tp": 582,
+            "fp": 69,
+            "fn": 140,
+            "tn": 1632
+          },
+          "after": {
+            "tp": 586,
+            "fp": 119,
+            "fn": 136,
+            "tn": 1582
+          },
+          "delta_tp": 4,
+          "delta_fp": 50,
+          "f1_before": 0.8477785870356883,
+          "f1_after": 0.8213034337771549
+        },
+        "common_style_rows": 2309,
+        "common_W": {
+          "before": {
+            "tp": 486,
+            "fp": 65,
+            "fn": 136,
+            "tn": 1622
+          },
+          "after": {
+            "tp": 489,
+            "fp": 114,
+            "fn": 133,
+            "tn": 1573
+          },
+          "delta_tp": 3,
+          "delta_fp": 49,
+          "f1_before": 0.8286445012787724,
+          "f1_after": 0.7983673469387755
+        },
+        "style_controls": {
+          "LLVM": {
+            "before": {
+              "tp": 486,
+              "fp": 65,
+              "fn": 136,
+              "tn": 1622
+            },
+            "after": {
+              "tp": 486,
+              "fp": 67,
+              "fn": 136,
+              "tn": 1620
+            },
+            "delta_tp": 0,
+            "delta_fp": 2,
+            "f1_before": 0.8286445012787724,
+            "f1_after": 0.8272340425531914
+          },
+          "GNU": {
+            "before": {
+              "tp": 486,
+              "fp": 65,
+              "fn": 136,
+              "tn": 1622
+            },
+            "after": {
+              "tp": 507,
+              "fp": 107,
+              "fn": 115,
+              "tn": 1580
+            },
+            "delta_tp": 21,
+            "delta_fp": 42,
+            "f1_before": 0.8286445012787724,
+            "f1_after": 0.8203883495145631
+          },
+          "Chromium": {
+            "before": {
+              "tp": 486,
+              "fp": 65,
+              "fn": 136,
+              "tn": 1622
+            },
+            "after": {
+              "tp": 478,
+              "fp": 60,
+              "fn": 144,
+              "tn": 1627
+            },
+            "delta_tp": -8,
+            "delta_fp": -5,
+            "f1_before": 0.8286445012787724,
+            "f1_after": 0.8241379310344827
+          },
+          "WebKit": {
+            "before": {
+              "tp": 486,
+              "fp": 65,
+              "fn": 136,
+              "tn": 1622
+            },
+            "after": {
+              "tp": 507,
+              "fp": 93,
+              "fn": 115,
+              "tn": 1594
+            },
+            "delta_tp": 21,
+            "delta_fp": 28,
+            "f1_before": 0.8286445012787724,
+            "f1_after": 0.8297872340425532
+          },
+          "Microsoft": {
+            "before": {
+              "tp": 486,
+              "fp": 65,
+              "fn": 136,
+              "tn": 1622
+            },
+            "after": {
+              "tp": 524,
+              "fp": 124,
+              "fn": 98,
+              "tn": 1563
+            },
+            "delta_tp": 38,
+            "delta_fp": 59,
+            "f1_before": 0.8286445012787724,
+            "f1_after": 0.8251968503937008
+          }
+        },
+        "scanner_seconds": 3.1931377050932497,
+        "touched": 1170,
+        "unavailable": 0,
+        "cases_changed": 151
+      },
+      "joint/3/0.035": {
+        "W": {
+          "before": {
+            "tp": 582,
+            "fp": 69,
+            "fn": 140,
+            "tn": 1632
+          },
+          "after": {
+            "tp": 583,
+            "fp": 73,
+            "fn": 139,
+            "tn": 1628
+          },
+          "delta_tp": 1,
+          "delta_fp": 4,
+          "f1_before": 0.8477785870356883,
+          "f1_after": 0.8461538461538461
+        },
+        "common_style_rows": 2309,
+        "common_W": {
+          "before": {
+            "tp": 486,
+            "fp": 65,
+            "fn": 136,
+            "tn": 1622
+          },
+          "after": {
+            "tp": 487,
+            "fp": 68,
+            "fn": 135,
+            "tn": 1619
+          },
+          "delta_tp": 1,
+          "delta_fp": 3,
+          "f1_before": 0.8286445012787724,
+          "f1_after": 0.8275276125743416
+        },
+        "style_controls": {
+          "LLVM": {
+            "before": {
+              "tp": 486,
+              "fp": 65,
+              "fn": 136,
+              "tn": 1622
+            },
+            "after": {
+              "tp": 486,
+              "fp": 67,
+              "fn": 136,
+              "tn": 1620
+            },
+            "delta_tp": 0,
+            "delta_fp": 2,
+            "f1_before": 0.8286445012787724,
+            "f1_after": 0.8272340425531914
+          },
+          "GNU": {
+            "before": {
+              "tp": 486,
+              "fp": 65,
+              "fn": 136,
+              "tn": 1622
+            },
+            "after": {
+              "tp": 507,
+              "fp": 107,
+              "fn": 115,
+              "tn": 1580
+            },
+            "delta_tp": 21,
+            "delta_fp": 42,
+            "f1_before": 0.8286445012787724,
+            "f1_after": 0.8203883495145631
+          },
+          "Chromium": {
+            "before": {
+              "tp": 486,
+              "fp": 65,
+              "fn": 136,
+              "tn": 1622
+            },
+            "after": {
+              "tp": 478,
+              "fp": 60,
+              "fn": 144,
+              "tn": 1627
+            },
+            "delta_tp": -8,
+            "delta_fp": -5,
+            "f1_before": 0.8286445012787724,
+            "f1_after": 0.8241379310344827
+          },
+          "WebKit": {
+            "before": {
+              "tp": 486,
+              "fp": 65,
+              "fn": 136,
+              "tn": 1622
+            },
+            "after": {
+              "tp": 507,
+              "fp": 93,
+              "fn": 115,
+              "tn": 1594
+            },
+            "delta_tp": 21,
+            "delta_fp": 28,
+            "f1_before": 0.8286445012787724,
+            "f1_after": 0.8297872340425532
+          },
+          "Microsoft": {
+            "before": {
+              "tp": 486,
+              "fp": 65,
+              "fn": 136,
+              "tn": 1622
+            },
+            "after": {
+              "tp": 524,
+              "fp": 124,
+              "fn": 98,
+              "tn": 1563
+            },
+            "delta_tp": 38,
+            "delta_fp": 59,
+            "f1_before": 0.8286445012787724,
+            "f1_after": 0.8251968503937008
+          }
+        },
+        "scanner_seconds": 1.8595378450118005,
+        "touched": 88,
+        "unavailable": 0,
+        "cases_changed": 22
+      },
+      "joint/3/0.15": {
+        "W": {
+          "before": {
+            "tp": 582,
+            "fp": 69,
+            "fn": 140,
+            "tn": 1632
+          },
+          "after": {
+            "tp": 578,
+            "fp": 86,
+            "fn": 144,
+            "tn": 1615
+          },
+          "delta_tp": -4,
+          "delta_fp": 17,
+          "f1_before": 0.8477785870356883,
+          "f1_after": 0.834054834054834
+        },
+        "common_style_rows": 2309,
+        "common_W": {
+          "before": {
+            "tp": 486,
+            "fp": 65,
+            "fn": 136,
+            "tn": 1622
+          },
+          "after": {
+            "tp": 482,
+            "fp": 80,
+            "fn": 140,
+            "tn": 1607
+          },
+          "delta_tp": -4,
+          "delta_fp": 15,
+          "f1_before": 0.8286445012787724,
+          "f1_after": 0.8141891891891891
+        },
+        "style_controls": {
+          "LLVM": {
+            "before": {
+              "tp": 486,
+              "fp": 65,
+              "fn": 136,
+              "tn": 1622
+            },
+            "after": {
+              "tp": 486,
+              "fp": 67,
+              "fn": 136,
+              "tn": 1620
+            },
+            "delta_tp": 0,
+            "delta_fp": 2,
+            "f1_before": 0.8286445012787724,
+            "f1_after": 0.8272340425531914
+          },
+          "GNU": {
+            "before": {
+              "tp": 486,
+              "fp": 65,
+              "fn": 136,
+              "tn": 1622
+            },
+            "after": {
+              "tp": 507,
+              "fp": 107,
+              "fn": 115,
+              "tn": 1580
+            },
+            "delta_tp": 21,
+            "delta_fp": 42,
+            "f1_before": 0.8286445012787724,
+            "f1_after": 0.8203883495145631
+          },
+          "Chromium": {
+            "before": {
+              "tp": 486,
+              "fp": 65,
+              "fn": 136,
+              "tn": 1622
+            },
+            "after": {
+              "tp": 478,
+              "fp": 60,
+              "fn": 144,
+              "tn": 1627
+            },
+            "delta_tp": -8,
+            "delta_fp": -5,
+            "f1_before": 0.8286445012787724,
+            "f1_after": 0.8241379310344827
+          },
+          "WebKit": {
+            "before": {
+              "tp": 486,
+              "fp": 65,
+              "fn": 136,
+              "tn": 1622
+            },
+            "after": {
+              "tp": 507,
+              "fp": 93,
+              "fn": 115,
+              "tn": 1594
+            },
+            "delta_tp": 21,
+            "delta_fp": 28,
+            "f1_before": 0.8286445012787724,
+            "f1_after": 0.8297872340425532
+          },
+          "Microsoft": {
+            "before": {
+              "tp": 486,
+              "fp": 65,
+              "fn": 136,
+              "tn": 1622
+            },
+            "after": {
+              "tp": 524,
+              "fp": 124,
+              "fn": 98,
+              "tn": 1563
+            },
+            "delta_tp": 38,
+            "delta_fp": 59,
+            "f1_before": 0.8286445012787724,
+            "f1_after": 0.8251968503937008
+          }
+        },
+        "scanner_seconds": 1.8595378450118005,
+        "touched": 473,
+        "unavailable": 0,
+        "cases_changed": 100
+      },
+      "joint/3/0.4": {
+        "W": {
+          "before": {
+            "tp": 582,
+            "fp": 69,
+            "fn": 140,
+            "tn": 1632
+          },
+          "after": {
+            "tp": 565,
+            "fp": 118,
+            "fn": 157,
+            "tn": 1583
+          },
+          "delta_tp": -17,
+          "delta_fp": 49,
+          "f1_before": 0.8477785870356883,
+          "f1_after": 0.8042704626334519
+        },
+        "common_style_rows": 2309,
+        "common_W": {
+          "before": {
+            "tp": 486,
+            "fp": 65,
+            "fn": 136,
+            "tn": 1622
+          },
+          "after": {
+            "tp": 468,
+            "fp": 111,
+            "fn": 154,
+            "tn": 1576
+          },
+          "delta_tp": -18,
+          "delta_fp": 46,
+          "f1_before": 0.8286445012787724,
+          "f1_after": 0.7793505412156536
+        },
+        "style_controls": {
+          "LLVM": {
+            "before": {
+              "tp": 486,
+              "fp": 65,
+              "fn": 136,
+              "tn": 1622
+            },
+            "after": {
+              "tp": 486,
+              "fp": 67,
+              "fn": 136,
+              "tn": 1620
+            },
+            "delta_tp": 0,
+            "delta_fp": 2,
+            "f1_before": 0.8286445012787724,
+            "f1_after": 0.8272340425531914
+          },
+          "GNU": {
+            "before": {
+              "tp": 486,
+              "fp": 65,
+              "fn": 136,
+              "tn": 1622
+            },
+            "after": {
+              "tp": 507,
+              "fp": 107,
+              "fn": 115,
+              "tn": 1580
+            },
+            "delta_tp": 21,
+            "delta_fp": 42,
+            "f1_before": 0.8286445012787724,
+            "f1_after": 0.8203883495145631
+          },
+          "Chromium": {
+            "before": {
+              "tp": 486,
+              "fp": 65,
+              "fn": 136,
+              "tn": 1622
+            },
+            "after": {
+              "tp": 478,
+              "fp": 60,
+              "fn": 144,
+              "tn": 1627
+            },
+            "delta_tp": -8,
+            "delta_fp": -5,
+            "f1_before": 0.8286445012787724,
+            "f1_after": 0.8241379310344827
+          },
+          "WebKit": {
+            "before": {
+              "tp": 486,
+              "fp": 65,
+              "fn": 136,
+              "tn": 1622
+            },
+            "after": {
+              "tp": 507,
+              "fp": 93,
+              "fn": 115,
+              "tn": 1594
+            },
+            "delta_tp": 21,
+            "delta_fp": 28,
+            "f1_before": 0.8286445012787724,
+            "f1_after": 0.8297872340425532
+          },
+          "Microsoft": {
+            "before": {
+              "tp": 486,
+              "fp": 65,
+              "fn": 136,
+              "tn": 1622
+            },
+            "after": {
+              "tp": 524,
+              "fp": 124,
+              "fn": 98,
+              "tn": 1563
+            },
+            "delta_tp": 38,
+            "delta_fp": 59,
+            "f1_before": 0.8286445012787724,
+            "f1_after": 0.8251968503937008
+          }
+        },
+        "scanner_seconds": 1.8595378450118005,
+        "touched": 1170,
+        "unavailable": 0,
+        "cases_changed": 199
+      }
+    }
+  }
+}

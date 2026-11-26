@@ -1,0 +1,541 @@
+{
+  "options": 432,
+  "qualified": 0,
+  "selected": {
+    "original": null,
+    "components": null
+  },
+  "examples": [
+    {
+      "key": "positive/1.25/original/all_matched/0.35",
+      "arm": "original",
+      "view": "all_matched",
+      "panel": "positive",
+      "width": 1.25,
+      "mix": 0.35,
+      "rule": "fixed",
+      "cut": 0.0,
+      "a_tp": 5,
+      "b_tp": 3,
+      "a_over": 0,
+      "b_over": 0,
+      "a_removed_fp": 1,
+      "b_removed_fp": 3,
+      "cal_over": 0.0,
+      "cal_f1": 0.0,
+      "review_f1": 0.0,
+      "cal_tp": 0,
+      "cal_fp": 0,
+      "held_tp": 0,
+      "held_fp": 0,
+      "selected": false
+    },
+    {
+      "key": "positive/1.25/original/all_matched/0.35",
+      "arm": "original",
+      "view": "all_matched",
+      "panel": "positive",
+      "width": 1.25,
+      "mix": 0.35,
+      "rule": "tp",
+      "cut": 5.551115123125782e-17,
+      "a_tp": 5,
+      "b_tp": 3,
+      "a_over": 0,
+      "b_over": 0,
+      "a_removed_fp": 1,
+      "b_removed_fp": 3,
+      "cal_over": 0.0,
+      "cal_f1": 0.0,
+      "review_f1": 0.0,
+      "cal_tp": 0,
+      "cal_fp": 0,
+      "held_tp": 0,
+      "held_fp": 0,
+      "selected": false
+    },
+    {
+      "key": "positive/1.25/original/all_matched/0.7",
+      "arm": "original",
+      "view": "all_matched",
+      "panel": "positive",
+      "width": 1.25,
+      "mix": 0.7,
+      "rule": "fixed",
+      "cut": 0.0,
+      "a_tp": 5,
+      "b_tp": 3,
+      "a_over": 0,
+      "b_over": 0,
+      "a_removed_fp": 1,
+      "b_removed_fp": 3,
+      "cal_over": 0.0,
+      "cal_f1": 0.0,
+      "review_f1": 0.0,
+      "cal_tp": 0,
+      "cal_fp": 0,
+      "held_tp": 0,
+      "held_fp": 0,
+      "selected": false
+    },
+    {
+      "key": "positive/1.25/original/all_matched/0.7",
+      "arm": "original",
+      "view": "all_matched",
+      "panel": "positive",
+      "width": 1.25,
+      "mix": 0.7,
+      "rule": "tp",
+      "cut": 5.551115123125782e-17,
+      "a_tp": 5,
+      "b_tp": 3,
+      "a_over": 0,
+      "b_over": 0,
+      "a_removed_fp": 1,
+      "b_removed_fp": 3,
+      "cal_over": 0.0,
+      "cal_f1": 0.0,
+      "review_f1": 0.0,
+      "cal_tp": 0,
+      "cal_fp": 0,
+      "held_tp": 0,
+      "held_fp": 0,
+      "selected": false
+    },
+    {
+      "key": "positive/1.25/original/all_matched/1",
+      "arm": "original",
+      "view": "all_matched",
+      "panel": "positive",
+      "width": 1.25,
+      "mix": 1.0,
+      "rule": "fixed",
+      "cut": 0.0,
+      "a_tp": 5,
+      "b_tp": 3,
+      "a_over": 0,
+      "b_over": 0,
+      "a_removed_fp": 1,
+      "b_removed_fp": 3,
+      "cal_over": 0.0,
+      "cal_f1": 0.0,
+      "review_f1": 0.0,
+      "cal_tp": 0,
+      "cal_fp": 0,
+      "held_tp": 0,
+      "held_fp": 0,
+      "selected": false
+    },
+    {
+      "key": "positive/1.25/original/all_matched/1",
+      "arm": "original",
+      "view": "all_matched",
+      "panel": "positive",
+      "width": 1.25,
+      "mix": 1.0,
+      "rule": "tp",
+      "cut": 5.551115123125782e-17,
+      "a_tp": 5,
+      "b_tp": 3,
+      "a_over": 0,
+      "b_over": 0,
+      "a_removed_fp": 1,
+      "b_removed_fp": 3,
+      "cal_over": 0.0,
+      "cal_f1": 0.0,
+      "review_f1": 0.0,
+      "cal_tp": 0,
+      "cal_fp": 0,
+      "held_tp": 0,
+      "held_fp": 0,
+      "selected": false
+    },
+    {
+      "key": "positive/1.25/original/measured/0.35",
+      "arm": "original",
+      "view": "measured",
+      "panel": "positive",
+      "width": 1.25,
+      "mix": 0.35,
+      "rule": "fixed",
+      "cut": 0.0,
+      "a_tp": 5,
+      "b_tp": 3,
+      "a_over": 0,
+      "b_over": 0,
+      "a_removed_fp": 1,
+      "b_removed_fp": 3,
+      "cal_over": 0.0,
+      "cal_f1": 0.0,
+      "review_f1": 0.0,
+      "cal_tp": 0,
+      "cal_fp": 0,
+      "held_tp": 0,
+      "held_fp": 0,
+      "selected": false
+    },
+    {
+      "key": "positive/1.25/original/measured/0.35",
+      "arm": "original",
+      "view": "measured",
+      "panel": "positive",
+      "width": 1.25,
+      "mix": 0.35,
+      "rule": "tp",
+      "cut": 5.551115123125782e-17,
+      "a_tp": 5,
+      "b_tp": 3,
+      "a_over": 0,
+      "b_over": 0,
+      "a_removed_fp": 1,
+      "b_removed_fp": 3,
+      "cal_over": 0.0,
+      "cal_f1": 0.0,
+      "review_f1": 0.0,
+      "cal_tp": 0,
+      "cal_fp": 0,
+      "held_tp": 0,
+      "held_fp": 0,
+      "selected": false
+    }
+  ],
+  "scores": {
+    "test_a": {
+      "original/all_matched": {
+        "fit": {
+          "loss": [
+            22.917240142822266,
+            21.10593605041504,
+            20.40749740600586
+          ],
+          "balance": 12.0,
+          "training_rows": 158152,
+          "examples": 160035,
+          "steps": 471
+        },
+        "held": {
+          "0": {
+            "ap_all": 0.01757066395974088,
+            "ap_measured": 0.04535273538502826,
+            "scope": 1333,
+            "positives": 39
+          },
+          "1": {
+            "ap_all": 0.11698178454850801,
+            "ap_measured": 0.13251401339406454,
+            "scope": 25950,
+            "positives": 3898
+          }
+        }
+      },
+      "original/measured": {
+        "fit": {
+          "loss": [
+            76.8629150390625,
+            73.81437683105469,
+            71.75051879882812
+          ],
+          "balance": 5.025422096252441,
+          "training_rows": 14834,
+          "examples": 160035,
+          "steps": 471
+        },
+        "held": {
+          "0": {
+            "ap_all": 0.014239658372939015,
+            "ap_measured": 0.05965313885789557,
+            "scope": 1333,
+            "positives": 39
+          },
+          "1": {
+            "ap_all": 0.15149767458122212,
+            "ap_measured": 0.17368943160570455,
+            "scope": 25950,
+            "positives": 3898
+          }
+        }
+      },
+      "components/all_matched": {
+        "fit": {
+          "loss": [
+            22.219730377197266,
+            20.221086502075195,
+            19.498661041259766
+          ],
+          "balance": 12.0,
+          "training_rows": 158152,
+          "examples": 160035,
+          "steps": 471
+        },
+        "held": {
+          "0": {
+            "ap_all": 0.016393211620748634,
+            "ap_measured": 0.04129410153373503,
+            "scope": 1333,
+            "positives": 39
+          },
+          "1": {
+            "ap_all": 0.11108073149706767,
+            "ap_measured": 0.12491984400194626,
+            "scope": 25950,
+            "positives": 3898
+          }
+        }
+      },
+      "components/measured": {
+        "fit": {
+          "loss": [
+            75.73851776123047,
+            72.22120666503906,
+            69.96087646484375
+          ],
+          "balance": 5.025422096252441,
+          "training_rows": 14834,
+          "examples": 160035,
+          "steps": 471
+        },
+        "held": {
+          "0": {
+            "ap_all": 0.014454820395919854,
+            "ap_measured": 0.055335527850466235,
+            "scope": 1333,
+            "positives": 39
+          },
+          "1": {
+            "ap_all": 0.14388179701359888,
+            "ap_measured": 0.1641004014659847,
+            "scope": 25950,
+            "positives": 3898
+          }
+        }
+      }
+    },
+    "test_b": {
+      "original/all_matched": {
+        "fit": {
+          "loss": [
+            40.392581939697266,
+            36.57905197143555,
+            35.833641052246094
+          ],
+          "balance": 7.001002788543701,
+          "training_rows": 178150,
+          "examples": 180019,
+          "steps": 528
+        },
+        "held": {
+          "0": {
+            "ap_all": 0.4293705149989245,
+            "ap_measured": 0.45588659990825303,
+            "scope": 3126,
+            "positives": 399
+          },
+          "1": {
+            "ap_all": 0.08146926368875575,
+            "ap_measured": 0.11679984602249197,
+            "scope": 3644,
+            "positives": 310
+          }
+        }
+      },
+      "original/measured": {
+        "fit": {
+          "loss": [
+            89.75355529785156,
+            85.86092376708984,
+            85.39945983886719
+          ],
+          "balance": 2.9153316020965576,
+          "training_rows": 33836,
+          "examples": 180019,
+          "steps": 528
+        },
+        "held": {
+          "0": {
+            "ap_all": 0.3524778915801137,
+            "ap_measured": 0.4668833489665134,
+            "scope": 3126,
+            "positives": 399
+          },
+          "1": {
+            "ap_all": 0.08188797201456188,
+            "ap_measured": 0.12682156864735117,
+            "scope": 3644,
+            "positives": 310
+          }
+        }
+      },
+      "components/all_matched": {
+        "fit": {
+          "loss": [
+            37.835514068603516,
+            34.06455612182617,
+            33.41219711303711
+          ],
+          "balance": 7.001002788543701,
+          "training_rows": 178150,
+          "examples": 180019,
+          "steps": 528
+        },
+        "held": {
+          "0": {
+            "ap_all": 0.44875372261375296,
+            "ap_measured": 0.4696939739434898,
+            "scope": 3126,
+            "positives": 399
+          },
+          "1": {
+            "ap_all": 0.08493239553745395,
+            "ap_measured": 0.1223453417555426,
+            "scope": 3644,
+            "positives": 310
+          }
+        }
+      },
+      "components/measured": {
+        "fit": {
+          "loss": [
+            87.28033447265625,
+            83.1700439453125,
+            82.64739990234375
+          ],
+          "balance": 2.9153316020965576,
+          "training_rows": 33836,
+          "examples": 180019,
+          "steps": 528
+        },
+        "held": {
+          "0": {
+            "ap_all": 0.37805354004882524,
+            "ap_measured": 0.4770119059960508,
+            "scope": 3126,
+            "positives": 399
+          },
+          "1": {
+            "ap_all": 0.08529646930248204,
+            "ap_measured": 0.12967457518682843,
+            "scope": 3644,
+            "positives": 310
+          }
+        }
+      }
+    },
+    "official": {
+      "original/all_matched": {
+        "fit": {
+          "loss": [
+            44.30064392089844,
+            37.08960723876953,
+            35.386722564697266
+          ],
+          "balance": 6.76699686050415,
+          "training_rows": 190772,
+          "examples": 192984,
+          "steps": 567
+        },
+        "held": {
+          "0": {
+            "ap_all": 0.4512739524326332,
+            "ap_measured": 0.4757542996065441,
+            "scope": 875,
+            "positives": 100
+          },
+          "1": {
+            "ap_all": 0.43537117714758655,
+            "ap_measured": 0.469025553488089,
+            "scope": 853,
+            "positives": 101
+          }
+        }
+      },
+      "original/measured": {
+        "fit": {
+          "loss": [
+            91.48480987548828,
+            83.40775299072266,
+            80.8764877319336
+          ],
+          "balance": 2.924401044845581,
+          "training_rows": 38944,
+          "examples": 192984,
+          "steps": 567
+        },
+        "held": {
+          "0": {
+            "ap_all": 0.40629683268466016,
+            "ap_measured": 0.4775494684168511,
+            "scope": 875,
+            "positives": 100
+          },
+          "1": {
+            "ap_all": 0.418795375615768,
+            "ap_measured": 0.5147205045446335,
+            "scope": 853,
+            "positives": 101
+          }
+        }
+      },
+      "components/all_matched": {
+        "fit": {
+          "loss": [
+            41.43151092529297,
+            34.177825927734375,
+            32.47771072387695
+          ],
+          "balance": 6.76699686050415,
+          "training_rows": 190772,
+          "examples": 192984,
+          "steps": 567
+        },
+        "held": {
+          "0": {
+            "ap_all": 0.4656193383815752,
+            "ap_measured": 0.4860559402540034,
+            "scope": 875,
+            "positives": 100
+          },
+          "1": {
+            "ap_all": 0.46058809568691084,
+            "ap_measured": 0.4906227527433166,
+            "scope": 853,
+            "positives": 101
+          }
+        }
+      },
+      "components/measured": {
+        "fit": {
+          "loss": [
+            88.9169921875,
+            80.0687484741211,
+            77.32015228271484
+          ],
+          "balance": 2.924401044845581,
+          "training_rows": 38944,
+          "examples": 192984,
+          "steps": 567
+        },
+        "held": {
+          "0": {
+            "ap_all": 0.43546263416256437,
+            "ap_measured": 0.4897333436640689,
+            "scope": 875,
+            "positives": 100
+          },
+          "1": {
+            "ap_all": 0.47215426265897653,
+            "ap_measured": 0.5485217815094695,
+            "scope": 853,
+            "positives": 101
+          }
+        }
+      }
+    }
+  },
+  "proof": {
+    "test_a": "889008f04ec5c5556b9469337e5a92d517c5fc7043091bf3cbb5b03fb947b705",
+    "test_b": "d6234dab0fce16ab306495abbc070389aac7c4b4c5852ffbe25d85365a987c44",
+    "official": "0a62c61b09b6651b5c1393b228ae3239b074dea7c28ed2866b8075df26fce5c0"
+  },
+  "csv_sha256": "fd529678f4c4bbc86ccdbfcc52141b5528904bf71be1d3e4c2289c03d415b9f2",
+  "code_sha256": "c22beb21f5b8f1c99d1b35e42fab2a625c0f687d263cb5d0a449a527c18acedc"
+}

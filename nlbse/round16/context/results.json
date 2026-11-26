@@ -1,0 +1,313 @@
+{
+  "rows": 7899,
+  "affected": 444,
+  "fp": 448,
+  "selected": "center",
+  "modes": {
+    "standard": {
+      "matched": {
+        "before": {
+          "tp": 2374,
+          "fp": 448,
+          "fn": 480,
+          "tn": 4597
+        },
+        "after": {
+          "tp": 2374,
+          "fp": 448,
+          "fn": 480,
+          "tn": 4597
+        },
+        "delta_tp": 0,
+        "delta_fp": 0,
+        "f1_before": 0.8365045806906272,
+        "f1_after": 0.8365045806906272
+      },
+      "frozen": {
+        "before": {
+          "tp": 2372,
+          "fp": 448,
+          "fn": 482,
+          "tn": 4597
+        },
+        "after": {
+          "tp": 2372,
+          "fp": 448,
+          "fn": 482,
+          "tn": 4597
+        },
+        "delta_tp": 0,
+        "delta_fp": 0,
+        "f1_before": 0.8360944659851957,
+        "f1_after": 0.8360944659851957
+      },
+      "cost": {
+        "wall_seconds": 0.05353387212380767,
+        "forward_seconds": 0.03439307608641684,
+        "analytic_gflops": 464.17195896000004
+      },
+      "long_only": {
+        "before": {
+          "tp": 291,
+          "fp": 30,
+          "fn": 35,
+          "tn": 88
+        },
+        "after": {
+          "tp": 291,
+          "fp": 30,
+          "fn": 35,
+          "tn": 88
+        },
+        "delta_tp": 0,
+        "delta_fp": 0,
+        "f1_before": 0.8995363214837713,
+        "f1_after": 0.8995363214837713
+      }
+    },
+    "center": {
+      "matched": {
+        "before": {
+          "tp": 2374,
+          "fp": 448,
+          "fn": 480,
+          "tn": 4597
+        },
+        "after": {
+          "tp": 2381,
+          "fp": 448,
+          "fn": 473,
+          "tn": 4597
+        },
+        "delta_tp": 7,
+        "delta_fp": 0,
+        "f1_before": 0.8365045806906272,
+        "f1_after": 0.8379377089565371
+      },
+      "frozen": {
+        "before": {
+          "tp": 2372,
+          "fp": 448,
+          "fn": 482,
+          "tn": 4597
+        },
+        "after": {
+          "tp": 2379,
+          "fp": 448,
+          "fn": 475,
+          "tn": 4597
+        },
+        "delta_tp": 7,
+        "delta_fp": 0,
+        "f1_before": 0.8360944659851957,
+        "f1_after": 0.8375286041189931
+      },
+      "cost": {
+        "wall_seconds": 0.05355408485047519,
+        "forward_seconds": 0.03441337309777737,
+        "analytic_gflops": 464.17195896000004
+      },
+      "long_only": {
+        "before": {
+          "tp": 291,
+          "fp": 30,
+          "fn": 35,
+          "tn": 88
+        },
+        "after": {
+          "tp": 298,
+          "fp": 30,
+          "fn": 28,
+          "tn": 88
+        },
+        "delta_tp": 7,
+        "delta_fp": 0,
+        "f1_before": 0.8995363214837713,
+        "f1_after": 0.9113149847094801
+      }
+    },
+    "distributed": {
+      "matched": {
+        "before": {
+          "tp": 2374,
+          "fp": 448,
+          "fn": 480,
+          "tn": 4597
+        },
+        "after": {
+          "tp": 2382,
+          "fp": 448,
+          "fn": 472,
+          "tn": 4597
+        },
+        "delta_tp": 8,
+        "delta_fp": 0,
+        "f1_before": 0.8365045806906272,
+        "f1_after": 0.8381421534130894
+      },
+      "frozen": {
+        "before": {
+          "tp": 2372,
+          "fp": 448,
+          "fn": 482,
+          "tn": 4597
+        },
+        "after": {
+          "tp": 2382,
+          "fp": 448,
+          "fn": 472,
+          "tn": 4597
+        },
+        "delta_tp": 10,
+        "delta_fp": 0,
+        "f1_before": 0.8360944659851957,
+        "f1_after": 0.8381421534130894
+      },
+      "cost": {
+        "wall_seconds": 0.053766431054100394,
+        "forward_seconds": 0.03406866383738816,
+        "analytic_gflops": 458.462593712
+      },
+      "long_only": {
+        "before": {
+          "tp": 291,
+          "fp": 30,
+          "fn": 35,
+          "tn": 88
+        },
+        "after": {
+          "tp": 302,
+          "fp": 31,
+          "fn": 24,
+          "tn": 87
+        },
+        "delta_tp": 11,
+        "delta_fp": 1,
+        "f1_before": 0.8995363214837713,
+        "f1_after": 0.9165402124430956
+      }
+    },
+    "rare_tiles": {
+      "matched": {
+        "before": {
+          "tp": 2374,
+          "fp": 448,
+          "fn": 480,
+          "tn": 4597
+        },
+        "after": {
+          "tp": 2383,
+          "fp": 448,
+          "fn": 471,
+          "tn": 4597
+        },
+        "delta_tp": 9,
+        "delta_fp": 0,
+        "f1_before": 0.8365045806906272,
+        "f1_after": 0.8383465259454705
+      },
+      "frozen": {
+        "before": {
+          "tp": 2372,
+          "fp": 448,
+          "fn": 482,
+          "tn": 4597
+        },
+        "after": {
+          "tp": 2379,
+          "fp": 441,
+          "fn": 475,
+          "tn": 4604
+        },
+        "delta_tp": 7,
+        "delta_fp": -7,
+        "f1_before": 0.8360944659851957,
+        "f1_after": 0.8385618611209024
+      },
+      "cost": {
+        "wall_seconds": 0.05434093903750181,
+        "forward_seconds": 0.03537844493985176,
+        "analytic_gflops": 461.190333104
+      },
+      "long_only": {
+        "before": {
+          "tp": 291,
+          "fp": 30,
+          "fn": 35,
+          "tn": 88
+        },
+        "after": {
+          "tp": 300,
+          "fp": 29,
+          "fn": 26,
+          "tn": 89
+        },
+        "delta_tp": 9,
+        "delta_fp": -1,
+        "f1_before": 0.8995363214837713,
+        "f1_after": 0.916030534351145
+      }
+    },
+    "full": {
+      "matched": {
+        "before": {
+          "tp": 2374,
+          "fp": 448,
+          "fn": 480,
+          "tn": 4597
+        },
+        "after": {
+          "tp": 2383,
+          "fp": 448,
+          "fn": 471,
+          "tn": 4597
+        },
+        "delta_tp": 9,
+        "delta_fp": 0,
+        "f1_before": 0.8365045806906272,
+        "f1_after": 0.8383465259454705
+      },
+      "frozen": {
+        "before": {
+          "tp": 2372,
+          "fp": 448,
+          "fn": 482,
+          "tn": 4597
+        },
+        "after": {
+          "tp": 2383,
+          "fp": 447,
+          "fn": 471,
+          "tn": 4598
+        },
+        "delta_tp": 11,
+        "delta_fp": -1,
+        "f1_before": 0.8360944659851957,
+        "f1_after": 0.838494018296974
+      },
+      "cost": {
+        "wall_seconds": 0.0639608409255743,
+        "forward_seconds": 0.0421741078607738,
+        "analytic_gflops": 562.480009904
+      },
+      "long_only": {
+        "before": {
+          "tp": 291,
+          "fp": 30,
+          "fn": 35,
+          "tn": 88
+        },
+        "after": {
+          "tp": 303,
+          "fp": 31,
+          "fn": 23,
+          "tn": 87
+        },
+        "delta_tp": 12,
+        "delta_fp": 1,
+        "f1_before": 0.8995363214837713,
+        "f1_after": 0.9181818181818182
+      }
+    }
+  }
+}

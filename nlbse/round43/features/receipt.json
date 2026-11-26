@@ -1,0 +1,40 @@
+{
+  "rows": 48636,
+  "scanner_receipt_sha256": "7c24f4e06aebece9d6b98b2843f075a01d55587087c0ba5ead1f4a3be954d993",
+  "rows_sha256": "772323673d8398fc8ecc0c0728dd8ec782e903a2ad02ca028f1922186aefc630",
+  "features": {
+    "text": {
+      "sha256": "5c56f2188574e97d7a130c190d40b3c6779957c9d92f00e1cbc52705f8890c6a",
+      "nonzero": 2294754,
+      "columns": 131072
+    },
+    "masked": {
+      "sha256": "538637ca7de654e2af4198e8b9a7e785e6292f11d3e7808f91fec373dee6d9f2",
+      "nonzero": 1643525,
+      "columns": 131072
+    },
+    "ast": {
+      "sha256": "5d346443d667e1c55e9869566ddc3ca219be8e346fc28ced14a70d4a644d157c",
+      "nonzero": 5259591,
+      "columns": 131072
+    },
+    "center": {
+      "sha256": "60e8a3149ecb91f056de0f79c7c3dbe4ced43cc41e72a856c78f571bfaa66e6b",
+      "nonzero": 4082857,
+      "columns": 131072
+    }
+  },
+  "parser": {
+    "tree-sitter": "0.25.2",
+    "tree-sitter-c": "0.24.1",
+    "tree-sitter-cpp": "0.23.4"
+  },
+  "parser_wheels_manifest_sha256": "a0c6d7849555770bb17b8e62ef70505e53f564f2d4e11c9bca01bbd2a656a399",
+  "details": {
+    "c": 438,
+    "parse_errors": 7251,
+    "seconds": 10.285368439974263
+  },
+  "context_sha256": "495e3bba290926de5b837bd84e514952e837da01c29a8ecab041acf7fc3ced21",
+  "previous_context_sha256": "a269335df36af987a3c3f2ddbddd4f4f508e046476a2f2b25ae4cec022b7bee3"
+}

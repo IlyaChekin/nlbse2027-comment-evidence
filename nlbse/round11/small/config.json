@@ -1,0 +1,17 @@
+{
+  "width": 128,
+  "cap": 512,
+  "batch": 128,
+  "dilations": [
+    1,
+    2,
+    4,
+    8
+  ],
+  "fit": 193100,
+  "epochs": 5,
+  "seed": 42,
+  "initial_sha256": "b166f83e6378f60707a0d3bd745a00f168a30b571f86a2685ce30ffaaaa976d1",
+  "teacher_weight": 0.3,
+  "temperature": 1.7
+}

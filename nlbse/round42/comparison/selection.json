@@ -1,0 +1,123 @@
+{
+  "points": 1656,
+  "picked": null,
+  "arms": {
+    "label": {
+      "n": 207,
+      "eligible": 0,
+      "chosen": null,
+      "best_matched": null
+    },
+    "soft": {
+      "n": 207,
+      "eligible": 0,
+      "chosen": null,
+      "best_matched": null
+    },
+    "pair_gold": {
+      "n": 207,
+      "eligible": 0,
+      "chosen": null,
+      "best_matched": {
+        "key": "lexical/unobserved/None/pair_gold/0.35",
+        "control": "lexical/unobserved/None/label/0.35",
+        "arm": "pair_gold",
+        "kind": "lexical",
+        "panel": "unobserved",
+        "width": null,
+        "strength": 0.35,
+        "rule": "fp",
+        "cut": -2.0599954091329473,
+        "n_cal": 269,
+        "n_review": 260,
+        "a_tp": 1,
+        "b_tp": 2,
+        "a_fp_removed": 3,
+        "b_fp_removed": 0,
+        "a_tp_over_control": -2,
+        "b_tp_over_control": 0,
+        "a_fp_over_control": 1,
+        "b_fp_over_control": 0,
+        "a_tp_over_threshold": -6,
+        "b_tp_over_threshold": 0,
+        "a_fp_over_threshold": 1,
+        "b_fp_over_threshold": 0,
+        "cal_f1": 0.0,
+        "review_f1": 0.00037996463222289556,
+        "over_cal": 0.0,
+        "review_tp": 1,
+        "review_fp": 0,
+        "matched_win": true,
+        "eligible": false
+      }
+    },
+    "pair_order": {
+      "n": 207,
+      "eligible": 0,
+      "chosen": null,
+      "best_matched": null
+    },
+    "pair_joint": {
+      "n": 207,
+      "eligible": 0,
+      "chosen": null,
+      "best_matched": null
+    },
+    "pair_residual": {
+      "n": 207,
+      "eligible": 0,
+      "chosen": null,
+      "best_matched": {
+        "key": "lexical/unobserved/None/pair_residual/0.65",
+        "control": "lexical/unobserved/None/soft/0.65",
+        "arm": "pair_residual",
+        "kind": "lexical",
+        "panel": "unobserved",
+        "width": null,
+        "strength": 0.65,
+        "rule": "fp",
+        "cut": -1.705343055253363,
+        "n_cal": 269,
+        "n_review": 260,
+        "a_tp": 5,
+        "b_tp": 3,
+        "a_fp_removed": 3,
+        "b_fp_removed": 0,
+        "a_tp_over_control": 5,
+        "b_tp_over_control": 0,
+        "a_fp_over_control": 1,
+        "b_fp_over_control": 0,
+        "a_tp_over_threshold": -2,
+        "b_tp_over_threshold": 1,
+        "a_fp_over_threshold": 1,
+        "b_fp_over_threshold": 0,
+        "cal_f1": 0.0,
+        "review_f1": 0.00037996463222289556,
+        "over_cal": 0.0,
+        "review_tp": 1,
+        "review_fp": 0,
+        "matched_win": true,
+        "eligible": false
+      }
+    },
+    "soft_mlp": {
+      "n": 207,
+      "eligible": 0,
+      "chosen": null,
+      "best_matched": null
+    },
+    "pair_mlp": {
+      "n": 207,
+      "eligible": 0,
+      "chosen": null,
+      "best_matched": null
+    }
+  },
+  "csv_sha256": "3b8a1125706ac864d32bb72ab730b09f9d91a3fc9692a97ef56d672b34a525a6",
+  "code_sha256": "39de72a0d6cfeb6892068544cb4a654e4c6eb4da0fbf8bbd8f5e8571625e54a4",
+  "sources": {
+    "test_a": "2e4e8d321431a3ba7da6d60c277f4137168f03118565b2b54742f7554fd3e974",
+    "test_b": "6586b59db3eb6a92ac2c1439b5d274cf07ce8e5fd256f3346e3c52b3d55c23d4",
+    "official": "e05163eee767a6a3c000ecc5a834171f7da15a3437866b145889c65a7b764899"
+  }
+}

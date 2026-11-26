@@ -1,0 +1,13 @@
+{
+  "family": "canonical",
+  "epochs": 5,
+  "seed": 42,
+  "batch": 128,
+  "fit_rows": 193100,
+  "input_checkpoint": "b166f83e6378f60707a0d3bd745a00f168a30b571f86a2685ce30ffaaaa976d1",
+  "model_dimensions": 256,
+  "protocol": "official",
+  "partition_sha256": "b794ea08d416c7232e914dcc3dc3356135bd91456792d2989cf65a32e290bf75",
+  "teacher": "5c9baca0d58a2c82fbdf1f4317708168173f6b07f108361215e79952a4ae71e7",
+  "augmented_probability": 0.45
+}

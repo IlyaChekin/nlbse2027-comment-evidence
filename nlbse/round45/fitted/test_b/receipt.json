@@ -1,0 +1,55 @@
+{
+  "matrix_sha256": "60b77f55b6ceccfedf9419153dd4aefc11b825afc2f52765e71f105815b50196",
+  "teachers": {
+    "positive": "970920cc5977e0eab4316a29730373e14f60f99d3a1eb22715d28d858f80e22d",
+    "negative": "aba66b99950a9cb99d79c0d344b8643b829d2b7930c8f6df8b7364d49c7708fc",
+    "strong": "13d208358a6434bb27a6d6b233f833ab694fc83b2a035aa27e73fd3888033242"
+  },
+  "price_note": {
+    "dense_receipt": "1b374ff3397f4e68c7909a47b7c2260db31f19aedbdb25bd1288456728c84d18",
+    "sparse_profile": "a045c4e9c48a9704ce61a14c0dfbfca6eca7dc0c5bce60ca7d30d1fe3b5eb502",
+    "sparse_profile_new_rows": 153,
+    "fp_score_units": 1.4289159888135265e-05
+  },
+  "trade": 1.1148789424527623,
+  "queries": {
+    "lex": {
+      "proposals": 46713,
+      "useful": 1467,
+      "harmful": 45246,
+      "cost": 0.0
+    },
+    "dense": {
+      "proposals": 47462,
+      "useful": 1881,
+      "harmful": 45581,
+      "cost": 0.24078599648109578
+    }
+  },
+  "folds": {
+    "0": {
+      "train": 134656,
+      "hold": 45203
+    },
+    "1": {
+      "train": 135463,
+      "hold": 44400
+    },
+    "2": {
+      "train": 134447,
+      "hold": 45348
+    },
+    "3": {
+      "train": 134738,
+      "hold": 45068
+    }
+  },
+  "excluded": 0,
+  "seconds": 46.3135072439909,
+  "files": {
+    "weights.joblib": "56ee8a9b10ca7b2cf10bdc119d52187966df9e072ea3ff7c2883dc5af40e3569",
+    "scores.npz": "b2cae369fe277f4ccd4d35e2380a362711b6312ab5cd50656261e213a92f3795",
+    "crossfit.npz": "705158d82d33759366c56516ab0127a114092256df5069fa7f40106aef3f6363"
+  },
+  "code_sha256": "ba48035735c28317b98ad042e2ae3454b311794a481be7abd8992423ae953d43"
+}

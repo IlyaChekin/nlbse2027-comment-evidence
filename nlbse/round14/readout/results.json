@@ -1,0 +1,150 @@
+{
+  "test_a": {
+    "native": {
+      "exact": {
+        "base": {
+          "tp": 746,
+          "fp": 2,
+          "fn": 84,
+          "f1": 0.9455006337135615
+        },
+        "candidate": {
+          "tp": 746,
+          "fp": 2,
+          "fn": 84,
+          "f1": 0.9455006337135615
+        },
+        "recovered": 0,
+        "lost": 0,
+        "extra_fp": 0
+      },
+      "frozen": {
+        "base": {
+          "tp": 746,
+          "fp": 2,
+          "fn": 84,
+          "f1": 0.9455006337135615
+        },
+        "candidate": {
+          "tp": 747,
+          "fp": 6,
+          "fn": 83,
+          "f1": 0.9437776373973468
+        },
+        "recovered": 1,
+        "lost": 0,
+        "extra_fp": 4
+      }
+    },
+    "ridge/0.003": {
+      "exact": {
+        "base": {
+          "tp": 746,
+          "fp": 2,
+          "fn": 84,
+          "f1": 0.9455006337135615
+        },
+        "candidate": {
+          "tp": 746,
+          "fp": 2,
+          "fn": 84,
+          "f1": 0.9455006337135615
+        },
+        "recovered": 0,
+        "lost": 0,
+        "extra_fp": 0
+      },
+      "frozen": {
+        "base": {
+          "tp": 746,
+          "fp": 2,
+          "fn": 84,
+          "f1": 0.9455006337135615
+        },
+        "candidate": {
+          "tp": 746,
+          "fp": 3,
+          "fn": 84,
+          "f1": 0.9449018366054465
+        },
+        "recovered": 0,
+        "lost": 0,
+        "extra_fp": 1
+      }
+    }
+  },
+  "test_b": {
+    "native": {
+      "exact": {
+        "base": {
+          "tp": 180,
+          "fp": 0,
+          "fn": 24,
+          "f1": 0.9375
+        },
+        "candidate": {
+          "tp": 180,
+          "fp": 0,
+          "fn": 24,
+          "f1": 0.9375
+        },
+        "recovered": 0,
+        "lost": 0,
+        "extra_fp": 0
+      },
+      "frozen": {
+        "base": {
+          "tp": 180,
+          "fp": 0,
+          "fn": 24,
+          "f1": 0.9375
+        },
+        "candidate": {
+          "tp": 180,
+          "fp": 7,
+          "fn": 24,
+          "f1": 0.9207161125319693
+        },
+        "recovered": 0,
+        "lost": 0,
+        "extra_fp": 7
+      }
+    },
+    "ridge/0.003": {
+      "exact": {
+        "base": {
+          "tp": 180,
+          "fp": 0,
+          "fn": 24,
+          "f1": 0.9375
+        },
+        "candidate": {
+          "tp": 180,
+          "fp": 0,
+          "fn": 24,
+          "f1": 0.9375
+        },
+        "recovered": 0,
+        "lost": 0,
+        "extra_fp": 0
+      },
+      "frozen": {
+        "base": {
+          "tp": 180,
+          "fp": 0,
+          "fn": 24,
+          "f1": 0.9375
+        },
+        "candidate": {
+          "tp": 180,
+          "fp": 0,
+          "fn": 24,
+          "f1": 0.9375
+        },
+        "recovered": 0,
+        "lost": 0,
+        "extra_fp": 0
+      }
+    }
+  }
+}

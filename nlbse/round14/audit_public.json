@@ -1,0 +1,90 @@
+{
+  "public": {
+    "rows": 30655,
+    "mat_positive": 505,
+    "tp": 443,
+    "fp": 1,
+    "fn": 62,
+    "false_negative_scope": {
+      "comment_without_base_tag": 19,
+      "no_parsed_comment": 43
+    },
+    "missed_evidence": {
+      "known_tag": {
+        "fn": 0,
+        "other_negative": 0
+      },
+      "known_tag_later": {
+        "fn": 0,
+        "other_negative": 0
+      },
+      "stem_in_comment": {
+        "fn": 0,
+        "other_negative": 4
+      },
+      "stem_head_in_comment": {
+        "fn": 0,
+        "other_negative": 1
+      },
+      "stem_upper_in_comment": {
+        "fn": 0,
+        "other_negative": 1
+      },
+      "split_tag_in_comment": {
+        "fn": 0,
+        "other_negative": 45
+      },
+      "debt_phrase": {
+        "fn": 0,
+        "other_negative": 41
+      },
+      "literal_or_code_tag": {
+        "fn": 1,
+        "other_negative": 6
+      },
+      "loose_comment_tag": {
+        "fn": 0,
+        "other_negative": 0
+      },
+      "any_comment": {
+        "fn": 19,
+        "other_negative": 3951
+      },
+      "leading_comment": {
+        "fn": 0,
+        "other_negative": 12
+      },
+      "preprocessor_stub": {
+        "fn": 1,
+        "other_negative": 39
+      },
+      "comment_spacing_variant": {
+        "fn": 0,
+        "other_negative": 46
+      },
+      "concat_word_tag": {
+        "fn": 0,
+        "other_negative": 0
+      }
+    },
+    "miss_chars_quartiles": [
+      367.5,
+      608.5,
+      1010.25
+    ],
+    "projects": {
+      "chromium": 3517,
+      "linux": 25086,
+      "mozilla firefox": 542,
+      "android": 298,
+      "php": 160,
+      "tcpdump": 27,
+      "ffmpeg": 289,
+      "file": 10,
+      "radare2": 37,
+      "krb5": 28,
+      "imagemagick": 68,
+      "qemu": 593
+    }
+  }
+}

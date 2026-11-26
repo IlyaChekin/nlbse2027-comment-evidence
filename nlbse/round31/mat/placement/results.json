@@ -1,0 +1,611 @@
+{
+  "dev": {
+    "baseline": {
+      "tp": 278,
+      "fp": 0,
+      "fn": 44,
+      "f1": 0.9266666666666666,
+      "recovered": 0,
+      "delta_fp": 0,
+      "recovered_without_comment": 0
+    },
+    "results": {
+      "residual": {
+        "frozen": {
+          "tp": 278,
+          "fp": 0,
+          "fn": 44,
+          "f1": 0.9266666666666666,
+          "recovered": 0,
+          "delta_fp": 0,
+          "recovered_without_comment": 0
+        },
+        "matched": {
+          "tp": 278,
+          "fp": 0,
+          "fn": 44,
+          "f1": 0.9266666666666666,
+          "recovered": 0,
+          "delta_fp": 0,
+          "recovered_without_comment": 0
+        },
+        "average_precision": 0.004568384978429844,
+        "projects": {
+          "linux": {
+            "tp": 265,
+            "fp": 0,
+            "fn": 42,
+            "f1": 0.9265734265734266,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0,
+            "cut": -0.20917029715592328
+          },
+          "tcpdump": {
+            "tp": 13,
+            "fp": 0,
+            "fn": 2,
+            "f1": 0.9285714285714286,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0,
+            "cut": -2.278024128304077
+          }
+        }
+      },
+      "erase_any": {
+        "frozen": {
+          "tp": 278,
+          "fp": 0,
+          "fn": 44,
+          "f1": 0.9266666666666666,
+          "recovered": 0,
+          "delta_fp": 0,
+          "recovered_without_comment": 0
+        },
+        "matched": {
+          "tp": 278,
+          "fp": 0,
+          "fn": 44,
+          "f1": 0.9266666666666666,
+          "recovered": 0,
+          "delta_fp": 0,
+          "recovered_without_comment": 0
+        },
+        "average_precision": 0.006360883151491458,
+        "projects": {
+          "linux": {
+            "tp": 265,
+            "fp": 0,
+            "fn": 42,
+            "f1": 0.9265734265734266,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0,
+            "cut": 0.08673282350883404
+          },
+          "tcpdump": {
+            "tp": 13,
+            "fp": 0,
+            "fn": 2,
+            "f1": 0.9285714285714286,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0,
+            "cut": -1.059304648757922
+          }
+        }
+      },
+      "erase_leading": {
+        "frozen": {
+          "tp": 278,
+          "fp": 0,
+          "fn": 44,
+          "f1": 0.9266666666666666,
+          "recovered": 0,
+          "delta_fp": 0,
+          "recovered_without_comment": 0
+        },
+        "matched": {
+          "tp": 278,
+          "fp": 0,
+          "fn": 44,
+          "f1": 0.9266666666666666,
+          "recovered": 0,
+          "delta_fp": 0,
+          "recovered_without_comment": 0
+        },
+        "average_precision": 0.004544010036586028,
+        "projects": {
+          "linux": {
+            "tp": 265,
+            "fp": 0,
+            "fn": 42,
+            "f1": 0.9265734265734266,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0,
+            "cut": -0.18729864024031873
+          },
+          "tcpdump": {
+            "tp": 13,
+            "fp": 0,
+            "fn": 2,
+            "f1": 0.9285714285714286,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0,
+            "cut": -2.2663799956386907
+          }
+        }
+      }
+    },
+    "predictions_sha256": "4de6876800c76dada03830b563a99c9bc3056506c4fd57a62f6d1b8142e7876e"
+  },
+  "test_a": {
+    "baseline": {
+      "tp": 753,
+      "fp": 0,
+      "fn": 77,
+      "f1": 0.9513581806696146,
+      "recovered": 0,
+      "delta_fp": 0,
+      "recovered_without_comment": 0
+    },
+    "results": {
+      "residual": {
+        "frozen": {
+          "tp": 753,
+          "fp": 0,
+          "fn": 77,
+          "f1": 0.9513581806696146,
+          "recovered": 0,
+          "delta_fp": 0,
+          "recovered_without_comment": 0
+        },
+        "matched": {
+          "tp": 753,
+          "fp": 0,
+          "fn": 77,
+          "f1": 0.9513581806696146,
+          "recovered": 0,
+          "delta_fp": 0,
+          "recovered_without_comment": 0
+        },
+        "average_precision": 0.0041980807447624235,
+        "projects": {
+          "chromium": {
+            "tp": 276,
+            "fp": 0,
+            "fn": 42,
+            "f1": 0.9292929292929293,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0,
+            "cut": -1.0321032469028486
+          },
+          "ffmpeg": {
+            "tp": 155,
+            "fp": 0,
+            "fn": 17,
+            "f1": 0.9480122324159022,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0,
+            "cut": -1.3377448561854983
+          },
+          "qemu": {
+            "tp": 322,
+            "fp": 0,
+            "fn": 18,
+            "f1": 0.972809667673716,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0,
+            "cut": -1.8914582620123639
+          }
+        }
+      },
+      "erase_any": {
+        "frozen": {
+          "tp": 753,
+          "fp": 0,
+          "fn": 77,
+          "f1": 0.9513581806696146,
+          "recovered": 0,
+          "delta_fp": 0,
+          "recovered_without_comment": 0
+        },
+        "matched": {
+          "tp": 753,
+          "fp": 0,
+          "fn": 77,
+          "f1": 0.9513581806696146,
+          "recovered": 0,
+          "delta_fp": 0,
+          "recovered_without_comment": 0
+        },
+        "average_precision": 0.006849635055487852,
+        "projects": {
+          "chromium": {
+            "tp": 276,
+            "fp": 0,
+            "fn": 42,
+            "f1": 0.9292929292929293,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0,
+            "cut": -0.22649924731069238
+          },
+          "ffmpeg": {
+            "tp": 155,
+            "fp": 0,
+            "fn": 17,
+            "f1": 0.9480122324159022,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0,
+            "cut": -0.09352394780804119
+          },
+          "qemu": {
+            "tp": 322,
+            "fp": 0,
+            "fn": 18,
+            "f1": 0.972809667673716,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0,
+            "cut": -0.1924914670039648
+          }
+        }
+      },
+      "erase_leading": {
+        "frozen": {
+          "tp": 753,
+          "fp": 0,
+          "fn": 77,
+          "f1": 0.9513581806696146,
+          "recovered": 0,
+          "delta_fp": 0,
+          "recovered_without_comment": 0
+        },
+        "matched": {
+          "tp": 753,
+          "fp": 0,
+          "fn": 77,
+          "f1": 0.9513581806696146,
+          "recovered": 0,
+          "delta_fp": 0,
+          "recovered_without_comment": 0
+        },
+        "average_precision": 0.004207599652961062,
+        "projects": {
+          "chromium": {
+            "tp": 276,
+            "fp": 0,
+            "fn": 42,
+            "f1": 0.9292929292929293,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0,
+            "cut": -1.0380076855710767
+          },
+          "ffmpeg": {
+            "tp": 155,
+            "fp": 0,
+            "fn": 17,
+            "f1": 0.9480122324159022,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0,
+            "cut": -1.341797873904425
+          },
+          "qemu": {
+            "tp": 322,
+            "fp": 0,
+            "fn": 18,
+            "f1": 0.972809667673716,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0,
+            "cut": -1.9038761182463144
+          }
+        }
+      }
+    },
+    "predictions_sha256": "bff566aa0d1cd5688b5421f508ff3c137abb3bf9367f5e72079a004ab775ee68"
+  },
+  "test_b": {
+    "baseline": {
+      "tp": 181,
+      "fp": 0,
+      "fn": 23,
+      "f1": 0.9402597402597402,
+      "recovered": 0,
+      "delta_fp": 0,
+      "recovered_without_comment": 0
+    },
+    "results": {
+      "residual": {
+        "frozen": {
+          "tp": 181,
+          "fp": 0,
+          "fn": 23,
+          "f1": 0.9402597402597402,
+          "recovered": 0,
+          "delta_fp": 0,
+          "recovered_without_comment": 0
+        },
+        "matched": {
+          "tp": 181,
+          "fp": 0,
+          "fn": 23,
+          "f1": 0.9402597402597402,
+          "recovered": 0,
+          "delta_fp": 0,
+          "recovered_without_comment": 0
+        },
+        "average_precision": 0.003655176405335781,
+        "projects": {
+          "android": {
+            "tp": 32,
+            "fp": 0,
+            "fn": 2,
+            "f1": 0.9696969696969697,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0,
+            "cut": -1.4889738445554723
+          },
+          "file": {
+            "tp": 1,
+            "fp": 0,
+            "fn": 0,
+            "f1": 1.0,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0,
+            "cut": -2.595858691853899
+          },
+          "imagemagick": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 0,
+            "f1": 0.0,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0,
+            "cut": -2.6009685372306905
+          },
+          "krb5": {
+            "tp": 2,
+            "fp": 0,
+            "fn": 2,
+            "f1": 0.6666666666666666,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0,
+            "cut": -2.3471155510783825
+          },
+          "mozilla firefox": {
+            "tp": 120,
+            "fp": 0,
+            "fn": 15,
+            "f1": 0.9411764705882353,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0,
+            "cut": -1.2711589717643124
+          },
+          "php": {
+            "tp": 11,
+            "fp": 0,
+            "fn": 1,
+            "f1": 0.9565217391304348,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0,
+            "cut": -1.5888896790976608
+          },
+          "radare2": {
+            "tp": 15,
+            "fp": 0,
+            "fn": 3,
+            "f1": 0.9090909090909091,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0,
+            "cut": -2.3629811450383325
+          }
+        }
+      },
+      "erase_any": {
+        "frozen": {
+          "tp": 181,
+          "fp": 0,
+          "fn": 23,
+          "f1": 0.9402597402597402,
+          "recovered": 0,
+          "delta_fp": 0,
+          "recovered_without_comment": 0
+        },
+        "matched": {
+          "tp": 181,
+          "fp": 0,
+          "fn": 23,
+          "f1": 0.9402597402597402,
+          "recovered": 0,
+          "delta_fp": 0,
+          "recovered_without_comment": 0
+        },
+        "average_precision": 0.0028786956164383523,
+        "projects": {
+          "android": {
+            "tp": 32,
+            "fp": 0,
+            "fn": 2,
+            "f1": 0.9696969696969697,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0,
+            "cut": -0.1893986863525967
+          },
+          "file": {
+            "tp": 1,
+            "fp": 0,
+            "fn": 0,
+            "f1": 1.0,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0,
+            "cut": -1.6246860926787159
+          },
+          "imagemagick": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 0,
+            "f1": 0.0,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0,
+            "cut": -0.9074645351320285
+          },
+          "krb5": {
+            "tp": 2,
+            "fp": 0,
+            "fn": 2,
+            "f1": 0.6666666666666666,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0,
+            "cut": -1.0335776146042202
+          },
+          "mozilla firefox": {
+            "tp": 120,
+            "fp": 0,
+            "fn": 15,
+            "f1": 0.9411764705882353,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0,
+            "cut": -0.1293598342803337
+          },
+          "php": {
+            "tp": 11,
+            "fp": 0,
+            "fn": 1,
+            "f1": 0.9565217391304348,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0,
+            "cut": 0.07902204622430986
+          },
+          "radare2": {
+            "tp": 15,
+            "fp": 0,
+            "fn": 3,
+            "f1": 0.9090909090909091,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0,
+            "cut": -1.1384592691629045
+          }
+        }
+      },
+      "erase_leading": {
+        "frozen": {
+          "tp": 181,
+          "fp": 0,
+          "fn": 23,
+          "f1": 0.9402597402597402,
+          "recovered": 0,
+          "delta_fp": 0,
+          "recovered_without_comment": 0
+        },
+        "matched": {
+          "tp": 181,
+          "fp": 0,
+          "fn": 23,
+          "f1": 0.9402597402597402,
+          "recovered": 0,
+          "delta_fp": 0,
+          "recovered_without_comment": 0
+        },
+        "average_precision": 0.003659673612928763,
+        "projects": {
+          "android": {
+            "tp": 32,
+            "fp": 0,
+            "fn": 2,
+            "f1": 0.9696969696969697,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0,
+            "cut": -1.4961886069380776
+          },
+          "file": {
+            "tp": 1,
+            "fp": 0,
+            "fn": 0,
+            "f1": 1.0,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0,
+            "cut": -2.6042479537688714
+          },
+          "imagemagick": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 0,
+            "f1": 0.0,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0,
+            "cut": -2.604057782515029
+          },
+          "krb5": {
+            "tp": 2,
+            "fp": 0,
+            "fn": 2,
+            "f1": 0.6666666666666666,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0,
+            "cut": -2.3488761566165537
+          },
+          "mozilla firefox": {
+            "tp": 120,
+            "fp": 0,
+            "fn": 15,
+            "f1": 0.9411764705882353,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0,
+            "cut": -1.2647117348838384
+          },
+          "php": {
+            "tp": 11,
+            "fp": 0,
+            "fn": 1,
+            "f1": 0.9565217391304348,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0,
+            "cut": -1.5877637439743344
+          },
+          "radare2": {
+            "tp": 15,
+            "fp": 0,
+            "fn": 3,
+            "f1": 0.9090909090909091,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0,
+            "cut": -2.36952000376927
+          }
+        }
+      }
+    },
+    "predictions_sha256": "3eff258fe5af3bc281bfc36f8e5f308949eba57939f48408820570504d16e173"
+  }
+}

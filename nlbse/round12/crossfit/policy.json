@@ -1,0 +1,69 @@
+{
+  "selected": [
+    [
+      "compact",
+      "logit",
+      "token_motifs"
+    ],
+    [
+      "unix",
+      "logit",
+      "token_motifs"
+    ]
+  ],
+  "table": {
+    "compact": {
+      "logit": {
+        "objective": 0.8389445745768286,
+        "pooled_f1": 0.8348530901722391,
+        "cutoff": 0.42567415730337077,
+        "average_precision": 0.9023060062180239
+      },
+      "token_motifs": {
+        "objective": 0.8404690615025026,
+        "pooled_f1": 0.836526701997554,
+        "cutoff": 0.44623595505617974,
+        "average_precision": 0.9029627694252229
+      },
+      "ast_motifs": {
+        "objective": 0.8369975527462128,
+        "pooled_f1": 0.8330638641875505,
+        "cutoff": 0.4153932584269663,
+        "average_precision": 0.9024755460659051
+      },
+      "all": {
+        "objective": 0.8152410576706227,
+        "pooled_f1": 0.8052456449403014,
+        "cutoff": 0.4770786516853932,
+        "average_precision": 0.870304108048259
+      }
+    },
+    "unix": {
+      "logit": {
+        "objective": 0.8580229654537757,
+        "pooled_f1": 0.8552495340650238,
+        "cutoff": 0.4051123595505618,
+        "average_precision": 0.9138675939123484
+      },
+      "token_motifs": {
+        "objective": 0.8577340244481084,
+        "pooled_f1": 0.8555370524562864,
+        "cutoff": 0.42567415730337077,
+        "average_precision": 0.9138157741096279
+      },
+      "ast_motifs": {
+        "objective": 0.8568831077787364,
+        "pooled_f1": 0.8541147132169576,
+        "cutoff": 0.4051123595505618,
+        "average_precision": 0.9140662666697397
+      },
+      "all": {
+        "objective": 0.8405798967138158,
+        "pooled_f1": 0.8340408328279766,
+        "cutoff": 0.4770786516853932,
+        "average_precision": 0.887044209048736
+      }
+    }
+  },
+  "sha256": "571b2f43d30331f8aa00a2b20603c65291b0f2fd8aed71b94c7e5b0027d0c8ee"
+}

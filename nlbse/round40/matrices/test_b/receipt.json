@@ -1,0 +1,72 @@
+{
+  "rotation": "test_b",
+  "sources": {
+    "release_options_sha256": "8b86b4a0bca946a81fcc59d2f7e991919dae584b5bd665c2cb81a36591aa802c",
+    "round38_crossfit": {
+      "0": {
+        "fit": 24025,
+        "held": 8236,
+        "pairs": 3490,
+        "gradient": 1.3565608346589219e-05
+      },
+      "1": {
+        "fit": 24302,
+        "held": 7961,
+        "pairs": 3578,
+        "gradient": 1.867709645194838e-05
+      },
+      "2": {
+        "fit": 24383,
+        "held": 7880,
+        "pairs": 3514,
+        "gradient": 1.276605854104354e-05
+      },
+      "3": {
+        "fit": 24051,
+        "held": 8205,
+        "pairs": 3429,
+        "gradient": 1.5667392126603965e-05
+      }
+    },
+    "pairs_sha256": "b98678762b5d1991288d158e2bb1be2496d9908821e56ff4996f26764652599b",
+    "first_scores_sha256": "6f553d4aba4f335ecdc41a33d8bfa2d81993fd1db5f3f1072a33f04a8b02ffe1",
+    "compact_sha256": "90e907d17f9ddadb401086b5ba0a34d2fa4a38e54cf26db7f24cc6fa31e5b5d9",
+    "sparse_sources_sha256": {
+      "dev": "7e0a7e758506030aa9aa3243903aeb2a58698deb02e87514921ff14be0005c43",
+      "test": "c767a0751d323331db10d5aa31502399a44e70ff865e230087009d6f7976b846",
+      "oof": "467132ed043c789b92d194b805788b9e95f53d1108edcf533d18555c2eb6b75b"
+    },
+    "new_scores_sha256": "61d51c9b64aad806c05c0965023444387a569a02d39a7bfd10dd31540fc6221c"
+  },
+  "phases": {
+    "dev": {
+      "rows": 26484,
+      "sha256": "29975e22dc4251e433cef3eacc09a8118d4d2f24dfd9e1a226b084e188a49320"
+    },
+    "test": {
+      "rows": 7899,
+      "sha256": "f5d7be3118aa79ac39038b111444479f05253f37e6a596aa4a79f9196107a1d1"
+    },
+    "oof": {
+      "rows": 180019,
+      "sha256": "80c4dc3e77b7b15436e20833008e70812bca955dda3709dbbe5764333d619fec"
+    }
+  },
+  "threshold": 0.21247737109661102,
+  "fields": {
+    "counterfactual": [
+      "queried",
+      "flag"
+    ],
+    "real_time": [
+      "pre",
+      "unqueried",
+      "signed",
+      "sparse",
+      "new",
+      "observed_regime"
+    ]
+  },
+  "code_sha256": "4a7fc685bac2f4e3b594d9ae8057523e7153e777cff69d176f8c71d66847fd1c",
+  "data_sha256": "4fa9bc92ad59523895c4c6702399cb155cd71ebfeb575d14ea440c0b98a98b51"
+}

@@ -1,0 +1,34 @@
+{
+  "scope": "projects",
+  "seed": 42,
+  "rows": 153628,
+  "kept_long": 10588,
+  "pairable": 14660,
+  "teacher_sha256": "95f928cfdee573d2465961cf500cac3b5ccc50b4f5686e4106360e55538fe24d",
+  "selection_sha256": "d2951402b86228c7217436170a777ada4deb491efad08546a59da8703e2447c3",
+  "initial_sha256": "d230266ed3d64499dbd2dab60c93445b291d34096fc605d07b376e500868d881",
+  "representation_sha256": "bb91d17f300cc9c9ab9eb63e34834e4a26c8ed7fc0fe72dc86c086029ddeb31a",
+  "modes": {
+    "full": {
+      "path": "full.pt",
+      "sha256": "a54ec9258664fc7d27e19e7f96902bf2f2a7bee00e19382aa71cd8f3dd805938",
+      "pairs": 0,
+      "steps": 1201,
+      "seconds": 16.594341041054577
+    },
+    "latent": {
+      "path": "latent.pt",
+      "sha256": "9e24e1de6b800bd888938fec2f84c496185f493761f1566a89bbc83aa0d686e6",
+      "pairs": 0,
+      "steps": 1201,
+      "seconds": 17.804056223947555
+    },
+    "relational": {
+      "path": "relational.pt",
+      "sha256": "ad50d40475c80959f7411b5c5dde1cbe87a580bf5a4c6a894e459cbfe3d9f1bb",
+      "pairs": 0,
+      "steps": 1201,
+      "seconds": 18.380915540037677
+    }
+  }
+}

@@ -1,0 +1,648 @@
+{
+  "protocol": "diagnostic follow-up; strata chosen after first heldout analysis",
+  "summary": [
+    {
+      "part": "dev",
+      "scope": "comment",
+      "arm": "layout_paired",
+      "variant": "frozen",
+      "tp": 278,
+      "fp": 0,
+      "recovered": 0
+    },
+    {
+      "part": "dev",
+      "scope": "comment",
+      "arm": "layout_paired",
+      "variant": "matched",
+      "tp": 278,
+      "fp": 0,
+      "recovered": 0
+    },
+    {
+      "part": "dev",
+      "scope": "comment",
+      "arm": "joint_paired",
+      "variant": "frozen",
+      "tp": 278,
+      "fp": 0,
+      "recovered": 0
+    },
+    {
+      "part": "dev",
+      "scope": "comment",
+      "arm": "joint_paired",
+      "variant": "matched",
+      "tp": 278,
+      "fp": 0,
+      "recovered": 0
+    },
+    {
+      "part": "dev",
+      "scope": "comment",
+      "arm": "stub_paired",
+      "variant": "frozen",
+      "tp": 278,
+      "fp": 0,
+      "recovered": 0
+    },
+    {
+      "part": "dev",
+      "scope": "comment",
+      "arm": "stub_paired",
+      "variant": "matched",
+      "tp": 278,
+      "fp": 0,
+      "recovered": 0
+    },
+    {
+      "part": "dev",
+      "scope": "comment",
+      "arm": "previous_joint",
+      "variant": "frozen",
+      "tp": 278,
+      "fp": 0,
+      "recovered": 0
+    },
+    {
+      "part": "dev",
+      "scope": "comment",
+      "arm": "previous_joint",
+      "variant": "matched",
+      "tp": 278,
+      "fp": 0,
+      "recovered": 0
+    },
+    {
+      "part": "dev",
+      "scope": "comment_and_length",
+      "arm": "layout_paired",
+      "variant": "frozen",
+      "tp": 278,
+      "fp": 0,
+      "recovered": 0
+    },
+    {
+      "part": "dev",
+      "scope": "comment_and_length",
+      "arm": "layout_paired",
+      "variant": "matched",
+      "tp": 278,
+      "fp": 0,
+      "recovered": 0
+    },
+    {
+      "part": "dev",
+      "scope": "comment_and_length",
+      "arm": "joint_paired",
+      "variant": "frozen",
+      "tp": 278,
+      "fp": 0,
+      "recovered": 0
+    },
+    {
+      "part": "dev",
+      "scope": "comment_and_length",
+      "arm": "joint_paired",
+      "variant": "matched",
+      "tp": 278,
+      "fp": 0,
+      "recovered": 0
+    },
+    {
+      "part": "dev",
+      "scope": "comment_and_length",
+      "arm": "stub_paired",
+      "variant": "frozen",
+      "tp": 278,
+      "fp": 0,
+      "recovered": 0
+    },
+    {
+      "part": "dev",
+      "scope": "comment_and_length",
+      "arm": "stub_paired",
+      "variant": "matched",
+      "tp": 278,
+      "fp": 0,
+      "recovered": 0
+    },
+    {
+      "part": "dev",
+      "scope": "comment_and_length",
+      "arm": "previous_joint",
+      "variant": "frozen",
+      "tp": 278,
+      "fp": 0,
+      "recovered": 0
+    },
+    {
+      "part": "dev",
+      "scope": "comment_and_length",
+      "arm": "previous_joint",
+      "variant": "matched",
+      "tp": 278,
+      "fp": 0,
+      "recovered": 0
+    },
+    {
+      "part": "test_a",
+      "scope": "comment",
+      "arm": "layout_paired",
+      "variant": "frozen",
+      "tp": 753,
+      "fp": 0,
+      "recovered": 0
+    },
+    {
+      "part": "test_a",
+      "scope": "comment",
+      "arm": "layout_paired",
+      "variant": "matched",
+      "tp": 753,
+      "fp": 0,
+      "recovered": 0
+    },
+    {
+      "part": "test_a",
+      "scope": "comment",
+      "arm": "joint_paired",
+      "variant": "frozen",
+      "tp": 753,
+      "fp": 0,
+      "recovered": 0
+    },
+    {
+      "part": "test_a",
+      "scope": "comment",
+      "arm": "joint_paired",
+      "variant": "matched",
+      "tp": 753,
+      "fp": 0,
+      "recovered": 0
+    },
+    {
+      "part": "test_a",
+      "scope": "comment",
+      "arm": "stub_paired",
+      "variant": "frozen",
+      "tp": 753,
+      "fp": 0,
+      "recovered": 0
+    },
+    {
+      "part": "test_a",
+      "scope": "comment",
+      "arm": "stub_paired",
+      "variant": "matched",
+      "tp": 753,
+      "fp": 0,
+      "recovered": 0
+    },
+    {
+      "part": "test_a",
+      "scope": "comment",
+      "arm": "previous_joint",
+      "variant": "frozen",
+      "tp": 753,
+      "fp": 1,
+      "recovered": 0
+    },
+    {
+      "part": "test_a",
+      "scope": "comment",
+      "arm": "previous_joint",
+      "variant": "matched",
+      "tp": 753,
+      "fp": 0,
+      "recovered": 0
+    },
+    {
+      "part": "test_a",
+      "scope": "comment_and_length",
+      "arm": "layout_paired",
+      "variant": "frozen",
+      "tp": 753,
+      "fp": 0,
+      "recovered": 0
+    },
+    {
+      "part": "test_a",
+      "scope": "comment_and_length",
+      "arm": "layout_paired",
+      "variant": "matched",
+      "tp": 753,
+      "fp": 0,
+      "recovered": 0
+    },
+    {
+      "part": "test_a",
+      "scope": "comment_and_length",
+      "arm": "joint_paired",
+      "variant": "frozen",
+      "tp": 753,
+      "fp": 31,
+      "recovered": 0
+    },
+    {
+      "part": "test_a",
+      "scope": "comment_and_length",
+      "arm": "joint_paired",
+      "variant": "matched",
+      "tp": 753,
+      "fp": 0,
+      "recovered": 0
+    },
+    {
+      "part": "test_a",
+      "scope": "comment_and_length",
+      "arm": "stub_paired",
+      "variant": "frozen",
+      "tp": 753,
+      "fp": 7,
+      "recovered": 0
+    },
+    {
+      "part": "test_a",
+      "scope": "comment_and_length",
+      "arm": "stub_paired",
+      "variant": "matched",
+      "tp": 753,
+      "fp": 0,
+      "recovered": 0
+    },
+    {
+      "part": "test_a",
+      "scope": "comment_and_length",
+      "arm": "previous_joint",
+      "variant": "frozen",
+      "tp": 753,
+      "fp": 1,
+      "recovered": 0
+    },
+    {
+      "part": "test_a",
+      "scope": "comment_and_length",
+      "arm": "previous_joint",
+      "variant": "matched",
+      "tp": 753,
+      "fp": 0,
+      "recovered": 0
+    },
+    {
+      "part": "test_b",
+      "scope": "comment",
+      "arm": "layout_paired",
+      "variant": "frozen",
+      "tp": 181,
+      "fp": 0,
+      "recovered": 0
+    },
+    {
+      "part": "test_b",
+      "scope": "comment",
+      "arm": "layout_paired",
+      "variant": "matched",
+      "tp": 182,
+      "fp": 0,
+      "recovered": 1
+    },
+    {
+      "part": "test_b",
+      "scope": "comment",
+      "arm": "joint_paired",
+      "variant": "frozen",
+      "tp": 181,
+      "fp": 0,
+      "recovered": 0
+    },
+    {
+      "part": "test_b",
+      "scope": "comment",
+      "arm": "joint_paired",
+      "variant": "matched",
+      "tp": 182,
+      "fp": 0,
+      "recovered": 1
+    },
+    {
+      "part": "test_b",
+      "scope": "comment",
+      "arm": "stub_paired",
+      "variant": "frozen",
+      "tp": 181,
+      "fp": 0,
+      "recovered": 0
+    },
+    {
+      "part": "test_b",
+      "scope": "comment",
+      "arm": "stub_paired",
+      "variant": "matched",
+      "tp": 182,
+      "fp": 0,
+      "recovered": 1
+    },
+    {
+      "part": "test_b",
+      "scope": "comment",
+      "arm": "previous_joint",
+      "variant": "frozen",
+      "tp": 181,
+      "fp": 0,
+      "recovered": 0
+    },
+    {
+      "part": "test_b",
+      "scope": "comment",
+      "arm": "previous_joint",
+      "variant": "matched",
+      "tp": 181,
+      "fp": 0,
+      "recovered": 0
+    },
+    {
+      "part": "test_b",
+      "scope": "comment_and_length",
+      "arm": "layout_paired",
+      "variant": "frozen",
+      "tp": 181,
+      "fp": 0,
+      "recovered": 0
+    },
+    {
+      "part": "test_b",
+      "scope": "comment_and_length",
+      "arm": "layout_paired",
+      "variant": "matched",
+      "tp": 181,
+      "fp": 0,
+      "recovered": 0
+    },
+    {
+      "part": "test_b",
+      "scope": "comment_and_length",
+      "arm": "joint_paired",
+      "variant": "frozen",
+      "tp": 181,
+      "fp": 9,
+      "recovered": 0
+    },
+    {
+      "part": "test_b",
+      "scope": "comment_and_length",
+      "arm": "joint_paired",
+      "variant": "matched",
+      "tp": 181,
+      "fp": 0,
+      "recovered": 0
+    },
+    {
+      "part": "test_b",
+      "scope": "comment_and_length",
+      "arm": "stub_paired",
+      "variant": "frozen",
+      "tp": 181,
+      "fp": 3,
+      "recovered": 0
+    },
+    {
+      "part": "test_b",
+      "scope": "comment_and_length",
+      "arm": "stub_paired",
+      "variant": "matched",
+      "tp": 181,
+      "fp": 0,
+      "recovered": 0
+    },
+    {
+      "part": "test_b",
+      "scope": "comment_and_length",
+      "arm": "previous_joint",
+      "variant": "frozen",
+      "tp": 181,
+      "fp": 0,
+      "recovered": 0
+    },
+    {
+      "part": "test_b",
+      "scope": "comment_and_length",
+      "arm": "previous_joint",
+      "variant": "matched",
+      "tp": 181,
+      "fp": 0,
+      "recovered": 0
+    }
+  ],
+  "evidence": {
+    "dev": {
+      "comment_layout_paired_frozen": {
+        "recovered_rows": [],
+        "recovered_with_known_omission": []
+      },
+      "comment_layout_paired_matched": {
+        "recovered_rows": [],
+        "recovered_with_known_omission": []
+      },
+      "comment_joint_paired_frozen": {
+        "recovered_rows": [],
+        "recovered_with_known_omission": []
+      },
+      "comment_joint_paired_matched": {
+        "recovered_rows": [],
+        "recovered_with_known_omission": []
+      },
+      "comment_stub_paired_frozen": {
+        "recovered_rows": [],
+        "recovered_with_known_omission": []
+      },
+      "comment_stub_paired_matched": {
+        "recovered_rows": [],
+        "recovered_with_known_omission": []
+      },
+      "comment_previous_joint_frozen": {
+        "recovered_rows": [],
+        "recovered_with_known_omission": []
+      },
+      "comment_previous_joint_matched": {
+        "recovered_rows": [],
+        "recovered_with_known_omission": []
+      },
+      "comment_and_length_layout_paired_frozen": {
+        "recovered_rows": [],
+        "recovered_with_known_omission": []
+      },
+      "comment_and_length_layout_paired_matched": {
+        "recovered_rows": [],
+        "recovered_with_known_omission": []
+      },
+      "comment_and_length_joint_paired_frozen": {
+        "recovered_rows": [],
+        "recovered_with_known_omission": []
+      },
+      "comment_and_length_joint_paired_matched": {
+        "recovered_rows": [],
+        "recovered_with_known_omission": []
+      },
+      "comment_and_length_stub_paired_frozen": {
+        "recovered_rows": [],
+        "recovered_with_known_omission": []
+      },
+      "comment_and_length_stub_paired_matched": {
+        "recovered_rows": [],
+        "recovered_with_known_omission": []
+      },
+      "comment_and_length_previous_joint_frozen": {
+        "recovered_rows": [],
+        "recovered_with_known_omission": []
+      },
+      "comment_and_length_previous_joint_matched": {
+        "recovered_rows": [],
+        "recovered_with_known_omission": []
+      },
+      "predictions_sha256": "17204804576e2d0cb85e2147c0d0195a2716747f97591f0549528feaa64fcc31"
+    },
+    "test_a": {
+      "comment_layout_paired_frozen": {
+        "recovered_rows": [],
+        "recovered_with_known_omission": []
+      },
+      "comment_layout_paired_matched": {
+        "recovered_rows": [],
+        "recovered_with_known_omission": []
+      },
+      "comment_joint_paired_frozen": {
+        "recovered_rows": [],
+        "recovered_with_known_omission": []
+      },
+      "comment_joint_paired_matched": {
+        "recovered_rows": [],
+        "recovered_with_known_omission": []
+      },
+      "comment_stub_paired_frozen": {
+        "recovered_rows": [],
+        "recovered_with_known_omission": []
+      },
+      "comment_stub_paired_matched": {
+        "recovered_rows": [],
+        "recovered_with_known_omission": []
+      },
+      "comment_previous_joint_frozen": {
+        "recovered_rows": [],
+        "recovered_with_known_omission": []
+      },
+      "comment_previous_joint_matched": {
+        "recovered_rows": [],
+        "recovered_with_known_omission": []
+      },
+      "comment_and_length_layout_paired_frozen": {
+        "recovered_rows": [],
+        "recovered_with_known_omission": []
+      },
+      "comment_and_length_layout_paired_matched": {
+        "recovered_rows": [],
+        "recovered_with_known_omission": []
+      },
+      "comment_and_length_joint_paired_frozen": {
+        "recovered_rows": [],
+        "recovered_with_known_omission": []
+      },
+      "comment_and_length_joint_paired_matched": {
+        "recovered_rows": [],
+        "recovered_with_known_omission": []
+      },
+      "comment_and_length_stub_paired_frozen": {
+        "recovered_rows": [],
+        "recovered_with_known_omission": []
+      },
+      "comment_and_length_stub_paired_matched": {
+        "recovered_rows": [],
+        "recovered_with_known_omission": []
+      },
+      "comment_and_length_previous_joint_frozen": {
+        "recovered_rows": [],
+        "recovered_with_known_omission": []
+      },
+      "comment_and_length_previous_joint_matched": {
+        "recovered_rows": [],
+        "recovered_with_known_omission": []
+      },
+      "predictions_sha256": "1918a123afedf506cc5dd21be330732e93d29a71e505120dff09092de6e9545c"
+    },
+    "test_b": {
+      "comment_layout_paired_frozen": {
+        "recovered_rows": [],
+        "recovered_with_known_omission": []
+      },
+      "comment_layout_paired_matched": {
+        "recovered_rows": [
+          208133
+        ],
+        "recovered_with_known_omission": []
+      },
+      "comment_joint_paired_frozen": {
+        "recovered_rows": [],
+        "recovered_with_known_omission": []
+      },
+      "comment_joint_paired_matched": {
+        "recovered_rows": [
+          208133
+        ],
+        "recovered_with_known_omission": []
+      },
+      "comment_stub_paired_frozen": {
+        "recovered_rows": [],
+        "recovered_with_known_omission": []
+      },
+      "comment_stub_paired_matched": {
+        "recovered_rows": [
+          203247
+        ],
+        "recovered_with_known_omission": []
+      },
+      "comment_previous_joint_frozen": {
+        "recovered_rows": [],
+        "recovered_with_known_omission": []
+      },
+      "comment_previous_joint_matched": {
+        "recovered_rows": [],
+        "recovered_with_known_omission": []
+      },
+      "comment_and_length_layout_paired_frozen": {
+        "recovered_rows": [],
+        "recovered_with_known_omission": []
+      },
+      "comment_and_length_layout_paired_matched": {
+        "recovered_rows": [],
+        "recovered_with_known_omission": []
+      },
+      "comment_and_length_joint_paired_frozen": {
+        "recovered_rows": [],
+        "recovered_with_known_omission": []
+      },
+      "comment_and_length_joint_paired_matched": {
+        "recovered_rows": [],
+        "recovered_with_known_omission": []
+      },
+      "comment_and_length_stub_paired_frozen": {
+        "recovered_rows": [],
+        "recovered_with_known_omission": []
+      },
+      "comment_and_length_stub_paired_matched": {
+        "recovered_rows": [],
+        "recovered_with_known_omission": []
+      },
+      "comment_and_length_previous_joint_frozen": {
+        "recovered_rows": [],
+        "recovered_with_known_omission": []
+      },
+      "comment_and_length_previous_joint_matched": {
+        "recovered_rows": [],
+        "recovered_with_known_omission": []
+      },
+      "predictions_sha256": "6bc25b7450c54742b40de421be5b4962137d7c84d7199494b92a9c236e872791"
+    }
+  },
+  "csv_sha256": "335a0c947907fde99682f961ee79202f4d5e60c70c952af5e828be0d2a2952cb",
+  "policy_sha256": "b710038ab53aff99a0be0fb78a16bee26ccffba4199e9c9e828e684aa00ceb39"
+}

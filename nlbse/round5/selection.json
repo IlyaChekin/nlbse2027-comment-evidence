@@ -1,0 +1,1617 @@
+{
+  "thresholds": [
+    0.7,
+    0.5
+  ],
+  "calibration_rows": 3042,
+  "selection_rows": 18444,
+  "shortlisted": [
+    "head",
+    "reference",
+    "skip_positive",
+    "cover64",
+    "extend_on_long"
+  ],
+  "diagnostic": [
+    "seen_control",
+    "equal_length_tail",
+    "all_long_tail"
+  ],
+  "candidates": {
+    "head": {
+      "config": {
+        "name": "head",
+        "comment": "",
+        "gate": "missing",
+        "pool": "max",
+        "comment_vul_mix": 0.0,
+        "code": "",
+        "margin": 0.1,
+        "code_mix": 0.25,
+        "first": "",
+        "first_scope": "long"
+      },
+      "scores": {
+        "vulnerability": {
+          "precision": 0.9310745723301778,
+          "recall": 0.9270712750124028,
+          "f1": 0.929068611203182
+        },
+        "MAT": {
+          "precision": 0.9851301115241635,
+          "recall": 0.8688524590163934,
+          "f1": 0.9233449477351916
+        },
+        "mean": {
+          "precision": 0.9581023419271706,
+          "recall": 0.8979618670143981,
+          "f1": 0.9262067794691868
+        }
+      },
+      "extra_windows": 0,
+      "analytic_gflops": 378728.208672768,
+      "projected_public_cost_formula": 0.9170276642271279,
+      "calibrated_thresholds_diagnostic": [
+        0.7,
+        0.5
+      ],
+      "calibrated_scores_diagnostic": {
+        "vulnerability": {
+          "precision": 0.9310745723301778,
+          "recall": 0.9270712750124028,
+          "f1": 0.929068611203182
+        },
+        "MAT": {
+          "precision": 0.9851301115241635,
+          "recall": 0.8688524590163934,
+          "f1": 0.9233449477351916
+        },
+        "mean": {
+          "precision": 0.9581023419271706,
+          "recall": 0.8979618670143981,
+          "f1": 0.9262067794691868
+        }
+      }
+    },
+    "reference": {
+      "config": {
+        "name": "reference",
+        "comment": "cover128",
+        "gate": "missing",
+        "pool": "max",
+        "comment_vul_mix": 0.0,
+        "code": "",
+        "margin": 0.1,
+        "code_mix": 0.25,
+        "first": "",
+        "first_scope": "long"
+      },
+      "scores": {
+        "vulnerability": {
+          "precision": 0.9310745723301778,
+          "recall": 0.9270712750124028,
+          "f1": 0.929068611203182
+        },
+        "MAT": {
+          "precision": 0.985239852398524,
+          "recall": 0.8754098360655738,
+          "f1": 0.9270833333333334
+        },
+        "mean": {
+          "precision": 0.9581572123643509,
+          "recall": 0.9012405555389883,
+          "f1": 0.9280759722682577
+        }
+      },
+      "extra_windows": 157,
+      "analytic_gflops": 380482.46841446403,
+      "projected_public_cost_formula": 0.9179699391181264,
+      "calibrated_thresholds_diagnostic": [
+        0.7,
+        0.5
+      ],
+      "calibrated_scores_diagnostic": {
+        "vulnerability": {
+          "precision": 0.9310745723301778,
+          "recall": 0.9270712750124028,
+          "f1": 0.929068611203182
+        },
+        "MAT": {
+          "precision": 0.985239852398524,
+          "recall": 0.8754098360655738,
+          "f1": 0.9270833333333334
+        },
+        "mean": {
+          "precision": 0.9581572123643509,
+          "recall": 0.9012405555389883,
+          "f1": 0.9280759722682577
+        }
+      }
+    },
+    "skip_positive": {
+      "config": {
+        "name": "skip_positive",
+        "comment": "cover128",
+        "gate": "skip",
+        "pool": "max",
+        "comment_vul_mix": 0.0,
+        "code": "",
+        "margin": 0.1,
+        "code_mix": 0.25,
+        "first": "",
+        "first_scope": "long"
+      },
+      "scores": {
+        "vulnerability": {
+          "precision": 0.9310745723301778,
+          "recall": 0.9270712750124028,
+          "f1": 0.929068611203182
+        },
+        "MAT": {
+          "precision": 0.985239852398524,
+          "recall": 0.8754098360655738,
+          "f1": 0.9270833333333334
+        },
+        "mean": {
+          "precision": 0.9581572123643509,
+          "recall": 0.9012405555389883,
+          "f1": 0.9280759722682577
+        }
+      },
+      "extra_windows": 149,
+      "analytic_gflops": 380393.07938304,
+      "projected_public_cost_formula": 0.9179790724067096,
+      "calibrated_thresholds_diagnostic": [
+        0.7,
+        0.5
+      ],
+      "calibrated_scores_diagnostic": {
+        "vulnerability": {
+          "precision": 0.9310745723301778,
+          "recall": 0.9270712750124028,
+          "f1": 0.929068611203182
+        },
+        "MAT": {
+          "precision": 0.985239852398524,
+          "recall": 0.8754098360655738,
+          "f1": 0.9270833333333334
+        },
+        "mean": {
+          "precision": 0.9581572123643509,
+          "recall": 0.9012405555389883,
+          "f1": 0.9280759722682577
+        }
+      }
+    },
+    "seen_control": {
+      "config": {
+        "name": "seen_control",
+        "comment": "seen128",
+        "gate": "missing",
+        "pool": "max",
+        "comment_vul_mix": 0.0,
+        "code": "",
+        "margin": 0.1,
+        "code_mix": 0.25,
+        "first": "",
+        "first_scope": "long"
+      },
+      "scores": {
+        "vulnerability": {
+          "precision": 0.9310745723301778,
+          "recall": 0.9270712750124028,
+          "f1": 0.929068611203182
+        },
+        "MAT": {
+          "precision": 0.9851301115241635,
+          "recall": 0.8688524590163934,
+          "f1": 0.9233449477351916
+        },
+        "mean": {
+          "precision": 0.9581023419271706,
+          "recall": 0.8979618670143981,
+          "f1": 0.9262067794691868
+        }
+      },
+      "extra_windows": 157,
+      "analytic_gflops": 380482.46841446403,
+      "projected_public_cost_formula": 0.916848423438684,
+      "calibrated_thresholds_diagnostic": [
+        0.7,
+        0.5
+      ],
+      "calibrated_scores_diagnostic": {
+        "vulnerability": {
+          "precision": 0.9310745723301778,
+          "recall": 0.9270712750124028,
+          "f1": 0.929068611203182
+        },
+        "MAT": {
+          "precision": 0.9851301115241635,
+          "recall": 0.8688524590163934,
+          "f1": 0.9233449477351916
+        },
+        "mean": {
+          "precision": 0.9581023419271706,
+          "recall": 0.8979618670143981,
+          "f1": 0.9262067794691868
+        }
+      }
+    },
+    "equal_length_tail": {
+      "config": {
+        "name": "equal_length_tail",
+        "comment": "tail128",
+        "gate": "missing",
+        "pool": "max",
+        "comment_vul_mix": 0.0,
+        "code": "",
+        "margin": 0.1,
+        "code_mix": 0.25,
+        "first": "",
+        "first_scope": "long"
+      },
+      "scores": {
+        "vulnerability": {
+          "precision": 0.9310745723301778,
+          "recall": 0.9270712750124028,
+          "f1": 0.929068611203182
+        },
+        "MAT": {
+          "precision": 0.9851851851851852,
+          "recall": 0.8721311475409836,
+          "f1": 0.9252173913043479
+        },
+        "mean": {
+          "precision": 0.9581298787576815,
+          "recall": 0.8996012112766932,
+          "f1": 0.9271430012537649
+        }
+      },
+      "extra_windows": 157,
+      "analytic_gflops": 380482.46841446403,
+      "projected_public_cost_formula": 0.9174101565094308,
+      "calibrated_thresholds_diagnostic": [
+        0.7,
+        0.5
+      ],
+      "calibrated_scores_diagnostic": {
+        "vulnerability": {
+          "precision": 0.9310745723301778,
+          "recall": 0.9270712750124028,
+          "f1": 0.929068611203182
+        },
+        "MAT": {
+          "precision": 0.9851851851851852,
+          "recall": 0.8721311475409836,
+          "f1": 0.9252173913043479
+        },
+        "mean": {
+          "precision": 0.9581298787576815,
+          "recall": 0.8996012112766932,
+          "f1": 0.9271430012537649
+        }
+      }
+    },
+    "all_long_tail": {
+      "config": {
+        "name": "all_long_tail",
+        "comment": "tail512",
+        "gate": "long",
+        "pool": "mean",
+        "comment_vul_mix": 0.5,
+        "code": "",
+        "margin": 0.1,
+        "code_mix": 0.25,
+        "first": "",
+        "first_scope": "long"
+      },
+      "scores": {
+        "vulnerability": {
+          "precision": 0.9335453632407097,
+          "recall": 0.9222755085166198,
+          "f1": 0.9278762166209134
+        },
+        "MAT": {
+          "precision": 0.9816176470588235,
+          "recall": 0.8754098360655738,
+          "f1": 0.925476603119584
+        },
+        "mean": {
+          "precision": 0.9575815051497666,
+          "recall": 0.8988426722910967,
+          "f1": 0.9266764098702487
+        }
+      },
+      "extra_windows": 1164,
+      "analytic_gflops": 434970.80898969603,
+      "projected_public_cost_formula": 0.9115628772440798,
+      "calibrated_thresholds_diagnostic": [
+        0.7,
+        0.5
+      ],
+      "calibrated_scores_diagnostic": {
+        "vulnerability": {
+          "precision": 0.9335453632407097,
+          "recall": 0.9222755085166198,
+          "f1": 0.9278762166209134
+        },
+        "MAT": {
+          "precision": 0.9816176470588235,
+          "recall": 0.8754098360655738,
+          "f1": 0.925476603119584
+        },
+        "mean": {
+          "precision": 0.9575815051497666,
+          "recall": 0.8988426722910967,
+          "f1": 0.9266764098702487
+        }
+      }
+    },
+    "cover64": {
+      "config": {
+        "name": "cover64",
+        "comment": "cover64",
+        "gate": "skip",
+        "pool": "max",
+        "comment_vul_mix": 0.0,
+        "code": "",
+        "margin": 0.1,
+        "code_mix": 0.25,
+        "first": "",
+        "first_scope": "long"
+      },
+      "scores": {
+        "vulnerability": {
+          "precision": 0.9310745723301778,
+          "recall": 0.9270712750124028,
+          "f1": 0.929068611203182
+        },
+        "MAT": {
+          "precision": 0.985239852398524,
+          "recall": 0.8754098360655738,
+          "f1": 0.9270833333333334
+        },
+        "mean": {
+          "precision": 0.9581572123643509,
+          "recall": 0.9012405555389883,
+          "f1": 0.9280759722682577
+        }
+      },
+      "extra_windows": 149,
+      "analytic_gflops": 379549.39513344003,
+      "projected_public_cost_formula": 0.9180652755079389,
+      "calibrated_thresholds_diagnostic": [
+        0.7,
+        0.5
+      ],
+      "calibrated_scores_diagnostic": {
+        "vulnerability": {
+          "precision": 0.9310745723301778,
+          "recall": 0.9270712750124028,
+          "f1": 0.929068611203182
+        },
+        "MAT": {
+          "precision": 0.985239852398524,
+          "recall": 0.8754098360655738,
+          "f1": 0.9270833333333334
+        },
+        "mean": {
+          "precision": 0.9581572123643509,
+          "recall": 0.9012405555389883,
+          "f1": 0.9280759722682577
+        }
+      }
+    },
+    "cover192": {
+      "config": {
+        "name": "cover192",
+        "comment": "cover192",
+        "gate": "skip",
+        "pool": "max",
+        "comment_vul_mix": 0.0,
+        "code": "",
+        "margin": 0.1,
+        "code_mix": 0.25,
+        "first": "",
+        "first_scope": "long"
+      },
+      "scores": {
+        "vulnerability": {
+          "precision": 0.9310745723301778,
+          "recall": 0.9270712750124028,
+          "f1": 0.929068611203182
+        },
+        "MAT": {
+          "precision": 0.985239852398524,
+          "recall": 0.8754098360655738,
+          "f1": 0.9270833333333334
+        },
+        "mean": {
+          "precision": 0.9581572123643509,
+          "recall": 0.9012405555389883,
+          "f1": 0.9280759722682577
+        }
+      },
+      "extra_windows": 149,
+      "analytic_gflops": 381259.26187929604,
+      "projected_public_cost_formula": 0.9178905705561142,
+      "calibrated_thresholds_diagnostic": [
+        0.7,
+        0.5
+      ],
+      "calibrated_scores_diagnostic": {
+        "vulnerability": {
+          "precision": 0.9310745723301778,
+          "recall": 0.9270712750124028,
+          "f1": 0.929068611203182
+        },
+        "MAT": {
+          "precision": 0.985239852398524,
+          "recall": 0.8754098360655738,
+          "f1": 0.9270833333333334
+        },
+        "mean": {
+          "precision": 0.9581572123643509,
+          "recall": 0.9012405555389883,
+          "f1": 0.9280759722682577
+        }
+      }
+    },
+    "anchor128": {
+      "config": {
+        "name": "anchor128",
+        "comment": "anchor128",
+        "gate": "skip",
+        "pool": "max",
+        "comment_vul_mix": 0.0,
+        "code": "",
+        "margin": 0.1,
+        "code_mix": 0.25,
+        "first": "",
+        "first_scope": "long"
+      },
+      "scores": {
+        "vulnerability": {
+          "precision": 0.9310745723301778,
+          "recall": 0.9270712750124028,
+          "f1": 0.929068611203182
+        },
+        "MAT": {
+          "precision": 0.985239852398524,
+          "recall": 0.8754098360655738,
+          "f1": 0.9270833333333334
+        },
+        "mean": {
+          "precision": 0.9581572123643509,
+          "recall": 0.9012405555389883,
+          "f1": 0.9280759722682577
+        }
+      },
+      "extra_windows": 149,
+      "analytic_gflops": 380393.07938304,
+      "projected_public_cost_formula": 0.9179790724067096,
+      "calibrated_thresholds_diagnostic": [
+        0.7,
+        0.5
+      ],
+      "calibrated_scores_diagnostic": {
+        "vulnerability": {
+          "precision": 0.9310745723301778,
+          "recall": 0.9270712750124028,
+          "f1": 0.929068611203182
+        },
+        "MAT": {
+          "precision": 0.985239852398524,
+          "recall": 0.8754098360655738,
+          "f1": 0.9270833333333334
+        },
+        "mean": {
+          "precision": 0.9581572123643509,
+          "recall": 0.9012405555389883,
+          "f1": 0.9280759722682577
+        }
+      }
+    },
+    "packed128": {
+      "config": {
+        "name": "packed128",
+        "comment": "packed128",
+        "gate": "skip",
+        "pool": "max",
+        "comment_vul_mix": 0.0,
+        "code": "",
+        "margin": 0.1,
+        "code_mix": 0.25,
+        "first": "",
+        "first_scope": "long"
+      },
+      "scores": {
+        "vulnerability": {
+          "precision": 0.9310745723301778,
+          "recall": 0.9270712750124028,
+          "f1": 0.929068611203182
+        },
+        "MAT": {
+          "precision": 0.985239852398524,
+          "recall": 0.8754098360655738,
+          "f1": 0.9270833333333334
+        },
+        "mean": {
+          "precision": 0.9581572123643509,
+          "recall": 0.9012405555389883,
+          "f1": 0.9280759722682577
+        }
+      },
+      "extra_windows": 149,
+      "analytic_gflops": 380393.07938304,
+      "projected_public_cost_formula": 0.9179790724067096,
+      "calibrated_thresholds_diagnostic": [
+        0.7,
+        0.5
+      ],
+      "calibrated_scores_diagnostic": {
+        "vulnerability": {
+          "precision": 0.9310745723301778,
+          "recall": 0.9270712750124028,
+          "f1": 0.929068611203182
+        },
+        "MAT": {
+          "precision": 0.985239852398524,
+          "recall": 0.8754098360655738,
+          "f1": 0.9270833333333334
+        },
+        "mean": {
+          "precision": 0.9581572123643509,
+          "recall": 0.9012405555389883,
+          "f1": 0.9280759722682577
+        }
+      }
+    },
+    "adaptive": {
+      "config": {
+        "name": "adaptive",
+        "comment": "adaptive",
+        "gate": "skip",
+        "pool": "max",
+        "comment_vul_mix": 0.0,
+        "code": "",
+        "margin": 0.1,
+        "code_mix": 0.25,
+        "first": "",
+        "first_scope": "long"
+      },
+      "scores": {
+        "vulnerability": {
+          "precision": 0.9310745723301778,
+          "recall": 0.9270712750124028,
+          "f1": 0.929068611203182
+        },
+        "MAT": {
+          "precision": 0.985239852398524,
+          "recall": 0.8754098360655738,
+          "f1": 0.9270833333333334
+        },
+        "mean": {
+          "precision": 0.9581572123643509,
+          "recall": 0.9012405555389883,
+          "f1": 0.9280759722682577
+        }
+      },
+      "extra_windows": 149,
+      "analytic_gflops": 379846.68574617594,
+      "projected_public_cost_formula": 0.9180348999583227,
+      "calibrated_thresholds_diagnostic": [
+        0.7,
+        0.5
+      ],
+      "calibrated_scores_diagnostic": {
+        "vulnerability": {
+          "precision": 0.9310745723301778,
+          "recall": 0.9270712750124028,
+          "f1": 0.929068611203182
+        },
+        "MAT": {
+          "precision": 0.985239852398524,
+          "recall": 0.8754098360655738,
+          "f1": 0.9270833333333334
+        },
+        "mean": {
+          "precision": 0.9581572123643509,
+          "recall": 0.9012405555389883,
+          "f1": 0.9280759722682577
+        }
+      }
+    },
+    "skip_short_fragments": {
+      "config": {
+        "name": "skip_short_fragments",
+        "comment": "cover128",
+        "gate": "evidence",
+        "pool": "max",
+        "comment_vul_mix": 0.0,
+        "code": "",
+        "margin": 0.1,
+        "code_mix": 0.25,
+        "first": "",
+        "first_scope": "long"
+      },
+      "scores": {
+        "vulnerability": {
+          "precision": 0.9310745723301778,
+          "recall": 0.9270712750124028,
+          "f1": 0.929068611203182
+        },
+        "MAT": {
+          "precision": 0.985239852398524,
+          "recall": 0.8754098360655738,
+          "f1": 0.9270833333333334
+        },
+        "mean": {
+          "precision": 0.9581572123643509,
+          "recall": 0.9012405555389883,
+          "f1": 0.9280759722682577
+        }
+      },
+      "extra_windows": 129,
+      "analytic_gflops": 380169.60680448,
+      "projected_public_cost_formula": 0.9180019056281675,
+      "calibrated_thresholds_diagnostic": [
+        0.7,
+        0.5
+      ],
+      "calibrated_scores_diagnostic": {
+        "vulnerability": {
+          "precision": 0.9310745723301778,
+          "recall": 0.9270712750124028,
+          "f1": 0.929068611203182
+        },
+        "MAT": {
+          "precision": 0.985239852398524,
+          "recall": 0.8754098360655738,
+          "f1": 0.9270833333333334
+        },
+        "mean": {
+          "precision": 0.9581572123643509,
+          "recall": 0.9012405555389883,
+          "f1": 0.9280759722682577
+        }
+      }
+    },
+    "comment_average": {
+      "config": {
+        "name": "comment_average",
+        "comment": "cover128",
+        "gate": "missing",
+        "pool": "mean",
+        "comment_vul_mix": 0.0,
+        "code": "",
+        "margin": 0.1,
+        "code_mix": 0.25,
+        "first": "",
+        "first_scope": "long"
+      },
+      "scores": {
+        "vulnerability": {
+          "precision": 0.9310745723301778,
+          "recall": 0.9270712750124028,
+          "f1": 0.929068611203182
+        },
+        "MAT": {
+          "precision": 0.985239852398524,
+          "recall": 0.8754098360655738,
+          "f1": 0.9270833333333334
+        },
+        "mean": {
+          "precision": 0.9581572123643509,
+          "recall": 0.9012405555389883,
+          "f1": 0.9280759722682577
+        }
+      },
+      "extra_windows": 157,
+      "analytic_gflops": 380482.46841446403,
+      "projected_public_cost_formula": 0.9179699391181264,
+      "calibrated_thresholds_diagnostic": [
+        0.7,
+        0.5
+      ],
+      "calibrated_scores_diagnostic": {
+        "vulnerability": {
+          "precision": 0.9310745723301778,
+          "recall": 0.9270712750124028,
+          "f1": 0.929068611203182
+        },
+        "MAT": {
+          "precision": 0.985239852398524,
+          "recall": 0.8754098360655738,
+          "f1": 0.9270833333333334
+        },
+        "mean": {
+          "precision": 0.9581572123643509,
+          "recall": 0.9012405555389883,
+          "f1": 0.9280759722682577
+        }
+      }
+    },
+    "splice_comment": {
+      "config": {
+        "name": "splice_comment",
+        "comment": "",
+        "gate": "missing",
+        "pool": "max",
+        "comment_vul_mix": 0.0,
+        "code": "",
+        "margin": 0.1,
+        "code_mix": 0.25,
+        "first": "splice_comment",
+        "first_scope": "missing"
+      },
+      "scores": {
+        "vulnerability": {
+          "precision": 0.9310402126952476,
+          "recall": 0.926575161236977,
+          "f1": 0.9288023207625362
+        },
+        "MAT": {
+          "precision": 0.9851301115241635,
+          "recall": 0.8688524590163934,
+          "f1": 0.9233449477351916
+        },
+        "mean": {
+          "precision": 0.9580851621097055,
+          "recall": 0.8977138101266853,
+          "f1": 0.9260736342488639
+        }
+      },
+      "extra_windows": 0,
+      "analytic_gflops": 378728.208672768,
+      "projected_public_cost_formula": 0.9169477770949341,
+      "calibrated_thresholds_diagnostic": [
+        0.7,
+        0.5
+      ],
+      "calibrated_scores_diagnostic": {
+        "vulnerability": {
+          "precision": 0.9310402126952476,
+          "recall": 0.926575161236977,
+          "f1": 0.9288023207625362
+        },
+        "MAT": {
+          "precision": 0.9851301115241635,
+          "recall": 0.8688524590163934,
+          "f1": 0.9233449477351916
+        },
+        "mean": {
+          "precision": 0.9580851621097055,
+          "recall": 0.8977138101266853,
+          "f1": 0.9260736342488639
+        }
+      }
+    },
+    "extend_on_comment": {
+      "config": {
+        "name": "extend_on_comment",
+        "comment": "",
+        "gate": "missing",
+        "pool": "max",
+        "comment_vul_mix": 0.0,
+        "code": "",
+        "margin": 0.1,
+        "code_mix": 0.25,
+        "first": "extend768",
+        "first_scope": "missing"
+      },
+      "scores": {
+        "vulnerability": {
+          "precision": 0.9309428950863213,
+          "recall": 0.9274020175293534,
+          "f1": 0.9291690829260211
+        },
+        "MAT": {
+          "precision": 0.985239852398524,
+          "recall": 0.8754098360655738,
+          "f1": 0.9270833333333334
+        },
+        "mean": {
+          "precision": 0.9580913737424226,
+          "recall": 0.9014059267974636,
+          "f1": 0.9281262081296773
+        }
+      },
+      "extra_windows": 0,
+      "analytic_gflops": 384828.492847104,
+      "projected_public_cost_formula": 0.9175560273244066,
+      "calibrated_thresholds_diagnostic": [
+        0.7,
+        0.5
+      ],
+      "calibrated_scores_diagnostic": {
+        "vulnerability": {
+          "precision": 0.9309428950863213,
+          "recall": 0.9274020175293534,
+          "f1": 0.9291690829260211
+        },
+        "MAT": {
+          "precision": 0.985239852398524,
+          "recall": 0.8754098360655738,
+          "f1": 0.9270833333333334
+        },
+        "mean": {
+          "precision": 0.9580913737424226,
+          "recall": 0.9014059267974636,
+          "f1": 0.9281262081296773
+        }
+      }
+    },
+    "extend_on_long": {
+      "config": {
+        "name": "extend_on_long",
+        "comment": "",
+        "gate": "missing",
+        "pool": "max",
+        "comment_vul_mix": 0.0,
+        "code": "",
+        "margin": 0.1,
+        "code_mix": 0.25,
+        "first": "extend768",
+        "first_scope": "long"
+      },
+      "scores": {
+        "vulnerability": {
+          "precision": 0.9329460580912863,
+          "recall": 0.929551843889532,
+          "f1": 0.931245858184228
+        },
+        "MAT": {
+          "precision": 0.985239852398524,
+          "recall": 0.8754098360655738,
+          "f1": 0.9270833333333334
+        },
+        "mean": {
+          "precision": 0.9590929552449051,
+          "recall": 0.9024808399775529,
+          "f1": 0.9291645957587806
+        }
+      },
+      "extra_windows": 0,
+      "analytic_gflops": 392441.418934272,
+      "projected_public_cost_formula": 0.9174012122195694,
+      "calibrated_thresholds_diagnostic": [
+        0.7,
+        0.5
+      ],
+      "calibrated_scores_diagnostic": {
+        "vulnerability": {
+          "precision": 0.9329460580912863,
+          "recall": 0.929551843889532,
+          "f1": 0.931245858184228
+        },
+        "MAT": {
+          "precision": 0.985239852398524,
+          "recall": 0.8754098360655738,
+          "f1": 0.9270833333333334
+        },
+        "mean": {
+          "precision": 0.9590929552449051,
+          "recall": 0.9024808399775529,
+          "f1": 0.9291645957587806
+        }
+      }
+    },
+    "splice_tail": {
+      "config": {
+        "name": "splice_tail",
+        "comment": "",
+        "gate": "missing",
+        "pool": "max",
+        "comment_vul_mix": 0.0,
+        "code": "",
+        "margin": 0.1,
+        "code_mix": 0.25,
+        "first": "splice_tail",
+        "first_scope": "long"
+      },
+      "scores": {
+        "vulnerability": {
+          "precision": 0.9318900915903414,
+          "recall": 0.92541756242765,
+          "f1": 0.9286425489545304
+        },
+        "MAT": {
+          "precision": 0.9847328244274809,
+          "recall": 0.8459016393442623,
+          "f1": 0.91005291005291
+        },
+        "mean": {
+          "precision": 0.9583114580089112,
+          "recall": 0.8856596008859562,
+          "f1": 0.9193477295037202
+        }
+      },
+      "extra_windows": 0,
+      "analytic_gflops": 378728.208672768,
+      "projected_public_cost_formula": 0.912912234247848,
+      "calibrated_thresholds_diagnostic": [
+        0.7,
+        0.5
+      ],
+      "calibrated_scores_diagnostic": {
+        "vulnerability": {
+          "precision": 0.9318900915903414,
+          "recall": 0.92541756242765,
+          "f1": 0.9286425489545304
+        },
+        "MAT": {
+          "precision": 0.9847328244274809,
+          "recall": 0.8459016393442623,
+          "f1": 0.91005291005291
+        },
+        "mean": {
+          "precision": 0.9583114580089112,
+          "recall": 0.8856596008859562,
+          "f1": 0.9193477295037202
+        }
+      }
+    },
+    "comment_tail128_0.08_0.25": {
+      "config": {
+        "name": "comment_tail128_0.08_0.25",
+        "comment": "cover128",
+        "gate": "skip",
+        "pool": "max",
+        "comment_vul_mix": 0.0,
+        "code": "tail128",
+        "margin": 0.08,
+        "code_mix": 0.25,
+        "first": "",
+        "first_scope": "long"
+      },
+      "scores": {
+        "vulnerability": {
+          "precision": 0.9319580768590917,
+          "recall": 0.9264097899785018,
+          "f1": 0.9291756510200697
+        },
+        "MAT": {
+          "precision": 0.985239852398524,
+          "recall": 0.8754098360655738,
+          "f1": 0.9270833333333334
+        },
+        "mean": {
+          "precision": 0.9585989646288078,
+          "recall": 0.9009098130220378,
+          "f1": 0.9281294921767016
+        }
+      },
+      "extra_windows": 187,
+      "analytic_gflops": 380817.67728230404,
+      "projected_public_cost_formula": 0.9179678012310062,
+      "calibrated_thresholds_diagnostic": [
+        0.7,
+        0.5
+      ],
+      "calibrated_scores_diagnostic": {
+        "vulnerability": {
+          "precision": 0.9319580768590917,
+          "recall": 0.9264097899785018,
+          "f1": 0.9291756510200697
+        },
+        "MAT": {
+          "precision": 0.985239852398524,
+          "recall": 0.8754098360655738,
+          "f1": 0.9270833333333334
+        },
+        "mean": {
+          "precision": 0.9585989646288078,
+          "recall": 0.9009098130220378,
+          "f1": 0.9281294921767016
+        }
+      }
+    },
+    "comment_tail128_0.08_0.50": {
+      "config": {
+        "name": "comment_tail128_0.08_0.50",
+        "comment": "cover128",
+        "gate": "skip",
+        "pool": "max",
+        "comment_vul_mix": 0.0,
+        "code": "tail128",
+        "margin": 0.08,
+        "code_mix": 0.5,
+        "first": "",
+        "first_scope": "long"
+      },
+      "scores": {
+        "vulnerability": {
+          "precision": 0.9321131447587354,
+          "recall": 0.9264097899785018,
+          "f1": 0.9292527162644107
+        },
+        "MAT": {
+          "precision": 0.985239852398524,
+          "recall": 0.8754098360655738,
+          "f1": 0.9270833333333334
+        },
+        "mean": {
+          "precision": 0.9586764985786297,
+          "recall": 0.9009098130220378,
+          "f1": 0.9281680247988721
+        }
+      },
+      "extra_windows": 187,
+      "analytic_gflops": 380817.67728230404,
+      "projected_public_cost_formula": 0.9179909208043084,
+      "calibrated_thresholds_diagnostic": [
+        0.7,
+        0.5
+      ],
+      "calibrated_scores_diagnostic": {
+        "vulnerability": {
+          "precision": 0.9321131447587354,
+          "recall": 0.9264097899785018,
+          "f1": 0.9292527162644107
+        },
+        "MAT": {
+          "precision": 0.985239852398524,
+          "recall": 0.8754098360655738,
+          "f1": 0.9270833333333334
+        },
+        "mean": {
+          "precision": 0.9586764985786297,
+          "recall": 0.9009098130220378,
+          "f1": 0.9281680247988721
+        }
+      }
+    },
+    "comment_tail128_0.18_0.25": {
+      "config": {
+        "name": "comment_tail128_0.18_0.25",
+        "comment": "cover128",
+        "gate": "skip",
+        "pool": "max",
+        "comment_vul_mix": 0.0,
+        "code": "tail128",
+        "margin": 0.18,
+        "code_mix": 0.25,
+        "first": "",
+        "first_scope": "long"
+      },
+      "scores": {
+        "vulnerability": {
+          "precision": 0.9329441201000834,
+          "recall": 0.9249214486522243,
+          "f1": 0.9289154625477496
+        },
+        "MAT": {
+          "precision": 0.985239852398524,
+          "recall": 0.8754098360655738,
+          "f1": 0.9270833333333334
+        },
+        "mean": {
+          "precision": 0.9590919862493037,
+          "recall": 0.9001656423588991,
+          "f1": 0.9279993979405414
+        }
+      },
+      "extra_windows": 223,
+      "analytic_gflops": 381219.927923712,
+      "projected_public_cost_formula": 0.917848644890686,
+      "calibrated_thresholds_diagnostic": [
+        0.7,
+        0.5
+      ],
+      "calibrated_scores_diagnostic": {
+        "vulnerability": {
+          "precision": 0.9329441201000834,
+          "recall": 0.9249214486522243,
+          "f1": 0.9289154625477496
+        },
+        "MAT": {
+          "precision": 0.985239852398524,
+          "recall": 0.8754098360655738,
+          "f1": 0.9270833333333334
+        },
+        "mean": {
+          "precision": 0.9590919862493037,
+          "recall": 0.9001656423588991,
+          "f1": 0.9279993979405414
+        }
+      }
+    },
+    "comment_tail128_0.18_0.50": {
+      "config": {
+        "name": "comment_tail128_0.18_0.50",
+        "comment": "cover128",
+        "gate": "skip",
+        "pool": "max",
+        "comment_vul_mix": 0.0,
+        "code": "tail128",
+        "margin": 0.18,
+        "code_mix": 0.5,
+        "first": "",
+        "first_scope": "long"
+      },
+      "scores": {
+        "vulnerability": {
+          "precision": 0.9329217420323711,
+          "recall": 0.9245907061352737,
+          "f1": 0.9287375415282392
+        },
+        "MAT": {
+          "precision": 0.985239852398524,
+          "recall": 0.8754098360655738,
+          "f1": 0.9270833333333334
+        },
+        "mean": {
+          "precision": 0.9590807972154476,
+          "recall": 0.9000002711004238,
+          "f1": 0.9279104374307863
+        }
+      },
+      "extra_windows": 223,
+      "analytic_gflops": 381219.927923712,
+      "projected_public_cost_formula": 0.9177952685848328,
+      "calibrated_thresholds_diagnostic": [
+        0.7,
+        0.5
+      ],
+      "calibrated_scores_diagnostic": {
+        "vulnerability": {
+          "precision": 0.9329217420323711,
+          "recall": 0.9245907061352737,
+          "f1": 0.9287375415282392
+        },
+        "MAT": {
+          "precision": 0.985239852398524,
+          "recall": 0.8754098360655738,
+          "f1": 0.9270833333333334
+        },
+        "mean": {
+          "precision": 0.9590807972154476,
+          "recall": 0.9000002711004238,
+          "f1": 0.9279104374307863
+        }
+      }
+    },
+    "comment_tail256_0.08_0.25": {
+      "config": {
+        "name": "comment_tail256_0.08_0.25",
+        "comment": "cover128",
+        "gate": "skip",
+        "pool": "max",
+        "comment_vul_mix": 0.0,
+        "code": "tail256",
+        "margin": 0.08,
+        "code_mix": 0.25,
+        "first": "",
+        "first_scope": "long"
+      },
+      "scores": {
+        "vulnerability": {
+          "precision": 0.9316594612570669,
+          "recall": 0.926575161236977,
+          "f1": 0.9291103556918995
+        },
+        "MAT": {
+          "precision": 0.985239852398524,
+          "recall": 0.8754098360655738,
+          "f1": 0.9270833333333334
+        },
+        "mean": {
+          "precision": 0.9584496568277954,
+          "recall": 0.9009924986512754,
+          "f1": 0.9280968445126164
+        }
+      },
+      "extra_windows": 187,
+      "analytic_gflops": 381265.22629632003,
+      "projected_public_cost_formula": 0.9179024844908024,
+      "calibrated_thresholds_diagnostic": [
+        0.7,
+        0.5
+      ],
+      "calibrated_scores_diagnostic": {
+        "vulnerability": {
+          "precision": 0.9316594612570669,
+          "recall": 0.926575161236977,
+          "f1": 0.9291103556918995
+        },
+        "MAT": {
+          "precision": 0.985239852398524,
+          "recall": 0.8754098360655738,
+          "f1": 0.9270833333333334
+        },
+        "mean": {
+          "precision": 0.9584496568277954,
+          "recall": 0.9009924986512754,
+          "f1": 0.9280968445126164
+        }
+      }
+    },
+    "comment_tail256_0.08_0.50": {
+      "config": {
+        "name": "comment_tail256_0.08_0.50",
+        "comment": "cover128",
+        "gate": "skip",
+        "pool": "max",
+        "comment_vul_mix": 0.0,
+        "code": "tail256",
+        "margin": 0.08,
+        "code_mix": 0.5,
+        "first": "",
+        "first_scope": "long"
+      },
+      "scores": {
+        "vulnerability": {
+          "precision": 0.9319807084649925,
+          "recall": 0.9267405324954523,
+          "f1": 0.9293532338308458
+        },
+        "MAT": {
+          "precision": 0.985239852398524,
+          "recall": 0.8754098360655738,
+          "f1": 0.9270833333333334
+        },
+        "mean": {
+          "precision": 0.9586102804317582,
+          "recall": 0.901075184280513,
+          "f1": 0.9282182835820896
+        }
+      },
+      "extra_windows": 187,
+      "analytic_gflops": 381265.22629632003,
+      "projected_public_cost_formula": 0.9179753479324861,
+      "calibrated_thresholds_diagnostic": [
+        0.7,
+        0.5
+      ],
+      "calibrated_scores_diagnostic": {
+        "vulnerability": {
+          "precision": 0.9319807084649925,
+          "recall": 0.9267405324954523,
+          "f1": 0.9293532338308458
+        },
+        "MAT": {
+          "precision": 0.985239852398524,
+          "recall": 0.8754098360655738,
+          "f1": 0.9270833333333334
+        },
+        "mean": {
+          "precision": 0.9586102804317582,
+          "recall": 0.901075184280513,
+          "f1": 0.9282182835820896
+        }
+      }
+    },
+    "comment_tail256_0.18_0.25": {
+      "config": {
+        "name": "comment_tail256_0.18_0.25",
+        "comment": "cover128",
+        "gate": "skip",
+        "pool": "max",
+        "comment_vul_mix": 0.0,
+        "code": "tail256",
+        "margin": 0.18,
+        "code_mix": 0.25,
+        "first": "",
+        "first_scope": "long"
+      },
+      "scores": {
+        "vulnerability": {
+          "precision": 0.9325449700199867,
+          "recall": 0.9259136762030759,
+          "f1": 0.9292174923242884
+        },
+        "MAT": {
+          "precision": 0.985239852398524,
+          "recall": 0.8754098360655738,
+          "f1": 0.9270833333333334
+        },
+        "mean": {
+          "precision": 0.9588924112092554,
+          "recall": 0.9006617561343249,
+          "f1": 0.928150412828811
+        }
+      },
+      "extra_windows": 223,
+      "analytic_gflops": 382091.47074048,
+      "projected_public_cost_formula": 0.9178502042844447,
+      "calibrated_thresholds_diagnostic": [
+        0.7,
+        0.5
+      ],
+      "calibrated_scores_diagnostic": {
+        "vulnerability": {
+          "precision": 0.9325449700199867,
+          "recall": 0.9259136762030759,
+          "f1": 0.9292174923242884
+        },
+        "MAT": {
+          "precision": 0.985239852398524,
+          "recall": 0.8754098360655738,
+          "f1": 0.9270833333333334
+        },
+        "mean": {
+          "precision": 0.9588924112092554,
+          "recall": 0.9006617561343249,
+          "f1": 0.928150412828811
+        }
+      }
+    },
+    "comment_tail256_0.18_0.50": {
+      "config": {
+        "name": "comment_tail256_0.18_0.50",
+        "comment": "cover128",
+        "gate": "skip",
+        "pool": "max",
+        "comment_vul_mix": 0.0,
+        "code": "tail256",
+        "margin": 0.18,
+        "code_mix": 0.5,
+        "first": "",
+        "first_scope": "long"
+      },
+      "scores": {
+        "vulnerability": {
+          "precision": 0.9328221370228371,
+          "recall": 0.92541756242765,
+          "f1": 0.9291050971276772
+        },
+        "MAT": {
+          "precision": 0.985239852398524,
+          "recall": 0.8754098360655738,
+          "f1": 0.9270833333333334
+        },
+        "mean": {
+          "precision": 0.9590309947106805,
+          "recall": 0.9004136992466119,
+          "f1": 0.9280942152305053
+        }
+      },
+      "extra_windows": 223,
+      "analytic_gflops": 382091.47074048,
+      "projected_public_cost_formula": 0.9178164857254614,
+      "calibrated_thresholds_diagnostic": [
+        0.7,
+        0.5
+      ],
+      "calibrated_scores_diagnostic": {
+        "vulnerability": {
+          "precision": 0.9328221370228371,
+          "recall": 0.92541756242765,
+          "f1": 0.9291050971276772
+        },
+        "MAT": {
+          "precision": 0.985239852398524,
+          "recall": 0.8754098360655738,
+          "f1": 0.9270833333333334
+        },
+        "mean": {
+          "precision": 0.9590309947106805,
+          "recall": 0.9004136992466119,
+          "f1": 0.9280942152305053
+        }
+      }
+    },
+    "comment_overlap256_0.08_0.25": {
+      "config": {
+        "name": "comment_overlap256_0.08_0.25",
+        "comment": "cover128",
+        "gate": "skip",
+        "pool": "max",
+        "comment_vul_mix": 0.0,
+        "code": "overlap256",
+        "margin": 0.08,
+        "code_mix": 0.25,
+        "first": "",
+        "first_scope": "long"
+      },
+      "scores": {
+        "vulnerability": {
+          "precision": 0.9321131447587354,
+          "recall": 0.9264097899785018,
+          "f1": 0.9292527162644107
+        },
+        "MAT": {
+          "precision": 0.985239852398524,
+          "recall": 0.8754098360655738,
+          "f1": 0.9270833333333334
+        },
+        "mean": {
+          "precision": 0.9586764985786297,
+          "recall": 0.9009098130220378,
+          "f1": 0.9281680247988721
+        }
+      },
+      "extra_windows": 187,
+      "analytic_gflops": 380916.434187264,
+      "projected_public_cost_formula": 0.9179808303569883,
+      "calibrated_thresholds_diagnostic": [
+        0.7,
+        0.5
+      ],
+      "calibrated_scores_diagnostic": {
+        "vulnerability": {
+          "precision": 0.9321131447587354,
+          "recall": 0.9264097899785018,
+          "f1": 0.9292527162644107
+        },
+        "MAT": {
+          "precision": 0.985239852398524,
+          "recall": 0.8754098360655738,
+          "f1": 0.9270833333333334
+        },
+        "mean": {
+          "precision": 0.9586764985786297,
+          "recall": 0.9009098130220378,
+          "f1": 0.9281680247988721
+        }
+      }
+    },
+    "comment_overlap256_0.08_0.50": {
+      "config": {
+        "name": "comment_overlap256_0.08_0.50",
+        "comment": "cover128",
+        "gate": "skip",
+        "pool": "max",
+        "comment_vul_mix": 0.0,
+        "code": "overlap256",
+        "margin": 0.08,
+        "code_mix": 0.5,
+        "first": "",
+        "first_scope": "long"
+      },
+      "scores": {
+        "vulnerability": {
+          "precision": 0.9321131447587354,
+          "recall": 0.9264097899785018,
+          "f1": 0.9292527162644107
+        },
+        "MAT": {
+          "precision": 0.985239852398524,
+          "recall": 0.8754098360655738,
+          "f1": 0.9270833333333334
+        },
+        "mean": {
+          "precision": 0.9586764985786297,
+          "recall": 0.9009098130220378,
+          "f1": 0.9281680247988721
+        }
+      },
+      "extra_windows": 187,
+      "analytic_gflops": 380916.434187264,
+      "projected_public_cost_formula": 0.9179808303569883,
+      "calibrated_thresholds_diagnostic": [
+        0.7,
+        0.5
+      ],
+      "calibrated_scores_diagnostic": {
+        "vulnerability": {
+          "precision": 0.9321131447587354,
+          "recall": 0.9264097899785018,
+          "f1": 0.9292527162644107
+        },
+        "MAT": {
+          "precision": 0.985239852398524,
+          "recall": 0.8754098360655738,
+          "f1": 0.9270833333333334
+        },
+        "mean": {
+          "precision": 0.9586764985786297,
+          "recall": 0.9009098130220378,
+          "f1": 0.9281680247988721
+        }
+      }
+    },
+    "comment_overlap256_0.18_0.25": {
+      "config": {
+        "name": "comment_overlap256_0.18_0.25",
+        "comment": "cover128",
+        "gate": "skip",
+        "pool": "max",
+        "comment_vul_mix": 0.0,
+        "code": "overlap256",
+        "margin": 0.18,
+        "code_mix": 0.25,
+        "first": "",
+        "first_scope": "long"
+      },
+      "scores": {
+        "vulnerability": {
+          "precision": 0.9332220367278798,
+          "recall": 0.9244253348767985,
+          "f1": 0.9288028578549472
+        },
+        "MAT": {
+          "precision": 0.985239852398524,
+          "recall": 0.8754098360655738,
+          "f1": 0.9270833333333334
+        },
+        "mean": {
+          "precision": 0.9592309445632019,
+          "recall": 0.899917585471186,
+          "f1": 0.9279430955941403
+        }
+      },
+      "extra_windows": 223,
+      "analytic_gflops": 381579.99553228804,
+      "projected_public_cost_formula": 0.9177780737187526,
+      "calibrated_thresholds_diagnostic": [
+        0.7,
+        0.5
+      ],
+      "calibrated_scores_diagnostic": {
+        "vulnerability": {
+          "precision": 0.9332220367278798,
+          "recall": 0.9244253348767985,
+          "f1": 0.9288028578549472
+        },
+        "MAT": {
+          "precision": 0.985239852398524,
+          "recall": 0.8754098360655738,
+          "f1": 0.9270833333333334
+        },
+        "mean": {
+          "precision": 0.9592309445632019,
+          "recall": 0.899917585471186,
+          "f1": 0.9279430955941403
+        }
+      }
+    },
+    "comment_overlap256_0.18_0.50": {
+      "config": {
+        "name": "comment_overlap256_0.18_0.50",
+        "comment": "cover128",
+        "gate": "skip",
+        "pool": "max",
+        "comment_vul_mix": 0.0,
+        "code": "overlap256",
+        "margin": 0.18,
+        "code_mix": 0.5,
+        "first": "",
+        "first_scope": "long"
+      },
+      "scores": {
+        "vulnerability": {
+          "precision": 0.9330662660657653,
+          "recall": 0.9244253348767985,
+          "f1": 0.9287257019438445
+        },
+        "MAT": {
+          "precision": 0.985239852398524,
+          "recall": 0.8754098360655738,
+          "f1": 0.9270833333333334
+        },
+        "mean": {
+          "precision": 0.9591530592321447,
+          "recall": 0.899917585471186,
+          "f1": 0.9279045176385889
+        }
+      },
+      "extra_windows": 223,
+      "analytic_gflops": 381579.99553228804,
+      "projected_public_cost_formula": 0.9177549269454218,
+      "calibrated_thresholds_diagnostic": [
+        0.7,
+        0.5
+      ],
+      "calibrated_scores_diagnostic": {
+        "vulnerability": {
+          "precision": 0.9330662660657653,
+          "recall": 0.9244253348767985,
+          "f1": 0.9287257019438445
+        },
+        "MAT": {
+          "precision": 0.985239852398524,
+          "recall": 0.8754098360655738,
+          "f1": 0.9270833333333334
+        },
+        "mean": {
+          "precision": 0.9591530592321447,
+          "recall": 0.899917585471186,
+          "f1": 0.9279045176385889
+        }
+      }
+    }
+  }
+}

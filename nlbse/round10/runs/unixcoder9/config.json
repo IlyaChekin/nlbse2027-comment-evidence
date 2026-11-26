@@ -1,0 +1,19 @@
+{
+  "family": "unixcoder9",
+  "cap": 512,
+  "batch": 64,
+  "seed": 42,
+  "epochs": 2,
+  "rows": 193100,
+  "source_layers": [
+    0,
+    2,
+    4,
+    6,
+    8,
+    10
+  ],
+  "teacher_weight": 0.26,
+  "temperature": 1.7,
+  "upstream_sha256": "e28385bb916434983692dfdd57f5c78c64f92d4a26614965d1e9d150b4a37145"
+}

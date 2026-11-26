@@ -1,0 +1,10 @@
+{
+  "rows": 214586,
+  "seconds": 18.593842739006504,
+  "train_sha256": "668a958c873060904e611bd3f45088acdbdb48631e6f626afda8ea7831fa6319",
+  "code_sha256": "fc4c32df5180b69dcd8fb6b0a87b950975e09a31bc6bc173cdb479e9fcf32019",
+  "files": {
+    "name.npz": "5dffea9c401d883e5589d81bdc6c537cea73b01d99e253e7fb4df5a61ea7f311",
+    "context.npz": "de7778aa1d75c4a4c02f380f56fa402b694bb95d7fd0dda1249406afee26c3f7"
+  }
+}

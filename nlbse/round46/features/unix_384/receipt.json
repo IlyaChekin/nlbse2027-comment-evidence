@@ -1,0 +1,20 @@
+{
+  "name": "unix_384",
+  "window_sha256": "4aa5ae03eb982b431f0eb20eace0ab1d5213ebeb173beefc199bd6dd72378e74",
+  "window_receipt_sha256": "bf6e5d3817e653b2957dea9a92ffc2a5c9d16398e1caaf6459d54d7290769d32",
+  "model_sha256": "e28385bb916434983692dfdd57f5c78c64f92d4a26614965d1e9d150b4a37145",
+  "features": {
+    "features.npy": "c2555ad23df6c0e06f6eb64c172b891967e999381c4579e92d530a33551ef8a7"
+  },
+  "rows": 84223,
+  "cost": {
+    "forward_seconds": 25.840537667274475,
+    "wall_seconds": 26.480673252837732,
+    "analytic_gflops": 2760384.8488550386
+  },
+  "padded_formula": "analytic",
+  "layers": 12,
+  "dimensions": 2304,
+  "code_sha256": "86e4669cf0f3e295d9d0ae59923a26bf6d6f58278d1c35b149ab875acb0c1167",
+  "dtype": "torch.float16"
+}

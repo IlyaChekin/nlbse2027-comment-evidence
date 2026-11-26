@@ -1,0 +1,53 @@
+{
+  "rotation": "test_b",
+  "seed": 42,
+  "steps": 1407,
+  "rows": 180019,
+  "initialization": "d230266ed3d64499dbd2dab60c93445b291d34096fc605d07b376e500868d881",
+  "weak_sha256": "a47f170d8df09d92d1ffd42c52c7eb6e73c245feed3aef612e80b47a9f06a95b",
+  "digests": {
+    "rotation": "132b1c5775346ea14c0b36a3320530bb6dc017703ae3f1334fd011769ade05ad",
+    "train": "668a958c873060904e611bd3f45088acdbdb48631e6f626afda8ea7831fa6319",
+    "fit_teacher": "95f928cfdee573d2465961cf500cac3b5ccc50b4f5686e4106360e55538fe24d",
+    "dev_teacher": "3f9a66cdea90d9a84a89e54944c20e070550173c29f6a9adaab522ae7856b451"
+  },
+  "weak_counts": [
+    55646,
+    2431,
+    8809,
+    0,
+    5852,
+    41,
+    74,
+    32800,
+    11884,
+    241,
+    534,
+    0,
+    68,
+    3784,
+    388,
+    4636,
+    0,
+    48,
+    0,
+    76
+  ],
+  "modes": {
+    "probe": {
+      "file": "probe.pt",
+      "sha256": "edb31020e2a4e6623e8c785f9e82316f4d9f4c1d07c7567a6647064150cbe338",
+      "sec": 10.838700409978628
+    },
+    "joint": {
+      "file": "joint.pt",
+      "sha256": "9401f55d15ff7de5d55f6783dd991dfa9d48fb3b70055a1bef83f372b6d399d6",
+      "sec": 21.9517709298525
+    },
+    "factor": {
+      "file": "factor.pt",
+      "sha256": "7360472a41022c1b7c5f953e877480efd6cf09b4828bdc9ebc4f26b87d2a7d6f",
+      "sec": 24.649609696120024
+    }
+  }
+}

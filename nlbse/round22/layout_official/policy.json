@@ -1,0 +1,195 @@
+{
+  "selected": "reference",
+  "recipes": {
+    "all_1": {
+      "mode": "all",
+      "weight": 1.0,
+      "threshold": 0.2782089114189148,
+      "cal": {
+        "before": {
+          "tp": 1337,
+          "fp": 100,
+          "fn": 51,
+          "tn": 2804
+        },
+        "after": {
+          "tp": 1337,
+          "fp": 100,
+          "fn": 51,
+          "tn": 2804
+        },
+        "delta_tp": 0,
+        "delta_fp": 0,
+        "f1_before": 0.9465486725663717,
+        "f1_after": 0.9465486725663717
+      },
+      "review": {
+        "before": {
+          "tp": 1327,
+          "fp": 104,
+          "fn": 56,
+          "tn": 2807
+        },
+        "after": {
+          "tp": 1327,
+          "fp": 101,
+          "fn": 56,
+          "tn": 2810
+        },
+        "delta_tp": 0,
+        "delta_fp": -3,
+        "f1_before": 0.9431414356787491,
+        "f1_after": 0.944147990039132
+      },
+      "proxy": -0.00030131387887293655,
+      "cal_quality_gain": 0.0,
+      "cal_seconds": 0.21093445899896324,
+      "cal_queries": 375,
+      "cal_review_queries": 737
+    },
+    "all_0.5": {
+      "mode": "all",
+      "weight": 0.5,
+      "threshold": 0.27212706208229065,
+      "cal": {
+        "before": {
+          "tp": 1337,
+          "fp": 100,
+          "fn": 51,
+          "tn": 2804
+        },
+        "after": {
+          "tp": 1337,
+          "fp": 100,
+          "fn": 51,
+          "tn": 2804
+        },
+        "delta_tp": 0,
+        "delta_fp": 0,
+        "f1_before": 0.9465486725663717,
+        "f1_after": 0.9465486725663717
+      },
+      "review": {
+        "before": {
+          "tp": 1327,
+          "fp": 104,
+          "fn": 56,
+          "tn": 2807
+        },
+        "after": {
+          "tp": 1327,
+          "fp": 102,
+          "fn": 56,
+          "tn": 2809
+        },
+        "delta_tp": 0,
+        "delta_fp": -2,
+        "f1_before": 0.9431414356787491,
+        "f1_after": 0.9438122332859175
+      },
+      "proxy": -0.00030131387887293655,
+      "cal_quality_gain": 0.0,
+      "cal_seconds": 0.21093445899896324,
+      "cal_queries": 375,
+      "cal_review_queries": 737
+    },
+    "near_1": {
+      "mode": "near",
+      "weight": 1.0,
+      "threshold": 0.2782089114189148,
+      "cal": {
+        "before": {
+          "tp": 1337,
+          "fp": 100,
+          "fn": 51,
+          "tn": 2804
+        },
+        "after": {
+          "tp": 1337,
+          "fp": 100,
+          "fn": 51,
+          "tn": 2804
+        },
+        "delta_tp": 0,
+        "delta_fp": 0,
+        "f1_before": 0.9465486725663717,
+        "f1_after": 0.9465486725663717
+      },
+      "review": {
+        "before": {
+          "tp": 1327,
+          "fp": 104,
+          "fn": 56,
+          "tn": 2807
+        },
+        "after": {
+          "tp": 1327,
+          "fp": 101,
+          "fn": 56,
+          "tn": 2810
+        },
+        "delta_tp": 0,
+        "delta_fp": -3,
+        "f1_before": 0.9431414356787491,
+        "f1_after": 0.944147990039132
+      },
+      "proxy": -0.0001114742762476092,
+      "cal_quality_gain": 0.0,
+      "cal_seconds": 0.0780374479945749,
+      "cal_queries": 39,
+      "cal_review_queries": 76
+    },
+    "near_0.5": {
+      "mode": "near",
+      "weight": 0.5,
+      "threshold": 0.27212706208229065,
+      "cal": {
+        "before": {
+          "tp": 1337,
+          "fp": 100,
+          "fn": 51,
+          "tn": 2804
+        },
+        "after": {
+          "tp": 1337,
+          "fp": 100,
+          "fn": 51,
+          "tn": 2804
+        },
+        "delta_tp": 0,
+        "delta_fp": 0,
+        "f1_before": 0.9465486725663717,
+        "f1_after": 0.9465486725663717
+      },
+      "review": {
+        "before": {
+          "tp": 1327,
+          "fp": 104,
+          "fn": 56,
+          "tn": 2807
+        },
+        "after": {
+          "tp": 1327,
+          "fp": 102,
+          "fn": 56,
+          "tn": 2809
+        },
+        "delta_tp": 0,
+        "delta_fp": -2,
+        "f1_before": 0.9431414356787491,
+        "f1_after": 0.9438122332859175
+      },
+      "proxy": -0.0001114742762476092,
+      "cal_quality_gain": 0.0,
+      "cal_seconds": 0.0780374479945749,
+      "cal_queries": 39,
+      "cal_review_queries": 76
+    }
+  },
+  "rule": "783",
+  "source_threshold": 0.2649885416030884,
+  "source_policy_sha256": "56fe94ac47fe038772f83a799f8e0f80a77776e157076cbb6f2323e5e586a952",
+  "head_sha256": "810d2f0465bcdef8421bcba9dd507b885b0f1c266336829a854c87ed74995b2e",
+  "holdout_sha256": "5ca27d13ff69a5984127744e94894a23ab6a39678858133df871f604121fd424",
+  "script_sha256": "108a7384661389ed0e352e61f2c2b5c6ec39b009c238c3be0d9b68b17df5deb6"
+}

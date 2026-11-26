@@ -1,0 +1,13 @@
+{
+  "family": "compact",
+  "epochs": 5,
+  "seed": 42,
+  "batch": 128,
+  "fit_rows": 153628,
+  "input_checkpoint": "968fb0f45e1efc8cf3dd50012d1f82ad82098107cbadde2c0fdd8e61bac02908",
+  "model_dimensions": 256,
+  "protocol": "project_disjoint",
+  "partition_sha256": "2823097d9b25fadebffcc6a3daa50034854d7a59c5df5c90d4e6d6d48231cfc9",
+  "teacher": "95f928cfdee573d2465961cf500cac3b5ccc50b4f5686e4106360e55538fe24d",
+  "augmented_probability": 0.0
+}

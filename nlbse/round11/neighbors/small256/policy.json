@@ -1,0 +1,24 @@
+{
+  "selected": {
+    "name": "logistic",
+    "threshold": 0.5750000000000003,
+    "calibration": 0.9170659786214522,
+    "review": 0.9139268562984854
+  },
+  "reevaluation": [
+    {
+      "name": "logistic",
+      "threshold": 0.5750000000000003,
+      "calibration": 0.9170659786214522,
+      "review": 0.9139268562984854
+    },
+    {
+      "name": "trees",
+      "threshold": 0.4750000000000002,
+      "calibration": 0.9156102861282144,
+      "review": 0.909686817188638
+    }
+  ],
+  "baseline_review": 0.9127864005912787,
+  "checkpoint_sha256": "8c1ee2dfdcec3be4614b8e7e9c29967384ede0d0785f80160297c47ef0c0e01c"
+}

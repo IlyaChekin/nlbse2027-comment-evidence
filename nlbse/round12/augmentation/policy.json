@@ -1,0 +1,38 @@
+{
+  "recipes": {
+    "aug_raw": {
+      "objective": 0.8443537457049317,
+      "pooled_f1": 0.8360425446518162,
+      "cutoff": 0.43595505617977526
+    },
+    "aug_norm": {
+      "objective": 0.8459018286444138,
+      "pooled_f1": 0.8416801292407108,
+      "cutoff": 0.5079213483146068
+    },
+    "aug_mean": {
+      "objective": 0.8463341521273238,
+      "pooled_f1": 0.8414016609276889,
+      "cutoff": 0.5
+    }
+  },
+  "frozen": "aug_mean",
+  "development_costs": {
+    "aug_raw": {
+      "wall_seconds": 1.0576158910989761,
+      "forward_seconds": 0.5046551125124097,
+      "analytic_gflops": 2839.046352416
+    },
+    "aug_norm": {
+      "wall_seconds": 1.3130727808456868,
+      "forward_seconds": 0.268241933779791,
+      "analytic_gflops": 3043.87413968,
+      "normalization_seconds": 0.317590988939628
+    },
+    "aug_mean": {
+      "wall_seconds": 2.370688671944663,
+      "forward_seconds": 0.7728970462922007,
+      "analytic_gflops": 5882.920492096
+    }
+  }
+}

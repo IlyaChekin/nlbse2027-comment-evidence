@@ -1,0 +1,27 @@
+{
+  "modes": {
+    "truth_head": {
+      "checkpoint": "truth_head.pt",
+      "sha256": "123ba0a66b69b2a81c870e22c2ab479c6dcaef7d6a18a7f52e878400d8ce63d4"
+    },
+    "advised_head": {
+      "checkpoint": "advised_head.pt",
+      "sha256": "3238e8c5664317acb49ba41de70e7cf259abab9fdb7060c9003677cdcdd50cd8"
+    }
+  },
+  "rows": 104210,
+  "positive": 2724,
+  "cohort_sha256": "c5d74ea7f7e5ce182168c6a2b2172f4d06a57b53cfc67b61beecc9ae1a803f63",
+  "teacher_digests": {
+    "rotation": "bdfd7027975f3ee940a1ef0caba0fb1db091b4b286484023feab3f081c4bf278",
+    "train": "668a958c873060904e611bd3f45088acdbdb48631e6f626afda8ea7831fa6319",
+    "fit_teacher": "95f928cfdee573d2465961cf500cac3b5ccc50b4f5686e4106360e55538fe24d",
+    "test_teacher": "d3e806123ac37f367fb5c48c595fefa69e705bbb4fdbfc9634d2a43f27d66428"
+  },
+  "rank": 64,
+  "mix": 0.5,
+  "seeds": [
+    42
+  ],
+  "code_sha256": "5cb9dfc7479133a6a908884cbe2a6c05766aff610ac0a0e9bd1fd4be0947d536"
+}

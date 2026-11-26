@@ -1,0 +1,82 @@
+{
+  "config": {
+    "epochs": 1,
+    "seed": 42,
+    "rows": 160035,
+    "steps": 1251,
+    "warmup": 0.04,
+    "lr_emb": 0.00012,
+    "lr_model": 0.00025,
+    "weight_decay": 0.025,
+    "normalize_probability": 0.45,
+    "temperature": 0.15,
+    "project_mix": 0.7,
+    "smoothing": 0.07,
+    "weight_cap": 8.0,
+    "distillation_temperature": 1.7
+  },
+  "source_sha256": "d230266ed3d64499dbd2dab60c93445b291d34096fc605d07b376e500868d881",
+  "teacher_and_data": {
+    "rotation": "bdfd7027975f3ee940a1ef0caba0fb1db091b4b286484023feab3f081c4bf278",
+    "train": "668a958c873060904e611bd3f45088acdbdb48631e6f626afda8ea7831fa6319",
+    "fit_teacher": "95f928cfdee573d2465961cf500cac3b5ccc50b4f5686e4106360e55538fe24d",
+    "test_teacher": "d3e806123ac37f367fb5c48c595fefa69e705bbb4fdbfc9634d2a43f27d66428"
+  },
+  "group_rows": {
+    "android": 1649,
+    "file": 47,
+    "imagemagick": 356,
+    "krb5": 165,
+    "linux": 153628,
+    "mozilla firefox": 3180,
+    "php": 741,
+    "radare2": 269
+  },
+  "modes": {
+    "pooled": {
+      "checkpoint": "pooled.pt",
+      "sha256": "ebf835b07781cc16545354a83ac264288caa3e3346aa7c846a5f9ad8f271644f",
+      "seconds": 17.523267321987078,
+      "group_weights": {
+        "android": 1.0,
+        "file": 1.0,
+        "imagemagick": 1.0,
+        "krb5": 1.0,
+        "linux": 1.0,
+        "mozilla firefox": 1.0,
+        "php": 1.0,
+        "radare2": 1.0
+      }
+    },
+    "balanced": {
+      "checkpoint": "balanced.pt",
+      "sha256": "54296a471cecf04e75866e232a79d046b63cf56b865a4b081e18d8789d0a99fb",
+      "seconds": 17.755677012959495,
+      "group_weights": {
+        "android": 5.273001194000244,
+        "file": 8.222838401794434,
+        "imagemagick": 8.222838401794434,
+        "krb5": 8.222838401794434,
+        "linux": 0.8227118849754333,
+        "mozilla firefox": 3.883429765701294,
+        "php": 7.71445369720459,
+        "radare2": 8.222838401794434
+      }
+    },
+    "robust": {
+      "checkpoint": "robust.pt",
+      "sha256": "c4ace037791e5a59109798f8908961e9404281d766e61cced18be6375e637c96",
+      "seconds": 18.068365985061973,
+      "group_weights": {
+        "android": 16.245025634765625,
+        "file": 5.83774995803833,
+        "imagemagick": 16.245025634765625,
+        "krb5": 16.245025634765625,
+        "linux": 0.6845857501029968,
+        "mozilla firefox": 1.7825989723205566,
+        "php": 16.245025634765625,
+        "radare2": 6.0637593269348145
+      }
+    }
+  }
+}

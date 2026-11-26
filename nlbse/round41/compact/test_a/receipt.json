@@ -1,0 +1,36 @@
+{
+  "rotation": "test_a",
+  "folds": {
+    "0": {
+      "rows": 31988,
+      "mse_before": 0.4654148519039154,
+      "mse_after": 0.10539621859788895,
+      "encoder_sha256": "34228dc18662ff21876a9f16a812df922df6634f3799d41f27bfab97b6bdd65a"
+    },
+    "1": {
+      "rows": 30603,
+      "mse_before": 0.4515703022480011,
+      "mse_after": 0.10480454564094543,
+      "encoder_sha256": "4d406e6d9857ce127d5341c7b5c5af10c5504c59a6c750a58abfa0fb7932cd1d"
+    },
+    "2": {
+      "rows": 32608,
+      "mse_before": 0.4438212215900421,
+      "mse_after": 0.10846950113773346,
+      "encoder_sha256": "e5ecac48c9a3852f8d1090b203b2d56f98be9688b7f4cd90a398711b4f708cd0"
+    },
+    "3": {
+      "rows": 31501,
+      "mse_before": 0.4468595087528229,
+      "mse_after": 0.1071082279086113,
+      "encoder_sha256": "543499b68cf8b57ca7ea5db8ddbc76494cb54ffc51adf517a690d39b2dd86d9d"
+    }
+  },
+  "matrix_sha256": "1ab131c284d8a7e0e0334cf45dbc8f2b34ffa528a69a62ecfd26ff57e399e4e7",
+  "state_sha256": "30b4084bfd1347ed75d80ce8026fce422434c46387348e6f8bc09f2931b0f9d0",
+  "alignment_sha256": "2cd7c3b15a1104ee706f7a69e46f275e59a21b6efc00d7e8bd907064bd69e6a2",
+  "code_sha256": "2ad17357357103c13b272a3c52577f8f187afb1db44fb7eb0505902a0ca97f1f",
+  "model_receipt_sha256": "f30f144deb586c337a2e9f1bcd5b1398107c454e04539d09da5b5e8d48af6ec0",
+  "seconds": 25.777026758994907,
+  "regularization": 3.5
+}

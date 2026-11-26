@@ -1,0 +1,54 @@
+{
+  "rotation": "official",
+  "names": [
+    "head",
+    "body",
+    "middle",
+    "tail"
+  ],
+  "span": 1.8,
+  "fit_rows": 15801,
+  "times": {
+    "0": {
+      "seconds": 2.836583277909085,
+      "wall_seconds": 3.2575361570343375,
+      "gflops": 207268.52859187193,
+      "windows": 9111
+    },
+    "1": {
+      "seconds": 2.4149672558996826,
+      "wall_seconds": 2.7557298701722175,
+      "gflops": 193926.34422988794,
+      "windows": 8603
+    },
+    "2": {
+      "seconds": 2.8475004613865167,
+      "wall_seconds": 3.234052974032238,
+      "gflops": 218292.70855987188,
+      "windows": 9745
+    },
+    "3": {
+      "seconds": 2.5736015303991735,
+      "wall_seconds": 2.9343673379626125,
+      "gflops": 205838.45449727992,
+      "windows": 9176
+    },
+    "dev": {
+      "seconds": 0.5578371302690357,
+      "wall_seconds": 0.7406514589674771,
+      "gflops": 49091.748476928005,
+      "windows": 2234
+    }
+  },
+  "head_absolute_error": [
+    0.0,
+    0.001953125,
+    0.0078125,
+    0.0078125
+  ],
+  "teacher_sha256": "3c209a8460890cb8236a4bb96f69909b28e5b12a7553e9a01993f0f93dc07755",
+  "teacher_recipe_sha256": "e84bcaf183c9c19706058a011966773d851d3c6eb0778bc943278b48b8f088a3",
+  "points_sha256": "fcb614e442ae3fd2cf5c29d42ee63bff99c84dc3976ce881262ee7e1ea3b36e9",
+  "predictions_sha256": "61d491df21f3b831bdd44e7a6fe8cb0b3ca072d7e9113d733863fa3316dce24d",
+  "code_sha256": "98689aa2478113d634900c604a1c75ca90603ea90c8b561347781cc35054b759"
+}

@@ -1,0 +1,185 @@
+{
+  "selected": "canonical",
+  "metrics": {
+    "fit": {
+      "union_lexical": {
+        "base": {
+          "tp": 1845,
+          "fp": 3,
+          "fn": 338,
+          "f1": 0.9154056065492434
+        },
+        "candidate": {
+          "tp": 1879,
+          "fp": 3,
+          "fn": 304,
+          "f1": 0.9244772447724477
+        },
+        "recovered": 34,
+        "lost": 0,
+        "extra_fp": 0,
+        "recovered_by_word_join": 8,
+        "recovered_by_lexical_suffix_prefix": 26,
+        "recovered_by_loose_comment_parse": 0,
+        "recovered_with_anchor": 3
+      },
+      "replace_upstream": {
+        "base": {
+          "tp": 1845,
+          "fp": 3,
+          "fn": 338,
+          "f1": 0.9154056065492434
+        },
+        "candidate": {
+          "tp": 1881,
+          "fp": 0,
+          "fn": 302,
+          "f1": 0.9256889763779528
+        },
+        "recovered": 36,
+        "lost": 0,
+        "extra_fp": -3,
+        "recovered_by_word_join": 8,
+        "recovered_by_lexical_suffix_prefix": 26,
+        "recovered_by_loose_comment_parse": 2,
+        "recovered_with_anchor": 3
+      }
+    },
+    "dev": {
+      "union_lexical": {
+        "base": {
+          "tp": 271,
+          "fp": 0,
+          "fn": 51,
+          "f1": 0.9139966273187183
+        },
+        "candidate": {
+          "tp": 278,
+          "fp": 0,
+          "fn": 44,
+          "f1": 0.9266666666666666
+        },
+        "recovered": 7,
+        "lost": 0,
+        "extra_fp": 0,
+        "recovered_by_word_join": 3,
+        "recovered_by_lexical_suffix_prefix": 4,
+        "recovered_by_loose_comment_parse": 0,
+        "recovered_with_anchor": 0
+      },
+      "replace_upstream": {
+        "base": {
+          "tp": 271,
+          "fp": 0,
+          "fn": 51,
+          "f1": 0.9139966273187183
+        },
+        "candidate": {
+          "tp": 278,
+          "fp": 0,
+          "fn": 44,
+          "f1": 0.9266666666666666
+        },
+        "recovered": 7,
+        "lost": 0,
+        "extra_fp": 0,
+        "recovered_by_word_join": 3,
+        "recovered_by_lexical_suffix_prefix": 4,
+        "recovered_by_loose_comment_parse": 0,
+        "recovered_with_anchor": 0
+      }
+    },
+    "test_a": {
+      "union_lexical": {
+        "base": {
+          "tp": 746,
+          "fp": 2,
+          "fn": 84,
+          "f1": 0.9455006337135615
+        },
+        "candidate": {
+          "tp": 753,
+          "fp": 2,
+          "fn": 77,
+          "f1": 0.9501577287066246
+        },
+        "recovered": 7,
+        "lost": 0,
+        "extra_fp": 0,
+        "recovered_by_word_join": 4,
+        "recovered_by_lexical_suffix_prefix": 3,
+        "recovered_by_loose_comment_parse": 0,
+        "recovered_with_anchor": 0
+      },
+      "replace_upstream": {
+        "base": {
+          "tp": 746,
+          "fp": 2,
+          "fn": 84,
+          "f1": 0.9455006337135615
+        },
+        "candidate": {
+          "tp": 753,
+          "fp": 0,
+          "fn": 77,
+          "f1": 0.9513581806696146
+        },
+        "recovered": 7,
+        "lost": 0,
+        "extra_fp": -2,
+        "recovered_by_word_join": 4,
+        "recovered_by_lexical_suffix_prefix": 3,
+        "recovered_by_loose_comment_parse": 0,
+        "recovered_with_anchor": 0
+      }
+    },
+    "test_b": {
+      "union_lexical": {
+        "base": {
+          "tp": 180,
+          "fp": 0,
+          "fn": 24,
+          "f1": 0.9375
+        },
+        "candidate": {
+          "tp": 181,
+          "fp": 0,
+          "fn": 23,
+          "f1": 0.9402597402597402
+        },
+        "recovered": 1,
+        "lost": 0,
+        "extra_fp": 0,
+        "recovered_by_word_join": 1,
+        "recovered_by_lexical_suffix_prefix": 0,
+        "recovered_by_loose_comment_parse": 0,
+        "recovered_with_anchor": 0
+      },
+      "replace_upstream": {
+        "base": {
+          "tp": 180,
+          "fp": 0,
+          "fn": 24,
+          "f1": 0.9375
+        },
+        "candidate": {
+          "tp": 181,
+          "fp": 0,
+          "fn": 23,
+          "f1": 0.9402597402597402
+        },
+        "recovered": 1,
+        "lost": 0,
+        "extra_fp": 0,
+        "recovered_by_word_join": 1,
+        "recovered_by_lexical_suffix_prefix": 0,
+        "recovered_by_loose_comment_parse": 0,
+        "recovered_with_anchor": 0
+      }
+    }
+  },
+  "annotation_sha256": "55c34fbc74876cbf4c6bfd24b10c71871db91b7b1e17ba61338622738d25ba75",
+  "canonical_sha256": "e7e8d51d3d0d2f2b817dd60f6505c8ec8ff81d09eb0aaec8a823cd032dd06d4c",
+  "marker_sha256": "b9de02b5da565049134bc75f8a11d6664779e45e8fd5c77f6b006c9908ee354a",
+  "baseline_policy_sha256": "63dd3254c811c968698d8ce234f50ea6ae58e9714cac39a4dae944e5559db258"
+}

@@ -1,0 +1,13 @@
+{
+  "rotation": "official",
+  "phases": {
+    "dev": "da4b3215bd8fbd109033573af28449de2e3590e39e26fd8cade395e1a17cdff5",
+    "oof": "15801fbde95030e462d6d703ef66935c40776414e5761c6ef0cbc5d0a8f20c1b"
+  },
+  "source": "e23763f08f11e4f0330104b72039a535bf26554dafec33e8ebe5ed05f81eadef",
+  "exact_replay": true,
+  "cutoff": 0.2649885416030884,
+  "code_sha256": "51a717a9563c7ab18844cc5a7078ad1bf55d871c57493c9086da7f00e49b6633",
+  "compact_oof_sha256": "2be93c4b89022ec3eebd5e81b75353075eff43456882c4a796c742b56af84856",
+  "sparse_oof_sha256": "6e3c3c1d02ed601d8be44e5b452dc9341d42ff78aa829c0839ce90bc9f68ed64"
+}

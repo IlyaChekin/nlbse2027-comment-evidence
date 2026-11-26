@@ -1,0 +1,15 @@
+\begin{table}[t]
+\centering
+\small\setlength{\tabcolsep}{3pt}
+\caption{Public routing with a 384-token head. Operations are in thousands of estimated GFLOPs.}
+\label{tab:routing}
+\begin{tabular}{lrrr}
+\toprule
+Policy & Mean F1 & Extra windows & Ops \\
+\midrule
+Head only & 0.8888 & 0 & 504.1 \\
+Rule & 0.9179 & 910 & 509.1 \\
+Learned router & 0.9184 & 59 & 504.4 \\
+\bottomrule
+\end{tabular}
+\end{table}

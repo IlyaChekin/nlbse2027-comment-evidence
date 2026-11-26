@@ -1,0 +1,129 @@
+{
+  "cutoffs": {
+    "shape": -2.583903944754888,
+    "roles": -2.446656982291547,
+    "contract": -1.607250560482114,
+    "explicit_failure": 1.0,
+    "prior_layout": 6.6519182047514995
+  },
+  "code_sha256": "cd528e6e9c45e0d091624619c1d5ffc53bb3ca2311b84b60091ad04c0d2d5de6",
+  "train_manifest_sha256": "8cd6dc7cf3101d2e3a055ff7c7154653402fbb6491959f4f636504cd378b56ef",
+  "partition_sha256": "2823097d9b25fadebffcc6a3daa50034854d7a59c5df5c90d4e6d6d48231cfc9",
+  "weights_sha256": "44337096ceb04a24bf2ab0b2cb1997a610588e39c7c0ec55d5235e254fa06753",
+  "fit_novel_rows": 153628,
+  "excluded_code_copies": 0,
+  "fit_rows_used": 151747,
+  "fit_misses": 302,
+  "file_group_rows": {
+    "4": 31389,
+    "0": 31907,
+    "1": 30198,
+    "3": 29841,
+    "2": 30293
+  },
+  "action_groups": [
+    [
+      "fetch",
+      "find",
+      "get",
+      "load",
+      "lookup",
+      "query",
+      "read",
+      "resolve",
+      "select"
+    ],
+    [
+      "clear",
+      "put",
+      "replace",
+      "reset",
+      "save",
+      "set",
+      "store",
+      "update",
+      "write"
+    ],
+    [
+      "alloc",
+      "allocate",
+      "create",
+      "enable",
+      "init",
+      "new",
+      "open",
+      "register",
+      "setup",
+      "start"
+    ],
+    [
+      "close",
+      "deinit",
+      "destroy",
+      "disable",
+      "dispose",
+      "free",
+      "release",
+      "stop",
+      "unregister"
+    ],
+    [
+      "add",
+      "append",
+      "attach",
+      "enqueue",
+      "insert",
+      "link",
+      "push"
+    ],
+    [
+      "delete",
+      "dequeue",
+      "detach",
+      "pop",
+      "remove",
+      "unlink"
+    ],
+    [
+      "can",
+      "check",
+      "compare",
+      "has",
+      "is",
+      "match",
+      "test",
+      "valid",
+      "verify"
+    ],
+    [
+      "build",
+      "clone",
+      "compute",
+      "convert",
+      "copy",
+      "decode",
+      "encode",
+      "format",
+      "parse"
+    ],
+    [
+      "accept",
+      "bind",
+      "connect",
+      "listen",
+      "receive",
+      "recv",
+      "send",
+      "transmit"
+    ],
+    [
+      "acquire",
+      "lock",
+      "schedule",
+      "unlock",
+      "wait",
+      "wake"
+    ]
+  ],
+  "runtime_input": "Function"
+}

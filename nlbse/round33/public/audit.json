@@ -1,0 +1,58 @@
+{
+  "attempted_extra_queries": 181,
+  "changed_binary_decisions": 5,
+  "confidence_interval_95": {
+    "vulnerability": [
+      -0.00026043026927157766,
+      0.00015702808413304293
+    ],
+    "MAT": [
+      0.0,
+      0.0
+    ],
+    "mean": [
+      -0.00013021513463578883,
+      7.851404206652146e-05
+    ]
+  },
+  "benchmark_sha256": "92d8ea282cd198e6449d589af992809a12728c52a5321932a2cf2faa9cbc6801",
+  "isolated_effect": {
+    "addition": {
+      "before": {
+        "tp": 9538,
+        "fp": 433,
+        "fn": 514,
+        "tn": 20170
+      },
+      "after": {
+        "tp": 9537,
+        "fp": 432,
+        "fn": 515,
+        "tn": 20171
+      },
+      "delta_tp": -1,
+      "delta_fp": -1,
+      "f1_before": 0.9527043899515557,
+      "f1_after": 0.9526996653513811
+    },
+    "veto": {
+      "before": {
+        "tp": 9538,
+        "fp": 433,
+        "fn": 514,
+        "tn": 20170
+      },
+      "after": {
+        "tp": 9539,
+        "fp": 435,
+        "fn": 513,
+        "tn": 20168
+      },
+      "delta_tp": 1,
+      "delta_fp": 2,
+      "f1_before": 0.9527043899515557,
+      "f1_after": 0.9526615399980026
+    }
+  },
+  "oracle_sha256": "c2f9b23cf0c72691b35d884f50736e5d56ef520eef5e8ac0e236beb2d3e81207"
+}

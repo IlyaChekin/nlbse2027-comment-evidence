@@ -1,0 +1,56 @@
+{
+  "selected": null,
+  "outcomes": {
+    "chosen": {
+      "scope": 333,
+      "changes": 31,
+      "wins": 3,
+      "pairs": 5,
+      "result": false,
+      "score": 0.9647567761860624,
+      "control": 0.9647430670247306,
+      "released_score": 0.9647211005823113,
+      "ci": {
+        "vulnerability": [
+          -0.0005852138250880684,
+          0.0005751774613080656
+        ],
+        "MAT": [
+          0.0,
+          0.0
+        ],
+        "mean": [
+          -0.0002926069125440342,
+          0.0002875887306540328
+        ]
+      },
+      "profile_sha256": "36d547e6943ea6ee42c38bee5a7fe653e2b90bf936bf5e49e12a702a8277ede3"
+    },
+    "best_local": {
+      "scope": 333,
+      "changes": 33,
+      "wins": 2,
+      "pairs": 5,
+      "result": false,
+      "score": 0.9646992111495096,
+      "control": 0.9647904826444,
+      "released_score": 0.9647211005823113,
+      "ci": {
+        "vulnerability": [
+          -0.0007004516831336822,
+          0.0004960480061439176
+        ],
+        "MAT": [
+          0.0,
+          0.0
+        ],
+        "mean": [
+          -0.0003502258415668411,
+          0.0002480240030719588
+        ]
+      },
+      "profile_sha256": "1f0196878bc68ea1ea98b33ea7ba9e1f9b9c073793401b6f07f919273510ca83"
+    }
+  },
+  "code_sha256": "40e1f835e0ab2e5bcdf99d1a00768b0b1d71c40bb90282211bbdf7b5199049d1"
+}

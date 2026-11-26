@@ -1,0 +1,41 @@
+{
+  "selected": {
+    "stage": "broad",
+    "key": "0.75_oof_regime_0.9",
+    "mode": "regime",
+    "source": "oof",
+    "width": 0.75,
+    "strength": 0.9,
+    "rule": "fixed",
+    "cut": 0.0,
+    "cal_rows": 72,
+    "held_rows": 69,
+    "a_tp": 4,
+    "b_tp": 3,
+    "a_fp": -1,
+    "b_fp": 7,
+    "a_tp_over": 1,
+    "b_tp_over": 2,
+    "a_fp_over": -3,
+    "b_fp_over": -5,
+    "cal_f1": 0.001215436354149113,
+    "review_f1": 0.0024029682172751476,
+    "cal_vs_rethreshold": 0.001215436354149113,
+    "cal_tp": 6,
+    "cal_fp": 3,
+    "review_tp": 10,
+    "review_fp": 4
+  },
+  "tested": 285,
+  "eligible": 21,
+  "result_sha256": {
+    "broad": {
+      "test_a": "da45acc239e9199e21508382a113db5a4233e27dff63bc05eed5fb0d87883822",
+      "test_b": "bd89b68ed191d1096dffd48b850037169ef2d182a40fe0aeb8e10aaea8118bc5",
+      "official": "2a779c875d268f12ceab37421655701331893d9a7916fd910de5046dbcd718fb"
+    }
+  },
+  "code_sha256": "308a42db3663c1922627e1d1d2b1810fa9474a3e2e36183572d83e5dfcd80dc1",
+  "csv_sha256": "a528064496c2ea9676eaabb2fe7f6109d69c27361ff640fd2cfdc98ff7d43ca7",
+  "released_archive_sha256": "3f2c8f9e131517586d128b81db28a2c97049e088fe05fbccc6c5a9df598c7857"
+}

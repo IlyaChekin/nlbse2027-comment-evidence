@@ -1,0 +1,438 @@
+{
+  "selected": "combined_observed_1",
+  "candidates": {
+    "counts_observed_0.5": {
+      "cutoff": 0.2081603854894638,
+      "cal": {
+        "before": {
+          "tp": 4199,
+          "fp": 408,
+          "fn": 219,
+          "tn": 8553
+        },
+        "after": {
+          "tp": 4199,
+          "fp": 408,
+          "fn": 219,
+          "tn": 8553
+        },
+        "delta_tp": 0,
+        "delta_fp": 0,
+        "f1_before": 0.9305263157894736,
+        "f1_after": 0.9305263157894736
+      }
+    },
+    "counts_observed_1": {
+      "cutoff": 0.21244637668132782,
+      "cal": {
+        "before": {
+          "tp": 4199,
+          "fp": 408,
+          "fn": 219,
+          "tn": 8553
+        },
+        "after": {
+          "tp": 4203,
+          "fp": 408,
+          "fn": 215,
+          "tn": 8553
+        },
+        "delta_tp": 4,
+        "delta_fp": 0,
+        "f1_before": 0.9305263157894736,
+        "f1_after": 0.9310001107542364
+      }
+    },
+    "counts_prior_0.5": {
+      "cutoff": 0.2081603854894638,
+      "cal": {
+        "before": {
+          "tp": 4199,
+          "fp": 408,
+          "fn": 219,
+          "tn": 8553
+        },
+        "after": {
+          "tp": 4199,
+          "fp": 408,
+          "fn": 219,
+          "tn": 8553
+        },
+        "delta_tp": 0,
+        "delta_fp": 0,
+        "f1_before": 0.9305263157894736,
+        "f1_after": 0.9305263157894736
+      }
+    },
+    "counts_prior_1": {
+      "cutoff": 0.21244637668132782,
+      "cal": {
+        "before": {
+          "tp": 4199,
+          "fp": 408,
+          "fn": 219,
+          "tn": 8553
+        },
+        "after": {
+          "tp": 4203,
+          "fp": 408,
+          "fn": 215,
+          "tn": 8553
+        },
+        "delta_tp": 4,
+        "delta_fp": 0,
+        "f1_before": 0.9305263157894736,
+        "f1_after": 0.9310001107542364
+      }
+    },
+    "scoped_counts_observed_0.5": {
+      "cutoff": 0.208049476146698,
+      "cal": {
+        "before": {
+          "tp": 4199,
+          "fp": 408,
+          "fn": 219,
+          "tn": 8553
+        },
+        "after": {
+          "tp": 4202,
+          "fp": 408,
+          "fn": 216,
+          "tn": 8553
+        },
+        "delta_tp": 3,
+        "delta_fp": 0,
+        "f1_before": 0.9305263157894736,
+        "f1_after": 0.9308817013735047
+      }
+    },
+    "scoped_counts_observed_1": {
+      "cutoff": 0.2156461477279663,
+      "cal": {
+        "before": {
+          "tp": 4199,
+          "fp": 408,
+          "fn": 219,
+          "tn": 8553
+        },
+        "after": {
+          "tp": 4196,
+          "fp": 408,
+          "fn": 222,
+          "tn": 8553
+        },
+        "delta_tp": -3,
+        "delta_fp": 0,
+        "f1_before": 0.9305263157894736,
+        "f1_after": 0.9301706938594546
+      }
+    },
+    "scoped_counts_prior_0.5": {
+      "cutoff": 0.208049476146698,
+      "cal": {
+        "before": {
+          "tp": 4199,
+          "fp": 408,
+          "fn": 219,
+          "tn": 8553
+        },
+        "after": {
+          "tp": 4202,
+          "fp": 408,
+          "fn": 216,
+          "tn": 8553
+        },
+        "delta_tp": 3,
+        "delta_fp": 0,
+        "f1_before": 0.9305263157894736,
+        "f1_after": 0.9308817013735047
+      }
+    },
+    "scoped_counts_prior_1": {
+      "cutoff": 0.2156461477279663,
+      "cal": {
+        "before": {
+          "tp": 4199,
+          "fp": 408,
+          "fn": 219,
+          "tn": 8553
+        },
+        "after": {
+          "tp": 4196,
+          "fp": 408,
+          "fn": 222,
+          "tn": 8553
+        },
+        "delta_tp": -3,
+        "delta_fp": 0,
+        "f1_before": 0.9305263157894736,
+        "f1_after": 0.9301706938594546
+      }
+    },
+    "flat_observed_0.5": {
+      "cutoff": 0.20384211838245392,
+      "cal": {
+        "before": {
+          "tp": 4199,
+          "fp": 408,
+          "fn": 219,
+          "tn": 8553
+        },
+        "after": {
+          "tp": 4212,
+          "fp": 408,
+          "fn": 206,
+          "tn": 8553
+        },
+        "delta_tp": 13,
+        "delta_fp": 0,
+        "f1_before": 0.9305263157894736,
+        "f1_after": 0.9320646160655012
+      }
+    },
+    "flat_observed_1": {
+      "cutoff": 0.19245700538158417,
+      "cal": {
+        "before": {
+          "tp": 4199,
+          "fp": 408,
+          "fn": 219,
+          "tn": 8553
+        },
+        "after": {
+          "tp": 4225,
+          "fp": 408,
+          "fn": 193,
+          "tn": 8553
+        },
+        "delta_tp": 26,
+        "delta_fp": 0,
+        "f1_before": 0.9305263157894736,
+        "f1_after": 0.9335984974036018
+      }
+    },
+    "flat_prior_0.5": {
+      "cutoff": 0.20384211838245392,
+      "cal": {
+        "before": {
+          "tp": 4199,
+          "fp": 408,
+          "fn": 219,
+          "tn": 8553
+        },
+        "after": {
+          "tp": 4212,
+          "fp": 408,
+          "fn": 206,
+          "tn": 8553
+        },
+        "delta_tp": 13,
+        "delta_fp": 0,
+        "f1_before": 0.9305263157894736,
+        "f1_after": 0.9320646160655012
+      }
+    },
+    "flat_prior_1": {
+      "cutoff": 0.19245700538158417,
+      "cal": {
+        "before": {
+          "tp": 4199,
+          "fp": 408,
+          "fn": 219,
+          "tn": 8553
+        },
+        "after": {
+          "tp": 4225,
+          "fp": 408,
+          "fn": 193,
+          "tn": 8553
+        },
+        "delta_tp": 26,
+        "delta_fp": 0,
+        "f1_before": 0.9305263157894736,
+        "f1_after": 0.9335984974036018
+      }
+    },
+    "linked_observed_0.5": {
+      "cutoff": 0.20738443732261658,
+      "cal": {
+        "before": {
+          "tp": 4199,
+          "fp": 408,
+          "fn": 219,
+          "tn": 8553
+        },
+        "after": {
+          "tp": 4200,
+          "fp": 408,
+          "fn": 218,
+          "tn": 8553
+        },
+        "delta_tp": 1,
+        "delta_fp": 0,
+        "f1_before": 0.9305263157894736,
+        "f1_after": 0.9306448038998449
+      }
+    },
+    "linked_observed_1": {
+      "cutoff": 0.2088049352169037,
+      "cal": {
+        "before": {
+          "tp": 4199,
+          "fp": 408,
+          "fn": 219,
+          "tn": 8553
+        },
+        "after": {
+          "tp": 4201,
+          "fp": 408,
+          "fn": 217,
+          "tn": 8553
+        },
+        "delta_tp": 2,
+        "delta_fp": 0,
+        "f1_before": 0.9305263157894736,
+        "f1_after": 0.9307632657582807
+      }
+    },
+    "linked_prior_0.5": {
+      "cutoff": 0.20738443732261658,
+      "cal": {
+        "before": {
+          "tp": 4199,
+          "fp": 408,
+          "fn": 219,
+          "tn": 8553
+        },
+        "after": {
+          "tp": 4200,
+          "fp": 408,
+          "fn": 218,
+          "tn": 8553
+        },
+        "delta_tp": 1,
+        "delta_fp": 0,
+        "f1_before": 0.9305263157894736,
+        "f1_after": 0.9306448038998449
+      }
+    },
+    "linked_prior_1": {
+      "cutoff": 0.2088049352169037,
+      "cal": {
+        "before": {
+          "tp": 4199,
+          "fp": 408,
+          "fn": 219,
+          "tn": 8553
+        },
+        "after": {
+          "tp": 4201,
+          "fp": 408,
+          "fn": 217,
+          "tn": 8553
+        },
+        "delta_tp": 2,
+        "delta_fp": 0,
+        "f1_before": 0.9305263157894736,
+        "f1_after": 0.9307632657582807
+      }
+    },
+    "combined_observed_0.5": {
+      "cutoff": 0.20102453231811523,
+      "cal": {
+        "before": {
+          "tp": 4199,
+          "fp": 408,
+          "fn": 219,
+          "tn": 8553
+        },
+        "after": {
+          "tp": 4214,
+          "fp": 408,
+          "fn": 204,
+          "tn": 8553
+        },
+        "delta_tp": 15,
+        "delta_fp": 0,
+        "f1_before": 0.9305263157894736,
+        "f1_after": 0.9323008849557523
+      }
+    },
+    "combined_observed_1": {
+      "cutoff": 0.18934285640716553,
+      "cal": {
+        "before": {
+          "tp": 4199,
+          "fp": 408,
+          "fn": 219,
+          "tn": 8553
+        },
+        "after": {
+          "tp": 4226,
+          "fp": 408,
+          "fn": 192,
+          "tn": 8553
+        },
+        "delta_tp": 27,
+        "delta_fp": 0,
+        "f1_before": 0.9305263157894736,
+        "f1_after": 0.933716305788776
+      }
+    },
+    "combined_prior_0.5": {
+      "cutoff": 0.20102453231811523,
+      "cal": {
+        "before": {
+          "tp": 4199,
+          "fp": 408,
+          "fn": 219,
+          "tn": 8553
+        },
+        "after": {
+          "tp": 4214,
+          "fp": 408,
+          "fn": 204,
+          "tn": 8553
+        },
+        "delta_tp": 15,
+        "delta_fp": 0,
+        "f1_before": 0.9305263157894736,
+        "f1_after": 0.9323008849557523
+      }
+    },
+    "combined_prior_1": {
+      "cutoff": 0.18934285640716553,
+      "cal": {
+        "before": {
+          "tp": 4199,
+          "fp": 408,
+          "fn": 219,
+          "tn": 8553
+        },
+        "after": {
+          "tp": 4226,
+          "fp": 408,
+          "fn": 192,
+          "tn": 8553
+        },
+        "delta_tp": 27,
+        "delta_fp": 0,
+        "f1_before": 0.9305263157894736,
+        "f1_after": 0.933716305788776
+      }
+    }
+  },
+  "gate": {
+    "utility": 0.050499021818761244,
+    "base": 0.4109264339670276
+  },
+  "reference_cutoff": 0.21247737109661102,
+  "cohort_sha256": "c5d74ea7f7e5ce182168c6a2b2172f4d06a57b53cfc67b61beecc9ae1a803f63",
+  "features_sha256": "964be7d824baaa48292d88131e8e450af3f128029cff3c643443737a9e6d92f6",
+  "partition_sha256": "132b1c5775346ea14c0b36a3320530bb6dc017703ae3f1334fd011769ade05ad",
+  "fit_rows": 120578,
+  "fit_positive": 4716,
+  "dev_fit": 8742,
+  "dev_cal": 13379,
+  "project_fit_sha256": "dde7cd2f733170f9c69514361fc82cfc0b06eb070fda4a242d71a6cef007b895"
+}

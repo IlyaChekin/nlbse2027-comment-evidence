@@ -1,0 +1,11 @@
+{
+  "encoder_sha256": "fbf4c38bcecfab5d2c0be2e1374c080006e91eafad4d1c8ae7efd996e34d1f8a",
+  "token_config_sha256": "644b98bce8669e46c3f89d8aede1efb979df98afd4d427af4b3c8798ef5ba4f1",
+  "depth": 4,
+  "input_cap": 768,
+  "fit_rows": 193100,
+  "holdout_rows": 21486,
+  "fit_seconds": 73.43204104201868,
+  "holdout_seconds": 10.399445933056995,
+  "hardware": "NVIDIA GeForce RTX 4090"
+}

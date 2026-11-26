@@ -1,0 +1,27 @@
+{
+  "rows": 84223,
+  "model_sha256": "097d1bd8c5df11eb82aa5b750d208eee17d570babf94c77158279dc992c6829b",
+  "views_sha256": "bef5fb604f5aa272675af62203ad5c084d019d57ae61bace908084f1720bca8f",
+  "example_max_error": 4.529021680355072e-05,
+  "dimensions": {
+    "projection.npy": [
+      84223,
+      256
+    ],
+    "raw.npy": [
+      84223,
+      768
+    ]
+  },
+  "cost": {
+    "forward_seconds": 17.216219194233418,
+    "wall_seconds": 17.40355425979942,
+    "analytic_gflops": 1294944.6582435863
+  },
+  "code_sha256": "8340d3a5aee7c14cfa8a8b2490626aadc26a87c93dbe569825f04b8c54ea3fd9",
+  "hashes": {
+    "projection.npy": "fcfaee36d0ce27244782725b0a394883d1820cfd170e48d1d3caf0cbd0ba6da1",
+    "raw.npy": "a43409f4da0de1fbf6f66b1a1edd9c9a7041f5dd7012805fae92de10b39f778c"
+  },
+  "dtype": "bfloat16"
+}

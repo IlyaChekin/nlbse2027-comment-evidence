@@ -1,0 +1,37 @@
+{
+  "rotation": "test_b",
+  "rows": 180019,
+  "folds": {
+    "0": {
+      "fit": 134656,
+      "held": 45203,
+      "removed_copies": 160,
+      "iters": 8
+    },
+    "1": {
+      "fit": 135463,
+      "held": 44400,
+      "removed_copies": 156,
+      "iters": 7
+    },
+    "2": {
+      "fit": 134447,
+      "held": 45348,
+      "removed_copies": 224,
+      "iters": 8
+    },
+    "3": {
+      "fit": 134738,
+      "held": 45068,
+      "removed_copies": 213,
+      "iters": 8
+    }
+  },
+  "model_rows": 180019,
+  "excluded_validation_copies": 0,
+  "base_sha256": "6f553d4aba4f335ecdc41a33d8bfa2d81993fd1db5f3f1072a33f04a8b02ffe1",
+  "weights_sha256": "457132264859bb29dbf1273619b656869cb8d0ad77215c80b9f468ccb155ef0e",
+  "predictions_sha256": "61d51c9b64aad806c05c0965023444387a569a02d39a7bfd10dd31540fc6221c",
+  "code_sha256": "e3f5de11449c175f19f1a5f6fcd2e22e95cc930866b9e2ae9fbcc429ccc3d951",
+  "features_sha256": "09dd9ea9d4e0b22381b2cbb33145bbf2297aff38040b91faf7120b3f1655da56"
+}

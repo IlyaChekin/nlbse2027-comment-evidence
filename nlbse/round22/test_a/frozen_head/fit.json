@@ -1,0 +1,18 @@
+{
+  "variants": {
+    "head_bce": {
+      "file": "head_bce.npz",
+      "sha256": "f363ffe94c198466ba1d0f368d3e0cf7e4811969ad4d28a95b1b7f7348d43b21",
+      "mean_abs_training_shift": 0.5717441439628601
+    },
+    "head_focal": {
+      "file": "head_focal.npz",
+      "sha256": "191d187f6e2bc9842209dc94357e019af48ac35d32b7be71202a409b696c6944",
+      "mean_abs_training_shift": 1.5568619966506958
+    }
+  },
+  "rows": 104210,
+  "checkpoint_sha256": "2b8ff9f45bfbd60508a5f43fe4290bbc10b72aed06a668b8f9496f5c7a21be39",
+  "cohort_sha256": "c5d74ea7f7e5ce182168c6a2b2172f4d06a57b53cfc67b61beecc9ae1a803f63",
+  "script_sha256": "d9b3900ebdb9aebff83f25278d231986184da943552704356e4334f987fb2c8c"
+}

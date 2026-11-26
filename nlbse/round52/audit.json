@@ -1,0 +1,434 @@
+{
+  "verification": {
+    "dev": {
+      "arms": {
+        "shape": {
+          "frozen_tp": 0,
+          "frozen_fp": 0,
+          "matched_tp": 0,
+          "matched_tp_by_project": {
+            "linux": 0,
+            "tcpdump": 0
+          }
+        },
+        "roles": {
+          "frozen_tp": 0,
+          "frozen_fp": 0,
+          "matched_tp": 0,
+          "matched_tp_by_project": {
+            "linux": 0,
+            "tcpdump": 0
+          }
+        },
+        "contract": {
+          "frozen_tp": 0,
+          "frozen_fp": 0,
+          "matched_tp": 0,
+          "matched_tp_by_project": {
+            "linux": 0,
+            "tcpdump": 0
+          }
+        },
+        "explicit_failure": {
+          "frozen_tp": 0,
+          "frozen_fp": 0,
+          "matched_tp": 0,
+          "matched_tp_by_project": {
+            "linux": 0,
+            "tcpdump": 0
+          }
+        },
+        "prior_layout": {
+          "frozen_tp": 0,
+          "frozen_fp": 0,
+          "matched_tp": 0,
+          "matched_tp_by_project": {
+            "linux": 0,
+            "tcpdump": 0
+          }
+        }
+      },
+      "predictions_sha256": "c81f019346ff25fc07d1b711ea8b7c5f97d4838a8661197e639ddffc701ec40e"
+    },
+    "test_a": {
+      "arms": {
+        "shape": {
+          "frozen_tp": 0,
+          "frozen_fp": 2,
+          "matched_tp": 0,
+          "matched_tp_by_project": {
+            "chromium": 0,
+            "ffmpeg": 0,
+            "qemu": 0
+          }
+        },
+        "roles": {
+          "frozen_tp": 0,
+          "frozen_fp": 1,
+          "matched_tp": 0,
+          "matched_tp_by_project": {
+            "chromium": 0,
+            "ffmpeg": 0,
+            "qemu": 0
+          }
+        },
+        "contract": {
+          "frozen_tp": 0,
+          "frozen_fp": 0,
+          "matched_tp": 0,
+          "matched_tp_by_project": {
+            "chromium": 0,
+            "ffmpeg": 0,
+            "qemu": 0
+          }
+        },
+        "explicit_failure": {
+          "frozen_tp": 0,
+          "frozen_fp": 0,
+          "matched_tp": 0,
+          "matched_tp_by_project": {
+            "chromium": 0,
+            "ffmpeg": 0,
+            "qemu": 0
+          }
+        },
+        "prior_layout": {
+          "frozen_tp": 0,
+          "frozen_fp": 0,
+          "matched_tp": 0,
+          "matched_tp_by_project": {
+            "chromium": 0,
+            "ffmpeg": 0,
+            "qemu": 0
+          }
+        }
+      },
+      "predictions_sha256": "356cc7948b99262c15fcf630dd80cc1ca5a5c03173286b52266455913894f6f1"
+    },
+    "test_b": {
+      "arms": {
+        "shape": {
+          "frozen_tp": 0,
+          "frozen_fp": 1,
+          "matched_tp": 0,
+          "matched_tp_by_project": {
+            "android": 0,
+            "file": 0,
+            "imagemagick": 0,
+            "krb5": 0,
+            "mozilla firefox": 0,
+            "php": 0,
+            "radare2": 0
+          }
+        },
+        "roles": {
+          "frozen_tp": 0,
+          "frozen_fp": 2,
+          "matched_tp": 0,
+          "matched_tp_by_project": {
+            "android": 0,
+            "file": 0,
+            "imagemagick": 0,
+            "krb5": 0,
+            "mozilla firefox": 0,
+            "php": 0,
+            "radare2": 0
+          }
+        },
+        "contract": {
+          "frozen_tp": 0,
+          "frozen_fp": 2,
+          "matched_tp": 0,
+          "matched_tp_by_project": {
+            "android": 0,
+            "file": 0,
+            "imagemagick": 0,
+            "krb5": 0,
+            "mozilla firefox": 0,
+            "php": 0,
+            "radare2": 0
+          }
+        },
+        "explicit_failure": {
+          "frozen_tp": 0,
+          "frozen_fp": 0,
+          "matched_tp": 0,
+          "matched_tp_by_project": {
+            "android": 0,
+            "file": 0,
+            "imagemagick": 0,
+            "krb5": 0,
+            "mozilla firefox": 0,
+            "php": 0,
+            "radare2": 0
+          }
+        },
+        "prior_layout": {
+          "frozen_tp": 0,
+          "frozen_fp": 0,
+          "matched_tp": 1,
+          "matched_tp_by_project": {
+            "android": 1,
+            "file": 0,
+            "imagemagick": 0,
+            "krb5": 0,
+            "mozilla firefox": 0,
+            "php": 0,
+            "radare2": 0
+          }
+        }
+      },
+      "predictions_sha256": "145808aa78732dd1fe723395d62057ddc136bfe914a4d6924750e4f5b16683b6"
+    }
+  },
+  "reference_verification": {
+    "dev": {
+      "arms": {
+        "tagged_call": {
+          "frozen_tp": 0,
+          "frozen_fp": 0,
+          "matched_tp": 0,
+          "matched_tp_by_project": {
+            "linux": 0,
+            "tcpdump": 0
+          }
+        },
+        "tagged_call_exclusive": {
+          "frozen_tp": 0,
+          "frozen_fp": 0,
+          "matched_tp": 0,
+          "matched_tp_by_project": {
+            "linux": 0,
+            "tcpdump": 0
+          }
+        },
+        "tagged_named": {
+          "frozen_tp": 0,
+          "frozen_fp": 0,
+          "matched_tp": 0,
+          "matched_tp_by_project": {
+            "linux": 0,
+            "tcpdump": 0
+          }
+        },
+        "tagged_named_exclusive": {
+          "frozen_tp": 0,
+          "frozen_fp": 0,
+          "matched_tp": 0,
+          "matched_tp_by_project": {
+            "linux": 0,
+            "tcpdump": 0
+          }
+        },
+        "repair_named": {
+          "frozen_tp": 0,
+          "frozen_fp": 0,
+          "matched_tp": 0,
+          "matched_tp_by_project": {
+            "linux": 0,
+            "tcpdump": 0
+          }
+        },
+        "repair_named_exclusive": {
+          "frozen_tp": 0,
+          "frozen_fp": 0,
+          "matched_tp": 0,
+          "matched_tp_by_project": {
+            "linux": 0,
+            "tcpdump": 0
+          }
+        }
+      },
+      "predictions_sha256": "ab861e564befabfbaedcfe7894d56750eecd751e7addbc98378a12b200850919"
+    },
+    "test_a": {
+      "arms": {
+        "tagged_call": {
+          "frozen_tp": 0,
+          "frozen_fp": 0,
+          "matched_tp": 0,
+          "matched_tp_by_project": {
+            "chromium": 0,
+            "ffmpeg": 0,
+            "qemu": 0
+          }
+        },
+        "tagged_call_exclusive": {
+          "frozen_tp": 0,
+          "frozen_fp": 0,
+          "matched_tp": 0,
+          "matched_tp_by_project": {
+            "chromium": 0,
+            "ffmpeg": 0,
+            "qemu": 0
+          }
+        },
+        "tagged_named": {
+          "frozen_tp": 0,
+          "frozen_fp": 0,
+          "matched_tp": 0,
+          "matched_tp_by_project": {
+            "chromium": 0,
+            "ffmpeg": 0,
+            "qemu": 0
+          }
+        },
+        "tagged_named_exclusive": {
+          "frozen_tp": 0,
+          "frozen_fp": 0,
+          "matched_tp": 0,
+          "matched_tp_by_project": {
+            "chromium": 0,
+            "ffmpeg": 0,
+            "qemu": 0
+          }
+        },
+        "repair_named": {
+          "frozen_tp": 0,
+          "frozen_fp": 0,
+          "matched_tp": 0,
+          "matched_tp_by_project": {
+            "chromium": 0,
+            "ffmpeg": 0,
+            "qemu": 0
+          }
+        },
+        "repair_named_exclusive": {
+          "frozen_tp": 0,
+          "frozen_fp": 0,
+          "matched_tp": 0,
+          "matched_tp_by_project": {
+            "chromium": 0,
+            "ffmpeg": 0,
+            "qemu": 0
+          }
+        }
+      },
+      "predictions_sha256": "4d55974c264221496c7bef58d6257e59906f131bc7a94ecbcb69fc005004bc83"
+    },
+    "test_b": {
+      "arms": {
+        "tagged_call": {
+          "frozen_tp": 0,
+          "frozen_fp": 0,
+          "matched_tp": 0,
+          "matched_tp_by_project": {
+            "android": 0,
+            "file": 0,
+            "imagemagick": 0,
+            "krb5": 0,
+            "mozilla firefox": 0,
+            "php": 0,
+            "radare2": 0
+          }
+        },
+        "tagged_call_exclusive": {
+          "frozen_tp": 0,
+          "frozen_fp": 0,
+          "matched_tp": 0,
+          "matched_tp_by_project": {
+            "android": 0,
+            "file": 0,
+            "imagemagick": 0,
+            "krb5": 0,
+            "mozilla firefox": 0,
+            "php": 0,
+            "radare2": 0
+          }
+        },
+        "tagged_named": {
+          "frozen_tp": 0,
+          "frozen_fp": 0,
+          "matched_tp": 0,
+          "matched_tp_by_project": {
+            "android": 0,
+            "file": 0,
+            "imagemagick": 0,
+            "krb5": 0,
+            "mozilla firefox": 0,
+            "php": 0,
+            "radare2": 0
+          }
+        },
+        "tagged_named_exclusive": {
+          "frozen_tp": 0,
+          "frozen_fp": 0,
+          "matched_tp": 0,
+          "matched_tp_by_project": {
+            "android": 0,
+            "file": 0,
+            "imagemagick": 0,
+            "krb5": 0,
+            "mozilla firefox": 0,
+            "php": 0,
+            "radare2": 0
+          }
+        },
+        "repair_named": {
+          "frozen_tp": 0,
+          "frozen_fp": 0,
+          "matched_tp": 0,
+          "matched_tp_by_project": {
+            "android": 0,
+            "file": 0,
+            "imagemagick": 0,
+            "krb5": 0,
+            "mozilla firefox": 0,
+            "php": 0,
+            "radare2": 0
+          }
+        },
+        "repair_named_exclusive": {
+          "frozen_tp": 0,
+          "frozen_fp": 0,
+          "matched_tp": 0,
+          "matched_tp_by_project": {
+            "android": 0,
+            "file": 0,
+            "imagemagick": 0,
+            "krb5": 0,
+            "mozilla firefox": 0,
+            "php": 0,
+            "radare2": 0
+          }
+        }
+      },
+      "predictions_sha256": "6ad3147850549e36f359f9dfb21b6e22585c1dc8b3ab9fd66d723c2b0ba59fa2"
+    }
+  },
+  "visible_function_collisions": {
+    "dev": {
+      "misses": 44,
+      "identical_negative": 0,
+      "same_project_negative": 0,
+      "pairs": []
+    },
+    "test_a": {
+      "misses": 77,
+      "identical_negative": 0,
+      "same_project_negative": 0,
+      "pairs": []
+    },
+    "test_b": {
+      "misses": 23,
+      "identical_negative": 0,
+      "same_project_negative": 0,
+      "pairs": []
+    },
+    "public": {
+      "misses": 61,
+      "identical_negative": 0,
+      "same_project_negative": 0,
+      "pairs": []
+    }
+  },
+  "score_at_zero_cost": 0.9669998620890324,
+  "release_score": 0.9647211005823113,
+  "target_gap": 0.005278899417688665,
+  "required_public_mat_at_zero_fp": 16,
+  "provenance": {
+    "source_sha256": "efdc3d93f4806b898a78e5288e751ae3b1241ca190f50fa017bef04a32119e03",
+    "unmatched_sha256": "0acd8a735eb05450ce8d1cfb811d05695b307bddfed1392747d61b0c0531ee99"
+  },
+  "code_sha256": "a7b3365081d03fb737888c7c123b71d2f0f44271403d162698a1cabbe2f13f3f"
+}

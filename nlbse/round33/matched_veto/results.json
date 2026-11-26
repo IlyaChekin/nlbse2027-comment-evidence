@@ -1,0 +1,134 @@
+{
+  "analysis": {
+    "test_a": {
+      "available_false_negatives": 847,
+      "matched_false_negatives": 631,
+      "files": 478,
+      "pairs": 1455,
+      "metrics": {
+        "before": {
+          "pair_win": 0.6376122556788166,
+          "interval": [
+            0.602584035721453,
+            0.6734506545692418
+          ],
+          "unique_positive": 631
+        },
+        "after": {
+          "pair_win": 0.6687797147385103,
+          "interval": [
+            0.6364242485741644,
+            0.7032784497214958
+          ],
+          "unique_positive": 631
+        },
+        "tuned_teacher": {
+          "pair_win": 0.6840993132593766,
+          "interval": [
+            0.6455092059838898,
+            0.7232520322318116
+          ],
+          "unique_positive": 631
+        },
+        "teacher_combination": {
+          "pair_win": 0.6833069202324353,
+          "interval": [
+            0.6460668574464491,
+            0.7207437638789174
+          ],
+          "unique_positive": 631
+        }
+      },
+      "predictions_sha256": "a26bdc3f57204cb034f19210f05b5337fd4e3ee2f51f11793aa95a702f47ae60",
+      "points_sha256": "cbe8079a1b5c80e33ce24f593f68b2a73a977a28bc56559383d6ce32d388e2e1",
+      "teacher_sha256": "35a20e983fd9799a043395abdbea1dfb92c09f4c7ccabeb971103f1b72f2d379"
+    },
+    "test_b": {
+      "available_false_negatives": 1822,
+      "matched_false_negatives": 1019,
+      "files": 589,
+      "pairs": 2253,
+      "metrics": {
+        "before": {
+          "pair_win": 0.5701668302257115,
+          "interval": [
+            0.5295255628836442,
+            0.6126498745456058
+          ],
+          "unique_positive": 1019
+        },
+        "after": {
+          "pair_win": 0.6187438665358195,
+          "interval": [
+            0.5866659096028027,
+            0.6557884977959371
+          ],
+          "unique_positive": 1019
+        },
+        "tuned_teacher": {
+          "pair_win": 0.5904481517827936,
+          "interval": [
+            0.5527993878564753,
+            0.6312091309538271
+          ],
+          "unique_positive": 1019
+        },
+        "teacher_combination": {
+          "pair_win": 0.6030421982335623,
+          "interval": [
+            0.5692897660157433,
+            0.6405386237382293
+          ],
+          "unique_positive": 1019
+        }
+      },
+      "predictions_sha256": "3653857f6b24241ebf7238de5e7c214ca7192ed0e074ad7ce839c8a5e0301359",
+      "points_sha256": "6f553d4aba4f335ecdc41a33d8bfa2d81993fd1db5f3f1072a33f04a8b02ffe1",
+      "teacher_sha256": "58557b2d442690df11416d63d11f75ae9f0994603034b146729ed8e2476a0705"
+    },
+    "official": {
+      "available_false_negatives": 1827,
+      "matched_false_negatives": 950,
+      "files": 557,
+      "pairs": 1988,
+      "metrics": {
+        "before": {
+          "pair_win": 0.588421052631579,
+          "interval": [
+            0.5532023226945889,
+            0.6226922154359129
+          ],
+          "unique_positive": 950
+        },
+        "after": {
+          "pair_win": 0.624561403508772,
+          "interval": [
+            0.5913941210993732,
+            0.657692043251714
+          ],
+          "unique_positive": 950
+        },
+        "tuned_teacher": {
+          "pair_win": 0.6170175438596491,
+          "interval": [
+            0.5801444128787879,
+            0.6549399228529624
+          ],
+          "unique_positive": 950
+        },
+        "teacher_combination": {
+          "pair_win": 0.6250877192982456,
+          "interval": [
+            0.5920356765538414,
+            0.6585232872019
+          ],
+          "unique_positive": 950
+        }
+      },
+      "predictions_sha256": "1145cd8fd59370dde6f74994b0947c323718612a77505c2cc2e7c2a8ddf20fb8",
+      "points_sha256": "fcb614e442ae3fd2cf5c29d42ee63bff99c84dc3976ce881262ee7e1ea3b36e9",
+      "teacher_sha256": "3c209a8460890cb8236a4bb96f69909b28e5b12a7553e9a01993f0f93dc07755"
+    }
+  },
+  "code_sha256": "1966868441404ff237b0b851d560228ba171cf54c1e1fcf01692e8c45156221f"
+}

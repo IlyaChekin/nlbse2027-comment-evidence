@@ -1,0 +1,65 @@
+{
+  "matrix_sha256": "e66efb0e64cdfdc3ef8c8c7e0b52075e72d6cd0cc30284e1c00c597e9a6ab29e",
+  "fit_sources": [
+    "51b367dda695408e91005d957ef08e184456f70f52453b2c45463e7051756179",
+    "d04fba2d981c3758fea8fa737f5c70791c4ccead316321f4a52bff6ae452dc9f"
+  ],
+  "pair_source_sha256": "9a736956406e632f82c2fa97a3475280fe3cf1e22f2fc73d9b7541dcb6b942d7",
+  "hashes": {
+    "roster.npz": "a294fb2b309d61fa3dce88a838736eb441742bb3069a5b3875d116850b8e0c9b",
+    "weights.joblib": "b3a377d6cf619524e0ca11ac35f092c88239d973592eb86606c585e935744e79",
+    "scores.npz": "bf42ea59e7f38dd83d53aef2047caf491923edf3f4123f5ef846e984fc86781d"
+  },
+  "notes": {
+    "strict/0": {
+      "rows": 250,
+      "anchors": 221,
+      "negative_teacher_order": 0,
+      "mean_teacher_margin": 0.6093613505363464
+    },
+    "broad/0": {
+      "rows": 3336,
+      "anchors": 1690,
+      "negative_teacher_order": 0,
+      "mean_teacher_margin": 1.1008738279342651
+    },
+    "broad_gold/0": {
+      "rows": 3336,
+      "anchors": 1690,
+      "negative_teacher_order": 0,
+      "mean_teacher_margin": 1.1008738279342651
+    },
+    "broad_contrast/0": {
+      "rows": 842,
+      "anchors": 645,
+      "negative_teacher_order": 472,
+      "mean_teacher_margin": -0.06144411861896515
+    },
+    "strict/2": {
+      "rows": 71,
+      "anchors": 57,
+      "negative_teacher_order": 0,
+      "mean_teacher_margin": 1.0549966096878052
+    },
+    "broad/2": {
+      "rows": 341,
+      "anchors": 197,
+      "negative_teacher_order": 0,
+      "mean_teacher_margin": 1.497017502784729
+    },
+    "broad_gold/2": {
+      "rows": 341,
+      "anchors": 197,
+      "negative_teacher_order": 0,
+      "mean_teacher_margin": 1.497017502784729
+    },
+    "broad_contrast/2": {
+      "rows": 191,
+      "anchors": 135,
+      "negative_teacher_order": 104,
+      "mean_teacher_margin": 0.008790380321443081
+    }
+  },
+  "code_sha256": "f864133379425e9183ee0a9af5f22a19a309541b0e7d797f03d71d938cae65b4",
+  "seconds": 15.781651912955567
+}

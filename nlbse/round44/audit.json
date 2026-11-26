@@ -1,0 +1,151 @@
+{
+  "decisions": {
+    "comparison": {
+      "roles": {
+        "test_a": {
+          "rows": 31098,
+          "options": 363,
+          "predictions_sha256": "60518ccd351309f8e821b89e18b3da272c07c5b7e43dfbc37014595623b63b1f"
+        },
+        "test_b": {
+          "rows": 7899,
+          "options": 396,
+          "predictions_sha256": "439297201bf2b441bd243a1213ffda30cace10d9f1d2b24fd06210c510128e73"
+        },
+        "official": {
+          "rows": 4294,
+          "options": 396,
+          "predictions_sha256": "cfbc0f42f1d148fba760e6a01021fe05317e242bbd493d38a9f8a2ccbea100aa"
+        }
+      },
+      "chosen": null,
+      "selection_sha256": "b2dca9c9c8d78abe97bb1e9788ecffc54d0d30562da61d1c528a8accd6170816"
+    },
+    "special": {
+      "roles": {
+        "test_a": {
+          "rows": 31098,
+          "options": 187,
+          "predictions_sha256": "8154b81e6434f6e5d20fdcf70686d44a307ed9f8913d609349899cf82a479028"
+        },
+        "test_b": {
+          "rows": 7899,
+          "options": 204,
+          "predictions_sha256": "fd880818807e9122a9037e5ef1438164a8708fe131aa4046aea672b44e872233"
+        },
+        "official": {
+          "rows": 4294,
+          "options": 204,
+          "predictions_sha256": "c43d599b4ecb7ad29f2c2c72576446895b781c7ede64f7c222c5e47625962a99"
+        }
+      },
+      "chosen": null,
+      "selection_sha256": "5b02ace48334f94d4ceef0ac7e784c6553ce2d6ac7ae56c18c70274d2518546b"
+    }
+  },
+  "public": null,
+  "micro_sha256": "50a81846ef4a71536cfbdfb997772c438b2dbd8d2f4ea9bca38bd3ef9b9ec238",
+  "confirmed_score": 0.9647211005823113,
+  "gap": 0.005278899417688665,
+  "diversity": {
+    "by_role": {
+      "test_a": {
+        "control": {
+          "fn_covered": 51,
+          "fp_covered": 6
+        },
+        "syntax": {
+          "fn_covered": 104,
+          "fp_covered": 20
+        }
+      },
+      "test_b": {
+        "control": {
+          "fn_covered": 5,
+          "fp_covered": 5
+        },
+        "syntax": {
+          "fn_covered": 8,
+          "fp_covered": 6
+        }
+      },
+      "official": {
+        "control": {
+          "fn_covered": 9,
+          "fp_covered": 5
+        },
+        "syntax": {
+          "fn_covered": 10,
+          "fp_covered": 5
+        }
+      }
+    },
+    "policies": {
+      "comparison/body": [
+        "veto/0.8/body_linear/0.35",
+        "fixed"
+      ],
+      "comparison/lexical": [
+        "veto/0.8/lexical_linear/0.7",
+        "fixed"
+      ],
+      "comparison/middle": [
+        "veto/0.8/middle_linear/0.35",
+        "fixed"
+      ],
+      "comparison/numeric": [
+        "veto/0.8/numeric_linear/0.35",
+        "fixed"
+      ],
+      "comparison/signature": [
+        "consensus/1.8/signature_linear/0.7",
+        "fp"
+      ],
+      "comparison/syntax": [
+        "consensus/1.8/syntax_tree/0.35",
+        "fp"
+      ],
+      "comparison/syntax_text": [
+        "consensus/1.8/syntax_text_tree/0.35",
+        "fp"
+      ],
+      "comparison/usage": [
+        "consensus/1.8/usage_linear/0.7",
+        "fp"
+      ],
+      "special/body": [
+        "consensus/1.8/body_tree/0.7",
+        "tp"
+      ],
+      "special/lexical": [
+        "consensus/1.8/lexical_tree/0.35",
+        "fp"
+      ],
+      "special/middle": [
+        "veto/0.8/middle_tree/0.7",
+        "fixed"
+      ],
+      "special/numeric": [
+        "veto/0.8/numeric_tree/0.7",
+        "tp"
+      ],
+      "special/signature": [
+        "consensus/1.8/signature_tree/0.35",
+        "fp"
+      ],
+      "special/syntax": [
+        "veto/0.8/syntax_tree/0.35",
+        "fixed"
+      ],
+      "special/syntax_text": [
+        "veto/0.8/syntax_text_tree/0.35",
+        "fixed"
+      ],
+      "special/usage": [
+        "veto/0.8/usage_tree/0.7",
+        "fixed"
+      ]
+    }
+  },
+  "code_sha256": "ca01fc1a79aed725d2e45a36b6d731311b0008c855ec9a39cb5e42c3cf73e6d9"
+}

@@ -1,0 +1,19 @@
+{
+  "rows": 184318,
+  "cap": 192,
+  "model": "GraphCodeBERT",
+  "phases": {
+    "test_a": "1ab131c284d8a7e0e0334cf45dbc8f2b34ffa528a69a62ecfd26ff57e399e4e7",
+    "test_b": "60b77f55b6ceccfedf9419153dd4aefc11b825afc2f52765e71f105815b50196",
+    "official": "e66efb0e64cdfdc3ef8c8c7e0b52075e72d6cd0cc30284e1c00c597e9a6ab29e"
+  },
+  "cost": {
+    "forward_seconds": 54.566491761477664,
+    "wall_seconds": 59.40303040109575,
+    "analytic_gflops": 4592575.277826077
+  },
+  "features_sha256": "f830e2e679f1d3cc611d1f8b5281d0c96747ff08656cac6ceb709945fc0b5e6c",
+  "rows_sha256": "12d19f9edd2cfd7239377a25c361968ab84c37a0e9abf7e386eda4661370131d",
+  "model_sha256": "fc542850abf74be2df516bcdedfc2dcdb9bd02c8098a6d5f4d63da73cbcb9e71",
+  "code_sha256": "40f7d5b3e435c6e0ee8f07397fcd63af120cc55b641060dbe01e9fde8ba7f3fc"
+}

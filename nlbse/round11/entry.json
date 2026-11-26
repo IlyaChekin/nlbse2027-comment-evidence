@@ -1,0 +1,7 @@
+{
+  "mode": "small_lexical256_gold_disagreement",
+  "width": 256,
+  "continuation": "gold_disagreement",
+  "kernel": "shift",
+  "checkpoint_sha256": "0663ad6e5b5825c2900e98e29b910224404d565b8fa2feb5eb5c10219e236c6b"
+}

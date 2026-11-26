@@ -1,0 +1,12 @@
+{
+  "rows": 153628,
+  "oof_sha256": "75bd58ee3e65e10e8fd54551c1e6fcfd49a0e741b3c81cb461ba0af20e4aaeb9",
+  "fold_sha256": "bbfc2bd70f345d7932e26760fbe304a933b4bb01e25fecd9cbf10f5f0a2def1d",
+  "feature_manifest_sha256": "7b7fb025f02270ad5e46389ab254840b4441a72487829f498773e270376c7de8",
+  "models_sha256": "eafc90b32c09b0a179543ba18bf39fa771b87ec07cb05deb8e196f0564f108ca",
+  "holdout_sha256": {
+    "probe": "53601ddc03e006ae8dff0a6d1f5e3f3e529d50b93d5a0dbd9899d7181592e087",
+    "dev": "afba045ecd1b8f25f5d414394854e55149de4d70a54dfc14fd31f0af9a6736ee",
+    "test": "a5c0a0f7ed686748fd44ddac9f6ae198992972684839e647fb68a7530010ffeb"
+  }
+}

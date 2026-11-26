@@ -1,0 +1,21 @@
+{
+  "rotation": "test_b",
+  "matrix_sha256": "60b77f55b6ceccfedf9419153dd4aefc11b825afc2f52765e71f105815b50196",
+  "model_sha256": "634ebe7071277b4815fac496f1251a755b902f42f3b16307fa36d2b9476b7b9c",
+  "predictions_sha256": "b64aea7b12f2355b40e60bc2e9052f2906dfa794a83ab010ad4782882a36cb87",
+  "compact_sha256": "3fc804d9de3284bd2bdfaa237cd8d48620103a1aef3e1d3f8ed8a76b63703c9f",
+  "graph_sha256": "1b374ff3397f4e68c7909a47b7c2260db31f19aedbdb25bd1288456728c84d18",
+  "unix": {
+    "round30/embeddings": "ca6421f72c539d75278f8aab79b41977a9aaa6ae9e5c9af72549b12be5ba0a86",
+    "round32/dense": "03e8709bd74c998a3b4b1d87d12530fa9277b29013f390f06edb5cbff104b683"
+  },
+  "removed_validation_copies": 0,
+  "rows": {
+    "oof": 147737,
+    "cal": 12222,
+    "held": 7214
+  },
+  "temperature": 1.7,
+  "teacher_weight": 0.52,
+  "code_sha256": "dcc1dcc1b536facf2608c9282d24bbbeab5b0a3f634241a095b599aecf41b620"
+}

@@ -1,0 +1,1202 @@
+{
+  "dev": {
+    "rows": 21797,
+    "elapsed_seconds": 2.5276904709171504,
+    "baseline": {
+      "tp": 278,
+      "fp": 0,
+      "fn": 44,
+      "f1": 0.9266666666666666,
+      "recovered": 0,
+      "delta_fp": 0,
+      "recovered_without_comment": 0
+    },
+    "missed_without_comment": 33,
+    "metrics": {
+      "body": {
+        "cut": 0.0,
+        "frozen": {
+          "tp": 278,
+          "fp": 0,
+          "fn": 44,
+          "f1": 0.9266666666666666,
+          "recovered": 0,
+          "delta_fp": 0,
+          "recovered_without_comment": 0
+        },
+        "matched": {
+          "tp": 278,
+          "fp": 0,
+          "fn": 44,
+          "f1": 0.9266666666666666,
+          "recovered": 0,
+          "delta_fp": 0,
+          "recovered_without_comment": 0
+        },
+        "any_evidence": {
+          "tp": 278,
+          "fp": 0,
+          "fn": 44,
+          "f1": 0.9266666666666666,
+          "recovered": 0,
+          "delta_fp": 0,
+          "recovered_without_comment": 0
+        },
+        "projects": {
+          "linux": {
+            "cut": 0.0,
+            "tp": 265,
+            "fp": 0,
+            "fn": 42,
+            "f1": 0.9265734265734266,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0
+          },
+          "tcpdump": {
+            "cut": 0.0,
+            "tp": 13,
+            "fp": 0,
+            "fn": 2,
+            "f1": 0.9285714285714286,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0
+          }
+        },
+        "matched_miss_rows": []
+      },
+      "body_alpha": {
+        "cut": 0.0,
+        "frozen": {
+          "tp": 278,
+          "fp": 0,
+          "fn": 44,
+          "f1": 0.9266666666666666,
+          "recovered": 0,
+          "delta_fp": 0,
+          "recovered_without_comment": 0
+        },
+        "matched": {
+          "tp": 278,
+          "fp": 0,
+          "fn": 44,
+          "f1": 0.9266666666666666,
+          "recovered": 0,
+          "delta_fp": 0,
+          "recovered_without_comment": 0
+        },
+        "any_evidence": {
+          "tp": 278,
+          "fp": 0,
+          "fn": 44,
+          "f1": 0.9266666666666666,
+          "recovered": 0,
+          "delta_fp": 0,
+          "recovered_without_comment": 0
+        },
+        "projects": {
+          "linux": {
+            "cut": 0.0,
+            "tp": 265,
+            "fp": 0,
+            "fn": 42,
+            "f1": 0.9265734265734266,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0
+          },
+          "tcpdump": {
+            "cut": 0.0,
+            "tp": 13,
+            "fp": 0,
+            "fn": 2,
+            "f1": 0.9285714285714286,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0
+          }
+        },
+        "matched_miss_rows": []
+      },
+      "documentation": {
+        "cut": 0.0,
+        "frozen": {
+          "tp": 278,
+          "fp": 0,
+          "fn": 44,
+          "f1": 0.9266666666666666,
+          "recovered": 0,
+          "delta_fp": 0,
+          "recovered_without_comment": 0
+        },
+        "matched": {
+          "tp": 278,
+          "fp": 0,
+          "fn": 44,
+          "f1": 0.9266666666666666,
+          "recovered": 0,
+          "delta_fp": 0,
+          "recovered_without_comment": 0
+        },
+        "any_evidence": {
+          "tp": 278,
+          "fp": 0,
+          "fn": 44,
+          "f1": 0.9266666666666666,
+          "recovered": 0,
+          "delta_fp": 0,
+          "recovered_without_comment": 0
+        },
+        "projects": {
+          "linux": {
+            "cut": 0.0,
+            "tp": 265,
+            "fp": 0,
+            "fn": 42,
+            "f1": 0.9265734265734266,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0
+          },
+          "tcpdump": {
+            "cut": 0.0,
+            "tp": 13,
+            "fp": 0,
+            "fn": 2,
+            "f1": 0.9285714285714286,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0
+          }
+        },
+        "matched_miss_rows": []
+      },
+      "code_or_doc": {
+        "cut": 0.0,
+        "frozen": {
+          "tp": 278,
+          "fp": 0,
+          "fn": 44,
+          "f1": 0.9266666666666666,
+          "recovered": 0,
+          "delta_fp": 0,
+          "recovered_without_comment": 0
+        },
+        "matched": {
+          "tp": 278,
+          "fp": 0,
+          "fn": 44,
+          "f1": 0.9266666666666666,
+          "recovered": 0,
+          "delta_fp": 0,
+          "recovered_without_comment": 0
+        },
+        "any_evidence": {
+          "tp": 278,
+          "fp": 0,
+          "fn": 44,
+          "f1": 0.9266666666666666,
+          "recovered": 0,
+          "delta_fp": 0,
+          "recovered_without_comment": 0
+        },
+        "projects": {
+          "linux": {
+            "cut": 0.0,
+            "tp": 265,
+            "fp": 0,
+            "fn": 42,
+            "f1": 0.9265734265734266,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0
+          },
+          "tcpdump": {
+            "cut": 0.0,
+            "tp": 13,
+            "fp": 0,
+            "fn": 2,
+            "f1": 0.9285714285714286,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0
+          }
+        },
+        "matched_miss_rows": []
+      },
+      "code_and_doc": {
+        "cut": 0.0,
+        "frozen": {
+          "tp": 278,
+          "fp": 0,
+          "fn": 44,
+          "f1": 0.9266666666666666,
+          "recovered": 0,
+          "delta_fp": 0,
+          "recovered_without_comment": 0
+        },
+        "matched": {
+          "tp": 278,
+          "fp": 0,
+          "fn": 44,
+          "f1": 0.9266666666666666,
+          "recovered": 0,
+          "delta_fp": 0,
+          "recovered_without_comment": 0
+        },
+        "any_evidence": {
+          "tp": 278,
+          "fp": 0,
+          "fn": 44,
+          "f1": 0.9266666666666666,
+          "recovered": 0,
+          "delta_fp": 0,
+          "recovered_without_comment": 0
+        },
+        "projects": {
+          "linux": {
+            "cut": 0.0,
+            "tp": 265,
+            "fp": 0,
+            "fn": 42,
+            "f1": 0.9265734265734266,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0
+          },
+          "tcpdump": {
+            "cut": 0.0,
+            "tp": 13,
+            "fp": 0,
+            "fn": 2,
+            "f1": 0.9285714285714286,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0
+          }
+        },
+        "matched_miss_rows": []
+      }
+    },
+    "candidate_coverage": {
+      "body": {
+        "miss_positive": 0,
+        "negative": 0
+      },
+      "body_alpha": {
+        "miss_positive": 0,
+        "negative": 0
+      },
+      "whole_comment": {
+        "miss_positive": 0,
+        "negative": 0
+      },
+      "comment_line": {
+        "miss_positive": 0,
+        "negative": 0
+      }
+    },
+    "predictions_sha256": "5f15e01eb2aad98861e98ed99ecd601ae2f95f1d5718d85b0c5ea0df6e4c8138"
+  },
+  "test_a": {
+    "rows": 31098,
+    "elapsed_seconds": 2.981929555069655,
+    "baseline": {
+      "tp": 753,
+      "fp": 0,
+      "fn": 77,
+      "f1": 0.9513581806696146,
+      "recovered": 0,
+      "delta_fp": 0,
+      "recovered_without_comment": 0
+    },
+    "missed_without_comment": 54,
+    "metrics": {
+      "body": {
+        "cut": 0.0,
+        "frozen": {
+          "tp": 753,
+          "fp": 0,
+          "fn": 77,
+          "f1": 0.9513581806696146,
+          "recovered": 0,
+          "delta_fp": 0,
+          "recovered_without_comment": 0
+        },
+        "matched": {
+          "tp": 753,
+          "fp": 0,
+          "fn": 77,
+          "f1": 0.9513581806696146,
+          "recovered": 0,
+          "delta_fp": 0,
+          "recovered_without_comment": 0
+        },
+        "any_evidence": {
+          "tp": 753,
+          "fp": 0,
+          "fn": 77,
+          "f1": 0.9513581806696146,
+          "recovered": 0,
+          "delta_fp": 0,
+          "recovered_without_comment": 0
+        },
+        "projects": {
+          "chromium": {
+            "cut": 0.0,
+            "tp": 276,
+            "fp": 0,
+            "fn": 42,
+            "f1": 0.9292929292929293,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0
+          },
+          "ffmpeg": {
+            "cut": 0.0,
+            "tp": 155,
+            "fp": 0,
+            "fn": 17,
+            "f1": 0.9480122324159022,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0
+          },
+          "qemu": {
+            "cut": 0.0,
+            "tp": 322,
+            "fp": 0,
+            "fn": 18,
+            "f1": 0.972809667673716,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0
+          }
+        },
+        "matched_miss_rows": []
+      },
+      "body_alpha": {
+        "cut": 0.0,
+        "frozen": {
+          "tp": 753,
+          "fp": 0,
+          "fn": 77,
+          "f1": 0.9513581806696146,
+          "recovered": 0,
+          "delta_fp": 0,
+          "recovered_without_comment": 0
+        },
+        "matched": {
+          "tp": 753,
+          "fp": 0,
+          "fn": 77,
+          "f1": 0.9513581806696146,
+          "recovered": 0,
+          "delta_fp": 0,
+          "recovered_without_comment": 0
+        },
+        "any_evidence": {
+          "tp": 753,
+          "fp": 0,
+          "fn": 77,
+          "f1": 0.9513581806696146,
+          "recovered": 0,
+          "delta_fp": 0,
+          "recovered_without_comment": 0
+        },
+        "projects": {
+          "chromium": {
+            "cut": 0.0,
+            "tp": 276,
+            "fp": 0,
+            "fn": 42,
+            "f1": 0.9292929292929293,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0
+          },
+          "ffmpeg": {
+            "cut": 0.0,
+            "tp": 155,
+            "fp": 0,
+            "fn": 17,
+            "f1": 0.9480122324159022,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0
+          },
+          "qemu": {
+            "cut": 0.0,
+            "tp": 322,
+            "fp": 0,
+            "fn": 18,
+            "f1": 0.972809667673716,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0
+          }
+        },
+        "matched_miss_rows": []
+      },
+      "documentation": {
+        "cut": 0.0,
+        "frozen": {
+          "tp": 753,
+          "fp": 0,
+          "fn": 77,
+          "f1": 0.9513581806696146,
+          "recovered": 0,
+          "delta_fp": 0,
+          "recovered_without_comment": 0
+        },
+        "matched": {
+          "tp": 753,
+          "fp": 0,
+          "fn": 77,
+          "f1": 0.9513581806696146,
+          "recovered": 0,
+          "delta_fp": 0,
+          "recovered_without_comment": 0
+        },
+        "any_evidence": {
+          "tp": 753,
+          "fp": 0,
+          "fn": 77,
+          "f1": 0.9513581806696146,
+          "recovered": 0,
+          "delta_fp": 0,
+          "recovered_without_comment": 0
+        },
+        "projects": {
+          "chromium": {
+            "cut": 0.0,
+            "tp": 276,
+            "fp": 0,
+            "fn": 42,
+            "f1": 0.9292929292929293,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0
+          },
+          "ffmpeg": {
+            "cut": 0.0,
+            "tp": 155,
+            "fp": 0,
+            "fn": 17,
+            "f1": 0.9480122324159022,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0
+          },
+          "qemu": {
+            "cut": 0.0,
+            "tp": 322,
+            "fp": 0,
+            "fn": 18,
+            "f1": 0.972809667673716,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0
+          }
+        },
+        "matched_miss_rows": []
+      },
+      "code_or_doc": {
+        "cut": 0.0,
+        "frozen": {
+          "tp": 753,
+          "fp": 0,
+          "fn": 77,
+          "f1": 0.9513581806696146,
+          "recovered": 0,
+          "delta_fp": 0,
+          "recovered_without_comment": 0
+        },
+        "matched": {
+          "tp": 753,
+          "fp": 0,
+          "fn": 77,
+          "f1": 0.9513581806696146,
+          "recovered": 0,
+          "delta_fp": 0,
+          "recovered_without_comment": 0
+        },
+        "any_evidence": {
+          "tp": 753,
+          "fp": 0,
+          "fn": 77,
+          "f1": 0.9513581806696146,
+          "recovered": 0,
+          "delta_fp": 0,
+          "recovered_without_comment": 0
+        },
+        "projects": {
+          "chromium": {
+            "cut": 0.0,
+            "tp": 276,
+            "fp": 0,
+            "fn": 42,
+            "f1": 0.9292929292929293,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0
+          },
+          "ffmpeg": {
+            "cut": 0.0,
+            "tp": 155,
+            "fp": 0,
+            "fn": 17,
+            "f1": 0.9480122324159022,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0
+          },
+          "qemu": {
+            "cut": 0.0,
+            "tp": 322,
+            "fp": 0,
+            "fn": 18,
+            "f1": 0.972809667673716,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0
+          }
+        },
+        "matched_miss_rows": []
+      },
+      "code_and_doc": {
+        "cut": 0.0,
+        "frozen": {
+          "tp": 753,
+          "fp": 0,
+          "fn": 77,
+          "f1": 0.9513581806696146,
+          "recovered": 0,
+          "delta_fp": 0,
+          "recovered_without_comment": 0
+        },
+        "matched": {
+          "tp": 753,
+          "fp": 0,
+          "fn": 77,
+          "f1": 0.9513581806696146,
+          "recovered": 0,
+          "delta_fp": 0,
+          "recovered_without_comment": 0
+        },
+        "any_evidence": {
+          "tp": 753,
+          "fp": 0,
+          "fn": 77,
+          "f1": 0.9513581806696146,
+          "recovered": 0,
+          "delta_fp": 0,
+          "recovered_without_comment": 0
+        },
+        "projects": {
+          "chromium": {
+            "cut": 0.0,
+            "tp": 276,
+            "fp": 0,
+            "fn": 42,
+            "f1": 0.9292929292929293,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0
+          },
+          "ffmpeg": {
+            "cut": 0.0,
+            "tp": 155,
+            "fp": 0,
+            "fn": 17,
+            "f1": 0.9480122324159022,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0
+          },
+          "qemu": {
+            "cut": 0.0,
+            "tp": 322,
+            "fp": 0,
+            "fn": 18,
+            "f1": 0.972809667673716,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0
+          }
+        },
+        "matched_miss_rows": []
+      }
+    },
+    "candidate_coverage": {
+      "body": {
+        "miss_positive": 0,
+        "negative": 0
+      },
+      "body_alpha": {
+        "miss_positive": 0,
+        "negative": 0
+      },
+      "whole_comment": {
+        "miss_positive": 0,
+        "negative": 0
+      },
+      "comment_line": {
+        "miss_positive": 0,
+        "negative": 0
+      }
+    },
+    "predictions_sha256": "48213798b868e0e77a2f35548e34e1d39354ca0d3b1a4ea5dc4da2fbc70742d2"
+  },
+  "test_b": {
+    "rows": 7899,
+    "elapsed_seconds": 0.8555467170663178,
+    "baseline": {
+      "tp": 181,
+      "fp": 0,
+      "fn": 23,
+      "f1": 0.9402597402597402,
+      "recovered": 0,
+      "delta_fp": 0,
+      "recovered_without_comment": 0
+    },
+    "missed_without_comment": 21,
+    "metrics": {
+      "body": {
+        "cut": 0.0,
+        "frozen": {
+          "tp": 181,
+          "fp": 0,
+          "fn": 23,
+          "f1": 0.9402597402597402,
+          "recovered": 0,
+          "delta_fp": 0,
+          "recovered_without_comment": 0
+        },
+        "matched": {
+          "tp": 181,
+          "fp": 0,
+          "fn": 23,
+          "f1": 0.9402597402597402,
+          "recovered": 0,
+          "delta_fp": 0,
+          "recovered_without_comment": 0
+        },
+        "any_evidence": {
+          "tp": 181,
+          "fp": 0,
+          "fn": 23,
+          "f1": 0.9402597402597402,
+          "recovered": 0,
+          "delta_fp": 0,
+          "recovered_without_comment": 0
+        },
+        "projects": {
+          "android": {
+            "cut": 0.0,
+            "tp": 32,
+            "fp": 0,
+            "fn": 2,
+            "f1": 0.9696969696969697,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0
+          },
+          "file": {
+            "cut": 0.0,
+            "tp": 1,
+            "fp": 0,
+            "fn": 0,
+            "f1": 1.0,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0
+          },
+          "imagemagick": {
+            "cut": 0.0,
+            "tp": 0,
+            "fp": 0,
+            "fn": 0,
+            "f1": 0.0,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0
+          },
+          "krb5": {
+            "cut": 0.0,
+            "tp": 2,
+            "fp": 0,
+            "fn": 2,
+            "f1": 0.6666666666666666,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0
+          },
+          "mozilla firefox": {
+            "cut": 0.0,
+            "tp": 120,
+            "fp": 0,
+            "fn": 15,
+            "f1": 0.9411764705882353,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0
+          },
+          "php": {
+            "cut": 0.0,
+            "tp": 11,
+            "fp": 0,
+            "fn": 1,
+            "f1": 0.9565217391304348,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0
+          },
+          "radare2": {
+            "cut": 0.0,
+            "tp": 15,
+            "fp": 0,
+            "fn": 3,
+            "f1": 0.9090909090909091,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0
+          }
+        },
+        "matched_miss_rows": []
+      },
+      "body_alpha": {
+        "cut": 0.0,
+        "frozen": {
+          "tp": 181,
+          "fp": 0,
+          "fn": 23,
+          "f1": 0.9402597402597402,
+          "recovered": 0,
+          "delta_fp": 0,
+          "recovered_without_comment": 0
+        },
+        "matched": {
+          "tp": 181,
+          "fp": 0,
+          "fn": 23,
+          "f1": 0.9402597402597402,
+          "recovered": 0,
+          "delta_fp": 0,
+          "recovered_without_comment": 0
+        },
+        "any_evidence": {
+          "tp": 181,
+          "fp": 0,
+          "fn": 23,
+          "f1": 0.9402597402597402,
+          "recovered": 0,
+          "delta_fp": 0,
+          "recovered_without_comment": 0
+        },
+        "projects": {
+          "android": {
+            "cut": 0.0,
+            "tp": 32,
+            "fp": 0,
+            "fn": 2,
+            "f1": 0.9696969696969697,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0
+          },
+          "file": {
+            "cut": 0.0,
+            "tp": 1,
+            "fp": 0,
+            "fn": 0,
+            "f1": 1.0,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0
+          },
+          "imagemagick": {
+            "cut": 0.0,
+            "tp": 0,
+            "fp": 0,
+            "fn": 0,
+            "f1": 0.0,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0
+          },
+          "krb5": {
+            "cut": 0.0,
+            "tp": 2,
+            "fp": 0,
+            "fn": 2,
+            "f1": 0.6666666666666666,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0
+          },
+          "mozilla firefox": {
+            "cut": 0.0,
+            "tp": 120,
+            "fp": 0,
+            "fn": 15,
+            "f1": 0.9411764705882353,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0
+          },
+          "php": {
+            "cut": 0.0,
+            "tp": 11,
+            "fp": 0,
+            "fn": 1,
+            "f1": 0.9565217391304348,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0
+          },
+          "radare2": {
+            "cut": 0.0,
+            "tp": 15,
+            "fp": 0,
+            "fn": 3,
+            "f1": 0.9090909090909091,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0
+          }
+        },
+        "matched_miss_rows": []
+      },
+      "documentation": {
+        "cut": 0.0,
+        "frozen": {
+          "tp": 181,
+          "fp": 0,
+          "fn": 23,
+          "f1": 0.9402597402597402,
+          "recovered": 0,
+          "delta_fp": 0,
+          "recovered_without_comment": 0
+        },
+        "matched": {
+          "tp": 181,
+          "fp": 0,
+          "fn": 23,
+          "f1": 0.9402597402597402,
+          "recovered": 0,
+          "delta_fp": 0,
+          "recovered_without_comment": 0
+        },
+        "any_evidence": {
+          "tp": 181,
+          "fp": 0,
+          "fn": 23,
+          "f1": 0.9402597402597402,
+          "recovered": 0,
+          "delta_fp": 0,
+          "recovered_without_comment": 0
+        },
+        "projects": {
+          "android": {
+            "cut": 0.0,
+            "tp": 32,
+            "fp": 0,
+            "fn": 2,
+            "f1": 0.9696969696969697,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0
+          },
+          "file": {
+            "cut": 0.0,
+            "tp": 1,
+            "fp": 0,
+            "fn": 0,
+            "f1": 1.0,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0
+          },
+          "imagemagick": {
+            "cut": 0.0,
+            "tp": 0,
+            "fp": 0,
+            "fn": 0,
+            "f1": 0.0,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0
+          },
+          "krb5": {
+            "cut": 0.0,
+            "tp": 2,
+            "fp": 0,
+            "fn": 2,
+            "f1": 0.6666666666666666,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0
+          },
+          "mozilla firefox": {
+            "cut": 0.0,
+            "tp": 120,
+            "fp": 0,
+            "fn": 15,
+            "f1": 0.9411764705882353,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0
+          },
+          "php": {
+            "cut": 0.0,
+            "tp": 11,
+            "fp": 0,
+            "fn": 1,
+            "f1": 0.9565217391304348,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0
+          },
+          "radare2": {
+            "cut": 0.0,
+            "tp": 15,
+            "fp": 0,
+            "fn": 3,
+            "f1": 0.9090909090909091,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0
+          }
+        },
+        "matched_miss_rows": []
+      },
+      "code_or_doc": {
+        "cut": 0.0,
+        "frozen": {
+          "tp": 181,
+          "fp": 0,
+          "fn": 23,
+          "f1": 0.9402597402597402,
+          "recovered": 0,
+          "delta_fp": 0,
+          "recovered_without_comment": 0
+        },
+        "matched": {
+          "tp": 181,
+          "fp": 0,
+          "fn": 23,
+          "f1": 0.9402597402597402,
+          "recovered": 0,
+          "delta_fp": 0,
+          "recovered_without_comment": 0
+        },
+        "any_evidence": {
+          "tp": 181,
+          "fp": 0,
+          "fn": 23,
+          "f1": 0.9402597402597402,
+          "recovered": 0,
+          "delta_fp": 0,
+          "recovered_without_comment": 0
+        },
+        "projects": {
+          "android": {
+            "cut": 0.0,
+            "tp": 32,
+            "fp": 0,
+            "fn": 2,
+            "f1": 0.9696969696969697,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0
+          },
+          "file": {
+            "cut": 0.0,
+            "tp": 1,
+            "fp": 0,
+            "fn": 0,
+            "f1": 1.0,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0
+          },
+          "imagemagick": {
+            "cut": 0.0,
+            "tp": 0,
+            "fp": 0,
+            "fn": 0,
+            "f1": 0.0,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0
+          },
+          "krb5": {
+            "cut": 0.0,
+            "tp": 2,
+            "fp": 0,
+            "fn": 2,
+            "f1": 0.6666666666666666,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0
+          },
+          "mozilla firefox": {
+            "cut": 0.0,
+            "tp": 120,
+            "fp": 0,
+            "fn": 15,
+            "f1": 0.9411764705882353,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0
+          },
+          "php": {
+            "cut": 0.0,
+            "tp": 11,
+            "fp": 0,
+            "fn": 1,
+            "f1": 0.9565217391304348,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0
+          },
+          "radare2": {
+            "cut": 0.0,
+            "tp": 15,
+            "fp": 0,
+            "fn": 3,
+            "f1": 0.9090909090909091,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0
+          }
+        },
+        "matched_miss_rows": []
+      },
+      "code_and_doc": {
+        "cut": 0.0,
+        "frozen": {
+          "tp": 181,
+          "fp": 0,
+          "fn": 23,
+          "f1": 0.9402597402597402,
+          "recovered": 0,
+          "delta_fp": 0,
+          "recovered_without_comment": 0
+        },
+        "matched": {
+          "tp": 181,
+          "fp": 0,
+          "fn": 23,
+          "f1": 0.9402597402597402,
+          "recovered": 0,
+          "delta_fp": 0,
+          "recovered_without_comment": 0
+        },
+        "any_evidence": {
+          "tp": 181,
+          "fp": 0,
+          "fn": 23,
+          "f1": 0.9402597402597402,
+          "recovered": 0,
+          "delta_fp": 0,
+          "recovered_without_comment": 0
+        },
+        "projects": {
+          "android": {
+            "cut": 0.0,
+            "tp": 32,
+            "fp": 0,
+            "fn": 2,
+            "f1": 0.9696969696969697,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0
+          },
+          "file": {
+            "cut": 0.0,
+            "tp": 1,
+            "fp": 0,
+            "fn": 0,
+            "f1": 1.0,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0
+          },
+          "imagemagick": {
+            "cut": 0.0,
+            "tp": 0,
+            "fp": 0,
+            "fn": 0,
+            "f1": 0.0,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0
+          },
+          "krb5": {
+            "cut": 0.0,
+            "tp": 2,
+            "fp": 0,
+            "fn": 2,
+            "f1": 0.6666666666666666,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0
+          },
+          "mozilla firefox": {
+            "cut": 0.0,
+            "tp": 120,
+            "fp": 0,
+            "fn": 15,
+            "f1": 0.9411764705882353,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0
+          },
+          "php": {
+            "cut": 0.0,
+            "tp": 11,
+            "fp": 0,
+            "fn": 1,
+            "f1": 0.9565217391304348,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0
+          },
+          "radare2": {
+            "cut": 0.0,
+            "tp": 15,
+            "fp": 0,
+            "fn": 3,
+            "f1": 0.9090909090909091,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0
+          }
+        },
+        "matched_miss_rows": []
+      }
+    },
+    "candidate_coverage": {
+      "body": {
+        "miss_positive": 0,
+        "negative": 0
+      },
+      "body_alpha": {
+        "miss_positive": 0,
+        "negative": 0
+      },
+      "whole_comment": {
+        "miss_positive": 0,
+        "negative": 0
+      },
+      "comment_line": {
+        "miss_positive": 0,
+        "negative": 0
+      }
+    },
+    "predictions_sha256": "297c35728ce9967287b595a7e8b1e00d13604c1230a39ca7c5fdea6322fc55b3"
+  }
+}

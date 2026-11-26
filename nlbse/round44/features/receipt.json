@@ -1,0 +1,43 @@
+{
+  "rows": 84494,
+  "structure_rows": 84308,
+  "partial_trees": 12055,
+  "extraction_seconds": 29.50000528083183,
+  "wall_seconds": 60.44246016978286,
+  "sources": {
+    "test_a": "1ab131c284d8a7e0e0334cf45dbc8f2b34ffa528a69a62ecfd26ff57e399e4e7",
+    "test_b": "60b77f55b6ceccfedf9419153dd4aefc11b825afc2f52765e71f105815b50196",
+    "official": "e66efb0e64cdfdc3ef8c8c7e0b52075e72d6cd0cc30284e1c00c597e9a6ab29e"
+  },
+  "features": {
+    "lexical": {
+      "nnz": 8238006,
+      "sha256": "c8facc9299f3d4b517b942c9f519f8ee9907fb63b3a65c82a1f0816e244df0c1",
+      "nonempty": 84493
+    },
+    "signature": {
+      "nnz": 5251870,
+      "sha256": "729439c678cfb04d6fb6eeab9a2d72ad1ddc3ff0f5fe352a9c35c7732023212e",
+      "nonempty": 84308
+    },
+    "body": {
+      "nnz": 16880968,
+      "sha256": "2366d6f873dc945eb8f220d33410b07a98f8906a3005564cf5ac4caf602ef595",
+      "nonempty": 84494
+    },
+    "middle": {
+      "nnz": 16058519,
+      "sha256": "64e7149d0fa9109863bec4ca31800ba7f96bac04498557329be161a79cb28043",
+      "nonempty": 84494
+    },
+    "usage": {
+      "nnz": 1838332,
+      "sha256": "6589d19aee4b37f42d15bc1935cdcbf595b89f55d351039bb2fcbc85741b8c3b",
+      "nonempty": 84494
+    }
+  },
+  "roster_sha256": "e30fcf9b6ba80ceaf9adec8fa18222660a91e447c8cfedd5a52d9f97ed502e99",
+  "parser_sha256": "a0c6d7849555770bb17b8e62ef70505e53f564f2d4e11c9bca01bbd2a656a399",
+  "previous_extractor_sha256": "495e3bba290926de5b837bd84e514952e837da01c29a8ecab041acf7fc3ced21",
+  "code_sha256": "bd299d252061f84e8652f08b1a62d2eddf2282093a8f011d93ad20893ffad913"
+}

@@ -1,0 +1,202 @@
+{
+  "reference": {
+    "score": 0.959713453975552,
+    "quality": {
+      "vulnerability": {
+        "precision": 0.9261829045003372,
+        "recall": 0.9561281337047354,
+        "f1": 0.9409173234127955
+      },
+      "MAT": {
+        "precision": 0.9977477477477478,
+        "recall": 0.8772277227722772,
+        "f1": 0.9336143308746049
+      },
+      "mean": {
+        "precision": 0.9619653261240425,
+        "recall": 0.9166779282385062,
+        "f1": 0.9372658271437002
+      }
+    },
+    "cost": {
+      "wall_seconds": 10.208346365019679,
+      "forward_seconds": 8.26828541397117,
+      "analytic_gflops": 14885.778418108006,
+      "routed": 2084,
+      "scanned": 5963
+    },
+    "trials": [
+      {
+        "wall_seconds": 10.044336893130094,
+        "forward_seconds": 8.26828541397117,
+        "analytic_gflops": 14885.778418108006,
+        "routed": 2084,
+        "scanned": 5963
+      },
+      {
+        "wall_seconds": 10.208346365019679,
+        "forward_seconds": 8.07100927317515,
+        "analytic_gflops": 14885.778418108006,
+        "routed": 2084,
+        "scanned": 5963
+      },
+      {
+        "wall_seconds": 10.436979134334251,
+        "forward_seconds": 8.490964471595362,
+        "analytic_gflops": 14885.778418108006,
+        "routed": 2084,
+        "scanned": 5963
+      }
+    ],
+    "matched": {
+      "before": {
+        "tp": 9613,
+        "fp": 766,
+        "fn": 439,
+        "tn": 19837
+      },
+      "after": {
+        "tp": 9613,
+        "fp": 766,
+        "fn": 439,
+        "tn": 19837
+      },
+      "delta_tp": 0,
+      "delta_fp": 0,
+      "f1_before": 0.9410209975037933,
+      "f1_after": 0.9410209975037933
+    },
+    "frozen": {
+      "before": {
+        "tp": 9611,
+        "fp": 766,
+        "fn": 441,
+        "tn": 19837
+      },
+      "after": {
+        "tp": 9611,
+        "fp": 766,
+        "fn": 441,
+        "tn": 19837
+      },
+      "delta_tp": 0,
+      "delta_fp": 0,
+      "f1_before": 0.9409173234127955,
+      "f1_after": 0.9409173234127955
+    },
+    "interval": {
+      "vulnerability": [
+        0.0,
+        0.0
+      ],
+      "MAT": [
+        0.0,
+        0.0
+      ],
+      "mean": [
+        0.0,
+        0.0
+      ]
+    }
+  },
+  "mix1_margin_0.24": {
+    "score": 0.9615766891182594,
+    "quality": {
+      "vulnerability": {
+        "precision": 0.9313205363171603,
+        "recall": 0.9605053720652607,
+        "f1": 0.945687839757089
+      },
+      "MAT": {
+        "precision": 0.9977477477477478,
+        "recall": 0.8772277227722772,
+        "f1": 0.9336143308746049
+      },
+      "mean": {
+        "precision": 0.964534142032454,
+        "recall": 0.9188665474187689,
+        "f1": 0.939651085315847
+      }
+    },
+    "cost": {
+      "wall_seconds": 7.916086295852438,
+      "forward_seconds": 6.145622455282137,
+      "analytic_gflops": 14772.563702884041,
+      "routed": 1990,
+      "scanned": 7279
+    },
+    "trials": [
+      {
+        "wall_seconds": 7.916086295852438,
+        "forward_seconds": 5.844655771041289,
+        "analytic_gflops": 14772.563702884041,
+        "routed": 1990,
+        "scanned": 7279
+      },
+      {
+        "wall_seconds": 7.914574435912073,
+        "forward_seconds": 6.145622455282137,
+        "analytic_gflops": 14772.563702884041,
+        "routed": 1990,
+        "scanned": 7279
+      },
+      {
+        "wall_seconds": 8.494972890010104,
+        "forward_seconds": 6.433063895208761,
+        "analytic_gflops": 14772.563702884041,
+        "routed": 1990,
+        "scanned": 7279
+      }
+    ],
+    "matched": {
+      "before": {
+        "tp": 9613,
+        "fp": 766,
+        "fn": 439,
+        "tn": 19837
+      },
+      "after": {
+        "tp": 9667,
+        "fp": 766,
+        "fn": 385,
+        "tn": 19837
+      },
+      "delta_tp": 54,
+      "delta_fp": 0,
+      "f1_before": 0.9410209975037933,
+      "f1_after": 0.943812545765194
+    },
+    "frozen": {
+      "before": {
+        "tp": 9611,
+        "fp": 766,
+        "fn": 441,
+        "tn": 19837
+      },
+      "after": {
+        "tp": 9655,
+        "fp": 712,
+        "fn": 397,
+        "tn": 19891
+      },
+      "delta_tp": 44,
+      "delta_fp": -54,
+      "f1_before": 0.9409173234127955,
+      "f1_after": 0.945687839757089
+    },
+    "interval": {
+      "vulnerability": [
+        0.00270752220186809,
+        0.006741319090300196
+      ],
+      "MAT": [
+        0.0,
+        0.0
+      ],
+      "mean": [
+        0.001353761100934045,
+        0.003370659545150098
+      ]
+    }
+  }
+}

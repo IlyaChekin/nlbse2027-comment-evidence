@@ -1,0 +1,99 @@
+{
+  "matrix_sha256": "e66efb0e64cdfdc3ef8c8c7e0b52075e72d6cd0cc30284e1c00c597e9a6ab29e",
+  "exclude_copies": 87,
+  "teacher_sha256": "51b367dda695408e91005d957ef08e184456f70f52453b2c45463e7051756179",
+  "compact_sha256": "d04fba2d981c3758fea8fa737f5c70791c4ccead316321f4a52bff6ae452dc9f",
+  "pair_source_sha256": "9a736956406e632f82c2fa97a3475280fe3cf1e22f2fc73d9b7541dcb6b942d7",
+  "pair_roster_sha256": "bee691a2659916e4d219122b25555662817a0a867b020177ff772fcf498ff383",
+  "pair_count": 321,
+  "cohorts": {
+    "negative_consensus": {
+      "available": 2076,
+      "selected": 122,
+      "anchors": 108,
+      "baseline_rate": 0.6194605009633911,
+      "graph_rate": 0.5544315992292871,
+      "unix_rate": 0.5876685934489403
+    },
+    "negative_veto": {
+      "available": 1988,
+      "selected": 111,
+      "anchors": 98,
+      "baseline_rate": 0.6212273641851107,
+      "graph_rate": 0.5779678068410463,
+      "unix_rate": 0.6016096579476862
+    },
+    "negative_retained": {
+      "available": 310,
+      "selected": 17,
+      "anchors": 15,
+      "baseline_rate": 0.4967741935483871,
+      "graph_rate": 0.4258064516129032,
+      "unix_rate": 0.4129032258064516
+    },
+    "unqueried_miss": {
+      "available": 593,
+      "selected": 65,
+      "anchors": 51,
+      "baseline_rate": 0.6509274873524452,
+      "graph_rate": 0.5801011804384486,
+      "unix_rate": 0.5902192242833052
+    },
+    "unqueried_fp": {
+      "available": 198,
+      "selected": 6,
+      "anchors": 6,
+      "baseline_rate": 0.7828282828282829,
+      "graph_rate": 0.7727272727272727,
+      "unix_rate": 0.7373737373737373
+    }
+  },
+  "arms": {
+    "label": [
+      false,
+      null,
+      0
+    ],
+    "soft": [
+      true,
+      null,
+      0
+    ],
+    "pair_gold": [
+      false,
+      "gold",
+      0
+    ],
+    "pair_order": [
+      false,
+      "order",
+      0
+    ],
+    "pair_joint": [
+      true,
+      "order",
+      0
+    ],
+    "pair_residual": [
+      true,
+      "residual",
+      0
+    ],
+    "soft_mlp": [
+      true,
+      null,
+      24
+    ],
+    "pair_mlp": [
+      true,
+      "order",
+      24
+    ]
+  },
+  "inputs": 539,
+  "epochs": 16,
+  "scores_sha256": "e3121e10fac50fb038edb2f3d9fdd954ae56311652d5789a3e4155b69a3a2512",
+  "weights_sha256": "cacad0ad51b1066f6acdbae59bb913405d2ed5ef2cad43a17b26a121725d1d6b",
+  "code_sha256": "aec85addf20d88c70b42d6a8b8fef00514f2f865ed10757fa1acb44868d79140",
+  "seconds": 23.067214959999546
+}

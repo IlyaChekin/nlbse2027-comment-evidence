@@ -1,0 +1,36 @@
+{
+  "rotation": "official",
+  "folds": {
+    "0": {
+      "rows": 37534,
+      "mse_before": 0.6363257765769958,
+      "mse_after": 0.12119674682617188,
+      "encoder_sha256": "970f0f16125e68be2bb5fbd185a47b3c1b8db4324797606061fe7a29038b77a2"
+    },
+    "1": {
+      "rows": 37137,
+      "mse_before": 0.6171188354492188,
+      "mse_after": 0.1184714213013649,
+      "encoder_sha256": "573415060fa35e102bc1909629de2f1e3ae4c004553a7fa5a1bd4c29f595be90"
+    },
+    "2": {
+      "rows": 38010,
+      "mse_before": 0.6327775120735168,
+      "mse_after": 0.11946441233158112,
+      "encoder_sha256": "6fa92247daeb89b4177ed0557fdb8bf37c2e172e4bd8b4a436df60ce96ecd1e4"
+    },
+    "3": {
+      "rows": 37669,
+      "mse_before": 0.6306952834129333,
+      "mse_after": 0.11918532103300095,
+      "encoder_sha256": "6b1a1fc6713a1ced3e95268d8e215fc9d067f8af0fbdb6e1331e64f057385538"
+    }
+  },
+  "matrix_sha256": "e66efb0e64cdfdc3ef8c8c7e0b52075e72d6cd0cc30284e1c00c597e9a6ab29e",
+  "state_sha256": "b33f7e28487321d69aebaa959c10f6ef4c2e0cd52758a222d49ad62a328389cf",
+  "alignment_sha256": "13e68ea872698b8bda717abdea6d185d67cd31675cddec3a28c7d02c75253817",
+  "code_sha256": "2ad17357357103c13b272a3c52577f8f187afb1db44fb7eb0505902a0ca97f1f",
+  "model_receipt_sha256": "9f72a4bb4112b2798cea3b6303595eea97ccb4ea258246a5bc0ab4b2bffce91a",
+  "seconds": 24.09393092105165,
+  "regularization": 3.5
+}

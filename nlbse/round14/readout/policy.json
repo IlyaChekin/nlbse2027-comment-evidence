@@ -1,0 +1,93 @@
+{
+  "chosen": "native",
+  "learned": "ridge/0.003",
+  "candidates": {
+    "native": {
+      "threshold": 0.997188150882721,
+      "metrics": {
+        "base": {
+          "tp": 271,
+          "fp": 0,
+          "fn": 51,
+          "f1": 0.9139966273187183
+        },
+        "candidate": {
+          "tp": 274,
+          "fp": 0,
+          "fn": 48,
+          "f1": 0.9194630872483222
+        },
+        "recovered": 3,
+        "lost": 0,
+        "extra_fp": 0
+      },
+      "residual_ap": 0.08489950350576819
+    },
+    "ridge/0.003": {
+      "threshold": 0.9999943375587463,
+      "metrics": {
+        "base": {
+          "tp": 271,
+          "fp": 0,
+          "fn": 51,
+          "f1": 0.9139966273187183
+        },
+        "candidate": {
+          "tp": 272,
+          "fp": 0,
+          "fn": 50,
+          "f1": 0.9158249158249159
+        },
+        "recovered": 1,
+        "lost": 0,
+        "extra_fp": 0
+      },
+      "residual_ap": 0.06122460752571389
+    },
+    "ridge/0.02": {
+      "threshold": 0.9999999403953552,
+      "metrics": {
+        "base": {
+          "tp": 271,
+          "fp": 0,
+          "fn": 51,
+          "f1": 0.9139966273187183
+        },
+        "candidate": {
+          "tp": 272,
+          "fp": 0,
+          "fn": 50,
+          "f1": 0.9158249158249159
+        },
+        "recovered": 1,
+        "lost": 0,
+        "extra_fp": 0
+      },
+      "residual_ap": 0.059520010529720814
+    },
+    "ridge/0.12": {
+      "threshold": 1.0,
+      "metrics": {
+        "base": {
+          "tp": 271,
+          "fp": 0,
+          "fn": 51,
+          "f1": 0.9139966273187183
+        },
+        "candidate": {
+          "tp": 271,
+          "fp": 0,
+          "fn": 51,
+          "f1": 0.9139966273187183
+        },
+        "recovered": 0,
+        "lost": 0,
+        "extra_fp": 0
+      },
+      "residual_ap": 0.052662457917799374
+    }
+  },
+  "artifact_sha256": "cbf34e7a82c4036f2cb83ed646232dad2f906f0087f878a0e9e1637c69dd3935",
+  "source": "round13/backbones/compact/selected.json",
+  "source_sha256": "cea74567d5a837958d832b54f4e4ad0942f1a5be102012b2fdc7217740703b3c"
+}

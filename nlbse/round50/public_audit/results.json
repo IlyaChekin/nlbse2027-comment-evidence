@@ -1,0 +1,89 @@
+{
+  "rows": 30655,
+  "matched": 30292,
+  "conflicts": 0,
+  "ambiguous": 70,
+  "scenarios": {
+    "archived_W_disagrees_observed": {
+      "rows": 678,
+      "f1": 0.972493611904404,
+      "additional_tp": 146,
+      "removed_fp": 221,
+      "unchanged_cost_score": 0.9701858657948425,
+      "zero_cost_score": 0.9724646273015636
+    },
+    "archived_W_disagrees_unqueried": {
+      "rows": 684,
+      "f1": 0.9583895299465508,
+      "additional_tp": 34,
+      "removed_fp": 49,
+      "unchanged_cost_score": 0.9659546412074864,
+      "zero_cost_score": 0.9682334027142074
+    },
+    "archived_W_disagrees_any": {
+      "rows": 1362,
+      "f1": 0.9766345768150823,
+      "additional_tp": 180,
+      "removed_fp": 270,
+      "unchanged_cost_score": 0.9714281552680459,
+      "zero_cost_score": 0.973706916774767
+    },
+    "observed_W_concordant": {
+      "rows": 6432,
+      "f1": 0.9687934804213874,
+      "additional_tp": 189,
+      "removed_fp": 99,
+      "unchanged_cost_score": 0.9690758263499375,
+      "zero_cost_score": 0.9713545878566585
+    },
+    "archived_external_without_W": {
+      "rows": 377,
+      "f1": 0.9655342682204227,
+      "additional_tp": 218,
+      "removed_fp": 0,
+      "unchanged_cost_score": 0.968098062689648,
+      "zero_cost_score": 0.9703768241963691
+    },
+    "archived_W_only": {
+      "rows": 9197,
+      "f1": 0.9654320987654321,
+      "additional_tp": 216,
+      "removed_fp": 0,
+      "unchanged_cost_score": 0.9680674118531509,
+      "zero_cost_score": 0.9703461733598719
+    },
+    "archived_both": {
+      "rows": 270,
+      "f1": 0.955528965998604,
+      "additional_tp": 24,
+      "removed_fp": 0,
+      "unchanged_cost_score": 0.9650964720231024,
+      "zero_cost_score": 0.9673752335298236
+    },
+    "unknown_annotation": {
+      "rows": 363,
+      "f1": 0.9567688855646971,
+      "additional_tp": 35,
+      "removed_fp": 14,
+      "unchanged_cost_score": 0.9654684478929304,
+      "zero_cost_score": 0.9677472093996515
+    },
+    "all_observed": {
+      "rows": 7279,
+      "f1": 0.9889343036586582,
+      "additional_tp": 361,
+      "removed_fp": 333,
+      "unchanged_cost_score": 0.9751180733211188,
+      "zero_cost_score": 0.9773968348278399
+    }
+  },
+  "source_sha256": "235f85dc6c0ed888fead3a2f2b55497bca5b07c8e0ee10a0c043b0557f29d49c",
+  "dataset_sha256": "4d5e1fcffa59d08ee3f285209c9538c425cd2723dbeefb2530e1520364a1b2b0",
+  "release_predictions_sha256": "c7d2e7807b4d7b45310a20b39535d876fead41444ebe967dec46dc3e0d8e18e9",
+  "endpoints_sha256": "016a38403a07edc9c217b36b3c8f536b4421915eb2614a98f87df18b3cf01182",
+  "archive_sha256": "debd19f64365645bb2bf56ce5096bd96e9e1e6ae14685fb2427a8387e834f9d7",
+  "predictions_sha256": "be27d0385aa78646fa0e864802f352456a79154195fe1ba807c66f1afaa763e1",
+  "code_sha256": "c184affef2b5219a1f836a141b44ce575f1b72f67e6c39a2cd0c1f92d3b8e403",
+  "runtime_seconds": 52.202844966901466,
+  "access": "diagnostic only; public metadata and source labels do not enter any fitted model"
+}

@@ -1,0 +1,29 @@
+{
+  "scope": "projects",
+  "seed": 42,
+  "epochs": 1,
+  "fit_rows": 153628,
+  "teacher_sha256": "95f928cfdee573d2465961cf500cac3b5ccc50b4f5686e4106360e55538fe24d",
+  "base_sha256": "d230266ed3d64499dbd2dab60c93445b291d34096fc605d07b376e500868d881",
+  "training": {
+    "control": {
+      "checkpoint": "control.pt",
+      "sha256": "c6c335248ed7f88984829a7ccf89ed46bed08e489b4b3369ad393e7890db83f6",
+      "steps": 1201,
+      "training_seconds": 15.098445143783465
+    },
+    "rank_boundary": {
+      "checkpoint": "rank_boundary.pt",
+      "sha256": "b484cc7d65044179a79292e49651b18da6a2432321db306f81bda4494c4da38a",
+      "steps": 1201,
+      "training_seconds": 15.454799063969404
+    },
+    "rank_pairs": {
+      "checkpoint": "rank_pairs.pt",
+      "sha256": "873f7aad2c5cf248834a3436dd66b225bdc64b90a03077bc67eef86087bcca71",
+      "steps": 1201,
+      "training_seconds": 16.03246937505901
+    }
+  },
+  "out_of_fold_sha256": "d2951402b86228c7217436170a777ada4deb491efad08546a59da8703e2447c3"
+}

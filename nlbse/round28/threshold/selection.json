@@ -1,0 +1,13 @@
+{
+  "selected": "calibration_only",
+  "point_model": "sparse:point_1.7_1:fixed",
+  "pairs_minus_point": [
+    2.900063217303739e-05,
+    0.00014756625130463163,
+    8.617306720970497e-06,
+    2.8639665280105753e-05,
+    5.6418759828980036e-05
+  ],
+  "results_sha256": "5b7dc79a342193878a6f261dcd05fd7a5d6ef3fae9f138e9364b1f949a89d97a",
+  "policy_sha256": "601a2208327f845c55c68d997e4e3305a936e312d91099592e763bc11ce2888e"
+}

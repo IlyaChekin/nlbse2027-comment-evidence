@@ -1,0 +1,70 @@
+{
+  "tables": {
+    "comparison": {
+      "selection_sha256": "b505fbbcff017fc538fed2eb32b30e26173e207d6ef1ab9ff3d48f266767456a",
+      "rows": 1620,
+      "selected_cheap": null,
+      "selected_dense": null
+    },
+    "switch_comparison": {
+      "selection_sha256": "3fc0fda5a284dbdd97b3f8420fa2ecf66ef6d21c90243e165376b74d27b483bf",
+      "rows": 1620,
+      "selected_cheap": null,
+      "selected_dense": null
+    },
+    "swap": {
+      "selection_sha256": "2022079883b73215e8f657629034e0b04bd600c1075bfba51afcaf8ce5fed228",
+      "rows": 810,
+      "selected_cheap": null,
+      "selected_dense": null
+    }
+  },
+  "held": {
+    "comparison": {
+      "test_a": {
+        "variants": 555,
+        "predictions_sha256": "c06a3a26f9f55e2f6a1b2b4c3746f9c23799835c460384c745c482b5d7446f0e"
+      },
+      "test_b": {
+        "variants": 555,
+        "predictions_sha256": "cb52496863135ecc18f70c7092463236b1f296066df91d0d2cb382ba379ff560"
+      },
+      "official": {
+        "variants": 555,
+        "predictions_sha256": "2c675823fc16f818dfd7c34403a5743a89a36a72b8bbc64ebefa528bfa49002f"
+      }
+    },
+    "switch_comparison": {
+      "test_a": {
+        "variants": 555,
+        "predictions_sha256": "f801f250dcdc9548d6d1680298c57ca2e9a070b14f555470e12f9a0923543c54"
+      },
+      "test_b": {
+        "variants": 555,
+        "predictions_sha256": "c7c259cb8ff97f970e8c1c56f4563c91c193c49176c21681e015f7e899fee44c"
+      },
+      "official": {
+        "variants": 555,
+        "predictions_sha256": "56dd546ddc07daf2804e267f3f560c87b9f44d2759bf731d808e2aeff2c10527"
+      }
+    },
+    "swap": {
+      "test_a": {
+        "variants": 810,
+        "predictions_sha256": "926b716068d2a248bbdd60c65e976fd47536b16fd89f279d9d5fa25a3597d4d9"
+      },
+      "test_b": {
+        "variants": 810,
+        "predictions_sha256": "0e0846a1e485e5fbd1acff755ae87b994e0749119c8d607bf2c84db0b5921c45"
+      },
+      "official": {
+        "variants": 810,
+        "predictions_sha256": "f35cb0267ac313f2ba4c7b74736c870bfc193724515a9e390630505812abf38c"
+      }
+    }
+  },
+  "micro_sha256": "19c1694cf24b457339c1bb3380bf5a08d3e364985f6e2cd21af990166797b1e1",
+  "confirmed": 0.9647211005823113,
+  "gap": 0.005278899417688665,
+  "code_sha256": "9b536f74a673dbab5a05390c7361e8deecd564e09b3b14948d1539d07bc986d7"
+}

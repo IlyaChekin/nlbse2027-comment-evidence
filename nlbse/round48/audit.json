@@ -1,0 +1,859 @@
+{
+  "verification": {
+    "dev": {
+      "predictions_sha256": "2e45ab78d2b3915d4a9231dc57e18a32301c38456b7ed94705350b95752ea1e7",
+      "rows": 21797,
+      "baseline": {
+        "tp": 278,
+        "fp": 0,
+        "recovered": 0
+      },
+      "misses": 44,
+      "comment_free": 33,
+      "arms": {
+        "previous_joint": {
+          "frozen": {
+            "tp": 278,
+            "fp": 0,
+            "recovered": 0
+          },
+          "same_fp_recovered": 0,
+          "recovered_rows": [],
+          "same_fp_projects": {
+            "linux": {
+              "tp": 265,
+              "fp": 0,
+              "recovered": 0
+            },
+            "tcpdump": {
+              "tp": 13,
+              "fp": 0,
+              "recovered": 0
+            }
+          }
+        },
+        "layout_paired": {
+          "frozen": {
+            "tp": 278,
+            "fp": 0,
+            "recovered": 0
+          },
+          "same_fp_recovered": 0,
+          "recovered_rows": [],
+          "same_fp_projects": {
+            "linux": {
+              "tp": 265,
+              "fp": 0,
+              "recovered": 0
+            },
+            "tcpdump": {
+              "tp": 13,
+              "fp": 0,
+              "recovered": 0
+            }
+          }
+        },
+        "layout_point": {
+          "frozen": {
+            "tp": 278,
+            "fp": 0,
+            "recovered": 0
+          },
+          "same_fp_recovered": 0,
+          "recovered_rows": [],
+          "same_fp_projects": {
+            "linux": {
+              "tp": 265,
+              "fp": 0,
+              "recovered": 0
+            },
+            "tcpdump": {
+              "tp": 13,
+              "fp": 0,
+              "recovered": 0
+            }
+          }
+        },
+        "stub_paired": {
+          "frozen": {
+            "tp": 278,
+            "fp": 0,
+            "recovered": 0
+          },
+          "same_fp_recovered": 0,
+          "recovered_rows": [],
+          "same_fp_projects": {
+            "linux": {
+              "tp": 265,
+              "fp": 0,
+              "recovered": 0
+            },
+            "tcpdump": {
+              "tp": 13,
+              "fp": 0,
+              "recovered": 0
+            }
+          }
+        },
+        "stub_point": {
+          "frozen": {
+            "tp": 278,
+            "fp": 0,
+            "recovered": 0
+          },
+          "same_fp_recovered": 0,
+          "recovered_rows": [],
+          "same_fp_projects": {
+            "linux": {
+              "tp": 265,
+              "fp": 0,
+              "recovered": 0
+            },
+            "tcpdump": {
+              "tp": 13,
+              "fp": 0,
+              "recovered": 0
+            }
+          }
+        },
+        "joint_paired": {
+          "frozen": {
+            "tp": 278,
+            "fp": 0,
+            "recovered": 0
+          },
+          "same_fp_recovered": 0,
+          "recovered_rows": [],
+          "same_fp_projects": {
+            "linux": {
+              "tp": 265,
+              "fp": 0,
+              "recovered": 0
+            },
+            "tcpdump": {
+              "tp": 13,
+              "fp": 0,
+              "recovered": 0
+            }
+          }
+        },
+        "joint_point": {
+          "frozen": {
+            "tp": 278,
+            "fp": 0,
+            "recovered": 0
+          },
+          "same_fp_recovered": 0,
+          "recovered_rows": [],
+          "same_fp_projects": {
+            "linux": {
+              "tp": 265,
+              "fp": 0,
+              "recovered": 0
+            },
+            "tcpdump": {
+              "tp": 13,
+              "fp": 0,
+              "recovered": 0
+            }
+          }
+        },
+        "layout_stub_consensus": {
+          "frozen": {
+            "tp": 278,
+            "fp": 0,
+            "recovered": 0
+          },
+          "same_fp_recovered": 0,
+          "recovered_rows": [],
+          "same_fp_projects": {
+            "linux": {
+              "tp": 265,
+              "fp": 0,
+              "recovered": 0
+            },
+            "tcpdump": {
+              "tp": 13,
+              "fp": 0,
+              "recovered": 0
+            }
+          }
+        }
+      }
+    },
+    "test_a": {
+      "predictions_sha256": "dc01c29a3804bf38e715e665521eb66bf93b9f886861f486d5475f1944ebc0ea",
+      "rows": 31098,
+      "baseline": {
+        "tp": 753,
+        "fp": 0,
+        "recovered": 0
+      },
+      "misses": 77,
+      "comment_free": 54,
+      "arms": {
+        "previous_joint": {
+          "frozen": {
+            "tp": 753,
+            "fp": 1,
+            "recovered": 0
+          },
+          "same_fp_recovered": 0,
+          "recovered_rows": [],
+          "same_fp_projects": {
+            "chromium": {
+              "tp": 276,
+              "fp": 0,
+              "recovered": 0
+            },
+            "ffmpeg": {
+              "tp": 155,
+              "fp": 0,
+              "recovered": 0
+            },
+            "qemu": {
+              "tp": 322,
+              "fp": 0,
+              "recovered": 0
+            }
+          }
+        },
+        "layout_paired": {
+          "frozen": {
+            "tp": 753,
+            "fp": 0,
+            "recovered": 0
+          },
+          "same_fp_recovered": 0,
+          "recovered_rows": [],
+          "same_fp_projects": {
+            "chromium": {
+              "tp": 276,
+              "fp": 0,
+              "recovered": 0
+            },
+            "ffmpeg": {
+              "tp": 155,
+              "fp": 0,
+              "recovered": 0
+            },
+            "qemu": {
+              "tp": 322,
+              "fp": 0,
+              "recovered": 0
+            }
+          }
+        },
+        "layout_point": {
+          "frozen": {
+            "tp": 753,
+            "fp": 0,
+            "recovered": 0
+          },
+          "same_fp_recovered": 0,
+          "recovered_rows": [],
+          "same_fp_projects": {
+            "chromium": {
+              "tp": 276,
+              "fp": 0,
+              "recovered": 0
+            },
+            "ffmpeg": {
+              "tp": 155,
+              "fp": 0,
+              "recovered": 0
+            },
+            "qemu": {
+              "tp": 322,
+              "fp": 0,
+              "recovered": 0
+            }
+          }
+        },
+        "stub_paired": {
+          "frozen": {
+            "tp": 753,
+            "fp": 0,
+            "recovered": 0
+          },
+          "same_fp_recovered": 0,
+          "recovered_rows": [],
+          "same_fp_projects": {
+            "chromium": {
+              "tp": 276,
+              "fp": 0,
+              "recovered": 0
+            },
+            "ffmpeg": {
+              "tp": 155,
+              "fp": 0,
+              "recovered": 0
+            },
+            "qemu": {
+              "tp": 322,
+              "fp": 0,
+              "recovered": 0
+            }
+          }
+        },
+        "stub_point": {
+          "frozen": {
+            "tp": 753,
+            "fp": 2,
+            "recovered": 0
+          },
+          "same_fp_recovered": 0,
+          "recovered_rows": [],
+          "same_fp_projects": {
+            "chromium": {
+              "tp": 276,
+              "fp": 0,
+              "recovered": 0
+            },
+            "ffmpeg": {
+              "tp": 155,
+              "fp": 0,
+              "recovered": 0
+            },
+            "qemu": {
+              "tp": 322,
+              "fp": 0,
+              "recovered": 0
+            }
+          }
+        },
+        "joint_paired": {
+          "frozen": {
+            "tp": 753,
+            "fp": 0,
+            "recovered": 0
+          },
+          "same_fp_recovered": 0,
+          "recovered_rows": [],
+          "same_fp_projects": {
+            "chromium": {
+              "tp": 276,
+              "fp": 0,
+              "recovered": 0
+            },
+            "ffmpeg": {
+              "tp": 155,
+              "fp": 0,
+              "recovered": 0
+            },
+            "qemu": {
+              "tp": 322,
+              "fp": 0,
+              "recovered": 0
+            }
+          }
+        },
+        "joint_point": {
+          "frozen": {
+            "tp": 753,
+            "fp": 0,
+            "recovered": 0
+          },
+          "same_fp_recovered": 0,
+          "recovered_rows": [],
+          "same_fp_projects": {
+            "chromium": {
+              "tp": 276,
+              "fp": 0,
+              "recovered": 0
+            },
+            "ffmpeg": {
+              "tp": 155,
+              "fp": 0,
+              "recovered": 0
+            },
+            "qemu": {
+              "tp": 322,
+              "fp": 0,
+              "recovered": 0
+            }
+          }
+        },
+        "layout_stub_consensus": {
+          "frozen": {
+            "tp": 753,
+            "fp": 0,
+            "recovered": 0
+          },
+          "same_fp_recovered": 0,
+          "recovered_rows": [],
+          "same_fp_projects": {
+            "chromium": {
+              "tp": 276,
+              "fp": 0,
+              "recovered": 0
+            },
+            "ffmpeg": {
+              "tp": 155,
+              "fp": 0,
+              "recovered": 0
+            },
+            "qemu": {
+              "tp": 322,
+              "fp": 0,
+              "recovered": 0
+            }
+          }
+        }
+      }
+    },
+    "test_b": {
+      "predictions_sha256": "6cbd9db68448dc772fd9f43422ab61d2a1ea2e3d8897ccc3947bb3563a5003f4",
+      "rows": 7899,
+      "baseline": {
+        "tp": 181,
+        "fp": 0,
+        "recovered": 0
+      },
+      "misses": 23,
+      "comment_free": 21,
+      "arms": {
+        "previous_joint": {
+          "frozen": {
+            "tp": 181,
+            "fp": 0,
+            "recovered": 0
+          },
+          "same_fp_recovered": 0,
+          "recovered_rows": [],
+          "same_fp_projects": {
+            "android": {
+              "tp": 32,
+              "fp": 0,
+              "recovered": 0
+            },
+            "file": {
+              "tp": 1,
+              "fp": 0,
+              "recovered": 0
+            },
+            "imagemagick": {
+              "tp": 0,
+              "fp": 0,
+              "recovered": 0
+            },
+            "krb5": {
+              "tp": 2,
+              "fp": 0,
+              "recovered": 0
+            },
+            "mozilla firefox": {
+              "tp": 120,
+              "fp": 0,
+              "recovered": 0
+            },
+            "php": {
+              "tp": 11,
+              "fp": 0,
+              "recovered": 0
+            },
+            "radare2": {
+              "tp": 15,
+              "fp": 0,
+              "recovered": 0
+            }
+          }
+        },
+        "layout_paired": {
+          "frozen": {
+            "tp": 181,
+            "fp": 0,
+            "recovered": 0
+          },
+          "same_fp_recovered": 1,
+          "recovered_rows": [
+            208133
+          ],
+          "same_fp_projects": {
+            "android": {
+              "tp": 33,
+              "fp": 0,
+              "recovered": 1
+            },
+            "file": {
+              "tp": 1,
+              "fp": 0,
+              "recovered": 0
+            },
+            "imagemagick": {
+              "tp": 0,
+              "fp": 0,
+              "recovered": 0
+            },
+            "krb5": {
+              "tp": 2,
+              "fp": 0,
+              "recovered": 0
+            },
+            "mozilla firefox": {
+              "tp": 120,
+              "fp": 0,
+              "recovered": 0
+            },
+            "php": {
+              "tp": 11,
+              "fp": 0,
+              "recovered": 0
+            },
+            "radare2": {
+              "tp": 15,
+              "fp": 0,
+              "recovered": 0
+            }
+          }
+        },
+        "layout_point": {
+          "frozen": {
+            "tp": 181,
+            "fp": 0,
+            "recovered": 0
+          },
+          "same_fp_recovered": 0,
+          "recovered_rows": [],
+          "same_fp_projects": {
+            "android": {
+              "tp": 32,
+              "fp": 0,
+              "recovered": 0
+            },
+            "file": {
+              "tp": 1,
+              "fp": 0,
+              "recovered": 0
+            },
+            "imagemagick": {
+              "tp": 0,
+              "fp": 0,
+              "recovered": 0
+            },
+            "krb5": {
+              "tp": 2,
+              "fp": 0,
+              "recovered": 0
+            },
+            "mozilla firefox": {
+              "tp": 120,
+              "fp": 0,
+              "recovered": 0
+            },
+            "php": {
+              "tp": 11,
+              "fp": 0,
+              "recovered": 0
+            },
+            "radare2": {
+              "tp": 15,
+              "fp": 0,
+              "recovered": 0
+            }
+          }
+        },
+        "stub_paired": {
+          "frozen": {
+            "tp": 181,
+            "fp": 0,
+            "recovered": 0
+          },
+          "same_fp_recovered": 0,
+          "recovered_rows": [],
+          "same_fp_projects": {
+            "android": {
+              "tp": 32,
+              "fp": 0,
+              "recovered": 0
+            },
+            "file": {
+              "tp": 1,
+              "fp": 0,
+              "recovered": 0
+            },
+            "imagemagick": {
+              "tp": 0,
+              "fp": 0,
+              "recovered": 0
+            },
+            "krb5": {
+              "tp": 2,
+              "fp": 0,
+              "recovered": 0
+            },
+            "mozilla firefox": {
+              "tp": 120,
+              "fp": 0,
+              "recovered": 0
+            },
+            "php": {
+              "tp": 11,
+              "fp": 0,
+              "recovered": 0
+            },
+            "radare2": {
+              "tp": 15,
+              "fp": 0,
+              "recovered": 0
+            }
+          }
+        },
+        "stub_point": {
+          "frozen": {
+            "tp": 181,
+            "fp": 1,
+            "recovered": 0
+          },
+          "same_fp_recovered": 0,
+          "recovered_rows": [],
+          "same_fp_projects": {
+            "android": {
+              "tp": 32,
+              "fp": 0,
+              "recovered": 0
+            },
+            "file": {
+              "tp": 1,
+              "fp": 0,
+              "recovered": 0
+            },
+            "imagemagick": {
+              "tp": 0,
+              "fp": 0,
+              "recovered": 0
+            },
+            "krb5": {
+              "tp": 2,
+              "fp": 0,
+              "recovered": 0
+            },
+            "mozilla firefox": {
+              "tp": 120,
+              "fp": 0,
+              "recovered": 0
+            },
+            "php": {
+              "tp": 11,
+              "fp": 0,
+              "recovered": 0
+            },
+            "radare2": {
+              "tp": 15,
+              "fp": 0,
+              "recovered": 0
+            }
+          }
+        },
+        "joint_paired": {
+          "frozen": {
+            "tp": 181,
+            "fp": 0,
+            "recovered": 0
+          },
+          "same_fp_recovered": 1,
+          "recovered_rows": [
+            208133
+          ],
+          "same_fp_projects": {
+            "android": {
+              "tp": 33,
+              "fp": 0,
+              "recovered": 1
+            },
+            "file": {
+              "tp": 1,
+              "fp": 0,
+              "recovered": 0
+            },
+            "imagemagick": {
+              "tp": 0,
+              "fp": 0,
+              "recovered": 0
+            },
+            "krb5": {
+              "tp": 2,
+              "fp": 0,
+              "recovered": 0
+            },
+            "mozilla firefox": {
+              "tp": 120,
+              "fp": 0,
+              "recovered": 0
+            },
+            "php": {
+              "tp": 11,
+              "fp": 0,
+              "recovered": 0
+            },
+            "radare2": {
+              "tp": 15,
+              "fp": 0,
+              "recovered": 0
+            }
+          }
+        },
+        "joint_point": {
+          "frozen": {
+            "tp": 181,
+            "fp": 0,
+            "recovered": 0
+          },
+          "same_fp_recovered": 0,
+          "recovered_rows": [],
+          "same_fp_projects": {
+            "android": {
+              "tp": 32,
+              "fp": 0,
+              "recovered": 0
+            },
+            "file": {
+              "tp": 1,
+              "fp": 0,
+              "recovered": 0
+            },
+            "imagemagick": {
+              "tp": 0,
+              "fp": 0,
+              "recovered": 0
+            },
+            "krb5": {
+              "tp": 2,
+              "fp": 0,
+              "recovered": 0
+            },
+            "mozilla firefox": {
+              "tp": 120,
+              "fp": 0,
+              "recovered": 0
+            },
+            "php": {
+              "tp": 11,
+              "fp": 0,
+              "recovered": 0
+            },
+            "radare2": {
+              "tp": 15,
+              "fp": 0,
+              "recovered": 0
+            }
+          }
+        },
+        "layout_stub_consensus": {
+          "frozen": {
+            "tp": 181,
+            "fp": 0,
+            "recovered": 0
+          },
+          "same_fp_recovered": 0,
+          "recovered_rows": [],
+          "same_fp_projects": {
+            "android": {
+              "tp": 32,
+              "fp": 0,
+              "recovered": 0
+            },
+            "file": {
+              "tp": 1,
+              "fp": 0,
+              "recovered": 0
+            },
+            "imagemagick": {
+              "tp": 0,
+              "fp": 0,
+              "recovered": 0
+            },
+            "krb5": {
+              "tp": 2,
+              "fp": 0,
+              "recovered": 0
+            },
+            "mozilla firefox": {
+              "tp": 120,
+              "fp": 0,
+              "recovered": 0
+            },
+            "php": {
+              "tp": 11,
+              "fp": 0,
+              "recovered": 0
+            },
+            "radare2": {
+              "tp": 15,
+              "fp": 0,
+              "recovered": 0
+            }
+          }
+        }
+      }
+    }
+  },
+  "held_source_provenance": {
+    "test_a": {
+      "confirmed_omission": 19,
+      "without_comment": 17,
+      "with_other_comment": 2,
+      "rows": [
+        158,
+        1251,
+        21285,
+        21428,
+        21493,
+        22180,
+        22240,
+        22241,
+        22248,
+        22262,
+        22307,
+        22316,
+        22424,
+        40516,
+        40579,
+        40859,
+        40956,
+        41322,
+        183322
+      ]
+    },
+    "test_b": {
+      "confirmed_omission": 12,
+      "without_comment": 12,
+      "with_other_comment": 0,
+      "rows": [
+        59558,
+        59914,
+        60188,
+        60486,
+        60590,
+        60624,
+        60919,
+        78424,
+        78502,
+        78853,
+        78923,
+        79550
+      ]
+    }
+  },
+  "source_inputs": {
+    "source_audit.json": "05ca99aae6f77c4cf6cee4ef7c44012beadbd9e7718508344dde5cc3d7297c71",
+    "visible_provenance.json": "84484741b5f058404da4f8f0ad4649b8b194441984b636eb5be56bcb4fc363b8"
+  },
+  "public": {
+    "verified_score": 0.9647211005823113,
+    "target": 0.97,
+    "gap": 0.005278899417688665,
+    "required_zero_fp_returns": 16,
+    "fn": 61,
+    "confirmed_hidden": 41,
+    "unconfirmed": 20,
+    "score_if_all_unconfirmed_recovered": 0.9713110584000566,
+    "score_if_only_one_more_recovered": 0.9650571884310163,
+    "score_if_15_more_recovered": 0.9696892041549735,
+    "score_if_16_more_recovered": 0.9700149195463694,
+    "public_predictions_sha256": "5e32c35a9e6973051e595e0449bbd52006c1a3a183e44841ff0304da52b6bc09",
+    "archive_sha256": "debd19f64365645bb2bf56ce5096bd96e9e1e6ae14685fb2427a8387e834f9d7",
+    "provenance_sha256": "16417fc110f7849d6453be4237926e6c1f13109b90db5cb6b6317ca7c9dc9e6a"
+  },
+  "code_sha256": "2a6eb524915dc1fcaf2a9c96b90bf10f4353790c0dbc4bae6cc179a2ad548f54"
+}

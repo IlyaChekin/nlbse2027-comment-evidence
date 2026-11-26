@@ -1,0 +1,102 @@
+{
+  "reference": {
+    "score": 0.9597546107210212,
+    "quality": {
+      "vulnerability": {
+        "precision": 0.9261829045003372,
+        "recall": 0.9561281337047354,
+        "f1": 0.9409173234127955
+      },
+      "MAT": {
+        "precision": 0.9977477477477478,
+        "recall": 0.8772277227722772,
+        "f1": 0.9336143308746049
+      },
+      "mean": {
+        "precision": 0.9619653261240425,
+        "recall": 0.9166779282385062,
+        "f1": 0.9372658271437002
+      }
+    },
+    "cost": {
+      "wall_seconds": 10.199439740972593,
+      "forward_seconds": 8.062501686625183,
+      "analytic_gflops": 14885.778418108006,
+      "routed": 2084,
+      "scanned": 5963
+    },
+    "trials": [
+      {
+        "wall_seconds": 10.199439740972593,
+        "forward_seconds": 8.062501686625183,
+        "analytic_gflops": 14885.778418108006,
+        "routed": 2084,
+        "scanned": 5963
+      },
+      {
+        "wall_seconds": 10.232812337111682,
+        "forward_seconds": 8.543969137594104,
+        "analytic_gflops": 14885.778418108006,
+        "routed": 2084,
+        "scanned": 5963
+      },
+      {
+        "wall_seconds": 9.97893733298406,
+        "forward_seconds": 7.909912103554234,
+        "analytic_gflops": 14885.778418108006,
+        "routed": 2084,
+        "scanned": 5963
+      }
+    ],
+    "matched": {
+      "before": {
+        "tp": 9613,
+        "fp": 766,
+        "fn": 439,
+        "tn": 19837
+      },
+      "after": {
+        "tp": 9613,
+        "fp": 766,
+        "fn": 439,
+        "tn": 19837
+      },
+      "delta_tp": 0,
+      "delta_fp": 0,
+      "f1_before": 0.9410209975037933,
+      "f1_after": 0.9410209975037933
+    },
+    "frozen": {
+      "before": {
+        "tp": 9611,
+        "fp": 766,
+        "fn": 441,
+        "tn": 19837
+      },
+      "after": {
+        "tp": 9611,
+        "fp": 766,
+        "fn": 441,
+        "tn": 19837
+      },
+      "delta_tp": 0,
+      "delta_fp": 0,
+      "f1_before": 0.9409173234127955,
+      "f1_after": 0.9409173234127955
+    },
+    "interval": {
+      "vulnerability": [
+        0.0,
+        0.0
+      ],
+      "MAT": [
+        0.0,
+        0.0
+      ],
+      "mean": [
+        0.0,
+        0.0
+      ]
+    }
+  }
+}

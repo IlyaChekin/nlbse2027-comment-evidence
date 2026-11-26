@@ -1,0 +1,13 @@
+{
+  "family": "unix",
+  "epochs": 2,
+  "seed": 42,
+  "batch": 64,
+  "fit_rows": 153628,
+  "input_checkpoint": "e28385bb916434983692dfdd57f5c78c64f92d4a26614965d1e9d150b4a37145",
+  "model_dimensions": 768,
+  "protocol": "project_disjoint",
+  "partition_sha256": "2823097d9b25fadebffcc6a3daa50034854d7a59c5df5c90d4e6d6d48231cfc9",
+  "teacher": null,
+  "augmented_probability": 0.0
+}

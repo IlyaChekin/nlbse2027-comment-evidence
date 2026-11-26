@@ -1,0 +1,7167 @@
+{
+  "selected": null,
+  "qualified": 0,
+  "best_official_review": {
+    "rotation": "official",
+    "tag": "numeric/conditional/0.7/single",
+    "role": "held",
+    "tp": 0,
+    "fp": 0,
+    "changes": 0,
+    "f1": 0.0
+  },
+  "comparisons": 54,
+  "code_sha256": "265d72d52df00f928f2beb2234674fcf08143f06c780bda702ec185e3e7ed54e",
+  "table_sha256": "f758e8c3f0490bcf7f7798188539e09d2760968b52cac907f2dc5f2f9a96713b",
+  "evidence": {
+    "test_a": {
+      "matrix_sha256": "1ab131c284d8a7e0e0334cf45dbc8f2b34ffa528a69a62ecfd26ff57e399e4e7",
+      "model_sha256": "30e743fb59ad780e653149f5fa1b804de22001eddc7f1f35174e99638bed3967",
+      "predictions_sha256": "6d55261e3ead2f15bdd42c0fb29478dfbccf2dfa64f85aa5c77fdba61fdfebdd",
+      "cases": {
+        "numeric/conditional/0.7/single": {
+          "cutoff": {
+            "0": 1.0,
+            "1": 0.4159892726320206
+          },
+          "calibration": {
+            "before": {
+              "tp": 3772,
+              "fp": 258,
+              "fn": 105,
+              "tn": 7541
+            },
+            "after": {
+              "tp": 3720,
+              "fp": 129,
+              "fn": 157,
+              "tn": 7670
+            },
+            "delta_tp": -52,
+            "delta_fp": -129,
+            "f1_before": 0.9540913114961427,
+            "f1_after": 0.9629821382345327,
+            "changes": 181
+          },
+          "held": {
+            "before": {
+              "tp": 6608,
+              "fp": 366,
+              "fn": 2841,
+              "tn": 21283
+            },
+            "after": {
+              "tp": 6226,
+              "fp": 318,
+              "fn": 3223,
+              "tn": 21331
+            },
+            "delta_tp": -382,
+            "delta_fp": -48,
+            "f1_before": 0.8047250806795347,
+            "f1_after": 0.7785906334021134,
+            "changes": 430
+          }
+        },
+        "numeric/conditional/0.7/agree": {
+          "cutoff": {
+            "0": 1.0,
+            "1": 0.4159892726320206
+          },
+          "calibration": {
+            "before": {
+              "tp": 3772,
+              "fp": 258,
+              "fn": 105,
+              "tn": 7541
+            },
+            "after": {
+              "tp": 3720,
+              "fp": 129,
+              "fn": 157,
+              "tn": 7670
+            },
+            "delta_tp": -52,
+            "delta_fp": -129,
+            "f1_before": 0.9540913114961427,
+            "f1_after": 0.9629821382345327,
+            "changes": 181
+          },
+          "held": {
+            "before": {
+              "tp": 6608,
+              "fp": 366,
+              "fn": 2841,
+              "tn": 21283
+            },
+            "after": {
+              "tp": 6226,
+              "fp": 318,
+              "fn": 3223,
+              "tn": 21331
+            },
+            "delta_tp": -382,
+            "delta_fp": -48,
+            "f1_before": 0.8047250806795347,
+            "f1_after": 0.7785906334021134,
+            "changes": 430
+          }
+        },
+        "numeric/conditional/0.85/single": {
+          "cutoff": {
+            "0": 1.0,
+            "1": 0.5104612185386748
+          },
+          "calibration": {
+            "before": {
+              "tp": 3772,
+              "fp": 258,
+              "fn": 105,
+              "tn": 7541
+            },
+            "after": {
+              "tp": 3753,
+              "fp": 136,
+              "fn": 124,
+              "tn": 7663
+            },
+            "delta_tp": -19,
+            "delta_fp": -122,
+            "f1_before": 0.9540913114961427,
+            "f1_after": 0.9665207313932527,
+            "changes": 141
+          },
+          "held": {
+            "before": {
+              "tp": 6608,
+              "fp": 366,
+              "fn": 2841,
+              "tn": 21283
+            },
+            "after": {
+              "tp": 6343,
+              "fp": 336,
+              "fn": 3106,
+              "tn": 21313
+            },
+            "delta_tp": -265,
+            "delta_fp": -30,
+            "f1_before": 0.8047250806795347,
+            "f1_after": 0.7865823412698413,
+            "changes": 295
+          }
+        },
+        "numeric/conditional/0.85/agree": {
+          "cutoff": {
+            "0": 1.0,
+            "1": 0.5104612185386748
+          },
+          "calibration": {
+            "before": {
+              "tp": 3772,
+              "fp": 258,
+              "fn": 105,
+              "tn": 7541
+            },
+            "after": {
+              "tp": 3753,
+              "fp": 136,
+              "fn": 124,
+              "tn": 7663
+            },
+            "delta_tp": -19,
+            "delta_fp": -122,
+            "f1_before": 0.9540913114961427,
+            "f1_after": 0.9665207313932527,
+            "changes": 141
+          },
+          "held": {
+            "before": {
+              "tp": 6608,
+              "fp": 366,
+              "fn": 2841,
+              "tn": 21283
+            },
+            "after": {
+              "tp": 6343,
+              "fp": 336,
+              "fn": 3106,
+              "tn": 21313
+            },
+            "delta_tp": -265,
+            "delta_fp": -30,
+            "f1_before": 0.8047250806795347,
+            "f1_after": 0.7865823412698413,
+            "changes": 295
+          }
+        },
+        "numeric/conditional/0.95/single": {
+          "cutoff": {
+            "0": 1.0,
+            "1": 0.9745632223775887
+          },
+          "calibration": {
+            "before": {
+              "tp": 3772,
+              "fp": 258,
+              "fn": 105,
+              "tn": 7541
+            },
+            "after": {
+              "tp": 3769,
+              "fp": 199,
+              "fn": 108,
+              "tn": 7600
+            },
+            "delta_tp": -3,
+            "delta_fp": -59,
+            "f1_before": 0.9540913114961427,
+            "f1_after": 0.9608667941363926,
+            "changes": 62
+          },
+          "held": {
+            "before": {
+              "tp": 6608,
+              "fp": 366,
+              "fn": 2841,
+              "tn": 21283
+            },
+            "after": {
+              "tp": 6535,
+              "fp": 360,
+              "fn": 2914,
+              "tn": 21289
+            },
+            "delta_tp": -73,
+            "delta_fp": -6,
+            "f1_before": 0.8047250806795347,
+            "f1_after": 0.7996818404307391,
+            "changes": 79
+          }
+        },
+        "numeric/conditional/0.95/agree": {
+          "cutoff": {
+            "0": 1.0,
+            "1": 0.9745632223775887
+          },
+          "calibration": {
+            "before": {
+              "tp": 3772,
+              "fp": 258,
+              "fn": 105,
+              "tn": 7541
+            },
+            "after": {
+              "tp": 3769,
+              "fp": 199,
+              "fn": 108,
+              "tn": 7600
+            },
+            "delta_tp": -3,
+            "delta_fp": -59,
+            "f1_before": 0.9540913114961427,
+            "f1_after": 0.9608667941363926,
+            "changes": 62
+          },
+          "held": {
+            "before": {
+              "tp": 6608,
+              "fp": 366,
+              "fn": 2841,
+              "tn": 21283
+            },
+            "after": {
+              "tp": 6535,
+              "fp": 360,
+              "fn": 2914,
+              "tn": 21289
+            },
+            "delta_tp": -73,
+            "delta_fp": -6,
+            "f1_before": 0.8047250806795347,
+            "f1_after": 0.7996818404307391,
+            "changes": 79
+          }
+        },
+        "numeric/linear_conditional/0.7/single": {
+          "cutoff": {
+            "0": 1.0,
+            "1": 0.3452737749710206
+          },
+          "calibration": {
+            "before": {
+              "tp": 3772,
+              "fp": 258,
+              "fn": 105,
+              "tn": 7541
+            },
+            "after": {
+              "tp": 3717,
+              "fp": 128,
+              "fn": 160,
+              "tn": 7671
+            },
+            "delta_tp": -55,
+            "delta_fp": -130,
+            "f1_before": 0.9540913114961427,
+            "f1_after": 0.9627039627039627,
+            "changes": 185
+          },
+          "held": {
+            "before": {
+              "tp": 6608,
+              "fp": 366,
+              "fn": 2841,
+              "tn": 21283
+            },
+            "after": {
+              "tp": 6260,
+              "fp": 336,
+              "fn": 3189,
+              "tn": 21313
+            },
+            "delta_tp": -348,
+            "delta_fp": -30,
+            "f1_before": 0.8047250806795347,
+            "f1_after": 0.7803053910875662,
+            "changes": 378
+          }
+        },
+        "numeric/linear_conditional/0.7/agree": {
+          "cutoff": {
+            "0": 1.0,
+            "1": 0.3009677997203634
+          },
+          "calibration": {
+            "before": {
+              "tp": 3772,
+              "fp": 258,
+              "fn": 105,
+              "tn": 7541
+            },
+            "after": {
+              "tp": 3717,
+              "fp": 127,
+              "fn": 160,
+              "tn": 7672
+            },
+            "delta_tp": -55,
+            "delta_fp": -131,
+            "f1_before": 0.9540913114961427,
+            "f1_after": 0.9628286491387126,
+            "changes": 186
+          },
+          "held": {
+            "before": {
+              "tp": 6608,
+              "fp": 366,
+              "fn": 2841,
+              "tn": 21283
+            },
+            "after": {
+              "tp": 6254,
+              "fp": 334,
+              "fn": 3195,
+              "tn": 21315
+            },
+            "delta_tp": -354,
+            "delta_fp": -32,
+            "f1_before": 0.8047250806795347,
+            "f1_after": 0.7799463740101017,
+            "changes": 386
+          }
+        },
+        "numeric/linear_conditional/0.85/single": {
+          "cutoff": {
+            "0": 1.0,
+            "1": 0.5701656249554978
+          },
+          "calibration": {
+            "before": {
+              "tp": 3772,
+              "fp": 258,
+              "fn": 105,
+              "tn": 7541
+            },
+            "after": {
+              "tp": 3754,
+              "fp": 137,
+              "fn": 123,
+              "tn": 7662
+            },
+            "delta_tp": -18,
+            "delta_fp": -121,
+            "f1_before": 0.9540913114961427,
+            "f1_after": 0.966529351184346,
+            "changes": 139
+          },
+          "held": {
+            "before": {
+              "tp": 6608,
+              "fp": 366,
+              "fn": 2841,
+              "tn": 21283
+            },
+            "after": {
+              "tp": 6343,
+              "fp": 339,
+              "fn": 3106,
+              "tn": 21310
+            },
+            "delta_tp": -265,
+            "delta_fp": -27,
+            "f1_before": 0.8047250806795347,
+            "f1_after": 0.7864360548013143,
+            "changes": 292
+          }
+        },
+        "numeric/linear_conditional/0.85/agree": {
+          "cutoff": {
+            "0": 1.0,
+            "1": 0.3775541813649705
+          },
+          "calibration": {
+            "before": {
+              "tp": 3772,
+              "fp": 258,
+              "fn": 105,
+              "tn": 7541
+            },
+            "after": {
+              "tp": 3753,
+              "fp": 135,
+              "fn": 124,
+              "tn": 7664
+            },
+            "delta_tp": -19,
+            "delta_fp": -123,
+            "f1_before": 0.9540913114961427,
+            "f1_after": 0.966645202833226,
+            "changes": 142
+          },
+          "held": {
+            "before": {
+              "tp": 6608,
+              "fp": 366,
+              "fn": 2841,
+              "tn": 21283
+            },
+            "after": {
+              "tp": 6323,
+              "fp": 338,
+              "fn": 3126,
+              "tn": 21311
+            },
+            "delta_tp": -285,
+            "delta_fp": -28,
+            "f1_before": 0.8047250806795347,
+            "f1_after": 0.7849782743637492,
+            "changes": 313
+          }
+        },
+        "numeric/linear_conditional/0.95/single": {
+          "cutoff": {
+            "0": 1.0,
+            "1": 0.9647305849061789
+          },
+          "calibration": {
+            "before": {
+              "tp": 3772,
+              "fp": 258,
+              "fn": 105,
+              "tn": 7541
+            },
+            "after": {
+              "tp": 3769,
+              "fp": 182,
+              "fn": 108,
+              "tn": 7617
+            },
+            "delta_tp": -3,
+            "delta_fp": -76,
+            "f1_before": 0.9540913114961427,
+            "f1_after": 0.9629535002554931,
+            "changes": 79
+          },
+          "held": {
+            "before": {
+              "tp": 6608,
+              "fp": 366,
+              "fn": 2841,
+              "tn": 21283
+            },
+            "after": {
+              "tp": 6486,
+              "fp": 353,
+              "fn": 2963,
+              "tn": 21296
+            },
+            "delta_tp": -122,
+            "delta_fp": -13,
+            "f1_before": 0.8047250806795347,
+            "f1_after": 0.7964145383104125,
+            "changes": 135
+          }
+        },
+        "numeric/linear_conditional/0.95/agree": {
+          "cutoff": {
+            "0": 1.0,
+            "1": 0.9647305849061789
+          },
+          "calibration": {
+            "before": {
+              "tp": 3772,
+              "fp": 258,
+              "fn": 105,
+              "tn": 7541
+            },
+            "after": {
+              "tp": 3769,
+              "fp": 189,
+              "fn": 108,
+              "tn": 7610
+            },
+            "delta_tp": -3,
+            "delta_fp": -69,
+            "f1_before": 0.9540913114961427,
+            "f1_after": 0.962093171665603,
+            "changes": 72
+          },
+          "held": {
+            "before": {
+              "tp": 6608,
+              "fp": 366,
+              "fn": 2841,
+              "tn": 21283
+            },
+            "after": {
+              "tp": 6516,
+              "fp": 359,
+              "fn": 2933,
+              "tn": 21290
+            },
+            "delta_tp": -92,
+            "delta_fp": -7,
+            "f1_before": 0.8047250806795347,
+            "f1_after": 0.7983337417299682,
+            "changes": 99
+          }
+        },
+        "numeric/paired/0.7/single": {
+          "cutoff": {
+            "0": 1.0,
+            "1": 0.5689161515379872
+          },
+          "calibration": {
+            "before": {
+              "tp": 3772,
+              "fp": 258,
+              "fn": 105,
+              "tn": 7541
+            },
+            "after": {
+              "tp": 3723,
+              "fp": 130,
+              "fn": 154,
+              "tn": 7669
+            },
+            "delta_tp": -49,
+            "delta_fp": -128,
+            "f1_before": 0.9540913114961427,
+            "f1_after": 0.9632600258732212,
+            "changes": 177
+          },
+          "held": {
+            "before": {
+              "tp": 6608,
+              "fp": 366,
+              "fn": 2841,
+              "tn": 21283
+            },
+            "after": {
+              "tp": 6267,
+              "fp": 329,
+              "fn": 3182,
+              "tn": 21320
+            },
+            "delta_tp": -341,
+            "delta_fp": -37,
+            "f1_before": 0.8047250806795347,
+            "f1_after": 0.7811779370520411,
+            "changes": 378
+          }
+        },
+        "numeric/paired/0.7/agree": {
+          "cutoff": {
+            "0": 1.0,
+            "1": 0.3775541813649705
+          },
+          "calibration": {
+            "before": {
+              "tp": 3772,
+              "fp": 258,
+              "fn": 105,
+              "tn": 7541
+            },
+            "after": {
+              "tp": 3725,
+              "fp": 132,
+              "fn": 152,
+              "tn": 7667
+            },
+            "delta_tp": -47,
+            "delta_fp": -126,
+            "f1_before": 0.9540913114961427,
+            "f1_after": 0.9632790276700285,
+            "changes": 173
+          },
+          "held": {
+            "before": {
+              "tp": 6608,
+              "fp": 366,
+              "fn": 2841,
+              "tn": 21283
+            },
+            "after": {
+              "tp": 6241,
+              "fp": 322,
+              "fn": 3208,
+              "tn": 21327
+            },
+            "delta_tp": -367,
+            "delta_fp": -44,
+            "f1_before": 0.8047250806795347,
+            "f1_after": 0.779540344741444,
+            "changes": 411
+          }
+        },
+        "numeric/paired/0.85/single": {
+          "cutoff": {
+            "0": 1.0,
+            "1": 0.7866626338223508
+          },
+          "calibration": {
+            "before": {
+              "tp": 3772,
+              "fp": 258,
+              "fn": 105,
+              "tn": 7541
+            },
+            "after": {
+              "tp": 3756,
+              "fp": 141,
+              "fn": 121,
+              "tn": 7658
+            },
+            "delta_tp": -16,
+            "delta_fp": -117,
+            "f1_before": 0.9540913114961427,
+            "f1_after": 0.966297916130692,
+            "changes": 133
+          },
+          "held": {
+            "before": {
+              "tp": 6608,
+              "fp": 366,
+              "fn": 2841,
+              "tn": 21283
+            },
+            "after": {
+              "tp": 6353,
+              "fp": 339,
+              "fn": 3096,
+              "tn": 21310
+            },
+            "delta_tp": -255,
+            "delta_fp": -27,
+            "f1_before": 0.8047250806795347,
+            "f1_after": 0.7871879065733226,
+            "changes": 282
+          }
+        },
+        "numeric/paired/0.85/agree": {
+          "cutoff": {
+            "0": 1.0,
+            "1": 0.4490720147191269
+          },
+          "calibration": {
+            "before": {
+              "tp": 3772,
+              "fp": 258,
+              "fn": 105,
+              "tn": 7541
+            },
+            "after": {
+              "tp": 3753,
+              "fp": 136,
+              "fn": 124,
+              "tn": 7663
+            },
+            "delta_tp": -19,
+            "delta_fp": -122,
+            "f1_before": 0.9540913114961427,
+            "f1_after": 0.9665207313932527,
+            "changes": 141
+          },
+          "held": {
+            "before": {
+              "tp": 6608,
+              "fp": 366,
+              "fn": 2841,
+              "tn": 21283
+            },
+            "after": {
+              "tp": 6322,
+              "fp": 334,
+              "fn": 3127,
+              "tn": 21315
+            },
+            "delta_tp": -286,
+            "delta_fp": -32,
+            "f1_before": 0.8047250806795347,
+            "f1_after": 0.7850977957156162,
+            "changes": 318
+          }
+        },
+        "numeric/paired/0.95/single": {
+          "cutoff": {
+            "0": 1.0,
+            "1": 0.98843698128706
+          },
+          "calibration": {
+            "before": {
+              "tp": 3772,
+              "fp": 258,
+              "fn": 105,
+              "tn": 7541
+            },
+            "after": {
+              "tp": 3770,
+              "fp": 217,
+              "fn": 107,
+              "tn": 7582
+            },
+            "delta_tp": -2,
+            "delta_fp": -41,
+            "f1_before": 0.9540913114961427,
+            "f1_after": 0.9587995930824008,
+            "changes": 43
+          },
+          "held": {
+            "before": {
+              "tp": 6608,
+              "fp": 366,
+              "fn": 2841,
+              "tn": 21283
+            },
+            "after": {
+              "tp": 6540,
+              "fp": 362,
+              "fn": 2909,
+              "tn": 21287
+            },
+            "delta_tp": -68,
+            "delta_fp": -4,
+            "f1_before": 0.8047250806795347,
+            "f1_after": 0.7999510733288484,
+            "changes": 72
+          }
+        },
+        "numeric/paired/0.95/agree": {
+          "cutoff": {
+            "0": 1.0,
+            "1": 0.9763684098791499
+          },
+          "calibration": {
+            "before": {
+              "tp": 3772,
+              "fp": 258,
+              "fn": 105,
+              "tn": 7541
+            },
+            "after": {
+              "tp": 3770,
+              "fp": 207,
+              "fn": 107,
+              "tn": 7592
+            },
+            "delta_tp": -2,
+            "delta_fp": -51,
+            "f1_before": 0.9540913114961427,
+            "f1_after": 0.9600203717850777,
+            "changes": 53
+          },
+          "held": {
+            "before": {
+              "tp": 6608,
+              "fp": 366,
+              "fn": 2841,
+              "tn": 21283
+            },
+            "after": {
+              "tp": 6544,
+              "fp": 361,
+              "fn": 2905,
+              "tn": 21288
+            },
+            "delta_tp": -64,
+            "delta_fp": -5,
+            "f1_before": 0.8047250806795347,
+            "f1_after": 0.8002935061758591,
+            "changes": 69
+          }
+        },
+        "location/conditional/0.7/single": {
+          "cutoff": {
+            "0": 1.0,
+            "1": 0.31216911292307853
+          },
+          "calibration": {
+            "before": {
+              "tp": 3772,
+              "fp": 258,
+              "fn": 105,
+              "tn": 7541
+            },
+            "after": {
+              "tp": 3708,
+              "fp": 105,
+              "fn": 169,
+              "tn": 7694
+            },
+            "delta_tp": -64,
+            "delta_fp": -153,
+            "f1_before": 0.9540913114961427,
+            "f1_after": 0.964369310793238,
+            "changes": 217
+          },
+          "held": {
+            "before": {
+              "tp": 6608,
+              "fp": 366,
+              "fn": 2841,
+              "tn": 21283
+            },
+            "after": {
+              "tp": 6106,
+              "fp": 292,
+              "fn": 3343,
+              "tn": 21357
+            },
+            "delta_tp": -502,
+            "delta_fp": -74,
+            "f1_before": 0.8047250806795347,
+            "f1_after": 0.7706190446141226,
+            "changes": 576
+          }
+        },
+        "location/conditional/0.7/agree": {
+          "cutoff": {
+            "0": 1.0,
+            "1": 0.22320181351641574
+          },
+          "calibration": {
+            "before": {
+              "tp": 3772,
+              "fp": 258,
+              "fn": 105,
+              "tn": 7541
+            },
+            "after": {
+              "tp": 3711,
+              "fp": 107,
+              "fn": 166,
+              "tn": 7692
+            },
+            "delta_tp": -61,
+            "delta_fp": -151,
+            "f1_before": 0.9540913114961427,
+            "f1_after": 0.9645224171539961,
+            "changes": 212
+          },
+          "held": {
+            "before": {
+              "tp": 6608,
+              "fp": 366,
+              "fn": 2841,
+              "tn": 21283
+            },
+            "after": {
+              "tp": 6138,
+              "fp": 298,
+              "fn": 3311,
+              "tn": 21351
+            },
+            "delta_tp": -470,
+            "delta_fp": -68,
+            "f1_before": 0.8047250806795347,
+            "f1_after": 0.7728045325779037,
+            "changes": 538
+          }
+        },
+        "location/conditional/0.85/single": {
+          "cutoff": {
+            "0": 1.0,
+            "1": 0.6465799251747529
+          },
+          "calibration": {
+            "before": {
+              "tp": 3772,
+              "fp": 258,
+              "fn": 105,
+              "tn": 7541
+            },
+            "after": {
+              "tp": 3751,
+              "fp": 127,
+              "fn": 126,
+              "tn": 7672
+            },
+            "delta_tp": -21,
+            "delta_fp": -131,
+            "f1_before": 0.9540913114961427,
+            "f1_after": 0.9673758865248226,
+            "changes": 152
+          },
+          "held": {
+            "before": {
+              "tp": 6608,
+              "fp": 366,
+              "fn": 2841,
+              "tn": 21283
+            },
+            "after": {
+              "tp": 6311,
+              "fp": 323,
+              "fn": 3138,
+              "tn": 21326
+            },
+            "delta_tp": -297,
+            "delta_fp": -43,
+            "f1_before": 0.8047250806795347,
+            "f1_after": 0.7848038301311945,
+            "changes": 340
+          }
+        },
+        "location/conditional/0.85/agree": {
+          "cutoff": {
+            "0": 1.0,
+            "1": 0.35692273319827
+          },
+          "calibration": {
+            "before": {
+              "tp": 3772,
+              "fp": 258,
+              "fn": 105,
+              "tn": 7541
+            },
+            "after": {
+              "tp": 3749,
+              "fp": 125,
+              "fn": 128,
+              "tn": 7674
+            },
+            "delta_tp": -23,
+            "delta_fp": -133,
+            "f1_before": 0.9540913114961427,
+            "f1_after": 0.9673590504451038,
+            "changes": 156
+          },
+          "held": {
+            "before": {
+              "tp": 6608,
+              "fp": 366,
+              "fn": 2841,
+              "tn": 21283
+            },
+            "after": {
+              "tp": 6282,
+              "fp": 318,
+              "fn": 3167,
+              "tn": 21331
+            },
+            "delta_tp": -326,
+            "delta_fp": -48,
+            "f1_before": 0.8047250806795347,
+            "f1_after": 0.7828525141753381,
+            "changes": 374
+          }
+        },
+        "location/conditional/0.95/single": {
+          "cutoff": {
+            "0": 1.0,
+            "1": 0.9250793238492385
+          },
+          "calibration": {
+            "before": {
+              "tp": 3772,
+              "fp": 258,
+              "fn": 105,
+              "tn": 7541
+            },
+            "after": {
+              "tp": 3767,
+              "fp": 148,
+              "fn": 110,
+              "tn": 7651
+            },
+            "delta_tp": -5,
+            "delta_fp": -110,
+            "f1_before": 0.9540913114961427,
+            "f1_after": 0.9668891170431212,
+            "changes": 115
+          },
+          "held": {
+            "before": {
+              "tp": 6608,
+              "fp": 366,
+              "fn": 2841,
+              "tn": 21283
+            },
+            "after": {
+              "tp": 6444,
+              "fp": 348,
+              "fn": 3005,
+              "tn": 21301
+            },
+            "delta_tp": -164,
+            "delta_fp": -18,
+            "f1_before": 0.8047250806795347,
+            "f1_after": 0.7935471953697433,
+            "changes": 182
+          }
+        },
+        "location/conditional/0.95/agree": {
+          "cutoff": {
+            "0": 1.0,
+            "1": 0.8936468334437956
+          },
+          "calibration": {
+            "before": {
+              "tp": 3772,
+              "fp": 258,
+              "fn": 105,
+              "tn": 7541
+            },
+            "after": {
+              "tp": 3767,
+              "fp": 148,
+              "fn": 110,
+              "tn": 7651
+            },
+            "delta_tp": -5,
+            "delta_fp": -110,
+            "f1_before": 0.9540913114961427,
+            "f1_after": 0.9668891170431212,
+            "changes": 115
+          },
+          "held": {
+            "before": {
+              "tp": 6608,
+              "fp": 366,
+              "fn": 2841,
+              "tn": 21283
+            },
+            "after": {
+              "tp": 6434,
+              "fp": 348,
+              "fn": 3015,
+              "tn": 21301
+            },
+            "delta_tp": -174,
+            "delta_fp": -18,
+            "f1_before": 0.8047250806795347,
+            "f1_after": 0.7928038937835007,
+            "changes": 192
+          }
+        },
+        "location/linear_conditional/0.7/single": {
+          "cutoff": {
+            "0": 1.0,
+            "1": 0.3103095266982993
+          },
+          "calibration": {
+            "before": {
+              "tp": 3772,
+              "fp": 258,
+              "fn": 105,
+              "tn": 7541
+            },
+            "after": {
+              "tp": 3711,
+              "fp": 113,
+              "fn": 166,
+              "tn": 7686
+            },
+            "delta_tp": -61,
+            "delta_fp": -145,
+            "f1_before": 0.9540913114961427,
+            "f1_after": 0.9637709388391118,
+            "changes": 206
+          },
+          "held": {
+            "before": {
+              "tp": 6608,
+              "fp": 366,
+              "fn": 2841,
+              "tn": 21283
+            },
+            "after": {
+              "tp": 6210,
+              "fp": 306,
+              "fn": 3239,
+              "tn": 21343
+            },
+            "delta_tp": -398,
+            "delta_fp": -60,
+            "f1_before": 0.8047250806795347,
+            "f1_after": 0.777951769495772,
+            "changes": 458
+          }
+        },
+        "location/linear_conditional/0.7/agree": {
+          "cutoff": {
+            "0": 1.0,
+            "1": 0.2559005526032309
+          },
+          "calibration": {
+            "before": {
+              "tp": 3772,
+              "fp": 258,
+              "fn": 105,
+              "tn": 7541
+            },
+            "after": {
+              "tp": 3711,
+              "fp": 115,
+              "fn": 166,
+              "tn": 7684
+            },
+            "delta_tp": -61,
+            "delta_fp": -143,
+            "f1_before": 0.9540913114961427,
+            "f1_after": 0.9635207062183565,
+            "changes": 204
+          },
+          "held": {
+            "before": {
+              "tp": 6608,
+              "fp": 366,
+              "fn": 2841,
+              "tn": 21283
+            },
+            "after": {
+              "tp": 6208,
+              "fp": 311,
+              "fn": 3241,
+              "tn": 21338
+            },
+            "delta_tp": -400,
+            "delta_fp": -55,
+            "f1_before": 0.8047250806795347,
+            "f1_after": 0.7775551102204409,
+            "changes": 455
+          }
+        },
+        "location/linear_conditional/0.85/single": {
+          "cutoff": {
+            "0": 1.0,
+            "1": 0.6220546951203451
+          },
+          "calibration": {
+            "before": {
+              "tp": 3772,
+              "fp": 258,
+              "fn": 105,
+              "tn": 7541
+            },
+            "after": {
+              "tp": 3752,
+              "fp": 138,
+              "fn": 125,
+              "tn": 7661
+            },
+            "delta_tp": -20,
+            "delta_fp": -120,
+            "f1_before": 0.9540913114961427,
+            "f1_after": 0.9661387923265096,
+            "changes": 140
+          },
+          "held": {
+            "before": {
+              "tp": 6608,
+              "fp": 366,
+              "fn": 2841,
+              "tn": 21283
+            },
+            "after": {
+              "tp": 6335,
+              "fp": 320,
+              "fn": 3114,
+              "tn": 21329
+            },
+            "delta_tp": -273,
+            "delta_fp": -46,
+            "f1_before": 0.8047250806795347,
+            "f1_after": 0.7867610531544957,
+            "changes": 319
+          }
+        },
+        "location/linear_conditional/0.85/agree": {
+          "cutoff": {
+            "0": 1.0,
+            "1": 0.4159892726320206
+          },
+          "calibration": {
+            "before": {
+              "tp": 3772,
+              "fp": 258,
+              "fn": 105,
+              "tn": 7541
+            },
+            "after": {
+              "tp": 3751,
+              "fp": 132,
+              "fn": 126,
+              "tn": 7667
+            },
+            "delta_tp": -21,
+            "delta_fp": -126,
+            "f1_before": 0.9540913114961427,
+            "f1_after": 0.9667525773195876,
+            "changes": 147
+          },
+          "held": {
+            "before": {
+              "tp": 6608,
+              "fp": 366,
+              "fn": 2841,
+              "tn": 21283
+            },
+            "after": {
+              "tp": 6336,
+              "fp": 322,
+              "fn": 3113,
+              "tn": 21327
+            },
+            "delta_tp": -272,
+            "delta_fp": -44,
+            "f1_before": 0.8047250806795347,
+            "f1_after": 0.7867386850437698,
+            "changes": 316
+          }
+        },
+        "location/linear_conditional/0.95/single": {
+          "cutoff": {
+            "0": 1.0,
+            "1": 0.9545670455421097
+          },
+          "calibration": {
+            "before": {
+              "tp": 3772,
+              "fp": 258,
+              "fn": 105,
+              "tn": 7541
+            },
+            "after": {
+              "tp": 3768,
+              "fp": 174,
+              "fn": 109,
+              "tn": 7625
+            },
+            "delta_tp": -4,
+            "delta_fp": -84,
+            "f1_before": 0.9540913114961427,
+            "f1_after": 0.963806113313723,
+            "changes": 88
+          },
+          "held": {
+            "before": {
+              "tp": 6608,
+              "fp": 366,
+              "fn": 2841,
+              "tn": 21283
+            },
+            "after": {
+              "tp": 6442,
+              "fp": 348,
+              "fn": 3007,
+              "tn": 21301
+            },
+            "delta_tp": -166,
+            "delta_fp": -18,
+            "f1_before": 0.8047250806795347,
+            "f1_after": 0.7933986082886877,
+            "changes": 184
+          }
+        },
+        "location/linear_conditional/0.95/agree": {
+          "cutoff": {
+            "0": 1.0,
+            "1": 0.8780896414836405
+          },
+          "calibration": {
+            "before": {
+              "tp": 3772,
+              "fp": 258,
+              "fn": 105,
+              "tn": 7541
+            },
+            "after": {
+              "tp": 3767,
+              "fp": 153,
+              "fn": 110,
+              "tn": 7646
+            },
+            "delta_tp": -5,
+            "delta_fp": -105,
+            "f1_before": 0.9540913114961427,
+            "f1_after": 0.9662690778504553,
+            "changes": 110
+          },
+          "held": {
+            "before": {
+              "tp": 6608,
+              "fp": 366,
+              "fn": 2841,
+              "tn": 21283
+            },
+            "after": {
+              "tp": 6435,
+              "fp": 347,
+              "fn": 3014,
+              "tn": 21302
+            },
+            "delta_tp": -173,
+            "delta_fp": -19,
+            "f1_before": 0.8047250806795347,
+            "f1_after": 0.7929271147803586,
+            "changes": 192
+          }
+        },
+        "location/paired/0.7/single": {
+          "cutoff": {
+            "0": 1.0,
+            "1": 0.4421557977304325
+          },
+          "calibration": {
+            "before": {
+              "tp": 3772,
+              "fp": 258,
+              "fn": 105,
+              "tn": 7541
+            },
+            "after": {
+              "tp": 3718,
+              "fp": 118,
+              "fn": 159,
+              "tn": 7681
+            },
+            "delta_tp": -54,
+            "delta_fp": -140,
+            "f1_before": 0.9540913114961427,
+            "f1_after": 0.9640866070270971,
+            "changes": 194
+          },
+          "held": {
+            "before": {
+              "tp": 6608,
+              "fp": 366,
+              "fn": 2841,
+              "tn": 21283
+            },
+            "after": {
+              "tp": 6240,
+              "fp": 301,
+              "fn": 3209,
+              "tn": 21348
+            },
+            "delta_tp": -368,
+            "delta_fp": -65,
+            "f1_before": 0.8047250806795347,
+            "f1_after": 0.7804878048780488,
+            "changes": 433
+          }
+        },
+        "location/paired/0.7/agree": {
+          "cutoff": {
+            "0": 1.0,
+            "1": 0.27895205399963124
+          },
+          "calibration": {
+            "before": {
+              "tp": 3772,
+              "fp": 258,
+              "fn": 105,
+              "tn": 7541
+            },
+            "after": {
+              "tp": 3714,
+              "fp": 119,
+              "fn": 163,
+              "tn": 7680
+            },
+            "delta_tp": -58,
+            "delta_fp": -139,
+            "f1_before": 0.9540913114961427,
+            "f1_after": 0.9634241245136187,
+            "changes": 197
+          },
+          "held": {
+            "before": {
+              "tp": 6608,
+              "fp": 366,
+              "fn": 2841,
+              "tn": 21283
+            },
+            "after": {
+              "tp": 6219,
+              "fp": 311,
+              "fn": 3230,
+              "tn": 21338
+            },
+            "delta_tp": -389,
+            "delta_fp": -55,
+            "f1_before": 0.8047250806795347,
+            "f1_after": 0.7783966455973466,
+            "changes": 444
+          }
+        },
+        "location/paired/0.85/single": {
+          "cutoff": {
+            "0": 1.0,
+            "1": 0.6931885997129063
+          },
+          "calibration": {
+            "before": {
+              "tp": 3772,
+              "fp": 258,
+              "fn": 105,
+              "tn": 7541
+            },
+            "after": {
+              "tp": 3751,
+              "fp": 137,
+              "fn": 126,
+              "tn": 7662
+            },
+            "delta_tp": -21,
+            "delta_fp": -121,
+            "f1_before": 0.9540913114961427,
+            "f1_after": 0.9661300708306504,
+            "changes": 142
+          },
+          "held": {
+            "before": {
+              "tp": 6608,
+              "fp": 366,
+              "fn": 2841,
+              "tn": 21283
+            },
+            "after": {
+              "tp": 6324,
+              "fp": 311,
+              "fn": 3125,
+              "tn": 21338
+            },
+            "delta_tp": -284,
+            "delta_fp": -55,
+            "f1_before": 0.8047250806795347,
+            "f1_after": 0.7863715493658294,
+            "changes": 339
+          }
+        },
+        "location/paired/0.85/agree": {
+          "cutoff": {
+            "0": 1.0,
+            "1": 0.42126429491116063
+          },
+          "calibration": {
+            "before": {
+              "tp": 3772,
+              "fp": 258,
+              "fn": 105,
+              "tn": 7541
+            },
+            "after": {
+              "tp": 3750,
+              "fp": 133,
+              "fn": 127,
+              "tn": 7666
+            },
+            "delta_tp": -22,
+            "delta_fp": -125,
+            "f1_before": 0.9540913114961427,
+            "f1_after": 0.9664948453608248,
+            "changes": 147
+          },
+          "held": {
+            "before": {
+              "tp": 6608,
+              "fp": 366,
+              "fn": 2841,
+              "tn": 21283
+            },
+            "after": {
+              "tp": 6338,
+              "fp": 321,
+              "fn": 3111,
+              "tn": 21328
+            },
+            "delta_tp": -270,
+            "delta_fp": -45,
+            "f1_before": 0.8047250806795347,
+            "f1_after": 0.7869381673702508,
+            "changes": 315
+          }
+        },
+        "location/paired/0.95/single": {
+          "cutoff": {
+            "0": 1.0,
+            "1": 0.9455807570851676
+          },
+          "calibration": {
+            "before": {
+              "tp": 3772,
+              "fp": 258,
+              "fn": 105,
+              "tn": 7541
+            },
+            "after": {
+              "tp": 3767,
+              "fp": 163,
+              "fn": 110,
+              "tn": 7636
+            },
+            "delta_tp": -5,
+            "delta_fp": -95,
+            "f1_before": 0.9540913114961427,
+            "f1_after": 0.9650313820929934,
+            "changes": 100
+          },
+          "held": {
+            "before": {
+              "tp": 6608,
+              "fp": 366,
+              "fn": 2841,
+              "tn": 21283
+            },
+            "after": {
+              "tp": 6406,
+              "fp": 326,
+              "fn": 3043,
+              "tn": 21323
+            },
+            "delta_tp": -202,
+            "delta_fp": -40,
+            "f1_before": 0.8047250806795347,
+            "f1_after": 0.7917928434583771,
+            "changes": 242
+          }
+        },
+        "location/paired/0.95/agree": {
+          "cutoff": {
+            "0": 1.0,
+            "1": 0.8819862352138969
+          },
+          "calibration": {
+            "before": {
+              "tp": 3772,
+              "fp": 258,
+              "fn": 105,
+              "tn": 7541
+            },
+            "after": {
+              "tp": 3767,
+              "fp": 155,
+              "fn": 110,
+              "tn": 7644
+            },
+            "delta_tp": -5,
+            "delta_fp": -103,
+            "f1_before": 0.9540913114961427,
+            "f1_after": 0.9660212847801,
+            "changes": 108
+          },
+          "held": {
+            "before": {
+              "tp": 6608,
+              "fp": 366,
+              "fn": 2841,
+              "tn": 21283
+            },
+            "after": {
+              "tp": 6436,
+              "fp": 349,
+              "fn": 3013,
+              "tn": 21300
+            },
+            "delta_tp": -172,
+            "delta_fp": -17,
+            "f1_before": 0.8047250806795347,
+            "f1_after": 0.7929037821855365,
+            "changes": 189
+          }
+        },
+        "structure/conditional/0.7/single": {
+          "cutoff": {
+            "0": 1.0,
+            "1": 0.29440858289013144
+          },
+          "calibration": {
+            "before": {
+              "tp": 3772,
+              "fp": 258,
+              "fn": 105,
+              "tn": 7541
+            },
+            "after": {
+              "tp": 3705,
+              "fp": 97,
+              "fn": 172,
+              "tn": 7702
+            },
+            "delta_tp": -67,
+            "delta_fp": -161,
+            "f1_before": 0.9540913114961427,
+            "f1_after": 0.9649693970569084,
+            "changes": 228
+          },
+          "held": {
+            "before": {
+              "tp": 6608,
+              "fp": 366,
+              "fn": 2841,
+              "tn": 21283
+            },
+            "after": {
+              "tp": 6095,
+              "fp": 298,
+              "fn": 3354,
+              "tn": 21351
+            },
+            "delta_tp": -513,
+            "delta_fp": -68,
+            "f1_before": 0.8047250806795347,
+            "f1_after": 0.7694735513192779,
+            "changes": 581
+          }
+        },
+        "structure/conditional/0.7/agree": {
+          "cutoff": {
+            "0": 1.0,
+            "1": 0.22320181351641574
+          },
+          "calibration": {
+            "before": {
+              "tp": 3772,
+              "fp": 258,
+              "fn": 105,
+              "tn": 7541
+            },
+            "after": {
+              "tp": 3713,
+              "fp": 107,
+              "fn": 164,
+              "tn": 7692
+            },
+            "delta_tp": -59,
+            "delta_fp": -151,
+            "f1_before": 0.9540913114961427,
+            "f1_after": 0.9647914771989087,
+            "changes": 210
+          },
+          "held": {
+            "before": {
+              "tp": 6608,
+              "fp": 366,
+              "fn": 2841,
+              "tn": 21283
+            },
+            "after": {
+              "tp": 6152,
+              "fp": 302,
+              "fn": 3297,
+              "tn": 21347
+            },
+            "delta_tp": -456,
+            "delta_fp": -64,
+            "f1_before": 0.8047250806795347,
+            "f1_after": 0.7736904986480538,
+            "changes": 520
+          }
+        },
+        "structure/conditional/0.85/single": {
+          "cutoff": {
+            "0": 1.0,
+            "1": 0.6148260892640753
+          },
+          "calibration": {
+            "before": {
+              "tp": 3772,
+              "fp": 258,
+              "fn": 105,
+              "tn": 7541
+            },
+            "after": {
+              "tp": 3749,
+              "fp": 125,
+              "fn": 128,
+              "tn": 7674
+            },
+            "delta_tp": -23,
+            "delta_fp": -133,
+            "f1_before": 0.9540913114961427,
+            "f1_after": 0.9673590504451038,
+            "changes": 156
+          },
+          "held": {
+            "before": {
+              "tp": 6608,
+              "fp": 366,
+              "fn": 2841,
+              "tn": 21283
+            },
+            "after": {
+              "tp": 6322,
+              "fp": 335,
+              "fn": 3127,
+              "tn": 21314
+            },
+            "delta_tp": -286,
+            "delta_fp": -31,
+            "f1_before": 0.8047250806795347,
+            "f1_after": 0.785049050043462,
+            "changes": 317
+          }
+        },
+        "structure/conditional/0.85/agree": {
+          "cutoff": {
+            "0": 1.0,
+            "1": 0.35692273319827
+          },
+          "calibration": {
+            "before": {
+              "tp": 3772,
+              "fp": 258,
+              "fn": 105,
+              "tn": 7541
+            },
+            "after": {
+              "tp": 3751,
+              "fp": 125,
+              "fn": 126,
+              "tn": 7674
+            },
+            "delta_tp": -21,
+            "delta_fp": -133,
+            "f1_before": 0.9540913114961427,
+            "f1_after": 0.9676254353153618,
+            "changes": 154
+          },
+          "held": {
+            "before": {
+              "tp": 6608,
+              "fp": 366,
+              "fn": 2841,
+              "tn": 21283
+            },
+            "after": {
+              "tp": 6289,
+              "fp": 321,
+              "fn": 3160,
+              "tn": 21328
+            },
+            "delta_tp": -319,
+            "delta_fp": -45,
+            "f1_before": 0.8047250806795347,
+            "f1_after": 0.7832368142474625,
+            "changes": 364
+          }
+        },
+        "structure/conditional/0.95/single": {
+          "cutoff": {
+            "0": 1.0,
+            "1": 0.954036865056916
+          },
+          "calibration": {
+            "before": {
+              "tp": 3772,
+              "fp": 258,
+              "fn": 105,
+              "tn": 7541
+            },
+            "after": {
+              "tp": 3767,
+              "fp": 155,
+              "fn": 110,
+              "tn": 7644
+            },
+            "delta_tp": -5,
+            "delta_fp": -103,
+            "f1_before": 0.9540913114961427,
+            "f1_after": 0.9660212847801,
+            "changes": 108
+          },
+          "held": {
+            "before": {
+              "tp": 6608,
+              "fp": 366,
+              "fn": 2841,
+              "tn": 21283
+            },
+            "after": {
+              "tp": 6473,
+              "fp": 354,
+              "fn": 2976,
+              "tn": 21295
+            },
+            "delta_tp": -135,
+            "delta_fp": -12,
+            "f1_before": 0.8047250806795347,
+            "f1_after": 0.7954042762349471,
+            "changes": 147
+          }
+        },
+        "structure/conditional/0.95/agree": {
+          "cutoff": {
+            "0": 1.0,
+            "1": 0.9188132360550191
+          },
+          "calibration": {
+            "before": {
+              "tp": 3772,
+              "fp": 258,
+              "fn": 105,
+              "tn": 7541
+            },
+            "after": {
+              "tp": 3767,
+              "fp": 150,
+              "fn": 110,
+              "tn": 7649
+            },
+            "delta_tp": -5,
+            "delta_fp": -108,
+            "f1_before": 0.9540913114961427,
+            "f1_after": 0.9666410059019759,
+            "changes": 113
+          },
+          "held": {
+            "before": {
+              "tp": 6608,
+              "fp": 366,
+              "fn": 2841,
+              "tn": 21283
+            },
+            "after": {
+              "tp": 6454,
+              "fp": 350,
+              "fn": 2995,
+              "tn": 21299
+            },
+            "delta_tp": -154,
+            "delta_fp": -16,
+            "f1_before": 0.8047250806795347,
+            "f1_after": 0.7941918415061835,
+            "changes": 170
+          }
+        },
+        "structure/linear_conditional/0.7/single": {
+          "cutoff": {
+            "0": 1.0,
+            "1": 0.36030801989629596
+          },
+          "calibration": {
+            "before": {
+              "tp": 3772,
+              "fp": 258,
+              "fn": 105,
+              "tn": 7541
+            },
+            "after": {
+              "tp": 3712,
+              "fp": 118,
+              "fn": 165,
+              "tn": 7681
+            },
+            "delta_tp": -60,
+            "delta_fp": -140,
+            "f1_before": 0.9540913114961427,
+            "f1_after": 0.9632801349422603,
+            "changes": 200
+          },
+          "held": {
+            "before": {
+              "tp": 6608,
+              "fp": 366,
+              "fn": 2841,
+              "tn": 21283
+            },
+            "after": {
+              "tp": 6183,
+              "fp": 305,
+              "fn": 3266,
+              "tn": 21344
+            },
+            "delta_tp": -425,
+            "delta_fp": -61,
+            "f1_before": 0.8047250806795347,
+            "f1_after": 0.775930225261969,
+            "changes": 486
+          }
+        },
+        "structure/linear_conditional/0.7/agree": {
+          "cutoff": {
+            "0": 1.0,
+            "1": 0.2645045189387582
+          },
+          "calibration": {
+            "before": {
+              "tp": 3772,
+              "fp": 258,
+              "fn": 105,
+              "tn": 7541
+            },
+            "after": {
+              "tp": 3712,
+              "fp": 116,
+              "fn": 165,
+              "tn": 7683
+            },
+            "delta_tp": -60,
+            "delta_fp": -142,
+            "f1_before": 0.9540913114961427,
+            "f1_after": 0.963530175210902,
+            "changes": 202
+          },
+          "held": {
+            "before": {
+              "tp": 6608,
+              "fp": 366,
+              "fn": 2841,
+              "tn": 21283
+            },
+            "after": {
+              "tp": 6189,
+              "fp": 311,
+              "fn": 3260,
+              "tn": 21338
+            },
+            "delta_tp": -419,
+            "delta_fp": -55,
+            "f1_before": 0.8047250806795347,
+            "f1_after": 0.7760988149727256,
+            "changes": 474
+          }
+        },
+        "structure/linear_conditional/0.85/single": {
+          "cutoff": {
+            "0": 1.0,
+            "1": 0.6230108594177178
+          },
+          "calibration": {
+            "before": {
+              "tp": 3772,
+              "fp": 258,
+              "fn": 105,
+              "tn": 7541
+            },
+            "after": {
+              "tp": 3753,
+              "fp": 137,
+              "fn": 124,
+              "tn": 7662
+            },
+            "delta_tp": -19,
+            "delta_fp": -121,
+            "f1_before": 0.9540913114961427,
+            "f1_after": 0.966396292004635,
+            "changes": 140
+          },
+          "held": {
+            "before": {
+              "tp": 6608,
+              "fp": 366,
+              "fn": 2841,
+              "tn": 21283
+            },
+            "after": {
+              "tp": 6325,
+              "fp": 319,
+              "fn": 3124,
+              "tn": 21330
+            },
+            "delta_tp": -283,
+            "delta_fp": -47,
+            "f1_before": 0.8047250806795347,
+            "f1_after": 0.7860560492139439,
+            "changes": 330
+          }
+        },
+        "structure/linear_conditional/0.85/agree": {
+          "cutoff": {
+            "0": 1.0,
+            "1": 0.4121284246226215
+          },
+          "calibration": {
+            "before": {
+              "tp": 3772,
+              "fp": 258,
+              "fn": 105,
+              "tn": 7541
+            },
+            "after": {
+              "tp": 3752,
+              "fp": 134,
+              "fn": 125,
+              "tn": 7665
+            },
+            "delta_tp": -20,
+            "delta_fp": -124,
+            "f1_before": 0.9540913114961427,
+            "f1_after": 0.9666366095581606,
+            "changes": 144
+          },
+          "held": {
+            "before": {
+              "tp": 6608,
+              "fp": 366,
+              "fn": 2841,
+              "tn": 21283
+            },
+            "after": {
+              "tp": 6326,
+              "fp": 324,
+              "fn": 3123,
+              "tn": 21325
+            },
+            "delta_tp": -282,
+            "delta_fp": -42,
+            "f1_before": 0.8047250806795347,
+            "f1_after": 0.7858873221939251,
+            "changes": 324
+          }
+        },
+        "structure/linear_conditional/0.95/single": {
+          "cutoff": {
+            "0": 1.0,
+            "1": 0.9793489399685952
+          },
+          "calibration": {
+            "before": {
+              "tp": 3772,
+              "fp": 258,
+              "fn": 105,
+              "tn": 7541
+            },
+            "after": {
+              "tp": 3769,
+              "fp": 195,
+              "fn": 108,
+              "tn": 7604
+            },
+            "delta_tp": -3,
+            "delta_fp": -63,
+            "f1_before": 0.9540913114961427,
+            "f1_after": 0.9613569697742634,
+            "changes": 66
+          },
+          "held": {
+            "before": {
+              "tp": 6608,
+              "fp": 366,
+              "fn": 2841,
+              "tn": 21283
+            },
+            "after": {
+              "tp": 6471,
+              "fp": 361,
+              "fn": 2978,
+              "tn": 21288
+            },
+            "delta_tp": -137,
+            "delta_fp": -5,
+            "f1_before": 0.8047250806795347,
+            "f1_after": 0.794914317302377,
+            "changes": 142
+          }
+        },
+        "structure/linear_conditional/0.95/agree": {
+          "cutoff": {
+            "0": 1.0,
+            "1": 0.8817680516148455
+          },
+          "calibration": {
+            "before": {
+              "tp": 3772,
+              "fp": 258,
+              "fn": 105,
+              "tn": 7541
+            },
+            "after": {
+              "tp": 3767,
+              "fp": 156,
+              "fn": 110,
+              "tn": 7643
+            },
+            "delta_tp": -5,
+            "delta_fp": -102,
+            "f1_before": 0.9540913114961427,
+            "f1_after": 0.9658974358974359,
+            "changes": 107
+          },
+          "held": {
+            "before": {
+              "tp": 6608,
+              "fp": 366,
+              "fn": 2841,
+              "tn": 21283
+            },
+            "after": {
+              "tp": 6431,
+              "fp": 348,
+              "fn": 3018,
+              "tn": 21301
+            },
+            "delta_tp": -177,
+            "delta_fp": -18,
+            "f1_before": 0.8047250806795347,
+            "f1_after": 0.792580724673404,
+            "changes": 195
+          }
+        },
+        "structure/paired/0.7/single": {
+          "cutoff": {
+            "0": 1.0,
+            "1": 0.43179240020555215
+          },
+          "calibration": {
+            "before": {
+              "tp": 3772,
+              "fp": 258,
+              "fn": 105,
+              "tn": 7541
+            },
+            "after": {
+              "tp": 3714,
+              "fp": 116,
+              "fn": 163,
+              "tn": 7683
+            },
+            "delta_tp": -58,
+            "delta_fp": -142,
+            "f1_before": 0.9540913114961427,
+            "f1_after": 0.9637991436356559,
+            "changes": 200
+          },
+          "held": {
+            "before": {
+              "tp": 6608,
+              "fp": 366,
+              "fn": 2841,
+              "tn": 21283
+            },
+            "after": {
+              "tp": 6088,
+              "fp": 299,
+              "fn": 3361,
+              "tn": 21350
+            },
+            "delta_tp": -520,
+            "delta_fp": -67,
+            "f1_before": 0.8047250806795347,
+            "f1_after": 0.7688810305632735,
+            "changes": 587
+          }
+        },
+        "structure/paired/0.7/agree": {
+          "cutoff": {
+            "0": 1.0,
+            "1": 0.2645045189387582
+          },
+          "calibration": {
+            "before": {
+              "tp": 3772,
+              "fp": 258,
+              "fn": 105,
+              "tn": 7541
+            },
+            "after": {
+              "tp": 3713,
+              "fp": 120,
+              "fn": 164,
+              "tn": 7679
+            },
+            "delta_tp": -59,
+            "delta_fp": -138,
+            "f1_before": 0.9540913114961427,
+            "f1_after": 0.9631647211413749,
+            "changes": 197
+          },
+          "held": {
+            "before": {
+              "tp": 6608,
+              "fp": 366,
+              "fn": 2841,
+              "tn": 21283
+            },
+            "after": {
+              "tp": 6129,
+              "fp": 309,
+              "fn": 3320,
+              "tn": 21340
+            },
+            "delta_tp": -479,
+            "delta_fp": -57,
+            "f1_before": 0.8047250806795347,
+            "f1_after": 0.7715742430918361,
+            "changes": 536
+          }
+        },
+        "structure/paired/0.85/single": {
+          "cutoff": {
+            "0": 1.0,
+            "1": 0.7576815737306539
+          },
+          "calibration": {
+            "before": {
+              "tp": 3772,
+              "fp": 258,
+              "fn": 105,
+              "tn": 7541
+            },
+            "after": {
+              "tp": 3752,
+              "fp": 141,
+              "fn": 125,
+              "tn": 7658
+            },
+            "delta_tp": -20,
+            "delta_fp": -117,
+            "f1_before": 0.9540913114961427,
+            "f1_after": 0.9657657657657658,
+            "changes": 137
+          },
+          "held": {
+            "before": {
+              "tp": 6608,
+              "fp": 366,
+              "fn": 2841,
+              "tn": 21283
+            },
+            "after": {
+              "tp": 6295,
+              "fp": 310,
+              "fn": 3154,
+              "tn": 21339
+            },
+            "delta_tp": -313,
+            "delta_fp": -56,
+            "f1_before": 0.8047250806795347,
+            "f1_after": 0.7842282297246792,
+            "changes": 369
+          }
+        },
+        "structure/paired/0.85/agree": {
+          "cutoff": {
+            "0": 1.0,
+            "1": 0.461761020747194
+          },
+          "calibration": {
+            "before": {
+              "tp": 3772,
+              "fp": 258,
+              "fn": 105,
+              "tn": 7541
+            },
+            "after": {
+              "tp": 3755,
+              "fp": 138,
+              "fn": 122,
+              "tn": 7661
+            },
+            "delta_tp": -17,
+            "delta_fp": -120,
+            "f1_before": 0.9540913114961427,
+            "f1_after": 0.9665379665379665,
+            "changes": 137
+          },
+          "held": {
+            "before": {
+              "tp": 6608,
+              "fp": 366,
+              "fn": 2841,
+              "tn": 21283
+            },
+            "after": {
+              "tp": 6340,
+              "fp": 331,
+              "fn": 3109,
+              "tn": 21318
+            },
+            "delta_tp": -268,
+            "delta_fp": -35,
+            "f1_before": 0.8047250806795347,
+            "f1_after": 0.7866004962779156,
+            "changes": 303
+          }
+        },
+        "structure/paired/0.95/single": {
+          "cutoff": {
+            "0": 1.0,
+            "1": 0.9504896642296194
+          },
+          "calibration": {
+            "before": {
+              "tp": 3772,
+              "fp": 258,
+              "fn": 105,
+              "tn": 7541
+            },
+            "after": {
+              "tp": 3767,
+              "fp": 161,
+              "fn": 110,
+              "tn": 7638
+            },
+            "delta_tp": -5,
+            "delta_fp": -97,
+            "f1_before": 0.9540913114961427,
+            "f1_after": 0.96527866752082,
+            "changes": 102
+          },
+          "held": {
+            "before": {
+              "tp": 6608,
+              "fp": 366,
+              "fn": 2841,
+              "tn": 21283
+            },
+            "after": {
+              "tp": 6383,
+              "fp": 330,
+              "fn": 3066,
+              "tn": 21319
+            },
+            "delta_tp": -225,
+            "delta_fp": -36,
+            "f1_before": 0.8047250806795347,
+            "f1_after": 0.7898774904096028,
+            "changes": 261
+          }
+        },
+        "structure/paired/0.95/agree": {
+          "cutoff": {
+            "0": 1.0,
+            "1": 0.8858188186990177
+          },
+          "calibration": {
+            "before": {
+              "tp": 3772,
+              "fp": 258,
+              "fn": 105,
+              "tn": 7541
+            },
+            "after": {
+              "tp": 3767,
+              "fp": 157,
+              "fn": 110,
+              "tn": 7642
+            },
+            "delta_tp": -5,
+            "delta_fp": -101,
+            "f1_before": 0.9540913114961427,
+            "f1_after": 0.9657736187668248,
+            "changes": 106
+          },
+          "held": {
+            "before": {
+              "tp": 6608,
+              "fp": 366,
+              "fn": 2841,
+              "tn": 21283
+            },
+            "after": {
+              "tp": 6431,
+              "fp": 348,
+              "fn": 3018,
+              "tn": 21301
+            },
+            "delta_tp": -177,
+            "delta_fp": -18,
+            "f1_before": 0.8047250806795347,
+            "f1_after": 0.792580724673404,
+            "changes": 195
+          }
+        }
+      }
+    },
+    "test_b": {
+      "matrix_sha256": "60b77f55b6ceccfedf9419153dd4aefc11b825afc2f52765e71f105815b50196",
+      "model_sha256": "0a48f3078b0a66c6b9a96fba09c60288e1d1db695b82b3dfa8de4e8636ead430",
+      "predictions_sha256": "ae601cddd56080b2b58b44ff9c86364b00b7c4889ce758cb7159803523118158",
+      "cases": {
+        "numeric/conditional/0.7/single": {
+          "cutoff": {
+            "0": 1.0,
+            "1": 0.6163266096243519
+          },
+          "calibration": {
+            "before": {
+              "tp": 4131,
+              "fp": 238,
+              "fn": 287,
+              "tn": 8723
+            },
+            "after": {
+              "tp": 4108,
+              "fp": 182,
+              "fn": 310,
+              "tn": 8779
+            },
+            "delta_tp": -23,
+            "delta_fp": -56,
+            "f1_before": 0.9402526459542506,
+            "f1_after": 0.9435002296738632,
+            "changes": 79
+          },
+          "held": {
+            "before": {
+              "tp": 2423,
+              "fp": 175,
+              "fn": 431,
+              "tn": 4870
+            },
+            "after": {
+              "tp": 2405,
+              "fp": 168,
+              "fn": 449,
+              "tn": 4877
+            },
+            "delta_tp": -18,
+            "delta_fp": -7,
+            "f1_before": 0.8888481291269259,
+            "f1_after": 0.8863091947669062,
+            "changes": 25
+          }
+        },
+        "numeric/conditional/0.7/agree": {
+          "cutoff": {
+            "0": 1.0,
+            "1": 0.6163266096243519
+          },
+          "calibration": {
+            "before": {
+              "tp": 4131,
+              "fp": 238,
+              "fn": 287,
+              "tn": 8723
+            },
+            "after": {
+              "tp": 4108,
+              "fp": 182,
+              "fn": 310,
+              "tn": 8779
+            },
+            "delta_tp": -23,
+            "delta_fp": -56,
+            "f1_before": 0.9402526459542506,
+            "f1_after": 0.9435002296738632,
+            "changes": 79
+          },
+          "held": {
+            "before": {
+              "tp": 2423,
+              "fp": 175,
+              "fn": 431,
+              "tn": 4870
+            },
+            "after": {
+              "tp": 2405,
+              "fp": 168,
+              "fn": 449,
+              "tn": 4877
+            },
+            "delta_tp": -18,
+            "delta_fp": -7,
+            "f1_before": 0.8888481291269259,
+            "f1_after": 0.8863091947669062,
+            "changes": 25
+          }
+        },
+        "numeric/conditional/0.85/single": {
+          "cutoff": {
+            "0": 1.0,
+            "1": 0.8894717330276163
+          },
+          "calibration": {
+            "before": {
+              "tp": 4131,
+              "fp": 238,
+              "fn": 287,
+              "tn": 8723
+            },
+            "after": {
+              "tp": 4126,
+              "fp": 202,
+              "fn": 292,
+              "tn": 8759
+            },
+            "delta_tp": -5,
+            "delta_fp": -36,
+            "f1_before": 0.9402526459542506,
+            "f1_after": 0.9435170363594786,
+            "changes": 41
+          },
+          "held": {
+            "before": {
+              "tp": 2423,
+              "fp": 175,
+              "fn": 431,
+              "tn": 4870
+            },
+            "after": {
+              "tp": 2413,
+              "fp": 170,
+              "fn": 441,
+              "tn": 4875
+            },
+            "delta_tp": -10,
+            "delta_fp": -5,
+            "f1_before": 0.8888481291269259,
+            "f1_after": 0.8876218502850837,
+            "changes": 15
+          }
+        },
+        "numeric/conditional/0.85/agree": {
+          "cutoff": {
+            "0": 1.0,
+            "1": 0.8894717330276163
+          },
+          "calibration": {
+            "before": {
+              "tp": 4131,
+              "fp": 238,
+              "fn": 287,
+              "tn": 8723
+            },
+            "after": {
+              "tp": 4126,
+              "fp": 202,
+              "fn": 292,
+              "tn": 8759
+            },
+            "delta_tp": -5,
+            "delta_fp": -36,
+            "f1_before": 0.9402526459542506,
+            "f1_after": 0.9435170363594786,
+            "changes": 41
+          },
+          "held": {
+            "before": {
+              "tp": 2423,
+              "fp": 175,
+              "fn": 431,
+              "tn": 4870
+            },
+            "after": {
+              "tp": 2413,
+              "fp": 170,
+              "fn": 441,
+              "tn": 4875
+            },
+            "delta_tp": -10,
+            "delta_fp": -5,
+            "f1_before": 0.8888481291269259,
+            "f1_after": 0.8876218502850837,
+            "changes": 15
+          }
+        },
+        "numeric/conditional/0.95/single": {
+          "cutoff": {
+            "0": 1.0,
+            "1": 1.0
+          },
+          "calibration": {
+            "before": {
+              "tp": 4131,
+              "fp": 238,
+              "fn": 287,
+              "tn": 8723
+            },
+            "after": {
+              "tp": 4131,
+              "fp": 238,
+              "fn": 287,
+              "tn": 8723
+            },
+            "delta_tp": 0,
+            "delta_fp": 0,
+            "f1_before": 0.9402526459542506,
+            "f1_after": 0.9402526459542506,
+            "changes": 0
+          },
+          "held": {
+            "before": {
+              "tp": 2423,
+              "fp": 175,
+              "fn": 431,
+              "tn": 4870
+            },
+            "after": {
+              "tp": 2423,
+              "fp": 175,
+              "fn": 431,
+              "tn": 4870
+            },
+            "delta_tp": 0,
+            "delta_fp": 0,
+            "f1_before": 0.8888481291269259,
+            "f1_after": 0.8888481291269259,
+            "changes": 0
+          }
+        },
+        "numeric/conditional/0.95/agree": {
+          "cutoff": {
+            "0": 1.0,
+            "1": 1.0
+          },
+          "calibration": {
+            "before": {
+              "tp": 4131,
+              "fp": 238,
+              "fn": 287,
+              "tn": 8723
+            },
+            "after": {
+              "tp": 4131,
+              "fp": 238,
+              "fn": 287,
+              "tn": 8723
+            },
+            "delta_tp": 0,
+            "delta_fp": 0,
+            "f1_before": 0.9402526459542506,
+            "f1_after": 0.9402526459542506,
+            "changes": 0
+          },
+          "held": {
+            "before": {
+              "tp": 2423,
+              "fp": 175,
+              "fn": 431,
+              "tn": 4870
+            },
+            "after": {
+              "tp": 2423,
+              "fp": 175,
+              "fn": 431,
+              "tn": 4870
+            },
+            "delta_tp": 0,
+            "delta_fp": 0,
+            "f1_before": 0.8888481291269259,
+            "f1_after": 0.8888481291269259,
+            "changes": 0
+          }
+        },
+        "numeric/linear_conditional/0.7/single": {
+          "cutoff": {
+            "0": 1.0,
+            "1": 0.9259209296013617
+          },
+          "calibration": {
+            "before": {
+              "tp": 4131,
+              "fp": 238,
+              "fn": 287,
+              "tn": 8723
+            },
+            "after": {
+              "tp": 4118,
+              "fp": 204,
+              "fn": 300,
+              "tn": 8757
+            },
+            "delta_tp": -13,
+            "delta_fp": -34,
+            "f1_before": 0.9402526459542506,
+            "f1_after": 0.9423340961098399,
+            "changes": 47
+          },
+          "held": {
+            "before": {
+              "tp": 2423,
+              "fp": 175,
+              "fn": 431,
+              "tn": 4870
+            },
+            "after": {
+              "tp": 2412,
+              "fp": 171,
+              "fn": 442,
+              "tn": 4874
+            },
+            "delta_tp": -11,
+            "delta_fp": -4,
+            "f1_before": 0.8888481291269259,
+            "f1_after": 0.88725400036785,
+            "changes": 15
+          }
+        },
+        "numeric/linear_conditional/0.7/agree": {
+          "cutoff": {
+            "0": 1.0,
+            "1": 0.5871134983895807
+          },
+          "calibration": {
+            "before": {
+              "tp": 4131,
+              "fp": 238,
+              "fn": 287,
+              "tn": 8723
+            },
+            "after": {
+              "tp": 4107,
+              "fp": 181,
+              "fn": 311,
+              "tn": 8780
+            },
+            "delta_tp": -24,
+            "delta_fp": -57,
+            "f1_before": 0.9402526459542506,
+            "f1_after": 0.943487250172295,
+            "changes": 81
+          },
+          "held": {
+            "before": {
+              "tp": 2423,
+              "fp": 175,
+              "fn": 431,
+              "tn": 4870
+            },
+            "after": {
+              "tp": 2404,
+              "fp": 167,
+              "fn": 450,
+              "tn": 4878
+            },
+            "delta_tp": -19,
+            "delta_fp": -8,
+            "f1_before": 0.8888481291269259,
+            "f1_after": 0.8862672811059907,
+            "changes": 27
+          }
+        },
+        "numeric/linear_conditional/0.85/single": {
+          "cutoff": {
+            "0": 1.0,
+            "1": 1.0
+          },
+          "calibration": {
+            "before": {
+              "tp": 4131,
+              "fp": 238,
+              "fn": 287,
+              "tn": 8723
+            },
+            "after": {
+              "tp": 4131,
+              "fp": 238,
+              "fn": 287,
+              "tn": 8723
+            },
+            "delta_tp": 0,
+            "delta_fp": 0,
+            "f1_before": 0.9402526459542506,
+            "f1_after": 0.9402526459542506,
+            "changes": 0
+          },
+          "held": {
+            "before": {
+              "tp": 2423,
+              "fp": 175,
+              "fn": 431,
+              "tn": 4870
+            },
+            "after": {
+              "tp": 2423,
+              "fp": 175,
+              "fn": 431,
+              "tn": 4870
+            },
+            "delta_tp": 0,
+            "delta_fp": 0,
+            "f1_before": 0.8888481291269259,
+            "f1_after": 0.8888481291269259,
+            "changes": 0
+          }
+        },
+        "numeric/linear_conditional/0.85/agree": {
+          "cutoff": {
+            "0": 1.0,
+            "1": 0.8894717330276163
+          },
+          "calibration": {
+            "before": {
+              "tp": 4131,
+              "fp": 238,
+              "fn": 287,
+              "tn": 8723
+            },
+            "after": {
+              "tp": 4126,
+              "fp": 204,
+              "fn": 292,
+              "tn": 8757
+            },
+            "delta_tp": -5,
+            "delta_fp": -34,
+            "f1_before": 0.9402526459542506,
+            "f1_after": 0.9433013260173754,
+            "changes": 39
+          },
+          "held": {
+            "before": {
+              "tp": 2423,
+              "fp": 175,
+              "fn": 431,
+              "tn": 4870
+            },
+            "after": {
+              "tp": 2413,
+              "fp": 170,
+              "fn": 441,
+              "tn": 4875
+            },
+            "delta_tp": -10,
+            "delta_fp": -5,
+            "f1_before": 0.8888481291269259,
+            "f1_after": 0.8876218502850837,
+            "changes": 15
+          }
+        },
+        "numeric/linear_conditional/0.95/single": {
+          "cutoff": {
+            "0": 1.0,
+            "1": 1.0
+          },
+          "calibration": {
+            "before": {
+              "tp": 4131,
+              "fp": 238,
+              "fn": 287,
+              "tn": 8723
+            },
+            "after": {
+              "tp": 4131,
+              "fp": 238,
+              "fn": 287,
+              "tn": 8723
+            },
+            "delta_tp": 0,
+            "delta_fp": 0,
+            "f1_before": 0.9402526459542506,
+            "f1_after": 0.9402526459542506,
+            "changes": 0
+          },
+          "held": {
+            "before": {
+              "tp": 2423,
+              "fp": 175,
+              "fn": 431,
+              "tn": 4870
+            },
+            "after": {
+              "tp": 2423,
+              "fp": 175,
+              "fn": 431,
+              "tn": 4870
+            },
+            "delta_tp": 0,
+            "delta_fp": 0,
+            "f1_before": 0.8888481291269259,
+            "f1_after": 0.8888481291269259,
+            "changes": 0
+          }
+        },
+        "numeric/linear_conditional/0.95/agree": {
+          "cutoff": {
+            "0": 1.0,
+            "1": 1.0
+          },
+          "calibration": {
+            "before": {
+              "tp": 4131,
+              "fp": 238,
+              "fn": 287,
+              "tn": 8723
+            },
+            "after": {
+              "tp": 4131,
+              "fp": 238,
+              "fn": 287,
+              "tn": 8723
+            },
+            "delta_tp": 0,
+            "delta_fp": 0,
+            "f1_before": 0.9402526459542506,
+            "f1_after": 0.9402526459542506,
+            "changes": 0
+          },
+          "held": {
+            "before": {
+              "tp": 2423,
+              "fp": 175,
+              "fn": 431,
+              "tn": 4870
+            },
+            "after": {
+              "tp": 2423,
+              "fp": 175,
+              "fn": 431,
+              "tn": 4870
+            },
+            "delta_tp": 0,
+            "delta_fp": 0,
+            "f1_before": 0.8888481291269259,
+            "f1_after": 0.8888481291269259,
+            "changes": 0
+          }
+        },
+        "numeric/paired/0.7/single": {
+          "cutoff": {
+            "0": 1.0,
+            "1": 0.9586158525965004
+          },
+          "calibration": {
+            "before": {
+              "tp": 4131,
+              "fp": 238,
+              "fn": 287,
+              "tn": 8723
+            },
+            "after": {
+              "tp": 4122,
+              "fp": 217,
+              "fn": 296,
+              "tn": 8744
+            },
+            "delta_tp": -9,
+            "delta_fp": -21,
+            "f1_before": 0.9402526459542506,
+            "f1_after": 0.9414182939362795,
+            "changes": 30
+          },
+          "held": {
+            "before": {
+              "tp": 2423,
+              "fp": 175,
+              "fn": 431,
+              "tn": 4870
+            },
+            "after": {
+              "tp": 2413,
+              "fp": 173,
+              "fn": 441,
+              "tn": 4872
+            },
+            "delta_tp": -10,
+            "delta_fp": -2,
+            "f1_before": 0.8888481291269259,
+            "f1_after": 0.8871323529411764,
+            "changes": 12
+          }
+        },
+        "numeric/paired/0.7/agree": {
+          "cutoff": {
+            "0": 1.0,
+            "1": 0.5823033029429553
+          },
+          "calibration": {
+            "before": {
+              "tp": 4131,
+              "fp": 238,
+              "fn": 287,
+              "tn": 8723
+            },
+            "after": {
+              "tp": 4107,
+              "fp": 180,
+              "fn": 311,
+              "tn": 8781
+            },
+            "delta_tp": -24,
+            "delta_fp": -58,
+            "f1_before": 0.9402526459542506,
+            "f1_after": 0.9435956346927054,
+            "changes": 82
+          },
+          "held": {
+            "before": {
+              "tp": 2423,
+              "fp": 175,
+              "fn": 431,
+              "tn": 4870
+            },
+            "after": {
+              "tp": 2403,
+              "fp": 167,
+              "fn": 451,
+              "tn": 4878
+            },
+            "delta_tp": -20,
+            "delta_fp": -8,
+            "f1_before": 0.8888481291269259,
+            "f1_after": 0.8860619469026548,
+            "changes": 28
+          }
+        },
+        "numeric/paired/0.85/single": {
+          "cutoff": {
+            "0": 1.0,
+            "1": 1.0
+          },
+          "calibration": {
+            "before": {
+              "tp": 4131,
+              "fp": 238,
+              "fn": 287,
+              "tn": 8723
+            },
+            "after": {
+              "tp": 4131,
+              "fp": 238,
+              "fn": 287,
+              "tn": 8723
+            },
+            "delta_tp": 0,
+            "delta_fp": 0,
+            "f1_before": 0.9402526459542506,
+            "f1_after": 0.9402526459542506,
+            "changes": 0
+          },
+          "held": {
+            "before": {
+              "tp": 2423,
+              "fp": 175,
+              "fn": 431,
+              "tn": 4870
+            },
+            "after": {
+              "tp": 2423,
+              "fp": 175,
+              "fn": 431,
+              "tn": 4870
+            },
+            "delta_tp": 0,
+            "delta_fp": 0,
+            "f1_before": 0.8888481291269259,
+            "f1_after": 0.8888481291269259,
+            "changes": 0
+          }
+        },
+        "numeric/paired/0.85/agree": {
+          "cutoff": {
+            "0": 1.0,
+            "1": 0.8875331893140659
+          },
+          "calibration": {
+            "before": {
+              "tp": 4131,
+              "fp": 238,
+              "fn": 287,
+              "tn": 8723
+            },
+            "after": {
+              "tp": 4125,
+              "fp": 204,
+              "fn": 293,
+              "tn": 8757
+            },
+            "delta_tp": -6,
+            "delta_fp": -34,
+            "f1_before": 0.9402526459542506,
+            "f1_after": 0.9431805190350977,
+            "changes": 40
+          },
+          "held": {
+            "before": {
+              "tp": 2423,
+              "fp": 175,
+              "fn": 431,
+              "tn": 4870
+            },
+            "after": {
+              "tp": 2413,
+              "fp": 170,
+              "fn": 441,
+              "tn": 4875
+            },
+            "delta_tp": -10,
+            "delta_fp": -5,
+            "f1_before": 0.8888481291269259,
+            "f1_after": 0.8876218502850837,
+            "changes": 15
+          }
+        },
+        "numeric/paired/0.95/single": {
+          "cutoff": {
+            "0": 1.0,
+            "1": 1.0
+          },
+          "calibration": {
+            "before": {
+              "tp": 4131,
+              "fp": 238,
+              "fn": 287,
+              "tn": 8723
+            },
+            "after": {
+              "tp": 4131,
+              "fp": 238,
+              "fn": 287,
+              "tn": 8723
+            },
+            "delta_tp": 0,
+            "delta_fp": 0,
+            "f1_before": 0.9402526459542506,
+            "f1_after": 0.9402526459542506,
+            "changes": 0
+          },
+          "held": {
+            "before": {
+              "tp": 2423,
+              "fp": 175,
+              "fn": 431,
+              "tn": 4870
+            },
+            "after": {
+              "tp": 2423,
+              "fp": 175,
+              "fn": 431,
+              "tn": 4870
+            },
+            "delta_tp": 0,
+            "delta_fp": 0,
+            "f1_before": 0.8888481291269259,
+            "f1_after": 0.8888481291269259,
+            "changes": 0
+          }
+        },
+        "numeric/paired/0.95/agree": {
+          "cutoff": {
+            "0": 1.0,
+            "1": 1.0
+          },
+          "calibration": {
+            "before": {
+              "tp": 4131,
+              "fp": 238,
+              "fn": 287,
+              "tn": 8723
+            },
+            "after": {
+              "tp": 4131,
+              "fp": 238,
+              "fn": 287,
+              "tn": 8723
+            },
+            "delta_tp": 0,
+            "delta_fp": 0,
+            "f1_before": 0.9402526459542506,
+            "f1_after": 0.9402526459542506,
+            "changes": 0
+          },
+          "held": {
+            "before": {
+              "tp": 2423,
+              "fp": 175,
+              "fn": 431,
+              "tn": 4870
+            },
+            "after": {
+              "tp": 2423,
+              "fp": 175,
+              "fn": 431,
+              "tn": 4870
+            },
+            "delta_tp": 0,
+            "delta_fp": 0,
+            "f1_before": 0.8888481291269259,
+            "f1_after": 0.8888481291269259,
+            "changes": 0
+          }
+        },
+        "location/conditional/0.7/single": {
+          "cutoff": {
+            "0": 1.0,
+            "1": 0.6326004562216802
+          },
+          "calibration": {
+            "before": {
+              "tp": 4131,
+              "fp": 238,
+              "fn": 287,
+              "tn": 8723
+            },
+            "after": {
+              "tp": 4104,
+              "fp": 173,
+              "fn": 314,
+              "tn": 8788
+            },
+            "delta_tp": -27,
+            "delta_fp": -65,
+            "f1_before": 0.9402526459542506,
+            "f1_after": 0.9439907993099482,
+            "changes": 92
+          },
+          "held": {
+            "before": {
+              "tp": 2423,
+              "fp": 175,
+              "fn": 431,
+              "tn": 4870
+            },
+            "after": {
+              "tp": 2396,
+              "fp": 163,
+              "fn": 458,
+              "tn": 4882
+            },
+            "delta_tp": -27,
+            "delta_fp": -12,
+            "f1_before": 0.8888481291269259,
+            "f1_after": 0.8852761869573249,
+            "changes": 39
+          }
+        },
+        "location/conditional/0.7/agree": {
+          "cutoff": {
+            "0": 1.0,
+            "1": 0.4987901018374283
+          },
+          "calibration": {
+            "before": {
+              "tp": 4131,
+              "fp": 238,
+              "fn": 287,
+              "tn": 8723
+            },
+            "after": {
+              "tp": 4107,
+              "fp": 181,
+              "fn": 311,
+              "tn": 8780
+            },
+            "delta_tp": -24,
+            "delta_fp": -57,
+            "f1_before": 0.9402526459542506,
+            "f1_after": 0.943487250172295,
+            "changes": 81
+          },
+          "held": {
+            "before": {
+              "tp": 2423,
+              "fp": 175,
+              "fn": 431,
+              "tn": 4870
+            },
+            "after": {
+              "tp": 2404,
+              "fp": 167,
+              "fn": 450,
+              "tn": 4878
+            },
+            "delta_tp": -19,
+            "delta_fp": -8,
+            "f1_before": 0.8888481291269259,
+            "f1_after": 0.8862672811059907,
+            "changes": 27
+          }
+        },
+        "location/conditional/0.85/single": {
+          "cutoff": {
+            "0": 1.0,
+            "1": 0.869478904512562
+          },
+          "calibration": {
+            "before": {
+              "tp": 4131,
+              "fp": 238,
+              "fn": 287,
+              "tn": 8723
+            },
+            "after": {
+              "tp": 4124,
+              "fp": 196,
+              "fn": 294,
+              "tn": 8765
+            },
+            "delta_tp": -7,
+            "delta_fp": -42,
+            "f1_before": 0.9402526459542506,
+            "f1_after": 0.9439230945296406,
+            "changes": 49
+          },
+          "held": {
+            "before": {
+              "tp": 2423,
+              "fp": 175,
+              "fn": 431,
+              "tn": 4870
+            },
+            "after": {
+              "tp": 2408,
+              "fp": 170,
+              "fn": 446,
+              "tn": 4875
+            },
+            "delta_tp": -15,
+            "delta_fp": -5,
+            "f1_before": 0.8888481291269259,
+            "f1_after": 0.8865979381443299,
+            "changes": 20
+          }
+        },
+        "location/conditional/0.85/agree": {
+          "cutoff": {
+            "0": 1.0,
+            "1": 0.8740557619546643
+          },
+          "calibration": {
+            "before": {
+              "tp": 4131,
+              "fp": 238,
+              "fn": 287,
+              "tn": 8723
+            },
+            "after": {
+              "tp": 4125,
+              "fp": 200,
+              "fn": 293,
+              "tn": 8761
+            },
+            "delta_tp": -6,
+            "delta_fp": -38,
+            "f1_before": 0.9402526459542506,
+            "f1_after": 0.9436120324831294,
+            "changes": 44
+          },
+          "held": {
+            "before": {
+              "tp": 2423,
+              "fp": 175,
+              "fn": 431,
+              "tn": 4870
+            },
+            "after": {
+              "tp": 2412,
+              "fp": 171,
+              "fn": 442,
+              "tn": 4874
+            },
+            "delta_tp": -11,
+            "delta_fp": -4,
+            "f1_before": 0.8888481291269259,
+            "f1_after": 0.88725400036785,
+            "changes": 15
+          }
+        },
+        "location/conditional/0.95/single": {
+          "cutoff": {
+            "0": 1.0,
+            "1": 1.0
+          },
+          "calibration": {
+            "before": {
+              "tp": 4131,
+              "fp": 238,
+              "fn": 287,
+              "tn": 8723
+            },
+            "after": {
+              "tp": 4131,
+              "fp": 238,
+              "fn": 287,
+              "tn": 8723
+            },
+            "delta_tp": 0,
+            "delta_fp": 0,
+            "f1_before": 0.9402526459542506,
+            "f1_after": 0.9402526459542506,
+            "changes": 0
+          },
+          "held": {
+            "before": {
+              "tp": 2423,
+              "fp": 175,
+              "fn": 431,
+              "tn": 4870
+            },
+            "after": {
+              "tp": 2423,
+              "fp": 175,
+              "fn": 431,
+              "tn": 4870
+            },
+            "delta_tp": 0,
+            "delta_fp": 0,
+            "f1_before": 0.8888481291269259,
+            "f1_after": 0.8888481291269259,
+            "changes": 0
+          }
+        },
+        "location/conditional/0.95/agree": {
+          "cutoff": {
+            "0": 1.0,
+            "1": 1.0
+          },
+          "calibration": {
+            "before": {
+              "tp": 4131,
+              "fp": 238,
+              "fn": 287,
+              "tn": 8723
+            },
+            "after": {
+              "tp": 4131,
+              "fp": 238,
+              "fn": 287,
+              "tn": 8723
+            },
+            "delta_tp": 0,
+            "delta_fp": 0,
+            "f1_before": 0.9402526459542506,
+            "f1_after": 0.9402526459542506,
+            "changes": 0
+          },
+          "held": {
+            "before": {
+              "tp": 2423,
+              "fp": 175,
+              "fn": 431,
+              "tn": 4870
+            },
+            "after": {
+              "tp": 2423,
+              "fp": 175,
+              "fn": 431,
+              "tn": 4870
+            },
+            "delta_tp": 0,
+            "delta_fp": 0,
+            "f1_before": 0.8888481291269259,
+            "f1_after": 0.8888481291269259,
+            "changes": 0
+          }
+        },
+        "location/linear_conditional/0.7/single": {
+          "cutoff": {
+            "0": 1.0,
+            "1": 0.9055459219677539
+          },
+          "calibration": {
+            "before": {
+              "tp": 4131,
+              "fp": 238,
+              "fn": 287,
+              "tn": 8723
+            },
+            "after": {
+              "tp": 4120,
+              "fp": 198,
+              "fn": 298,
+              "tn": 8763
+            },
+            "delta_tp": -11,
+            "delta_fp": -40,
+            "f1_before": 0.9402526459542506,
+            "f1_after": 0.9432234432234432,
+            "changes": 51
+          },
+          "held": {
+            "before": {
+              "tp": 2423,
+              "fp": 175,
+              "fn": 431,
+              "tn": 4870
+            },
+            "after": {
+              "tp": 2410,
+              "fp": 168,
+              "fn": 444,
+              "tn": 4877
+            },
+            "delta_tp": -13,
+            "delta_fp": -7,
+            "f1_before": 0.8888481291269259,
+            "f1_after": 0.8873343151693667,
+            "changes": 20
+          }
+        },
+        "location/linear_conditional/0.7/agree": {
+          "cutoff": {
+            "0": 1.0,
+            "1": 0.5871134983895807
+          },
+          "calibration": {
+            "before": {
+              "tp": 4131,
+              "fp": 238,
+              "fn": 287,
+              "tn": 8723
+            },
+            "after": {
+              "tp": 4108,
+              "fp": 181,
+              "fn": 310,
+              "tn": 8780
+            },
+            "delta_tp": -23,
+            "delta_fp": -57,
+            "f1_before": 0.9402526459542506,
+            "f1_after": 0.9436085907890204,
+            "changes": 80
+          },
+          "held": {
+            "before": {
+              "tp": 2423,
+              "fp": 175,
+              "fn": 431,
+              "tn": 4870
+            },
+            "after": {
+              "tp": 2403,
+              "fp": 167,
+              "fn": 451,
+              "tn": 4878
+            },
+            "delta_tp": -20,
+            "delta_fp": -8,
+            "f1_before": 0.8888481291269259,
+            "f1_after": 0.8860619469026548,
+            "changes": 28
+          }
+        },
+        "location/linear_conditional/0.85/single": {
+          "cutoff": {
+            "0": 1.0,
+            "1": 0.9566413044201981
+          },
+          "calibration": {
+            "before": {
+              "tp": 4131,
+              "fp": 238,
+              "fn": 287,
+              "tn": 8723
+            },
+            "after": {
+              "tp": 4130,
+              "fp": 229,
+              "fn": 288,
+              "tn": 8732
+            },
+            "delta_tp": -1,
+            "delta_fp": -9,
+            "f1_before": 0.9402526459542506,
+            "f1_after": 0.9410960464851316,
+            "changes": 10
+          },
+          "held": {
+            "before": {
+              "tp": 2423,
+              "fp": 175,
+              "fn": 431,
+              "tn": 4870
+            },
+            "after": {
+              "tp": 2420,
+              "fp": 170,
+              "fn": 434,
+              "tn": 4875
+            },
+            "delta_tp": -3,
+            "delta_fp": -5,
+            "f1_before": 0.8888481291269259,
+            "f1_after": 0.8890521675238795,
+            "changes": 8
+          }
+        },
+        "location/linear_conditional/0.85/agree": {
+          "cutoff": {
+            "0": 1.0,
+            "1": 0.8894717330276163
+          },
+          "calibration": {
+            "before": {
+              "tp": 4131,
+              "fp": 238,
+              "fn": 287,
+              "tn": 8723
+            },
+            "after": {
+              "tp": 4126,
+              "fp": 208,
+              "fn": 292,
+              "tn": 8753
+            },
+            "delta_tp": -5,
+            "delta_fp": -30,
+            "f1_before": 0.9402526459542506,
+            "f1_after": 0.9428702010968921,
+            "changes": 35
+          },
+          "held": {
+            "before": {
+              "tp": 2423,
+              "fp": 175,
+              "fn": 431,
+              "tn": 4870
+            },
+            "after": {
+              "tp": 2413,
+              "fp": 170,
+              "fn": 441,
+              "tn": 4875
+            },
+            "delta_tp": -10,
+            "delta_fp": -5,
+            "f1_before": 0.8888481291269259,
+            "f1_after": 0.8876218502850837,
+            "changes": 15
+          }
+        },
+        "location/linear_conditional/0.95/single": {
+          "cutoff": {
+            "0": 1.0,
+            "1": 1.0
+          },
+          "calibration": {
+            "before": {
+              "tp": 4131,
+              "fp": 238,
+              "fn": 287,
+              "tn": 8723
+            },
+            "after": {
+              "tp": 4131,
+              "fp": 238,
+              "fn": 287,
+              "tn": 8723
+            },
+            "delta_tp": 0,
+            "delta_fp": 0,
+            "f1_before": 0.9402526459542506,
+            "f1_after": 0.9402526459542506,
+            "changes": 0
+          },
+          "held": {
+            "before": {
+              "tp": 2423,
+              "fp": 175,
+              "fn": 431,
+              "tn": 4870
+            },
+            "after": {
+              "tp": 2423,
+              "fp": 175,
+              "fn": 431,
+              "tn": 4870
+            },
+            "delta_tp": 0,
+            "delta_fp": 0,
+            "f1_before": 0.8888481291269259,
+            "f1_after": 0.8888481291269259,
+            "changes": 0
+          }
+        },
+        "location/linear_conditional/0.95/agree": {
+          "cutoff": {
+            "0": 1.0,
+            "1": 1.0
+          },
+          "calibration": {
+            "before": {
+              "tp": 4131,
+              "fp": 238,
+              "fn": 287,
+              "tn": 8723
+            },
+            "after": {
+              "tp": 4131,
+              "fp": 238,
+              "fn": 287,
+              "tn": 8723
+            },
+            "delta_tp": 0,
+            "delta_fp": 0,
+            "f1_before": 0.9402526459542506,
+            "f1_after": 0.9402526459542506,
+            "changes": 0
+          },
+          "held": {
+            "before": {
+              "tp": 2423,
+              "fp": 175,
+              "fn": 431,
+              "tn": 4870
+            },
+            "after": {
+              "tp": 2423,
+              "fp": 175,
+              "fn": 431,
+              "tn": 4870
+            },
+            "delta_tp": 0,
+            "delta_fp": 0,
+            "f1_before": 0.8888481291269259,
+            "f1_after": 0.8888481291269259,
+            "changes": 0
+          }
+        },
+        "location/paired/0.7/single": {
+          "cutoff": {
+            "0": 1.0,
+            "1": 0.9797715157352943
+          },
+          "calibration": {
+            "before": {
+              "tp": 4131,
+              "fp": 238,
+              "fn": 287,
+              "tn": 8723
+            },
+            "after": {
+              "tp": 4130,
+              "fp": 233,
+              "fn": 288,
+              "tn": 8728
+            },
+            "delta_tp": -1,
+            "delta_fp": -5,
+            "f1_before": 0.9402526459542506,
+            "f1_after": 0.9406673499601412,
+            "changes": 6
+          },
+          "held": {
+            "before": {
+              "tp": 2423,
+              "fp": 175,
+              "fn": 431,
+              "tn": 4870
+            },
+            "after": {
+              "tp": 2422,
+              "fp": 173,
+              "fn": 432,
+              "tn": 4872
+            },
+            "delta_tp": -1,
+            "delta_fp": -2,
+            "f1_before": 0.8888481291269259,
+            "f1_after": 0.8889704532941824,
+            "changes": 3
+          }
+        },
+        "location/paired/0.7/agree": {
+          "cutoff": {
+            "0": 1.0,
+            "1": 0.5871134983895807
+          },
+          "calibration": {
+            "before": {
+              "tp": 4131,
+              "fp": 238,
+              "fn": 287,
+              "tn": 8723
+            },
+            "after": {
+              "tp": 4108,
+              "fp": 182,
+              "fn": 310,
+              "tn": 8779
+            },
+            "delta_tp": -23,
+            "delta_fp": -56,
+            "f1_before": 0.9402526459542506,
+            "f1_after": 0.9435002296738632,
+            "changes": 79
+          },
+          "held": {
+            "before": {
+              "tp": 2423,
+              "fp": 175,
+              "fn": 431,
+              "tn": 4870
+            },
+            "after": {
+              "tp": 2405,
+              "fp": 168,
+              "fn": 449,
+              "tn": 4877
+            },
+            "delta_tp": -18,
+            "delta_fp": -7,
+            "f1_before": 0.8888481291269259,
+            "f1_after": 0.8863091947669062,
+            "changes": 25
+          }
+        },
+        "location/paired/0.85/single": {
+          "cutoff": {
+            "0": 1.0,
+            "1": 1.0
+          },
+          "calibration": {
+            "before": {
+              "tp": 4131,
+              "fp": 238,
+              "fn": 287,
+              "tn": 8723
+            },
+            "after": {
+              "tp": 4131,
+              "fp": 238,
+              "fn": 287,
+              "tn": 8723
+            },
+            "delta_tp": 0,
+            "delta_fp": 0,
+            "f1_before": 0.9402526459542506,
+            "f1_after": 0.9402526459542506,
+            "changes": 0
+          },
+          "held": {
+            "before": {
+              "tp": 2423,
+              "fp": 175,
+              "fn": 431,
+              "tn": 4870
+            },
+            "after": {
+              "tp": 2423,
+              "fp": 175,
+              "fn": 431,
+              "tn": 4870
+            },
+            "delta_tp": 0,
+            "delta_fp": 0,
+            "f1_before": 0.8888481291269259,
+            "f1_after": 0.8888481291269259,
+            "changes": 0
+          }
+        },
+        "location/paired/0.85/agree": {
+          "cutoff": {
+            "0": 1.0,
+            "1": 0.8894717330276163
+          },
+          "calibration": {
+            "before": {
+              "tp": 4131,
+              "fp": 238,
+              "fn": 287,
+              "tn": 8723
+            },
+            "after": {
+              "tp": 4128,
+              "fp": 211,
+              "fn": 290,
+              "tn": 8750
+            },
+            "delta_tp": -3,
+            "delta_fp": -27,
+            "f1_before": 0.9402526459542506,
+            "f1_after": 0.9427886262418637,
+            "changes": 30
+          },
+          "held": {
+            "before": {
+              "tp": 2423,
+              "fp": 175,
+              "fn": 431,
+              "tn": 4870
+            },
+            "after": {
+              "tp": 2415,
+              "fp": 170,
+              "fn": 439,
+              "tn": 4875
+            },
+            "delta_tp": -8,
+            "delta_fp": -5,
+            "f1_before": 0.8888481291269259,
+            "f1_after": 0.888030888030888,
+            "changes": 13
+          }
+        },
+        "location/paired/0.95/single": {
+          "cutoff": {
+            "0": 1.0,
+            "1": 1.0
+          },
+          "calibration": {
+            "before": {
+              "tp": 4131,
+              "fp": 238,
+              "fn": 287,
+              "tn": 8723
+            },
+            "after": {
+              "tp": 4131,
+              "fp": 238,
+              "fn": 287,
+              "tn": 8723
+            },
+            "delta_tp": 0,
+            "delta_fp": 0,
+            "f1_before": 0.9402526459542506,
+            "f1_after": 0.9402526459542506,
+            "changes": 0
+          },
+          "held": {
+            "before": {
+              "tp": 2423,
+              "fp": 175,
+              "fn": 431,
+              "tn": 4870
+            },
+            "after": {
+              "tp": 2423,
+              "fp": 175,
+              "fn": 431,
+              "tn": 4870
+            },
+            "delta_tp": 0,
+            "delta_fp": 0,
+            "f1_before": 0.8888481291269259,
+            "f1_after": 0.8888481291269259,
+            "changes": 0
+          }
+        },
+        "location/paired/0.95/agree": {
+          "cutoff": {
+            "0": 1.0,
+            "1": 0.9124197854772187
+          },
+          "calibration": {
+            "before": {
+              "tp": 4131,
+              "fp": 238,
+              "fn": 287,
+              "tn": 8723
+            },
+            "after": {
+              "tp": 4130,
+              "fp": 218,
+              "fn": 288,
+              "tn": 8743
+            },
+            "delta_tp": -1,
+            "delta_fp": -20,
+            "f1_before": 0.9402526459542506,
+            "f1_after": 0.9422769792379648,
+            "changes": 21
+          },
+          "held": {
+            "before": {
+              "tp": 2423,
+              "fp": 175,
+              "fn": 431,
+              "tn": 4870
+            },
+            "after": {
+              "tp": 2417,
+              "fp": 171,
+              "fn": 437,
+              "tn": 4874
+            },
+            "delta_tp": -6,
+            "delta_fp": -4,
+            "f1_before": 0.8888481291269259,
+            "f1_after": 0.8882763689819919,
+            "changes": 10
+          }
+        },
+        "structure/conditional/0.7/single": {
+          "cutoff": {
+            "0": 1.0,
+            "1": 0.524655766212695
+          },
+          "calibration": {
+            "before": {
+              "tp": 4131,
+              "fp": 238,
+              "fn": 287,
+              "tn": 8723
+            },
+            "after": {
+              "tp": 4100,
+              "fp": 161,
+              "fn": 318,
+              "tn": 8800
+            },
+            "delta_tp": -31,
+            "delta_fp": -77,
+            "f1_before": 0.9402526459542506,
+            "f1_after": 0.9448093098283212,
+            "changes": 108
+          },
+          "held": {
+            "before": {
+              "tp": 2423,
+              "fp": 175,
+              "fn": 431,
+              "tn": 4870
+            },
+            "after": {
+              "tp": 2387,
+              "fp": 158,
+              "fn": 467,
+              "tn": 4887
+            },
+            "delta_tp": -36,
+            "delta_fp": -17,
+            "f1_before": 0.8888481291269259,
+            "f1_after": 0.8842378218188554,
+            "changes": 53
+          }
+        },
+        "structure/conditional/0.7/agree": {
+          "cutoff": {
+            "0": 1.0,
+            "1": 0.47569908959584034
+          },
+          "calibration": {
+            "before": {
+              "tp": 4131,
+              "fp": 238,
+              "fn": 287,
+              "tn": 8723
+            },
+            "after": {
+              "tp": 4113,
+              "fp": 178,
+              "fn": 305,
+              "tn": 8783
+            },
+            "delta_tp": -18,
+            "delta_fp": -60,
+            "f1_before": 0.9402526459542506,
+            "f1_after": 0.94454013089907,
+            "changes": 78
+          },
+          "held": {
+            "before": {
+              "tp": 2423,
+              "fp": 175,
+              "fn": 431,
+              "tn": 4870
+            },
+            "after": {
+              "tp": 2402,
+              "fp": 169,
+              "fn": 452,
+              "tn": 4876
+            },
+            "delta_tp": -21,
+            "delta_fp": -6,
+            "f1_before": 0.8888481291269259,
+            "f1_after": 0.8855299539170507,
+            "changes": 27
+          }
+        },
+        "structure/conditional/0.85/single": {
+          "cutoff": {
+            "0": 1.0,
+            "1": 0.8417878043370044
+          },
+          "calibration": {
+            "before": {
+              "tp": 4131,
+              "fp": 238,
+              "fn": 287,
+              "tn": 8723
+            },
+            "after": {
+              "tp": 4122,
+              "fp": 186,
+              "fn": 296,
+              "tn": 8775
+            },
+            "delta_tp": -9,
+            "delta_fp": -52,
+            "f1_before": 0.9402526459542506,
+            "f1_after": 0.9447627779051112,
+            "changes": 61
+          },
+          "held": {
+            "before": {
+              "tp": 2423,
+              "fp": 175,
+              "fn": 431,
+              "tn": 4870
+            },
+            "after": {
+              "tp": 2407,
+              "fp": 169,
+              "fn": 447,
+              "tn": 4876
+            },
+            "delta_tp": -16,
+            "delta_fp": -6,
+            "f1_before": 0.8888481291269259,
+            "f1_after": 0.8865561694290977,
+            "changes": 22
+          }
+        },
+        "structure/conditional/0.85/agree": {
+          "cutoff": {
+            "0": 1.0,
+            "1": 0.8860597149147855
+          },
+          "calibration": {
+            "before": {
+              "tp": 4131,
+              "fp": 238,
+              "fn": 287,
+              "tn": 8723
+            },
+            "after": {
+              "tp": 4125,
+              "fp": 204,
+              "fn": 293,
+              "tn": 8757
+            },
+            "delta_tp": -6,
+            "delta_fp": -34,
+            "f1_before": 0.9402526459542506,
+            "f1_after": 0.9431805190350977,
+            "changes": 40
+          },
+          "held": {
+            "before": {
+              "tp": 2423,
+              "fp": 175,
+              "fn": 431,
+              "tn": 4870
+            },
+            "after": {
+              "tp": 2413,
+              "fp": 171,
+              "fn": 441,
+              "tn": 4874
+            },
+            "delta_tp": -10,
+            "delta_fp": -4,
+            "f1_before": 0.8888481291269259,
+            "f1_after": 0.8874586244942994,
+            "changes": 14
+          }
+        },
+        "structure/conditional/0.95/single": {
+          "cutoff": {
+            "0": 1.0,
+            "1": 1.0
+          },
+          "calibration": {
+            "before": {
+              "tp": 4131,
+              "fp": 238,
+              "fn": 287,
+              "tn": 8723
+            },
+            "after": {
+              "tp": 4131,
+              "fp": 238,
+              "fn": 287,
+              "tn": 8723
+            },
+            "delta_tp": 0,
+            "delta_fp": 0,
+            "f1_before": 0.9402526459542506,
+            "f1_after": 0.9402526459542506,
+            "changes": 0
+          },
+          "held": {
+            "before": {
+              "tp": 2423,
+              "fp": 175,
+              "fn": 431,
+              "tn": 4870
+            },
+            "after": {
+              "tp": 2423,
+              "fp": 175,
+              "fn": 431,
+              "tn": 4870
+            },
+            "delta_tp": 0,
+            "delta_fp": 0,
+            "f1_before": 0.8888481291269259,
+            "f1_after": 0.8888481291269259,
+            "changes": 0
+          }
+        },
+        "structure/conditional/0.95/agree": {
+          "cutoff": {
+            "0": 1.0,
+            "1": 0.9257667279098166
+          },
+          "calibration": {
+            "before": {
+              "tp": 4131,
+              "fp": 238,
+              "fn": 287,
+              "tn": 8723
+            },
+            "after": {
+              "tp": 4130,
+              "fp": 216,
+              "fn": 288,
+              "tn": 8745
+            },
+            "delta_tp": -1,
+            "delta_fp": -22,
+            "f1_before": 0.9402526459542506,
+            "f1_after": 0.9424920127795527,
+            "changes": 23
+          },
+          "held": {
+            "before": {
+              "tp": 2423,
+              "fp": 175,
+              "fn": 431,
+              "tn": 4870
+            },
+            "after": {
+              "tp": 2418,
+              "fp": 171,
+              "fn": 436,
+              "tn": 4874
+            },
+            "delta_tp": -5,
+            "delta_fp": -4,
+            "f1_before": 0.8888481291269259,
+            "f1_after": 0.8884806173066324,
+            "changes": 9
+          }
+        },
+        "structure/linear_conditional/0.7/single": {
+          "cutoff": {
+            "0": 1.0,
+            "1": 0.6480190028579086
+          },
+          "calibration": {
+            "before": {
+              "tp": 4131,
+              "fp": 238,
+              "fn": 287,
+              "tn": 8723
+            },
+            "after": {
+              "tp": 4105,
+              "fp": 175,
+              "fn": 313,
+              "tn": 8786
+            },
+            "delta_tp": -26,
+            "delta_fp": -63,
+            "f1_before": 0.9402526459542506,
+            "f1_after": 0.9438951483099564,
+            "changes": 89
+          },
+          "held": {
+            "before": {
+              "tp": 2423,
+              "fp": 175,
+              "fn": 431,
+              "tn": 4870
+            },
+            "after": {
+              "tp": 2385,
+              "fp": 165,
+              "fn": 469,
+              "tn": 4880
+            },
+            "delta_tp": -38,
+            "delta_fp": -10,
+            "f1_before": 0.8888481291269259,
+            "f1_after": 0.8826794966691339,
+            "changes": 48
+          }
+        },
+        "structure/linear_conditional/0.7/agree": {
+          "cutoff": {
+            "0": 1.0,
+            "1": 0.5111295109716452
+          },
+          "calibration": {
+            "before": {
+              "tp": 4131,
+              "fp": 238,
+              "fn": 287,
+              "tn": 8723
+            },
+            "after": {
+              "tp": 4110,
+              "fp": 180,
+              "fn": 308,
+              "tn": 8781
+            },
+            "delta_tp": -21,
+            "delta_fp": -58,
+            "f1_before": 0.9402526459542506,
+            "f1_after": 0.9439595774000918,
+            "changes": 79
+          },
+          "held": {
+            "before": {
+              "tp": 2423,
+              "fp": 175,
+              "fn": 431,
+              "tn": 4870
+            },
+            "after": {
+              "tp": 2403,
+              "fp": 169,
+              "fn": 451,
+              "tn": 4876
+            },
+            "delta_tp": -20,
+            "delta_fp": -6,
+            "f1_before": 0.8888481291269259,
+            "f1_after": 0.8857353483228898,
+            "changes": 26
+          }
+        },
+        "structure/linear_conditional/0.85/single": {
+          "cutoff": {
+            "0": 1.0,
+            "1": 0.9481603007983062
+          },
+          "calibration": {
+            "before": {
+              "tp": 4131,
+              "fp": 238,
+              "fn": 287,
+              "tn": 8723
+            },
+            "after": {
+              "tp": 4128,
+              "fp": 215,
+              "fn": 290,
+              "tn": 8746
+            },
+            "delta_tp": -3,
+            "delta_fp": -23,
+            "f1_before": 0.9402526459542506,
+            "f1_after": 0.9423581782901496,
+            "changes": 26
+          },
+          "held": {
+            "before": {
+              "tp": 2423,
+              "fp": 175,
+              "fn": 431,
+              "tn": 4870
+            },
+            "after": {
+              "tp": 2407,
+              "fp": 170,
+              "fn": 447,
+              "tn": 4875
+            },
+            "delta_tp": -16,
+            "delta_fp": -5,
+            "f1_before": 0.8888481291269259,
+            "f1_after": 0.8863929294789173,
+            "changes": 21
+          }
+        },
+        "structure/linear_conditional/0.85/agree": {
+          "cutoff": {
+            "0": 1.0,
+            "1": 0.8689372756434677
+          },
+          "calibration": {
+            "before": {
+              "tp": 4131,
+              "fp": 238,
+              "fn": 287,
+              "tn": 8723
+            },
+            "after": {
+              "tp": 4124,
+              "fp": 198,
+              "fn": 294,
+              "tn": 8763
+            },
+            "delta_tp": -7,
+            "delta_fp": -40,
+            "f1_before": 0.9402526459542506,
+            "f1_after": 0.9437070938215103,
+            "changes": 47
+          },
+          "held": {
+            "before": {
+              "tp": 2423,
+              "fp": 175,
+              "fn": 431,
+              "tn": 4870
+            },
+            "after": {
+              "tp": 2412,
+              "fp": 170,
+              "fn": 442,
+              "tn": 4875
+            },
+            "delta_tp": -11,
+            "delta_fp": -5,
+            "f1_before": 0.8888481291269259,
+            "f1_after": 0.8874172185430463,
+            "changes": 16
+          }
+        },
+        "structure/linear_conditional/0.95/single": {
+          "cutoff": {
+            "0": 1.0,
+            "1": 0.9652762365518137
+          },
+          "calibration": {
+            "before": {
+              "tp": 4131,
+              "fp": 238,
+              "fn": 287,
+              "tn": 8723
+            },
+            "after": {
+              "tp": 4131,
+              "fp": 226,
+              "fn": 287,
+              "tn": 8735
+            },
+            "delta_tp": 0,
+            "delta_fp": -12,
+            "f1_before": 0.9402526459542506,
+            "f1_after": 0.9415384615384615,
+            "changes": 12
+          },
+          "held": {
+            "before": {
+              "tp": 2423,
+              "fp": 175,
+              "fn": 431,
+              "tn": 4870
+            },
+            "after": {
+              "tp": 2413,
+              "fp": 171,
+              "fn": 441,
+              "tn": 4874
+            },
+            "delta_tp": -10,
+            "delta_fp": -4,
+            "f1_before": 0.8888481291269259,
+            "f1_after": 0.8874586244942994,
+            "changes": 14
+          }
+        },
+        "structure/linear_conditional/0.95/agree": {
+          "cutoff": {
+            "0": 1.0,
+            "1": 1.0
+          },
+          "calibration": {
+            "before": {
+              "tp": 4131,
+              "fp": 238,
+              "fn": 287,
+              "tn": 8723
+            },
+            "after": {
+              "tp": 4131,
+              "fp": 238,
+              "fn": 287,
+              "tn": 8723
+            },
+            "delta_tp": 0,
+            "delta_fp": 0,
+            "f1_before": 0.9402526459542506,
+            "f1_after": 0.9402526459542506,
+            "changes": 0
+          },
+          "held": {
+            "before": {
+              "tp": 2423,
+              "fp": 175,
+              "fn": 431,
+              "tn": 4870
+            },
+            "after": {
+              "tp": 2423,
+              "fp": 175,
+              "fn": 431,
+              "tn": 4870
+            },
+            "delta_tp": 0,
+            "delta_fp": 0,
+            "f1_before": 0.8888481291269259,
+            "f1_after": 0.8888481291269259,
+            "changes": 0
+          }
+        },
+        "structure/paired/0.7/single": {
+          "cutoff": {
+            "0": 1.0,
+            "1": 0.8961411897888761
+          },
+          "calibration": {
+            "before": {
+              "tp": 4131,
+              "fp": 238,
+              "fn": 287,
+              "tn": 8723
+            },
+            "after": {
+              "tp": 4113,
+              "fp": 196,
+              "fn": 305,
+              "tn": 8765
+            },
+            "delta_tp": -18,
+            "delta_fp": -42,
+            "f1_before": 0.9402526459542506,
+            "f1_after": 0.942591955998625,
+            "changes": 60
+          },
+          "held": {
+            "before": {
+              "tp": 2423,
+              "fp": 175,
+              "fn": 431,
+              "tn": 4870
+            },
+            "after": {
+              "tp": 2396,
+              "fp": 163,
+              "fn": 458,
+              "tn": 4882
+            },
+            "delta_tp": -27,
+            "delta_fp": -12,
+            "f1_before": 0.8888481291269259,
+            "f1_after": 0.8852761869573249,
+            "changes": 39
+          }
+        },
+        "structure/paired/0.7/agree": {
+          "cutoff": {
+            "0": 1.0,
+            "1": 0.5111295109716452
+          },
+          "calibration": {
+            "before": {
+              "tp": 4131,
+              "fp": 238,
+              "fn": 287,
+              "tn": 8723
+            },
+            "after": {
+              "tp": 4108,
+              "fp": 181,
+              "fn": 310,
+              "tn": 8780
+            },
+            "delta_tp": -23,
+            "delta_fp": -57,
+            "f1_before": 0.9402526459542506,
+            "f1_after": 0.9436085907890204,
+            "changes": 80
+          },
+          "held": {
+            "before": {
+              "tp": 2423,
+              "fp": 175,
+              "fn": 431,
+              "tn": 4870
+            },
+            "after": {
+              "tp": 2403,
+              "fp": 169,
+              "fn": 451,
+              "tn": 4876
+            },
+            "delta_tp": -20,
+            "delta_fp": -6,
+            "f1_before": 0.8888481291269259,
+            "f1_after": 0.8857353483228898,
+            "changes": 26
+          }
+        },
+        "structure/paired/0.85/single": {
+          "cutoff": {
+            "0": 1.0,
+            "1": 0.9882990994917132
+          },
+          "calibration": {
+            "before": {
+              "tp": 4131,
+              "fp": 238,
+              "fn": 287,
+              "tn": 8723
+            },
+            "after": {
+              "tp": 4130,
+              "fp": 231,
+              "fn": 288,
+              "tn": 8730
+            },
+            "delta_tp": -1,
+            "delta_fp": -7,
+            "f1_before": 0.9402526459542506,
+            "f1_after": 0.9408816493905912,
+            "changes": 8
+          },
+          "held": {
+            "before": {
+              "tp": 2423,
+              "fp": 175,
+              "fn": 431,
+              "tn": 4870
+            },
+            "after": {
+              "tp": 2418,
+              "fp": 174,
+              "fn": 436,
+              "tn": 4871
+            },
+            "delta_tp": -5,
+            "delta_fp": -1,
+            "f1_before": 0.8888481291269259,
+            "f1_after": 0.8879911861917004,
+            "changes": 6
+          }
+        },
+        "structure/paired/0.85/agree": {
+          "cutoff": {
+            "0": 1.0,
+            "1": 0.8886981752292521
+          },
+          "calibration": {
+            "before": {
+              "tp": 4131,
+              "fp": 238,
+              "fn": 287,
+              "tn": 8723
+            },
+            "after": {
+              "tp": 4128,
+              "fp": 212,
+              "fn": 290,
+              "tn": 8749
+            },
+            "delta_tp": -3,
+            "delta_fp": -26,
+            "f1_before": 0.9402526459542506,
+            "f1_after": 0.9426809773920987,
+            "changes": 29
+          },
+          "held": {
+            "before": {
+              "tp": 2423,
+              "fp": 175,
+              "fn": 431,
+              "tn": 4870
+            },
+            "after": {
+              "tp": 2414,
+              "fp": 170,
+              "fn": 440,
+              "tn": 4875
+            },
+            "delta_tp": -9,
+            "delta_fp": -5,
+            "f1_before": 0.8888481291269259,
+            "f1_after": 0.8878264067671938,
+            "changes": 14
+          }
+        },
+        "structure/paired/0.95/single": {
+          "cutoff": {
+            "0": 1.0,
+            "1": 1.0
+          },
+          "calibration": {
+            "before": {
+              "tp": 4131,
+              "fp": 238,
+              "fn": 287,
+              "tn": 8723
+            },
+            "after": {
+              "tp": 4131,
+              "fp": 238,
+              "fn": 287,
+              "tn": 8723
+            },
+            "delta_tp": 0,
+            "delta_fp": 0,
+            "f1_before": 0.9402526459542506,
+            "f1_after": 0.9402526459542506,
+            "changes": 0
+          },
+          "held": {
+            "before": {
+              "tp": 2423,
+              "fp": 175,
+              "fn": 431,
+              "tn": 4870
+            },
+            "after": {
+              "tp": 2423,
+              "fp": 175,
+              "fn": 431,
+              "tn": 4870
+            },
+            "delta_tp": 0,
+            "delta_fp": 0,
+            "f1_before": 0.8888481291269259,
+            "f1_after": 0.8888481291269259,
+            "changes": 0
+          }
+        },
+        "structure/paired/0.95/agree": {
+          "cutoff": {
+            "0": 1.0,
+            "1": 1.0
+          },
+          "calibration": {
+            "before": {
+              "tp": 4131,
+              "fp": 238,
+              "fn": 287,
+              "tn": 8723
+            },
+            "after": {
+              "tp": 4131,
+              "fp": 238,
+              "fn": 287,
+              "tn": 8723
+            },
+            "delta_tp": 0,
+            "delta_fp": 0,
+            "f1_before": 0.9402526459542506,
+            "f1_after": 0.9402526459542506,
+            "changes": 0
+          },
+          "held": {
+            "before": {
+              "tp": 2423,
+              "fp": 175,
+              "fn": 431,
+              "tn": 4870
+            },
+            "after": {
+              "tp": 2423,
+              "fp": 175,
+              "fn": 431,
+              "tn": 4870
+            },
+            "delta_tp": 0,
+            "delta_fp": 0,
+            "f1_before": 0.8888481291269259,
+            "f1_after": 0.8888481291269259,
+            "changes": 0
+          }
+        }
+      }
+    },
+    "official": {
+      "matrix_sha256": "e66efb0e64cdfdc3ef8c8c7e0b52075e72d6cd0cc30284e1c00c597e9a6ab29e",
+      "model_sha256": "2921eea11c5814c620a4ed2bc8b55e3644ed360004cf6a8c10fa278c593902de",
+      "predictions_sha256": "f63c92fcc640beb42b3cb705d5ef85d6b4046d5e4387c93b22eca198549e3497",
+      "cases": {
+        "numeric/conditional/0.7/single": {
+          "cutoff": {
+            "0": 1.0,
+            "1": 1.0
+          },
+          "calibration": {
+            "before": {
+              "tp": 1328,
+              "fp": 51,
+              "fn": 60,
+              "tn": 2853
+            },
+            "after": {
+              "tp": 1328,
+              "fp": 51,
+              "fn": 60,
+              "tn": 2853
+            },
+            "delta_tp": 0,
+            "delta_fp": 0,
+            "f1_before": 0.959884351282978,
+            "f1_after": 0.959884351282978,
+            "changes": 0
+          },
+          "held": {
+            "before": {
+              "tp": 1313,
+              "fp": 48,
+              "fn": 70,
+              "tn": 2863
+            },
+            "after": {
+              "tp": 1313,
+              "fp": 48,
+              "fn": 70,
+              "tn": 2863
+            },
+            "delta_tp": 0,
+            "delta_fp": 0,
+            "f1_before": 0.956997084548105,
+            "f1_after": 0.956997084548105,
+            "changes": 0
+          }
+        },
+        "numeric/conditional/0.7/agree": {
+          "cutoff": {
+            "0": 1.0,
+            "1": 1.0
+          },
+          "calibration": {
+            "before": {
+              "tp": 1328,
+              "fp": 51,
+              "fn": 60,
+              "tn": 2853
+            },
+            "after": {
+              "tp": 1328,
+              "fp": 51,
+              "fn": 60,
+              "tn": 2853
+            },
+            "delta_tp": 0,
+            "delta_fp": 0,
+            "f1_before": 0.959884351282978,
+            "f1_after": 0.959884351282978,
+            "changes": 0
+          },
+          "held": {
+            "before": {
+              "tp": 1313,
+              "fp": 48,
+              "fn": 70,
+              "tn": 2863
+            },
+            "after": {
+              "tp": 1313,
+              "fp": 48,
+              "fn": 70,
+              "tn": 2863
+            },
+            "delta_tp": 0,
+            "delta_fp": 0,
+            "f1_before": 0.956997084548105,
+            "f1_after": 0.956997084548105,
+            "changes": 0
+          }
+        },
+        "numeric/conditional/0.85/single": {
+          "cutoff": {
+            "0": 1.0,
+            "1": 1.0
+          },
+          "calibration": {
+            "before": {
+              "tp": 1328,
+              "fp": 51,
+              "fn": 60,
+              "tn": 2853
+            },
+            "after": {
+              "tp": 1328,
+              "fp": 51,
+              "fn": 60,
+              "tn": 2853
+            },
+            "delta_tp": 0,
+            "delta_fp": 0,
+            "f1_before": 0.959884351282978,
+            "f1_after": 0.959884351282978,
+            "changes": 0
+          },
+          "held": {
+            "before": {
+              "tp": 1313,
+              "fp": 48,
+              "fn": 70,
+              "tn": 2863
+            },
+            "after": {
+              "tp": 1313,
+              "fp": 48,
+              "fn": 70,
+              "tn": 2863
+            },
+            "delta_tp": 0,
+            "delta_fp": 0,
+            "f1_before": 0.956997084548105,
+            "f1_after": 0.956997084548105,
+            "changes": 0
+          }
+        },
+        "numeric/conditional/0.85/agree": {
+          "cutoff": {
+            "0": 1.0,
+            "1": 1.0
+          },
+          "calibration": {
+            "before": {
+              "tp": 1328,
+              "fp": 51,
+              "fn": 60,
+              "tn": 2853
+            },
+            "after": {
+              "tp": 1328,
+              "fp": 51,
+              "fn": 60,
+              "tn": 2853
+            },
+            "delta_tp": 0,
+            "delta_fp": 0,
+            "f1_before": 0.959884351282978,
+            "f1_after": 0.959884351282978,
+            "changes": 0
+          },
+          "held": {
+            "before": {
+              "tp": 1313,
+              "fp": 48,
+              "fn": 70,
+              "tn": 2863
+            },
+            "after": {
+              "tp": 1313,
+              "fp": 48,
+              "fn": 70,
+              "tn": 2863
+            },
+            "delta_tp": 0,
+            "delta_fp": 0,
+            "f1_before": 0.956997084548105,
+            "f1_after": 0.956997084548105,
+            "changes": 0
+          }
+        },
+        "numeric/conditional/0.95/single": {
+          "cutoff": {
+            "0": 1.0,
+            "1": 1.0
+          },
+          "calibration": {
+            "before": {
+              "tp": 1328,
+              "fp": 51,
+              "fn": 60,
+              "tn": 2853
+            },
+            "after": {
+              "tp": 1328,
+              "fp": 51,
+              "fn": 60,
+              "tn": 2853
+            },
+            "delta_tp": 0,
+            "delta_fp": 0,
+            "f1_before": 0.959884351282978,
+            "f1_after": 0.959884351282978,
+            "changes": 0
+          },
+          "held": {
+            "before": {
+              "tp": 1313,
+              "fp": 48,
+              "fn": 70,
+              "tn": 2863
+            },
+            "after": {
+              "tp": 1313,
+              "fp": 48,
+              "fn": 70,
+              "tn": 2863
+            },
+            "delta_tp": 0,
+            "delta_fp": 0,
+            "f1_before": 0.956997084548105,
+            "f1_after": 0.956997084548105,
+            "changes": 0
+          }
+        },
+        "numeric/conditional/0.95/agree": {
+          "cutoff": {
+            "0": 1.0,
+            "1": 1.0
+          },
+          "calibration": {
+            "before": {
+              "tp": 1328,
+              "fp": 51,
+              "fn": 60,
+              "tn": 2853
+            },
+            "after": {
+              "tp": 1328,
+              "fp": 51,
+              "fn": 60,
+              "tn": 2853
+            },
+            "delta_tp": 0,
+            "delta_fp": 0,
+            "f1_before": 0.959884351282978,
+            "f1_after": 0.959884351282978,
+            "changes": 0
+          },
+          "held": {
+            "before": {
+              "tp": 1313,
+              "fp": 48,
+              "fn": 70,
+              "tn": 2863
+            },
+            "after": {
+              "tp": 1313,
+              "fp": 48,
+              "fn": 70,
+              "tn": 2863
+            },
+            "delta_tp": 0,
+            "delta_fp": 0,
+            "f1_before": 0.956997084548105,
+            "f1_after": 0.956997084548105,
+            "changes": 0
+          }
+        },
+        "numeric/linear_conditional/0.7/single": {
+          "cutoff": {
+            "0": 1.0,
+            "1": 1.0
+          },
+          "calibration": {
+            "before": {
+              "tp": 1328,
+              "fp": 51,
+              "fn": 60,
+              "tn": 2853
+            },
+            "after": {
+              "tp": 1328,
+              "fp": 51,
+              "fn": 60,
+              "tn": 2853
+            },
+            "delta_tp": 0,
+            "delta_fp": 0,
+            "f1_before": 0.959884351282978,
+            "f1_after": 0.959884351282978,
+            "changes": 0
+          },
+          "held": {
+            "before": {
+              "tp": 1313,
+              "fp": 48,
+              "fn": 70,
+              "tn": 2863
+            },
+            "after": {
+              "tp": 1313,
+              "fp": 48,
+              "fn": 70,
+              "tn": 2863
+            },
+            "delta_tp": 0,
+            "delta_fp": 0,
+            "f1_before": 0.956997084548105,
+            "f1_after": 0.956997084548105,
+            "changes": 0
+          }
+        },
+        "numeric/linear_conditional/0.7/agree": {
+          "cutoff": {
+            "0": 1.0,
+            "1": 1.0
+          },
+          "calibration": {
+            "before": {
+              "tp": 1328,
+              "fp": 51,
+              "fn": 60,
+              "tn": 2853
+            },
+            "after": {
+              "tp": 1328,
+              "fp": 51,
+              "fn": 60,
+              "tn": 2853
+            },
+            "delta_tp": 0,
+            "delta_fp": 0,
+            "f1_before": 0.959884351282978,
+            "f1_after": 0.959884351282978,
+            "changes": 0
+          },
+          "held": {
+            "before": {
+              "tp": 1313,
+              "fp": 48,
+              "fn": 70,
+              "tn": 2863
+            },
+            "after": {
+              "tp": 1313,
+              "fp": 48,
+              "fn": 70,
+              "tn": 2863
+            },
+            "delta_tp": 0,
+            "delta_fp": 0,
+            "f1_before": 0.956997084548105,
+            "f1_after": 0.956997084548105,
+            "changes": 0
+          }
+        },
+        "numeric/linear_conditional/0.85/single": {
+          "cutoff": {
+            "0": 1.0,
+            "1": 1.0
+          },
+          "calibration": {
+            "before": {
+              "tp": 1328,
+              "fp": 51,
+              "fn": 60,
+              "tn": 2853
+            },
+            "after": {
+              "tp": 1328,
+              "fp": 51,
+              "fn": 60,
+              "tn": 2853
+            },
+            "delta_tp": 0,
+            "delta_fp": 0,
+            "f1_before": 0.959884351282978,
+            "f1_after": 0.959884351282978,
+            "changes": 0
+          },
+          "held": {
+            "before": {
+              "tp": 1313,
+              "fp": 48,
+              "fn": 70,
+              "tn": 2863
+            },
+            "after": {
+              "tp": 1313,
+              "fp": 48,
+              "fn": 70,
+              "tn": 2863
+            },
+            "delta_tp": 0,
+            "delta_fp": 0,
+            "f1_before": 0.956997084548105,
+            "f1_after": 0.956997084548105,
+            "changes": 0
+          }
+        },
+        "numeric/linear_conditional/0.85/agree": {
+          "cutoff": {
+            "0": 1.0,
+            "1": 1.0
+          },
+          "calibration": {
+            "before": {
+              "tp": 1328,
+              "fp": 51,
+              "fn": 60,
+              "tn": 2853
+            },
+            "after": {
+              "tp": 1328,
+              "fp": 51,
+              "fn": 60,
+              "tn": 2853
+            },
+            "delta_tp": 0,
+            "delta_fp": 0,
+            "f1_before": 0.959884351282978,
+            "f1_after": 0.959884351282978,
+            "changes": 0
+          },
+          "held": {
+            "before": {
+              "tp": 1313,
+              "fp": 48,
+              "fn": 70,
+              "tn": 2863
+            },
+            "after": {
+              "tp": 1313,
+              "fp": 48,
+              "fn": 70,
+              "tn": 2863
+            },
+            "delta_tp": 0,
+            "delta_fp": 0,
+            "f1_before": 0.956997084548105,
+            "f1_after": 0.956997084548105,
+            "changes": 0
+          }
+        },
+        "numeric/linear_conditional/0.95/single": {
+          "cutoff": {
+            "0": 1.0,
+            "1": 1.0
+          },
+          "calibration": {
+            "before": {
+              "tp": 1328,
+              "fp": 51,
+              "fn": 60,
+              "tn": 2853
+            },
+            "after": {
+              "tp": 1328,
+              "fp": 51,
+              "fn": 60,
+              "tn": 2853
+            },
+            "delta_tp": 0,
+            "delta_fp": 0,
+            "f1_before": 0.959884351282978,
+            "f1_after": 0.959884351282978,
+            "changes": 0
+          },
+          "held": {
+            "before": {
+              "tp": 1313,
+              "fp": 48,
+              "fn": 70,
+              "tn": 2863
+            },
+            "after": {
+              "tp": 1313,
+              "fp": 48,
+              "fn": 70,
+              "tn": 2863
+            },
+            "delta_tp": 0,
+            "delta_fp": 0,
+            "f1_before": 0.956997084548105,
+            "f1_after": 0.956997084548105,
+            "changes": 0
+          }
+        },
+        "numeric/linear_conditional/0.95/agree": {
+          "cutoff": {
+            "0": 1.0,
+            "1": 1.0
+          },
+          "calibration": {
+            "before": {
+              "tp": 1328,
+              "fp": 51,
+              "fn": 60,
+              "tn": 2853
+            },
+            "after": {
+              "tp": 1328,
+              "fp": 51,
+              "fn": 60,
+              "tn": 2853
+            },
+            "delta_tp": 0,
+            "delta_fp": 0,
+            "f1_before": 0.959884351282978,
+            "f1_after": 0.959884351282978,
+            "changes": 0
+          },
+          "held": {
+            "before": {
+              "tp": 1313,
+              "fp": 48,
+              "fn": 70,
+              "tn": 2863
+            },
+            "after": {
+              "tp": 1313,
+              "fp": 48,
+              "fn": 70,
+              "tn": 2863
+            },
+            "delta_tp": 0,
+            "delta_fp": 0,
+            "f1_before": 0.956997084548105,
+            "f1_after": 0.956997084548105,
+            "changes": 0
+          }
+        },
+        "numeric/paired/0.7/single": {
+          "cutoff": {
+            "0": 1.0,
+            "1": 1.0
+          },
+          "calibration": {
+            "before": {
+              "tp": 1328,
+              "fp": 51,
+              "fn": 60,
+              "tn": 2853
+            },
+            "after": {
+              "tp": 1328,
+              "fp": 51,
+              "fn": 60,
+              "tn": 2853
+            },
+            "delta_tp": 0,
+            "delta_fp": 0,
+            "f1_before": 0.959884351282978,
+            "f1_after": 0.959884351282978,
+            "changes": 0
+          },
+          "held": {
+            "before": {
+              "tp": 1313,
+              "fp": 48,
+              "fn": 70,
+              "tn": 2863
+            },
+            "after": {
+              "tp": 1313,
+              "fp": 48,
+              "fn": 70,
+              "tn": 2863
+            },
+            "delta_tp": 0,
+            "delta_fp": 0,
+            "f1_before": 0.956997084548105,
+            "f1_after": 0.956997084548105,
+            "changes": 0
+          }
+        },
+        "numeric/paired/0.7/agree": {
+          "cutoff": {
+            "0": 1.0,
+            "1": 1.0
+          },
+          "calibration": {
+            "before": {
+              "tp": 1328,
+              "fp": 51,
+              "fn": 60,
+              "tn": 2853
+            },
+            "after": {
+              "tp": 1328,
+              "fp": 51,
+              "fn": 60,
+              "tn": 2853
+            },
+            "delta_tp": 0,
+            "delta_fp": 0,
+            "f1_before": 0.959884351282978,
+            "f1_after": 0.959884351282978,
+            "changes": 0
+          },
+          "held": {
+            "before": {
+              "tp": 1313,
+              "fp": 48,
+              "fn": 70,
+              "tn": 2863
+            },
+            "after": {
+              "tp": 1313,
+              "fp": 48,
+              "fn": 70,
+              "tn": 2863
+            },
+            "delta_tp": 0,
+            "delta_fp": 0,
+            "f1_before": 0.956997084548105,
+            "f1_after": 0.956997084548105,
+            "changes": 0
+          }
+        },
+        "numeric/paired/0.85/single": {
+          "cutoff": {
+            "0": 1.0,
+            "1": 1.0
+          },
+          "calibration": {
+            "before": {
+              "tp": 1328,
+              "fp": 51,
+              "fn": 60,
+              "tn": 2853
+            },
+            "after": {
+              "tp": 1328,
+              "fp": 51,
+              "fn": 60,
+              "tn": 2853
+            },
+            "delta_tp": 0,
+            "delta_fp": 0,
+            "f1_before": 0.959884351282978,
+            "f1_after": 0.959884351282978,
+            "changes": 0
+          },
+          "held": {
+            "before": {
+              "tp": 1313,
+              "fp": 48,
+              "fn": 70,
+              "tn": 2863
+            },
+            "after": {
+              "tp": 1313,
+              "fp": 48,
+              "fn": 70,
+              "tn": 2863
+            },
+            "delta_tp": 0,
+            "delta_fp": 0,
+            "f1_before": 0.956997084548105,
+            "f1_after": 0.956997084548105,
+            "changes": 0
+          }
+        },
+        "numeric/paired/0.85/agree": {
+          "cutoff": {
+            "0": 1.0,
+            "1": 1.0
+          },
+          "calibration": {
+            "before": {
+              "tp": 1328,
+              "fp": 51,
+              "fn": 60,
+              "tn": 2853
+            },
+            "after": {
+              "tp": 1328,
+              "fp": 51,
+              "fn": 60,
+              "tn": 2853
+            },
+            "delta_tp": 0,
+            "delta_fp": 0,
+            "f1_before": 0.959884351282978,
+            "f1_after": 0.959884351282978,
+            "changes": 0
+          },
+          "held": {
+            "before": {
+              "tp": 1313,
+              "fp": 48,
+              "fn": 70,
+              "tn": 2863
+            },
+            "after": {
+              "tp": 1313,
+              "fp": 48,
+              "fn": 70,
+              "tn": 2863
+            },
+            "delta_tp": 0,
+            "delta_fp": 0,
+            "f1_before": 0.956997084548105,
+            "f1_after": 0.956997084548105,
+            "changes": 0
+          }
+        },
+        "numeric/paired/0.95/single": {
+          "cutoff": {
+            "0": 1.0,
+            "1": 1.0
+          },
+          "calibration": {
+            "before": {
+              "tp": 1328,
+              "fp": 51,
+              "fn": 60,
+              "tn": 2853
+            },
+            "after": {
+              "tp": 1328,
+              "fp": 51,
+              "fn": 60,
+              "tn": 2853
+            },
+            "delta_tp": 0,
+            "delta_fp": 0,
+            "f1_before": 0.959884351282978,
+            "f1_after": 0.959884351282978,
+            "changes": 0
+          },
+          "held": {
+            "before": {
+              "tp": 1313,
+              "fp": 48,
+              "fn": 70,
+              "tn": 2863
+            },
+            "after": {
+              "tp": 1313,
+              "fp": 48,
+              "fn": 70,
+              "tn": 2863
+            },
+            "delta_tp": 0,
+            "delta_fp": 0,
+            "f1_before": 0.956997084548105,
+            "f1_after": 0.956997084548105,
+            "changes": 0
+          }
+        },
+        "numeric/paired/0.95/agree": {
+          "cutoff": {
+            "0": 1.0,
+            "1": 1.0
+          },
+          "calibration": {
+            "before": {
+              "tp": 1328,
+              "fp": 51,
+              "fn": 60,
+              "tn": 2853
+            },
+            "after": {
+              "tp": 1328,
+              "fp": 51,
+              "fn": 60,
+              "tn": 2853
+            },
+            "delta_tp": 0,
+            "delta_fp": 0,
+            "f1_before": 0.959884351282978,
+            "f1_after": 0.959884351282978,
+            "changes": 0
+          },
+          "held": {
+            "before": {
+              "tp": 1313,
+              "fp": 48,
+              "fn": 70,
+              "tn": 2863
+            },
+            "after": {
+              "tp": 1313,
+              "fp": 48,
+              "fn": 70,
+              "tn": 2863
+            },
+            "delta_tp": 0,
+            "delta_fp": 0,
+            "f1_before": 0.956997084548105,
+            "f1_after": 0.956997084548105,
+            "changes": 0
+          }
+        },
+        "location/conditional/0.7/single": {
+          "cutoff": {
+            "0": 1.0,
+            "1": 1.0
+          },
+          "calibration": {
+            "before": {
+              "tp": 1328,
+              "fp": 51,
+              "fn": 60,
+              "tn": 2853
+            },
+            "after": {
+              "tp": 1328,
+              "fp": 51,
+              "fn": 60,
+              "tn": 2853
+            },
+            "delta_tp": 0,
+            "delta_fp": 0,
+            "f1_before": 0.959884351282978,
+            "f1_after": 0.959884351282978,
+            "changes": 0
+          },
+          "held": {
+            "before": {
+              "tp": 1313,
+              "fp": 48,
+              "fn": 70,
+              "tn": 2863
+            },
+            "after": {
+              "tp": 1313,
+              "fp": 48,
+              "fn": 70,
+              "tn": 2863
+            },
+            "delta_tp": 0,
+            "delta_fp": 0,
+            "f1_before": 0.956997084548105,
+            "f1_after": 0.956997084548105,
+            "changes": 0
+          }
+        },
+        "location/conditional/0.7/agree": {
+          "cutoff": {
+            "0": 1.0,
+            "1": 1.0
+          },
+          "calibration": {
+            "before": {
+              "tp": 1328,
+              "fp": 51,
+              "fn": 60,
+              "tn": 2853
+            },
+            "after": {
+              "tp": 1328,
+              "fp": 51,
+              "fn": 60,
+              "tn": 2853
+            },
+            "delta_tp": 0,
+            "delta_fp": 0,
+            "f1_before": 0.959884351282978,
+            "f1_after": 0.959884351282978,
+            "changes": 0
+          },
+          "held": {
+            "before": {
+              "tp": 1313,
+              "fp": 48,
+              "fn": 70,
+              "tn": 2863
+            },
+            "after": {
+              "tp": 1313,
+              "fp": 48,
+              "fn": 70,
+              "tn": 2863
+            },
+            "delta_tp": 0,
+            "delta_fp": 0,
+            "f1_before": 0.956997084548105,
+            "f1_after": 0.956997084548105,
+            "changes": 0
+          }
+        },
+        "location/conditional/0.85/single": {
+          "cutoff": {
+            "0": 1.0,
+            "1": 1.0
+          },
+          "calibration": {
+            "before": {
+              "tp": 1328,
+              "fp": 51,
+              "fn": 60,
+              "tn": 2853
+            },
+            "after": {
+              "tp": 1328,
+              "fp": 51,
+              "fn": 60,
+              "tn": 2853
+            },
+            "delta_tp": 0,
+            "delta_fp": 0,
+            "f1_before": 0.959884351282978,
+            "f1_after": 0.959884351282978,
+            "changes": 0
+          },
+          "held": {
+            "before": {
+              "tp": 1313,
+              "fp": 48,
+              "fn": 70,
+              "tn": 2863
+            },
+            "after": {
+              "tp": 1313,
+              "fp": 48,
+              "fn": 70,
+              "tn": 2863
+            },
+            "delta_tp": 0,
+            "delta_fp": 0,
+            "f1_before": 0.956997084548105,
+            "f1_after": 0.956997084548105,
+            "changes": 0
+          }
+        },
+        "location/conditional/0.85/agree": {
+          "cutoff": {
+            "0": 1.0,
+            "1": 1.0
+          },
+          "calibration": {
+            "before": {
+              "tp": 1328,
+              "fp": 51,
+              "fn": 60,
+              "tn": 2853
+            },
+            "after": {
+              "tp": 1328,
+              "fp": 51,
+              "fn": 60,
+              "tn": 2853
+            },
+            "delta_tp": 0,
+            "delta_fp": 0,
+            "f1_before": 0.959884351282978,
+            "f1_after": 0.959884351282978,
+            "changes": 0
+          },
+          "held": {
+            "before": {
+              "tp": 1313,
+              "fp": 48,
+              "fn": 70,
+              "tn": 2863
+            },
+            "after": {
+              "tp": 1313,
+              "fp": 48,
+              "fn": 70,
+              "tn": 2863
+            },
+            "delta_tp": 0,
+            "delta_fp": 0,
+            "f1_before": 0.956997084548105,
+            "f1_after": 0.956997084548105,
+            "changes": 0
+          }
+        },
+        "location/conditional/0.95/single": {
+          "cutoff": {
+            "0": 1.0,
+            "1": 1.0
+          },
+          "calibration": {
+            "before": {
+              "tp": 1328,
+              "fp": 51,
+              "fn": 60,
+              "tn": 2853
+            },
+            "after": {
+              "tp": 1328,
+              "fp": 51,
+              "fn": 60,
+              "tn": 2853
+            },
+            "delta_tp": 0,
+            "delta_fp": 0,
+            "f1_before": 0.959884351282978,
+            "f1_after": 0.959884351282978,
+            "changes": 0
+          },
+          "held": {
+            "before": {
+              "tp": 1313,
+              "fp": 48,
+              "fn": 70,
+              "tn": 2863
+            },
+            "after": {
+              "tp": 1313,
+              "fp": 48,
+              "fn": 70,
+              "tn": 2863
+            },
+            "delta_tp": 0,
+            "delta_fp": 0,
+            "f1_before": 0.956997084548105,
+            "f1_after": 0.956997084548105,
+            "changes": 0
+          }
+        },
+        "location/conditional/0.95/agree": {
+          "cutoff": {
+            "0": 1.0,
+            "1": 1.0
+          },
+          "calibration": {
+            "before": {
+              "tp": 1328,
+              "fp": 51,
+              "fn": 60,
+              "tn": 2853
+            },
+            "after": {
+              "tp": 1328,
+              "fp": 51,
+              "fn": 60,
+              "tn": 2853
+            },
+            "delta_tp": 0,
+            "delta_fp": 0,
+            "f1_before": 0.959884351282978,
+            "f1_after": 0.959884351282978,
+            "changes": 0
+          },
+          "held": {
+            "before": {
+              "tp": 1313,
+              "fp": 48,
+              "fn": 70,
+              "tn": 2863
+            },
+            "after": {
+              "tp": 1313,
+              "fp": 48,
+              "fn": 70,
+              "tn": 2863
+            },
+            "delta_tp": 0,
+            "delta_fp": 0,
+            "f1_before": 0.956997084548105,
+            "f1_after": 0.956997084548105,
+            "changes": 0
+          }
+        },
+        "location/linear_conditional/0.7/single": {
+          "cutoff": {
+            "0": 1.0,
+            "1": 1.0
+          },
+          "calibration": {
+            "before": {
+              "tp": 1328,
+              "fp": 51,
+              "fn": 60,
+              "tn": 2853
+            },
+            "after": {
+              "tp": 1328,
+              "fp": 51,
+              "fn": 60,
+              "tn": 2853
+            },
+            "delta_tp": 0,
+            "delta_fp": 0,
+            "f1_before": 0.959884351282978,
+            "f1_after": 0.959884351282978,
+            "changes": 0
+          },
+          "held": {
+            "before": {
+              "tp": 1313,
+              "fp": 48,
+              "fn": 70,
+              "tn": 2863
+            },
+            "after": {
+              "tp": 1313,
+              "fp": 48,
+              "fn": 70,
+              "tn": 2863
+            },
+            "delta_tp": 0,
+            "delta_fp": 0,
+            "f1_before": 0.956997084548105,
+            "f1_after": 0.956997084548105,
+            "changes": 0
+          }
+        },
+        "location/linear_conditional/0.7/agree": {
+          "cutoff": {
+            "0": 1.0,
+            "1": 1.0
+          },
+          "calibration": {
+            "before": {
+              "tp": 1328,
+              "fp": 51,
+              "fn": 60,
+              "tn": 2853
+            },
+            "after": {
+              "tp": 1328,
+              "fp": 51,
+              "fn": 60,
+              "tn": 2853
+            },
+            "delta_tp": 0,
+            "delta_fp": 0,
+            "f1_before": 0.959884351282978,
+            "f1_after": 0.959884351282978,
+            "changes": 0
+          },
+          "held": {
+            "before": {
+              "tp": 1313,
+              "fp": 48,
+              "fn": 70,
+              "tn": 2863
+            },
+            "after": {
+              "tp": 1313,
+              "fp": 48,
+              "fn": 70,
+              "tn": 2863
+            },
+            "delta_tp": 0,
+            "delta_fp": 0,
+            "f1_before": 0.956997084548105,
+            "f1_after": 0.956997084548105,
+            "changes": 0
+          }
+        },
+        "location/linear_conditional/0.85/single": {
+          "cutoff": {
+            "0": 1.0,
+            "1": 1.0
+          },
+          "calibration": {
+            "before": {
+              "tp": 1328,
+              "fp": 51,
+              "fn": 60,
+              "tn": 2853
+            },
+            "after": {
+              "tp": 1328,
+              "fp": 51,
+              "fn": 60,
+              "tn": 2853
+            },
+            "delta_tp": 0,
+            "delta_fp": 0,
+            "f1_before": 0.959884351282978,
+            "f1_after": 0.959884351282978,
+            "changes": 0
+          },
+          "held": {
+            "before": {
+              "tp": 1313,
+              "fp": 48,
+              "fn": 70,
+              "tn": 2863
+            },
+            "after": {
+              "tp": 1313,
+              "fp": 48,
+              "fn": 70,
+              "tn": 2863
+            },
+            "delta_tp": 0,
+            "delta_fp": 0,
+            "f1_before": 0.956997084548105,
+            "f1_after": 0.956997084548105,
+            "changes": 0
+          }
+        },
+        "location/linear_conditional/0.85/agree": {
+          "cutoff": {
+            "0": 1.0,
+            "1": 1.0
+          },
+          "calibration": {
+            "before": {
+              "tp": 1328,
+              "fp": 51,
+              "fn": 60,
+              "tn": 2853
+            },
+            "after": {
+              "tp": 1328,
+              "fp": 51,
+              "fn": 60,
+              "tn": 2853
+            },
+            "delta_tp": 0,
+            "delta_fp": 0,
+            "f1_before": 0.959884351282978,
+            "f1_after": 0.959884351282978,
+            "changes": 0
+          },
+          "held": {
+            "before": {
+              "tp": 1313,
+              "fp": 48,
+              "fn": 70,
+              "tn": 2863
+            },
+            "after": {
+              "tp": 1313,
+              "fp": 48,
+              "fn": 70,
+              "tn": 2863
+            },
+            "delta_tp": 0,
+            "delta_fp": 0,
+            "f1_before": 0.956997084548105,
+            "f1_after": 0.956997084548105,
+            "changes": 0
+          }
+        },
+        "location/linear_conditional/0.95/single": {
+          "cutoff": {
+            "0": 1.0,
+            "1": 1.0
+          },
+          "calibration": {
+            "before": {
+              "tp": 1328,
+              "fp": 51,
+              "fn": 60,
+              "tn": 2853
+            },
+            "after": {
+              "tp": 1328,
+              "fp": 51,
+              "fn": 60,
+              "tn": 2853
+            },
+            "delta_tp": 0,
+            "delta_fp": 0,
+            "f1_before": 0.959884351282978,
+            "f1_after": 0.959884351282978,
+            "changes": 0
+          },
+          "held": {
+            "before": {
+              "tp": 1313,
+              "fp": 48,
+              "fn": 70,
+              "tn": 2863
+            },
+            "after": {
+              "tp": 1313,
+              "fp": 48,
+              "fn": 70,
+              "tn": 2863
+            },
+            "delta_tp": 0,
+            "delta_fp": 0,
+            "f1_before": 0.956997084548105,
+            "f1_after": 0.956997084548105,
+            "changes": 0
+          }
+        },
+        "location/linear_conditional/0.95/agree": {
+          "cutoff": {
+            "0": 1.0,
+            "1": 1.0
+          },
+          "calibration": {
+            "before": {
+              "tp": 1328,
+              "fp": 51,
+              "fn": 60,
+              "tn": 2853
+            },
+            "after": {
+              "tp": 1328,
+              "fp": 51,
+              "fn": 60,
+              "tn": 2853
+            },
+            "delta_tp": 0,
+            "delta_fp": 0,
+            "f1_before": 0.959884351282978,
+            "f1_after": 0.959884351282978,
+            "changes": 0
+          },
+          "held": {
+            "before": {
+              "tp": 1313,
+              "fp": 48,
+              "fn": 70,
+              "tn": 2863
+            },
+            "after": {
+              "tp": 1313,
+              "fp": 48,
+              "fn": 70,
+              "tn": 2863
+            },
+            "delta_tp": 0,
+            "delta_fp": 0,
+            "f1_before": 0.956997084548105,
+            "f1_after": 0.956997084548105,
+            "changes": 0
+          }
+        },
+        "location/paired/0.7/single": {
+          "cutoff": {
+            "0": 1.0,
+            "1": 1.0
+          },
+          "calibration": {
+            "before": {
+              "tp": 1328,
+              "fp": 51,
+              "fn": 60,
+              "tn": 2853
+            },
+            "after": {
+              "tp": 1328,
+              "fp": 51,
+              "fn": 60,
+              "tn": 2853
+            },
+            "delta_tp": 0,
+            "delta_fp": 0,
+            "f1_before": 0.959884351282978,
+            "f1_after": 0.959884351282978,
+            "changes": 0
+          },
+          "held": {
+            "before": {
+              "tp": 1313,
+              "fp": 48,
+              "fn": 70,
+              "tn": 2863
+            },
+            "after": {
+              "tp": 1313,
+              "fp": 48,
+              "fn": 70,
+              "tn": 2863
+            },
+            "delta_tp": 0,
+            "delta_fp": 0,
+            "f1_before": 0.956997084548105,
+            "f1_after": 0.956997084548105,
+            "changes": 0
+          }
+        },
+        "location/paired/0.7/agree": {
+          "cutoff": {
+            "0": 1.0,
+            "1": 1.0
+          },
+          "calibration": {
+            "before": {
+              "tp": 1328,
+              "fp": 51,
+              "fn": 60,
+              "tn": 2853
+            },
+            "after": {
+              "tp": 1328,
+              "fp": 51,
+              "fn": 60,
+              "tn": 2853
+            },
+            "delta_tp": 0,
+            "delta_fp": 0,
+            "f1_before": 0.959884351282978,
+            "f1_after": 0.959884351282978,
+            "changes": 0
+          },
+          "held": {
+            "before": {
+              "tp": 1313,
+              "fp": 48,
+              "fn": 70,
+              "tn": 2863
+            },
+            "after": {
+              "tp": 1313,
+              "fp": 48,
+              "fn": 70,
+              "tn": 2863
+            },
+            "delta_tp": 0,
+            "delta_fp": 0,
+            "f1_before": 0.956997084548105,
+            "f1_after": 0.956997084548105,
+            "changes": 0
+          }
+        },
+        "location/paired/0.85/single": {
+          "cutoff": {
+            "0": 1.0,
+            "1": 1.0
+          },
+          "calibration": {
+            "before": {
+              "tp": 1328,
+              "fp": 51,
+              "fn": 60,
+              "tn": 2853
+            },
+            "after": {
+              "tp": 1328,
+              "fp": 51,
+              "fn": 60,
+              "tn": 2853
+            },
+            "delta_tp": 0,
+            "delta_fp": 0,
+            "f1_before": 0.959884351282978,
+            "f1_after": 0.959884351282978,
+            "changes": 0
+          },
+          "held": {
+            "before": {
+              "tp": 1313,
+              "fp": 48,
+              "fn": 70,
+              "tn": 2863
+            },
+            "after": {
+              "tp": 1313,
+              "fp": 48,
+              "fn": 70,
+              "tn": 2863
+            },
+            "delta_tp": 0,
+            "delta_fp": 0,
+            "f1_before": 0.956997084548105,
+            "f1_after": 0.956997084548105,
+            "changes": 0
+          }
+        },
+        "location/paired/0.85/agree": {
+          "cutoff": {
+            "0": 1.0,
+            "1": 1.0
+          },
+          "calibration": {
+            "before": {
+              "tp": 1328,
+              "fp": 51,
+              "fn": 60,
+              "tn": 2853
+            },
+            "after": {
+              "tp": 1328,
+              "fp": 51,
+              "fn": 60,
+              "tn": 2853
+            },
+            "delta_tp": 0,
+            "delta_fp": 0,
+            "f1_before": 0.959884351282978,
+            "f1_after": 0.959884351282978,
+            "changes": 0
+          },
+          "held": {
+            "before": {
+              "tp": 1313,
+              "fp": 48,
+              "fn": 70,
+              "tn": 2863
+            },
+            "after": {
+              "tp": 1313,
+              "fp": 48,
+              "fn": 70,
+              "tn": 2863
+            },
+            "delta_tp": 0,
+            "delta_fp": 0,
+            "f1_before": 0.956997084548105,
+            "f1_after": 0.956997084548105,
+            "changes": 0
+          }
+        },
+        "location/paired/0.95/single": {
+          "cutoff": {
+            "0": 1.0,
+            "1": 1.0
+          },
+          "calibration": {
+            "before": {
+              "tp": 1328,
+              "fp": 51,
+              "fn": 60,
+              "tn": 2853
+            },
+            "after": {
+              "tp": 1328,
+              "fp": 51,
+              "fn": 60,
+              "tn": 2853
+            },
+            "delta_tp": 0,
+            "delta_fp": 0,
+            "f1_before": 0.959884351282978,
+            "f1_after": 0.959884351282978,
+            "changes": 0
+          },
+          "held": {
+            "before": {
+              "tp": 1313,
+              "fp": 48,
+              "fn": 70,
+              "tn": 2863
+            },
+            "after": {
+              "tp": 1313,
+              "fp": 48,
+              "fn": 70,
+              "tn": 2863
+            },
+            "delta_tp": 0,
+            "delta_fp": 0,
+            "f1_before": 0.956997084548105,
+            "f1_after": 0.956997084548105,
+            "changes": 0
+          }
+        },
+        "location/paired/0.95/agree": {
+          "cutoff": {
+            "0": 1.0,
+            "1": 1.0
+          },
+          "calibration": {
+            "before": {
+              "tp": 1328,
+              "fp": 51,
+              "fn": 60,
+              "tn": 2853
+            },
+            "after": {
+              "tp": 1328,
+              "fp": 51,
+              "fn": 60,
+              "tn": 2853
+            },
+            "delta_tp": 0,
+            "delta_fp": 0,
+            "f1_before": 0.959884351282978,
+            "f1_after": 0.959884351282978,
+            "changes": 0
+          },
+          "held": {
+            "before": {
+              "tp": 1313,
+              "fp": 48,
+              "fn": 70,
+              "tn": 2863
+            },
+            "after": {
+              "tp": 1313,
+              "fp": 48,
+              "fn": 70,
+              "tn": 2863
+            },
+            "delta_tp": 0,
+            "delta_fp": 0,
+            "f1_before": 0.956997084548105,
+            "f1_after": 0.956997084548105,
+            "changes": 0
+          }
+        },
+        "structure/conditional/0.7/single": {
+          "cutoff": {
+            "0": 1.0,
+            "1": 1.0
+          },
+          "calibration": {
+            "before": {
+              "tp": 1328,
+              "fp": 51,
+              "fn": 60,
+              "tn": 2853
+            },
+            "after": {
+              "tp": 1328,
+              "fp": 51,
+              "fn": 60,
+              "tn": 2853
+            },
+            "delta_tp": 0,
+            "delta_fp": 0,
+            "f1_before": 0.959884351282978,
+            "f1_after": 0.959884351282978,
+            "changes": 0
+          },
+          "held": {
+            "before": {
+              "tp": 1313,
+              "fp": 48,
+              "fn": 70,
+              "tn": 2863
+            },
+            "after": {
+              "tp": 1313,
+              "fp": 48,
+              "fn": 70,
+              "tn": 2863
+            },
+            "delta_tp": 0,
+            "delta_fp": 0,
+            "f1_before": 0.956997084548105,
+            "f1_after": 0.956997084548105,
+            "changes": 0
+          }
+        },
+        "structure/conditional/0.7/agree": {
+          "cutoff": {
+            "0": 1.0,
+            "1": 1.0
+          },
+          "calibration": {
+            "before": {
+              "tp": 1328,
+              "fp": 51,
+              "fn": 60,
+              "tn": 2853
+            },
+            "after": {
+              "tp": 1328,
+              "fp": 51,
+              "fn": 60,
+              "tn": 2853
+            },
+            "delta_tp": 0,
+            "delta_fp": 0,
+            "f1_before": 0.959884351282978,
+            "f1_after": 0.959884351282978,
+            "changes": 0
+          },
+          "held": {
+            "before": {
+              "tp": 1313,
+              "fp": 48,
+              "fn": 70,
+              "tn": 2863
+            },
+            "after": {
+              "tp": 1313,
+              "fp": 48,
+              "fn": 70,
+              "tn": 2863
+            },
+            "delta_tp": 0,
+            "delta_fp": 0,
+            "f1_before": 0.956997084548105,
+            "f1_after": 0.956997084548105,
+            "changes": 0
+          }
+        },
+        "structure/conditional/0.85/single": {
+          "cutoff": {
+            "0": 1.0,
+            "1": 1.0
+          },
+          "calibration": {
+            "before": {
+              "tp": 1328,
+              "fp": 51,
+              "fn": 60,
+              "tn": 2853
+            },
+            "after": {
+              "tp": 1328,
+              "fp": 51,
+              "fn": 60,
+              "tn": 2853
+            },
+            "delta_tp": 0,
+            "delta_fp": 0,
+            "f1_before": 0.959884351282978,
+            "f1_after": 0.959884351282978,
+            "changes": 0
+          },
+          "held": {
+            "before": {
+              "tp": 1313,
+              "fp": 48,
+              "fn": 70,
+              "tn": 2863
+            },
+            "after": {
+              "tp": 1313,
+              "fp": 48,
+              "fn": 70,
+              "tn": 2863
+            },
+            "delta_tp": 0,
+            "delta_fp": 0,
+            "f1_before": 0.956997084548105,
+            "f1_after": 0.956997084548105,
+            "changes": 0
+          }
+        },
+        "structure/conditional/0.85/agree": {
+          "cutoff": {
+            "0": 1.0,
+            "1": 1.0
+          },
+          "calibration": {
+            "before": {
+              "tp": 1328,
+              "fp": 51,
+              "fn": 60,
+              "tn": 2853
+            },
+            "after": {
+              "tp": 1328,
+              "fp": 51,
+              "fn": 60,
+              "tn": 2853
+            },
+            "delta_tp": 0,
+            "delta_fp": 0,
+            "f1_before": 0.959884351282978,
+            "f1_after": 0.959884351282978,
+            "changes": 0
+          },
+          "held": {
+            "before": {
+              "tp": 1313,
+              "fp": 48,
+              "fn": 70,
+              "tn": 2863
+            },
+            "after": {
+              "tp": 1313,
+              "fp": 48,
+              "fn": 70,
+              "tn": 2863
+            },
+            "delta_tp": 0,
+            "delta_fp": 0,
+            "f1_before": 0.956997084548105,
+            "f1_after": 0.956997084548105,
+            "changes": 0
+          }
+        },
+        "structure/conditional/0.95/single": {
+          "cutoff": {
+            "0": 1.0,
+            "1": 1.0
+          },
+          "calibration": {
+            "before": {
+              "tp": 1328,
+              "fp": 51,
+              "fn": 60,
+              "tn": 2853
+            },
+            "after": {
+              "tp": 1328,
+              "fp": 51,
+              "fn": 60,
+              "tn": 2853
+            },
+            "delta_tp": 0,
+            "delta_fp": 0,
+            "f1_before": 0.959884351282978,
+            "f1_after": 0.959884351282978,
+            "changes": 0
+          },
+          "held": {
+            "before": {
+              "tp": 1313,
+              "fp": 48,
+              "fn": 70,
+              "tn": 2863
+            },
+            "after": {
+              "tp": 1313,
+              "fp": 48,
+              "fn": 70,
+              "tn": 2863
+            },
+            "delta_tp": 0,
+            "delta_fp": 0,
+            "f1_before": 0.956997084548105,
+            "f1_after": 0.956997084548105,
+            "changes": 0
+          }
+        },
+        "structure/conditional/0.95/agree": {
+          "cutoff": {
+            "0": 1.0,
+            "1": 1.0
+          },
+          "calibration": {
+            "before": {
+              "tp": 1328,
+              "fp": 51,
+              "fn": 60,
+              "tn": 2853
+            },
+            "after": {
+              "tp": 1328,
+              "fp": 51,
+              "fn": 60,
+              "tn": 2853
+            },
+            "delta_tp": 0,
+            "delta_fp": 0,
+            "f1_before": 0.959884351282978,
+            "f1_after": 0.959884351282978,
+            "changes": 0
+          },
+          "held": {
+            "before": {
+              "tp": 1313,
+              "fp": 48,
+              "fn": 70,
+              "tn": 2863
+            },
+            "after": {
+              "tp": 1313,
+              "fp": 48,
+              "fn": 70,
+              "tn": 2863
+            },
+            "delta_tp": 0,
+            "delta_fp": 0,
+            "f1_before": 0.956997084548105,
+            "f1_after": 0.956997084548105,
+            "changes": 0
+          }
+        },
+        "structure/linear_conditional/0.7/single": {
+          "cutoff": {
+            "0": 1.0,
+            "1": 1.0
+          },
+          "calibration": {
+            "before": {
+              "tp": 1328,
+              "fp": 51,
+              "fn": 60,
+              "tn": 2853
+            },
+            "after": {
+              "tp": 1328,
+              "fp": 51,
+              "fn": 60,
+              "tn": 2853
+            },
+            "delta_tp": 0,
+            "delta_fp": 0,
+            "f1_before": 0.959884351282978,
+            "f1_after": 0.959884351282978,
+            "changes": 0
+          },
+          "held": {
+            "before": {
+              "tp": 1313,
+              "fp": 48,
+              "fn": 70,
+              "tn": 2863
+            },
+            "after": {
+              "tp": 1313,
+              "fp": 48,
+              "fn": 70,
+              "tn": 2863
+            },
+            "delta_tp": 0,
+            "delta_fp": 0,
+            "f1_before": 0.956997084548105,
+            "f1_after": 0.956997084548105,
+            "changes": 0
+          }
+        },
+        "structure/linear_conditional/0.7/agree": {
+          "cutoff": {
+            "0": 1.0,
+            "1": 1.0
+          },
+          "calibration": {
+            "before": {
+              "tp": 1328,
+              "fp": 51,
+              "fn": 60,
+              "tn": 2853
+            },
+            "after": {
+              "tp": 1328,
+              "fp": 51,
+              "fn": 60,
+              "tn": 2853
+            },
+            "delta_tp": 0,
+            "delta_fp": 0,
+            "f1_before": 0.959884351282978,
+            "f1_after": 0.959884351282978,
+            "changes": 0
+          },
+          "held": {
+            "before": {
+              "tp": 1313,
+              "fp": 48,
+              "fn": 70,
+              "tn": 2863
+            },
+            "after": {
+              "tp": 1313,
+              "fp": 48,
+              "fn": 70,
+              "tn": 2863
+            },
+            "delta_tp": 0,
+            "delta_fp": 0,
+            "f1_before": 0.956997084548105,
+            "f1_after": 0.956997084548105,
+            "changes": 0
+          }
+        },
+        "structure/linear_conditional/0.85/single": {
+          "cutoff": {
+            "0": 1.0,
+            "1": 1.0
+          },
+          "calibration": {
+            "before": {
+              "tp": 1328,
+              "fp": 51,
+              "fn": 60,
+              "tn": 2853
+            },
+            "after": {
+              "tp": 1328,
+              "fp": 51,
+              "fn": 60,
+              "tn": 2853
+            },
+            "delta_tp": 0,
+            "delta_fp": 0,
+            "f1_before": 0.959884351282978,
+            "f1_after": 0.959884351282978,
+            "changes": 0
+          },
+          "held": {
+            "before": {
+              "tp": 1313,
+              "fp": 48,
+              "fn": 70,
+              "tn": 2863
+            },
+            "after": {
+              "tp": 1313,
+              "fp": 48,
+              "fn": 70,
+              "tn": 2863
+            },
+            "delta_tp": 0,
+            "delta_fp": 0,
+            "f1_before": 0.956997084548105,
+            "f1_after": 0.956997084548105,
+            "changes": 0
+          }
+        },
+        "structure/linear_conditional/0.85/agree": {
+          "cutoff": {
+            "0": 1.0,
+            "1": 1.0
+          },
+          "calibration": {
+            "before": {
+              "tp": 1328,
+              "fp": 51,
+              "fn": 60,
+              "tn": 2853
+            },
+            "after": {
+              "tp": 1328,
+              "fp": 51,
+              "fn": 60,
+              "tn": 2853
+            },
+            "delta_tp": 0,
+            "delta_fp": 0,
+            "f1_before": 0.959884351282978,
+            "f1_after": 0.959884351282978,
+            "changes": 0
+          },
+          "held": {
+            "before": {
+              "tp": 1313,
+              "fp": 48,
+              "fn": 70,
+              "tn": 2863
+            },
+            "after": {
+              "tp": 1313,
+              "fp": 48,
+              "fn": 70,
+              "tn": 2863
+            },
+            "delta_tp": 0,
+            "delta_fp": 0,
+            "f1_before": 0.956997084548105,
+            "f1_after": 0.956997084548105,
+            "changes": 0
+          }
+        },
+        "structure/linear_conditional/0.95/single": {
+          "cutoff": {
+            "0": 1.0,
+            "1": 1.0
+          },
+          "calibration": {
+            "before": {
+              "tp": 1328,
+              "fp": 51,
+              "fn": 60,
+              "tn": 2853
+            },
+            "after": {
+              "tp": 1328,
+              "fp": 51,
+              "fn": 60,
+              "tn": 2853
+            },
+            "delta_tp": 0,
+            "delta_fp": 0,
+            "f1_before": 0.959884351282978,
+            "f1_after": 0.959884351282978,
+            "changes": 0
+          },
+          "held": {
+            "before": {
+              "tp": 1313,
+              "fp": 48,
+              "fn": 70,
+              "tn": 2863
+            },
+            "after": {
+              "tp": 1313,
+              "fp": 48,
+              "fn": 70,
+              "tn": 2863
+            },
+            "delta_tp": 0,
+            "delta_fp": 0,
+            "f1_before": 0.956997084548105,
+            "f1_after": 0.956997084548105,
+            "changes": 0
+          }
+        },
+        "structure/linear_conditional/0.95/agree": {
+          "cutoff": {
+            "0": 1.0,
+            "1": 1.0
+          },
+          "calibration": {
+            "before": {
+              "tp": 1328,
+              "fp": 51,
+              "fn": 60,
+              "tn": 2853
+            },
+            "after": {
+              "tp": 1328,
+              "fp": 51,
+              "fn": 60,
+              "tn": 2853
+            },
+            "delta_tp": 0,
+            "delta_fp": 0,
+            "f1_before": 0.959884351282978,
+            "f1_after": 0.959884351282978,
+            "changes": 0
+          },
+          "held": {
+            "before": {
+              "tp": 1313,
+              "fp": 48,
+              "fn": 70,
+              "tn": 2863
+            },
+            "after": {
+              "tp": 1313,
+              "fp": 48,
+              "fn": 70,
+              "tn": 2863
+            },
+            "delta_tp": 0,
+            "delta_fp": 0,
+            "f1_before": 0.956997084548105,
+            "f1_after": 0.956997084548105,
+            "changes": 0
+          }
+        },
+        "structure/paired/0.7/single": {
+          "cutoff": {
+            "0": 1.0,
+            "1": 1.0
+          },
+          "calibration": {
+            "before": {
+              "tp": 1328,
+              "fp": 51,
+              "fn": 60,
+              "tn": 2853
+            },
+            "after": {
+              "tp": 1328,
+              "fp": 51,
+              "fn": 60,
+              "tn": 2853
+            },
+            "delta_tp": 0,
+            "delta_fp": 0,
+            "f1_before": 0.959884351282978,
+            "f1_after": 0.959884351282978,
+            "changes": 0
+          },
+          "held": {
+            "before": {
+              "tp": 1313,
+              "fp": 48,
+              "fn": 70,
+              "tn": 2863
+            },
+            "after": {
+              "tp": 1313,
+              "fp": 48,
+              "fn": 70,
+              "tn": 2863
+            },
+            "delta_tp": 0,
+            "delta_fp": 0,
+            "f1_before": 0.956997084548105,
+            "f1_after": 0.956997084548105,
+            "changes": 0
+          }
+        },
+        "structure/paired/0.7/agree": {
+          "cutoff": {
+            "0": 1.0,
+            "1": 1.0
+          },
+          "calibration": {
+            "before": {
+              "tp": 1328,
+              "fp": 51,
+              "fn": 60,
+              "tn": 2853
+            },
+            "after": {
+              "tp": 1328,
+              "fp": 51,
+              "fn": 60,
+              "tn": 2853
+            },
+            "delta_tp": 0,
+            "delta_fp": 0,
+            "f1_before": 0.959884351282978,
+            "f1_after": 0.959884351282978,
+            "changes": 0
+          },
+          "held": {
+            "before": {
+              "tp": 1313,
+              "fp": 48,
+              "fn": 70,
+              "tn": 2863
+            },
+            "after": {
+              "tp": 1313,
+              "fp": 48,
+              "fn": 70,
+              "tn": 2863
+            },
+            "delta_tp": 0,
+            "delta_fp": 0,
+            "f1_before": 0.956997084548105,
+            "f1_after": 0.956997084548105,
+            "changes": 0
+          }
+        },
+        "structure/paired/0.85/single": {
+          "cutoff": {
+            "0": 1.0,
+            "1": 1.0
+          },
+          "calibration": {
+            "before": {
+              "tp": 1328,
+              "fp": 51,
+              "fn": 60,
+              "tn": 2853
+            },
+            "after": {
+              "tp": 1328,
+              "fp": 51,
+              "fn": 60,
+              "tn": 2853
+            },
+            "delta_tp": 0,
+            "delta_fp": 0,
+            "f1_before": 0.959884351282978,
+            "f1_after": 0.959884351282978,
+            "changes": 0
+          },
+          "held": {
+            "before": {
+              "tp": 1313,
+              "fp": 48,
+              "fn": 70,
+              "tn": 2863
+            },
+            "after": {
+              "tp": 1313,
+              "fp": 48,
+              "fn": 70,
+              "tn": 2863
+            },
+            "delta_tp": 0,
+            "delta_fp": 0,
+            "f1_before": 0.956997084548105,
+            "f1_after": 0.956997084548105,
+            "changes": 0
+          }
+        },
+        "structure/paired/0.85/agree": {
+          "cutoff": {
+            "0": 1.0,
+            "1": 1.0
+          },
+          "calibration": {
+            "before": {
+              "tp": 1328,
+              "fp": 51,
+              "fn": 60,
+              "tn": 2853
+            },
+            "after": {
+              "tp": 1328,
+              "fp": 51,
+              "fn": 60,
+              "tn": 2853
+            },
+            "delta_tp": 0,
+            "delta_fp": 0,
+            "f1_before": 0.959884351282978,
+            "f1_after": 0.959884351282978,
+            "changes": 0
+          },
+          "held": {
+            "before": {
+              "tp": 1313,
+              "fp": 48,
+              "fn": 70,
+              "tn": 2863
+            },
+            "after": {
+              "tp": 1313,
+              "fp": 48,
+              "fn": 70,
+              "tn": 2863
+            },
+            "delta_tp": 0,
+            "delta_fp": 0,
+            "f1_before": 0.956997084548105,
+            "f1_after": 0.956997084548105,
+            "changes": 0
+          }
+        },
+        "structure/paired/0.95/single": {
+          "cutoff": {
+            "0": 1.0,
+            "1": 1.0
+          },
+          "calibration": {
+            "before": {
+              "tp": 1328,
+              "fp": 51,
+              "fn": 60,
+              "tn": 2853
+            },
+            "after": {
+              "tp": 1328,
+              "fp": 51,
+              "fn": 60,
+              "tn": 2853
+            },
+            "delta_tp": 0,
+            "delta_fp": 0,
+            "f1_before": 0.959884351282978,
+            "f1_after": 0.959884351282978,
+            "changes": 0
+          },
+          "held": {
+            "before": {
+              "tp": 1313,
+              "fp": 48,
+              "fn": 70,
+              "tn": 2863
+            },
+            "after": {
+              "tp": 1313,
+              "fp": 48,
+              "fn": 70,
+              "tn": 2863
+            },
+            "delta_tp": 0,
+            "delta_fp": 0,
+            "f1_before": 0.956997084548105,
+            "f1_after": 0.956997084548105,
+            "changes": 0
+          }
+        },
+        "structure/paired/0.95/agree": {
+          "cutoff": {
+            "0": 1.0,
+            "1": 1.0
+          },
+          "calibration": {
+            "before": {
+              "tp": 1328,
+              "fp": 51,
+              "fn": 60,
+              "tn": 2853
+            },
+            "after": {
+              "tp": 1328,
+              "fp": 51,
+              "fn": 60,
+              "tn": 2853
+            },
+            "delta_tp": 0,
+            "delta_fp": 0,
+            "f1_before": 0.959884351282978,
+            "f1_after": 0.959884351282978,
+            "changes": 0
+          },
+          "held": {
+            "before": {
+              "tp": 1313,
+              "fp": 48,
+              "fn": 70,
+              "tn": 2863
+            },
+            "after": {
+              "tp": 1313,
+              "fp": 48,
+              "fn": 70,
+              "tn": 2863
+            },
+            "delta_tp": 0,
+            "delta_fp": 0,
+            "f1_before": 0.956997084548105,
+            "f1_after": 0.956997084548105,
+            "changes": 0
+          }
+        }
+      }
+    }
+  }
+}

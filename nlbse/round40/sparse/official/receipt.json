@@ -1,0 +1,37 @@
+{
+  "rotation": "official",
+  "rows": 193100,
+  "folds": {
+    "0": {
+      "fit": 144565,
+      "held": 48300,
+      "removed_copies": 235,
+      "iters": 8
+    },
+    "1": {
+      "fit": 144972,
+      "held": 47905,
+      "removed_copies": 223,
+      "iters": 8
+    },
+    "2": {
+      "fit": 143922,
+      "held": 48902,
+      "removed_copies": 276,
+      "iters": 8
+    },
+    "3": {
+      "fit": 144814,
+      "held": 47993,
+      "removed_copies": 293,
+      "iters": 7
+    }
+  },
+  "model_rows": 192984,
+  "excluded_validation_copies": 116,
+  "base_sha256": "fcb614e442ae3fd2cf5c29d42ee63bff99c84dc3976ce881262ee7e1ea3b36e9",
+  "weights_sha256": "ea814ab64e8dadb4dcbf6f21e6a895229f4a8ff3b9741ec22af338837628bb65",
+  "predictions_sha256": "d808b40beb5795fe1c3afa386c986189e0ca049b1951faf5efcdae6c28e094ad",
+  "code_sha256": "e3f5de11449c175f19f1a5f6fcd2e22e95cc930866b9e2ae9fbcc429ccc3d951",
+  "features_sha256": "09dd9ea9d4e0b22381b2cbb33145bbf2297aff38040b91faf7120b3f1655da56"
+}

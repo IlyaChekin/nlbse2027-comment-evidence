@@ -1,0 +1,6681 @@
+{
+  "rotation": "official",
+  "matrix_sha256": "e66efb0e64cdfdc3ef8c8c7e0b52075e72d6cd0cc30284e1c00c597e9a6ab29e",
+  "layout_sha256": "45109a25cfed9ca5339bbc48f1531f09e6c0585a3d6ef3c770b25607a6157a96",
+  "predictions_sha256": "ea387fee3566420a31247fe7ce065a9aa831d62a0c4919ba4d25d42a218d6a39",
+  "weights_sha256": "72d3bd618cf05924b100fcd506b5c8b3a7da1586016ba19b3241df798c9294a7",
+  "code_sha256": "4bda39b5113af4c47b587956a31f2581addae27d657df46fb84f4214f7f7781a",
+  "exclusions": 116,
+  "cases": {
+    "fit": {
+      "new": {
+        "switches": 111,
+        "better": 79,
+        "worse": 32,
+        "available": 84558
+      },
+      "already": {
+        "switches": 18416,
+        "better": 16087,
+        "worse": 2329,
+        "available": 108426
+      }
+    },
+    "calibration": {
+      "new": {
+        "switches": 5,
+        "better": 4,
+        "worse": 1,
+        "available": 3262
+      },
+      "already": {
+        "switches": 194,
+        "better": 176,
+        "worse": 18,
+        "available": 1030
+      }
+    },
+    "held": {
+      "new": {
+        "switches": 4,
+        "better": 4,
+        "worse": 0,
+        "available": 3258
+      },
+      "already": {
+        "switches": 194,
+        "better": 166,
+        "worse": 28,
+        "available": 1036
+      }
+    }
+  },
+  "results": {
+    "numeric/direct/legacy/0.025": {
+      "calibration": {
+        "budget": {
+          "calls": 1030,
+          "characters": 666885,
+          "swap": 24,
+          "old_calls": 1030,
+          "old_characters": 668875,
+          "removed_large": 0,
+          "added_large": 0
+        },
+        "frozen": {
+          "before": {
+            "tp": 1328,
+            "fp": 51,
+            "fn": 60,
+            "tn": 2853
+          },
+          "after": {
+            "tp": 1329,
+            "fp": 54,
+            "fn": 59,
+            "tn": 2850
+          },
+          "delta_tp": 1,
+          "delta_fp": 3,
+          "f1_before": 0.959884351282978,
+          "f1_after": 0.959220498015157
+        },
+        "action_effect": {
+          "new": {
+            "before": {
+              "tp": 1328,
+              "fp": 51,
+              "fn": 60,
+              "tn": 2853
+            },
+            "after": {
+              "tp": 1328,
+              "fp": 51,
+              "fn": 60,
+              "tn": 2853
+            },
+            "delta_tp": 0,
+            "delta_fp": 0,
+            "f1_before": 0.959884351282978,
+            "f1_after": 0.959884351282978
+          },
+          "removed": {
+            "before": {
+              "tp": 1328,
+              "fp": 51,
+              "fn": 60,
+              "tn": 2853
+            },
+            "after": {
+              "tp": 1329,
+              "fp": 54,
+              "fn": 59,
+              "tn": 2850
+            },
+            "delta_tp": 1,
+            "delta_fp": 3,
+            "f1_before": 0.959884351282978,
+            "f1_after": 0.959220498015157
+          }
+        },
+        "matched": {}
+      },
+      "held": {
+        "budget": {
+          "calls": 1036,
+          "characters": 699943,
+          "swap": 24,
+          "old_calls": 1036,
+          "old_characters": 700979,
+          "removed_large": 0,
+          "added_large": 0
+        },
+        "frozen": {
+          "before": {
+            "tp": 1313,
+            "fp": 48,
+            "fn": 70,
+            "tn": 2863
+          },
+          "after": {
+            "tp": 1314,
+            "fp": 52,
+            "fn": 69,
+            "tn": 2859
+          },
+          "delta_tp": 1,
+          "delta_fp": 4,
+          "f1_before": 0.956997084548105,
+          "f1_after": 0.9559839941797017
+        },
+        "action_effect": {
+          "new": {
+            "before": {
+              "tp": 1313,
+              "fp": 48,
+              "fn": 70,
+              "tn": 2863
+            },
+            "after": {
+              "tp": 1313,
+              "fp": 48,
+              "fn": 70,
+              "tn": 2863
+            },
+            "delta_tp": 0,
+            "delta_fp": 0,
+            "f1_before": 0.956997084548105,
+            "f1_after": 0.956997084548105
+          },
+          "removed": {
+            "before": {
+              "tp": 1313,
+              "fp": 48,
+              "fn": 70,
+              "tn": 2863
+            },
+            "after": {
+              "tp": 1314,
+              "fp": 52,
+              "fn": 69,
+              "tn": 2859
+            },
+            "delta_tp": 1,
+            "delta_fp": 4,
+            "f1_before": 0.956997084548105,
+            "f1_after": 0.9559839941797017
+          }
+        },
+        "matched": {}
+      }
+    },
+    "numeric/direct/legacy/0.08": {
+      "calibration": {
+        "budget": {
+          "calls": 1030,
+          "characters": 665901,
+          "swap": 77,
+          "old_calls": 1030,
+          "old_characters": 668875,
+          "removed_large": 0,
+          "added_large": 0
+        },
+        "frozen": {
+          "before": {
+            "tp": 1328,
+            "fp": 51,
+            "fn": 60,
+            "tn": 2853
+          },
+          "after": {
+            "tp": 1329,
+            "fp": 54,
+            "fn": 59,
+            "tn": 2850
+          },
+          "delta_tp": 1,
+          "delta_fp": 3,
+          "f1_before": 0.959884351282978,
+          "f1_after": 0.959220498015157
+        },
+        "action_effect": {
+          "new": {
+            "before": {
+              "tp": 1328,
+              "fp": 51,
+              "fn": 60,
+              "tn": 2853
+            },
+            "after": {
+              "tp": 1328,
+              "fp": 51,
+              "fn": 60,
+              "tn": 2853
+            },
+            "delta_tp": 0,
+            "delta_fp": 0,
+            "f1_before": 0.959884351282978,
+            "f1_after": 0.959884351282978
+          },
+          "removed": {
+            "before": {
+              "tp": 1328,
+              "fp": 51,
+              "fn": 60,
+              "tn": 2853
+            },
+            "after": {
+              "tp": 1329,
+              "fp": 54,
+              "fn": 59,
+              "tn": 2850
+            },
+            "delta_tp": 1,
+            "delta_fp": 3,
+            "f1_before": 0.959884351282978,
+            "f1_after": 0.959220498015157
+          }
+        },
+        "matched": {}
+      },
+      "held": {
+        "budget": {
+          "calls": 1036,
+          "characters": 698766,
+          "swap": 81,
+          "old_calls": 1036,
+          "old_characters": 700979,
+          "removed_large": 0,
+          "added_large": 0
+        },
+        "frozen": {
+          "before": {
+            "tp": 1313,
+            "fp": 48,
+            "fn": 70,
+            "tn": 2863
+          },
+          "after": {
+            "tp": 1316,
+            "fp": 55,
+            "fn": 67,
+            "tn": 2856
+          },
+          "delta_tp": 3,
+          "delta_fp": 7,
+          "f1_before": 0.956997084548105,
+          "f1_after": 0.9557007988380537
+        },
+        "action_effect": {
+          "new": {
+            "before": {
+              "tp": 1313,
+              "fp": 48,
+              "fn": 70,
+              "tn": 2863
+            },
+            "after": {
+              "tp": 1313,
+              "fp": 48,
+              "fn": 70,
+              "tn": 2863
+            },
+            "delta_tp": 0,
+            "delta_fp": 0,
+            "f1_before": 0.956997084548105,
+            "f1_after": 0.956997084548105
+          },
+          "removed": {
+            "before": {
+              "tp": 1313,
+              "fp": 48,
+              "fn": 70,
+              "tn": 2863
+            },
+            "after": {
+              "tp": 1316,
+              "fp": 55,
+              "fn": 67,
+              "tn": 2856
+            },
+            "delta_tp": 3,
+            "delta_fp": 7,
+            "f1_before": 0.956997084548105,
+            "f1_after": 0.9557007988380537
+          }
+        },
+        "matched": {}
+      }
+    },
+    "numeric/direct/legacy/0.2": {
+      "calibration": {
+        "budget": {
+          "calls": 1030,
+          "characters": 666702,
+          "swap": 83,
+          "old_calls": 1030,
+          "old_characters": 668875,
+          "removed_large": 0,
+          "added_large": 0
+        },
+        "frozen": {
+          "before": {
+            "tp": 1328,
+            "fp": 51,
+            "fn": 60,
+            "tn": 2853
+          },
+          "after": {
+            "tp": 1329,
+            "fp": 55,
+            "fn": 59,
+            "tn": 2849
+          },
+          "delta_tp": 1,
+          "delta_fp": 4,
+          "f1_before": 0.959884351282978,
+          "f1_after": 0.9588744588744589
+        },
+        "action_effect": {
+          "new": {
+            "before": {
+              "tp": 1328,
+              "fp": 51,
+              "fn": 60,
+              "tn": 2853
+            },
+            "after": {
+              "tp": 1328,
+              "fp": 51,
+              "fn": 60,
+              "tn": 2853
+            },
+            "delta_tp": 0,
+            "delta_fp": 0,
+            "f1_before": 0.959884351282978,
+            "f1_after": 0.959884351282978
+          },
+          "removed": {
+            "before": {
+              "tp": 1328,
+              "fp": 51,
+              "fn": 60,
+              "tn": 2853
+            },
+            "after": {
+              "tp": 1329,
+              "fp": 55,
+              "fn": 59,
+              "tn": 2849
+            },
+            "delta_tp": 1,
+            "delta_fp": 4,
+            "f1_before": 0.959884351282978,
+            "f1_after": 0.9588744588744589
+          }
+        },
+        "matched": {}
+      },
+      "held": {
+        "budget": {
+          "calls": 1036,
+          "characters": 699167,
+          "swap": 110,
+          "old_calls": 1036,
+          "old_characters": 700979,
+          "removed_large": 0,
+          "added_large": 0
+        },
+        "frozen": {
+          "before": {
+            "tp": 1313,
+            "fp": 48,
+            "fn": 70,
+            "tn": 2863
+          },
+          "after": {
+            "tp": 1317,
+            "fp": 58,
+            "fn": 66,
+            "tn": 2853
+          },
+          "delta_tp": 4,
+          "delta_fp": 10,
+          "f1_before": 0.956997084548105,
+          "f1_after": 0.9550398839738942
+        },
+        "action_effect": {
+          "new": {
+            "before": {
+              "tp": 1313,
+              "fp": 48,
+              "fn": 70,
+              "tn": 2863
+            },
+            "after": {
+              "tp": 1313,
+              "fp": 48,
+              "fn": 70,
+              "tn": 2863
+            },
+            "delta_tp": 0,
+            "delta_fp": 0,
+            "f1_before": 0.956997084548105,
+            "f1_after": 0.956997084548105
+          },
+          "removed": {
+            "before": {
+              "tp": 1313,
+              "fp": 48,
+              "fn": 70,
+              "tn": 2863
+            },
+            "after": {
+              "tp": 1317,
+              "fp": 58,
+              "fn": 66,
+              "tn": 2853
+            },
+            "delta_tp": 4,
+            "delta_fp": 10,
+            "f1_before": 0.956997084548105,
+            "f1_after": 0.9550398839738942
+          }
+        },
+        "matched": {}
+      }
+    },
+    "numeric/direct/matched_length/0.025": {
+      "calibration": {
+        "budget": {
+          "calls": 1030,
+          "characters": 668792,
+          "swap": 24,
+          "old_calls": 1030,
+          "old_characters": 668875,
+          "removed_large": 0,
+          "added_large": 0
+        },
+        "frozen": {
+          "before": {
+            "tp": 1328,
+            "fp": 51,
+            "fn": 60,
+            "tn": 2853
+          },
+          "after": {
+            "tp": 1328,
+            "fp": 51,
+            "fn": 60,
+            "tn": 2853
+          },
+          "delta_tp": 0,
+          "delta_fp": 0,
+          "f1_before": 0.959884351282978,
+          "f1_after": 0.959884351282978
+        },
+        "action_effect": {
+          "new": {
+            "before": {
+              "tp": 1328,
+              "fp": 51,
+              "fn": 60,
+              "tn": 2853
+            },
+            "after": {
+              "tp": 1328,
+              "fp": 51,
+              "fn": 60,
+              "tn": 2853
+            },
+            "delta_tp": 0,
+            "delta_fp": 0,
+            "f1_before": 0.959884351282978,
+            "f1_after": 0.959884351282978
+          },
+          "removed": {
+            "before": {
+              "tp": 1328,
+              "fp": 51,
+              "fn": 60,
+              "tn": 2853
+            },
+            "after": {
+              "tp": 1328,
+              "fp": 51,
+              "fn": 60,
+              "tn": 2853
+            },
+            "delta_tp": 0,
+            "delta_fp": 0,
+            "f1_before": 0.959884351282978,
+            "f1_after": 0.959884351282978
+          }
+        },
+        "matched": {}
+      },
+      "held": {
+        "budget": {
+          "calls": 1036,
+          "characters": 700642,
+          "swap": 24,
+          "old_calls": 1036,
+          "old_characters": 700979,
+          "removed_large": 0,
+          "added_large": 0
+        },
+        "frozen": {
+          "before": {
+            "tp": 1313,
+            "fp": 48,
+            "fn": 70,
+            "tn": 2863
+          },
+          "after": {
+            "tp": 1316,
+            "fp": 50,
+            "fn": 67,
+            "tn": 2861
+          },
+          "delta_tp": 3,
+          "delta_fp": 2,
+          "f1_before": 0.956997084548105,
+          "f1_after": 0.9574390687522736
+        },
+        "action_effect": {
+          "new": {
+            "before": {
+              "tp": 1313,
+              "fp": 48,
+              "fn": 70,
+              "tn": 2863
+            },
+            "after": {
+              "tp": 1313,
+              "fp": 48,
+              "fn": 70,
+              "tn": 2863
+            },
+            "delta_tp": 0,
+            "delta_fp": 0,
+            "f1_before": 0.956997084548105,
+            "f1_after": 0.956997084548105
+          },
+          "removed": {
+            "before": {
+              "tp": 1313,
+              "fp": 48,
+              "fn": 70,
+              "tn": 2863
+            },
+            "after": {
+              "tp": 1316,
+              "fp": 50,
+              "fn": 67,
+              "tn": 2861
+            },
+            "delta_tp": 3,
+            "delta_fp": 2,
+            "f1_before": 0.956997084548105,
+            "f1_after": 0.9574390687522736
+          }
+        },
+        "matched": {}
+      }
+    },
+    "numeric/direct/matched_length/0.08": {
+      "calibration": {
+        "budget": {
+          "calls": 1030,
+          "characters": 667269,
+          "swap": 80,
+          "old_calls": 1030,
+          "old_characters": 668875,
+          "removed_large": 0,
+          "added_large": 0
+        },
+        "frozen": {
+          "before": {
+            "tp": 1328,
+            "fp": 51,
+            "fn": 60,
+            "tn": 2853
+          },
+          "after": {
+            "tp": 1330,
+            "fp": 51,
+            "fn": 58,
+            "tn": 2853
+          },
+          "delta_tp": 2,
+          "delta_fp": 0,
+          "f1_before": 0.959884351282978,
+          "f1_after": 0.9606356085229325
+        },
+        "action_effect": {
+          "new": {
+            "before": {
+              "tp": 1328,
+              "fp": 51,
+              "fn": 60,
+              "tn": 2853
+            },
+            "after": {
+              "tp": 1328,
+              "fp": 51,
+              "fn": 60,
+              "tn": 2853
+            },
+            "delta_tp": 0,
+            "delta_fp": 0,
+            "f1_before": 0.959884351282978,
+            "f1_after": 0.959884351282978
+          },
+          "removed": {
+            "before": {
+              "tp": 1328,
+              "fp": 51,
+              "fn": 60,
+              "tn": 2853
+            },
+            "after": {
+              "tp": 1330,
+              "fp": 51,
+              "fn": 58,
+              "tn": 2853
+            },
+            "delta_tp": 2,
+            "delta_fp": 0,
+            "f1_before": 0.959884351282978,
+            "f1_after": 0.9606356085229325
+          }
+        },
+        "matched": {}
+      },
+      "held": {
+        "budget": {
+          "calls": 1036,
+          "characters": 697967,
+          "swap": 81,
+          "old_calls": 1036,
+          "old_characters": 700979,
+          "removed_large": 0,
+          "added_large": 0
+        },
+        "frozen": {
+          "before": {
+            "tp": 1313,
+            "fp": 48,
+            "fn": 70,
+            "tn": 2863
+          },
+          "after": {
+            "tp": 1317,
+            "fp": 53,
+            "fn": 66,
+            "tn": 2858
+          },
+          "delta_tp": 4,
+          "delta_fp": 5,
+          "f1_before": 0.956997084548105,
+          "f1_after": 0.9567744278968399
+        },
+        "action_effect": {
+          "new": {
+            "before": {
+              "tp": 1313,
+              "fp": 48,
+              "fn": 70,
+              "tn": 2863
+            },
+            "after": {
+              "tp": 1313,
+              "fp": 48,
+              "fn": 70,
+              "tn": 2863
+            },
+            "delta_tp": 0,
+            "delta_fp": 0,
+            "f1_before": 0.956997084548105,
+            "f1_after": 0.956997084548105
+          },
+          "removed": {
+            "before": {
+              "tp": 1313,
+              "fp": 48,
+              "fn": 70,
+              "tn": 2863
+            },
+            "after": {
+              "tp": 1317,
+              "fp": 53,
+              "fn": 66,
+              "tn": 2858
+            },
+            "delta_tp": 4,
+            "delta_fp": 5,
+            "f1_before": 0.956997084548105,
+            "f1_after": 0.9567744278968399
+          }
+        },
+        "matched": {}
+      }
+    },
+    "numeric/direct/matched_length/0.2": {
+      "calibration": {
+        "budget": {
+          "calls": 1030,
+          "characters": 665227,
+          "swap": 112,
+          "old_calls": 1030,
+          "old_characters": 668875,
+          "removed_large": 0,
+          "added_large": 0
+        },
+        "frozen": {
+          "before": {
+            "tp": 1328,
+            "fp": 51,
+            "fn": 60,
+            "tn": 2853
+          },
+          "after": {
+            "tp": 1330,
+            "fp": 55,
+            "fn": 58,
+            "tn": 2849
+          },
+          "delta_tp": 2,
+          "delta_fp": 4,
+          "f1_before": 0.959884351282978,
+          "f1_after": 0.9592499098449333
+        },
+        "action_effect": {
+          "new": {
+            "before": {
+              "tp": 1328,
+              "fp": 51,
+              "fn": 60,
+              "tn": 2853
+            },
+            "after": {
+              "tp": 1328,
+              "fp": 51,
+              "fn": 60,
+              "tn": 2853
+            },
+            "delta_tp": 0,
+            "delta_fp": 0,
+            "f1_before": 0.959884351282978,
+            "f1_after": 0.959884351282978
+          },
+          "removed": {
+            "before": {
+              "tp": 1328,
+              "fp": 51,
+              "fn": 60,
+              "tn": 2853
+            },
+            "after": {
+              "tp": 1330,
+              "fp": 55,
+              "fn": 58,
+              "tn": 2849
+            },
+            "delta_tp": 2,
+            "delta_fp": 4,
+            "f1_before": 0.959884351282978,
+            "f1_after": 0.9592499098449333
+          }
+        },
+        "matched": {}
+      },
+      "held": {
+        "budget": {
+          "calls": 1036,
+          "characters": 695725,
+          "swap": 126,
+          "old_calls": 1036,
+          "old_characters": 700979,
+          "removed_large": 0,
+          "added_large": 0
+        },
+        "frozen": {
+          "before": {
+            "tp": 1313,
+            "fp": 48,
+            "fn": 70,
+            "tn": 2863
+          },
+          "after": {
+            "tp": 1318,
+            "fp": 58,
+            "fn": 65,
+            "tn": 2853
+          },
+          "delta_tp": 5,
+          "delta_fp": 10,
+          "f1_before": 0.956997084548105,
+          "f1_after": 0.9554186299383834
+        },
+        "action_effect": {
+          "new": {
+            "before": {
+              "tp": 1313,
+              "fp": 48,
+              "fn": 70,
+              "tn": 2863
+            },
+            "after": {
+              "tp": 1313,
+              "fp": 48,
+              "fn": 70,
+              "tn": 2863
+            },
+            "delta_tp": 0,
+            "delta_fp": 0,
+            "f1_before": 0.956997084548105,
+            "f1_after": 0.956997084548105
+          },
+          "removed": {
+            "before": {
+              "tp": 1313,
+              "fp": 48,
+              "fn": 70,
+              "tn": 2863
+            },
+            "after": {
+              "tp": 1318,
+              "fp": 58,
+              "fn": 65,
+              "tn": 2853
+            },
+            "delta_tp": 5,
+            "delta_fp": 10,
+            "f1_before": 0.956997084548105,
+            "f1_after": 0.9554186299383834
+          }
+        },
+        "matched": {}
+      }
+    },
+    "numeric/factor/legacy/0.025": {
+      "calibration": {
+        "budget": {
+          "calls": 1030,
+          "characters": 668524,
+          "swap": 23,
+          "old_calls": 1030,
+          "old_characters": 668875,
+          "removed_large": 0,
+          "added_large": 0
+        },
+        "frozen": {
+          "before": {
+            "tp": 1328,
+            "fp": 51,
+            "fn": 60,
+            "tn": 2853
+          },
+          "after": {
+            "tp": 1331,
+            "fp": 56,
+            "fn": 57,
+            "tn": 2848
+          },
+          "delta_tp": 3,
+          "delta_fp": 5,
+          "f1_before": 0.959884351282978,
+          "f1_after": 0.9592792792792793
+        },
+        "action_effect": {
+          "new": {
+            "before": {
+              "tp": 1328,
+              "fp": 51,
+              "fn": 60,
+              "tn": 2853
+            },
+            "after": {
+              "tp": 1328,
+              "fp": 51,
+              "fn": 60,
+              "tn": 2853
+            },
+            "delta_tp": 0,
+            "delta_fp": 0,
+            "f1_before": 0.959884351282978,
+            "f1_after": 0.959884351282978
+          },
+          "removed": {
+            "before": {
+              "tp": 1328,
+              "fp": 51,
+              "fn": 60,
+              "tn": 2853
+            },
+            "after": {
+              "tp": 1331,
+              "fp": 56,
+              "fn": 57,
+              "tn": 2848
+            },
+            "delta_tp": 3,
+            "delta_fp": 5,
+            "f1_before": 0.959884351282978,
+            "f1_after": 0.9592792792792793
+          }
+        },
+        "matched": {}
+      },
+      "held": {
+        "budget": {
+          "calls": 1036,
+          "characters": 699513,
+          "swap": 25,
+          "old_calls": 1036,
+          "old_characters": 700979,
+          "removed_large": 1,
+          "added_large": 1
+        },
+        "frozen": {
+          "before": {
+            "tp": 1313,
+            "fp": 48,
+            "fn": 70,
+            "tn": 2863
+          },
+          "after": {
+            "tp": 1316,
+            "fp": 53,
+            "fn": 67,
+            "tn": 2858
+          },
+          "delta_tp": 3,
+          "delta_fp": 5,
+          "f1_before": 0.956997084548105,
+          "f1_after": 0.9563953488372093
+        },
+        "action_effect": {
+          "new": {
+            "before": {
+              "tp": 1313,
+              "fp": 48,
+              "fn": 70,
+              "tn": 2863
+            },
+            "after": {
+              "tp": 1313,
+              "fp": 48,
+              "fn": 70,
+              "tn": 2863
+            },
+            "delta_tp": 0,
+            "delta_fp": 0,
+            "f1_before": 0.956997084548105,
+            "f1_after": 0.956997084548105
+          },
+          "removed": {
+            "before": {
+              "tp": 1313,
+              "fp": 48,
+              "fn": 70,
+              "tn": 2863
+            },
+            "after": {
+              "tp": 1316,
+              "fp": 53,
+              "fn": 67,
+              "tn": 2858
+            },
+            "delta_tp": 3,
+            "delta_fp": 5,
+            "f1_before": 0.956997084548105,
+            "f1_after": 0.9563953488372093
+          }
+        },
+        "matched": {}
+      }
+    },
+    "numeric/factor/legacy/0.08": {
+      "calibration": {
+        "budget": {
+          "calls": 1030,
+          "characters": 665553,
+          "swap": 80,
+          "old_calls": 1030,
+          "old_characters": 668875,
+          "removed_large": 0,
+          "added_large": 0
+        },
+        "frozen": {
+          "before": {
+            "tp": 1328,
+            "fp": 51,
+            "fn": 60,
+            "tn": 2853
+          },
+          "after": {
+            "tp": 1332,
+            "fp": 59,
+            "fn": 56,
+            "tn": 2845
+          },
+          "delta_tp": 4,
+          "delta_fp": 8,
+          "f1_before": 0.959884351282978,
+          "f1_after": 0.9586182079884851
+        },
+        "action_effect": {
+          "new": {
+            "before": {
+              "tp": 1328,
+              "fp": 51,
+              "fn": 60,
+              "tn": 2853
+            },
+            "after": {
+              "tp": 1328,
+              "fp": 49,
+              "fn": 60,
+              "tn": 2855
+            },
+            "delta_tp": 0,
+            "delta_fp": -2,
+            "f1_before": 0.959884351282978,
+            "f1_after": 0.9605786618444846
+          },
+          "removed": {
+            "before": {
+              "tp": 1328,
+              "fp": 51,
+              "fn": 60,
+              "tn": 2853
+            },
+            "after": {
+              "tp": 1332,
+              "fp": 61,
+              "fn": 56,
+              "tn": 2843
+            },
+            "delta_tp": 4,
+            "delta_fp": 10,
+            "f1_before": 0.959884351282978,
+            "f1_after": 0.9579288025889967
+          }
+        },
+        "matched": {}
+      },
+      "held": {
+        "budget": {
+          "calls": 1036,
+          "characters": 699766,
+          "swap": 82,
+          "old_calls": 1036,
+          "old_characters": 700979,
+          "removed_large": 1,
+          "added_large": 1
+        },
+        "frozen": {
+          "before": {
+            "tp": 1313,
+            "fp": 48,
+            "fn": 70,
+            "tn": 2863
+          },
+          "after": {
+            "tp": 1316,
+            "fp": 67,
+            "fn": 67,
+            "tn": 2844
+          },
+          "delta_tp": 3,
+          "delta_fp": 19,
+          "f1_before": 0.956997084548105,
+          "f1_after": 0.9515545914678236
+        },
+        "action_effect": {
+          "new": {
+            "before": {
+              "tp": 1313,
+              "fp": 48,
+              "fn": 70,
+              "tn": 2863
+            },
+            "after": {
+              "tp": 1313,
+              "fp": 48,
+              "fn": 70,
+              "tn": 2863
+            },
+            "delta_tp": 0,
+            "delta_fp": 0,
+            "f1_before": 0.956997084548105,
+            "f1_after": 0.956997084548105
+          },
+          "removed": {
+            "before": {
+              "tp": 1313,
+              "fp": 48,
+              "fn": 70,
+              "tn": 2863
+            },
+            "after": {
+              "tp": 1316,
+              "fp": 67,
+              "fn": 67,
+              "tn": 2844
+            },
+            "delta_tp": 3,
+            "delta_fp": 19,
+            "f1_before": 0.956997084548105,
+            "f1_after": 0.9515545914678236
+          }
+        },
+        "matched": {}
+      }
+    },
+    "numeric/factor/legacy/0.2": {
+      "calibration": {
+        "budget": {
+          "calls": 1030,
+          "characters": 664240,
+          "swap": 167,
+          "old_calls": 1030,
+          "old_characters": 668875,
+          "removed_large": 0,
+          "added_large": 0
+        },
+        "frozen": {
+          "before": {
+            "tp": 1328,
+            "fp": 51,
+            "fn": 60,
+            "tn": 2853
+          },
+          "after": {
+            "tp": 1333,
+            "fp": 62,
+            "fn": 55,
+            "tn": 2842
+          },
+          "delta_tp": 5,
+          "delta_fp": 11,
+          "f1_before": 0.959884351282978,
+          "f1_after": 0.9579590370104204
+        },
+        "action_effect": {
+          "new": {
+            "before": {
+              "tp": 1328,
+              "fp": 51,
+              "fn": 60,
+              "tn": 2853
+            },
+            "after": {
+              "tp": 1328,
+              "fp": 49,
+              "fn": 60,
+              "tn": 2855
+            },
+            "delta_tp": 0,
+            "delta_fp": -2,
+            "f1_before": 0.959884351282978,
+            "f1_after": 0.9605786618444846
+          },
+          "removed": {
+            "before": {
+              "tp": 1328,
+              "fp": 51,
+              "fn": 60,
+              "tn": 2853
+            },
+            "after": {
+              "tp": 1333,
+              "fp": 64,
+              "fn": 55,
+              "tn": 2840
+            },
+            "delta_tp": 5,
+            "delta_fp": 13,
+            "f1_before": 0.959884351282978,
+            "f1_after": 0.9572710951526032
+          }
+        },
+        "matched": {}
+      },
+      "held": {
+        "budget": {
+          "calls": 1036,
+          "characters": 695382,
+          "swap": 169,
+          "old_calls": 1036,
+          "old_characters": 700979,
+          "removed_large": 1,
+          "added_large": 1
+        },
+        "frozen": {
+          "before": {
+            "tp": 1313,
+            "fp": 48,
+            "fn": 70,
+            "tn": 2863
+          },
+          "after": {
+            "tp": 1316,
+            "fp": 71,
+            "fn": 67,
+            "tn": 2840
+          },
+          "delta_tp": 3,
+          "delta_fp": 23,
+          "f1_before": 0.956997084548105,
+          "f1_after": 0.9501805054151624
+        },
+        "action_effect": {
+          "new": {
+            "before": {
+              "tp": 1313,
+              "fp": 48,
+              "fn": 70,
+              "tn": 2863
+            },
+            "after": {
+              "tp": 1313,
+              "fp": 48,
+              "fn": 70,
+              "tn": 2863
+            },
+            "delta_tp": 0,
+            "delta_fp": 0,
+            "f1_before": 0.956997084548105,
+            "f1_after": 0.956997084548105
+          },
+          "removed": {
+            "before": {
+              "tp": 1313,
+              "fp": 48,
+              "fn": 70,
+              "tn": 2863
+            },
+            "after": {
+              "tp": 1316,
+              "fp": 71,
+              "fn": 67,
+              "tn": 2840
+            },
+            "delta_tp": 3,
+            "delta_fp": 23,
+            "f1_before": 0.956997084548105,
+            "f1_after": 0.9501805054151624
+          }
+        },
+        "matched": {}
+      }
+    },
+    "numeric/factor/matched_length/0.025": {
+      "calibration": {
+        "budget": {
+          "calls": 1030,
+          "characters": 668764,
+          "swap": 24,
+          "old_calls": 1030,
+          "old_characters": 668875,
+          "removed_large": 0,
+          "added_large": 0
+        },
+        "frozen": {
+          "before": {
+            "tp": 1328,
+            "fp": 51,
+            "fn": 60,
+            "tn": 2853
+          },
+          "after": {
+            "tp": 1328,
+            "fp": 53,
+            "fn": 60,
+            "tn": 2851
+          },
+          "delta_tp": 0,
+          "delta_fp": 2,
+          "f1_before": 0.959884351282978,
+          "f1_after": 0.9591910436980859
+        },
+        "action_effect": {
+          "new": {
+            "before": {
+              "tp": 1328,
+              "fp": 51,
+              "fn": 60,
+              "tn": 2853
+            },
+            "after": {
+              "tp": 1328,
+              "fp": 51,
+              "fn": 60,
+              "tn": 2853
+            },
+            "delta_tp": 0,
+            "delta_fp": 0,
+            "f1_before": 0.959884351282978,
+            "f1_after": 0.959884351282978
+          },
+          "removed": {
+            "before": {
+              "tp": 1328,
+              "fp": 51,
+              "fn": 60,
+              "tn": 2853
+            },
+            "after": {
+              "tp": 1328,
+              "fp": 53,
+              "fn": 60,
+              "tn": 2851
+            },
+            "delta_tp": 0,
+            "delta_fp": 2,
+            "f1_before": 0.959884351282978,
+            "f1_after": 0.9591910436980859
+          }
+        },
+        "matched": {}
+      },
+      "held": {
+        "budget": {
+          "calls": 1036,
+          "characters": 700876,
+          "swap": 24,
+          "old_calls": 1036,
+          "old_characters": 700979,
+          "removed_large": 0,
+          "added_large": 0
+        },
+        "frozen": {
+          "before": {
+            "tp": 1313,
+            "fp": 48,
+            "fn": 70,
+            "tn": 2863
+          },
+          "after": {
+            "tp": 1313,
+            "fp": 49,
+            "fn": 70,
+            "tn": 2862
+          },
+          "delta_tp": 0,
+          "delta_fp": 1,
+          "f1_before": 0.956997084548105,
+          "f1_after": 0.9566484517304189
+        },
+        "action_effect": {
+          "new": {
+            "before": {
+              "tp": 1313,
+              "fp": 48,
+              "fn": 70,
+              "tn": 2863
+            },
+            "after": {
+              "tp": 1313,
+              "fp": 48,
+              "fn": 70,
+              "tn": 2863
+            },
+            "delta_tp": 0,
+            "delta_fp": 0,
+            "f1_before": 0.956997084548105,
+            "f1_after": 0.956997084548105
+          },
+          "removed": {
+            "before": {
+              "tp": 1313,
+              "fp": 48,
+              "fn": 70,
+              "tn": 2863
+            },
+            "after": {
+              "tp": 1313,
+              "fp": 49,
+              "fn": 70,
+              "tn": 2862
+            },
+            "delta_tp": 0,
+            "delta_fp": 1,
+            "f1_before": 0.956997084548105,
+            "f1_after": 0.9566484517304189
+          }
+        },
+        "matched": {}
+      }
+    },
+    "numeric/factor/matched_length/0.08": {
+      "calibration": {
+        "budget": {
+          "calls": 1030,
+          "characters": 668457,
+          "swap": 80,
+          "old_calls": 1030,
+          "old_characters": 668875,
+          "removed_large": 0,
+          "added_large": 0
+        },
+        "frozen": {
+          "before": {
+            "tp": 1328,
+            "fp": 51,
+            "fn": 60,
+            "tn": 2853
+          },
+          "after": {
+            "tp": 1328,
+            "fp": 54,
+            "fn": 60,
+            "tn": 2850
+          },
+          "delta_tp": 0,
+          "delta_fp": 3,
+          "f1_before": 0.959884351282978,
+          "f1_after": 0.9588447653429603
+        },
+        "action_effect": {
+          "new": {
+            "before": {
+              "tp": 1328,
+              "fp": 51,
+              "fn": 60,
+              "tn": 2853
+            },
+            "after": {
+              "tp": 1328,
+              "fp": 49,
+              "fn": 60,
+              "tn": 2855
+            },
+            "delta_tp": 0,
+            "delta_fp": -2,
+            "f1_before": 0.959884351282978,
+            "f1_after": 0.9605786618444846
+          },
+          "removed": {
+            "before": {
+              "tp": 1328,
+              "fp": 51,
+              "fn": 60,
+              "tn": 2853
+            },
+            "after": {
+              "tp": 1328,
+              "fp": 56,
+              "fn": 60,
+              "tn": 2848
+            },
+            "delta_tp": 0,
+            "delta_fp": 5,
+            "f1_before": 0.959884351282978,
+            "f1_after": 0.9581529581529582
+          }
+        },
+        "matched": {}
+      },
+      "held": {
+        "budget": {
+          "calls": 1036,
+          "characters": 700187,
+          "swap": 81,
+          "old_calls": 1036,
+          "old_characters": 700979,
+          "removed_large": 0,
+          "added_large": 0
+        },
+        "frozen": {
+          "before": {
+            "tp": 1313,
+            "fp": 48,
+            "fn": 70,
+            "tn": 2863
+          },
+          "after": {
+            "tp": 1314,
+            "fp": 53,
+            "fn": 69,
+            "tn": 2858
+          },
+          "delta_tp": 1,
+          "delta_fp": 5,
+          "f1_before": 0.956997084548105,
+          "f1_after": 0.9556363636363636
+        },
+        "action_effect": {
+          "new": {
+            "before": {
+              "tp": 1313,
+              "fp": 48,
+              "fn": 70,
+              "tn": 2863
+            },
+            "after": {
+              "tp": 1313,
+              "fp": 48,
+              "fn": 70,
+              "tn": 2863
+            },
+            "delta_tp": 0,
+            "delta_fp": 0,
+            "f1_before": 0.956997084548105,
+            "f1_after": 0.956997084548105
+          },
+          "removed": {
+            "before": {
+              "tp": 1313,
+              "fp": 48,
+              "fn": 70,
+              "tn": 2863
+            },
+            "after": {
+              "tp": 1314,
+              "fp": 53,
+              "fn": 69,
+              "tn": 2858
+            },
+            "delta_tp": 1,
+            "delta_fp": 5,
+            "f1_before": 0.956997084548105,
+            "f1_after": 0.9556363636363636
+          }
+        },
+        "matched": {}
+      }
+    },
+    "numeric/factor/matched_length/0.2": {
+      "calibration": {
+        "budget": {
+          "calls": 1030,
+          "characters": 662279,
+          "swap": 196,
+          "old_calls": 1030,
+          "old_characters": 668875,
+          "removed_large": 0,
+          "added_large": 0
+        },
+        "frozen": {
+          "before": {
+            "tp": 1328,
+            "fp": 51,
+            "fn": 60,
+            "tn": 2853
+          },
+          "after": {
+            "tp": 1332,
+            "fp": 63,
+            "fn": 56,
+            "tn": 2841
+          },
+          "delta_tp": 4,
+          "delta_fp": 12,
+          "f1_before": 0.959884351282978,
+          "f1_after": 0.9572403880704276
+        },
+        "action_effect": {
+          "new": {
+            "before": {
+              "tp": 1328,
+              "fp": 51,
+              "fn": 60,
+              "tn": 2853
+            },
+            "after": {
+              "tp": 1328,
+              "fp": 49,
+              "fn": 60,
+              "tn": 2855
+            },
+            "delta_tp": 0,
+            "delta_fp": -2,
+            "f1_before": 0.959884351282978,
+            "f1_after": 0.9605786618444846
+          },
+          "removed": {
+            "before": {
+              "tp": 1328,
+              "fp": 51,
+              "fn": 60,
+              "tn": 2853
+            },
+            "after": {
+              "tp": 1332,
+              "fp": 65,
+              "fn": 56,
+              "tn": 2839
+            },
+            "delta_tp": 4,
+            "delta_fp": 14,
+            "f1_before": 0.959884351282978,
+            "f1_after": 0.9565529622980251
+          }
+        },
+        "matched": {}
+      },
+      "held": {
+        "budget": {
+          "calls": 1036,
+          "characters": 693906,
+          "swap": 194,
+          "old_calls": 1036,
+          "old_characters": 700979,
+          "removed_large": 0,
+          "added_large": 0
+        },
+        "frozen": {
+          "before": {
+            "tp": 1313,
+            "fp": 48,
+            "fn": 70,
+            "tn": 2863
+          },
+          "after": {
+            "tp": 1316,
+            "fp": 66,
+            "fn": 67,
+            "tn": 2845
+          },
+          "delta_tp": 3,
+          "delta_fp": 18,
+          "f1_before": 0.956997084548105,
+          "f1_after": 0.9518987341772152
+        },
+        "action_effect": {
+          "new": {
+            "before": {
+              "tp": 1313,
+              "fp": 48,
+              "fn": 70,
+              "tn": 2863
+            },
+            "after": {
+              "tp": 1313,
+              "fp": 48,
+              "fn": 70,
+              "tn": 2863
+            },
+            "delta_tp": 0,
+            "delta_fp": 0,
+            "f1_before": 0.956997084548105,
+            "f1_after": 0.956997084548105
+          },
+          "removed": {
+            "before": {
+              "tp": 1313,
+              "fp": 48,
+              "fn": 70,
+              "tn": 2863
+            },
+            "after": {
+              "tp": 1316,
+              "fp": 66,
+              "fn": 67,
+              "tn": 2845
+            },
+            "delta_tp": 3,
+            "delta_fp": 18,
+            "f1_before": 0.956997084548105,
+            "f1_after": 0.9518987341772152
+          }
+        },
+        "matched": {}
+      }
+    },
+    "portfolio/direct/legacy/0.025": {
+      "calibration": {
+        "budget": {
+          "calls": 1030,
+          "characters": 668000,
+          "swap": 24,
+          "old_calls": 1030,
+          "old_characters": 668875,
+          "removed_large": 0,
+          "added_large": 0
+        },
+        "frozen": {
+          "before": {
+            "tp": 1328,
+            "fp": 51,
+            "fn": 60,
+            "tn": 2853
+          },
+          "after": {
+            "tp": 1329,
+            "fp": 55,
+            "fn": 59,
+            "tn": 2849
+          },
+          "delta_tp": 1,
+          "delta_fp": 4,
+          "f1_before": 0.959884351282978,
+          "f1_after": 0.9588744588744589
+        },
+        "action_effect": {
+          "new": {
+            "before": {
+              "tp": 1328,
+              "fp": 51,
+              "fn": 60,
+              "tn": 2853
+            },
+            "after": {
+              "tp": 1328,
+              "fp": 51,
+              "fn": 60,
+              "tn": 2853
+            },
+            "delta_tp": 0,
+            "delta_fp": 0,
+            "f1_before": 0.959884351282978,
+            "f1_after": 0.959884351282978
+          },
+          "removed": {
+            "before": {
+              "tp": 1328,
+              "fp": 51,
+              "fn": 60,
+              "tn": 2853
+            },
+            "after": {
+              "tp": 1329,
+              "fp": 55,
+              "fn": 59,
+              "tn": 2849
+            },
+            "delta_tp": 1,
+            "delta_fp": 4,
+            "f1_before": 0.959884351282978,
+            "f1_after": 0.9588744588744589
+          }
+        },
+        "matched": {}
+      },
+      "held": {
+        "budget": {
+          "calls": 1036,
+          "characters": 699479,
+          "swap": 24,
+          "old_calls": 1036,
+          "old_characters": 700979,
+          "removed_large": 0,
+          "added_large": 0
+        },
+        "frozen": {
+          "before": {
+            "tp": 1313,
+            "fp": 48,
+            "fn": 70,
+            "tn": 2863
+          },
+          "after": {
+            "tp": 1314,
+            "fp": 50,
+            "fn": 69,
+            "tn": 2861
+          },
+          "delta_tp": 1,
+          "delta_fp": 2,
+          "f1_before": 0.956997084548105,
+          "f1_after": 0.9566800145613397
+        },
+        "action_effect": {
+          "new": {
+            "before": {
+              "tp": 1313,
+              "fp": 48,
+              "fn": 70,
+              "tn": 2863
+            },
+            "after": {
+              "tp": 1313,
+              "fp": 48,
+              "fn": 70,
+              "tn": 2863
+            },
+            "delta_tp": 0,
+            "delta_fp": 0,
+            "f1_before": 0.956997084548105,
+            "f1_after": 0.956997084548105
+          },
+          "removed": {
+            "before": {
+              "tp": 1313,
+              "fp": 48,
+              "fn": 70,
+              "tn": 2863
+            },
+            "after": {
+              "tp": 1314,
+              "fp": 50,
+              "fn": 69,
+              "tn": 2861
+            },
+            "delta_tp": 1,
+            "delta_fp": 2,
+            "f1_before": 0.956997084548105,
+            "f1_after": 0.9566800145613397
+          }
+        },
+        "matched": {}
+      }
+    },
+    "portfolio/direct/legacy/0.08": {
+      "calibration": {
+        "budget": {
+          "calls": 1030,
+          "characters": 667536,
+          "swap": 77,
+          "old_calls": 1030,
+          "old_characters": 668875,
+          "removed_large": 0,
+          "added_large": 0
+        },
+        "frozen": {
+          "before": {
+            "tp": 1328,
+            "fp": 51,
+            "fn": 60,
+            "tn": 2853
+          },
+          "after": {
+            "tp": 1330,
+            "fp": 54,
+            "fn": 58,
+            "tn": 2850
+          },
+          "delta_tp": 2,
+          "delta_fp": 3,
+          "f1_before": 0.959884351282978,
+          "f1_after": 0.9595959595959596
+        },
+        "action_effect": {
+          "new": {
+            "before": {
+              "tp": 1328,
+              "fp": 51,
+              "fn": 60,
+              "tn": 2853
+            },
+            "after": {
+              "tp": 1328,
+              "fp": 50,
+              "fn": 60,
+              "tn": 2854
+            },
+            "delta_tp": 0,
+            "delta_fp": -1,
+            "f1_before": 0.959884351282978,
+            "f1_after": 0.9602313810556761
+          },
+          "removed": {
+            "before": {
+              "tp": 1328,
+              "fp": 51,
+              "fn": 60,
+              "tn": 2853
+            },
+            "after": {
+              "tp": 1330,
+              "fp": 55,
+              "fn": 58,
+              "tn": 2849
+            },
+            "delta_tp": 2,
+            "delta_fp": 4,
+            "f1_before": 0.959884351282978,
+            "f1_after": 0.9592499098449333
+          }
+        },
+        "matched": {}
+      },
+      "held": {
+        "budget": {
+          "calls": 1036,
+          "characters": 696552,
+          "swap": 78,
+          "old_calls": 1036,
+          "old_characters": 700979,
+          "removed_large": 0,
+          "added_large": 0
+        },
+        "frozen": {
+          "before": {
+            "tp": 1313,
+            "fp": 48,
+            "fn": 70,
+            "tn": 2863
+          },
+          "after": {
+            "tp": 1316,
+            "fp": 56,
+            "fn": 67,
+            "tn": 2855
+          },
+          "delta_tp": 3,
+          "delta_fp": 8,
+          "f1_before": 0.956997084548105,
+          "f1_after": 0.9553539019963703
+        },
+        "action_effect": {
+          "new": {
+            "before": {
+              "tp": 1313,
+              "fp": 48,
+              "fn": 70,
+              "tn": 2863
+            },
+            "after": {
+              "tp": 1313,
+              "fp": 48,
+              "fn": 70,
+              "tn": 2863
+            },
+            "delta_tp": 0,
+            "delta_fp": 0,
+            "f1_before": 0.956997084548105,
+            "f1_after": 0.956997084548105
+          },
+          "removed": {
+            "before": {
+              "tp": 1313,
+              "fp": 48,
+              "fn": 70,
+              "tn": 2863
+            },
+            "after": {
+              "tp": 1316,
+              "fp": 56,
+              "fn": 67,
+              "tn": 2855
+            },
+            "delta_tp": 3,
+            "delta_fp": 8,
+            "f1_before": 0.956997084548105,
+            "f1_after": 0.9553539019963703
+          }
+        },
+        "matched": {}
+      }
+    },
+    "portfolio/direct/legacy/0.2": {
+      "calibration": {
+        "budget": {
+          "calls": 1030,
+          "characters": 667789,
+          "swap": 86,
+          "old_calls": 1030,
+          "old_characters": 668875,
+          "removed_large": 0,
+          "added_large": 0
+        },
+        "frozen": {
+          "before": {
+            "tp": 1328,
+            "fp": 51,
+            "fn": 60,
+            "tn": 2853
+          },
+          "after": {
+            "tp": 1330,
+            "fp": 54,
+            "fn": 58,
+            "tn": 2850
+          },
+          "delta_tp": 2,
+          "delta_fp": 3,
+          "f1_before": 0.959884351282978,
+          "f1_after": 0.9595959595959596
+        },
+        "action_effect": {
+          "new": {
+            "before": {
+              "tp": 1328,
+              "fp": 51,
+              "fn": 60,
+              "tn": 2853
+            },
+            "after": {
+              "tp": 1328,
+              "fp": 50,
+              "fn": 60,
+              "tn": 2854
+            },
+            "delta_tp": 0,
+            "delta_fp": -1,
+            "f1_before": 0.959884351282978,
+            "f1_after": 0.9602313810556761
+          },
+          "removed": {
+            "before": {
+              "tp": 1328,
+              "fp": 51,
+              "fn": 60,
+              "tn": 2853
+            },
+            "after": {
+              "tp": 1330,
+              "fp": 55,
+              "fn": 58,
+              "tn": 2849
+            },
+            "delta_tp": 2,
+            "delta_fp": 4,
+            "f1_before": 0.959884351282978,
+            "f1_after": 0.9592499098449333
+          }
+        },
+        "matched": {}
+      },
+      "held": {
+        "budget": {
+          "calls": 1036,
+          "characters": 696577,
+          "swap": 92,
+          "old_calls": 1036,
+          "old_characters": 700979,
+          "removed_large": 0,
+          "added_large": 0
+        },
+        "frozen": {
+          "before": {
+            "tp": 1313,
+            "fp": 48,
+            "fn": 70,
+            "tn": 2863
+          },
+          "after": {
+            "tp": 1316,
+            "fp": 58,
+            "fn": 67,
+            "tn": 2853
+          },
+          "delta_tp": 3,
+          "delta_fp": 10,
+          "f1_before": 0.956997084548105,
+          "f1_after": 0.9546608632571636
+        },
+        "action_effect": {
+          "new": {
+            "before": {
+              "tp": 1313,
+              "fp": 48,
+              "fn": 70,
+              "tn": 2863
+            },
+            "after": {
+              "tp": 1313,
+              "fp": 48,
+              "fn": 70,
+              "tn": 2863
+            },
+            "delta_tp": 0,
+            "delta_fp": 0,
+            "f1_before": 0.956997084548105,
+            "f1_after": 0.956997084548105
+          },
+          "removed": {
+            "before": {
+              "tp": 1313,
+              "fp": 48,
+              "fn": 70,
+              "tn": 2863
+            },
+            "after": {
+              "tp": 1316,
+              "fp": 58,
+              "fn": 67,
+              "tn": 2853
+            },
+            "delta_tp": 3,
+            "delta_fp": 10,
+            "f1_before": 0.956997084548105,
+            "f1_after": 0.9546608632571636
+          }
+        },
+        "matched": {}
+      }
+    },
+    "portfolio/direct/matched_length/0.025": {
+      "calibration": {
+        "budget": {
+          "calls": 1030,
+          "characters": 668696,
+          "swap": 24,
+          "old_calls": 1030,
+          "old_characters": 668875,
+          "removed_large": 0,
+          "added_large": 0
+        },
+        "frozen": {
+          "before": {
+            "tp": 1328,
+            "fp": 51,
+            "fn": 60,
+            "tn": 2853
+          },
+          "after": {
+            "tp": 1328,
+            "fp": 52,
+            "fn": 60,
+            "tn": 2852
+          },
+          "delta_tp": 0,
+          "delta_fp": 1,
+          "f1_before": 0.959884351282978,
+          "f1_after": 0.9595375722543352
+        },
+        "action_effect": {
+          "new": {
+            "before": {
+              "tp": 1328,
+              "fp": 51,
+              "fn": 60,
+              "tn": 2853
+            },
+            "after": {
+              "tp": 1328,
+              "fp": 51,
+              "fn": 60,
+              "tn": 2853
+            },
+            "delta_tp": 0,
+            "delta_fp": 0,
+            "f1_before": 0.959884351282978,
+            "f1_after": 0.959884351282978
+          },
+          "removed": {
+            "before": {
+              "tp": 1328,
+              "fp": 51,
+              "fn": 60,
+              "tn": 2853
+            },
+            "after": {
+              "tp": 1328,
+              "fp": 52,
+              "fn": 60,
+              "tn": 2852
+            },
+            "delta_tp": 0,
+            "delta_fp": 1,
+            "f1_before": 0.959884351282978,
+            "f1_after": 0.9595375722543352
+          }
+        },
+        "matched": {}
+      },
+      "held": {
+        "budget": {
+          "calls": 1036,
+          "characters": 700694,
+          "swap": 24,
+          "old_calls": 1036,
+          "old_characters": 700979,
+          "removed_large": 0,
+          "added_large": 0
+        },
+        "frozen": {
+          "before": {
+            "tp": 1313,
+            "fp": 48,
+            "fn": 70,
+            "tn": 2863
+          },
+          "after": {
+            "tp": 1313,
+            "fp": 49,
+            "fn": 70,
+            "tn": 2862
+          },
+          "delta_tp": 0,
+          "delta_fp": 1,
+          "f1_before": 0.956997084548105,
+          "f1_after": 0.9566484517304189
+        },
+        "action_effect": {
+          "new": {
+            "before": {
+              "tp": 1313,
+              "fp": 48,
+              "fn": 70,
+              "tn": 2863
+            },
+            "after": {
+              "tp": 1313,
+              "fp": 48,
+              "fn": 70,
+              "tn": 2863
+            },
+            "delta_tp": 0,
+            "delta_fp": 0,
+            "f1_before": 0.956997084548105,
+            "f1_after": 0.956997084548105
+          },
+          "removed": {
+            "before": {
+              "tp": 1313,
+              "fp": 48,
+              "fn": 70,
+              "tn": 2863
+            },
+            "after": {
+              "tp": 1313,
+              "fp": 49,
+              "fn": 70,
+              "tn": 2862
+            },
+            "delta_tp": 0,
+            "delta_fp": 1,
+            "f1_before": 0.956997084548105,
+            "f1_after": 0.9566484517304189
+          }
+        },
+        "matched": {}
+      }
+    },
+    "portfolio/direct/matched_length/0.08": {
+      "calibration": {
+        "budget": {
+          "calls": 1030,
+          "characters": 667245,
+          "swap": 80,
+          "old_calls": 1030,
+          "old_characters": 668875,
+          "removed_large": 0,
+          "added_large": 0
+        },
+        "frozen": {
+          "before": {
+            "tp": 1328,
+            "fp": 51,
+            "fn": 60,
+            "tn": 2853
+          },
+          "after": {
+            "tp": 1328,
+            "fp": 52,
+            "fn": 60,
+            "tn": 2852
+          },
+          "delta_tp": 0,
+          "delta_fp": 1,
+          "f1_before": 0.959884351282978,
+          "f1_after": 0.9595375722543352
+        },
+        "action_effect": {
+          "new": {
+            "before": {
+              "tp": 1328,
+              "fp": 51,
+              "fn": 60,
+              "tn": 2853
+            },
+            "after": {
+              "tp": 1328,
+              "fp": 50,
+              "fn": 60,
+              "tn": 2854
+            },
+            "delta_tp": 0,
+            "delta_fp": -1,
+            "f1_before": 0.959884351282978,
+            "f1_after": 0.9602313810556761
+          },
+          "removed": {
+            "before": {
+              "tp": 1328,
+              "fp": 51,
+              "fn": 60,
+              "tn": 2853
+            },
+            "after": {
+              "tp": 1328,
+              "fp": 53,
+              "fn": 60,
+              "tn": 2851
+            },
+            "delta_tp": 0,
+            "delta_fp": 2,
+            "f1_before": 0.959884351282978,
+            "f1_after": 0.9591910436980859
+          }
+        },
+        "matched": {}
+      },
+      "held": {
+        "budget": {
+          "calls": 1036,
+          "characters": 697686,
+          "swap": 80,
+          "old_calls": 1036,
+          "old_characters": 700979,
+          "removed_large": 0,
+          "added_large": 0
+        },
+        "frozen": {
+          "before": {
+            "tp": 1313,
+            "fp": 48,
+            "fn": 70,
+            "tn": 2863
+          },
+          "after": {
+            "tp": 1317,
+            "fp": 53,
+            "fn": 66,
+            "tn": 2858
+          },
+          "delta_tp": 4,
+          "delta_fp": 5,
+          "f1_before": 0.956997084548105,
+          "f1_after": 0.9567744278968399
+        },
+        "action_effect": {
+          "new": {
+            "before": {
+              "tp": 1313,
+              "fp": 48,
+              "fn": 70,
+              "tn": 2863
+            },
+            "after": {
+              "tp": 1313,
+              "fp": 48,
+              "fn": 70,
+              "tn": 2863
+            },
+            "delta_tp": 0,
+            "delta_fp": 0,
+            "f1_before": 0.956997084548105,
+            "f1_after": 0.956997084548105
+          },
+          "removed": {
+            "before": {
+              "tp": 1313,
+              "fp": 48,
+              "fn": 70,
+              "tn": 2863
+            },
+            "after": {
+              "tp": 1317,
+              "fp": 53,
+              "fn": 66,
+              "tn": 2858
+            },
+            "delta_tp": 4,
+            "delta_fp": 5,
+            "f1_before": 0.956997084548105,
+            "f1_after": 0.9567744278968399
+          }
+        },
+        "matched": {}
+      }
+    },
+    "portfolio/direct/matched_length/0.2": {
+      "calibration": {
+        "budget": {
+          "calls": 1030,
+          "characters": 665223,
+          "swap": 116,
+          "old_calls": 1030,
+          "old_characters": 668875,
+          "removed_large": 0,
+          "added_large": 0
+        },
+        "frozen": {
+          "before": {
+            "tp": 1328,
+            "fp": 51,
+            "fn": 60,
+            "tn": 2853
+          },
+          "after": {
+            "tp": 1329,
+            "fp": 54,
+            "fn": 59,
+            "tn": 2850
+          },
+          "delta_tp": 1,
+          "delta_fp": 3,
+          "f1_before": 0.959884351282978,
+          "f1_after": 0.959220498015157
+        },
+        "action_effect": {
+          "new": {
+            "before": {
+              "tp": 1328,
+              "fp": 51,
+              "fn": 60,
+              "tn": 2853
+            },
+            "after": {
+              "tp": 1328,
+              "fp": 50,
+              "fn": 60,
+              "tn": 2854
+            },
+            "delta_tp": 0,
+            "delta_fp": -1,
+            "f1_before": 0.959884351282978,
+            "f1_after": 0.9602313810556761
+          },
+          "removed": {
+            "before": {
+              "tp": 1328,
+              "fp": 51,
+              "fn": 60,
+              "tn": 2853
+            },
+            "after": {
+              "tp": 1329,
+              "fp": 55,
+              "fn": 59,
+              "tn": 2849
+            },
+            "delta_tp": 1,
+            "delta_fp": 4,
+            "f1_before": 0.959884351282978,
+            "f1_after": 0.9588744588744589
+          }
+        },
+        "matched": {}
+      },
+      "held": {
+        "budget": {
+          "calls": 1036,
+          "characters": 694678,
+          "swap": 117,
+          "old_calls": 1036,
+          "old_characters": 700979,
+          "removed_large": 0,
+          "added_large": 0
+        },
+        "frozen": {
+          "before": {
+            "tp": 1313,
+            "fp": 48,
+            "fn": 70,
+            "tn": 2863
+          },
+          "after": {
+            "tp": 1318,
+            "fp": 58,
+            "fn": 65,
+            "tn": 2853
+          },
+          "delta_tp": 5,
+          "delta_fp": 10,
+          "f1_before": 0.956997084548105,
+          "f1_after": 0.9554186299383834
+        },
+        "action_effect": {
+          "new": {
+            "before": {
+              "tp": 1313,
+              "fp": 48,
+              "fn": 70,
+              "tn": 2863
+            },
+            "after": {
+              "tp": 1313,
+              "fp": 48,
+              "fn": 70,
+              "tn": 2863
+            },
+            "delta_tp": 0,
+            "delta_fp": 0,
+            "f1_before": 0.956997084548105,
+            "f1_after": 0.956997084548105
+          },
+          "removed": {
+            "before": {
+              "tp": 1313,
+              "fp": 48,
+              "fn": 70,
+              "tn": 2863
+            },
+            "after": {
+              "tp": 1318,
+              "fp": 58,
+              "fn": 65,
+              "tn": 2853
+            },
+            "delta_tp": 5,
+            "delta_fp": 10,
+            "f1_before": 0.956997084548105,
+            "f1_after": 0.9554186299383834
+          }
+        },
+        "matched": {}
+      }
+    },
+    "portfolio/factor/legacy/0.025": {
+      "calibration": {
+        "budget": {
+          "calls": 1030,
+          "characters": 668745,
+          "swap": 23,
+          "old_calls": 1030,
+          "old_characters": 668875,
+          "removed_large": 0,
+          "added_large": 0
+        },
+        "frozen": {
+          "before": {
+            "tp": 1328,
+            "fp": 51,
+            "fn": 60,
+            "tn": 2853
+          },
+          "after": {
+            "tp": 1329,
+            "fp": 57,
+            "fn": 59,
+            "tn": 2847
+          },
+          "delta_tp": 1,
+          "delta_fp": 6,
+          "f1_before": 0.959884351282978,
+          "f1_after": 0.9581831290555155
+        },
+        "action_effect": {
+          "new": {
+            "before": {
+              "tp": 1328,
+              "fp": 51,
+              "fn": 60,
+              "tn": 2853
+            },
+            "after": {
+              "tp": 1328,
+              "fp": 51,
+              "fn": 60,
+              "tn": 2853
+            },
+            "delta_tp": 0,
+            "delta_fp": 0,
+            "f1_before": 0.959884351282978,
+            "f1_after": 0.959884351282978
+          },
+          "removed": {
+            "before": {
+              "tp": 1328,
+              "fp": 51,
+              "fn": 60,
+              "tn": 2853
+            },
+            "after": {
+              "tp": 1329,
+              "fp": 57,
+              "fn": 59,
+              "tn": 2847
+            },
+            "delta_tp": 1,
+            "delta_fp": 6,
+            "f1_before": 0.959884351282978,
+            "f1_after": 0.9581831290555155
+          }
+        },
+        "matched": {}
+      },
+      "held": {
+        "budget": {
+          "calls": 1036,
+          "characters": 700951,
+          "swap": 25,
+          "old_calls": 1036,
+          "old_characters": 700979,
+          "removed_large": 1,
+          "added_large": 1
+        },
+        "frozen": {
+          "before": {
+            "tp": 1313,
+            "fp": 48,
+            "fn": 70,
+            "tn": 2863
+          },
+          "after": {
+            "tp": 1319,
+            "fp": 54,
+            "fn": 64,
+            "tn": 2857
+          },
+          "delta_tp": 6,
+          "delta_fp": 6,
+          "f1_before": 0.956997084548105,
+          "f1_after": 0.9571843251088534
+        },
+        "action_effect": {
+          "new": {
+            "before": {
+              "tp": 1313,
+              "fp": 48,
+              "fn": 70,
+              "tn": 2863
+            },
+            "after": {
+              "tp": 1314,
+              "fp": 48,
+              "fn": 69,
+              "tn": 2863
+            },
+            "delta_tp": 1,
+            "delta_fp": 0,
+            "f1_before": 0.956997084548105,
+            "f1_after": 0.9573770491803278
+          },
+          "removed": {
+            "before": {
+              "tp": 1313,
+              "fp": 48,
+              "fn": 70,
+              "tn": 2863
+            },
+            "after": {
+              "tp": 1318,
+              "fp": 54,
+              "fn": 65,
+              "tn": 2857
+            },
+            "delta_tp": 5,
+            "delta_fp": 6,
+            "f1_before": 0.956997084548105,
+            "f1_after": 0.9568058076225046
+          }
+        },
+        "matched": {}
+      }
+    },
+    "portfolio/factor/legacy/0.08": {
+      "calibration": {
+        "budget": {
+          "calls": 1030,
+          "characters": 668492,
+          "swap": 79,
+          "old_calls": 1030,
+          "old_characters": 668875,
+          "removed_large": 0,
+          "added_large": 0
+        },
+        "frozen": {
+          "before": {
+            "tp": 1328,
+            "fp": 51,
+            "fn": 60,
+            "tn": 2853
+          },
+          "after": {
+            "tp": 1333,
+            "fp": 60,
+            "fn": 55,
+            "tn": 2844
+          },
+          "delta_tp": 5,
+          "delta_fp": 9,
+          "f1_before": 0.959884351282978,
+          "f1_after": 0.9586479683567062
+        },
+        "action_effect": {
+          "new": {
+            "before": {
+              "tp": 1328,
+              "fp": 51,
+              "fn": 60,
+              "tn": 2853
+            },
+            "after": {
+              "tp": 1328,
+              "fp": 49,
+              "fn": 60,
+              "tn": 2855
+            },
+            "delta_tp": 0,
+            "delta_fp": -2,
+            "f1_before": 0.959884351282978,
+            "f1_after": 0.9605786618444846
+          },
+          "removed": {
+            "before": {
+              "tp": 1328,
+              "fp": 51,
+              "fn": 60,
+              "tn": 2853
+            },
+            "after": {
+              "tp": 1333,
+              "fp": 62,
+              "fn": 55,
+              "tn": 2842
+            },
+            "delta_tp": 5,
+            "delta_fp": 11,
+            "f1_before": 0.959884351282978,
+            "f1_after": 0.9579590370104204
+          }
+        },
+        "matched": {}
+      },
+      "held": {
+        "budget": {
+          "calls": 1036,
+          "characters": 700820,
+          "swap": 82,
+          "old_calls": 1036,
+          "old_characters": 700979,
+          "removed_large": 1,
+          "added_large": 1
+        },
+        "frozen": {
+          "before": {
+            "tp": 1313,
+            "fp": 48,
+            "fn": 70,
+            "tn": 2863
+          },
+          "after": {
+            "tp": 1319,
+            "fp": 64,
+            "fn": 64,
+            "tn": 2847
+          },
+          "delta_tp": 6,
+          "delta_fp": 16,
+          "f1_before": 0.956997084548105,
+          "f1_after": 0.9537237888647867
+        },
+        "action_effect": {
+          "new": {
+            "before": {
+              "tp": 1313,
+              "fp": 48,
+              "fn": 70,
+              "tn": 2863
+            },
+            "after": {
+              "tp": 1314,
+              "fp": 48,
+              "fn": 69,
+              "tn": 2863
+            },
+            "delta_tp": 1,
+            "delta_fp": 0,
+            "f1_before": 0.956997084548105,
+            "f1_after": 0.9573770491803278
+          },
+          "removed": {
+            "before": {
+              "tp": 1313,
+              "fp": 48,
+              "fn": 70,
+              "tn": 2863
+            },
+            "after": {
+              "tp": 1318,
+              "fp": 64,
+              "fn": 65,
+              "tn": 2847
+            },
+            "delta_tp": 5,
+            "delta_fp": 16,
+            "f1_before": 0.956997084548105,
+            "f1_after": 0.9533453887884268
+          }
+        },
+        "matched": {}
+      }
+    },
+    "portfolio/factor/legacy/0.2": {
+      "calibration": {
+        "budget": {
+          "calls": 1030,
+          "characters": 668861,
+          "swap": 180,
+          "old_calls": 1030,
+          "old_characters": 668875,
+          "removed_large": 0,
+          "added_large": 0
+        },
+        "frozen": {
+          "before": {
+            "tp": 1328,
+            "fp": 51,
+            "fn": 60,
+            "tn": 2853
+          },
+          "after": {
+            "tp": 1334,
+            "fp": 62,
+            "fn": 54,
+            "tn": 2842
+          },
+          "delta_tp": 6,
+          "delta_fp": 11,
+          "f1_before": 0.959884351282978,
+          "f1_after": 0.9583333333333334
+        },
+        "action_effect": {
+          "new": {
+            "before": {
+              "tp": 1328,
+              "fp": 51,
+              "fn": 60,
+              "tn": 2853
+            },
+            "after": {
+              "tp": 1328,
+              "fp": 49,
+              "fn": 60,
+              "tn": 2855
+            },
+            "delta_tp": 0,
+            "delta_fp": -2,
+            "f1_before": 0.959884351282978,
+            "f1_after": 0.9605786618444846
+          },
+          "removed": {
+            "before": {
+              "tp": 1328,
+              "fp": 51,
+              "fn": 60,
+              "tn": 2853
+            },
+            "after": {
+              "tp": 1334,
+              "fp": 64,
+              "fn": 54,
+              "tn": 2840
+            },
+            "delta_tp": 6,
+            "delta_fp": 13,
+            "f1_before": 0.959884351282978,
+            "f1_after": 0.9576453697056713
+          }
+        },
+        "matched": {}
+      },
+      "held": {
+        "budget": {
+          "calls": 1036,
+          "characters": 697122,
+          "swap": 189,
+          "old_calls": 1036,
+          "old_characters": 700979,
+          "removed_large": 1,
+          "added_large": 1
+        },
+        "frozen": {
+          "before": {
+            "tp": 1313,
+            "fp": 48,
+            "fn": 70,
+            "tn": 2863
+          },
+          "after": {
+            "tp": 1319,
+            "fp": 66,
+            "fn": 64,
+            "tn": 2845
+          },
+          "delta_tp": 6,
+          "delta_fp": 18,
+          "f1_before": 0.956997084548105,
+          "f1_after": 0.9530346820809249
+        },
+        "action_effect": {
+          "new": {
+            "before": {
+              "tp": 1313,
+              "fp": 48,
+              "fn": 70,
+              "tn": 2863
+            },
+            "after": {
+              "tp": 1314,
+              "fp": 48,
+              "fn": 69,
+              "tn": 2863
+            },
+            "delta_tp": 1,
+            "delta_fp": 0,
+            "f1_before": 0.956997084548105,
+            "f1_after": 0.9573770491803278
+          },
+          "removed": {
+            "before": {
+              "tp": 1313,
+              "fp": 48,
+              "fn": 70,
+              "tn": 2863
+            },
+            "after": {
+              "tp": 1318,
+              "fp": 66,
+              "fn": 65,
+              "tn": 2845
+            },
+            "delta_tp": 5,
+            "delta_fp": 18,
+            "f1_before": 0.956997084548105,
+            "f1_after": 0.9526563064691002
+          }
+        },
+        "matched": {}
+      }
+    },
+    "portfolio/factor/matched_length/0.025": {
+      "calibration": {
+        "budget": {
+          "calls": 1030,
+          "characters": 668785,
+          "swap": 24,
+          "old_calls": 1030,
+          "old_characters": 668875,
+          "removed_large": 0,
+          "added_large": 0
+        },
+        "frozen": {
+          "before": {
+            "tp": 1328,
+            "fp": 51,
+            "fn": 60,
+            "tn": 2853
+          },
+          "after": {
+            "tp": 1328,
+            "fp": 54,
+            "fn": 60,
+            "tn": 2850
+          },
+          "delta_tp": 0,
+          "delta_fp": 3,
+          "f1_before": 0.959884351282978,
+          "f1_after": 0.9588447653429603
+        },
+        "action_effect": {
+          "new": {
+            "before": {
+              "tp": 1328,
+              "fp": 51,
+              "fn": 60,
+              "tn": 2853
+            },
+            "after": {
+              "tp": 1328,
+              "fp": 51,
+              "fn": 60,
+              "tn": 2853
+            },
+            "delta_tp": 0,
+            "delta_fp": 0,
+            "f1_before": 0.959884351282978,
+            "f1_after": 0.959884351282978
+          },
+          "removed": {
+            "before": {
+              "tp": 1328,
+              "fp": 51,
+              "fn": 60,
+              "tn": 2853
+            },
+            "after": {
+              "tp": 1328,
+              "fp": 54,
+              "fn": 60,
+              "tn": 2850
+            },
+            "delta_tp": 0,
+            "delta_fp": 3,
+            "f1_before": 0.959884351282978,
+            "f1_after": 0.9588447653429603
+          }
+        },
+        "matched": {}
+      },
+      "held": {
+        "budget": {
+          "calls": 1036,
+          "characters": 700785,
+          "swap": 24,
+          "old_calls": 1036,
+          "old_characters": 700979,
+          "removed_large": 0,
+          "added_large": 0
+        },
+        "frozen": {
+          "before": {
+            "tp": 1313,
+            "fp": 48,
+            "fn": 70,
+            "tn": 2863
+          },
+          "after": {
+            "tp": 1315,
+            "fp": 50,
+            "fn": 68,
+            "tn": 2861
+          },
+          "delta_tp": 2,
+          "delta_fp": 2,
+          "f1_before": 0.956997084548105,
+          "f1_after": 0.9570596797671034
+        },
+        "action_effect": {
+          "new": {
+            "before": {
+              "tp": 1313,
+              "fp": 48,
+              "fn": 70,
+              "tn": 2863
+            },
+            "after": {
+              "tp": 1314,
+              "fp": 48,
+              "fn": 69,
+              "tn": 2863
+            },
+            "delta_tp": 1,
+            "delta_fp": 0,
+            "f1_before": 0.956997084548105,
+            "f1_after": 0.9573770491803278
+          },
+          "removed": {
+            "before": {
+              "tp": 1313,
+              "fp": 48,
+              "fn": 70,
+              "tn": 2863
+            },
+            "after": {
+              "tp": 1314,
+              "fp": 50,
+              "fn": 69,
+              "tn": 2861
+            },
+            "delta_tp": 1,
+            "delta_fp": 2,
+            "f1_before": 0.956997084548105,
+            "f1_after": 0.9566800145613397
+          }
+        },
+        "matched": {}
+      }
+    },
+    "portfolio/factor/matched_length/0.08": {
+      "calibration": {
+        "budget": {
+          "calls": 1030,
+          "characters": 668474,
+          "swap": 80,
+          "old_calls": 1030,
+          "old_characters": 668875,
+          "removed_large": 0,
+          "added_large": 0
+        },
+        "frozen": {
+          "before": {
+            "tp": 1328,
+            "fp": 51,
+            "fn": 60,
+            "tn": 2853
+          },
+          "after": {
+            "tp": 1331,
+            "fp": 57,
+            "fn": 57,
+            "tn": 2847
+          },
+          "delta_tp": 3,
+          "delta_fp": 6,
+          "f1_before": 0.959884351282978,
+          "f1_after": 0.9589337175792507
+        },
+        "action_effect": {
+          "new": {
+            "before": {
+              "tp": 1328,
+              "fp": 51,
+              "fn": 60,
+              "tn": 2853
+            },
+            "after": {
+              "tp": 1328,
+              "fp": 49,
+              "fn": 60,
+              "tn": 2855
+            },
+            "delta_tp": 0,
+            "delta_fp": -2,
+            "f1_before": 0.959884351282978,
+            "f1_after": 0.9605786618444846
+          },
+          "removed": {
+            "before": {
+              "tp": 1328,
+              "fp": 51,
+              "fn": 60,
+              "tn": 2853
+            },
+            "after": {
+              "tp": 1331,
+              "fp": 59,
+              "fn": 57,
+              "tn": 2845
+            },
+            "delta_tp": 3,
+            "delta_fp": 8,
+            "f1_before": 0.959884351282978,
+            "f1_after": 0.9582433405327574
+          }
+        },
+        "matched": {}
+      },
+      "held": {
+        "budget": {
+          "calls": 1036,
+          "characters": 699950,
+          "swap": 81,
+          "old_calls": 1036,
+          "old_characters": 700979,
+          "removed_large": 0,
+          "added_large": 0
+        },
+        "frozen": {
+          "before": {
+            "tp": 1313,
+            "fp": 48,
+            "fn": 70,
+            "tn": 2863
+          },
+          "after": {
+            "tp": 1317,
+            "fp": 57,
+            "fn": 66,
+            "tn": 2854
+          },
+          "delta_tp": 4,
+          "delta_fp": 9,
+          "f1_before": 0.956997084548105,
+          "f1_after": 0.955386289445049
+        },
+        "action_effect": {
+          "new": {
+            "before": {
+              "tp": 1313,
+              "fp": 48,
+              "fn": 70,
+              "tn": 2863
+            },
+            "after": {
+              "tp": 1314,
+              "fp": 48,
+              "fn": 69,
+              "tn": 2863
+            },
+            "delta_tp": 1,
+            "delta_fp": 0,
+            "f1_before": 0.956997084548105,
+            "f1_after": 0.9573770491803278
+          },
+          "removed": {
+            "before": {
+              "tp": 1313,
+              "fp": 48,
+              "fn": 70,
+              "tn": 2863
+            },
+            "after": {
+              "tp": 1316,
+              "fp": 57,
+              "fn": 67,
+              "tn": 2854
+            },
+            "delta_tp": 3,
+            "delta_fp": 9,
+            "f1_before": 0.956997084548105,
+            "f1_after": 0.9550072568940493
+          }
+        },
+        "matched": {}
+      }
+    },
+    "portfolio/factor/matched_length/0.2": {
+      "calibration": {
+        "budget": {
+          "calls": 1030,
+          "characters": 664968,
+          "swap": 204,
+          "old_calls": 1030,
+          "old_characters": 668875,
+          "removed_large": 0,
+          "added_large": 0
+        },
+        "frozen": {
+          "before": {
+            "tp": 1328,
+            "fp": 51,
+            "fn": 60,
+            "tn": 2853
+          },
+          "after": {
+            "tp": 1334,
+            "fp": 60,
+            "fn": 54,
+            "tn": 2844
+          },
+          "delta_tp": 6,
+          "delta_fp": 9,
+          "f1_before": 0.959884351282978,
+          "f1_after": 0.9590222861250899
+        },
+        "action_effect": {
+          "new": {
+            "before": {
+              "tp": 1328,
+              "fp": 51,
+              "fn": 60,
+              "tn": 2853
+            },
+            "after": {
+              "tp": 1328,
+              "fp": 49,
+              "fn": 60,
+              "tn": 2855
+            },
+            "delta_tp": 0,
+            "delta_fp": -2,
+            "f1_before": 0.959884351282978,
+            "f1_after": 0.9605786618444846
+          },
+          "removed": {
+            "before": {
+              "tp": 1328,
+              "fp": 51,
+              "fn": 60,
+              "tn": 2853
+            },
+            "after": {
+              "tp": 1334,
+              "fp": 62,
+              "fn": 54,
+              "tn": 2842
+            },
+            "delta_tp": 6,
+            "delta_fp": 11,
+            "f1_before": 0.959884351282978,
+            "f1_after": 0.9583333333333334
+          }
+        },
+        "matched": {}
+      },
+      "held": {
+        "budget": {
+          "calls": 1036,
+          "characters": 696306,
+          "swap": 196,
+          "old_calls": 1036,
+          "old_characters": 700979,
+          "removed_large": 0,
+          "added_large": 0
+        },
+        "frozen": {
+          "before": {
+            "tp": 1313,
+            "fp": 48,
+            "fn": 70,
+            "tn": 2863
+          },
+          "after": {
+            "tp": 1318,
+            "fp": 64,
+            "fn": 65,
+            "tn": 2847
+          },
+          "delta_tp": 5,
+          "delta_fp": 16,
+          "f1_before": 0.956997084548105,
+          "f1_after": 0.9533453887884268
+        },
+        "action_effect": {
+          "new": {
+            "before": {
+              "tp": 1313,
+              "fp": 48,
+              "fn": 70,
+              "tn": 2863
+            },
+            "after": {
+              "tp": 1314,
+              "fp": 48,
+              "fn": 69,
+              "tn": 2863
+            },
+            "delta_tp": 1,
+            "delta_fp": 0,
+            "f1_before": 0.956997084548105,
+            "f1_after": 0.9573770491803278
+          },
+          "removed": {
+            "before": {
+              "tp": 1313,
+              "fp": 48,
+              "fn": 70,
+              "tn": 2863
+            },
+            "after": {
+              "tp": 1317,
+              "fp": 64,
+              "fn": 66,
+              "tn": 2847
+            },
+            "delta_tp": 4,
+            "delta_fp": 16,
+            "f1_before": 0.956997084548105,
+            "f1_after": 0.9529667149059334
+          }
+        },
+        "matched": {}
+      }
+    },
+    "layout/direct/legacy/0.025": {
+      "calibration": {
+        "budget": {
+          "calls": 1030,
+          "characters": 668719,
+          "swap": 24,
+          "old_calls": 1030,
+          "old_characters": 668875,
+          "removed_large": 0,
+          "added_large": 0
+        },
+        "frozen": {
+          "before": {
+            "tp": 1328,
+            "fp": 51,
+            "fn": 60,
+            "tn": 2853
+          },
+          "after": {
+            "tp": 1329,
+            "fp": 54,
+            "fn": 59,
+            "tn": 2850
+          },
+          "delta_tp": 1,
+          "delta_fp": 3,
+          "f1_before": 0.959884351282978,
+          "f1_after": 0.959220498015157
+        },
+        "action_effect": {
+          "new": {
+            "before": {
+              "tp": 1328,
+              "fp": 51,
+              "fn": 60,
+              "tn": 2853
+            },
+            "after": {
+              "tp": 1328,
+              "fp": 51,
+              "fn": 60,
+              "tn": 2853
+            },
+            "delta_tp": 0,
+            "delta_fp": 0,
+            "f1_before": 0.959884351282978,
+            "f1_after": 0.959884351282978
+          },
+          "removed": {
+            "before": {
+              "tp": 1328,
+              "fp": 51,
+              "fn": 60,
+              "tn": 2853
+            },
+            "after": {
+              "tp": 1329,
+              "fp": 54,
+              "fn": 59,
+              "tn": 2850
+            },
+            "delta_tp": 1,
+            "delta_fp": 3,
+            "f1_before": 0.959884351282978,
+            "f1_after": 0.959220498015157
+          }
+        },
+        "matched": {}
+      },
+      "held": {
+        "budget": {
+          "calls": 1036,
+          "characters": 700718,
+          "swap": 25,
+          "old_calls": 1036,
+          "old_characters": 700979,
+          "removed_large": 1,
+          "added_large": 1
+        },
+        "frozen": {
+          "before": {
+            "tp": 1313,
+            "fp": 48,
+            "fn": 70,
+            "tn": 2863
+          },
+          "after": {
+            "tp": 1315,
+            "fp": 52,
+            "fn": 68,
+            "tn": 2859
+          },
+          "delta_tp": 2,
+          "delta_fp": 4,
+          "f1_before": 0.956997084548105,
+          "f1_after": 0.9563636363636364
+        },
+        "action_effect": {
+          "new": {
+            "before": {
+              "tp": 1313,
+              "fp": 48,
+              "fn": 70,
+              "tn": 2863
+            },
+            "after": {
+              "tp": 1313,
+              "fp": 48,
+              "fn": 70,
+              "tn": 2863
+            },
+            "delta_tp": 0,
+            "delta_fp": 0,
+            "f1_before": 0.956997084548105,
+            "f1_after": 0.956997084548105
+          },
+          "removed": {
+            "before": {
+              "tp": 1313,
+              "fp": 48,
+              "fn": 70,
+              "tn": 2863
+            },
+            "after": {
+              "tp": 1315,
+              "fp": 52,
+              "fn": 68,
+              "tn": 2859
+            },
+            "delta_tp": 2,
+            "delta_fp": 4,
+            "f1_before": 0.956997084548105,
+            "f1_after": 0.9563636363636364
+          }
+        },
+        "matched": {}
+      }
+    },
+    "layout/direct/legacy/0.08": {
+      "calibration": {
+        "budget": {
+          "calls": 1030,
+          "characters": 668785,
+          "swap": 78,
+          "old_calls": 1030,
+          "old_characters": 668875,
+          "removed_large": 0,
+          "added_large": 0
+        },
+        "frozen": {
+          "before": {
+            "tp": 1328,
+            "fp": 51,
+            "fn": 60,
+            "tn": 2853
+          },
+          "after": {
+            "tp": 1331,
+            "fp": 57,
+            "fn": 57,
+            "tn": 2847
+          },
+          "delta_tp": 3,
+          "delta_fp": 6,
+          "f1_before": 0.959884351282978,
+          "f1_after": 0.9589337175792507
+        },
+        "action_effect": {
+          "new": {
+            "before": {
+              "tp": 1328,
+              "fp": 51,
+              "fn": 60,
+              "tn": 2853
+            },
+            "after": {
+              "tp": 1328,
+              "fp": 51,
+              "fn": 60,
+              "tn": 2853
+            },
+            "delta_tp": 0,
+            "delta_fp": 0,
+            "f1_before": 0.959884351282978,
+            "f1_after": 0.959884351282978
+          },
+          "removed": {
+            "before": {
+              "tp": 1328,
+              "fp": 51,
+              "fn": 60,
+              "tn": 2853
+            },
+            "after": {
+              "tp": 1331,
+              "fp": 57,
+              "fn": 57,
+              "tn": 2847
+            },
+            "delta_tp": 3,
+            "delta_fp": 6,
+            "f1_before": 0.959884351282978,
+            "f1_after": 0.9589337175792507
+          }
+        },
+        "matched": {}
+      },
+      "held": {
+        "budget": {
+          "calls": 1036,
+          "characters": 698672,
+          "swap": 82,
+          "old_calls": 1036,
+          "old_characters": 700979,
+          "removed_large": 1,
+          "added_large": 1
+        },
+        "frozen": {
+          "before": {
+            "tp": 1313,
+            "fp": 48,
+            "fn": 70,
+            "tn": 2863
+          },
+          "after": {
+            "tp": 1316,
+            "fp": 61,
+            "fn": 67,
+            "tn": 2850
+          },
+          "delta_tp": 3,
+          "delta_fp": 13,
+          "f1_before": 0.956997084548105,
+          "f1_after": 0.9536231884057971
+        },
+        "action_effect": {
+          "new": {
+            "before": {
+              "tp": 1313,
+              "fp": 48,
+              "fn": 70,
+              "tn": 2863
+            },
+            "after": {
+              "tp": 1313,
+              "fp": 48,
+              "fn": 70,
+              "tn": 2863
+            },
+            "delta_tp": 0,
+            "delta_fp": 0,
+            "f1_before": 0.956997084548105,
+            "f1_after": 0.956997084548105
+          },
+          "removed": {
+            "before": {
+              "tp": 1313,
+              "fp": 48,
+              "fn": 70,
+              "tn": 2863
+            },
+            "after": {
+              "tp": 1316,
+              "fp": 61,
+              "fn": 67,
+              "tn": 2850
+            },
+            "delta_tp": 3,
+            "delta_fp": 13,
+            "f1_before": 0.956997084548105,
+            "f1_after": 0.9536231884057971
+          }
+        },
+        "matched": {}
+      }
+    },
+    "layout/direct/legacy/0.2": {
+      "calibration": {
+        "budget": {
+          "calls": 1030,
+          "characters": 668760,
+          "swap": 103,
+          "old_calls": 1030,
+          "old_characters": 668875,
+          "removed_large": 0,
+          "added_large": 0
+        },
+        "frozen": {
+          "before": {
+            "tp": 1328,
+            "fp": 51,
+            "fn": 60,
+            "tn": 2853
+          },
+          "after": {
+            "tp": 1331,
+            "fp": 57,
+            "fn": 57,
+            "tn": 2847
+          },
+          "delta_tp": 3,
+          "delta_fp": 6,
+          "f1_before": 0.959884351282978,
+          "f1_after": 0.9589337175792507
+        },
+        "action_effect": {
+          "new": {
+            "before": {
+              "tp": 1328,
+              "fp": 51,
+              "fn": 60,
+              "tn": 2853
+            },
+            "after": {
+              "tp": 1328,
+              "fp": 51,
+              "fn": 60,
+              "tn": 2853
+            },
+            "delta_tp": 0,
+            "delta_fp": 0,
+            "f1_before": 0.959884351282978,
+            "f1_after": 0.959884351282978
+          },
+          "removed": {
+            "before": {
+              "tp": 1328,
+              "fp": 51,
+              "fn": 60,
+              "tn": 2853
+            },
+            "after": {
+              "tp": 1331,
+              "fp": 57,
+              "fn": 57,
+              "tn": 2847
+            },
+            "delta_tp": 3,
+            "delta_fp": 6,
+            "f1_before": 0.959884351282978,
+            "f1_after": 0.9589337175792507
+          }
+        },
+        "matched": {}
+      },
+      "held": {
+        "budget": {
+          "calls": 1036,
+          "characters": 698151,
+          "swap": 112,
+          "old_calls": 1036,
+          "old_characters": 700979,
+          "removed_large": 1,
+          "added_large": 1
+        },
+        "frozen": {
+          "before": {
+            "tp": 1313,
+            "fp": 48,
+            "fn": 70,
+            "tn": 2863
+          },
+          "after": {
+            "tp": 1317,
+            "fp": 63,
+            "fn": 66,
+            "tn": 2848
+          },
+          "delta_tp": 4,
+          "delta_fp": 15,
+          "f1_before": 0.956997084548105,
+          "f1_after": 0.9533116178067318
+        },
+        "action_effect": {
+          "new": {
+            "before": {
+              "tp": 1313,
+              "fp": 48,
+              "fn": 70,
+              "tn": 2863
+            },
+            "after": {
+              "tp": 1313,
+              "fp": 48,
+              "fn": 70,
+              "tn": 2863
+            },
+            "delta_tp": 0,
+            "delta_fp": 0,
+            "f1_before": 0.956997084548105,
+            "f1_after": 0.956997084548105
+          },
+          "removed": {
+            "before": {
+              "tp": 1313,
+              "fp": 48,
+              "fn": 70,
+              "tn": 2863
+            },
+            "after": {
+              "tp": 1317,
+              "fp": 63,
+              "fn": 66,
+              "tn": 2848
+            },
+            "delta_tp": 4,
+            "delta_fp": 15,
+            "f1_before": 0.956997084548105,
+            "f1_after": 0.9533116178067318
+          }
+        },
+        "matched": {}
+      }
+    },
+    "layout/direct/matched_length/0.025": {
+      "calibration": {
+        "budget": {
+          "calls": 1030,
+          "characters": 668777,
+          "swap": 24,
+          "old_calls": 1030,
+          "old_characters": 668875,
+          "removed_large": 0,
+          "added_large": 0
+        },
+        "frozen": {
+          "before": {
+            "tp": 1328,
+            "fp": 51,
+            "fn": 60,
+            "tn": 2853
+          },
+          "after": {
+            "tp": 1328,
+            "fp": 51,
+            "fn": 60,
+            "tn": 2853
+          },
+          "delta_tp": 0,
+          "delta_fp": 0,
+          "f1_before": 0.959884351282978,
+          "f1_after": 0.959884351282978
+        },
+        "action_effect": {
+          "new": {
+            "before": {
+              "tp": 1328,
+              "fp": 51,
+              "fn": 60,
+              "tn": 2853
+            },
+            "after": {
+              "tp": 1328,
+              "fp": 51,
+              "fn": 60,
+              "tn": 2853
+            },
+            "delta_tp": 0,
+            "delta_fp": 0,
+            "f1_before": 0.959884351282978,
+            "f1_after": 0.959884351282978
+          },
+          "removed": {
+            "before": {
+              "tp": 1328,
+              "fp": 51,
+              "fn": 60,
+              "tn": 2853
+            },
+            "after": {
+              "tp": 1328,
+              "fp": 51,
+              "fn": 60,
+              "tn": 2853
+            },
+            "delta_tp": 0,
+            "delta_fp": 0,
+            "f1_before": 0.959884351282978,
+            "f1_after": 0.959884351282978
+          }
+        },
+        "matched": {}
+      },
+      "held": {
+        "budget": {
+          "calls": 1036,
+          "characters": 700856,
+          "swap": 24,
+          "old_calls": 1036,
+          "old_characters": 700979,
+          "removed_large": 0,
+          "added_large": 0
+        },
+        "frozen": {
+          "before": {
+            "tp": 1313,
+            "fp": 48,
+            "fn": 70,
+            "tn": 2863
+          },
+          "after": {
+            "tp": 1313,
+            "fp": 49,
+            "fn": 70,
+            "tn": 2862
+          },
+          "delta_tp": 0,
+          "delta_fp": 1,
+          "f1_before": 0.956997084548105,
+          "f1_after": 0.9566484517304189
+        },
+        "action_effect": {
+          "new": {
+            "before": {
+              "tp": 1313,
+              "fp": 48,
+              "fn": 70,
+              "tn": 2863
+            },
+            "after": {
+              "tp": 1313,
+              "fp": 48,
+              "fn": 70,
+              "tn": 2863
+            },
+            "delta_tp": 0,
+            "delta_fp": 0,
+            "f1_before": 0.956997084548105,
+            "f1_after": 0.956997084548105
+          },
+          "removed": {
+            "before": {
+              "tp": 1313,
+              "fp": 48,
+              "fn": 70,
+              "tn": 2863
+            },
+            "after": {
+              "tp": 1313,
+              "fp": 49,
+              "fn": 70,
+              "tn": 2862
+            },
+            "delta_tp": 0,
+            "delta_fp": 1,
+            "f1_before": 0.956997084548105,
+            "f1_after": 0.9566484517304189
+          }
+        },
+        "matched": {}
+      }
+    },
+    "layout/direct/matched_length/0.08": {
+      "calibration": {
+        "budget": {
+          "calls": 1030,
+          "characters": 668231,
+          "swap": 80,
+          "old_calls": 1030,
+          "old_characters": 668875,
+          "removed_large": 0,
+          "added_large": 0
+        },
+        "frozen": {
+          "before": {
+            "tp": 1328,
+            "fp": 51,
+            "fn": 60,
+            "tn": 2853
+          },
+          "after": {
+            "tp": 1329,
+            "fp": 53,
+            "fn": 59,
+            "tn": 2851
+          },
+          "delta_tp": 1,
+          "delta_fp": 2,
+          "f1_before": 0.959884351282978,
+          "f1_after": 0.9595667870036101
+        },
+        "action_effect": {
+          "new": {
+            "before": {
+              "tp": 1328,
+              "fp": 51,
+              "fn": 60,
+              "tn": 2853
+            },
+            "after": {
+              "tp": 1328,
+              "fp": 51,
+              "fn": 60,
+              "tn": 2853
+            },
+            "delta_tp": 0,
+            "delta_fp": 0,
+            "f1_before": 0.959884351282978,
+            "f1_after": 0.959884351282978
+          },
+          "removed": {
+            "before": {
+              "tp": 1328,
+              "fp": 51,
+              "fn": 60,
+              "tn": 2853
+            },
+            "after": {
+              "tp": 1329,
+              "fp": 53,
+              "fn": 59,
+              "tn": 2851
+            },
+            "delta_tp": 1,
+            "delta_fp": 2,
+            "f1_before": 0.959884351282978,
+            "f1_after": 0.9595667870036101
+          }
+        },
+        "matched": {}
+      },
+      "held": {
+        "budget": {
+          "calls": 1036,
+          "characters": 700192,
+          "swap": 81,
+          "old_calls": 1036,
+          "old_characters": 700979,
+          "removed_large": 0,
+          "added_large": 0
+        },
+        "frozen": {
+          "before": {
+            "tp": 1313,
+            "fp": 48,
+            "fn": 70,
+            "tn": 2863
+          },
+          "after": {
+            "tp": 1315,
+            "fp": 55,
+            "fn": 68,
+            "tn": 2856
+          },
+          "delta_tp": 2,
+          "delta_fp": 7,
+          "f1_before": 0.956997084548105,
+          "f1_after": 0.9553214674900109
+        },
+        "action_effect": {
+          "new": {
+            "before": {
+              "tp": 1313,
+              "fp": 48,
+              "fn": 70,
+              "tn": 2863
+            },
+            "after": {
+              "tp": 1313,
+              "fp": 48,
+              "fn": 70,
+              "tn": 2863
+            },
+            "delta_tp": 0,
+            "delta_fp": 0,
+            "f1_before": 0.956997084548105,
+            "f1_after": 0.956997084548105
+          },
+          "removed": {
+            "before": {
+              "tp": 1313,
+              "fp": 48,
+              "fn": 70,
+              "tn": 2863
+            },
+            "after": {
+              "tp": 1315,
+              "fp": 55,
+              "fn": 68,
+              "tn": 2856
+            },
+            "delta_tp": 2,
+            "delta_fp": 7,
+            "f1_before": 0.956997084548105,
+            "f1_after": 0.9553214674900109
+          }
+        },
+        "matched": {}
+      }
+    },
+    "layout/direct/matched_length/0.2": {
+      "calibration": {
+        "budget": {
+          "calls": 1030,
+          "characters": 665267,
+          "swap": 140,
+          "old_calls": 1030,
+          "old_characters": 668875,
+          "removed_large": 0,
+          "added_large": 0
+        },
+        "frozen": {
+          "before": {
+            "tp": 1328,
+            "fp": 51,
+            "fn": 60,
+            "tn": 2853
+          },
+          "after": {
+            "tp": 1332,
+            "fp": 55,
+            "fn": 56,
+            "tn": 2849
+          },
+          "delta_tp": 4,
+          "delta_fp": 4,
+          "f1_before": 0.959884351282978,
+          "f1_after": 0.96
+        },
+        "action_effect": {
+          "new": {
+            "before": {
+              "tp": 1328,
+              "fp": 51,
+              "fn": 60,
+              "tn": 2853
+            },
+            "after": {
+              "tp": 1328,
+              "fp": 49,
+              "fn": 60,
+              "tn": 2855
+            },
+            "delta_tp": 0,
+            "delta_fp": -2,
+            "f1_before": 0.959884351282978,
+            "f1_after": 0.9605786618444846
+          },
+          "removed": {
+            "before": {
+              "tp": 1328,
+              "fp": 51,
+              "fn": 60,
+              "tn": 2853
+            },
+            "after": {
+              "tp": 1332,
+              "fp": 57,
+              "fn": 56,
+              "tn": 2847
+            },
+            "delta_tp": 4,
+            "delta_fp": 6,
+            "f1_before": 0.959884351282978,
+            "f1_after": 0.9593086064097948
+          }
+        },
+        "matched": {}
+      },
+      "held": {
+        "budget": {
+          "calls": 1036,
+          "characters": 695949,
+          "swap": 141,
+          "old_calls": 1036,
+          "old_characters": 700979,
+          "removed_large": 0,
+          "added_large": 0
+        },
+        "frozen": {
+          "before": {
+            "tp": 1313,
+            "fp": 48,
+            "fn": 70,
+            "tn": 2863
+          },
+          "after": {
+            "tp": 1317,
+            "fp": 62,
+            "fn": 66,
+            "tn": 2849
+          },
+          "delta_tp": 4,
+          "delta_fp": 14,
+          "f1_before": 0.956997084548105,
+          "f1_after": 0.9536567704561911
+        },
+        "action_effect": {
+          "new": {
+            "before": {
+              "tp": 1313,
+              "fp": 48,
+              "fn": 70,
+              "tn": 2863
+            },
+            "after": {
+              "tp": 1313,
+              "fp": 48,
+              "fn": 70,
+              "tn": 2863
+            },
+            "delta_tp": 0,
+            "delta_fp": 0,
+            "f1_before": 0.956997084548105,
+            "f1_after": 0.956997084548105
+          },
+          "removed": {
+            "before": {
+              "tp": 1313,
+              "fp": 48,
+              "fn": 70,
+              "tn": 2863
+            },
+            "after": {
+              "tp": 1317,
+              "fp": 62,
+              "fn": 66,
+              "tn": 2849
+            },
+            "delta_tp": 4,
+            "delta_fp": 14,
+            "f1_before": 0.956997084548105,
+            "f1_after": 0.9536567704561911
+          }
+        },
+        "matched": {}
+      }
+    },
+    "layout/factor/legacy/0.025": {
+      "calibration": {
+        "budget": {
+          "calls": 1030,
+          "characters": 667559,
+          "swap": 24,
+          "old_calls": 1030,
+          "old_characters": 668875,
+          "removed_large": 0,
+          "added_large": 0
+        },
+        "frozen": {
+          "before": {
+            "tp": 1328,
+            "fp": 51,
+            "fn": 60,
+            "tn": 2853
+          },
+          "after": {
+            "tp": 1330,
+            "fp": 56,
+            "fn": 58,
+            "tn": 2848
+          },
+          "delta_tp": 2,
+          "delta_fp": 5,
+          "f1_before": 0.959884351282978,
+          "f1_after": 0.958904109589041
+        },
+        "action_effect": {
+          "new": {
+            "before": {
+              "tp": 1328,
+              "fp": 51,
+              "fn": 60,
+              "tn": 2853
+            },
+            "after": {
+              "tp": 1328,
+              "fp": 51,
+              "fn": 60,
+              "tn": 2853
+            },
+            "delta_tp": 0,
+            "delta_fp": 0,
+            "f1_before": 0.959884351282978,
+            "f1_after": 0.959884351282978
+          },
+          "removed": {
+            "before": {
+              "tp": 1328,
+              "fp": 51,
+              "fn": 60,
+              "tn": 2853
+            },
+            "after": {
+              "tp": 1330,
+              "fp": 56,
+              "fn": 58,
+              "tn": 2848
+            },
+            "delta_tp": 2,
+            "delta_fp": 5,
+            "f1_before": 0.959884351282978,
+            "f1_after": 0.958904109589041
+          }
+        },
+        "matched": {}
+      },
+      "held": {
+        "budget": {
+          "calls": 1036,
+          "characters": 699850,
+          "swap": 25,
+          "old_calls": 1036,
+          "old_characters": 700979,
+          "removed_large": 1,
+          "added_large": 1
+        },
+        "frozen": {
+          "before": {
+            "tp": 1313,
+            "fp": 48,
+            "fn": 70,
+            "tn": 2863
+          },
+          "after": {
+            "tp": 1317,
+            "fp": 55,
+            "fn": 66,
+            "tn": 2856
+          },
+          "delta_tp": 4,
+          "delta_fp": 7,
+          "f1_before": 0.956997084548105,
+          "f1_after": 0.9560798548094374
+        },
+        "action_effect": {
+          "new": {
+            "before": {
+              "tp": 1313,
+              "fp": 48,
+              "fn": 70,
+              "tn": 2863
+            },
+            "after": {
+              "tp": 1313,
+              "fp": 48,
+              "fn": 70,
+              "tn": 2863
+            },
+            "delta_tp": 0,
+            "delta_fp": 0,
+            "f1_before": 0.956997084548105,
+            "f1_after": 0.956997084548105
+          },
+          "removed": {
+            "before": {
+              "tp": 1313,
+              "fp": 48,
+              "fn": 70,
+              "tn": 2863
+            },
+            "after": {
+              "tp": 1317,
+              "fp": 55,
+              "fn": 66,
+              "tn": 2856
+            },
+            "delta_tp": 4,
+            "delta_fp": 7,
+            "f1_before": 0.956997084548105,
+            "f1_after": 0.9560798548094374
+          }
+        },
+        "matched": {}
+      }
+    },
+    "layout/factor/legacy/0.08": {
+      "calibration": {
+        "budget": {
+          "calls": 1030,
+          "characters": 668591,
+          "swap": 80,
+          "old_calls": 1030,
+          "old_characters": 668875,
+          "removed_large": 0,
+          "added_large": 0
+        },
+        "frozen": {
+          "before": {
+            "tp": 1328,
+            "fp": 51,
+            "fn": 60,
+            "tn": 2853
+          },
+          "after": {
+            "tp": 1334,
+            "fp": 61,
+            "fn": 54,
+            "tn": 2843
+          },
+          "delta_tp": 6,
+          "delta_fp": 10,
+          "f1_before": 0.959884351282978,
+          "f1_after": 0.9586776859504132
+        },
+        "action_effect": {
+          "new": {
+            "before": {
+              "tp": 1328,
+              "fp": 51,
+              "fn": 60,
+              "tn": 2853
+            },
+            "after": {
+              "tp": 1328,
+              "fp": 51,
+              "fn": 60,
+              "tn": 2853
+            },
+            "delta_tp": 0,
+            "delta_fp": 0,
+            "f1_before": 0.959884351282978,
+            "f1_after": 0.959884351282978
+          },
+          "removed": {
+            "before": {
+              "tp": 1328,
+              "fp": 51,
+              "fn": 60,
+              "tn": 2853
+            },
+            "after": {
+              "tp": 1334,
+              "fp": 61,
+              "fn": 54,
+              "tn": 2843
+            },
+            "delta_tp": 6,
+            "delta_fp": 10,
+            "f1_before": 0.959884351282978,
+            "f1_after": 0.9586776859504132
+          }
+        },
+        "matched": {}
+      },
+      "held": {
+        "budget": {
+          "calls": 1036,
+          "characters": 700389,
+          "swap": 81,
+          "old_calls": 1036,
+          "old_characters": 700979,
+          "removed_large": 1,
+          "added_large": 1
+        },
+        "frozen": {
+          "before": {
+            "tp": 1313,
+            "fp": 48,
+            "fn": 70,
+            "tn": 2863
+          },
+          "after": {
+            "tp": 1315,
+            "fp": 66,
+            "fn": 68,
+            "tn": 2845
+          },
+          "delta_tp": 2,
+          "delta_fp": 18,
+          "f1_before": 0.956997084548105,
+          "f1_after": 0.951519536903039
+        },
+        "action_effect": {
+          "new": {
+            "before": {
+              "tp": 1313,
+              "fp": 48,
+              "fn": 70,
+              "tn": 2863
+            },
+            "after": {
+              "tp": 1313,
+              "fp": 48,
+              "fn": 70,
+              "tn": 2863
+            },
+            "delta_tp": 0,
+            "delta_fp": 0,
+            "f1_before": 0.956997084548105,
+            "f1_after": 0.956997084548105
+          },
+          "removed": {
+            "before": {
+              "tp": 1313,
+              "fp": 48,
+              "fn": 70,
+              "tn": 2863
+            },
+            "after": {
+              "tp": 1315,
+              "fp": 66,
+              "fn": 68,
+              "tn": 2845
+            },
+            "delta_tp": 2,
+            "delta_fp": 18,
+            "f1_before": 0.956997084548105,
+            "f1_after": 0.951519536903039
+          }
+        },
+        "matched": {}
+      }
+    },
+    "layout/factor/legacy/0.2": {
+      "calibration": {
+        "budget": {
+          "calls": 1030,
+          "characters": 668305,
+          "swap": 156,
+          "old_calls": 1030,
+          "old_characters": 668875,
+          "removed_large": 0,
+          "added_large": 0
+        },
+        "frozen": {
+          "before": {
+            "tp": 1328,
+            "fp": 51,
+            "fn": 60,
+            "tn": 2853
+          },
+          "after": {
+            "tp": 1335,
+            "fp": 64,
+            "fn": 53,
+            "tn": 2840
+          },
+          "delta_tp": 7,
+          "delta_fp": 13,
+          "f1_before": 0.959884351282978,
+          "f1_after": 0.9580193756727664
+        },
+        "action_effect": {
+          "new": {
+            "before": {
+              "tp": 1328,
+              "fp": 51,
+              "fn": 60,
+              "tn": 2853
+            },
+            "after": {
+              "tp": 1329,
+              "fp": 50,
+              "fn": 59,
+              "tn": 2854
+            },
+            "delta_tp": 1,
+            "delta_fp": -1,
+            "f1_before": 0.959884351282978,
+            "f1_after": 0.9606071557643657
+          },
+          "removed": {
+            "before": {
+              "tp": 1328,
+              "fp": 51,
+              "fn": 60,
+              "tn": 2853
+            },
+            "after": {
+              "tp": 1334,
+              "fp": 65,
+              "fn": 54,
+              "tn": 2839
+            },
+            "delta_tp": 6,
+            "delta_fp": 14,
+            "f1_before": 0.959884351282978,
+            "f1_after": 0.9573017581628992
+          }
+        },
+        "matched": {}
+      },
+      "held": {
+        "budget": {
+          "calls": 1036,
+          "characters": 697645,
+          "swap": 171,
+          "old_calls": 1036,
+          "old_characters": 700979,
+          "removed_large": 1,
+          "added_large": 1
+        },
+        "frozen": {
+          "before": {
+            "tp": 1313,
+            "fp": 48,
+            "fn": 70,
+            "tn": 2863
+          },
+          "after": {
+            "tp": 1315,
+            "fp": 70,
+            "fn": 68,
+            "tn": 2841
+          },
+          "delta_tp": 2,
+          "delta_fp": 22,
+          "f1_before": 0.956997084548105,
+          "f1_after": 0.9501445086705202
+        },
+        "action_effect": {
+          "new": {
+            "before": {
+              "tp": 1313,
+              "fp": 48,
+              "fn": 70,
+              "tn": 2863
+            },
+            "after": {
+              "tp": 1313,
+              "fp": 48,
+              "fn": 70,
+              "tn": 2863
+            },
+            "delta_tp": 0,
+            "delta_fp": 0,
+            "f1_before": 0.956997084548105,
+            "f1_after": 0.956997084548105
+          },
+          "removed": {
+            "before": {
+              "tp": 1313,
+              "fp": 48,
+              "fn": 70,
+              "tn": 2863
+            },
+            "after": {
+              "tp": 1315,
+              "fp": 70,
+              "fn": 68,
+              "tn": 2841
+            },
+            "delta_tp": 2,
+            "delta_fp": 22,
+            "f1_before": 0.956997084548105,
+            "f1_after": 0.9501445086705202
+          }
+        },
+        "matched": {}
+      }
+    },
+    "layout/factor/matched_length/0.025": {
+      "calibration": {
+        "budget": {
+          "calls": 1030,
+          "characters": 668730,
+          "swap": 24,
+          "old_calls": 1030,
+          "old_characters": 668875,
+          "removed_large": 0,
+          "added_large": 0
+        },
+        "frozen": {
+          "before": {
+            "tp": 1328,
+            "fp": 51,
+            "fn": 60,
+            "tn": 2853
+          },
+          "after": {
+            "tp": 1328,
+            "fp": 54,
+            "fn": 60,
+            "tn": 2850
+          },
+          "delta_tp": 0,
+          "delta_fp": 3,
+          "f1_before": 0.959884351282978,
+          "f1_after": 0.9588447653429603
+        },
+        "action_effect": {
+          "new": {
+            "before": {
+              "tp": 1328,
+              "fp": 51,
+              "fn": 60,
+              "tn": 2853
+            },
+            "after": {
+              "tp": 1328,
+              "fp": 51,
+              "fn": 60,
+              "tn": 2853
+            },
+            "delta_tp": 0,
+            "delta_fp": 0,
+            "f1_before": 0.959884351282978,
+            "f1_after": 0.959884351282978
+          },
+          "removed": {
+            "before": {
+              "tp": 1328,
+              "fp": 51,
+              "fn": 60,
+              "tn": 2853
+            },
+            "after": {
+              "tp": 1328,
+              "fp": 54,
+              "fn": 60,
+              "tn": 2850
+            },
+            "delta_tp": 0,
+            "delta_fp": 3,
+            "f1_before": 0.959884351282978,
+            "f1_after": 0.9588447653429603
+          }
+        },
+        "matched": {}
+      },
+      "held": {
+        "budget": {
+          "calls": 1036,
+          "characters": 700898,
+          "swap": 24,
+          "old_calls": 1036,
+          "old_characters": 700979,
+          "removed_large": 0,
+          "added_large": 0
+        },
+        "frozen": {
+          "before": {
+            "tp": 1313,
+            "fp": 48,
+            "fn": 70,
+            "tn": 2863
+          },
+          "after": {
+            "tp": 1313,
+            "fp": 50,
+            "fn": 70,
+            "tn": 2861
+          },
+          "delta_tp": 0,
+          "delta_fp": 2,
+          "f1_before": 0.956997084548105,
+          "f1_after": 0.956300072833212
+        },
+        "action_effect": {
+          "new": {
+            "before": {
+              "tp": 1313,
+              "fp": 48,
+              "fn": 70,
+              "tn": 2863
+            },
+            "after": {
+              "tp": 1313,
+              "fp": 48,
+              "fn": 70,
+              "tn": 2863
+            },
+            "delta_tp": 0,
+            "delta_fp": 0,
+            "f1_before": 0.956997084548105,
+            "f1_after": 0.956997084548105
+          },
+          "removed": {
+            "before": {
+              "tp": 1313,
+              "fp": 48,
+              "fn": 70,
+              "tn": 2863
+            },
+            "after": {
+              "tp": 1313,
+              "fp": 50,
+              "fn": 70,
+              "tn": 2861
+            },
+            "delta_tp": 0,
+            "delta_fp": 2,
+            "f1_before": 0.956997084548105,
+            "f1_after": 0.956300072833212
+          }
+        },
+        "matched": {}
+      }
+    },
+    "layout/factor/matched_length/0.08": {
+      "calibration": {
+        "budget": {
+          "calls": 1030,
+          "characters": 668296,
+          "swap": 80,
+          "old_calls": 1030,
+          "old_characters": 668875,
+          "removed_large": 0,
+          "added_large": 0
+        },
+        "frozen": {
+          "before": {
+            "tp": 1328,
+            "fp": 51,
+            "fn": 60,
+            "tn": 2853
+          },
+          "after": {
+            "tp": 1329,
+            "fp": 58,
+            "fn": 59,
+            "tn": 2846
+          },
+          "delta_tp": 1,
+          "delta_fp": 7,
+          "f1_before": 0.959884351282978,
+          "f1_after": 0.9578378378378378
+        },
+        "action_effect": {
+          "new": {
+            "before": {
+              "tp": 1328,
+              "fp": 51,
+              "fn": 60,
+              "tn": 2853
+            },
+            "after": {
+              "tp": 1328,
+              "fp": 51,
+              "fn": 60,
+              "tn": 2853
+            },
+            "delta_tp": 0,
+            "delta_fp": 0,
+            "f1_before": 0.959884351282978,
+            "f1_after": 0.959884351282978
+          },
+          "removed": {
+            "before": {
+              "tp": 1328,
+              "fp": 51,
+              "fn": 60,
+              "tn": 2853
+            },
+            "after": {
+              "tp": 1329,
+              "fp": 58,
+              "fn": 59,
+              "tn": 2846
+            },
+            "delta_tp": 1,
+            "delta_fp": 7,
+            "f1_before": 0.959884351282978,
+            "f1_after": 0.9578378378378378
+          }
+        },
+        "matched": {}
+      },
+      "held": {
+        "budget": {
+          "calls": 1036,
+          "characters": 700019,
+          "swap": 81,
+          "old_calls": 1036,
+          "old_characters": 700979,
+          "removed_large": 0,
+          "added_large": 0
+        },
+        "frozen": {
+          "before": {
+            "tp": 1313,
+            "fp": 48,
+            "fn": 70,
+            "tn": 2863
+          },
+          "after": {
+            "tp": 1313,
+            "fp": 54,
+            "fn": 70,
+            "tn": 2857
+          },
+          "delta_tp": 0,
+          "delta_fp": 6,
+          "f1_before": 0.956997084548105,
+          "f1_after": 0.9549090909090909
+        },
+        "action_effect": {
+          "new": {
+            "before": {
+              "tp": 1313,
+              "fp": 48,
+              "fn": 70,
+              "tn": 2863
+            },
+            "after": {
+              "tp": 1313,
+              "fp": 48,
+              "fn": 70,
+              "tn": 2863
+            },
+            "delta_tp": 0,
+            "delta_fp": 0,
+            "f1_before": 0.956997084548105,
+            "f1_after": 0.956997084548105
+          },
+          "removed": {
+            "before": {
+              "tp": 1313,
+              "fp": 48,
+              "fn": 70,
+              "tn": 2863
+            },
+            "after": {
+              "tp": 1313,
+              "fp": 54,
+              "fn": 70,
+              "tn": 2857
+            },
+            "delta_tp": 0,
+            "delta_fp": 6,
+            "f1_before": 0.956997084548105,
+            "f1_after": 0.9549090909090909
+          }
+        },
+        "matched": {}
+      }
+    },
+    "layout/factor/matched_length/0.2": {
+      "calibration": {
+        "budget": {
+          "calls": 1030,
+          "characters": 663711,
+          "swap": 193,
+          "old_calls": 1030,
+          "old_characters": 668875,
+          "removed_large": 0,
+          "added_large": 0
+        },
+        "frozen": {
+          "before": {
+            "tp": 1328,
+            "fp": 51,
+            "fn": 60,
+            "tn": 2853
+          },
+          "after": {
+            "tp": 1334,
+            "fp": 64,
+            "fn": 54,
+            "tn": 2840
+          },
+          "delta_tp": 6,
+          "delta_fp": 13,
+          "f1_before": 0.959884351282978,
+          "f1_after": 0.9576453697056713
+        },
+        "action_effect": {
+          "new": {
+            "before": {
+              "tp": 1328,
+              "fp": 51,
+              "fn": 60,
+              "tn": 2853
+            },
+            "after": {
+              "tp": 1329,
+              "fp": 49,
+              "fn": 59,
+              "tn": 2855
+            },
+            "delta_tp": 1,
+            "delta_fp": -2,
+            "f1_before": 0.959884351282978,
+            "f1_after": 0.9609544468546638
+          },
+          "removed": {
+            "before": {
+              "tp": 1328,
+              "fp": 51,
+              "fn": 60,
+              "tn": 2853
+            },
+            "after": {
+              "tp": 1333,
+              "fp": 66,
+              "fn": 55,
+              "tn": 2838
+            },
+            "delta_tp": 5,
+            "delta_fp": 15,
+            "f1_before": 0.959884351282978,
+            "f1_after": 0.956584140653032
+          }
+        },
+        "matched": {}
+      },
+      "held": {
+        "budget": {
+          "calls": 1036,
+          "characters": 695801,
+          "swap": 194,
+          "old_calls": 1036,
+          "old_characters": 700979,
+          "removed_large": 0,
+          "added_large": 0
+        },
+        "frozen": {
+          "before": {
+            "tp": 1313,
+            "fp": 48,
+            "fn": 70,
+            "tn": 2863
+          },
+          "after": {
+            "tp": 1316,
+            "fp": 67,
+            "fn": 67,
+            "tn": 2844
+          },
+          "delta_tp": 3,
+          "delta_fp": 19,
+          "f1_before": 0.956997084548105,
+          "f1_after": 0.9515545914678236
+        },
+        "action_effect": {
+          "new": {
+            "before": {
+              "tp": 1313,
+              "fp": 48,
+              "fn": 70,
+              "tn": 2863
+            },
+            "after": {
+              "tp": 1313,
+              "fp": 48,
+              "fn": 70,
+              "tn": 2863
+            },
+            "delta_tp": 0,
+            "delta_fp": 0,
+            "f1_before": 0.956997084548105,
+            "f1_after": 0.956997084548105
+          },
+          "removed": {
+            "before": {
+              "tp": 1313,
+              "fp": 48,
+              "fn": 70,
+              "tn": 2863
+            },
+            "after": {
+              "tp": 1316,
+              "fp": 67,
+              "fn": 67,
+              "tn": 2844
+            },
+            "delta_tp": 3,
+            "delta_fp": 19,
+            "f1_before": 0.956997084548105,
+            "f1_after": 0.9515545914678236
+          }
+        },
+        "matched": {}
+      }
+    },
+    "portfolio_layout/direct/legacy/0.025": {
+      "calibration": {
+        "budget": {
+          "calls": 1030,
+          "characters": 668607,
+          "swap": 21,
+          "old_calls": 1030,
+          "old_characters": 668875,
+          "removed_large": 0,
+          "added_large": 0
+        },
+        "frozen": {
+          "before": {
+            "tp": 1328,
+            "fp": 51,
+            "fn": 60,
+            "tn": 2853
+          },
+          "after": {
+            "tp": 1329,
+            "fp": 53,
+            "fn": 59,
+            "tn": 2851
+          },
+          "delta_tp": 1,
+          "delta_fp": 2,
+          "f1_before": 0.959884351282978,
+          "f1_after": 0.9595667870036101
+        },
+        "action_effect": {
+          "new": {
+            "before": {
+              "tp": 1328,
+              "fp": 51,
+              "fn": 60,
+              "tn": 2853
+            },
+            "after": {
+              "tp": 1328,
+              "fp": 51,
+              "fn": 60,
+              "tn": 2853
+            },
+            "delta_tp": 0,
+            "delta_fp": 0,
+            "f1_before": 0.959884351282978,
+            "f1_after": 0.959884351282978
+          },
+          "removed": {
+            "before": {
+              "tp": 1328,
+              "fp": 51,
+              "fn": 60,
+              "tn": 2853
+            },
+            "after": {
+              "tp": 1329,
+              "fp": 53,
+              "fn": 59,
+              "tn": 2851
+            },
+            "delta_tp": 1,
+            "delta_fp": 2,
+            "f1_before": 0.959884351282978,
+            "f1_after": 0.9595667870036101
+          }
+        },
+        "matched": {}
+      },
+      "held": {
+        "budget": {
+          "calls": 1036,
+          "characters": 700492,
+          "swap": 25,
+          "old_calls": 1036,
+          "old_characters": 700979,
+          "removed_large": 1,
+          "added_large": 1
+        },
+        "frozen": {
+          "before": {
+            "tp": 1313,
+            "fp": 48,
+            "fn": 70,
+            "tn": 2863
+          },
+          "after": {
+            "tp": 1315,
+            "fp": 52,
+            "fn": 68,
+            "tn": 2859
+          },
+          "delta_tp": 2,
+          "delta_fp": 4,
+          "f1_before": 0.956997084548105,
+          "f1_after": 0.9563636363636364
+        },
+        "action_effect": {
+          "new": {
+            "before": {
+              "tp": 1313,
+              "fp": 48,
+              "fn": 70,
+              "tn": 2863
+            },
+            "after": {
+              "tp": 1313,
+              "fp": 48,
+              "fn": 70,
+              "tn": 2863
+            },
+            "delta_tp": 0,
+            "delta_fp": 0,
+            "f1_before": 0.956997084548105,
+            "f1_after": 0.956997084548105
+          },
+          "removed": {
+            "before": {
+              "tp": 1313,
+              "fp": 48,
+              "fn": 70,
+              "tn": 2863
+            },
+            "after": {
+              "tp": 1315,
+              "fp": 52,
+              "fn": 68,
+              "tn": 2859
+            },
+            "delta_tp": 2,
+            "delta_fp": 4,
+            "f1_before": 0.956997084548105,
+            "f1_after": 0.9563636363636364
+          }
+        },
+        "matched": {}
+      }
+    },
+    "portfolio_layout/direct/legacy/0.08": {
+      "calibration": {
+        "budget": {
+          "calls": 1030,
+          "characters": 667231,
+          "swap": 80,
+          "old_calls": 1030,
+          "old_characters": 668875,
+          "removed_large": 0,
+          "added_large": 0
+        },
+        "frozen": {
+          "before": {
+            "tp": 1328,
+            "fp": 51,
+            "fn": 60,
+            "tn": 2853
+          },
+          "after": {
+            "tp": 1332,
+            "fp": 56,
+            "fn": 56,
+            "tn": 2848
+          },
+          "delta_tp": 4,
+          "delta_fp": 5,
+          "f1_before": 0.959884351282978,
+          "f1_after": 0.9596541786743515
+        },
+        "action_effect": {
+          "new": {
+            "before": {
+              "tp": 1328,
+              "fp": 51,
+              "fn": 60,
+              "tn": 2853
+            },
+            "after": {
+              "tp": 1329,
+              "fp": 51,
+              "fn": 59,
+              "tn": 2853
+            },
+            "delta_tp": 1,
+            "delta_fp": 0,
+            "f1_before": 0.959884351282978,
+            "f1_after": 0.9602601156069365
+          },
+          "removed": {
+            "before": {
+              "tp": 1328,
+              "fp": 51,
+              "fn": 60,
+              "tn": 2853
+            },
+            "after": {
+              "tp": 1331,
+              "fp": 56,
+              "fn": 57,
+              "tn": 2848
+            },
+            "delta_tp": 3,
+            "delta_fp": 5,
+            "f1_before": 0.959884351282978,
+            "f1_after": 0.9592792792792793
+          }
+        },
+        "matched": {}
+      },
+      "held": {
+        "budget": {
+          "calls": 1036,
+          "characters": 696142,
+          "swap": 82,
+          "old_calls": 1036,
+          "old_characters": 700979,
+          "removed_large": 1,
+          "added_large": 1
+        },
+        "frozen": {
+          "before": {
+            "tp": 1313,
+            "fp": 48,
+            "fn": 70,
+            "tn": 2863
+          },
+          "after": {
+            "tp": 1319,
+            "fp": 58,
+            "fn": 64,
+            "tn": 2853
+          },
+          "delta_tp": 6,
+          "delta_fp": 10,
+          "f1_before": 0.956997084548105,
+          "f1_after": 0.9557971014492753
+        },
+        "action_effect": {
+          "new": {
+            "before": {
+              "tp": 1313,
+              "fp": 48,
+              "fn": 70,
+              "tn": 2863
+            },
+            "after": {
+              "tp": 1313,
+              "fp": 48,
+              "fn": 70,
+              "tn": 2863
+            },
+            "delta_tp": 0,
+            "delta_fp": 0,
+            "f1_before": 0.956997084548105,
+            "f1_after": 0.956997084548105
+          },
+          "removed": {
+            "before": {
+              "tp": 1313,
+              "fp": 48,
+              "fn": 70,
+              "tn": 2863
+            },
+            "after": {
+              "tp": 1319,
+              "fp": 58,
+              "fn": 64,
+              "tn": 2853
+            },
+            "delta_tp": 6,
+            "delta_fp": 10,
+            "f1_before": 0.956997084548105,
+            "f1_after": 0.9557971014492753
+          }
+        },
+        "matched": {}
+      }
+    },
+    "portfolio_layout/direct/legacy/0.2": {
+      "calibration": {
+        "budget": {
+          "calls": 1030,
+          "characters": 665881,
+          "swap": 138,
+          "old_calls": 1030,
+          "old_characters": 668875,
+          "removed_large": 0,
+          "added_large": 0
+        },
+        "frozen": {
+          "before": {
+            "tp": 1328,
+            "fp": 51,
+            "fn": 60,
+            "tn": 2853
+          },
+          "after": {
+            "tp": 1332,
+            "fp": 57,
+            "fn": 56,
+            "tn": 2847
+          },
+          "delta_tp": 4,
+          "delta_fp": 6,
+          "f1_before": 0.959884351282978,
+          "f1_after": 0.9593086064097948
+        },
+        "action_effect": {
+          "new": {
+            "before": {
+              "tp": 1328,
+              "fp": 51,
+              "fn": 60,
+              "tn": 2853
+            },
+            "after": {
+              "tp": 1329,
+              "fp": 51,
+              "fn": 59,
+              "tn": 2853
+            },
+            "delta_tp": 1,
+            "delta_fp": 0,
+            "f1_before": 0.959884351282978,
+            "f1_after": 0.9602601156069365
+          },
+          "removed": {
+            "before": {
+              "tp": 1328,
+              "fp": 51,
+              "fn": 60,
+              "tn": 2853
+            },
+            "after": {
+              "tp": 1331,
+              "fp": 57,
+              "fn": 57,
+              "tn": 2847
+            },
+            "delta_tp": 3,
+            "delta_fp": 6,
+            "f1_before": 0.959884351282978,
+            "f1_after": 0.9589337175792507
+          }
+        },
+        "matched": {}
+      },
+      "held": {
+        "budget": {
+          "calls": 1036,
+          "characters": 695426,
+          "swap": 125,
+          "old_calls": 1036,
+          "old_characters": 700979,
+          "removed_large": 1,
+          "added_large": 1
+        },
+        "frozen": {
+          "before": {
+            "tp": 1313,
+            "fp": 48,
+            "fn": 70,
+            "tn": 2863
+          },
+          "after": {
+            "tp": 1320,
+            "fp": 61,
+            "fn": 63,
+            "tn": 2850
+          },
+          "delta_tp": 7,
+          "delta_fp": 13,
+          "f1_before": 0.956997084548105,
+          "f1_after": 0.9551374819102749
+        },
+        "action_effect": {
+          "new": {
+            "before": {
+              "tp": 1313,
+              "fp": 48,
+              "fn": 70,
+              "tn": 2863
+            },
+            "after": {
+              "tp": 1313,
+              "fp": 48,
+              "fn": 70,
+              "tn": 2863
+            },
+            "delta_tp": 0,
+            "delta_fp": 0,
+            "f1_before": 0.956997084548105,
+            "f1_after": 0.956997084548105
+          },
+          "removed": {
+            "before": {
+              "tp": 1313,
+              "fp": 48,
+              "fn": 70,
+              "tn": 2863
+            },
+            "after": {
+              "tp": 1320,
+              "fp": 61,
+              "fn": 63,
+              "tn": 2850
+            },
+            "delta_tp": 7,
+            "delta_fp": 13,
+            "f1_before": 0.956997084548105,
+            "f1_after": 0.9551374819102749
+          }
+        },
+        "matched": {}
+      }
+    },
+    "portfolio_layout/direct/matched_length/0.025": {
+      "calibration": {
+        "budget": {
+          "calls": 1030,
+          "characters": 668765,
+          "swap": 24,
+          "old_calls": 1030,
+          "old_characters": 668875,
+          "removed_large": 0,
+          "added_large": 0
+        },
+        "frozen": {
+          "before": {
+            "tp": 1328,
+            "fp": 51,
+            "fn": 60,
+            "tn": 2853
+          },
+          "after": {
+            "tp": 1328,
+            "fp": 52,
+            "fn": 60,
+            "tn": 2852
+          },
+          "delta_tp": 0,
+          "delta_fp": 1,
+          "f1_before": 0.959884351282978,
+          "f1_after": 0.9595375722543352
+        },
+        "action_effect": {
+          "new": {
+            "before": {
+              "tp": 1328,
+              "fp": 51,
+              "fn": 60,
+              "tn": 2853
+            },
+            "after": {
+              "tp": 1328,
+              "fp": 51,
+              "fn": 60,
+              "tn": 2853
+            },
+            "delta_tp": 0,
+            "delta_fp": 0,
+            "f1_before": 0.959884351282978,
+            "f1_after": 0.959884351282978
+          },
+          "removed": {
+            "before": {
+              "tp": 1328,
+              "fp": 51,
+              "fn": 60,
+              "tn": 2853
+            },
+            "after": {
+              "tp": 1328,
+              "fp": 52,
+              "fn": 60,
+              "tn": 2852
+            },
+            "delta_tp": 0,
+            "delta_fp": 1,
+            "f1_before": 0.959884351282978,
+            "f1_after": 0.9595375722543352
+          }
+        },
+        "matched": {}
+      },
+      "held": {
+        "budget": {
+          "calls": 1036,
+          "characters": 700875,
+          "swap": 24,
+          "old_calls": 1036,
+          "old_characters": 700979,
+          "removed_large": 0,
+          "added_large": 0
+        },
+        "frozen": {
+          "before": {
+            "tp": 1313,
+            "fp": 48,
+            "fn": 70,
+            "tn": 2863
+          },
+          "after": {
+            "tp": 1314,
+            "fp": 48,
+            "fn": 69,
+            "tn": 2863
+          },
+          "delta_tp": 1,
+          "delta_fp": 0,
+          "f1_before": 0.956997084548105,
+          "f1_after": 0.9573770491803278
+        },
+        "action_effect": {
+          "new": {
+            "before": {
+              "tp": 1313,
+              "fp": 48,
+              "fn": 70,
+              "tn": 2863
+            },
+            "after": {
+              "tp": 1313,
+              "fp": 48,
+              "fn": 70,
+              "tn": 2863
+            },
+            "delta_tp": 0,
+            "delta_fp": 0,
+            "f1_before": 0.956997084548105,
+            "f1_after": 0.956997084548105
+          },
+          "removed": {
+            "before": {
+              "tp": 1313,
+              "fp": 48,
+              "fn": 70,
+              "tn": 2863
+            },
+            "after": {
+              "tp": 1314,
+              "fp": 48,
+              "fn": 69,
+              "tn": 2863
+            },
+            "delta_tp": 1,
+            "delta_fp": 0,
+            "f1_before": 0.956997084548105,
+            "f1_after": 0.9573770491803278
+          }
+        },
+        "matched": {}
+      }
+    },
+    "portfolio_layout/direct/matched_length/0.08": {
+      "calibration": {
+        "budget": {
+          "calls": 1030,
+          "characters": 668149,
+          "swap": 80,
+          "old_calls": 1030,
+          "old_characters": 668875,
+          "removed_large": 0,
+          "added_large": 0
+        },
+        "frozen": {
+          "before": {
+            "tp": 1328,
+            "fp": 51,
+            "fn": 60,
+            "tn": 2853
+          },
+          "after": {
+            "tp": 1330,
+            "fp": 55,
+            "fn": 58,
+            "tn": 2849
+          },
+          "delta_tp": 2,
+          "delta_fp": 4,
+          "f1_before": 0.959884351282978,
+          "f1_after": 0.9592499098449333
+        },
+        "action_effect": {
+          "new": {
+            "before": {
+              "tp": 1328,
+              "fp": 51,
+              "fn": 60,
+              "tn": 2853
+            },
+            "after": {
+              "tp": 1329,
+              "fp": 51,
+              "fn": 59,
+              "tn": 2853
+            },
+            "delta_tp": 1,
+            "delta_fp": 0,
+            "f1_before": 0.959884351282978,
+            "f1_after": 0.9602601156069365
+          },
+          "removed": {
+            "before": {
+              "tp": 1328,
+              "fp": 51,
+              "fn": 60,
+              "tn": 2853
+            },
+            "after": {
+              "tp": 1329,
+              "fp": 55,
+              "fn": 59,
+              "tn": 2849
+            },
+            "delta_tp": 1,
+            "delta_fp": 4,
+            "f1_before": 0.959884351282978,
+            "f1_after": 0.9588744588744589
+          }
+        },
+        "matched": {}
+      },
+      "held": {
+        "budget": {
+          "calls": 1036,
+          "characters": 699872,
+          "swap": 81,
+          "old_calls": 1036,
+          "old_characters": 700979,
+          "removed_large": 0,
+          "added_large": 0
+        },
+        "frozen": {
+          "before": {
+            "tp": 1313,
+            "fp": 48,
+            "fn": 70,
+            "tn": 2863
+          },
+          "after": {
+            "tp": 1315,
+            "fp": 54,
+            "fn": 68,
+            "tn": 2857
+          },
+          "delta_tp": 2,
+          "delta_fp": 6,
+          "f1_before": 0.956997084548105,
+          "f1_after": 0.9556686046511628
+        },
+        "action_effect": {
+          "new": {
+            "before": {
+              "tp": 1313,
+              "fp": 48,
+              "fn": 70,
+              "tn": 2863
+            },
+            "after": {
+              "tp": 1313,
+              "fp": 48,
+              "fn": 70,
+              "tn": 2863
+            },
+            "delta_tp": 0,
+            "delta_fp": 0,
+            "f1_before": 0.956997084548105,
+            "f1_after": 0.956997084548105
+          },
+          "removed": {
+            "before": {
+              "tp": 1313,
+              "fp": 48,
+              "fn": 70,
+              "tn": 2863
+            },
+            "after": {
+              "tp": 1315,
+              "fp": 54,
+              "fn": 68,
+              "tn": 2857
+            },
+            "delta_tp": 2,
+            "delta_fp": 6,
+            "f1_before": 0.956997084548105,
+            "f1_after": 0.9556686046511628
+          }
+        },
+        "matched": {}
+      }
+    },
+    "portfolio_layout/direct/matched_length/0.2": {
+      "calibration": {
+        "budget": {
+          "calls": 1030,
+          "characters": 661559,
+          "swap": 170,
+          "old_calls": 1030,
+          "old_characters": 668875,
+          "removed_large": 0,
+          "added_large": 0
+        },
+        "frozen": {
+          "before": {
+            "tp": 1328,
+            "fp": 51,
+            "fn": 60,
+            "tn": 2853
+          },
+          "after": {
+            "tp": 1331,
+            "fp": 58,
+            "fn": 57,
+            "tn": 2846
+          },
+          "delta_tp": 3,
+          "delta_fp": 7,
+          "f1_before": 0.959884351282978,
+          "f1_after": 0.958588404753331
+        },
+        "action_effect": {
+          "new": {
+            "before": {
+              "tp": 1328,
+              "fp": 51,
+              "fn": 60,
+              "tn": 2853
+            },
+            "after": {
+              "tp": 1329,
+              "fp": 51,
+              "fn": 59,
+              "tn": 2853
+            },
+            "delta_tp": 1,
+            "delta_fp": 0,
+            "f1_before": 0.959884351282978,
+            "f1_after": 0.9602601156069365
+          },
+          "removed": {
+            "before": {
+              "tp": 1328,
+              "fp": 51,
+              "fn": 60,
+              "tn": 2853
+            },
+            "after": {
+              "tp": 1330,
+              "fp": 58,
+              "fn": 58,
+              "tn": 2846
+            },
+            "delta_tp": 2,
+            "delta_fp": 7,
+            "f1_before": 0.959884351282978,
+            "f1_after": 0.9582132564841499
+          }
+        },
+        "matched": {}
+      },
+      "held": {
+        "budget": {
+          "calls": 1036,
+          "characters": 693305,
+          "swap": 167,
+          "old_calls": 1036,
+          "old_characters": 700979,
+          "removed_large": 0,
+          "added_large": 0
+        },
+        "frozen": {
+          "before": {
+            "tp": 1313,
+            "fp": 48,
+            "fn": 70,
+            "tn": 2863
+          },
+          "after": {
+            "tp": 1320,
+            "fp": 60,
+            "fn": 63,
+            "tn": 2851
+          },
+          "delta_tp": 7,
+          "delta_fp": 12,
+          "f1_before": 0.956997084548105,
+          "f1_after": 0.9554831704668838
+        },
+        "action_effect": {
+          "new": {
+            "before": {
+              "tp": 1313,
+              "fp": 48,
+              "fn": 70,
+              "tn": 2863
+            },
+            "after": {
+              "tp": 1313,
+              "fp": 48,
+              "fn": 70,
+              "tn": 2863
+            },
+            "delta_tp": 0,
+            "delta_fp": 0,
+            "f1_before": 0.956997084548105,
+            "f1_after": 0.956997084548105
+          },
+          "removed": {
+            "before": {
+              "tp": 1313,
+              "fp": 48,
+              "fn": 70,
+              "tn": 2863
+            },
+            "after": {
+              "tp": 1320,
+              "fp": 60,
+              "fn": 63,
+              "tn": 2851
+            },
+            "delta_tp": 7,
+            "delta_fp": 12,
+            "f1_before": 0.956997084548105,
+            "f1_after": 0.9554831704668838
+          }
+        },
+        "matched": {}
+      }
+    },
+    "portfolio_layout/factor/legacy/0.025": {
+      "calibration": {
+        "budget": {
+          "calls": 1030,
+          "characters": 668777,
+          "swap": 23,
+          "old_calls": 1030,
+          "old_characters": 668875,
+          "removed_large": 0,
+          "added_large": 0
+        },
+        "frozen": {
+          "before": {
+            "tp": 1328,
+            "fp": 51,
+            "fn": 60,
+            "tn": 2853
+          },
+          "after": {
+            "tp": 1330,
+            "fp": 58,
+            "fn": 58,
+            "tn": 2846
+          },
+          "delta_tp": 2,
+          "delta_fp": 7,
+          "f1_before": 0.959884351282978,
+          "f1_after": 0.9582132564841499
+        },
+        "action_effect": {
+          "new": {
+            "before": {
+              "tp": 1328,
+              "fp": 51,
+              "fn": 60,
+              "tn": 2853
+            },
+            "after": {
+              "tp": 1328,
+              "fp": 51,
+              "fn": 60,
+              "tn": 2853
+            },
+            "delta_tp": 0,
+            "delta_fp": 0,
+            "f1_before": 0.959884351282978,
+            "f1_after": 0.959884351282978
+          },
+          "removed": {
+            "before": {
+              "tp": 1328,
+              "fp": 51,
+              "fn": 60,
+              "tn": 2853
+            },
+            "after": {
+              "tp": 1330,
+              "fp": 58,
+              "fn": 58,
+              "tn": 2846
+            },
+            "delta_tp": 2,
+            "delta_fp": 7,
+            "f1_before": 0.959884351282978,
+            "f1_after": 0.9582132564841499
+          }
+        },
+        "matched": {}
+      },
+      "held": {
+        "budget": {
+          "calls": 1036,
+          "characters": 699796,
+          "swap": 25,
+          "old_calls": 1036,
+          "old_characters": 700979,
+          "removed_large": 1,
+          "added_large": 1
+        },
+        "frozen": {
+          "before": {
+            "tp": 1313,
+            "fp": 48,
+            "fn": 70,
+            "tn": 2863
+          },
+          "after": {
+            "tp": 1317,
+            "fp": 56,
+            "fn": 66,
+            "tn": 2855
+          },
+          "delta_tp": 4,
+          "delta_fp": 8,
+          "f1_before": 0.956997084548105,
+          "f1_after": 0.9557329462989841
+        },
+        "action_effect": {
+          "new": {
+            "before": {
+              "tp": 1313,
+              "fp": 48,
+              "fn": 70,
+              "tn": 2863
+            },
+            "after": {
+              "tp": 1313,
+              "fp": 48,
+              "fn": 70,
+              "tn": 2863
+            },
+            "delta_tp": 0,
+            "delta_fp": 0,
+            "f1_before": 0.956997084548105,
+            "f1_after": 0.956997084548105
+          },
+          "removed": {
+            "before": {
+              "tp": 1313,
+              "fp": 48,
+              "fn": 70,
+              "tn": 2863
+            },
+            "after": {
+              "tp": 1317,
+              "fp": 56,
+              "fn": 66,
+              "tn": 2855
+            },
+            "delta_tp": 4,
+            "delta_fp": 8,
+            "f1_before": 0.956997084548105,
+            "f1_after": 0.9557329462989841
+          }
+        },
+        "matched": {}
+      }
+    },
+    "portfolio_layout/factor/legacy/0.08": {
+      "calibration": {
+        "budget": {
+          "calls": 1030,
+          "characters": 668549,
+          "swap": 77,
+          "old_calls": 1030,
+          "old_characters": 668875,
+          "removed_large": 0,
+          "added_large": 0
+        },
+        "frozen": {
+          "before": {
+            "tp": 1328,
+            "fp": 51,
+            "fn": 60,
+            "tn": 2853
+          },
+          "after": {
+            "tp": 1332,
+            "fp": 62,
+            "fn": 56,
+            "tn": 2842
+          },
+          "delta_tp": 4,
+          "delta_fp": 11,
+          "f1_before": 0.959884351282978,
+          "f1_after": 0.9575844716031632
+        },
+        "action_effect": {
+          "new": {
+            "before": {
+              "tp": 1328,
+              "fp": 51,
+              "fn": 60,
+              "tn": 2853
+            },
+            "after": {
+              "tp": 1328,
+              "fp": 50,
+              "fn": 60,
+              "tn": 2854
+            },
+            "delta_tp": 0,
+            "delta_fp": -1,
+            "f1_before": 0.959884351282978,
+            "f1_after": 0.9602313810556761
+          },
+          "removed": {
+            "before": {
+              "tp": 1328,
+              "fp": 51,
+              "fn": 60,
+              "tn": 2853
+            },
+            "after": {
+              "tp": 1332,
+              "fp": 63,
+              "fn": 56,
+              "tn": 2841
+            },
+            "delta_tp": 4,
+            "delta_fp": 12,
+            "f1_before": 0.959884351282978,
+            "f1_after": 0.9572403880704276
+          }
+        },
+        "matched": {}
+      },
+      "held": {
+        "budget": {
+          "calls": 1036,
+          "characters": 699874,
+          "swap": 82,
+          "old_calls": 1036,
+          "old_characters": 700979,
+          "removed_large": 1,
+          "added_large": 1
+        },
+        "frozen": {
+          "before": {
+            "tp": 1313,
+            "fp": 48,
+            "fn": 70,
+            "tn": 2863
+          },
+          "after": {
+            "tp": 1318,
+            "fp": 67,
+            "fn": 65,
+            "tn": 2844
+          },
+          "delta_tp": 5,
+          "delta_fp": 19,
+          "f1_before": 0.956997084548105,
+          "f1_after": 0.9523121387283237
+        },
+        "action_effect": {
+          "new": {
+            "before": {
+              "tp": 1313,
+              "fp": 48,
+              "fn": 70,
+              "tn": 2863
+            },
+            "after": {
+              "tp": 1313,
+              "fp": 48,
+              "fn": 70,
+              "tn": 2863
+            },
+            "delta_tp": 0,
+            "delta_fp": 0,
+            "f1_before": 0.956997084548105,
+            "f1_after": 0.956997084548105
+          },
+          "removed": {
+            "before": {
+              "tp": 1313,
+              "fp": 48,
+              "fn": 70,
+              "tn": 2863
+            },
+            "after": {
+              "tp": 1318,
+              "fp": 67,
+              "fn": 65,
+              "tn": 2844
+            },
+            "delta_tp": 5,
+            "delta_fp": 19,
+            "f1_before": 0.956997084548105,
+            "f1_after": 0.9523121387283237
+          }
+        },
+        "matched": {}
+      }
+    },
+    "portfolio_layout/factor/legacy/0.2": {
+      "calibration": {
+        "budget": {
+          "calls": 1030,
+          "characters": 668745,
+          "swap": 161,
+          "old_calls": 1030,
+          "old_characters": 668875,
+          "removed_large": 0,
+          "added_large": 0
+        },
+        "frozen": {
+          "before": {
+            "tp": 1328,
+            "fp": 51,
+            "fn": 60,
+            "tn": 2853
+          },
+          "after": {
+            "tp": 1333,
+            "fp": 63,
+            "fn": 55,
+            "tn": 2841
+          },
+          "delta_tp": 5,
+          "delta_fp": 12,
+          "f1_before": 0.959884351282978,
+          "f1_after": 0.9576149425287356
+        },
+        "action_effect": {
+          "new": {
+            "before": {
+              "tp": 1328,
+              "fp": 51,
+              "fn": 60,
+              "tn": 2853
+            },
+            "after": {
+              "tp": 1329,
+              "fp": 49,
+              "fn": 59,
+              "tn": 2855
+            },
+            "delta_tp": 1,
+            "delta_fp": -2,
+            "f1_before": 0.959884351282978,
+            "f1_after": 0.9609544468546638
+          },
+          "removed": {
+            "before": {
+              "tp": 1328,
+              "fp": 51,
+              "fn": 60,
+              "tn": 2853
+            },
+            "after": {
+              "tp": 1332,
+              "fp": 65,
+              "fn": 56,
+              "tn": 2839
+            },
+            "delta_tp": 4,
+            "delta_fp": 14,
+            "f1_before": 0.959884351282978,
+            "f1_after": 0.9565529622980251
+          }
+        },
+        "matched": {}
+      },
+      "held": {
+        "budget": {
+          "calls": 1036,
+          "characters": 696660,
+          "swap": 188,
+          "old_calls": 1036,
+          "old_characters": 700979,
+          "removed_large": 1,
+          "added_large": 1
+        },
+        "frozen": {
+          "before": {
+            "tp": 1313,
+            "fp": 48,
+            "fn": 70,
+            "tn": 2863
+          },
+          "after": {
+            "tp": 1317,
+            "fp": 70,
+            "fn": 66,
+            "tn": 2841
+          },
+          "delta_tp": 4,
+          "delta_fp": 22,
+          "f1_before": 0.956997084548105,
+          "f1_after": 0.9509025270758122
+        },
+        "action_effect": {
+          "new": {
+            "before": {
+              "tp": 1313,
+              "fp": 48,
+              "fn": 70,
+              "tn": 2863
+            },
+            "after": {
+              "tp": 1313,
+              "fp": 48,
+              "fn": 70,
+              "tn": 2863
+            },
+            "delta_tp": 0,
+            "delta_fp": 0,
+            "f1_before": 0.956997084548105,
+            "f1_after": 0.956997084548105
+          },
+          "removed": {
+            "before": {
+              "tp": 1313,
+              "fp": 48,
+              "fn": 70,
+              "tn": 2863
+            },
+            "after": {
+              "tp": 1317,
+              "fp": 70,
+              "fn": 66,
+              "tn": 2841
+            },
+            "delta_tp": 4,
+            "delta_fp": 22,
+            "f1_before": 0.956997084548105,
+            "f1_after": 0.9509025270758122
+          }
+        },
+        "matched": {}
+      }
+    },
+    "portfolio_layout/factor/matched_length/0.025": {
+      "calibration": {
+        "budget": {
+          "calls": 1030,
+          "characters": 668740,
+          "swap": 24,
+          "old_calls": 1030,
+          "old_characters": 668875,
+          "removed_large": 0,
+          "added_large": 0
+        },
+        "frozen": {
+          "before": {
+            "tp": 1328,
+            "fp": 51,
+            "fn": 60,
+            "tn": 2853
+          },
+          "after": {
+            "tp": 1329,
+            "fp": 54,
+            "fn": 59,
+            "tn": 2850
+          },
+          "delta_tp": 1,
+          "delta_fp": 3,
+          "f1_before": 0.959884351282978,
+          "f1_after": 0.959220498015157
+        },
+        "action_effect": {
+          "new": {
+            "before": {
+              "tp": 1328,
+              "fp": 51,
+              "fn": 60,
+              "tn": 2853
+            },
+            "after": {
+              "tp": 1328,
+              "fp": 51,
+              "fn": 60,
+              "tn": 2853
+            },
+            "delta_tp": 0,
+            "delta_fp": 0,
+            "f1_before": 0.959884351282978,
+            "f1_after": 0.959884351282978
+          },
+          "removed": {
+            "before": {
+              "tp": 1328,
+              "fp": 51,
+              "fn": 60,
+              "tn": 2853
+            },
+            "after": {
+              "tp": 1329,
+              "fp": 54,
+              "fn": 59,
+              "tn": 2850
+            },
+            "delta_tp": 1,
+            "delta_fp": 3,
+            "f1_before": 0.959884351282978,
+            "f1_after": 0.959220498015157
+          }
+        },
+        "matched": {}
+      },
+      "held": {
+        "budget": {
+          "calls": 1036,
+          "characters": 700886,
+          "swap": 24,
+          "old_calls": 1036,
+          "old_characters": 700979,
+          "removed_large": 0,
+          "added_large": 0
+        },
+        "frozen": {
+          "before": {
+            "tp": 1313,
+            "fp": 48,
+            "fn": 70,
+            "tn": 2863
+          },
+          "after": {
+            "tp": 1314,
+            "fp": 51,
+            "fn": 69,
+            "tn": 2860
+          },
+          "delta_tp": 1,
+          "delta_fp": 3,
+          "f1_before": 0.956997084548105,
+          "f1_after": 0.9563318777292577
+        },
+        "action_effect": {
+          "new": {
+            "before": {
+              "tp": 1313,
+              "fp": 48,
+              "fn": 70,
+              "tn": 2863
+            },
+            "after": {
+              "tp": 1313,
+              "fp": 48,
+              "fn": 70,
+              "tn": 2863
+            },
+            "delta_tp": 0,
+            "delta_fp": 0,
+            "f1_before": 0.956997084548105,
+            "f1_after": 0.956997084548105
+          },
+          "removed": {
+            "before": {
+              "tp": 1313,
+              "fp": 48,
+              "fn": 70,
+              "tn": 2863
+            },
+            "after": {
+              "tp": 1314,
+              "fp": 51,
+              "fn": 69,
+              "tn": 2860
+            },
+            "delta_tp": 1,
+            "delta_fp": 3,
+            "f1_before": 0.956997084548105,
+            "f1_after": 0.9563318777292577
+          }
+        },
+        "matched": {}
+      }
+    },
+    "portfolio_layout/factor/matched_length/0.08": {
+      "calibration": {
+        "budget": {
+          "calls": 1030,
+          "characters": 668338,
+          "swap": 80,
+          "old_calls": 1030,
+          "old_characters": 668875,
+          "removed_large": 0,
+          "added_large": 0
+        },
+        "frozen": {
+          "before": {
+            "tp": 1328,
+            "fp": 51,
+            "fn": 60,
+            "tn": 2853
+          },
+          "after": {
+            "tp": 1331,
+            "fp": 54,
+            "fn": 57,
+            "tn": 2850
+          },
+          "delta_tp": 3,
+          "delta_fp": 3,
+          "f1_before": 0.959884351282978,
+          "f1_after": 0.9599711503786513
+        },
+        "action_effect": {
+          "new": {
+            "before": {
+              "tp": 1328,
+              "fp": 51,
+              "fn": 60,
+              "tn": 2853
+            },
+            "after": {
+              "tp": 1328,
+              "fp": 50,
+              "fn": 60,
+              "tn": 2854
+            },
+            "delta_tp": 0,
+            "delta_fp": -1,
+            "f1_before": 0.959884351282978,
+            "f1_after": 0.9602313810556761
+          },
+          "removed": {
+            "before": {
+              "tp": 1328,
+              "fp": 51,
+              "fn": 60,
+              "tn": 2853
+            },
+            "after": {
+              "tp": 1331,
+              "fp": 55,
+              "fn": 57,
+              "tn": 2849
+            },
+            "delta_tp": 3,
+            "delta_fp": 4,
+            "f1_before": 0.959884351282978,
+            "f1_after": 0.9596250901225667
+          }
+        },
+        "matched": {}
+      },
+      "held": {
+        "budget": {
+          "calls": 1036,
+          "characters": 700116,
+          "swap": 81,
+          "old_calls": 1036,
+          "old_characters": 700979,
+          "removed_large": 0,
+          "added_large": 0
+        },
+        "frozen": {
+          "before": {
+            "tp": 1313,
+            "fp": 48,
+            "fn": 70,
+            "tn": 2863
+          },
+          "after": {
+            "tp": 1317,
+            "fp": 54,
+            "fn": 66,
+            "tn": 2857
+          },
+          "delta_tp": 4,
+          "delta_fp": 6,
+          "f1_before": 0.956997084548105,
+          "f1_after": 0.9564270152505446
+        },
+        "action_effect": {
+          "new": {
+            "before": {
+              "tp": 1313,
+              "fp": 48,
+              "fn": 70,
+              "tn": 2863
+            },
+            "after": {
+              "tp": 1313,
+              "fp": 48,
+              "fn": 70,
+              "tn": 2863
+            },
+            "delta_tp": 0,
+            "delta_fp": 0,
+            "f1_before": 0.956997084548105,
+            "f1_after": 0.956997084548105
+          },
+          "removed": {
+            "before": {
+              "tp": 1313,
+              "fp": 48,
+              "fn": 70,
+              "tn": 2863
+            },
+            "after": {
+              "tp": 1317,
+              "fp": 54,
+              "fn": 66,
+              "tn": 2857
+            },
+            "delta_tp": 4,
+            "delta_fp": 6,
+            "f1_before": 0.956997084548105,
+            "f1_after": 0.9564270152505446
+          }
+        },
+        "matched": {}
+      }
+    },
+    "portfolio_layout/factor/matched_length/0.2": {
+      "calibration": {
+        "budget": {
+          "calls": 1030,
+          "characters": 664760,
+          "swap": 201,
+          "old_calls": 1030,
+          "old_characters": 668875,
+          "removed_large": 0,
+          "added_large": 0
+        },
+        "frozen": {
+          "before": {
+            "tp": 1328,
+            "fp": 51,
+            "fn": 60,
+            "tn": 2853
+          },
+          "after": {
+            "tp": 1334,
+            "fp": 62,
+            "fn": 54,
+            "tn": 2842
+          },
+          "delta_tp": 6,
+          "delta_fp": 11,
+          "f1_before": 0.959884351282978,
+          "f1_after": 0.9583333333333334
+        },
+        "action_effect": {
+          "new": {
+            "before": {
+              "tp": 1328,
+              "fp": 51,
+              "fn": 60,
+              "tn": 2853
+            },
+            "after": {
+              "tp": 1329,
+              "fp": 49,
+              "fn": 59,
+              "tn": 2855
+            },
+            "delta_tp": 1,
+            "delta_fp": -2,
+            "f1_before": 0.959884351282978,
+            "f1_after": 0.9609544468546638
+          },
+          "removed": {
+            "before": {
+              "tp": 1328,
+              "fp": 51,
+              "fn": 60,
+              "tn": 2853
+            },
+            "after": {
+              "tp": 1333,
+              "fp": 64,
+              "fn": 55,
+              "tn": 2840
+            },
+            "delta_tp": 5,
+            "delta_fp": 13,
+            "f1_before": 0.959884351282978,
+            "f1_after": 0.9572710951526032
+          }
+        },
+        "matched": {}
+      },
+      "held": {
+        "budget": {
+          "calls": 1036,
+          "characters": 696168,
+          "swap": 200,
+          "old_calls": 1036,
+          "old_characters": 700979,
+          "removed_large": 0,
+          "added_large": 0
+        },
+        "frozen": {
+          "before": {
+            "tp": 1313,
+            "fp": 48,
+            "fn": 70,
+            "tn": 2863
+          },
+          "after": {
+            "tp": 1318,
+            "fp": 68,
+            "fn": 65,
+            "tn": 2843
+          },
+          "delta_tp": 5,
+          "delta_fp": 20,
+          "f1_before": 0.956997084548105,
+          "f1_after": 0.9519682195738534
+        },
+        "action_effect": {
+          "new": {
+            "before": {
+              "tp": 1313,
+              "fp": 48,
+              "fn": 70,
+              "tn": 2863
+            },
+            "after": {
+              "tp": 1313,
+              "fp": 48,
+              "fn": 70,
+              "tn": 2863
+            },
+            "delta_tp": 0,
+            "delta_fp": 0,
+            "f1_before": 0.956997084548105,
+            "f1_after": 0.956997084548105
+          },
+          "removed": {
+            "before": {
+              "tp": 1313,
+              "fp": 48,
+              "fn": 70,
+              "tn": 2863
+            },
+            "after": {
+              "tp": 1318,
+              "fp": 68,
+              "fn": 65,
+              "tn": 2843
+            },
+            "delta_tp": 5,
+            "delta_fp": 20,
+            "f1_before": 0.956997084548105,
+            "f1_after": 0.9519682195738534
+          }
+        },
+        "matched": {}
+      }
+    }
+  },
+  "seconds": 111.29186520306394,
+  "approximation": "changed newly queried rows use stored Round 32 ranks, existing requests use Round 38"
+}

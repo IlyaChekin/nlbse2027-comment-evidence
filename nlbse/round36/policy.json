@@ -1,0 +1,36 @@
+{
+  "cutoffs": {
+    "comment_word": 3.6010632935547107,
+    "comment_both": 3.7856576282186802,
+    "clause_word": 3.758335310867367,
+    "clause_both": 4.332075223923956
+  },
+  "arms": [
+    "comment_word",
+    "comment_both",
+    "clause_word",
+    "clause_both"
+  ],
+  "training": {
+    "comment": {
+      "units": 38790,
+      "positive_units": 1697,
+      "positive_functions": 1641,
+      "same_function_negatives": 1473
+    },
+    "clause": {
+      "units": 60011,
+      "positive_units": 1636,
+      "positive_functions": 1551,
+      "same_function_negatives": 4245
+    }
+  },
+  "model_sha256": "82c5bb24446f6bc096259b7811e3b9c941390ece5675b4d033276ecef6ba935f",
+  "code_sha256": "8ab993aae018d919252bf8e07b234707fb86c3a4fd721f38da1d1ebce4531aed",
+  "partition_sha256": "2823097d9b25fadebffcc6a3daa50034854d7a59c5df5c90d4e6d6d48231cfc9",
+  "data_manifest_sha256": "8cd6dc7cf3101d2e3a055ff7c7154653402fbb6491959f4f636504cd378b56ef",
+  "runtime_sha256": "e7e8d51d3d0d2f2b817dd60f6505c8ec8ff81d09eb0aaec8a823cd032dd06d4c",
+  "features": "word and character grams of marker-erased comment clauses or whole spans",
+  "eval_labels_used_for_threshold": "dev only",
+  "functions_only": true
+}

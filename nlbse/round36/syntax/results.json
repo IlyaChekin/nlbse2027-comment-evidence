@@ -1,0 +1,1346 @@
+{
+  "dev": {
+    "baseline": {
+      "tp": 278,
+      "fp": 0,
+      "fn": 44,
+      "f1": 0.9266666666666666,
+      "recovered": 0,
+      "delta_fp": 0,
+      "recovered_without_comment": 0
+    },
+    "results": {
+      "declaration_point": {
+        "frozen": {
+          "tp": 278,
+          "fp": 0,
+          "fn": 44,
+          "f1": 0.9266666666666666,
+          "recovered": 0,
+          "delta_fp": 0,
+          "recovered_without_comment": 0
+        },
+        "matched": {
+          "tp": 278,
+          "fp": 0,
+          "fn": 44,
+          "f1": 0.9266666666666666,
+          "recovered": 0,
+          "delta_fp": 0,
+          "recovered_without_comment": 0
+        },
+        "average_precision": 0.0023151151225959885,
+        "projects": {
+          "linux": {
+            "tp": 265,
+            "fp": 0,
+            "fn": 42,
+            "f1": 0.9265734265734266,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0,
+            "cut": 6.3456690274366885
+          },
+          "tcpdump": {
+            "tp": 13,
+            "fp": 0,
+            "fn": 2,
+            "f1": 0.9285714285714286,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0,
+            "cut": 7.1637631843016125
+          }
+        }
+      },
+      "declaration_pair": {
+        "frozen": {
+          "tp": 278,
+          "fp": 0,
+          "fn": 44,
+          "f1": 0.9266666666666666,
+          "recovered": 0,
+          "delta_fp": 0,
+          "recovered_without_comment": 0
+        },
+        "matched": {
+          "tp": 278,
+          "fp": 0,
+          "fn": 44,
+          "f1": 0.9266666666666666,
+          "recovered": 0,
+          "delta_fp": 0,
+          "recovered_without_comment": 0
+        },
+        "average_precision": 0.002869530446717333,
+        "projects": {
+          "linux": {
+            "tp": 265,
+            "fp": 0,
+            "fn": 42,
+            "f1": 0.9265734265734266,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0,
+            "cut": 8.057638498259932
+          },
+          "tcpdump": {
+            "tp": 13,
+            "fp": 0,
+            "fn": 2,
+            "f1": 0.9285714285714286,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0,
+            "cut": 8.09181652827726
+          }
+        }
+      },
+      "body_point": {
+        "frozen": {
+          "tp": 278,
+          "fp": 0,
+          "fn": 44,
+          "f1": 0.9266666666666666,
+          "recovered": 0,
+          "delta_fp": 0,
+          "recovered_without_comment": 0
+        },
+        "matched": {
+          "tp": 278,
+          "fp": 0,
+          "fn": 44,
+          "f1": 0.9266666666666666,
+          "recovered": 0,
+          "delta_fp": 0,
+          "recovered_without_comment": 0
+        },
+        "average_precision": 0.002361230119936275,
+        "projects": {
+          "linux": {
+            "tp": 265,
+            "fp": 0,
+            "fn": 42,
+            "f1": 0.9265734265734266,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0,
+            "cut": 13.927882131229488
+          },
+          "tcpdump": {
+            "tp": 13,
+            "fp": 0,
+            "fn": 2,
+            "f1": 0.9285714285714286,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0,
+            "cut": 5.7408416173552945
+          }
+        }
+      },
+      "body_pair": {
+        "frozen": {
+          "tp": 278,
+          "fp": 0,
+          "fn": 44,
+          "f1": 0.9266666666666666,
+          "recovered": 0,
+          "delta_fp": 0,
+          "recovered_without_comment": 0
+        },
+        "matched": {
+          "tp": 278,
+          "fp": 0,
+          "fn": 44,
+          "f1": 0.9266666666666666,
+          "recovered": 0,
+          "delta_fp": 0,
+          "recovered_without_comment": 0
+        },
+        "average_precision": 0.0036809827177746676,
+        "projects": {
+          "linux": {
+            "tp": 265,
+            "fp": 0,
+            "fn": 42,
+            "f1": 0.9265734265734266,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0,
+            "cut": 10.614587541448511
+          },
+          "tcpdump": {
+            "tp": 13,
+            "fp": 0,
+            "fn": 2,
+            "f1": 0.9285714285714286,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0,
+            "cut": 6.665410344559615
+          }
+        }
+      },
+      "joined_point": {
+        "frozen": {
+          "tp": 278,
+          "fp": 0,
+          "fn": 44,
+          "f1": 0.9266666666666666,
+          "recovered": 0,
+          "delta_fp": 0,
+          "recovered_without_comment": 0
+        },
+        "matched": {
+          "tp": 278,
+          "fp": 0,
+          "fn": 44,
+          "f1": 0.9266666666666666,
+          "recovered": 0,
+          "delta_fp": 0,
+          "recovered_without_comment": 0
+        },
+        "average_precision": 0.0026591358865789743,
+        "projects": {
+          "linux": {
+            "tp": 265,
+            "fp": 0,
+            "fn": 42,
+            "f1": 0.9265734265734266,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0,
+            "cut": 16.08121012173144
+          },
+          "tcpdump": {
+            "tp": 13,
+            "fp": 0,
+            "fn": 2,
+            "f1": 0.9285714285714286,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0,
+            "cut": 6.220573784458399
+          }
+        }
+      },
+      "joined_pair": {
+        "frozen": {
+          "tp": 278,
+          "fp": 0,
+          "fn": 44,
+          "f1": 0.9266666666666666,
+          "recovered": 0,
+          "delta_fp": 0,
+          "recovered_without_comment": 0
+        },
+        "matched": {
+          "tp": 278,
+          "fp": 0,
+          "fn": 44,
+          "f1": 0.9266666666666666,
+          "recovered": 0,
+          "delta_fp": 0,
+          "recovered_without_comment": 0
+        },
+        "average_precision": 0.004623684330441776,
+        "projects": {
+          "linux": {
+            "tp": 265,
+            "fp": 0,
+            "fn": 42,
+            "f1": 0.9265734265734266,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0,
+            "cut": 13.335535445868706
+          },
+          "tcpdump": {
+            "tp": 13,
+            "fp": 0,
+            "fn": 2,
+            "f1": 0.9285714285714286,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0,
+            "cut": 7.432807491892303
+          }
+        }
+      }
+    },
+    "predictions_sha256": "93a0432e2c135fe188e3608c1d453b4a1a157bd3c7863fc2a00a3b07c3a92b7c",
+    "coverage": {
+      "linux": {
+        "rows": 21642,
+        "misses": 42,
+        "misses_with_comments": 9,
+        "fp_at_first_recovery": {
+          "declaration_point": 440,
+          "declaration_pair": 242,
+          "body_point": 243,
+          "body_pair": 77,
+          "joined_point": 117,
+          "joined_pair": 36
+        }
+      },
+      "tcpdump": {
+        "rows": 155,
+        "misses": 2,
+        "misses_with_comments": 2,
+        "fp_at_first_recovery": {
+          "declaration_point": 105,
+          "declaration_pair": 95,
+          "body_point": 72,
+          "body_pair": 42,
+          "joined_point": 70,
+          "joined_pair": 47
+        }
+      }
+    },
+    "seconds": 16.822315206984058,
+    "reference_sha256": "3bc976ae1200df9df264e2fa22fc18eea990fa2f7106791f04ca840e026b0660"
+  },
+  "test_a": {
+    "baseline": {
+      "tp": 753,
+      "fp": 0,
+      "fn": 77,
+      "f1": 0.9513581806696146,
+      "recovered": 0,
+      "delta_fp": 0,
+      "recovered_without_comment": 0
+    },
+    "results": {
+      "declaration_point": {
+        "frozen": {
+          "tp": 753,
+          "fp": 10,
+          "fn": 77,
+          "f1": 0.9453860640301318,
+          "recovered": 0,
+          "delta_fp": 10,
+          "recovered_without_comment": 0
+        },
+        "matched": {
+          "tp": 753,
+          "fp": 0,
+          "fn": 77,
+          "f1": 0.9513581806696146,
+          "recovered": 0,
+          "delta_fp": 0,
+          "recovered_without_comment": 0
+        },
+        "average_precision": 0.004961389613346901,
+        "projects": {
+          "chromium": {
+            "tp": 276,
+            "fp": 0,
+            "fn": 42,
+            "f1": 0.9292929292929293,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0,
+            "cut": 11.132005787290286
+          },
+          "ffmpeg": {
+            "tp": 155,
+            "fp": 0,
+            "fn": 17,
+            "f1": 0.9480122324159022,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0,
+            "cut": 10.320872856914576
+          },
+          "qemu": {
+            "tp": 322,
+            "fp": 0,
+            "fn": 18,
+            "f1": 0.972809667673716,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0,
+            "cut": 7.595199688784505
+          }
+        }
+      },
+      "declaration_pair": {
+        "frozen": {
+          "tp": 753,
+          "fp": 15,
+          "fn": 77,
+          "f1": 0.9424280350438048,
+          "recovered": 0,
+          "delta_fp": 15,
+          "recovered_without_comment": 0
+        },
+        "matched": {
+          "tp": 753,
+          "fp": 0,
+          "fn": 77,
+          "f1": 0.9513581806696146,
+          "recovered": 0,
+          "delta_fp": 0,
+          "recovered_without_comment": 0
+        },
+        "average_precision": 0.004733236352875156,
+        "projects": {
+          "chromium": {
+            "tp": 276,
+            "fp": 0,
+            "fn": 42,
+            "f1": 0.9292929292929293,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0,
+            "cut": 11.95249903490769
+          },
+          "ffmpeg": {
+            "tp": 155,
+            "fp": 0,
+            "fn": 17,
+            "f1": 0.9480122324159022,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0,
+            "cut": 11.089449581591188
+          },
+          "qemu": {
+            "tp": 322,
+            "fp": 0,
+            "fn": 18,
+            "f1": 0.972809667673716,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0,
+            "cut": 8.62845076188692
+          }
+        }
+      },
+      "body_point": {
+        "frozen": {
+          "tp": 753,
+          "fp": 0,
+          "fn": 77,
+          "f1": 0.9513581806696146,
+          "recovered": 0,
+          "delta_fp": 0,
+          "recovered_without_comment": 0
+        },
+        "matched": {
+          "tp": 753,
+          "fp": 0,
+          "fn": 77,
+          "f1": 0.9513581806696146,
+          "recovered": 0,
+          "delta_fp": 0,
+          "recovered_without_comment": 0
+        },
+        "average_precision": 0.002211657038742997,
+        "projects": {
+          "chromium": {
+            "tp": 276,
+            "fp": 0,
+            "fn": 42,
+            "f1": 0.9292929292929293,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0,
+            "cut": 13.22255049170383
+          },
+          "ffmpeg": {
+            "tp": 155,
+            "fp": 0,
+            "fn": 17,
+            "f1": 0.9480122324159022,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0,
+            "cut": 11.090648115877503
+          },
+          "qemu": {
+            "tp": 322,
+            "fp": 0,
+            "fn": 18,
+            "f1": 0.972809667673716,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0,
+            "cut": 10.22446424002542
+          }
+        }
+      },
+      "body_pair": {
+        "frozen": {
+          "tp": 753,
+          "fp": 1,
+          "fn": 77,
+          "f1": 0.9507575757575758,
+          "recovered": 0,
+          "delta_fp": 1,
+          "recovered_without_comment": 0
+        },
+        "matched": {
+          "tp": 753,
+          "fp": 0,
+          "fn": 77,
+          "f1": 0.9513581806696146,
+          "recovered": 0,
+          "delta_fp": 0,
+          "recovered_without_comment": 0
+        },
+        "average_precision": 0.003958270225538626,
+        "projects": {
+          "chromium": {
+            "tp": 276,
+            "fp": 0,
+            "fn": 42,
+            "f1": 0.9292929292929293,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0,
+            "cut": 12.552372867456285
+          },
+          "ffmpeg": {
+            "tp": 155,
+            "fp": 0,
+            "fn": 17,
+            "f1": 0.9480122324159022,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0,
+            "cut": 10.288838931061814
+          },
+          "qemu": {
+            "tp": 322,
+            "fp": 0,
+            "fn": 18,
+            "f1": 0.972809667673716,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0,
+            "cut": 10.064550742117415
+          }
+        }
+      },
+      "joined_point": {
+        "frozen": {
+          "tp": 753,
+          "fp": 0,
+          "fn": 77,
+          "f1": 0.9513581806696146,
+          "recovered": 0,
+          "delta_fp": 0,
+          "recovered_without_comment": 0
+        },
+        "matched": {
+          "tp": 753,
+          "fp": 0,
+          "fn": 77,
+          "f1": 0.9513581806696146,
+          "recovered": 0,
+          "delta_fp": 0,
+          "recovered_without_comment": 0
+        },
+        "average_precision": 0.0023511424504083743,
+        "projects": {
+          "chromium": {
+            "tp": 276,
+            "fp": 0,
+            "fn": 42,
+            "f1": 0.9292929292929293,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0,
+            "cut": 11.49105523409478
+          },
+          "ffmpeg": {
+            "tp": 155,
+            "fp": 0,
+            "fn": 17,
+            "f1": 0.9480122324159022,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0,
+            "cut": 10.968197416615231
+          },
+          "qemu": {
+            "tp": 322,
+            "fp": 0,
+            "fn": 18,
+            "f1": 0.972809667673716,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0,
+            "cut": 9.81142861643748
+          }
+        }
+      },
+      "joined_pair": {
+        "frozen": {
+          "tp": 753,
+          "fp": 0,
+          "fn": 77,
+          "f1": 0.9513581806696146,
+          "recovered": 0,
+          "delta_fp": 0,
+          "recovered_without_comment": 0
+        },
+        "matched": {
+          "tp": 753,
+          "fp": 0,
+          "fn": 77,
+          "f1": 0.9513581806696146,
+          "recovered": 0,
+          "delta_fp": 0,
+          "recovered_without_comment": 0
+        },
+        "average_precision": 0.0041155353324062345,
+        "projects": {
+          "chromium": {
+            "tp": 276,
+            "fp": 0,
+            "fn": 42,
+            "f1": 0.9292929292929293,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0,
+            "cut": 12.327685630126432
+          },
+          "ffmpeg": {
+            "tp": 155,
+            "fp": 0,
+            "fn": 17,
+            "f1": 0.9480122324159022,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0,
+            "cut": 11.497586790733683
+          },
+          "qemu": {
+            "tp": 322,
+            "fp": 0,
+            "fn": 18,
+            "f1": 0.972809667673716,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0,
+            "cut": 10.146381681428537
+          }
+        }
+      }
+    },
+    "predictions_sha256": "2289b67887699ae0a527f0c25aef277d2e1ef15113829d8259461cb11119e318",
+    "coverage": {
+      "chromium": {
+        "rows": 24709,
+        "misses": 42,
+        "misses_with_comments": 4,
+        "fp_at_first_recovery": {
+          "declaration_point": 523,
+          "declaration_pair": 450,
+          "body_point": 651,
+          "body_pair": 105,
+          "joined_point": 680,
+          "joined_pair": 266
+        }
+      },
+      "ffmpeg": {
+        "rows": 2074,
+        "misses": 17,
+        "misses_with_comments": 11,
+        "fp_at_first_recovery": {
+          "declaration_point": 102,
+          "declaration_pair": 78,
+          "body_point": 88,
+          "body_pair": 76,
+          "joined_point": 125,
+          "joined_pair": 62
+        }
+      },
+      "qemu": {
+        "rows": 4315,
+        "misses": 18,
+        "misses_with_comments": 8,
+        "fp_at_first_recovery": {
+          "declaration_point": 99,
+          "declaration_pair": 132,
+          "body_point": 160,
+          "body_pair": 166,
+          "joined_point": 248,
+          "joined_pair": 231
+        }
+      }
+    },
+    "seconds": 21.61162585997954,
+    "reference_sha256": "77ead31a354e6536b0e77cb0ba598ed34a9f651240d9811485cb3ac74b3af36f"
+  },
+  "test_b": {
+    "baseline": {
+      "tp": 181,
+      "fp": 0,
+      "fn": 23,
+      "f1": 0.9402597402597402,
+      "recovered": 0,
+      "delta_fp": 0,
+      "recovered_without_comment": 0
+    },
+    "results": {
+      "declaration_point": {
+        "frozen": {
+          "tp": 181,
+          "fp": 6,
+          "fn": 23,
+          "f1": 0.9258312020460358,
+          "recovered": 0,
+          "delta_fp": 6,
+          "recovered_without_comment": 0
+        },
+        "matched": {
+          "tp": 181,
+          "fp": 0,
+          "fn": 23,
+          "f1": 0.9402597402597402,
+          "recovered": 0,
+          "delta_fp": 0,
+          "recovered_without_comment": 0
+        },
+        "average_precision": 0.002775879117454569,
+        "projects": {
+          "android": {
+            "tp": 32,
+            "fp": 0,
+            "fn": 2,
+            "f1": 0.9696969696969697,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0,
+            "cut": 6.311769850305544
+          },
+          "file": {
+            "tp": 1,
+            "fp": 0,
+            "fn": 0,
+            "f1": 1.0,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0,
+            "cut": 0.3718981456461663
+          },
+          "imagemagick": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 0,
+            "f1": 0.0,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0,
+            "cut": 2.0657204268745826
+          },
+          "krb5": {
+            "tp": 2,
+            "fp": 0,
+            "fn": 2,
+            "f1": 0.6666666666666666,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0,
+            "cut": 6.42552254119078
+          },
+          "mozilla firefox": {
+            "tp": 120,
+            "fp": 0,
+            "fn": 15,
+            "f1": 0.9411764705882353,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0,
+            "cut": 8.385403306460608
+          },
+          "php": {
+            "tp": 11,
+            "fp": 0,
+            "fn": 1,
+            "f1": 0.9565217391304348,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0,
+            "cut": 8.271743545150963
+          },
+          "radare2": {
+            "tp": 15,
+            "fp": 0,
+            "fn": 3,
+            "f1": 0.9090909090909091,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0,
+            "cut": 1.863390615830837
+          }
+        }
+      },
+      "declaration_pair": {
+        "frozen": {
+          "tp": 181,
+          "fp": 8,
+          "fn": 23,
+          "f1": 0.9211195928753181,
+          "recovered": 0,
+          "delta_fp": 8,
+          "recovered_without_comment": 0
+        },
+        "matched": {
+          "tp": 181,
+          "fp": 0,
+          "fn": 23,
+          "f1": 0.9402597402597402,
+          "recovered": 0,
+          "delta_fp": 0,
+          "recovered_without_comment": 0
+        },
+        "average_precision": 0.002784067053818627,
+        "projects": {
+          "android": {
+            "tp": 32,
+            "fp": 0,
+            "fn": 2,
+            "f1": 0.9696969696969697,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0,
+            "cut": 7.731954427849773
+          },
+          "file": {
+            "tp": 1,
+            "fp": 0,
+            "fn": 0,
+            "f1": 1.0,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0,
+            "cut": 1.9481353329823263
+          },
+          "imagemagick": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 0,
+            "f1": 0.0,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0,
+            "cut": 3.6150832786883487
+          },
+          "krb5": {
+            "tp": 2,
+            "fp": 0,
+            "fn": 2,
+            "f1": 0.6666666666666666,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0,
+            "cut": 7.394687151854777
+          },
+          "mozilla firefox": {
+            "tp": 120,
+            "fp": 0,
+            "fn": 15,
+            "f1": 0.9411764705882353,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0,
+            "cut": 9.913302728335943
+          },
+          "php": {
+            "tp": 11,
+            "fp": 0,
+            "fn": 1,
+            "f1": 0.9565217391304348,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0,
+            "cut": 9.542481115295134
+          },
+          "radare2": {
+            "tp": 15,
+            "fp": 0,
+            "fn": 3,
+            "f1": 0.9090909090909091,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0,
+            "cut": 2.9449037187066454
+          }
+        }
+      },
+      "body_point": {
+        "frozen": {
+          "tp": 181,
+          "fp": 0,
+          "fn": 23,
+          "f1": 0.9402597402597402,
+          "recovered": 0,
+          "delta_fp": 0,
+          "recovered_without_comment": 0
+        },
+        "matched": {
+          "tp": 181,
+          "fp": 0,
+          "fn": 23,
+          "f1": 0.9402597402597402,
+          "recovered": 0,
+          "delta_fp": 0,
+          "recovered_without_comment": 0
+        },
+        "average_precision": 0.003447512780473125,
+        "projects": {
+          "android": {
+            "tp": 32,
+            "fp": 0,
+            "fn": 2,
+            "f1": 0.9696969696969697,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0,
+            "cut": 9.187183761942654
+          },
+          "file": {
+            "tp": 1,
+            "fp": 0,
+            "fn": 0,
+            "f1": 1.0,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0,
+            "cut": 2.4348067101022175
+          },
+          "imagemagick": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 0,
+            "f1": 0.0,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0,
+            "cut": 7.4878623293332796
+          },
+          "krb5": {
+            "tp": 2,
+            "fp": 0,
+            "fn": 2,
+            "f1": 0.6666666666666666,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0,
+            "cut": 7.740120758855608
+          },
+          "mozilla firefox": {
+            "tp": 120,
+            "fp": 0,
+            "fn": 15,
+            "f1": 0.9411764705882353,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0,
+            "cut": 7.3110352391692635
+          },
+          "php": {
+            "tp": 11,
+            "fp": 0,
+            "fn": 1,
+            "f1": 0.9565217391304348,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0,
+            "cut": 7.523478255356388
+          },
+          "radare2": {
+            "tp": 15,
+            "fp": 0,
+            "fn": 3,
+            "f1": 0.9090909090909091,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0,
+            "cut": 6.862844073572388
+          }
+        }
+      },
+      "body_pair": {
+        "frozen": {
+          "tp": 181,
+          "fp": 2,
+          "fn": 23,
+          "f1": 0.9354005167958657,
+          "recovered": 0,
+          "delta_fp": 2,
+          "recovered_without_comment": 0
+        },
+        "matched": {
+          "tp": 181,
+          "fp": 0,
+          "fn": 23,
+          "f1": 0.9402597402597402,
+          "recovered": 0,
+          "delta_fp": 0,
+          "recovered_without_comment": 0
+        },
+        "average_precision": 0.004495073235897808,
+        "projects": {
+          "android": {
+            "tp": 32,
+            "fp": 0,
+            "fn": 2,
+            "f1": 0.9696969696969697,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0,
+            "cut": 10.906359263086507
+          },
+          "file": {
+            "tp": 1,
+            "fp": 0,
+            "fn": 0,
+            "f1": 1.0,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0,
+            "cut": 3.8728103172605826
+          },
+          "imagemagick": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 0,
+            "f1": 0.0,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0,
+            "cut": 8.515040216679852
+          },
+          "krb5": {
+            "tp": 2,
+            "fp": 0,
+            "fn": 2,
+            "f1": 0.6666666666666666,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0,
+            "cut": 9.301746000087837
+          },
+          "mozilla firefox": {
+            "tp": 120,
+            "fp": 0,
+            "fn": 15,
+            "f1": 0.9411764705882353,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0,
+            "cut": 9.938715211358545
+          },
+          "php": {
+            "tp": 11,
+            "fp": 0,
+            "fn": 1,
+            "f1": 0.9565217391304348,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0,
+            "cut": 9.489878864161396
+          },
+          "radare2": {
+            "tp": 15,
+            "fp": 0,
+            "fn": 3,
+            "f1": 0.9090909090909091,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0,
+            "cut": 6.472352038613556
+          }
+        }
+      },
+      "joined_point": {
+        "frozen": {
+          "tp": 181,
+          "fp": 0,
+          "fn": 23,
+          "f1": 0.9402597402597402,
+          "recovered": 0,
+          "delta_fp": 0,
+          "recovered_without_comment": 0
+        },
+        "matched": {
+          "tp": 181,
+          "fp": 0,
+          "fn": 23,
+          "f1": 0.9402597402597402,
+          "recovered": 0,
+          "delta_fp": 0,
+          "recovered_without_comment": 0
+        },
+        "average_precision": 0.0031126397206860407,
+        "projects": {
+          "android": {
+            "tp": 32,
+            "fp": 0,
+            "fn": 2,
+            "f1": 0.9696969696969697,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0,
+            "cut": 9.470673190846151
+          },
+          "file": {
+            "tp": 1,
+            "fp": 0,
+            "fn": 0,
+            "f1": 1.0,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0,
+            "cut": 1.1098882855445784
+          },
+          "imagemagick": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 0,
+            "f1": 0.0,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0,
+            "cut": 7.552568322678912
+          },
+          "krb5": {
+            "tp": 2,
+            "fp": 0,
+            "fn": 2,
+            "f1": 0.6666666666666666,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0,
+            "cut": 8.870514470845587
+          },
+          "mozilla firefox": {
+            "tp": 120,
+            "fp": 0,
+            "fn": 15,
+            "f1": 0.9411764705882353,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0,
+            "cut": 9.61342657522458
+          },
+          "php": {
+            "tp": 11,
+            "fp": 0,
+            "fn": 1,
+            "f1": 0.9565217391304348,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0,
+            "cut": 10.567547618861067
+          },
+          "radare2": {
+            "tp": 15,
+            "fp": 0,
+            "fn": 3,
+            "f1": 0.9090909090909091,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0,
+            "cut": 6.566644385070449
+          }
+        }
+      },
+      "joined_pair": {
+        "frozen": {
+          "tp": 181,
+          "fp": 0,
+          "fn": 23,
+          "f1": 0.9402597402597402,
+          "recovered": 0,
+          "delta_fp": 0,
+          "recovered_without_comment": 0
+        },
+        "matched": {
+          "tp": 181,
+          "fp": 0,
+          "fn": 23,
+          "f1": 0.9402597402597402,
+          "recovered": 0,
+          "delta_fp": 0,
+          "recovered_without_comment": 0
+        },
+        "average_precision": 0.003430530231252068,
+        "projects": {
+          "android": {
+            "tp": 32,
+            "fp": 0,
+            "fn": 2,
+            "f1": 0.9696969696969697,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0,
+            "cut": 11.963789917398959
+          },
+          "file": {
+            "tp": 1,
+            "fp": 0,
+            "fn": 0,
+            "f1": 1.0,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0,
+            "cut": 4.647432352271093
+          },
+          "imagemagick": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 0,
+            "f1": 0.0,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0,
+            "cut": 10.441157854527352
+          },
+          "krb5": {
+            "tp": 2,
+            "fp": 0,
+            "fn": 2,
+            "f1": 0.6666666666666666,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0,
+            "cut": 10.756830763197001
+          },
+          "mozilla firefox": {
+            "tp": 120,
+            "fp": 0,
+            "fn": 15,
+            "f1": 0.9411764705882353,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0,
+            "cut": 11.469742201300875
+          },
+          "php": {
+            "tp": 11,
+            "fp": 0,
+            "fn": 1,
+            "f1": 0.9565217391304348,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0,
+            "cut": 9.592992193860484
+          },
+          "radare2": {
+            "tp": 15,
+            "fp": 0,
+            "fn": 3,
+            "f1": 0.9090909090909091,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0,
+            "cut": 8.581711906780885
+          }
+        }
+      }
+    },
+    "predictions_sha256": "0c6aa4988d58cce453d606c0967c7981a4424200fa8d7890cf1fdbe8d796a181",
+    "coverage": {
+      "android": {
+        "rows": 2001,
+        "misses": 2,
+        "misses_with_comments": 1,
+        "fp_at_first_recovery": {
+          "declaration_point": 887,
+          "declaration_pair": 924,
+          "body_point": 1244,
+          "body_pair": 813,
+          "joined_point": 1253,
+          "joined_pair": 363
+        }
+      },
+      "file": {
+        "rows": 55,
+        "misses": 0,
+        "misses_with_comments": 0,
+        "fp_at_first_recovery": {
+          "declaration_point": null,
+          "declaration_pair": null,
+          "body_point": null,
+          "body_pair": null,
+          "joined_point": null,
+          "joined_pair": null
+        }
+      },
+      "imagemagick": {
+        "rows": 393,
+        "misses": 0,
+        "misses_with_comments": 0,
+        "fp_at_first_recovery": {
+          "declaration_point": null,
+          "declaration_pair": null,
+          "body_point": null,
+          "body_pair": null,
+          "joined_point": null,
+          "joined_pair": null
+        }
+      },
+      "krb5": {
+        "rows": 177,
+        "misses": 2,
+        "misses_with_comments": 0,
+        "fp_at_first_recovery": {
+          "declaration_point": 166,
+          "declaration_pair": 73,
+          "body_point": 65,
+          "body_pair": 19,
+          "joined_point": 47,
+          "joined_pair": 30
+        }
+      },
+      "mozilla firefox": {
+        "rows": 3998,
+        "misses": 15,
+        "misses_with_comments": 0,
+        "fp_at_first_recovery": {
+          "declaration_point": 658,
+          "declaration_pair": 1062,
+          "body_point": 25,
+          "body_pair": 11,
+          "joined_point": 82,
+          "joined_pair": 30
+        }
+      },
+      "php": {
+        "rows": 996,
+        "misses": 1,
+        "misses_with_comments": 0,
+        "fp_at_first_recovery": {
+          "declaration_point": 651,
+          "declaration_pair": 362,
+          "body_point": 355,
+          "body_pair": 334,
+          "joined_point": 357,
+          "joined_pair": 466
+        }
+      },
+      "radare2": {
+        "rows": 279,
+        "misses": 3,
+        "misses_with_comments": 1,
+        "fp_at_first_recovery": {
+          "declaration_point": 3,
+          "declaration_pair": 6,
+          "body_point": 77,
+          "body_pair": 37,
+          "joined_point": 45,
+          "joined_pair": 20
+        }
+      }
+    },
+    "seconds": 5.491312434896827,
+    "reference_sha256": "3a7cb98726d78caeef0de6b329b1773fe8cc6d5c085885ff3b7f9ecab87c1b42"
+  }
+}

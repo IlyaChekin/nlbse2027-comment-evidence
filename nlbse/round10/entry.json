@@ -1,0 +1,5 @@
+{
+  "mode": "compact_lexical_deferred",
+  "family": "t5_small",
+  "checkpoint_sha256": "b166f83e6378f60707a0d3bd745a00f168a30b571f86a2685ce30ffaaaa976d1"
+}

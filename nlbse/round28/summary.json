@@ -1,0 +1,32 @@
+{
+  "selected": "compact_1.5_0.35_exchange:fp",
+  "archive": "NLBSE2027_round29_recall_tool.zip",
+  "archive_sha256": "ff131957ac0c7a1205bf62a22921bade0b51473c4e78209a6ea1fe89a46ed86d",
+  "score": 0.963999805489185,
+  "paired_reference_score": 0.9638718875987793,
+  "remaining_goal_gap": 0.006000194510815016,
+  "quality": {
+    "vulnerability": {
+      "precision": 0.954,
+      "recall": 0.9490648627138878,
+      "f1": 0.9515260323159784
+    },
+    "MAT": {
+      "precision": 1.0,
+      "recall": 0.8792079207920792,
+      "f1": 0.9357218124341412
+    },
+    "mean": {
+      "precision": 0.977,
+      "recall": 0.9141363917529834,
+      "f1": 0.9436239223750598
+    }
+  },
+  "remaining_exact_negative": {
+    "fp": 96,
+    "fn": 364
+  },
+  "score_when_all_those_fn_recovered": 0.9696078265153946,
+  "score_when_outcome_cohort_is_perfect": 0.9709829406762812,
+  "identical_binary_decisions": 61310
+}

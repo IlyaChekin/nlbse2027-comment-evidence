@@ -1,0 +1,1176 @@
+{
+  "dev": {
+    "baseline": {
+      "tp": 278,
+      "fp": 0,
+      "fn": 44,
+      "f1": 0.9266666666666666,
+      "recovered": 0,
+      "delta_fp": 0,
+      "recovered_without_comment": 0
+    },
+    "results": {
+      "shape": {
+        "frozen": {
+          "tp": 278,
+          "fp": 0,
+          "fn": 44,
+          "f1": 0.9266666666666666,
+          "recovered": 0,
+          "delta_fp": 0,
+          "recovered_without_comment": 0
+        },
+        "matched": {
+          "tp": 278,
+          "fp": 0,
+          "fn": 44,
+          "f1": 0.9266666666666666,
+          "recovered": 0,
+          "delta_fp": 0,
+          "recovered_without_comment": 0
+        },
+        "average_precision": 0.00433184897991601,
+        "projects": {
+          "linux": {
+            "tp": 265,
+            "fp": 0,
+            "fn": 42,
+            "f1": 0.9265734265734266,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0,
+            "cut": -2.583903944754888
+          },
+          "tcpdump": {
+            "tp": 13,
+            "fp": 0,
+            "fn": 2,
+            "f1": 0.9285714285714286,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0,
+            "cut": -3.284631096798925
+          }
+        }
+      },
+      "roles": {
+        "frozen": {
+          "tp": 278,
+          "fp": 0,
+          "fn": 44,
+          "f1": 0.9266666666666666,
+          "recovered": 0,
+          "delta_fp": 0,
+          "recovered_without_comment": 0
+        },
+        "matched": {
+          "tp": 278,
+          "fp": 0,
+          "fn": 44,
+          "f1": 0.9266666666666666,
+          "recovered": 0,
+          "delta_fp": 0,
+          "recovered_without_comment": 0
+        },
+        "average_precision": 0.0042083020103009725,
+        "projects": {
+          "linux": {
+            "tp": 265,
+            "fp": 0,
+            "fn": 42,
+            "f1": 0.9265734265734266,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0,
+            "cut": -2.446656982291547
+          },
+          "tcpdump": {
+            "tp": 13,
+            "fp": 0,
+            "fn": 2,
+            "f1": 0.9285714285714286,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0,
+            "cut": -3.2757019871014257
+          }
+        }
+      },
+      "contract": {
+        "frozen": {
+          "tp": 278,
+          "fp": 0,
+          "fn": 44,
+          "f1": 0.9266666666666666,
+          "recovered": 0,
+          "delta_fp": 0,
+          "recovered_without_comment": 0
+        },
+        "matched": {
+          "tp": 278,
+          "fp": 0,
+          "fn": 44,
+          "f1": 0.9266666666666666,
+          "recovered": 0,
+          "delta_fp": 0,
+          "recovered_without_comment": 0
+        },
+        "average_precision": 0.0040617195523862445,
+        "projects": {
+          "linux": {
+            "tp": 265,
+            "fp": 0,
+            "fn": 42,
+            "f1": 0.9265734265734266,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0,
+            "cut": -1.607250560482114
+          },
+          "tcpdump": {
+            "tp": 13,
+            "fp": 0,
+            "fn": 2,
+            "f1": 0.9285714285714286,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0,
+            "cut": -2.700683808246055
+          }
+        }
+      },
+      "explicit_failure": {
+        "frozen": {
+          "tp": 278,
+          "fp": 0,
+          "fn": 44,
+          "f1": 0.9266666666666666,
+          "recovered": 0,
+          "delta_fp": 0,
+          "recovered_without_comment": 0
+        },
+        "matched": {
+          "tp": 278,
+          "fp": 0,
+          "fn": 44,
+          "f1": 0.9266666666666666,
+          "recovered": 0,
+          "delta_fp": 0,
+          "recovered_without_comment": 0
+        },
+        "average_precision": 0.0020447046795854826,
+        "projects": {
+          "linux": {
+            "tp": 265,
+            "fp": 0,
+            "fn": 42,
+            "f1": 0.9265734265734266,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0,
+            "cut": 1.0
+          },
+          "tcpdump": {
+            "tp": 13,
+            "fp": 0,
+            "fn": 2,
+            "f1": 0.9285714285714286,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0,
+            "cut": 1.0
+          }
+        }
+      },
+      "prior_layout": {
+        "frozen": {
+          "tp": 278,
+          "fp": 0,
+          "fn": 44,
+          "f1": 0.9266666666666666,
+          "recovered": 0,
+          "delta_fp": 0,
+          "recovered_without_comment": 0
+        },
+        "matched": {
+          "tp": 278,
+          "fp": 0,
+          "fn": 44,
+          "f1": 0.9266666666666666,
+          "recovered": 0,
+          "delta_fp": 0,
+          "recovered_without_comment": 0
+        },
+        "average_precision": 0.004302970921269935,
+        "projects": {
+          "linux": {
+            "tp": 265,
+            "fp": 0,
+            "fn": 42,
+            "f1": 0.9265734265734266,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0,
+            "cut": 6.573201682104242
+          },
+          "tcpdump": {
+            "tp": 13,
+            "fp": 0,
+            "fn": 2,
+            "f1": 0.9285714285714286,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0,
+            "cut": 6.6519182047514995
+          }
+        }
+      }
+    },
+    "predictions_sha256": "c81f019346ff25fc07d1b711ea8b7c5f97d4838a8661197e639ddffc701ec40e",
+    "diagnostics": {
+      "strata": {
+        "no_visible_comment": {
+          "misses": 33,
+          "negatives": 18629
+        },
+        "no_named_action": {
+          "misses": 19,
+          "negatives": 9577
+        },
+        "any_body_effect_modelled": {
+          "misses": 43,
+          "negatives": 20108
+        },
+        "constant_only_returns": {
+          "misses": 2,
+          "negatives": 1875
+        },
+        "explicit_placeholder": {
+          "misses": 0,
+          "negatives": 280
+        },
+        "declared_side_effect_but_no_body_effect": {
+          "misses": 0,
+          "negatives": 341
+        },
+        "declared_value_but_only_constant": {
+          "misses": 1,
+          "negatives": 504
+        },
+        "visible_placeholder_phrase": {
+          "misses": 0,
+          "negatives": 0
+        }
+      },
+      "min_fp_for_first_tp_by_project": {
+        "linux": {
+          "shape": 342,
+          "roles": 189,
+          "contract": 167,
+          "explicit_failure": 21335,
+          "prior_layout": 666
+        },
+        "tcpdump": {
+          "shape": 6,
+          "roles": 12,
+          "contract": 8,
+          "explicit_failure": 140,
+          "prior_layout": 8
+        }
+      }
+    },
+    "prior_sha256": "2e45ab78d2b3915d4a9231dc57e18a32301c38456b7ed94705350b95752ea1e7"
+  },
+  "test_a": {
+    "baseline": {
+      "tp": 753,
+      "fp": 0,
+      "fn": 77,
+      "f1": 0.9513581806696146,
+      "recovered": 0,
+      "delta_fp": 0,
+      "recovered_without_comment": 0
+    },
+    "results": {
+      "shape": {
+        "frozen": {
+          "tp": 753,
+          "fp": 2,
+          "fn": 77,
+          "f1": 0.9501577287066246,
+          "recovered": 0,
+          "delta_fp": 2,
+          "recovered_without_comment": 0
+        },
+        "matched": {
+          "tp": 753,
+          "fp": 0,
+          "fn": 77,
+          "f1": 0.9513581806696146,
+          "recovered": 0,
+          "delta_fp": 0,
+          "recovered_without_comment": 0
+        },
+        "average_precision": 0.004803815798724524,
+        "projects": {
+          "chromium": {
+            "tp": 276,
+            "fp": 0,
+            "fn": 42,
+            "f1": 0.9292929292929293,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0,
+            "cut": -2.583903944754888
+          },
+          "ffmpeg": {
+            "tp": 155,
+            "fp": 0,
+            "fn": 17,
+            "f1": 0.9480122324159022,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0,
+            "cut": -2.3927224296221934
+          },
+          "qemu": {
+            "tp": 322,
+            "fp": 0,
+            "fn": 18,
+            "f1": 0.972809667673716,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0,
+            "cut": -2.3927224296221934
+          }
+        }
+      },
+      "roles": {
+        "frozen": {
+          "tp": 753,
+          "fp": 1,
+          "fn": 77,
+          "f1": 0.9507575757575758,
+          "recovered": 0,
+          "delta_fp": 1,
+          "recovered_without_comment": 0
+        },
+        "matched": {
+          "tp": 753,
+          "fp": 0,
+          "fn": 77,
+          "f1": 0.9513581806696146,
+          "recovered": 0,
+          "delta_fp": 0,
+          "recovered_without_comment": 0
+        },
+        "average_precision": 0.005499348223199526,
+        "projects": {
+          "chromium": {
+            "tp": 276,
+            "fp": 0,
+            "fn": 42,
+            "f1": 0.9292929292929293,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0,
+            "cut": -2.446656982291547
+          },
+          "ffmpeg": {
+            "tp": 155,
+            "fp": 0,
+            "fn": 17,
+            "f1": 0.9480122324159022,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0,
+            "cut": -2.265509696523264
+          },
+          "qemu": {
+            "tp": 322,
+            "fp": 0,
+            "fn": 18,
+            "f1": 0.972809667673716,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0,
+            "cut": -2.501215282968867
+          }
+        }
+      },
+      "contract": {
+        "frozen": {
+          "tp": 753,
+          "fp": 0,
+          "fn": 77,
+          "f1": 0.9513581806696146,
+          "recovered": 0,
+          "delta_fp": 0,
+          "recovered_without_comment": 0
+        },
+        "matched": {
+          "tp": 753,
+          "fp": 0,
+          "fn": 77,
+          "f1": 0.9513581806696146,
+          "recovered": 0,
+          "delta_fp": 0,
+          "recovered_without_comment": 0
+        },
+        "average_precision": 0.004895535294118398,
+        "projects": {
+          "chromium": {
+            "tp": 276,
+            "fp": 0,
+            "fn": 42,
+            "f1": 0.9292929292929293,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0,
+            "cut": -1.6517665051681523
+          },
+          "ffmpeg": {
+            "tp": 155,
+            "fp": 0,
+            "fn": 17,
+            "f1": 0.9480122324159022,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0,
+            "cut": -1.8604036801964656
+          },
+          "qemu": {
+            "tp": 322,
+            "fp": 0,
+            "fn": 18,
+            "f1": 0.972809667673716,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0,
+            "cut": -1.765931618963351
+          }
+        }
+      },
+      "explicit_failure": {
+        "frozen": {
+          "tp": 753,
+          "fp": 0,
+          "fn": 77,
+          "f1": 0.9513581806696146,
+          "recovered": 0,
+          "delta_fp": 0,
+          "recovered_without_comment": 0
+        },
+        "matched": {
+          "tp": 753,
+          "fp": 0,
+          "fn": 77,
+          "f1": 0.9513581806696146,
+          "recovered": 0,
+          "delta_fp": 0,
+          "recovered_without_comment": 0
+        },
+        "average_precision": 0.0025374855824682814,
+        "projects": {
+          "chromium": {
+            "tp": 276,
+            "fp": 0,
+            "fn": 42,
+            "f1": 0.9292929292929293,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0,
+            "cut": 1.0
+          },
+          "ffmpeg": {
+            "tp": 155,
+            "fp": 0,
+            "fn": 17,
+            "f1": 0.9480122324159022,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0,
+            "cut": 1.0
+          },
+          "qemu": {
+            "tp": 322,
+            "fp": 0,
+            "fn": 18,
+            "f1": 0.972809667673716,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0,
+            "cut": 1.0
+          }
+        }
+      },
+      "prior_layout": {
+        "frozen": {
+          "tp": 753,
+          "fp": 0,
+          "fn": 77,
+          "f1": 0.9513581806696146,
+          "recovered": 0,
+          "delta_fp": 0,
+          "recovered_without_comment": 0
+        },
+        "matched": {
+          "tp": 753,
+          "fp": 0,
+          "fn": 77,
+          "f1": 0.9513581806696146,
+          "recovered": 0,
+          "delta_fp": 0,
+          "recovered_without_comment": 0
+        },
+        "average_precision": 0.008592837829173928,
+        "projects": {
+          "chromium": {
+            "tp": 276,
+            "fp": 0,
+            "fn": 42,
+            "f1": 0.9292929292929293,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0,
+            "cut": 5.0867705815520345
+          },
+          "ffmpeg": {
+            "tp": 155,
+            "fp": 0,
+            "fn": 17,
+            "f1": 0.9480122324159022,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0,
+            "cut": 4.051102990883976
+          },
+          "qemu": {
+            "tp": 322,
+            "fp": 0,
+            "fn": 18,
+            "f1": 0.972809667673716,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0,
+            "cut": 2.925270024119934
+          }
+        }
+      }
+    },
+    "predictions_sha256": "356cc7948b99262c15fcf630dd80cc1ca5a5c03173286b52266455913894f6f1",
+    "diagnostics": {
+      "strata": {
+        "no_visible_comment": {
+          "misses": 54,
+          "negatives": 26900
+        },
+        "no_named_action": {
+          "misses": 27,
+          "negatives": 14295
+        },
+        "any_body_effect_modelled": {
+          "misses": 76,
+          "negatives": 27657
+        },
+        "constant_only_returns": {
+          "misses": 8,
+          "negatives": 1048
+        },
+        "explicit_placeholder": {
+          "misses": 1,
+          "negatives": 567
+        },
+        "declared_side_effect_but_no_body_effect": {
+          "misses": 0,
+          "negatives": 257
+        },
+        "declared_value_but_only_constant": {
+          "misses": 4,
+          "negatives": 436
+        },
+        "visible_placeholder_phrase": {
+          "misses": 0,
+          "negatives": 3
+        }
+      },
+      "min_fp_for_first_tp_by_project": {
+        "chromium": {
+          "shape": 13,
+          "roles": 16,
+          "contract": 27,
+          "explicit_failure": 24391,
+          "prior_layout": 3
+        },
+        "ffmpeg": {
+          "shape": 54,
+          "roles": 13,
+          "contract": 39,
+          "explicit_failure": 1902,
+          "prior_layout": 2
+        },
+        "qemu": {
+          "shape": 158,
+          "roles": 101,
+          "contract": 240,
+          "explicit_failure": 3975,
+          "prior_layout": 80
+        }
+      }
+    },
+    "prior_sha256": "dc01c29a3804bf38e715e665521eb66bf93b9f886861f486d5475f1944ebc0ea"
+  },
+  "test_b": {
+    "baseline": {
+      "tp": 181,
+      "fp": 0,
+      "fn": 23,
+      "f1": 0.9402597402597402,
+      "recovered": 0,
+      "delta_fp": 0,
+      "recovered_without_comment": 0
+    },
+    "results": {
+      "shape": {
+        "frozen": {
+          "tp": 181,
+          "fp": 1,
+          "fn": 23,
+          "f1": 0.9378238341968912,
+          "recovered": 0,
+          "delta_fp": 1,
+          "recovered_without_comment": 0
+        },
+        "matched": {
+          "tp": 181,
+          "fp": 0,
+          "fn": 23,
+          "f1": 0.9402597402597402,
+          "recovered": 0,
+          "delta_fp": 0,
+          "recovered_without_comment": 0
+        },
+        "average_precision": 0.0037241251319790453,
+        "projects": {
+          "android": {
+            "tp": 32,
+            "fp": 0,
+            "fn": 2,
+            "f1": 0.9696969696969697,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0,
+            "cut": -2.5749419821660444
+          },
+          "file": {
+            "tp": 1,
+            "fp": 0,
+            "fn": 0,
+            "f1": 1.0,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0,
+            "cut": -2.6868920672507115
+          },
+          "imagemagick": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 0,
+            "f1": 0.0,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0,
+            "cut": -3.2733606113459
+          },
+          "krb5": {
+            "tp": 2,
+            "fp": 0,
+            "fn": 2,
+            "f1": 0.6666666666666666,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0,
+            "cut": -2.8362559161146446
+          },
+          "mozilla firefox": {
+            "tp": 120,
+            "fp": 0,
+            "fn": 15,
+            "f1": 0.9411764705882353,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0,
+            "cut": -2.626979984176501
+          },
+          "php": {
+            "tp": 11,
+            "fp": 0,
+            "fn": 1,
+            "f1": 0.9565217391304348,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0,
+            "cut": -2.9795465586511374
+          },
+          "radare2": {
+            "tp": 15,
+            "fp": 0,
+            "fn": 3,
+            "f1": 0.9090909090909091,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0,
+            "cut": -3.008108804176842
+          }
+        }
+      },
+      "roles": {
+        "frozen": {
+          "tp": 181,
+          "fp": 2,
+          "fn": 23,
+          "f1": 0.9354005167958657,
+          "recovered": 0,
+          "delta_fp": 2,
+          "recovered_without_comment": 0
+        },
+        "matched": {
+          "tp": 181,
+          "fp": 0,
+          "fn": 23,
+          "f1": 0.9402597402597402,
+          "recovered": 0,
+          "delta_fp": 0,
+          "recovered_without_comment": 0
+        },
+        "average_precision": 0.0038895924517161323,
+        "projects": {
+          "android": {
+            "tp": 32,
+            "fp": 0,
+            "fn": 2,
+            "f1": 0.9696969696969697,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0,
+            "cut": -2.411822747863975
+          },
+          "file": {
+            "tp": 1,
+            "fp": 0,
+            "fn": 0,
+            "f1": 1.0,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0,
+            "cut": -2.71084160153664
+          },
+          "imagemagick": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 0,
+            "f1": 0.0,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0,
+            "cut": -3.1302826205433867
+          },
+          "krb5": {
+            "tp": 2,
+            "fp": 0,
+            "fn": 2,
+            "f1": 0.6666666666666666,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0,
+            "cut": -2.6891344430740345
+          },
+          "mozilla firefox": {
+            "tp": 120,
+            "fp": 0,
+            "fn": 15,
+            "f1": 0.9411764705882353,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0,
+            "cut": -2.294097261495965
+          },
+          "php": {
+            "tp": 11,
+            "fp": 0,
+            "fn": 1,
+            "f1": 0.9565217391304348,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0,
+            "cut": -2.9191727661503863
+          },
+          "radare2": {
+            "tp": 15,
+            "fp": 0,
+            "fn": 3,
+            "f1": 0.9090909090909091,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0,
+            "cut": -3.163120080059717
+          }
+        }
+      },
+      "contract": {
+        "frozen": {
+          "tp": 181,
+          "fp": 2,
+          "fn": 23,
+          "f1": 0.9354005167958657,
+          "recovered": 0,
+          "delta_fp": 2,
+          "recovered_without_comment": 0
+        },
+        "matched": {
+          "tp": 181,
+          "fp": 0,
+          "fn": 23,
+          "f1": 0.9402597402597402,
+          "recovered": 0,
+          "delta_fp": 0,
+          "recovered_without_comment": 0
+        },
+        "average_precision": 0.004057638322969773,
+        "projects": {
+          "android": {
+            "tp": 32,
+            "fp": 0,
+            "fn": 2,
+            "f1": 0.9696969696969697,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0,
+            "cut": -1.8191381124736912
+          },
+          "file": {
+            "tp": 1,
+            "fp": 0,
+            "fn": 0,
+            "f1": 1.0,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0,
+            "cut": -1.5746836491130967
+          },
+          "imagemagick": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 0,
+            "f1": 0.0,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0,
+            "cut": -2.6674100087248385
+          },
+          "krb5": {
+            "tp": 2,
+            "fp": 0,
+            "fn": 2,
+            "f1": 0.6666666666666666,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0,
+            "cut": -2.7882925312272158
+          },
+          "mozilla firefox": {
+            "tp": 120,
+            "fp": 0,
+            "fn": 15,
+            "f1": 0.9411764705882353,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0,
+            "cut": -1.3544717824926518
+          },
+          "php": {
+            "tp": 11,
+            "fp": 0,
+            "fn": 1,
+            "f1": 0.9565217391304348,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0,
+            "cut": -1.7568517426959267
+          },
+          "radare2": {
+            "tp": 15,
+            "fp": 0,
+            "fn": 3,
+            "f1": 0.9090909090909091,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0,
+            "cut": -2.3646338675934615
+          }
+        }
+      },
+      "explicit_failure": {
+        "frozen": {
+          "tp": 181,
+          "fp": 0,
+          "fn": 23,
+          "f1": 0.9402597402597402,
+          "recovered": 0,
+          "delta_fp": 0,
+          "recovered_without_comment": 0
+        },
+        "matched": {
+          "tp": 181,
+          "fp": 0,
+          "fn": 23,
+          "f1": 0.9402597402597402,
+          "recovered": 0,
+          "delta_fp": 0,
+          "recovered_without_comment": 0
+        },
+        "average_precision": 0.0029800466442083443,
+        "projects": {
+          "android": {
+            "tp": 32,
+            "fp": 0,
+            "fn": 2,
+            "f1": 0.9696969696969697,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0,
+            "cut": 1.0
+          },
+          "file": {
+            "tp": 1,
+            "fp": 0,
+            "fn": 0,
+            "f1": 1.0,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0,
+            "cut": 0.0
+          },
+          "imagemagick": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 0,
+            "f1": 0.0,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0,
+            "cut": 0.0
+          },
+          "krb5": {
+            "tp": 2,
+            "fp": 0,
+            "fn": 2,
+            "f1": 0.6666666666666666,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0,
+            "cut": 0.0
+          },
+          "mozilla firefox": {
+            "tp": 120,
+            "fp": 0,
+            "fn": 15,
+            "f1": 0.9411764705882353,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0,
+            "cut": 1.0
+          },
+          "php": {
+            "tp": 11,
+            "fp": 0,
+            "fn": 1,
+            "f1": 0.9565217391304348,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0,
+            "cut": 0.0
+          },
+          "radare2": {
+            "tp": 15,
+            "fp": 0,
+            "fn": 3,
+            "f1": 0.9090909090909091,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0,
+            "cut": 0.0
+          }
+        }
+      },
+      "prior_layout": {
+        "frozen": {
+          "tp": 181,
+          "fp": 0,
+          "fn": 23,
+          "f1": 0.9402597402597402,
+          "recovered": 0,
+          "delta_fp": 0,
+          "recovered_without_comment": 0
+        },
+        "matched": {
+          "tp": 182,
+          "fp": 0,
+          "fn": 22,
+          "f1": 0.9430051813471503,
+          "recovered": 1,
+          "delta_fp": 0,
+          "recovered_without_comment": 0
+        },
+        "average_precision": 0.035006197950140025,
+        "projects": {
+          "android": {
+            "tp": 33,
+            "fp": 0,
+            "fn": 1,
+            "f1": 0.9850746268656716,
+            "recovered": 1,
+            "delta_fp": 0,
+            "recovered_without_comment": 0,
+            "cut": 3.233204810768502
+          },
+          "file": {
+            "tp": 1,
+            "fp": 0,
+            "fn": 0,
+            "f1": 1.0,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0,
+            "cut": 3.0441250408741167
+          },
+          "imagemagick": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 0,
+            "f1": 0.0,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0,
+            "cut": 2.868613747005578
+          },
+          "krb5": {
+            "tp": 2,
+            "fp": 0,
+            "fn": 2,
+            "f1": 0.6666666666666666,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0,
+            "cut": 3.133256337288711
+          },
+          "mozilla firefox": {
+            "tp": 120,
+            "fp": 0,
+            "fn": 15,
+            "f1": 0.9411764705882353,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0,
+            "cut": 5.759244727255366
+          },
+          "php": {
+            "tp": 11,
+            "fp": 0,
+            "fn": 1,
+            "f1": 0.9565217391304348,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0,
+            "cut": 5.478139210111532
+          },
+          "radare2": {
+            "tp": 15,
+            "fp": 0,
+            "fn": 3,
+            "f1": 0.9090909090909091,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0,
+            "cut": 6.100521962129756
+          }
+        }
+      }
+    },
+    "predictions_sha256": "145808aa78732dd1fe723395d62057ddc136bfe914a4d6924750e4f5b16683b6",
+    "diagnostics": {
+      "strata": {
+        "no_visible_comment": {
+          "misses": 21,
+          "negatives": 6329
+        },
+        "no_named_action": {
+          "misses": 9,
+          "negatives": 3838
+        },
+        "any_body_effect_modelled": {
+          "misses": 23,
+          "negatives": 7100
+        },
+        "constant_only_returns": {
+          "misses": 1,
+          "negatives": 256
+        },
+        "explicit_placeholder": {
+          "misses": 0,
+          "negatives": 9
+        },
+        "declared_side_effect_but_no_body_effect": {
+          "misses": 0,
+          "negatives": 51
+        },
+        "declared_value_but_only_constant": {
+          "misses": 1,
+          "negatives": 67
+        },
+        "visible_placeholder_phrase": {
+          "misses": 0,
+          "negatives": 0
+        }
+      },
+      "min_fp_for_first_tp_by_project": {
+        "android": {
+          "shape": 478,
+          "roles": 244,
+          "contract": 342,
+          "explicit_failure": 1967,
+          "prior_layout": 0
+        },
+        "krb5": {
+          "shape": 64,
+          "roles": 97,
+          "contract": 74,
+          "explicit_failure": 173,
+          "prior_layout": 96
+        },
+        "mozilla firefox": {
+          "shape": 253,
+          "roles": 370,
+          "contract": 60,
+          "explicit_failure": 3863,
+          "prior_layout": 3
+        },
+        "php": {
+          "shape": 583,
+          "roles": 452,
+          "contract": 513,
+          "explicit_failure": 984,
+          "prior_layout": 496
+        },
+        "radare2": {
+          "shape": 16,
+          "roles": 8,
+          "contract": 37,
+          "explicit_failure": 261,
+          "prior_layout": 29
+        }
+      }
+    },
+    "prior_sha256": "6cbd9db68448dc772fd9f43422ab61d2a1ea2e3d8897ccc3947bb3563a5003f4"
+  }
+}

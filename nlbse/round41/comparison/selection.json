@@ -1,0 +1,74 @@
+{
+  "groups": {
+    "direct": {
+      "points": 306,
+      "passed": 0,
+      "shortlisted": null,
+      "best_review_filtered": {
+        "arm": "average",
+        "key": "lexical/negative/2.25/average/1",
+        "rule": "fp",
+        "control": "lexical/negative/2.25/score/1",
+        "cut": -0.3126440048217774,
+        "calls_cal": 6,
+        "calls_review": 5,
+        "a_tp": 8,
+        "b_tp": 3,
+        "a_fp": -47,
+        "b_fp": 5,
+        "a_tp_over_control": 5,
+        "b_tp_over_control": 2,
+        "a_fp_over_control": -6,
+        "b_fp_over_control": 0,
+        "cal_change": 0.0,
+        "review_change": 0.0,
+        "review_tp": 0,
+        "review_fp": 0,
+        "held_ok": true,
+        "eligible": false
+      }
+    },
+    "transfer": {
+      "points": 306,
+      "passed": 0,
+      "shortlisted": null,
+      "best_review_filtered": null
+    },
+    "controls": {
+      "points": 204,
+      "passed": 0,
+      "shortlisted": null,
+      "best_review_filtered": {
+        "arm": "score",
+        "key": "open/unobserved/2.25/score/1",
+        "rule": "fp",
+        "control": "open/unobserved/2.25/threshold/0",
+        "cut": -1.7834123373031616,
+        "calls_cal": 132,
+        "calls_review": 117,
+        "a_tp": 11,
+        "b_tp": 3,
+        "a_fp": 2,
+        "b_fp": 0,
+        "a_tp_over_control": 3,
+        "b_tp_over_control": 0,
+        "a_fp_over_control": 0,
+        "b_fp_over_control": 0,
+        "cal_change": 0.0,
+        "review_change": 0.00037996463222289556,
+        "review_tp": 1,
+        "review_fp": 0,
+        "held_ok": true,
+        "eligible": false
+      }
+    }
+  },
+  "points": 816,
+  "csv_sha256": "70679db0869d8954539e8fb279fcfd53a4a9e41bfc1ded31cc1987496d07c807",
+  "sources": {
+    "test_a": "36e3222dda54da052d3af3de938de6d39aecb6d78175db2603bdb1da47fe0f07",
+    "test_b": "6fc6601dfe40f3c9b7882ba869ec36d3da5ed15b9efcd14a5f5fef0178b0af7e",
+    "official": "6640e98889a2f8325aea80a9e69215ca1f6d496e99584306dd31c6d19d13bd95"
+  },
+  "code_sha256": "e2977dca75878e9b2e4a5a3a950e77dcc952ea3c74d80ae12a6bc783923a1a8b"
+}

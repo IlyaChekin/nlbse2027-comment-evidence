@@ -1,0 +1,74 @@
+{
+  "options": [
+    "sparse:point_1.7_1:fixed",
+    "calibration_only"
+  ],
+  "family": {
+    "score": "sparse:point_1.7_1:fixed"
+  },
+  "variants": {
+    "sparse:point_1.7_1:fixed": {
+      "cut": 0.0,
+      "cal": {
+        "before": {
+          "tp": 1341,
+          "fp": 93,
+          "fn": 47,
+          "tn": 2811
+        },
+        "after": {
+          "tp": 1314,
+          "fp": 47,
+          "fn": 74,
+          "tn": 2857
+        },
+        "delta_tp": -27,
+        "delta_fp": -46,
+        "f1_before": 0.9503897944720057,
+        "f1_after": 0.9559839941797017
+      },
+      "frozen": {
+        "before": {
+          "tp": 1330,
+          "fp": 101,
+          "fn": 53,
+          "tn": 2810
+        },
+        "after": {
+          "tp": 1305,
+          "fp": 53,
+          "fn": 78,
+          "tn": 2858
+        },
+        "delta_tp": -25,
+        "delta_fp": -48,
+        "f1_before": 0.945273631840796,
+        "f1_after": 0.952207223641007
+      },
+      "proxy": 0.0015987951104277176,
+      "project_tp": [
+        8,
+        3
+      ],
+      "source_sha256": "6cadda2e58e0e01ea03c17f707db757d133445793390279ace418eac22850e5e",
+      "mode": "point",
+      "cal_calls": 337,
+      "setting": {
+        "kind": "sparse",
+        "width": 1.7,
+        "mix": 1.0,
+        "cut": 0.0
+      }
+    },
+    "calibration_only": {
+      "setting": {
+        "width": 1.7,
+        "mix": 1.0,
+        "cut": 0.960023125914888,
+        "kind": "threshold"
+      }
+    }
+  },
+  "source_sha256": "37238d2b4cdd395e4cb60cdad9ef97df1445a9fa47ef4508881d5aaa23c82977",
+  "calibration_tp": 17
+}

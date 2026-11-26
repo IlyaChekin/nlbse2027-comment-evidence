@@ -1,0 +1,102 @@
+{
+  "test_rows": 7899,
+  "common_confident_fp": 92,
+  "modes": {
+    "control": {
+      "equal": {
+        "before": {
+          "tp": 2374,
+          "fp": 448,
+          "fn": 480,
+          "tn": 4597
+        },
+        "after": {
+          "tp": 2374,
+          "fp": 448,
+          "fn": 480,
+          "tn": 4597
+        },
+        "delta_tp": 0,
+        "delta_fp": 0,
+        "f1_before": 0.8365045806906272,
+        "f1_after": 0.8365045806906272,
+        "corrected_confident_fp": 0,
+        "removed_fp": 0,
+        "added_fp": 0
+      },
+      "frozen": {
+        "before": {
+          "tp": 2372,
+          "fp": 448,
+          "fn": 482,
+          "tn": 4597
+        },
+        "after": {
+          "tp": 2372,
+          "fp": 448,
+          "fn": 482,
+          "tn": 4597
+        },
+        "delta_tp": 0,
+        "delta_fp": 0,
+        "f1_before": 0.8360944659851957,
+        "f1_after": 0.8360944659851957,
+        "corrected_confident_fp": 0,
+        "removed_fp": 0,
+        "added_fp": 0
+      },
+      "fixed_interval": [
+        0.0,
+        0.0
+      ]
+    },
+    "weighted": {
+      "equal": {
+        "before": {
+          "tp": 2374,
+          "fp": 448,
+          "fn": 480,
+          "tn": 4597
+        },
+        "after": {
+          "tp": 2374,
+          "fp": 448,
+          "fn": 480,
+          "tn": 4597
+        },
+        "delta_tp": 0,
+        "delta_fp": 0,
+        "f1_before": 0.8365045806906272,
+        "f1_after": 0.8365045806906272,
+        "corrected_confident_fp": 0,
+        "removed_fp": 0,
+        "added_fp": 0
+      },
+      "frozen": {
+        "before": {
+          "tp": 2372,
+          "fp": 448,
+          "fn": 482,
+          "tn": 4597
+        },
+        "after": {
+          "tp": 2372,
+          "fp": 448,
+          "fn": 482,
+          "tn": 4597
+        },
+        "delta_tp": 0,
+        "delta_fp": 0,
+        "f1_before": 0.8360944659851957,
+        "f1_after": 0.8360944659851957,
+        "corrected_confident_fp": 0,
+        "removed_fp": 0,
+        "added_fp": 0
+      },
+      "fixed_interval": [
+        0.0,
+        0.0
+      ]
+    }
+  }
+}

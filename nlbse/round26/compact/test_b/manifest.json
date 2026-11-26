@@ -1,0 +1,38 @@
+{
+  "rows": 180019,
+  "folds": {
+    "0": {
+      "fit": 134656,
+      "held": 45203,
+      "seconds": 39.38359300605953,
+      "sha256": "d7fd4ef588750a4d4c5ed99325d120c73b911178e07e3bab66bbe207a65c6725"
+    },
+    "1": {
+      "fit": 135463,
+      "held": 44400,
+      "seconds": 38.68331942521036,
+      "sha256": "a1d12183bf3a902578247f3ea6227c71551be748f34b1b87058a4eeafe9269c0"
+    },
+    "2": {
+      "fit": 134447,
+      "held": 45348,
+      "seconds": 38.09819652000442,
+      "sha256": "a941c953a2747dea5e8165c6c9b9be9b053b7fd991a57c8553fdcfee4d6c506e"
+    },
+    "3": {
+      "fit": 134738,
+      "held": 45068,
+      "seconds": 39.05444387695752,
+      "sha256": "21827df36c7d5b422994760b6f80237158c6f7bc9cdfcfb7ff3172db17828e21"
+    }
+  },
+  "sparse_oof_sha256": "467132ed043c789b92d194b805788b9e95f53d1108edcf533d18555c2eb6b75b",
+  "rule_target_sha256": "a47f170d8df09d92d1ffd42c52c7eb6e73c245feed3aef612e80b47a9f06a95b",
+  "weak_cohorts_sha256": "c5d74ea7f7e5ce182168c6a2b2172f4d06a57b53cfc67b61beecc9ae1a803f63",
+  "embedding_source_sha256": "968fb0f45e1efc8cf3dd50012d1f82ad82098107cbadde2c0fdd8e61bac02908",
+  "epochs": 2,
+  "seed": 42,
+  "width": 256,
+  "sha256": "90e907d17f9ddadb401086b5ba0a34d2fa4a38e54cf26db7f24cc6fa31e5b5d9",
+  "code_sha256": "b0c0cb9946842f8334aa859d8257cddc571341aba1f02f019a30ba705b101f8b"
+}

@@ -1,0 +1,1428 @@
+{
+  "views": {
+    "reference_ap": 0.14276219362249054,
+    "adviser_ap": 0.1886324215181831,
+    "combined_ap": 0.1705679538851741
+  },
+  "recipes": {
+    "closest_0.03_0.5": {
+      "dev": {
+        "before": {
+          "tp": 3788,
+          "fp": 354,
+          "fn": 89,
+          "tn": 7445
+        },
+        "after": {
+          "tp": 3790,
+          "fp": 354,
+          "fn": 87,
+          "tn": 7445
+        },
+        "delta_tp": 2,
+        "delta_fp": 0,
+        "f1_before": 0.9447562040154632,
+        "f1_after": 0.9450193242737813
+      },
+      "project_tp": 39,
+      "per_project": {
+        "chromium": {
+          "before": {
+            "tp": 3669,
+            "fp": 825,
+            "fn": 1211,
+            "tn": 19004
+          },
+          "after": {
+            "tp": 3706,
+            "fp": 825,
+            "fn": 1174,
+            "tn": 19004
+          },
+          "delta_tp": 37,
+          "delta_fp": 0,
+          "f1_before": 0.7828034990398975,
+          "f1_after": 0.787588991605568
+        },
+        "ffmpeg": {
+          "before": {
+            "tp": 1318,
+            "fp": 36,
+            "fn": 293,
+            "tn": 427
+          },
+          "after": {
+            "tp": 1316,
+            "fp": 36,
+            "fn": 295,
+            "tn": 427
+          },
+          "delta_tp": -2,
+          "delta_fp": 0,
+          "f1_before": 0.8890387858347386,
+          "f1_after": 0.8882888963887952
+        },
+        "qemu": {
+          "before": {
+            "tp": 1692,
+            "fp": 42,
+            "fn": 1266,
+            "tn": 1315
+          },
+          "after": {
+            "tp": 1696,
+            "fp": 42,
+            "fn": 1262,
+            "tn": 1315
+          },
+          "delta_tp": 4,
+          "delta_fp": 0,
+          "f1_before": 0.7212276214833759,
+          "f1_after": 0.7223168654173765
+        }
+      },
+      "fixed": {
+        "before": {
+          "tp": 6675,
+          "fp": 903,
+          "fn": 2774,
+          "tn": 20746
+        },
+        "after": {
+          "tp": 6694,
+          "fp": 764,
+          "fn": 2755,
+          "tn": 20885
+        },
+        "delta_tp": 19,
+        "delta_fp": -139,
+        "f1_before": 0.7840488635696247,
+        "f1_after": 0.7918613592003312
+      },
+      "test_rows": 7019,
+      "test_cost_weighted_fraction": 0.14275699853897095,
+      "cal_rows": 471,
+      "cal_cost_weighted_fraction": 0.029943395406007767,
+      "route_cutoff": 0.3792995810508728,
+      "decision_cutoff": 0.12632155418395996
+    },
+    "closest_0.03_1": {
+      "dev": {
+        "before": {
+          "tp": 3788,
+          "fp": 354,
+          "fn": 89,
+          "tn": 7445
+        },
+        "after": {
+          "tp": 3792,
+          "fp": 354,
+          "fn": 85,
+          "tn": 7445
+        },
+        "delta_tp": 4,
+        "delta_fp": 0,
+        "f1_before": 0.9447562040154632,
+        "f1_after": 0.9452823133491213
+      },
+      "project_tp": 62,
+      "per_project": {
+        "chromium": {
+          "before": {
+            "tp": 3669,
+            "fp": 825,
+            "fn": 1211,
+            "tn": 19004
+          },
+          "after": {
+            "tp": 3728,
+            "fp": 825,
+            "fn": 1152,
+            "tn": 19004
+          },
+          "delta_tp": 59,
+          "delta_fp": 0,
+          "f1_before": 0.7828034990398975,
+          "f1_after": 0.7904166224954945
+        },
+        "ffmpeg": {
+          "before": {
+            "tp": 1318,
+            "fp": 36,
+            "fn": 293,
+            "tn": 427
+          },
+          "after": {
+            "tp": 1315,
+            "fp": 36,
+            "fn": 296,
+            "tn": 427
+          },
+          "delta_tp": -3,
+          "delta_fp": 0,
+          "f1_before": 0.8890387858347386,
+          "f1_after": 0.8879135719108711
+        },
+        "qemu": {
+          "before": {
+            "tp": 1692,
+            "fp": 42,
+            "fn": 1266,
+            "tn": 1315
+          },
+          "after": {
+            "tp": 1698,
+            "fp": 42,
+            "fn": 1260,
+            "tn": 1315
+          },
+          "delta_tp": 6,
+          "delta_fp": 0,
+          "f1_before": 0.7212276214833759,
+          "f1_after": 0.722860791826309
+        }
+      },
+      "fixed": {
+        "before": {
+          "tp": 6675,
+          "fp": 903,
+          "fn": 2774,
+          "tn": 20746
+        },
+        "after": {
+          "tp": 6685,
+          "fp": 712,
+          "fn": 2764,
+          "tn": 20937
+        },
+        "delta_tp": 10,
+        "delta_fp": -191,
+        "f1_before": 0.7840488635696247,
+        "f1_after": 0.7936602160750327
+      },
+      "test_rows": 7019,
+      "test_cost_weighted_fraction": 0.14275699853897095,
+      "cal_rows": 471,
+      "cal_cost_weighted_fraction": 0.029943395406007767,
+      "route_cutoff": 0.3792995810508728,
+      "decision_cutoff": 0.12621213495731354
+    },
+    "closest_0.08_0.5": {
+      "dev": {
+        "before": {
+          "tp": 3788,
+          "fp": 354,
+          "fn": 89,
+          "tn": 7445
+        },
+        "after": {
+          "tp": 3791,
+          "fp": 354,
+          "fn": 86,
+          "tn": 7445
+        },
+        "delta_tp": 3,
+        "delta_fp": 0,
+        "f1_before": 0.9447562040154632,
+        "f1_after": 0.9451508352031912
+      },
+      "project_tp": 37,
+      "per_project": {
+        "chromium": {
+          "before": {
+            "tp": 3669,
+            "fp": 825,
+            "fn": 1211,
+            "tn": 19004
+          },
+          "after": {
+            "tp": 3706,
+            "fp": 825,
+            "fn": 1174,
+            "tn": 19004
+          },
+          "delta_tp": 37,
+          "delta_fp": 0,
+          "f1_before": 0.7828034990398975,
+          "f1_after": 0.787588991605568
+        },
+        "ffmpeg": {
+          "before": {
+            "tp": 1318,
+            "fp": 36,
+            "fn": 293,
+            "tn": 427
+          },
+          "after": {
+            "tp": 1317,
+            "fp": 36,
+            "fn": 294,
+            "tn": 427
+          },
+          "delta_tp": -1,
+          "delta_fp": 0,
+          "f1_before": 0.8890387858347386,
+          "f1_after": 0.888663967611336
+        },
+        "qemu": {
+          "before": {
+            "tp": 1692,
+            "fp": 42,
+            "fn": 1266,
+            "tn": 1315
+          },
+          "after": {
+            "tp": 1693,
+            "fp": 42,
+            "fn": 1265,
+            "tn": 1315
+          },
+          "delta_tp": 1,
+          "delta_fp": 0,
+          "f1_before": 0.7212276214833759,
+          "f1_after": 0.7215001065416577
+        }
+      },
+      "fixed": {
+        "before": {
+          "tp": 6675,
+          "fp": 903,
+          "fn": 2774,
+          "tn": 20746
+        },
+        "after": {
+          "tp": 6687,
+          "fp": 747,
+          "fn": 2762,
+          "tn": 20902
+        },
+        "delta_tp": 12,
+        "delta_fp": -156,
+        "f1_before": 0.7840488635696247,
+        "f1_after": 0.7921577918616359
+      },
+      "test_rows": 10725,
+      "test_cost_weighted_fraction": 0.29021263122558594,
+      "cal_rows": 989,
+      "cal_cost_weighted_fraction": 0.07995127886533737,
+      "route_cutoff": 0.2620064914226532,
+      "decision_cutoff": 0.12988466024398804
+    },
+    "closest_0.08_1": {
+      "dev": {
+        "before": {
+          "tp": 3788,
+          "fp": 354,
+          "fn": 89,
+          "tn": 7445
+        },
+        "after": {
+          "tp": 3793,
+          "fp": 354,
+          "fn": 84,
+          "tn": 7445
+        },
+        "delta_tp": 5,
+        "delta_fp": 0,
+        "f1_before": 0.9447562040154632,
+        "f1_after": 0.9454137587238285
+      },
+      "project_tp": 58,
+      "per_project": {
+        "chromium": {
+          "before": {
+            "tp": 3669,
+            "fp": 825,
+            "fn": 1211,
+            "tn": 19004
+          },
+          "after": {
+            "tp": 3719,
+            "fp": 825,
+            "fn": 1161,
+            "tn": 19004
+          },
+          "delta_tp": 50,
+          "delta_fp": 0,
+          "f1_before": 0.7828034990398975,
+          "f1_after": 0.7892614601018676
+        },
+        "ffmpeg": {
+          "before": {
+            "tp": 1318,
+            "fp": 36,
+            "fn": 293,
+            "tn": 427
+          },
+          "after": {
+            "tp": 1320,
+            "fp": 36,
+            "fn": 291,
+            "tn": 427
+          },
+          "delta_tp": 2,
+          "delta_fp": 0,
+          "f1_before": 0.8890387858347386,
+          "f1_after": 0.8897876643073812
+        },
+        "qemu": {
+          "before": {
+            "tp": 1692,
+            "fp": 42,
+            "fn": 1266,
+            "tn": 1315
+          },
+          "after": {
+            "tp": 1698,
+            "fp": 42,
+            "fn": 1260,
+            "tn": 1315
+          },
+          "delta_tp": 6,
+          "delta_fp": 0,
+          "f1_before": 0.7212276214833759,
+          "f1_after": 0.722860791826309
+        }
+      },
+      "fixed": {
+        "before": {
+          "tp": 6675,
+          "fp": 903,
+          "fn": 2774,
+          "tn": 20746
+        },
+        "after": {
+          "tp": 6685,
+          "fp": 684,
+          "fn": 2764,
+          "tn": 20965
+        },
+        "delta_tp": 10,
+        "delta_fp": -219,
+        "f1_before": 0.7840488635696247,
+        "f1_after": 0.7949815673682958
+      },
+      "test_rows": 10725,
+      "test_cost_weighted_fraction": 0.29021263122558594,
+      "cal_rows": 989,
+      "cal_cost_weighted_fraction": 0.07995127886533737,
+      "route_cutoff": 0.2620064914226532,
+      "decision_cutoff": 0.12621213495731354
+    },
+    "closest_0.18_0.5": {
+      "dev": {
+        "before": {
+          "tp": 3788,
+          "fp": 354,
+          "fn": 89,
+          "tn": 7445
+        },
+        "after": {
+          "tp": 3791,
+          "fp": 354,
+          "fn": 86,
+          "tn": 7445
+        },
+        "delta_tp": 3,
+        "delta_fp": 0,
+        "f1_before": 0.9447562040154632,
+        "f1_after": 0.9451508352031912
+      },
+      "project_tp": 34,
+      "per_project": {
+        "chromium": {
+          "before": {
+            "tp": 3669,
+            "fp": 825,
+            "fn": 1211,
+            "tn": 19004
+          },
+          "after": {
+            "tp": 3705,
+            "fp": 825,
+            "fn": 1175,
+            "tn": 19004
+          },
+          "delta_tp": 36,
+          "delta_fp": 0,
+          "f1_before": 0.7828034990398975,
+          "f1_after": 0.7874601487778958
+        },
+        "ffmpeg": {
+          "before": {
+            "tp": 1318,
+            "fp": 36,
+            "fn": 293,
+            "tn": 427
+          },
+          "after": {
+            "tp": 1317,
+            "fp": 36,
+            "fn": 294,
+            "tn": 427
+          },
+          "delta_tp": -1,
+          "delta_fp": 0,
+          "f1_before": 0.8890387858347386,
+          "f1_after": 0.888663967611336
+        },
+        "qemu": {
+          "before": {
+            "tp": 1692,
+            "fp": 42,
+            "fn": 1266,
+            "tn": 1315
+          },
+          "after": {
+            "tp": 1691,
+            "fp": 42,
+            "fn": 1267,
+            "tn": 1315
+          },
+          "delta_tp": -1,
+          "delta_fp": 0,
+          "f1_before": 0.7212276214833759,
+          "f1_after": 0.7209550202515456
+        }
+      },
+      "fixed": {
+        "before": {
+          "tp": 6675,
+          "fp": 903,
+          "fn": 2774,
+          "tn": 20746
+        },
+        "after": {
+          "tp": 6686,
+          "fp": 747,
+          "fn": 2763,
+          "tn": 20902
+        },
+        "delta_tp": 11,
+        "delta_fp": -156,
+        "f1_before": 0.7840488635696247,
+        "f1_after": 0.7920862457054851
+      },
+      "test_rows": 12958,
+      "test_cost_weighted_fraction": 0.4510570466518402,
+      "cal_rows": 1567,
+      "cal_cost_weighted_fraction": 0.17753201723098755,
+      "route_cutoff": -100000.0,
+      "decision_cutoff": 0.1305573284626007
+    },
+    "closest_0.18_1": {
+      "dev": {
+        "before": {
+          "tp": 3788,
+          "fp": 354,
+          "fn": 89,
+          "tn": 7445
+        },
+        "after": {
+          "tp": 3793,
+          "fp": 354,
+          "fn": 84,
+          "tn": 7445
+        },
+        "delta_tp": 5,
+        "delta_fp": 0,
+        "f1_before": 0.9447562040154632,
+        "f1_after": 0.9454137587238285
+      },
+      "project_tp": 58,
+      "per_project": {
+        "chromium": {
+          "before": {
+            "tp": 3669,
+            "fp": 825,
+            "fn": 1211,
+            "tn": 19004
+          },
+          "after": {
+            "tp": 3720,
+            "fp": 825,
+            "fn": 1160,
+            "tn": 19004
+          },
+          "delta_tp": 51,
+          "delta_fp": 0,
+          "f1_before": 0.7828034990398975,
+          "f1_after": 0.7893899204244031
+        },
+        "ffmpeg": {
+          "before": {
+            "tp": 1318,
+            "fp": 36,
+            "fn": 293,
+            "tn": 427
+          },
+          "after": {
+            "tp": 1321,
+            "fp": 36,
+            "fn": 290,
+            "tn": 427
+          },
+          "delta_tp": 3,
+          "delta_fp": 0,
+          "f1_before": 0.8890387858347386,
+          "f1_after": 0.8901617250673854
+        },
+        "qemu": {
+          "before": {
+            "tp": 1692,
+            "fp": 42,
+            "fn": 1266,
+            "tn": 1315
+          },
+          "after": {
+            "tp": 1696,
+            "fp": 42,
+            "fn": 1262,
+            "tn": 1315
+          },
+          "delta_tp": 4,
+          "delta_fp": 0,
+          "f1_before": 0.7212276214833759,
+          "f1_after": 0.7223168654173765
+        }
+      },
+      "fixed": {
+        "before": {
+          "tp": 6675,
+          "fp": 903,
+          "fn": 2774,
+          "tn": 20746
+        },
+        "after": {
+          "tp": 6694,
+          "fp": 666,
+          "fn": 2755,
+          "tn": 20983
+        },
+        "delta_tp": 19,
+        "delta_fp": -237,
+        "f1_before": 0.7840488635696247,
+        "f1_after": 0.7964780772205367
+      },
+      "test_rows": 12958,
+      "test_cost_weighted_fraction": 0.4510570466518402,
+      "cal_rows": 1567,
+      "cal_cost_weighted_fraction": 0.17753201723098755,
+      "route_cutoff": -100000.0,
+      "decision_cutoff": 0.12026438117027283
+    },
+    "expected_0.03_0.5": {
+      "dev": {
+        "before": {
+          "tp": 3788,
+          "fp": 354,
+          "fn": 89,
+          "tn": 7445
+        },
+        "after": {
+          "tp": 3789,
+          "fp": 354,
+          "fn": 88,
+          "tn": 7445
+        },
+        "delta_tp": 1,
+        "delta_fp": 0,
+        "f1_before": 0.9447562040154632,
+        "f1_after": 0.9448877805486284
+      },
+      "project_tp": 38,
+      "per_project": {
+        "chromium": {
+          "before": {
+            "tp": 3669,
+            "fp": 825,
+            "fn": 1211,
+            "tn": 19004
+          },
+          "after": {
+            "tp": 3709,
+            "fp": 825,
+            "fn": 1171,
+            "tn": 19004
+          },
+          "delta_tp": 40,
+          "delta_fp": 0,
+          "f1_before": 0.7828034990398975,
+          "f1_after": 0.787975355852985
+        },
+        "ffmpeg": {
+          "before": {
+            "tp": 1318,
+            "fp": 36,
+            "fn": 293,
+            "tn": 427
+          },
+          "after": {
+            "tp": 1315,
+            "fp": 36,
+            "fn": 296,
+            "tn": 427
+          },
+          "delta_tp": -3,
+          "delta_fp": 0,
+          "f1_before": 0.8890387858347386,
+          "f1_after": 0.8879135719108711
+        },
+        "qemu": {
+          "before": {
+            "tp": 1692,
+            "fp": 42,
+            "fn": 1266,
+            "tn": 1315
+          },
+          "after": {
+            "tp": 1693,
+            "fp": 42,
+            "fn": 1265,
+            "tn": 1315
+          },
+          "delta_tp": 1,
+          "delta_fp": 0,
+          "f1_before": 0.7212276214833759,
+          "f1_after": 0.7215001065416577
+        }
+      },
+      "fixed": {
+        "before": {
+          "tp": 6675,
+          "fp": 903,
+          "fn": 2774,
+          "tn": 20746
+        },
+        "after": {
+          "tp": 6680,
+          "fp": 770,
+          "fn": 2769,
+          "tn": 20879
+        },
+        "delta_tp": 5,
+        "delta_fp": -133,
+        "f1_before": 0.7840488635696247,
+        "f1_after": 0.790579324220368
+      },
+      "test_rows": 3669,
+      "test_cost_weighted_fraction": 0.10770409554243088,
+      "cal_rows": 312,
+      "cal_cost_weighted_fraction": 0.02985156513750553,
+      "route_cutoff": 0.0011699380890529557,
+      "decision_cutoff": 0.13165830075740814
+    },
+    "expected_0.03_1": {
+      "dev": {
+        "before": {
+          "tp": 3788,
+          "fp": 354,
+          "fn": 89,
+          "tn": 7445
+        },
+        "after": {
+          "tp": 3790,
+          "fp": 354,
+          "fn": 87,
+          "tn": 7445
+        },
+        "delta_tp": 2,
+        "delta_fp": 0,
+        "f1_before": 0.9447562040154632,
+        "f1_after": 0.9450193242737813
+      },
+      "project_tp": 49,
+      "per_project": {
+        "chromium": {
+          "before": {
+            "tp": 3669,
+            "fp": 825,
+            "fn": 1211,
+            "tn": 19004
+          },
+          "after": {
+            "tp": 3722,
+            "fp": 825,
+            "fn": 1158,
+            "tn": 19004
+          },
+          "delta_tp": 53,
+          "delta_fp": 0,
+          "f1_before": 0.7828034990398975,
+          "f1_after": 0.7896467593083696
+        },
+        "ffmpeg": {
+          "before": {
+            "tp": 1318,
+            "fp": 36,
+            "fn": 293,
+            "tn": 427
+          },
+          "after": {
+            "tp": 1317,
+            "fp": 36,
+            "fn": 294,
+            "tn": 427
+          },
+          "delta_tp": -1,
+          "delta_fp": 0,
+          "f1_before": 0.8890387858347386,
+          "f1_after": 0.888663967611336
+        },
+        "qemu": {
+          "before": {
+            "tp": 1692,
+            "fp": 42,
+            "fn": 1266,
+            "tn": 1315
+          },
+          "after": {
+            "tp": 1689,
+            "fp": 42,
+            "fn": 1269,
+            "tn": 1315
+          },
+          "delta_tp": -3,
+          "delta_fp": 0,
+          "f1_before": 0.7212276214833759,
+          "f1_after": 0.7204094689699296
+        }
+      },
+      "fixed": {
+        "before": {
+          "tp": 6675,
+          "fp": 903,
+          "fn": 2774,
+          "tn": 20746
+        },
+        "after": {
+          "tp": 6700,
+          "fp": 732,
+          "fn": 2749,
+          "tn": 20917
+        },
+        "delta_tp": 25,
+        "delta_fp": -171,
+        "f1_before": 0.7840488635696247,
+        "f1_after": 0.7937918369764825
+      },
+      "test_rows": 3669,
+      "test_cost_weighted_fraction": 0.10770409554243088,
+      "cal_rows": 312,
+      "cal_cost_weighted_fraction": 0.02985156513750553,
+      "route_cutoff": 0.0011699380890529557,
+      "decision_cutoff": 0.11881928890943527
+    },
+    "expected_0.08_0.5": {
+      "dev": {
+        "before": {
+          "tp": 3788,
+          "fp": 354,
+          "fn": 89,
+          "tn": 7445
+        },
+        "after": {
+          "tp": 3790,
+          "fp": 354,
+          "fn": 87,
+          "tn": 7445
+        },
+        "delta_tp": 2,
+        "delta_fp": 0,
+        "f1_before": 0.9447562040154632,
+        "f1_after": 0.9450193242737813
+      },
+      "project_tp": 40,
+      "per_project": {
+        "chromium": {
+          "before": {
+            "tp": 3669,
+            "fp": 825,
+            "fn": 1211,
+            "tn": 19004
+          },
+          "after": {
+            "tp": 3708,
+            "fp": 825,
+            "fn": 1172,
+            "tn": 19004
+          },
+          "delta_tp": 39,
+          "delta_fp": 0,
+          "f1_before": 0.7828034990398975,
+          "f1_after": 0.7878465951343886
+        },
+        "ffmpeg": {
+          "before": {
+            "tp": 1318,
+            "fp": 36,
+            "fn": 293,
+            "tn": 427
+          },
+          "after": {
+            "tp": 1317,
+            "fp": 36,
+            "fn": 294,
+            "tn": 427
+          },
+          "delta_tp": -1,
+          "delta_fp": 0,
+          "f1_before": 0.8890387858347386,
+          "f1_after": 0.888663967611336
+        },
+        "qemu": {
+          "before": {
+            "tp": 1692,
+            "fp": 42,
+            "fn": 1266,
+            "tn": 1315
+          },
+          "after": {
+            "tp": 1694,
+            "fp": 42,
+            "fn": 1264,
+            "tn": 1315
+          },
+          "delta_tp": 2,
+          "delta_fp": 0,
+          "f1_before": 0.7212276214833759,
+          "f1_after": 0.7217724755006392
+        }
+      },
+      "fixed": {
+        "before": {
+          "tp": 6675,
+          "fp": 903,
+          "fn": 2774,
+          "tn": 20746
+        },
+        "after": {
+          "tp": 6679,
+          "fp": 754,
+          "fn": 2770,
+          "tn": 20895
+        },
+        "delta_tp": 4,
+        "delta_fp": -149,
+        "f1_before": 0.7840488635696247,
+        "f1_after": 0.7912569600758204
+      },
+      "test_rows": 6501,
+      "test_cost_weighted_fraction": 0.2112005203962326,
+      "cal_rows": 719,
+      "cal_cost_weighted_fraction": 0.0799952894449234,
+      "route_cutoff": 0.0001909233908766825,
+      "decision_cutoff": 0.13165830075740814
+    },
+    "expected_0.08_1": {
+      "dev": {
+        "before": {
+          "tp": 3788,
+          "fp": 354,
+          "fn": 89,
+          "tn": 7445
+        },
+        "after": {
+          "tp": 3791,
+          "fp": 354,
+          "fn": 86,
+          "tn": 7445
+        },
+        "delta_tp": 3,
+        "delta_fp": 0,
+        "f1_before": 0.9447562040154632,
+        "f1_after": 0.9451508352031912
+      },
+      "project_tp": 57,
+      "per_project": {
+        "chromium": {
+          "before": {
+            "tp": 3669,
+            "fp": 825,
+            "fn": 1211,
+            "tn": 19004
+          },
+          "after": {
+            "tp": 3721,
+            "fp": 825,
+            "fn": 1159,
+            "tn": 19004
+          },
+          "delta_tp": 52,
+          "delta_fp": 0,
+          "f1_before": 0.7828034990398975,
+          "f1_after": 0.7895183534903458
+        },
+        "ffmpeg": {
+          "before": {
+            "tp": 1318,
+            "fp": 36,
+            "fn": 293,
+            "tn": 427
+          },
+          "after": {
+            "tp": 1321,
+            "fp": 36,
+            "fn": 290,
+            "tn": 427
+          },
+          "delta_tp": 3,
+          "delta_fp": 0,
+          "f1_before": 0.8890387858347386,
+          "f1_after": 0.8901617250673854
+        },
+        "qemu": {
+          "before": {
+            "tp": 1692,
+            "fp": 42,
+            "fn": 1266,
+            "tn": 1315
+          },
+          "after": {
+            "tp": 1694,
+            "fp": 42,
+            "fn": 1264,
+            "tn": 1315
+          },
+          "delta_tp": 2,
+          "delta_fp": 0,
+          "f1_before": 0.7212276214833759,
+          "f1_after": 0.7217724755006392
+        }
+      },
+      "fixed": {
+        "before": {
+          "tp": 6675,
+          "fp": 903,
+          "fn": 2774,
+          "tn": 20746
+        },
+        "after": {
+          "tp": 6694,
+          "fp": 683,
+          "fn": 2755,
+          "tn": 20966
+        },
+        "delta_tp": 19,
+        "delta_fp": -220,
+        "f1_before": 0.7840488635696247,
+        "f1_after": 0.795673362653037
+      },
+      "test_rows": 6501,
+      "test_cost_weighted_fraction": 0.2112005203962326,
+      "cal_rows": 719,
+      "cal_cost_weighted_fraction": 0.0799952894449234,
+      "route_cutoff": 0.0001909233908766825,
+      "decision_cutoff": 0.11957290768623352
+    },
+    "expected_0.18_0.5": {
+      "dev": {
+        "before": {
+          "tp": 3788,
+          "fp": 354,
+          "fn": 89,
+          "tn": 7445
+        },
+        "after": {
+          "tp": 3791,
+          "fp": 354,
+          "fn": 86,
+          "tn": 7445
+        },
+        "delta_tp": 3,
+        "delta_fp": 0,
+        "f1_before": 0.9447562040154632,
+        "f1_after": 0.9451508352031912
+      },
+      "project_tp": 34,
+      "per_project": {
+        "chromium": {
+          "before": {
+            "tp": 3669,
+            "fp": 825,
+            "fn": 1211,
+            "tn": 19004
+          },
+          "after": {
+            "tp": 3705,
+            "fp": 825,
+            "fn": 1175,
+            "tn": 19004
+          },
+          "delta_tp": 36,
+          "delta_fp": 0,
+          "f1_before": 0.7828034990398975,
+          "f1_after": 0.7874601487778958
+        },
+        "ffmpeg": {
+          "before": {
+            "tp": 1318,
+            "fp": 36,
+            "fn": 293,
+            "tn": 427
+          },
+          "after": {
+            "tp": 1317,
+            "fp": 36,
+            "fn": 294,
+            "tn": 427
+          },
+          "delta_tp": -1,
+          "delta_fp": 0,
+          "f1_before": 0.8890387858347386,
+          "f1_after": 0.888663967611336
+        },
+        "qemu": {
+          "before": {
+            "tp": 1692,
+            "fp": 42,
+            "fn": 1266,
+            "tn": 1315
+          },
+          "after": {
+            "tp": 1691,
+            "fp": 42,
+            "fn": 1267,
+            "tn": 1315
+          },
+          "delta_tp": -1,
+          "delta_fp": 0,
+          "f1_before": 0.7212276214833759,
+          "f1_after": 0.7209550202515456
+        }
+      },
+      "fixed": {
+        "before": {
+          "tp": 6675,
+          "fp": 903,
+          "fn": 2774,
+          "tn": 20746
+        },
+        "after": {
+          "tp": 6686,
+          "fp": 747,
+          "fn": 2763,
+          "tn": 20902
+        },
+        "delta_tp": 11,
+        "delta_fp": -156,
+        "f1_before": 0.7840488635696247,
+        "f1_after": 0.7920862457054851
+      },
+      "test_rows": 12958,
+      "test_cost_weighted_fraction": 0.4510570466518402,
+      "cal_rows": 1567,
+      "cal_cost_weighted_fraction": 0.17753201723098755,
+      "route_cutoff": -100000.0,
+      "decision_cutoff": 0.1305573284626007
+    },
+    "expected_0.18_1": {
+      "dev": {
+        "before": {
+          "tp": 3788,
+          "fp": 354,
+          "fn": 89,
+          "tn": 7445
+        },
+        "after": {
+          "tp": 3793,
+          "fp": 354,
+          "fn": 84,
+          "tn": 7445
+        },
+        "delta_tp": 5,
+        "delta_fp": 0,
+        "f1_before": 0.9447562040154632,
+        "f1_after": 0.9454137587238285
+      },
+      "project_tp": 58,
+      "per_project": {
+        "chromium": {
+          "before": {
+            "tp": 3669,
+            "fp": 825,
+            "fn": 1211,
+            "tn": 19004
+          },
+          "after": {
+            "tp": 3720,
+            "fp": 825,
+            "fn": 1160,
+            "tn": 19004
+          },
+          "delta_tp": 51,
+          "delta_fp": 0,
+          "f1_before": 0.7828034990398975,
+          "f1_after": 0.7893899204244031
+        },
+        "ffmpeg": {
+          "before": {
+            "tp": 1318,
+            "fp": 36,
+            "fn": 293,
+            "tn": 427
+          },
+          "after": {
+            "tp": 1321,
+            "fp": 36,
+            "fn": 290,
+            "tn": 427
+          },
+          "delta_tp": 3,
+          "delta_fp": 0,
+          "f1_before": 0.8890387858347386,
+          "f1_after": 0.8901617250673854
+        },
+        "qemu": {
+          "before": {
+            "tp": 1692,
+            "fp": 42,
+            "fn": 1266,
+            "tn": 1315
+          },
+          "after": {
+            "tp": 1696,
+            "fp": 42,
+            "fn": 1262,
+            "tn": 1315
+          },
+          "delta_tp": 4,
+          "delta_fp": 0,
+          "f1_before": 0.7212276214833759,
+          "f1_after": 0.7223168654173765
+        }
+      },
+      "fixed": {
+        "before": {
+          "tp": 6675,
+          "fp": 903,
+          "fn": 2774,
+          "tn": 20746
+        },
+        "after": {
+          "tp": 6694,
+          "fp": 666,
+          "fn": 2755,
+          "tn": 20983
+        },
+        "delta_tp": 19,
+        "delta_fp": -237,
+        "f1_before": 0.7840488635696247,
+        "f1_after": 0.7964780772205367
+      },
+      "test_rows": 12958,
+      "test_cost_weighted_fraction": 0.4510570466518402,
+      "cal_rows": 1567,
+      "cal_cost_weighted_fraction": 0.17753201723098755,
+      "route_cutoff": -100000.0,
+      "decision_cutoff": 0.12026438117027283
+    },
+    "all_1_0.5": {
+      "dev": {
+        "before": {
+          "tp": 3788,
+          "fp": 354,
+          "fn": 89,
+          "tn": 7445
+        },
+        "after": {
+          "tp": 3791,
+          "fp": 354,
+          "fn": 86,
+          "tn": 7445
+        },
+        "delta_tp": 3,
+        "delta_fp": 0,
+        "f1_before": 0.9447562040154632,
+        "f1_after": 0.9451508352031912
+      },
+      "project_tp": 34,
+      "per_project": {
+        "chromium": {
+          "before": {
+            "tp": 3669,
+            "fp": 825,
+            "fn": 1211,
+            "tn": 19004
+          },
+          "after": {
+            "tp": 3705,
+            "fp": 825,
+            "fn": 1175,
+            "tn": 19004
+          },
+          "delta_tp": 36,
+          "delta_fp": 0,
+          "f1_before": 0.7828034990398975,
+          "f1_after": 0.7874601487778958
+        },
+        "ffmpeg": {
+          "before": {
+            "tp": 1318,
+            "fp": 36,
+            "fn": 293,
+            "tn": 427
+          },
+          "after": {
+            "tp": 1317,
+            "fp": 36,
+            "fn": 294,
+            "tn": 427
+          },
+          "delta_tp": -1,
+          "delta_fp": 0,
+          "f1_before": 0.8890387858347386,
+          "f1_after": 0.888663967611336
+        },
+        "qemu": {
+          "before": {
+            "tp": 1692,
+            "fp": 42,
+            "fn": 1266,
+            "tn": 1315
+          },
+          "after": {
+            "tp": 1691,
+            "fp": 42,
+            "fn": 1267,
+            "tn": 1315
+          },
+          "delta_tp": -1,
+          "delta_fp": 0,
+          "f1_before": 0.7212276214833759,
+          "f1_after": 0.7209550202515456
+        }
+      },
+      "fixed": {
+        "before": {
+          "tp": 6675,
+          "fp": 903,
+          "fn": 2774,
+          "tn": 20746
+        },
+        "after": {
+          "tp": 6686,
+          "fp": 747,
+          "fn": 2763,
+          "tn": 20902
+        },
+        "delta_tp": 11,
+        "delta_fp": -156,
+        "f1_before": 0.7840488635696247,
+        "f1_after": 0.7920862457054851
+      },
+      "test_rows": 12958,
+      "test_cost_weighted_fraction": 0.4510570466518402,
+      "cal_rows": 1567,
+      "cal_cost_weighted_fraction": 0.17753201723098755,
+      "route_cutoff": null,
+      "decision_cutoff": 0.1305573284626007
+    },
+    "all_1_1": {
+      "dev": {
+        "before": {
+          "tp": 3788,
+          "fp": 354,
+          "fn": 89,
+          "tn": 7445
+        },
+        "after": {
+          "tp": 3793,
+          "fp": 354,
+          "fn": 84,
+          "tn": 7445
+        },
+        "delta_tp": 5,
+        "delta_fp": 0,
+        "f1_before": 0.9447562040154632,
+        "f1_after": 0.9454137587238285
+      },
+      "project_tp": 58,
+      "per_project": {
+        "chromium": {
+          "before": {
+            "tp": 3669,
+            "fp": 825,
+            "fn": 1211,
+            "tn": 19004
+          },
+          "after": {
+            "tp": 3720,
+            "fp": 825,
+            "fn": 1160,
+            "tn": 19004
+          },
+          "delta_tp": 51,
+          "delta_fp": 0,
+          "f1_before": 0.7828034990398975,
+          "f1_after": 0.7893899204244031
+        },
+        "ffmpeg": {
+          "before": {
+            "tp": 1318,
+            "fp": 36,
+            "fn": 293,
+            "tn": 427
+          },
+          "after": {
+            "tp": 1321,
+            "fp": 36,
+            "fn": 290,
+            "tn": 427
+          },
+          "delta_tp": 3,
+          "delta_fp": 0,
+          "f1_before": 0.8890387858347386,
+          "f1_after": 0.8901617250673854
+        },
+        "qemu": {
+          "before": {
+            "tp": 1692,
+            "fp": 42,
+            "fn": 1266,
+            "tn": 1315
+          },
+          "after": {
+            "tp": 1696,
+            "fp": 42,
+            "fn": 1262,
+            "tn": 1315
+          },
+          "delta_tp": 4,
+          "delta_fp": 0,
+          "f1_before": 0.7212276214833759,
+          "f1_after": 0.7223168654173765
+        }
+      },
+      "fixed": {
+        "before": {
+          "tp": 6675,
+          "fp": 903,
+          "fn": 2774,
+          "tn": 20746
+        },
+        "after": {
+          "tp": 6694,
+          "fp": 666,
+          "fn": 2755,
+          "tn": 20983
+        },
+        "delta_tp": 19,
+        "delta_fp": -237,
+        "f1_before": 0.7840488635696247,
+        "f1_after": 0.7964780772205367
+      },
+      "test_rows": 12958,
+      "test_cost_weighted_fraction": 0.4510570466518402,
+      "cal_rows": 1567,
+      "cal_cost_weighted_fraction": 0.17753201723098755,
+      "route_cutoff": null,
+      "decision_cutoff": 0.12026438117027283
+    }
+  },
+  "archive": {
+    "probe": "889d92081cd2adeb80ad13ae98314229e76b8b138025050a5a197f8fd38ae077",
+    "dev": "3f9a66cdea90d9a84a89e54944c20e070550173c29f6a9adaab522ae7856b451",
+    "test": "d3e806123ac37f367fb5c48c595fefa69e705bbb4fdbfc9634d2a43f27d66428"
+  }
+}

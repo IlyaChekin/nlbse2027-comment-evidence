@@ -1,0 +1,34 @@
+{
+  "cutoffs": {
+    "residual": -0.20917029715592328,
+    "erase_any": 0.08673282350883404,
+    "erase_leading": -0.18729864024031873
+  },
+  "synthetic_weight": 0.3,
+  "training": {
+    "residual": {
+      "synthetic": 0,
+      "natural_positives": 302,
+      "natural_negatives": 151445
+    },
+    "erase_any": {
+      "synthetic": 1879,
+      "natural_positives": 302,
+      "natural_negatives": 151445
+    },
+    "erase_leading": {
+      "synthetic": 1,
+      "natural_positives": 302,
+      "natural_negatives": 151445
+    }
+  },
+  "gold_tagged_span_locations": {
+    "inside": 1966,
+    "signature": 1,
+    "leading": 1
+  },
+  "code_sha256": "1bfb89f66e86a342344f3bd9a076b9545bc1d17ff2705edb2a78965cec2a7616",
+  "heads_sha256": "b92cdced2034ae18212d82fe0d6d999983dfdffbab77e634e5a4293aa99eabe6",
+  "partition_sha256": "2823097d9b25fadebffcc6a3daa50034854d7a59c5df5c90d4e6d6d48231cfc9",
+  "data_manifest_sha256": "8cd6dc7cf3101d2e3a055ff7c7154653402fbb6491959f4f636504cd378b56ef"
+}

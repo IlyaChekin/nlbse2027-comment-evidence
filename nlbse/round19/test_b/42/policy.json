@@ -1,0 +1,48 @@
+{
+  "chosen": "balanced",
+  "modes": {
+    "reference": {
+      "threshold": 0.3630232810974121,
+      "delta_tp": 0
+    },
+    "pooled": {
+      "threshold": 0.4557006359100342,
+      "delta_tp": 130
+    },
+    "balanced": {
+      "threshold": 0.48838889598846436,
+      "delta_tp": 140
+    },
+    "robust": {
+      "threshold": 0.5172483921051025,
+      "delta_tp": 121
+    }
+  },
+  "route": {
+    "view": "selective",
+    "threshold": 0.62,
+    "f1": 0.9239148957497996,
+    "proxy": 0.9530786254789431,
+    "review": {
+      "vulnerability": {
+        "precision": 0.924264705882353,
+        "recall": 0.9088937093275488,
+        "f1": 0.916514764855997
+      },
+      "MAT": {
+        "precision": 1.0,
+        "recall": 0.8571428571428571,
+        "f1": 0.9230769230769231
+      },
+      "mean": {
+        "precision": 0.9621323529411765,
+        "recall": 0.8830182832352029,
+        "f1": 0.9197958439664601
+      }
+    },
+    "lower": 0.35,
+    "upper": 0.85,
+    "calibration_fraction": 0.0684995340167754
+  },
+  "budget": 794
+}

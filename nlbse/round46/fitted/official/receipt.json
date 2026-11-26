@@ -1,0 +1,302 @@
+{
+  "matrix_sha256": "e66efb0e64cdfdc3ef8c8c7e0b52075e72d6cd0cc30284e1c00c597e9a6ab29e",
+  "source_features": {
+    "unix96": "ae4c2f9c6285818ab532bb03d7fc1792174afd9800fbc19c3464ab99adabddba",
+    "unix384": "8ff969e3ecd7e1d2495a1ffe06aeb3d59643342978136026478465015be2a8a4",
+    "qwen96": "a6be694e53a65dfcdb2814b03bf6a746380cb7d8252db568556f910649cb2797",
+    "qwen384": "9d02147443541426aeb6bb223c6f890bcac311bfd56ef4c0836d6c0c88859999",
+    "qwen12": "a6be694e53a65dfcdb2814b03bf6a746380cb7d8252db568556f910649cb2797"
+  },
+  "compact_sha256": "d04fba2d981c3758fea8fa737f5c70791c4ccead316321f4a52bff6ae452dc9f",
+  "fit_rows": 65737,
+  "copies_excluded": 32,
+  "pair_sha256": "9a736956406e632f82c2fa97a3475280fe3cf1e22f2fc73d9b7541dcb6b942d7",
+  "diagnostics": {
+    "negative_consensus": {
+      "pairs": 2076,
+      "ranks": {
+        "reference": {
+          "pair_win": 0.6350235849056604,
+          "interval": [
+            0.6078430255310607,
+            0.6631664650013767
+          ],
+          "unique_positive": 848
+        },
+        "numeric": {
+          "pair_win": 0.6155660377358491,
+          "interval": [
+            0.5874278579170067,
+            0.6431642568842929
+          ],
+          "unique_positive": 848
+        },
+        "unix96": {
+          "pair_win": 0.5982704402515723,
+          "interval": [
+            0.5688342890667881,
+            0.6307555354650424
+          ],
+          "unique_positive": 848
+        },
+        "unix384": {
+          "pair_win": 0.6014150943396226,
+          "interval": [
+            0.5699847444698705,
+            0.6330760260665658
+          ],
+          "unique_positive": 848
+        },
+        "qwen96": {
+          "pair_win": 0.5784198113207547,
+          "interval": [
+            0.549193448548054,
+            0.6135992604849062
+          ],
+          "unique_positive": 848
+        },
+        "qwen384": {
+          "pair_win": 0.5817610062893083,
+          "interval": [
+            0.5481911442311092,
+            0.6176604745698623
+          ],
+          "unique_positive": 848
+        },
+        "qwen12": {
+          "pair_win": 0.5607311320754718,
+          "interval": [
+            0.5312144304283537,
+            0.5936351965238
+          ],
+          "unique_positive": 848
+        },
+        "joint96": {
+          "pair_win": 0.6071147798742139,
+          "interval": [
+            0.5750625253138926,
+            0.6389247165264116
+          ],
+          "unique_positive": 848
+        },
+        "joint384": {
+          "pair_win": 0.613993710691824,
+          "interval": [
+            0.5802989540363384,
+            0.6481926226210117
+          ],
+          "unique_positive": 848
+        }
+      },
+      "complement": {
+        "qwen96": {
+          "improved_over_unix": 347,
+          "lost_vs_unix": 358,
+          "both_correct": 839
+        },
+        "qwen384": {
+          "improved_over_unix": 360,
+          "lost_vs_unix": 358,
+          "both_correct": 853
+        },
+        "qwen12": {
+          "improved_over_unix": 364,
+          "lost_vs_unix": 418,
+          "both_correct": 779
+        }
+      }
+    },
+    "negative_veto": {
+      "pairs": 1988,
+      "ranks": {
+        "reference": {
+          "pair_win": 0.624561403508772,
+          "interval": [
+            0.5913941210993732,
+            0.657692043251714
+          ],
+          "unique_positive": 950
+        },
+        "numeric": {
+          "pair_win": 0.6389473684210526,
+          "interval": [
+            0.6081983607672333,
+            0.6710912041048642
+          ],
+          "unique_positive": 950
+        },
+        "unix96": {
+          "pair_win": 0.6075438596491229,
+          "interval": [
+            0.573876614064892,
+            0.6441090610767564
+          ],
+          "unique_positive": 950
+        },
+        "unix384": {
+          "pair_win": 0.6128070175438596,
+          "interval": [
+            0.5798499589147103,
+            0.6484892632619906
+          ],
+          "unique_positive": 950
+        },
+        "qwen96": {
+          "pair_win": 0.600701754385965,
+          "interval": [
+            0.5666654409935346,
+            0.6346343779677113
+          ],
+          "unique_positive": 950
+        },
+        "qwen384": {
+          "pair_win": 0.5928070175438596,
+          "interval": [
+            0.5570818986893377,
+            0.6306799486541232
+          ],
+          "unique_positive": 950
+        },
+        "qwen12": {
+          "pair_win": 0.5773684210526315,
+          "interval": [
+            0.5435413618701527,
+            0.6112199533615943
+          ],
+          "unique_positive": 950
+        },
+        "joint96": {
+          "pair_win": 0.6078947368421053,
+          "interval": [
+            0.577044543757652,
+            0.6421515835264465
+          ],
+          "unique_positive": 950
+        },
+        "joint384": {
+          "pair_win": 0.6173684210526316,
+          "interval": [
+            0.5837534693742076,
+            0.655267823315185
+          ],
+          "unique_positive": 950
+        }
+      },
+      "complement": {
+        "qwen96": {
+          "improved_over_unix": 295,
+          "lost_vs_unix": 307,
+          "both_correct": 864
+        },
+        "qwen384": {
+          "improved_over_unix": 277,
+          "lost_vs_unix": 316,
+          "both_correct": 869
+        },
+        "qwen12": {
+          "improved_over_unix": 332,
+          "lost_vs_unix": 376,
+          "both_correct": 795
+        }
+      }
+    },
+    "negative_retained": {
+      "pairs": 310,
+      "ranks": {
+        "reference": {
+          "pair_win": 0.5031319910514541,
+          "interval": [
+            0.4166155882174493,
+            0.5973462401795735
+          ],
+          "unique_positive": 149
+        },
+        "numeric": {
+          "pair_win": 0.5114021325430722,
+          "interval": [
+            0.4313082658762806,
+            0.6105772611057844
+          ],
+          "unique_positive": 149
+        },
+        "unix96": {
+          "pair_win": 0.46437432813271734,
+          "interval": [
+            0.3910122823984527,
+            0.5587757241372927
+          ],
+          "unique_positive": 149
+        },
+        "unix384": {
+          "pair_win": 0.47408698683866474,
+          "interval": [
+            0.3953639021058273,
+            0.5718958889034647
+          ],
+          "unique_positive": 149
+        },
+        "qwen96": {
+          "pair_win": 0.4450782997762863,
+          "interval": [
+            0.3689080071974809,
+            0.5217142044853484
+          ],
+          "unique_positive": 149
+        },
+        "qwen384": {
+          "pair_win": 0.47543943751997436,
+          "interval": [
+            0.39829899757420084,
+            0.5643744201011643
+          ],
+          "unique_positive": 149
+        },
+        "qwen12": {
+          "pair_win": 0.48457102181934397,
+          "interval": [
+            0.410560088937853,
+            0.5639434024411464
+          ],
+          "unique_positive": 149
+        },
+        "joint96": {
+          "pair_win": 0.43657718120805367,
+          "interval": [
+            0.3603896481648103,
+            0.5233467994756041
+          ],
+          "unique_positive": 149
+        },
+        "joint384": {
+          "pair_win": 0.4962985560300996,
+          "interval": [
+            0.4137138961231233,
+            0.5925018824144076
+          ],
+          "unique_positive": 149
+        }
+      },
+      "complement": {
+        "qwen96": {
+          "improved_over_unix": 43,
+          "lost_vs_unix": 43,
+          "both_correct": 100
+        },
+        "qwen384": {
+          "improved_over_unix": 61,
+          "lost_vs_unix": 44,
+          "both_correct": 92
+        },
+        "qwen12": {
+          "improved_over_unix": 57,
+          "lost_vs_unix": 48,
+          "both_correct": 95
+        }
+      }
+    }
+  },
+  "seconds": 52.588172839954495,
+  "model_sha256": "46fd3580e5dfd40c5ae8b51aac030f0861d9a8d4ffc60e2559afa49e9ab28f20",
+  "predictions_sha256": "d4bbe7926578674baf9b67a2727a93771d8720c511dcf1a932680de3f993c618",
+  "code_sha256": "2c9303fc6d94c6d547b89a6ff8421495eceb6f89f0357db53fbafe0b4103f03a"
+}

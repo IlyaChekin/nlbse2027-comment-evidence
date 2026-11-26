@@ -1,0 +1,438 @@
+{
+  "selected": "combined_observed_1",
+  "candidates": {
+    "counts_observed_0.5": {
+      "cutoff": 0.14413300156593323,
+      "cal": {
+        "before": {
+          "tp": 3788,
+          "fp": 354,
+          "fn": 89,
+          "tn": 7445
+        },
+        "after": {
+          "tp": 3788,
+          "fp": 354,
+          "fn": 89,
+          "tn": 7445
+        },
+        "delta_tp": 0,
+        "delta_fp": 0,
+        "f1_before": 0.9447562040154632,
+        "f1_after": 0.9447562040154632
+      }
+    },
+    "counts_observed_1": {
+      "cutoff": 0.14627425372600555,
+      "cal": {
+        "before": {
+          "tp": 3788,
+          "fp": 354,
+          "fn": 89,
+          "tn": 7445
+        },
+        "after": {
+          "tp": 3787,
+          "fp": 354,
+          "fn": 90,
+          "tn": 7445
+        },
+        "delta_tp": -1,
+        "delta_fp": 0,
+        "f1_before": 0.9447562040154632,
+        "f1_after": 0.9446245946620104
+      }
+    },
+    "counts_prior_0.5": {
+      "cutoff": 0.14413300156593323,
+      "cal": {
+        "before": {
+          "tp": 3788,
+          "fp": 354,
+          "fn": 89,
+          "tn": 7445
+        },
+        "after": {
+          "tp": 3788,
+          "fp": 354,
+          "fn": 89,
+          "tn": 7445
+        },
+        "delta_tp": 0,
+        "delta_fp": 0,
+        "f1_before": 0.9447562040154632,
+        "f1_after": 0.9447562040154632
+      }
+    },
+    "counts_prior_1": {
+      "cutoff": 0.14627425372600555,
+      "cal": {
+        "before": {
+          "tp": 3788,
+          "fp": 354,
+          "fn": 89,
+          "tn": 7445
+        },
+        "after": {
+          "tp": 3787,
+          "fp": 354,
+          "fn": 90,
+          "tn": 7445
+        },
+        "delta_tp": -1,
+        "delta_fp": 0,
+        "f1_before": 0.9447562040154632,
+        "f1_after": 0.9446245946620104
+      }
+    },
+    "scoped_counts_observed_0.5": {
+      "cutoff": 0.1457519382238388,
+      "cal": {
+        "before": {
+          "tp": 3788,
+          "fp": 354,
+          "fn": 89,
+          "tn": 7445
+        },
+        "after": {
+          "tp": 3787,
+          "fp": 354,
+          "fn": 90,
+          "tn": 7445
+        },
+        "delta_tp": -1,
+        "delta_fp": 0,
+        "f1_before": 0.9447562040154632,
+        "f1_after": 0.9446245946620104
+      }
+    },
+    "scoped_counts_observed_1": {
+      "cutoff": 0.15603691339492798,
+      "cal": {
+        "before": {
+          "tp": 3788,
+          "fp": 354,
+          "fn": 89,
+          "tn": 7445
+        },
+        "after": {
+          "tp": 3786,
+          "fp": 354,
+          "fn": 91,
+          "tn": 7445
+        },
+        "delta_tp": -2,
+        "delta_fp": 0,
+        "f1_before": 0.9447562040154632,
+        "f1_after": 0.9444929524759885
+      }
+    },
+    "scoped_counts_prior_0.5": {
+      "cutoff": 0.1457519382238388,
+      "cal": {
+        "before": {
+          "tp": 3788,
+          "fp": 354,
+          "fn": 89,
+          "tn": 7445
+        },
+        "after": {
+          "tp": 3787,
+          "fp": 354,
+          "fn": 90,
+          "tn": 7445
+        },
+        "delta_tp": -1,
+        "delta_fp": 0,
+        "f1_before": 0.9447562040154632,
+        "f1_after": 0.9446245946620104
+      }
+    },
+    "scoped_counts_prior_1": {
+      "cutoff": 0.15603691339492798,
+      "cal": {
+        "before": {
+          "tp": 3788,
+          "fp": 354,
+          "fn": 89,
+          "tn": 7445
+        },
+        "after": {
+          "tp": 3786,
+          "fp": 354,
+          "fn": 91,
+          "tn": 7445
+        },
+        "delta_tp": -2,
+        "delta_fp": 0,
+        "f1_before": 0.9447562040154632,
+        "f1_after": 0.9444929524759885
+      }
+    },
+    "flat_observed_0.5": {
+      "cutoff": 0.13171502947807312,
+      "cal": {
+        "before": {
+          "tp": 3788,
+          "fp": 354,
+          "fn": 89,
+          "tn": 7445
+        },
+        "after": {
+          "tp": 3789,
+          "fp": 354,
+          "fn": 88,
+          "tn": 7445
+        },
+        "delta_tp": 1,
+        "delta_fp": 0,
+        "f1_before": 0.9447562040154632,
+        "f1_after": 0.9448877805486284
+      }
+    },
+    "flat_observed_1": {
+      "cutoff": 0.13629843294620514,
+      "cal": {
+        "before": {
+          "tp": 3788,
+          "fp": 354,
+          "fn": 89,
+          "tn": 7445
+        },
+        "after": {
+          "tp": 3791,
+          "fp": 354,
+          "fn": 86,
+          "tn": 7445
+        },
+        "delta_tp": 3,
+        "delta_fp": 0,
+        "f1_before": 0.9447562040154632,
+        "f1_after": 0.9451508352031912
+      }
+    },
+    "flat_prior_0.5": {
+      "cutoff": 0.13171502947807312,
+      "cal": {
+        "before": {
+          "tp": 3788,
+          "fp": 354,
+          "fn": 89,
+          "tn": 7445
+        },
+        "after": {
+          "tp": 3789,
+          "fp": 354,
+          "fn": 88,
+          "tn": 7445
+        },
+        "delta_tp": 1,
+        "delta_fp": 0,
+        "f1_before": 0.9447562040154632,
+        "f1_after": 0.9448877805486284
+      }
+    },
+    "flat_prior_1": {
+      "cutoff": 0.136911541223526,
+      "cal": {
+        "before": {
+          "tp": 3788,
+          "fp": 354,
+          "fn": 89,
+          "tn": 7445
+        },
+        "after": {
+          "tp": 3791,
+          "fp": 354,
+          "fn": 86,
+          "tn": 7445
+        },
+        "delta_tp": 3,
+        "delta_fp": 0,
+        "f1_before": 0.9447562040154632,
+        "f1_after": 0.9451508352031912
+      }
+    },
+    "linked_observed_0.5": {
+      "cutoff": 0.1387009620666504,
+      "cal": {
+        "before": {
+          "tp": 3788,
+          "fp": 354,
+          "fn": 89,
+          "tn": 7445
+        },
+        "after": {
+          "tp": 3788,
+          "fp": 354,
+          "fn": 89,
+          "tn": 7445
+        },
+        "delta_tp": 0,
+        "delta_fp": 0,
+        "f1_before": 0.9447562040154632,
+        "f1_after": 0.9447562040154632
+      }
+    },
+    "linked_observed_1": {
+      "cutoff": 0.1421910524368286,
+      "cal": {
+        "before": {
+          "tp": 3788,
+          "fp": 354,
+          "fn": 89,
+          "tn": 7445
+        },
+        "after": {
+          "tp": 3788,
+          "fp": 354,
+          "fn": 89,
+          "tn": 7445
+        },
+        "delta_tp": 0,
+        "delta_fp": 0,
+        "f1_before": 0.9447562040154632,
+        "f1_after": 0.9447562040154632
+      }
+    },
+    "linked_prior_0.5": {
+      "cutoff": 0.1387009620666504,
+      "cal": {
+        "before": {
+          "tp": 3788,
+          "fp": 354,
+          "fn": 89,
+          "tn": 7445
+        },
+        "after": {
+          "tp": 3788,
+          "fp": 354,
+          "fn": 89,
+          "tn": 7445
+        },
+        "delta_tp": 0,
+        "delta_fp": 0,
+        "f1_before": 0.9447562040154632,
+        "f1_after": 0.9447562040154632
+      }
+    },
+    "linked_prior_1": {
+      "cutoff": 0.1421910524368286,
+      "cal": {
+        "before": {
+          "tp": 3788,
+          "fp": 354,
+          "fn": 89,
+          "tn": 7445
+        },
+        "after": {
+          "tp": 3788,
+          "fp": 354,
+          "fn": 89,
+          "tn": 7445
+        },
+        "delta_tp": 0,
+        "delta_fp": 0,
+        "f1_before": 0.9447562040154632,
+        "f1_after": 0.9447562040154632
+      }
+    },
+    "combined_observed_0.5": {
+      "cutoff": 0.13136979937553406,
+      "cal": {
+        "before": {
+          "tp": 3788,
+          "fp": 354,
+          "fn": 89,
+          "tn": 7445
+        },
+        "after": {
+          "tp": 3790,
+          "fp": 354,
+          "fn": 87,
+          "tn": 7445
+        },
+        "delta_tp": 2,
+        "delta_fp": 0,
+        "f1_before": 0.9447562040154632,
+        "f1_after": 0.9450193242737813
+      }
+    },
+    "combined_observed_1": {
+      "cutoff": 0.13763906061649323,
+      "cal": {
+        "before": {
+          "tp": 3788,
+          "fp": 354,
+          "fn": 89,
+          "tn": 7445
+        },
+        "after": {
+          "tp": 3793,
+          "fp": 354,
+          "fn": 84,
+          "tn": 7445
+        },
+        "delta_tp": 5,
+        "delta_fp": 0,
+        "f1_before": 0.9447562040154632,
+        "f1_after": 0.9454137587238285
+      }
+    },
+    "combined_prior_0.5": {
+      "cutoff": 0.1316017210483551,
+      "cal": {
+        "before": {
+          "tp": 3788,
+          "fp": 354,
+          "fn": 89,
+          "tn": 7445
+        },
+        "after": {
+          "tp": 3790,
+          "fp": 354,
+          "fn": 87,
+          "tn": 7445
+        },
+        "delta_tp": 2,
+        "delta_fp": 0,
+        "f1_before": 0.9447562040154632,
+        "f1_after": 0.9450193242737813
+      }
+    },
+    "combined_prior_1": {
+      "cutoff": 0.13863477110862732,
+      "cal": {
+        "before": {
+          "tp": 3788,
+          "fp": 354,
+          "fn": 89,
+          "tn": 7445
+        },
+        "after": {
+          "tp": 3793,
+          "fp": 354,
+          "fn": 84,
+          "tn": 7445
+        },
+        "delta_tp": 5,
+        "delta_fp": 0,
+        "f1_before": 0.9447562040154632,
+        "f1_after": 0.9454137587238285
+      }
+    }
+  },
+  "gate": {
+    "utility": 0.03619341373591458,
+    "base": 0.40530078498572647
+  },
+  "reference_cutoff": 0.139944389462471,
+  "cohort_sha256": "c5d74ea7f7e5ce182168c6a2b2172f4d06a57b53cfc67b61beecc9ae1a803f63",
+  "features_sha256": "964be7d824baaa48292d88131e8e450af3f128029cff3c643443737a9e6d92f6",
+  "partition_sha256": "bdfd7027975f3ee940a1ef0caba0fb1db091b4b286484023feab3f081c4bf278",
+  "fit_rows": 104210,
+  "fit_positive": 2724,
+  "dev_fit": 7542,
+  "dev_cal": 11676,
+  "project_fit_sha256": "1a9f12af7c84ee5c0e0ab6db47d1da6619472d1721074e2d78a8ffcc2610f9cf"
+}

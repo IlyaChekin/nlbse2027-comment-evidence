@@ -1,0 +1,21 @@
+{
+  "confidence_interval_95": {
+    "vulnerability": [
+      0.0006588086071745269,
+      0.0016915576519345931
+    ],
+    "MAT": [
+      0.0,
+      0.0
+    ],
+    "mean": [
+      0.00032940430358726345,
+      0.0008457788259672966
+    ]
+  },
+  "draws": 2000,
+  "clusters": 16086,
+  "scope": 425,
+  "changed": 31,
+  "benchmark_sha256": "fbec6b09ec28ba90ef01d6bfde85caa6bd71402cfcd18f87f5c3bc01ebaca64f"
+}

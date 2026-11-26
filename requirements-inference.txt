@@ -1,0 +1,7 @@
+# Install PyTorch 2.8.0 for the target device separately.
+numpy==2.2.6
+pyarrow==21.0.0
+safetensors==0.8.0
+scikit-learn==1.7.2
+sentencepiece==0.2.1
+transformers==4.57.1

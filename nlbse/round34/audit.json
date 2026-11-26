@@ -1,0 +1,138 @@
+{
+  "round32_archive_sha256": "b6cd25a443fa37367a57b85414fb246c61e412d075e823936df26ecbd1544923",
+  "latest_release": 0.9643754685152179,
+  "release_candidate": "public_approx",
+  "selection_sha256": "8a73018113f2e82185484f1292b46d421f498f10d93b02355b332c74c970c6ec",
+  "outcomes": {
+    "public": {
+      "candidate": 0.96437533562027,
+      "reference": 0.9643630674092705,
+      "active": 260,
+      "changed": 130,
+      "check": "91a30ca2b22c9809665bb15749c8b35adc3a1b306d5e37f62257528506e54e3e",
+      "pairs": 5,
+      "wins": 3,
+      "interval": {
+        "vulnerability": [
+          -0.0008344700890740963,
+          0.0013446554435341484
+        ],
+        "MAT": [
+          0.0,
+          0.0
+        ],
+        "mean": [
+          -0.00041723504453704816,
+          0.0006723277217670742
+        ]
+      },
+      "delta_tp": 3,
+      "delta_fp": -1,
+      "mean_f1_gain": 0.00010223698427203054
+    },
+    "public_gated": {
+      "candidate": 0.9642961194391573,
+      "reference": 0.9643698166302546,
+      "active": 260,
+      "changed": 130,
+      "check": "291587dda1dcf321773558645369a84b1d331963f7bcdd92c81e6e16f1458c4f",
+      "pairs": 7,
+      "wins": 1,
+      "interval": {
+        "vulnerability": [
+          -0.0008344700890740963,
+          0.0013446554435341484
+        ],
+        "MAT": [
+          0.0,
+          0.0
+        ],
+        "mean": [
+          -0.00041723504453704816,
+          0.0006723277217670742
+        ]
+      },
+      "delta_tp": 3,
+      "delta_fp": -1,
+      "mean_f1_gain": 0.00010223698427203054
+    },
+    "public_trim": {
+      "candidate": 0.9643613451510529,
+      "reference": 0.9643873988265311,
+      "active": 260,
+      "changed": 130,
+      "check": "68f8a56583ba9db28bfb69fbb034148f57c8f9b05f2683908c80e95bc31db119",
+      "pairs": 7,
+      "wins": 3,
+      "interval": {
+        "vulnerability": [
+          -0.0008344700890740963,
+          0.0013446554435341484
+        ],
+        "MAT": [
+          0.0,
+          0.0
+        ],
+        "mean": [
+          -0.00041723504453704816,
+          0.0006723277217670742
+        ]
+      },
+      "delta_tp": 3,
+      "delta_fp": -1,
+      "mean_f1_gain": 0.00010223698427203054
+    },
+    "public_deferred": {
+      "candidate": 0.9644182157969067,
+      "reference": 0.9643675394932414,
+      "active": 260,
+      "changed": 130,
+      "check": "6c0de9635c3d68a654dee0d74b00963a8fae6137967f01717626df357d3b653a",
+      "pairs": 7,
+      "wins": 4,
+      "interval": {
+        "vulnerability": [
+          -0.0008344700890740963,
+          0.0013446554435341484
+        ],
+        "MAT": [
+          0.0,
+          0.0
+        ],
+        "mean": [
+          -0.00041723504453704816,
+          0.0006723277217670742
+        ]
+      },
+      "delta_tp": 3,
+      "delta_fp": -1,
+      "mean_f1_gain": 0.00010223698427203054
+    },
+    "public_approx": {
+      "candidate": 0.964473011244635,
+      "reference": 0.9643806453386462,
+      "active": 479,
+      "changed": 166,
+      "check": "906a5c5260ff7b37c5b6174063f6f4ab1bdfbbbbd0b5716b50bf8c723d1a95a9",
+      "pairs": 5,
+      "wins": 5,
+      "interval": {
+        "vulnerability": [
+          -0.0007433670215599208,
+          0.0018153492096505926
+        ],
+        "MAT": [
+          0.0,
+          0.0
+        ],
+        "mean": [
+          -0.0003716835107799604,
+          0.0009076746048252963
+        ]
+      },
+      "delta_tp": 7,
+      "delta_fp": -3,
+      "mean_f1_gain": 0.0002543861397161784
+    }
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "rows": 153628,
+  "sha256": "d2951402b86228c7217436170a777ada4deb491efad08546a59da8703e2447c3",
+  "input_sha256": "668a958c873060904e611bd3f45088acdbdb48631e6f626afda8ea7831fa6319",
+  "partition_sha256": "bbfc2bd70f345d7932e26760fbe304a933b4bb01e25fecd9cbf10f5f0a2def1d",
+  "fold_score_sha256": {
+    "0/unix": "81c32eed483cc840dfaab6a5743d03635d3a6d30abf8d87d1949b2552a00f4f6",
+    "0/compact": "c523f0c0e8d7b54c006fffe9501635bf1b518d4ac5be1d3039aaaf348bd22cf9",
+    "1/unix": "d3db08d16785dd9ce663bd237d2c763e98e020d15f8e18df0bf2535871a61015",
+    "1/compact": "2e6ac5d5c360e30d2a62b73546e9ab732b086042b62b0fc55c8ccd112fda2eb3",
+    "2/unix": "e85c8a7e913690ccd518a6d8668527c25e6a5ae4a5c2674f8ead51b70efea77b",
+    "2/compact": "787f6c186d04715863bcf94830dcbe7af51469a23c76bba0514d0f29bc5d93c3",
+    "3/unix": "2985ce05066514ef846e64d861c0fe95fdaa6bb87faaf9f438bb13fe22bb5747",
+    "3/compact": "742d7c9aaea813f7c616b7bc25807b7bd0741e81441571c18ab96abcbe8e1682",
+    "4/unix": "4958b79ca776c0374221c65f66ad0fe085879d2132fd841ff59f7f0395f46837",
+    "4/compact": "ba29775c6791be524dceaae95af97e4babf39e75203ed3fb2f81bc6c5466023d"
+  },
+  "counts": {
+    "fp_80": 1106,
+    "fp_90": 565,
+    "fp_95": 318,
+    "fn_05": 226
+  },
+  "counts_by_fold": {
+    "0": {
+      "fp_80": 225,
+      "fp_90": 110,
+      "fp_95": 57,
+      "fn_05": 52
+    },
+    "1": {
+      "fp_80": 222,
+      "fp_90": 107,
+      "fp_95": 56,
+      "fn_05": 37
+    },
+    "2": {
+      "fp_80": 197,
+      "fp_90": 102,
+      "fp_95": 54,
+      "fn_05": 50
+    },
+    "3": {
+      "fp_80": 239,
+      "fp_90": 124,
+      "fp_95": 70,
+      "fn_05": 47
+    },
+    "4": {
+      "fp_80": 223,
+      "fp_90": 122,
+      "fp_95": 81,
+      "fn_05": 40
+    }
+  }
+}

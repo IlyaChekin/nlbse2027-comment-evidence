@@ -1,0 +1,36 @@
+{
+  "rotation": "official",
+  "baseline_sha256": "4132313a59e3405f4e55a1915b25792f14fe0ef7c0da9b64bc09b61c520e378e",
+  "cohorts_sha256": "75fdce7dd05ec18e22473bac9cc5914422553699d2c8c01db4270410c163ca72",
+  "code_sha256": "778d44004fce3e0f871be62bf44924c9f80df32cad3e00adce9dee01d89d5ee9",
+  "points": {
+    "dev": "da4b3215bd8fbd109033573af28449de2e3590e39e26fd8cade395e1a17cdff5",
+    "oof": "15801fbde95030e462d6d703ef66935c40776414e5761c6ef0cbc5d0a8f20c1b"
+  },
+  "state_sha256": "498ebc1cd6431233fbc9cb236b9280d967a203db409f4e56bcdc1f28d9527f65",
+  "compact_manifest_sha256": "9f72a4bb4112b2798cea3b6303595eea97ccb4ea258246a5bc0ab4b2bffce91a",
+  "approx_quantile_error": 0.00022669974714517593,
+  "seam_tokens": 48,
+  "timings": {
+    "oof_0": {
+      "forward_seconds": 2.083252204814926,
+      "wall_seconds": 3.995547226862982
+    },
+    "oof_1": {
+      "forward_seconds": 2.104681244120002,
+      "wall_seconds": 4.9469075941015035
+    },
+    "oof_2": {
+      "forward_seconds": 1.9796413769945502,
+      "wall_seconds": 3.8091304530389607
+    },
+    "oof_3": {
+      "forward_seconds": 1.7591803157702088,
+      "wall_seconds": 3.7403931911103427
+    },
+    "dev": {
+      "forward_seconds": 0.21954047307372093,
+      "wall_seconds": 0.9163642588537186
+    }
+  }
+}

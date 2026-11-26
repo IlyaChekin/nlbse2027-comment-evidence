@@ -1,0 +1,18 @@
+{
+  "epochs": 2,
+  "batch": 80,
+  "fit_rows": 193100,
+  "seed": 42,
+  "depths": [
+    2,
+    4,
+    6
+  ],
+  "initial_sha256": "b166f83e6378f60707a0d3bd745a00f168a30b571f86a2685ce30ffaaaa976d1",
+  "loss_weights": [
+    0.2,
+    0.25,
+    0.55
+  ],
+  "temperature": 1.8
+}

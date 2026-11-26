@@ -1,0 +1,154 @@
+{
+  "options": {
+    "sparse:point_1.7_1:fixed": {
+      "interval": {
+        "vulnerability": [
+          0.0005965332133193668,
+          0.004819289862560491
+        ],
+        "MAT": [
+          0.0,
+          0.0
+        ],
+        "mean": [
+          0.0002982666066596834,
+          0.0024096449312802455
+        ]
+      },
+      "recalibration_only": {
+        "before": {
+          "tp": 9675,
+          "fp": 682,
+          "fn": 377,
+          "tn": 19921
+        },
+        "after": {
+          "tp": 9515,
+          "fp": 445,
+          "fn": 537,
+          "tn": 20158
+        },
+        "delta_tp": -160,
+        "delta_fp": -237,
+        "f1_before": 0.9481111274437748,
+        "f1_after": 0.9509294423345992
+      },
+      "learned_vs_threshold": {
+        "before": {
+          "tp": 9515,
+          "fp": 445,
+          "fn": 537,
+          "tn": 20158
+        },
+        "after": {
+          "tp": 9508,
+          "fp": 440,
+          "fn": 544,
+          "tn": 20163
+        },
+        "delta_tp": -7,
+        "delta_fp": -5,
+        "f1_before": 0.9509294423345992,
+        "f1_after": 0.9508
+      },
+      "recalibration_cut": 0.960023125914888,
+      "calibration_tp": 17,
+      "actual_positive": 150,
+      "change": {
+        "before": {
+          "tp": 9675,
+          "fp": 682,
+          "fn": 377,
+          "tn": 19921
+        },
+        "after": {
+          "tp": 9508,
+          "fp": 440,
+          "fn": 544,
+          "tn": 20163
+        },
+        "delta_tp": -167,
+        "delta_fp": -242,
+        "f1_before": 0.9481111274437748,
+        "f1_after": 0.9508
+      },
+      "predictions_sha256": "3445143063b3ec60baf565123ed9bbbe73dc3982dc2b8c5bfbc2eac1464bcbd8"
+    },
+    "sparse:point_0.8_1:tp": {
+      "interval": {
+        "vulnerability": [
+          0.00043900216555944893,
+          0.0022194623550275423
+        ],
+        "MAT": [
+          0.0,
+          0.0
+        ],
+        "mean": [
+          0.00021950108277972447,
+          0.0011097311775137711
+        ]
+      },
+      "recalibration_only": {
+        "before": {
+          "tp": 9675,
+          "fp": 682,
+          "fn": 377,
+          "tn": 19921
+        },
+        "after": {
+          "tp": 9670,
+          "fp": 678,
+          "fn": 382,
+          "tn": 19925
+        },
+        "delta_tp": -5,
+        "delta_fp": -4,
+        "f1_before": 0.9481111274437748,
+        "f1_after": 0.9480392156862745
+      },
+      "learned_vs_threshold": {
+        "before": {
+          "tp": 9670,
+          "fp": 678,
+          "fn": 382,
+          "tn": 19925
+        },
+        "after": {
+          "tp": 9660,
+          "fp": 637,
+          "fn": 392,
+          "tn": 19966
+        },
+        "delta_tp": -10,
+        "delta_fp": -41,
+        "f1_before": 0.9480392156862745,
+        "f1_after": 0.9494324045407637
+      },
+      "recalibration_cut": 0.026282410102902328,
+      "calibration_tp": 20,
+      "actual_positive": 270,
+      "change": {
+        "before": {
+          "tp": 9675,
+          "fp": 682,
+          "fn": 377,
+          "tn": 19921
+        },
+        "after": {
+          "tp": 9660,
+          "fp": 637,
+          "fn": 392,
+          "tn": 19966
+        },
+        "delta_tp": -15,
+        "delta_fp": -45,
+        "f1_before": 0.9481111274437748,
+        "f1_after": 0.9494324045407637
+      },
+      "predictions_sha256": "3509e8b27d597f29622c8e865fc6f48ba0d7d318d60319b06726545714b83c69"
+    }
+  },
+  "source": "db3ad619c568c55277f6b336665fcaaf67b4d9d5314709d226d53f59fd783fea",
+  "selected": "sparse:point_1.7_1:fixed"
+}

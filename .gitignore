@@ -1,0 +1,7 @@
+/.venv/
+__pycache__/
+/nlbse/data/raw/
+/verification/
+/submission-metadata.tex
+/paper/submission-metadata.tex
+/NLBSE2027_round38_paired_rule_tool.*

@@ -1,0 +1,15 @@
+{
+  "choices": {
+    "compact": {
+      "objective": 0.8388414462357496,
+      "pooled_f1": 0.8344182262001627,
+      "cutoff": 0.37426966292134833
+    },
+    "unix": {
+      "objective": 0.8589410094356096,
+      "pooled_f1": 0.856198347107438,
+      "cutoff": 0.2920224719101123
+    }
+  },
+  "checkpoint_sha256": "051e7eea3e6c6ace8c294b7d87cdb0048cf103108db20892e0a398bc34cdccfc"
+}

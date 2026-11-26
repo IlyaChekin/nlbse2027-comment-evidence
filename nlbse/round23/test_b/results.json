@@ -1,0 +1,3389 @@
+{
+  "selected": "combined_observed_1",
+  "baseline_weak_negative_ap": 0.2758387736202909,
+  "cohorts_test_negative": 5405,
+  "results": {
+    "counts_observed_0.5": {
+      "project_tp": 1,
+      "frozen": {
+        "before": {
+          "tp": 2450,
+          "fp": 286,
+          "fn": 404,
+          "tn": 4759
+        },
+        "after": {
+          "tp": 2458,
+          "fp": 299,
+          "fn": 396,
+          "tn": 4746
+        },
+        "delta_tp": 8,
+        "delta_fp": 13,
+        "f1_before": 0.8765652951699463,
+        "f1_after": 0.8761361611121012
+      },
+      "per_project": {
+        "android": {
+          "before": {
+            "tp": 656,
+            "fp": 83,
+            "fn": 251,
+            "tn": 1011
+          },
+          "after": {
+            "tp": 657,
+            "fp": 83,
+            "fn": 250,
+            "tn": 1011
+          },
+          "delta_tp": 1,
+          "delta_fp": 0,
+          "f1_before": 0.7970838396111786,
+          "f1_after": 0.7978142076502732
+        },
+        "file": {
+          "before": {
+            "tp": 35,
+            "fp": 0,
+            "fn": 2,
+            "tn": 18
+          },
+          "after": {
+            "tp": 35,
+            "fp": 0,
+            "fn": 2,
+            "tn": 18
+          },
+          "delta_tp": 0,
+          "delta_fp": 0,
+          "f1_before": 0.9722222222222222,
+          "f1_after": 0.9722222222222222
+        },
+        "imagemagick": {
+          "before": {
+            "tp": 87,
+            "fp": 21,
+            "fn": 20,
+            "tn": 265
+          },
+          "after": {
+            "tp": 85,
+            "fp": 21,
+            "fn": 22,
+            "tn": 265
+          },
+          "delta_tp": -2,
+          "delta_fp": 0,
+          "f1_before": 0.8093023255813954,
+          "f1_after": 0.7981220657276995
+        },
+        "krb5": {
+          "before": {
+            "tp": 90,
+            "fp": 0,
+            "fn": 13,
+            "tn": 74
+          },
+          "after": {
+            "tp": 90,
+            "fp": 0,
+            "fn": 13,
+            "tn": 74
+          },
+          "delta_tp": 0,
+          "delta_fp": 0,
+          "f1_before": 0.9326424870466321,
+          "f1_after": 0.9326424870466321
+        },
+        "mozilla firefox": {
+          "before": {
+            "tp": 1073,
+            "fp": 127,
+            "fn": 47,
+            "tn": 2751
+          },
+          "after": {
+            "tp": 1073,
+            "fp": 127,
+            "fn": 47,
+            "tn": 2751
+          },
+          "delta_tp": 0,
+          "delta_fp": 0,
+          "f1_before": 0.925,
+          "f1_after": 0.925
+        },
+        "php": {
+          "before": {
+            "tp": 346,
+            "fp": 49,
+            "fn": 61,
+            "tn": 540
+          },
+          "after": {
+            "tp": 348,
+            "fp": 49,
+            "fn": 59,
+            "tn": 540
+          },
+          "delta_tp": 2,
+          "delta_fp": 0,
+          "f1_before": 0.8628428927680798,
+          "f1_after": 0.8656716417910447
+        },
+        "radare2": {
+          "before": {
+            "tp": 167,
+            "fp": 6,
+            "fn": 6,
+            "tn": 100
+          },
+          "after": {
+            "tp": 167,
+            "fp": 6,
+            "fn": 6,
+            "tn": 100
+          },
+          "delta_tp": 0,
+          "delta_fp": 0,
+          "f1_before": 0.9653179190751445,
+          "f1_after": 0.9653179190751445
+        }
+      },
+      "matched_cohort": {
+        "before": {
+          "tp": 103,
+          "fp": 201,
+          "fn": 369,
+          "tn": 4732
+        },
+        "after": {
+          "tp": 108,
+          "fp": 202,
+          "fn": 364,
+          "tn": 4731
+        },
+        "delta_tp": 5,
+        "delta_fp": 1,
+        "f1_before": 0.2654639175257732,
+        "f1_after": 0.27621483375959077
+      },
+      "standalone_ap": 0.15300535899082124,
+      "fused_ap": 0.28619693144429076
+    },
+    "counts_observed_1": {
+      "project_tp": -3,
+      "frozen": {
+        "before": {
+          "tp": 2450,
+          "fp": 286,
+          "fn": 404,
+          "tn": 4759
+        },
+        "after": {
+          "tp": 2463,
+          "fp": 311,
+          "fn": 391,
+          "tn": 4734
+        },
+        "delta_tp": 13,
+        "delta_fp": 25,
+        "f1_before": 0.8765652951699463,
+        "f1_after": 0.8752665245202559
+      },
+      "per_project": {
+        "android": {
+          "before": {
+            "tp": 656,
+            "fp": 83,
+            "fn": 251,
+            "tn": 1011
+          },
+          "after": {
+            "tp": 655,
+            "fp": 83,
+            "fn": 252,
+            "tn": 1011
+          },
+          "delta_tp": -1,
+          "delta_fp": 0,
+          "f1_before": 0.7970838396111786,
+          "f1_after": 0.7963525835866262
+        },
+        "file": {
+          "before": {
+            "tp": 35,
+            "fp": 0,
+            "fn": 2,
+            "tn": 18
+          },
+          "after": {
+            "tp": 35,
+            "fp": 0,
+            "fn": 2,
+            "tn": 18
+          },
+          "delta_tp": 0,
+          "delta_fp": 0,
+          "f1_before": 0.9722222222222222,
+          "f1_after": 0.9722222222222222
+        },
+        "imagemagick": {
+          "before": {
+            "tp": 87,
+            "fp": 21,
+            "fn": 20,
+            "tn": 265
+          },
+          "after": {
+            "tp": 84,
+            "fp": 21,
+            "fn": 23,
+            "tn": 265
+          },
+          "delta_tp": -3,
+          "delta_fp": 0,
+          "f1_before": 0.8093023255813954,
+          "f1_after": 0.7924528301886793
+        },
+        "krb5": {
+          "before": {
+            "tp": 90,
+            "fp": 0,
+            "fn": 13,
+            "tn": 74
+          },
+          "after": {
+            "tp": 90,
+            "fp": 0,
+            "fn": 13,
+            "tn": 74
+          },
+          "delta_tp": 0,
+          "delta_fp": 0,
+          "f1_before": 0.9326424870466321,
+          "f1_after": 0.9326424870466321
+        },
+        "mozilla firefox": {
+          "before": {
+            "tp": 1073,
+            "fp": 127,
+            "fn": 47,
+            "tn": 2751
+          },
+          "after": {
+            "tp": 1072,
+            "fp": 127,
+            "fn": 48,
+            "tn": 2751
+          },
+          "delta_tp": -1,
+          "delta_fp": 0,
+          "f1_before": 0.925,
+          "f1_after": 0.9245364381198793
+        },
+        "php": {
+          "before": {
+            "tp": 346,
+            "fp": 49,
+            "fn": 61,
+            "tn": 540
+          },
+          "after": {
+            "tp": 348,
+            "fp": 49,
+            "fn": 59,
+            "tn": 540
+          },
+          "delta_tp": 2,
+          "delta_fp": 0,
+          "f1_before": 0.8628428927680798,
+          "f1_after": 0.8656716417910447
+        },
+        "radare2": {
+          "before": {
+            "tp": 167,
+            "fp": 6,
+            "fn": 6,
+            "tn": 100
+          },
+          "after": {
+            "tp": 167,
+            "fp": 6,
+            "fn": 6,
+            "tn": 100
+          },
+          "delta_tp": 0,
+          "delta_fp": 0,
+          "f1_before": 0.9653179190751445,
+          "f1_after": 0.9653179190751445
+        }
+      },
+      "matched_cohort": {
+        "before": {
+          "tp": 103,
+          "fp": 201,
+          "fn": 369,
+          "tn": 4732
+        },
+        "after": {
+          "tp": 106,
+          "fp": 202,
+          "fn": 366,
+          "tn": 4731
+        },
+        "delta_tp": 3,
+        "delta_fp": 1,
+        "f1_before": 0.2654639175257732,
+        "f1_after": 0.2717948717948718
+      },
+      "standalone_ap": 0.15300535899082124,
+      "fused_ap": 0.28619693144429076
+    },
+    "counts_prior_0.5": {
+      "project_tp": 2,
+      "frozen": {
+        "before": {
+          "tp": 2450,
+          "fp": 286,
+          "fn": 404,
+          "tn": 4759
+        },
+        "after": {
+          "tp": 2459,
+          "fp": 299,
+          "fn": 395,
+          "tn": 4746
+        },
+        "delta_tp": 9,
+        "delta_fp": 13,
+        "f1_before": 0.8765652951699463,
+        "f1_after": 0.8763364219529579
+      },
+      "per_project": {
+        "android": {
+          "before": {
+            "tp": 656,
+            "fp": 83,
+            "fn": 251,
+            "tn": 1011
+          },
+          "after": {
+            "tp": 657,
+            "fp": 83,
+            "fn": 250,
+            "tn": 1011
+          },
+          "delta_tp": 1,
+          "delta_fp": 0,
+          "f1_before": 0.7970838396111786,
+          "f1_after": 0.7978142076502732
+        },
+        "file": {
+          "before": {
+            "tp": 35,
+            "fp": 0,
+            "fn": 2,
+            "tn": 18
+          },
+          "after": {
+            "tp": 35,
+            "fp": 0,
+            "fn": 2,
+            "tn": 18
+          },
+          "delta_tp": 0,
+          "delta_fp": 0,
+          "f1_before": 0.9722222222222222,
+          "f1_after": 0.9722222222222222
+        },
+        "imagemagick": {
+          "before": {
+            "tp": 87,
+            "fp": 21,
+            "fn": 20,
+            "tn": 265
+          },
+          "after": {
+            "tp": 86,
+            "fp": 21,
+            "fn": 21,
+            "tn": 265
+          },
+          "delta_tp": -1,
+          "delta_fp": 0,
+          "f1_before": 0.8093023255813954,
+          "f1_after": 0.8037383177570093
+        },
+        "krb5": {
+          "before": {
+            "tp": 90,
+            "fp": 0,
+            "fn": 13,
+            "tn": 74
+          },
+          "after": {
+            "tp": 90,
+            "fp": 0,
+            "fn": 13,
+            "tn": 74
+          },
+          "delta_tp": 0,
+          "delta_fp": 0,
+          "f1_before": 0.9326424870466321,
+          "f1_after": 0.9326424870466321
+        },
+        "mozilla firefox": {
+          "before": {
+            "tp": 1073,
+            "fp": 127,
+            "fn": 47,
+            "tn": 2751
+          },
+          "after": {
+            "tp": 1073,
+            "fp": 127,
+            "fn": 47,
+            "tn": 2751
+          },
+          "delta_tp": 0,
+          "delta_fp": 0,
+          "f1_before": 0.925,
+          "f1_after": 0.925
+        },
+        "php": {
+          "before": {
+            "tp": 346,
+            "fp": 49,
+            "fn": 61,
+            "tn": 540
+          },
+          "after": {
+            "tp": 348,
+            "fp": 49,
+            "fn": 59,
+            "tn": 540
+          },
+          "delta_tp": 2,
+          "delta_fp": 0,
+          "f1_before": 0.8628428927680798,
+          "f1_after": 0.8656716417910447
+        },
+        "radare2": {
+          "before": {
+            "tp": 167,
+            "fp": 6,
+            "fn": 6,
+            "tn": 100
+          },
+          "after": {
+            "tp": 167,
+            "fp": 6,
+            "fn": 6,
+            "tn": 100
+          },
+          "delta_tp": 0,
+          "delta_fp": 0,
+          "f1_before": 0.9653179190751445,
+          "f1_after": 0.9653179190751445
+        }
+      },
+      "matched_cohort": {
+        "before": {
+          "tp": 103,
+          "fp": 201,
+          "fn": 369,
+          "tn": 4732
+        },
+        "after": {
+          "tp": 108,
+          "fp": 202,
+          "fn": 364,
+          "tn": 4731
+        },
+        "delta_tp": 5,
+        "delta_fp": 1,
+        "f1_before": 0.2654639175257732,
+        "f1_after": 0.27621483375959077
+      },
+      "standalone_ap": 0.15300535899082124,
+      "fused_ap": 0.28619693144429076
+    },
+    "counts_prior_1": {
+      "project_tp": -2,
+      "frozen": {
+        "before": {
+          "tp": 2450,
+          "fp": 286,
+          "fn": 404,
+          "tn": 4759
+        },
+        "after": {
+          "tp": 2464,
+          "fp": 312,
+          "fn": 390,
+          "tn": 4733
+        },
+        "delta_tp": 14,
+        "delta_fp": 26,
+        "f1_before": 0.8765652951699463,
+        "f1_after": 0.8753108348134991
+      },
+      "per_project": {
+        "android": {
+          "before": {
+            "tp": 656,
+            "fp": 83,
+            "fn": 251,
+            "tn": 1011
+          },
+          "after": {
+            "tp": 655,
+            "fp": 83,
+            "fn": 252,
+            "tn": 1011
+          },
+          "delta_tp": -1,
+          "delta_fp": 0,
+          "f1_before": 0.7970838396111786,
+          "f1_after": 0.7963525835866262
+        },
+        "file": {
+          "before": {
+            "tp": 35,
+            "fp": 0,
+            "fn": 2,
+            "tn": 18
+          },
+          "after": {
+            "tp": 35,
+            "fp": 0,
+            "fn": 2,
+            "tn": 18
+          },
+          "delta_tp": 0,
+          "delta_fp": 0,
+          "f1_before": 0.9722222222222222,
+          "f1_after": 0.9722222222222222
+        },
+        "imagemagick": {
+          "before": {
+            "tp": 87,
+            "fp": 21,
+            "fn": 20,
+            "tn": 265
+          },
+          "after": {
+            "tp": 85,
+            "fp": 21,
+            "fn": 22,
+            "tn": 265
+          },
+          "delta_tp": -2,
+          "delta_fp": 0,
+          "f1_before": 0.8093023255813954,
+          "f1_after": 0.7981220657276995
+        },
+        "krb5": {
+          "before": {
+            "tp": 90,
+            "fp": 0,
+            "fn": 13,
+            "tn": 74
+          },
+          "after": {
+            "tp": 90,
+            "fp": 0,
+            "fn": 13,
+            "tn": 74
+          },
+          "delta_tp": 0,
+          "delta_fp": 0,
+          "f1_before": 0.9326424870466321,
+          "f1_after": 0.9326424870466321
+        },
+        "mozilla firefox": {
+          "before": {
+            "tp": 1073,
+            "fp": 127,
+            "fn": 47,
+            "tn": 2751
+          },
+          "after": {
+            "tp": 1072,
+            "fp": 127,
+            "fn": 48,
+            "tn": 2751
+          },
+          "delta_tp": -1,
+          "delta_fp": 0,
+          "f1_before": 0.925,
+          "f1_after": 0.9245364381198793
+        },
+        "php": {
+          "before": {
+            "tp": 346,
+            "fp": 49,
+            "fn": 61,
+            "tn": 540
+          },
+          "after": {
+            "tp": 348,
+            "fp": 49,
+            "fn": 59,
+            "tn": 540
+          },
+          "delta_tp": 2,
+          "delta_fp": 0,
+          "f1_before": 0.8628428927680798,
+          "f1_after": 0.8656716417910447
+        },
+        "radare2": {
+          "before": {
+            "tp": 167,
+            "fp": 6,
+            "fn": 6,
+            "tn": 100
+          },
+          "after": {
+            "tp": 167,
+            "fp": 6,
+            "fn": 6,
+            "tn": 100
+          },
+          "delta_tp": 0,
+          "delta_fp": 0,
+          "f1_before": 0.9653179190751445,
+          "f1_after": 0.9653179190751445
+        }
+      },
+      "matched_cohort": {
+        "before": {
+          "tp": 103,
+          "fp": 201,
+          "fn": 369,
+          "tn": 4732
+        },
+        "after": {
+          "tp": 106,
+          "fp": 202,
+          "fn": 366,
+          "tn": 4731
+        },
+        "delta_tp": 3,
+        "delta_fp": 1,
+        "f1_before": 0.2654639175257732,
+        "f1_after": 0.2717948717948718
+      },
+      "standalone_ap": 0.15300535899082124,
+      "fused_ap": 0.28619693144429076
+    },
+    "scoped_counts_observed_0.5": {
+      "project_tp": 2,
+      "frozen": {
+        "before": {
+          "tp": 2450,
+          "fp": 286,
+          "fn": 404,
+          "tn": 4759
+        },
+        "after": {
+          "tp": 2458,
+          "fp": 305,
+          "fn": 396,
+          "tn": 4740
+        },
+        "delta_tp": 8,
+        "delta_fp": 19,
+        "f1_before": 0.8765652951699463,
+        "f1_after": 0.8752002848495638
+      },
+      "per_project": {
+        "android": {
+          "before": {
+            "tp": 656,
+            "fp": 83,
+            "fn": 251,
+            "tn": 1011
+          },
+          "after": {
+            "tp": 659,
+            "fp": 83,
+            "fn": 248,
+            "tn": 1011
+          },
+          "delta_tp": 3,
+          "delta_fp": 0,
+          "f1_before": 0.7970838396111786,
+          "f1_after": 0.7992722862340813
+        },
+        "file": {
+          "before": {
+            "tp": 35,
+            "fp": 0,
+            "fn": 2,
+            "tn": 18
+          },
+          "after": {
+            "tp": 35,
+            "fp": 0,
+            "fn": 2,
+            "tn": 18
+          },
+          "delta_tp": 0,
+          "delta_fp": 0,
+          "f1_before": 0.9722222222222222,
+          "f1_after": 0.9722222222222222
+        },
+        "imagemagick": {
+          "before": {
+            "tp": 87,
+            "fp": 21,
+            "fn": 20,
+            "tn": 265
+          },
+          "after": {
+            "tp": 85,
+            "fp": 21,
+            "fn": 22,
+            "tn": 265
+          },
+          "delta_tp": -2,
+          "delta_fp": 0,
+          "f1_before": 0.8093023255813954,
+          "f1_after": 0.7981220657276995
+        },
+        "krb5": {
+          "before": {
+            "tp": 90,
+            "fp": 0,
+            "fn": 13,
+            "tn": 74
+          },
+          "after": {
+            "tp": 90,
+            "fp": 0,
+            "fn": 13,
+            "tn": 74
+          },
+          "delta_tp": 0,
+          "delta_fp": 0,
+          "f1_before": 0.9326424870466321,
+          "f1_after": 0.9326424870466321
+        },
+        "mozilla firefox": {
+          "before": {
+            "tp": 1073,
+            "fp": 127,
+            "fn": 47,
+            "tn": 2751
+          },
+          "after": {
+            "tp": 1073,
+            "fp": 127,
+            "fn": 47,
+            "tn": 2751
+          },
+          "delta_tp": 0,
+          "delta_fp": 0,
+          "f1_before": 0.925,
+          "f1_after": 0.925
+        },
+        "php": {
+          "before": {
+            "tp": 346,
+            "fp": 49,
+            "fn": 61,
+            "tn": 540
+          },
+          "after": {
+            "tp": 347,
+            "fp": 49,
+            "fn": 60,
+            "tn": 540
+          },
+          "delta_tp": 1,
+          "delta_fp": 0,
+          "f1_before": 0.8628428927680798,
+          "f1_after": 0.8642590286425903
+        },
+        "radare2": {
+          "before": {
+            "tp": 167,
+            "fp": 6,
+            "fn": 6,
+            "tn": 100
+          },
+          "after": {
+            "tp": 167,
+            "fp": 6,
+            "fn": 6,
+            "tn": 100
+          },
+          "delta_tp": 0,
+          "delta_fp": 0,
+          "f1_before": 0.9653179190751445,
+          "f1_after": 0.9653179190751445
+        }
+      },
+      "matched_cohort": {
+        "before": {
+          "tp": 103,
+          "fp": 201,
+          "fn": 369,
+          "tn": 4732
+        },
+        "after": {
+          "tp": 109,
+          "fp": 202,
+          "fn": 363,
+          "tn": 4731
+        },
+        "delta_tp": 6,
+        "delta_fp": 1,
+        "f1_before": 0.2654639175257732,
+        "f1_after": 0.2784163473818646
+      },
+      "standalone_ap": 0.14933161394746486,
+      "fused_ap": 0.2861968362252695
+    },
+    "scoped_counts_observed_1": {
+      "project_tp": 3,
+      "frozen": {
+        "before": {
+          "tp": 2450,
+          "fp": 286,
+          "fn": 404,
+          "tn": 4759
+        },
+        "after": {
+          "tp": 2468,
+          "fp": 315,
+          "fn": 386,
+          "tn": 4730
+        },
+        "delta_tp": 18,
+        "delta_fp": 29,
+        "f1_before": 0.8765652951699463,
+        "f1_after": 0.8756430725563242
+      },
+      "per_project": {
+        "android": {
+          "before": {
+            "tp": 656,
+            "fp": 83,
+            "fn": 251,
+            "tn": 1011
+          },
+          "after": {
+            "tp": 659,
+            "fp": 83,
+            "fn": 248,
+            "tn": 1011
+          },
+          "delta_tp": 3,
+          "delta_fp": 0,
+          "f1_before": 0.7970838396111786,
+          "f1_after": 0.7992722862340813
+        },
+        "file": {
+          "before": {
+            "tp": 35,
+            "fp": 0,
+            "fn": 2,
+            "tn": 18
+          },
+          "after": {
+            "tp": 35,
+            "fp": 0,
+            "fn": 2,
+            "tn": 18
+          },
+          "delta_tp": 0,
+          "delta_fp": 0,
+          "f1_before": 0.9722222222222222,
+          "f1_after": 0.9722222222222222
+        },
+        "imagemagick": {
+          "before": {
+            "tp": 87,
+            "fp": 21,
+            "fn": 20,
+            "tn": 265
+          },
+          "after": {
+            "tp": 85,
+            "fp": 21,
+            "fn": 22,
+            "tn": 265
+          },
+          "delta_tp": -2,
+          "delta_fp": 0,
+          "f1_before": 0.8093023255813954,
+          "f1_after": 0.7981220657276995
+        },
+        "krb5": {
+          "before": {
+            "tp": 90,
+            "fp": 0,
+            "fn": 13,
+            "tn": 74
+          },
+          "after": {
+            "tp": 90,
+            "fp": 0,
+            "fn": 13,
+            "tn": 74
+          },
+          "delta_tp": 0,
+          "delta_fp": 0,
+          "f1_before": 0.9326424870466321,
+          "f1_after": 0.9326424870466321
+        },
+        "mozilla firefox": {
+          "before": {
+            "tp": 1073,
+            "fp": 127,
+            "fn": 47,
+            "tn": 2751
+          },
+          "after": {
+            "tp": 1073,
+            "fp": 127,
+            "fn": 47,
+            "tn": 2751
+          },
+          "delta_tp": 0,
+          "delta_fp": 0,
+          "f1_before": 0.925,
+          "f1_after": 0.925
+        },
+        "php": {
+          "before": {
+            "tp": 346,
+            "fp": 49,
+            "fn": 61,
+            "tn": 540
+          },
+          "after": {
+            "tp": 348,
+            "fp": 49,
+            "fn": 59,
+            "tn": 540
+          },
+          "delta_tp": 2,
+          "delta_fp": 0,
+          "f1_before": 0.8628428927680798,
+          "f1_after": 0.8656716417910447
+        },
+        "radare2": {
+          "before": {
+            "tp": 167,
+            "fp": 6,
+            "fn": 6,
+            "tn": 100
+          },
+          "after": {
+            "tp": 167,
+            "fp": 6,
+            "fn": 6,
+            "tn": 100
+          },
+          "delta_tp": 0,
+          "delta_fp": 0,
+          "f1_before": 0.9653179190751445,
+          "f1_after": 0.9653179190751445
+        }
+      },
+      "matched_cohort": {
+        "before": {
+          "tp": 103,
+          "fp": 201,
+          "fn": 369,
+          "tn": 4732
+        },
+        "after": {
+          "tp": 112,
+          "fp": 202,
+          "fn": 360,
+          "tn": 4731
+        },
+        "delta_tp": 9,
+        "delta_fp": 1,
+        "f1_before": 0.2654639175257732,
+        "f1_after": 0.28498727735368956
+      },
+      "standalone_ap": 0.14933161394746486,
+      "fused_ap": 0.2861968362252695
+    },
+    "scoped_counts_prior_0.5": {
+      "project_tp": 3,
+      "frozen": {
+        "before": {
+          "tp": 2450,
+          "fp": 286,
+          "fn": 404,
+          "tn": 4759
+        },
+        "after": {
+          "tp": 2459,
+          "fp": 305,
+          "fn": 395,
+          "tn": 4740
+        },
+        "delta_tp": 9,
+        "delta_fp": 19,
+        "f1_before": 0.8765652951699463,
+        "f1_after": 0.8754004983980064
+      },
+      "per_project": {
+        "android": {
+          "before": {
+            "tp": 656,
+            "fp": 83,
+            "fn": 251,
+            "tn": 1011
+          },
+          "after": {
+            "tp": 659,
+            "fp": 83,
+            "fn": 248,
+            "tn": 1011
+          },
+          "delta_tp": 3,
+          "delta_fp": 0,
+          "f1_before": 0.7970838396111786,
+          "f1_after": 0.7992722862340813
+        },
+        "file": {
+          "before": {
+            "tp": 35,
+            "fp": 0,
+            "fn": 2,
+            "tn": 18
+          },
+          "after": {
+            "tp": 35,
+            "fp": 0,
+            "fn": 2,
+            "tn": 18
+          },
+          "delta_tp": 0,
+          "delta_fp": 0,
+          "f1_before": 0.9722222222222222,
+          "f1_after": 0.9722222222222222
+        },
+        "imagemagick": {
+          "before": {
+            "tp": 87,
+            "fp": 21,
+            "fn": 20,
+            "tn": 265
+          },
+          "after": {
+            "tp": 86,
+            "fp": 21,
+            "fn": 21,
+            "tn": 265
+          },
+          "delta_tp": -1,
+          "delta_fp": 0,
+          "f1_before": 0.8093023255813954,
+          "f1_after": 0.8037383177570093
+        },
+        "krb5": {
+          "before": {
+            "tp": 90,
+            "fp": 0,
+            "fn": 13,
+            "tn": 74
+          },
+          "after": {
+            "tp": 90,
+            "fp": 0,
+            "fn": 13,
+            "tn": 74
+          },
+          "delta_tp": 0,
+          "delta_fp": 0,
+          "f1_before": 0.9326424870466321,
+          "f1_after": 0.9326424870466321
+        },
+        "mozilla firefox": {
+          "before": {
+            "tp": 1073,
+            "fp": 127,
+            "fn": 47,
+            "tn": 2751
+          },
+          "after": {
+            "tp": 1073,
+            "fp": 127,
+            "fn": 47,
+            "tn": 2751
+          },
+          "delta_tp": 0,
+          "delta_fp": 0,
+          "f1_before": 0.925,
+          "f1_after": 0.925
+        },
+        "php": {
+          "before": {
+            "tp": 346,
+            "fp": 49,
+            "fn": 61,
+            "tn": 540
+          },
+          "after": {
+            "tp": 347,
+            "fp": 49,
+            "fn": 60,
+            "tn": 540
+          },
+          "delta_tp": 1,
+          "delta_fp": 0,
+          "f1_before": 0.8628428927680798,
+          "f1_after": 0.8642590286425903
+        },
+        "radare2": {
+          "before": {
+            "tp": 167,
+            "fp": 6,
+            "fn": 6,
+            "tn": 100
+          },
+          "after": {
+            "tp": 167,
+            "fp": 6,
+            "fn": 6,
+            "tn": 100
+          },
+          "delta_tp": 0,
+          "delta_fp": 0,
+          "f1_before": 0.9653179190751445,
+          "f1_after": 0.9653179190751445
+        }
+      },
+      "matched_cohort": {
+        "before": {
+          "tp": 103,
+          "fp": 201,
+          "fn": 369,
+          "tn": 4732
+        },
+        "after": {
+          "tp": 109,
+          "fp": 202,
+          "fn": 363,
+          "tn": 4731
+        },
+        "delta_tp": 6,
+        "delta_fp": 1,
+        "f1_before": 0.2654639175257732,
+        "f1_after": 0.2784163473818646
+      },
+      "standalone_ap": 0.14933161394746486,
+      "fused_ap": 0.2861968362252695
+    },
+    "scoped_counts_prior_1": {
+      "project_tp": 4,
+      "frozen": {
+        "before": {
+          "tp": 2450,
+          "fp": 286,
+          "fn": 404,
+          "tn": 4759
+        },
+        "after": {
+          "tp": 2469,
+          "fp": 315,
+          "fn": 385,
+          "tn": 4730
+        },
+        "delta_tp": 19,
+        "delta_fp": 29,
+        "f1_before": 0.8765652951699463,
+        "f1_after": 0.875842497339482
+      },
+      "per_project": {
+        "android": {
+          "before": {
+            "tp": 656,
+            "fp": 83,
+            "fn": 251,
+            "tn": 1011
+          },
+          "after": {
+            "tp": 659,
+            "fp": 83,
+            "fn": 248,
+            "tn": 1011
+          },
+          "delta_tp": 3,
+          "delta_fp": 0,
+          "f1_before": 0.7970838396111786,
+          "f1_after": 0.7992722862340813
+        },
+        "file": {
+          "before": {
+            "tp": 35,
+            "fp": 0,
+            "fn": 2,
+            "tn": 18
+          },
+          "after": {
+            "tp": 35,
+            "fp": 0,
+            "fn": 2,
+            "tn": 18
+          },
+          "delta_tp": 0,
+          "delta_fp": 0,
+          "f1_before": 0.9722222222222222,
+          "f1_after": 0.9722222222222222
+        },
+        "imagemagick": {
+          "before": {
+            "tp": 87,
+            "fp": 21,
+            "fn": 20,
+            "tn": 265
+          },
+          "after": {
+            "tp": 86,
+            "fp": 21,
+            "fn": 21,
+            "tn": 265
+          },
+          "delta_tp": -1,
+          "delta_fp": 0,
+          "f1_before": 0.8093023255813954,
+          "f1_after": 0.8037383177570093
+        },
+        "krb5": {
+          "before": {
+            "tp": 90,
+            "fp": 0,
+            "fn": 13,
+            "tn": 74
+          },
+          "after": {
+            "tp": 90,
+            "fp": 0,
+            "fn": 13,
+            "tn": 74
+          },
+          "delta_tp": 0,
+          "delta_fp": 0,
+          "f1_before": 0.9326424870466321,
+          "f1_after": 0.9326424870466321
+        },
+        "mozilla firefox": {
+          "before": {
+            "tp": 1073,
+            "fp": 127,
+            "fn": 47,
+            "tn": 2751
+          },
+          "after": {
+            "tp": 1073,
+            "fp": 127,
+            "fn": 47,
+            "tn": 2751
+          },
+          "delta_tp": 0,
+          "delta_fp": 0,
+          "f1_before": 0.925,
+          "f1_after": 0.925
+        },
+        "php": {
+          "before": {
+            "tp": 346,
+            "fp": 49,
+            "fn": 61,
+            "tn": 540
+          },
+          "after": {
+            "tp": 348,
+            "fp": 49,
+            "fn": 59,
+            "tn": 540
+          },
+          "delta_tp": 2,
+          "delta_fp": 0,
+          "f1_before": 0.8628428927680798,
+          "f1_after": 0.8656716417910447
+        },
+        "radare2": {
+          "before": {
+            "tp": 167,
+            "fp": 6,
+            "fn": 6,
+            "tn": 100
+          },
+          "after": {
+            "tp": 167,
+            "fp": 6,
+            "fn": 6,
+            "tn": 100
+          },
+          "delta_tp": 0,
+          "delta_fp": 0,
+          "f1_before": 0.9653179190751445,
+          "f1_after": 0.9653179190751445
+        }
+      },
+      "matched_cohort": {
+        "before": {
+          "tp": 103,
+          "fp": 201,
+          "fn": 369,
+          "tn": 4732
+        },
+        "after": {
+          "tp": 112,
+          "fp": 202,
+          "fn": 360,
+          "tn": 4731
+        },
+        "delta_tp": 9,
+        "delta_fp": 1,
+        "f1_before": 0.2654639175257732,
+        "f1_after": 0.28498727735368956
+      },
+      "standalone_ap": 0.14933161394746486,
+      "fused_ap": 0.2861968362252695
+    },
+    "flat_observed_0.5": {
+      "project_tp": 3,
+      "frozen": {
+        "before": {
+          "tp": 2450,
+          "fp": 286,
+          "fn": 404,
+          "tn": 4759
+        },
+        "after": {
+          "tp": 2461,
+          "fp": 320,
+          "fn": 393,
+          "tn": 4725
+        },
+        "delta_tp": 11,
+        "delta_fp": 34,
+        "f1_before": 0.8765652951699463,
+        "f1_after": 0.8734693877551021
+      },
+      "per_project": {
+        "android": {
+          "before": {
+            "tp": 656,
+            "fp": 83,
+            "fn": 251,
+            "tn": 1011
+          },
+          "after": {
+            "tp": 657,
+            "fp": 83,
+            "fn": 250,
+            "tn": 1011
+          },
+          "delta_tp": 1,
+          "delta_fp": 0,
+          "f1_before": 0.7970838396111786,
+          "f1_after": 0.7978142076502732
+        },
+        "file": {
+          "before": {
+            "tp": 35,
+            "fp": 0,
+            "fn": 2,
+            "tn": 18
+          },
+          "after": {
+            "tp": 35,
+            "fp": 0,
+            "fn": 2,
+            "tn": 18
+          },
+          "delta_tp": 0,
+          "delta_fp": 0,
+          "f1_before": 0.9722222222222222,
+          "f1_after": 0.9722222222222222
+        },
+        "imagemagick": {
+          "before": {
+            "tp": 87,
+            "fp": 21,
+            "fn": 20,
+            "tn": 265
+          },
+          "after": {
+            "tp": 87,
+            "fp": 21,
+            "fn": 20,
+            "tn": 265
+          },
+          "delta_tp": 0,
+          "delta_fp": 0,
+          "f1_before": 0.8093023255813954,
+          "f1_after": 0.8093023255813954
+        },
+        "krb5": {
+          "before": {
+            "tp": 90,
+            "fp": 0,
+            "fn": 13,
+            "tn": 74
+          },
+          "after": {
+            "tp": 90,
+            "fp": 0,
+            "fn": 13,
+            "tn": 74
+          },
+          "delta_tp": 0,
+          "delta_fp": 0,
+          "f1_before": 0.9326424870466321,
+          "f1_after": 0.9326424870466321
+        },
+        "mozilla firefox": {
+          "before": {
+            "tp": 1073,
+            "fp": 127,
+            "fn": 47,
+            "tn": 2751
+          },
+          "after": {
+            "tp": 1073,
+            "fp": 127,
+            "fn": 47,
+            "tn": 2751
+          },
+          "delta_tp": 0,
+          "delta_fp": 0,
+          "f1_before": 0.925,
+          "f1_after": 0.925
+        },
+        "php": {
+          "before": {
+            "tp": 346,
+            "fp": 49,
+            "fn": 61,
+            "tn": 540
+          },
+          "after": {
+            "tp": 348,
+            "fp": 49,
+            "fn": 59,
+            "tn": 540
+          },
+          "delta_tp": 2,
+          "delta_fp": 0,
+          "f1_before": 0.8628428927680798,
+          "f1_after": 0.8656716417910447
+        },
+        "radare2": {
+          "before": {
+            "tp": 167,
+            "fp": 6,
+            "fn": 6,
+            "tn": 100
+          },
+          "after": {
+            "tp": 167,
+            "fp": 6,
+            "fn": 6,
+            "tn": 100
+          },
+          "delta_tp": 0,
+          "delta_fp": 0,
+          "f1_before": 0.9653179190751445,
+          "f1_after": 0.9653179190751445
+        }
+      },
+      "matched_cohort": {
+        "before": {
+          "tp": 103,
+          "fp": 201,
+          "fn": 369,
+          "tn": 4732
+        },
+        "after": {
+          "tp": 110,
+          "fp": 202,
+          "fn": 362,
+          "tn": 4731
+        },
+        "delta_tp": 7,
+        "delta_fp": 1,
+        "f1_before": 0.2654639175257732,
+        "f1_after": 0.28061224489795916
+      },
+      "standalone_ap": 0.2090071588434284,
+      "fused_ap": 0.2744349358410808
+    },
+    "flat_observed_1": {
+      "project_tp": 3,
+      "frozen": {
+        "before": {
+          "tp": 2450,
+          "fp": 286,
+          "fn": 404,
+          "tn": 4759
+        },
+        "after": {
+          "tp": 2484,
+          "fp": 389,
+          "fn": 370,
+          "tn": 4656
+        },
+        "delta_tp": 34,
+        "delta_fp": 103,
+        "f1_before": 0.8765652951699463,
+        "f1_after": 0.8674698795180723
+      },
+      "per_project": {
+        "android": {
+          "before": {
+            "tp": 656,
+            "fp": 83,
+            "fn": 251,
+            "tn": 1011
+          },
+          "after": {
+            "tp": 658,
+            "fp": 83,
+            "fn": 249,
+            "tn": 1011
+          },
+          "delta_tp": 2,
+          "delta_fp": 0,
+          "f1_before": 0.7970838396111786,
+          "f1_after": 0.7985436893203883
+        },
+        "file": {
+          "before": {
+            "tp": 35,
+            "fp": 0,
+            "fn": 2,
+            "tn": 18
+          },
+          "after": {
+            "tp": 35,
+            "fp": 0,
+            "fn": 2,
+            "tn": 18
+          },
+          "delta_tp": 0,
+          "delta_fp": 0,
+          "f1_before": 0.9722222222222222,
+          "f1_after": 0.9722222222222222
+        },
+        "imagemagick": {
+          "before": {
+            "tp": 87,
+            "fp": 21,
+            "fn": 20,
+            "tn": 265
+          },
+          "after": {
+            "tp": 86,
+            "fp": 21,
+            "fn": 21,
+            "tn": 265
+          },
+          "delta_tp": -1,
+          "delta_fp": 0,
+          "f1_before": 0.8093023255813954,
+          "f1_after": 0.8037383177570093
+        },
+        "krb5": {
+          "before": {
+            "tp": 90,
+            "fp": 0,
+            "fn": 13,
+            "tn": 74
+          },
+          "after": {
+            "tp": 90,
+            "fp": 0,
+            "fn": 13,
+            "tn": 74
+          },
+          "delta_tp": 0,
+          "delta_fp": 0,
+          "f1_before": 0.9326424870466321,
+          "f1_after": 0.9326424870466321
+        },
+        "mozilla firefox": {
+          "before": {
+            "tp": 1073,
+            "fp": 127,
+            "fn": 47,
+            "tn": 2751
+          },
+          "after": {
+            "tp": 1072,
+            "fp": 127,
+            "fn": 48,
+            "tn": 2751
+          },
+          "delta_tp": -1,
+          "delta_fp": 0,
+          "f1_before": 0.925,
+          "f1_after": 0.9245364381198793
+        },
+        "php": {
+          "before": {
+            "tp": 346,
+            "fp": 49,
+            "fn": 61,
+            "tn": 540
+          },
+          "after": {
+            "tp": 349,
+            "fp": 49,
+            "fn": 58,
+            "tn": 540
+          },
+          "delta_tp": 3,
+          "delta_fp": 0,
+          "f1_before": 0.8628428927680798,
+          "f1_after": 0.867080745341615
+        },
+        "radare2": {
+          "before": {
+            "tp": 167,
+            "fp": 6,
+            "fn": 6,
+            "tn": 100
+          },
+          "after": {
+            "tp": 167,
+            "fp": 6,
+            "fn": 6,
+            "tn": 100
+          },
+          "delta_tp": 0,
+          "delta_fp": 0,
+          "f1_before": 0.9653179190751445,
+          "f1_after": 0.9653179190751445
+        }
+      },
+      "matched_cohort": {
+        "before": {
+          "tp": 103,
+          "fp": 201,
+          "fn": 369,
+          "tn": 4732
+        },
+        "after": {
+          "tp": 112,
+          "fp": 202,
+          "fn": 360,
+          "tn": 4731
+        },
+        "delta_tp": 9,
+        "delta_fp": 1,
+        "f1_before": 0.2654639175257732,
+        "f1_after": 0.28498727735368956
+      },
+      "standalone_ap": 0.2090071588434284,
+      "fused_ap": 0.2744349358410808
+    },
+    "flat_prior_0.5": {
+      "project_tp": 3,
+      "frozen": {
+        "before": {
+          "tp": 2450,
+          "fp": 286,
+          "fn": 404,
+          "tn": 4759
+        },
+        "after": {
+          "tp": 2461,
+          "fp": 320,
+          "fn": 393,
+          "tn": 4725
+        },
+        "delta_tp": 11,
+        "delta_fp": 34,
+        "f1_before": 0.8765652951699463,
+        "f1_after": 0.8734693877551021
+      },
+      "per_project": {
+        "android": {
+          "before": {
+            "tp": 656,
+            "fp": 83,
+            "fn": 251,
+            "tn": 1011
+          },
+          "after": {
+            "tp": 657,
+            "fp": 83,
+            "fn": 250,
+            "tn": 1011
+          },
+          "delta_tp": 1,
+          "delta_fp": 0,
+          "f1_before": 0.7970838396111786,
+          "f1_after": 0.7978142076502732
+        },
+        "file": {
+          "before": {
+            "tp": 35,
+            "fp": 0,
+            "fn": 2,
+            "tn": 18
+          },
+          "after": {
+            "tp": 35,
+            "fp": 0,
+            "fn": 2,
+            "tn": 18
+          },
+          "delta_tp": 0,
+          "delta_fp": 0,
+          "f1_before": 0.9722222222222222,
+          "f1_after": 0.9722222222222222
+        },
+        "imagemagick": {
+          "before": {
+            "tp": 87,
+            "fp": 21,
+            "fn": 20,
+            "tn": 265
+          },
+          "after": {
+            "tp": 87,
+            "fp": 21,
+            "fn": 20,
+            "tn": 265
+          },
+          "delta_tp": 0,
+          "delta_fp": 0,
+          "f1_before": 0.8093023255813954,
+          "f1_after": 0.8093023255813954
+        },
+        "krb5": {
+          "before": {
+            "tp": 90,
+            "fp": 0,
+            "fn": 13,
+            "tn": 74
+          },
+          "after": {
+            "tp": 90,
+            "fp": 0,
+            "fn": 13,
+            "tn": 74
+          },
+          "delta_tp": 0,
+          "delta_fp": 0,
+          "f1_before": 0.9326424870466321,
+          "f1_after": 0.9326424870466321
+        },
+        "mozilla firefox": {
+          "before": {
+            "tp": 1073,
+            "fp": 127,
+            "fn": 47,
+            "tn": 2751
+          },
+          "after": {
+            "tp": 1073,
+            "fp": 127,
+            "fn": 47,
+            "tn": 2751
+          },
+          "delta_tp": 0,
+          "delta_fp": 0,
+          "f1_before": 0.925,
+          "f1_after": 0.925
+        },
+        "php": {
+          "before": {
+            "tp": 346,
+            "fp": 49,
+            "fn": 61,
+            "tn": 540
+          },
+          "after": {
+            "tp": 348,
+            "fp": 49,
+            "fn": 59,
+            "tn": 540
+          },
+          "delta_tp": 2,
+          "delta_fp": 0,
+          "f1_before": 0.8628428927680798,
+          "f1_after": 0.8656716417910447
+        },
+        "radare2": {
+          "before": {
+            "tp": 167,
+            "fp": 6,
+            "fn": 6,
+            "tn": 100
+          },
+          "after": {
+            "tp": 167,
+            "fp": 6,
+            "fn": 6,
+            "tn": 100
+          },
+          "delta_tp": 0,
+          "delta_fp": 0,
+          "f1_before": 0.9653179190751445,
+          "f1_after": 0.9653179190751445
+        }
+      },
+      "matched_cohort": {
+        "before": {
+          "tp": 103,
+          "fp": 201,
+          "fn": 369,
+          "tn": 4732
+        },
+        "after": {
+          "tp": 110,
+          "fp": 202,
+          "fn": 362,
+          "tn": 4731
+        },
+        "delta_tp": 7,
+        "delta_fp": 1,
+        "f1_before": 0.2654639175257732,
+        "f1_after": 0.28061224489795916
+      },
+      "standalone_ap": 0.2090071588434284,
+      "fused_ap": 0.2744349358410808
+    },
+    "flat_prior_1": {
+      "project_tp": 3,
+      "frozen": {
+        "before": {
+          "tp": 2450,
+          "fp": 286,
+          "fn": 404,
+          "tn": 4759
+        },
+        "after": {
+          "tp": 2483,
+          "fp": 399,
+          "fn": 371,
+          "tn": 4646
+        },
+        "delta_tp": 33,
+        "delta_fp": 113,
+        "f1_before": 0.8765652951699463,
+        "f1_after": 0.8657601115760112
+      },
+      "per_project": {
+        "android": {
+          "before": {
+            "tp": 656,
+            "fp": 83,
+            "fn": 251,
+            "tn": 1011
+          },
+          "after": {
+            "tp": 658,
+            "fp": 83,
+            "fn": 249,
+            "tn": 1011
+          },
+          "delta_tp": 2,
+          "delta_fp": 0,
+          "f1_before": 0.7970838396111786,
+          "f1_after": 0.7985436893203883
+        },
+        "file": {
+          "before": {
+            "tp": 35,
+            "fp": 0,
+            "fn": 2,
+            "tn": 18
+          },
+          "after": {
+            "tp": 35,
+            "fp": 0,
+            "fn": 2,
+            "tn": 18
+          },
+          "delta_tp": 0,
+          "delta_fp": 0,
+          "f1_before": 0.9722222222222222,
+          "f1_after": 0.9722222222222222
+        },
+        "imagemagick": {
+          "before": {
+            "tp": 87,
+            "fp": 21,
+            "fn": 20,
+            "tn": 265
+          },
+          "after": {
+            "tp": 86,
+            "fp": 21,
+            "fn": 21,
+            "tn": 265
+          },
+          "delta_tp": -1,
+          "delta_fp": 0,
+          "f1_before": 0.8093023255813954,
+          "f1_after": 0.8037383177570093
+        },
+        "krb5": {
+          "before": {
+            "tp": 90,
+            "fp": 0,
+            "fn": 13,
+            "tn": 74
+          },
+          "after": {
+            "tp": 90,
+            "fp": 0,
+            "fn": 13,
+            "tn": 74
+          },
+          "delta_tp": 0,
+          "delta_fp": 0,
+          "f1_before": 0.9326424870466321,
+          "f1_after": 0.9326424870466321
+        },
+        "mozilla firefox": {
+          "before": {
+            "tp": 1073,
+            "fp": 127,
+            "fn": 47,
+            "tn": 2751
+          },
+          "after": {
+            "tp": 1072,
+            "fp": 127,
+            "fn": 48,
+            "tn": 2751
+          },
+          "delta_tp": -1,
+          "delta_fp": 0,
+          "f1_before": 0.925,
+          "f1_after": 0.9245364381198793
+        },
+        "php": {
+          "before": {
+            "tp": 346,
+            "fp": 49,
+            "fn": 61,
+            "tn": 540
+          },
+          "after": {
+            "tp": 349,
+            "fp": 49,
+            "fn": 58,
+            "tn": 540
+          },
+          "delta_tp": 3,
+          "delta_fp": 0,
+          "f1_before": 0.8628428927680798,
+          "f1_after": 0.867080745341615
+        },
+        "radare2": {
+          "before": {
+            "tp": 167,
+            "fp": 6,
+            "fn": 6,
+            "tn": 100
+          },
+          "after": {
+            "tp": 167,
+            "fp": 6,
+            "fn": 6,
+            "tn": 100
+          },
+          "delta_tp": 0,
+          "delta_fp": 0,
+          "f1_before": 0.9653179190751445,
+          "f1_after": 0.9653179190751445
+        }
+      },
+      "matched_cohort": {
+        "before": {
+          "tp": 103,
+          "fp": 201,
+          "fn": 369,
+          "tn": 4732
+        },
+        "after": {
+          "tp": 112,
+          "fp": 203,
+          "fn": 360,
+          "tn": 4730
+        },
+        "delta_tp": 9,
+        "delta_fp": 2,
+        "f1_before": 0.2654639175257732,
+        "f1_after": 0.2846251588310038
+      },
+      "standalone_ap": 0.2090071588434284,
+      "fused_ap": 0.2744349358410808
+    },
+    "linked_observed_0.5": {
+      "project_tp": 0,
+      "frozen": {
+        "before": {
+          "tp": 2450,
+          "fp": 286,
+          "fn": 404,
+          "tn": 4759
+        },
+        "after": {
+          "tp": 2456,
+          "fp": 298,
+          "fn": 398,
+          "tn": 4747
+        },
+        "delta_tp": 6,
+        "delta_fp": 12,
+        "f1_before": 0.8765652951699463,
+        "f1_after": 0.8758915834522111
+      },
+      "per_project": {
+        "android": {
+          "before": {
+            "tp": 656,
+            "fp": 83,
+            "fn": 251,
+            "tn": 1011
+          },
+          "after": {
+            "tp": 655,
+            "fp": 83,
+            "fn": 252,
+            "tn": 1011
+          },
+          "delta_tp": -1,
+          "delta_fp": 0,
+          "f1_before": 0.7970838396111786,
+          "f1_after": 0.7963525835866262
+        },
+        "file": {
+          "before": {
+            "tp": 35,
+            "fp": 0,
+            "fn": 2,
+            "tn": 18
+          },
+          "after": {
+            "tp": 35,
+            "fp": 0,
+            "fn": 2,
+            "tn": 18
+          },
+          "delta_tp": 0,
+          "delta_fp": 0,
+          "f1_before": 0.9722222222222222,
+          "f1_after": 0.9722222222222222
+        },
+        "imagemagick": {
+          "before": {
+            "tp": 87,
+            "fp": 21,
+            "fn": 20,
+            "tn": 265
+          },
+          "after": {
+            "tp": 85,
+            "fp": 21,
+            "fn": 22,
+            "tn": 265
+          },
+          "delta_tp": -2,
+          "delta_fp": 0,
+          "f1_before": 0.8093023255813954,
+          "f1_after": 0.7981220657276995
+        },
+        "krb5": {
+          "before": {
+            "tp": 90,
+            "fp": 0,
+            "fn": 13,
+            "tn": 74
+          },
+          "after": {
+            "tp": 90,
+            "fp": 0,
+            "fn": 13,
+            "tn": 74
+          },
+          "delta_tp": 0,
+          "delta_fp": 0,
+          "f1_before": 0.9326424870466321,
+          "f1_after": 0.9326424870466321
+        },
+        "mozilla firefox": {
+          "before": {
+            "tp": 1073,
+            "fp": 127,
+            "fn": 47,
+            "tn": 2751
+          },
+          "after": {
+            "tp": 1074,
+            "fp": 127,
+            "fn": 46,
+            "tn": 2751
+          },
+          "delta_tp": 1,
+          "delta_fp": 0,
+          "f1_before": 0.925,
+          "f1_after": 0.925463162429987
+        },
+        "php": {
+          "before": {
+            "tp": 346,
+            "fp": 49,
+            "fn": 61,
+            "tn": 540
+          },
+          "after": {
+            "tp": 348,
+            "fp": 49,
+            "fn": 59,
+            "tn": 540
+          },
+          "delta_tp": 2,
+          "delta_fp": 0,
+          "f1_before": 0.8628428927680798,
+          "f1_after": 0.8656716417910447
+        },
+        "radare2": {
+          "before": {
+            "tp": 167,
+            "fp": 6,
+            "fn": 6,
+            "tn": 100
+          },
+          "after": {
+            "tp": 167,
+            "fp": 6,
+            "fn": 6,
+            "tn": 100
+          },
+          "delta_tp": 0,
+          "delta_fp": 0,
+          "f1_before": 0.9653179190751445,
+          "f1_after": 0.9653179190751445
+        }
+      },
+      "matched_cohort": {
+        "before": {
+          "tp": 103,
+          "fp": 201,
+          "fn": 369,
+          "tn": 4732
+        },
+        "after": {
+          "tp": 107,
+          "fp": 202,
+          "fn": 365,
+          "tn": 4731
+        },
+        "delta_tp": 4,
+        "delta_fp": 1,
+        "f1_before": 0.2654639175257732,
+        "f1_after": 0.2740076824583867
+      },
+      "standalone_ap": 0.14895450068616284,
+      "fused_ap": 0.280445152299016
+    },
+    "linked_observed_1": {
+      "project_tp": 0,
+      "frozen": {
+        "before": {
+          "tp": 2450,
+          "fp": 286,
+          "fn": 404,
+          "tn": 4759
+        },
+        "after": {
+          "tp": 2462,
+          "fp": 306,
+          "fn": 392,
+          "tn": 4739
+        },
+        "delta_tp": 12,
+        "delta_fp": 20,
+        "f1_before": 0.8765652951699463,
+        "f1_after": 0.8758448950551405
+      },
+      "per_project": {
+        "android": {
+          "before": {
+            "tp": 656,
+            "fp": 83,
+            "fn": 251,
+            "tn": 1011
+          },
+          "after": {
+            "tp": 654,
+            "fp": 83,
+            "fn": 253,
+            "tn": 1011
+          },
+          "delta_tp": -2,
+          "delta_fp": 0,
+          "f1_before": 0.7970838396111786,
+          "f1_after": 0.7956204379562044
+        },
+        "file": {
+          "before": {
+            "tp": 35,
+            "fp": 0,
+            "fn": 2,
+            "tn": 18
+          },
+          "after": {
+            "tp": 35,
+            "fp": 0,
+            "fn": 2,
+            "tn": 18
+          },
+          "delta_tp": 0,
+          "delta_fp": 0,
+          "f1_before": 0.9722222222222222,
+          "f1_after": 0.9722222222222222
+        },
+        "imagemagick": {
+          "before": {
+            "tp": 87,
+            "fp": 21,
+            "fn": 20,
+            "tn": 265
+          },
+          "after": {
+            "tp": 85,
+            "fp": 21,
+            "fn": 22,
+            "tn": 265
+          },
+          "delta_tp": -2,
+          "delta_fp": 0,
+          "f1_before": 0.8093023255813954,
+          "f1_after": 0.7981220657276995
+        },
+        "krb5": {
+          "before": {
+            "tp": 90,
+            "fp": 0,
+            "fn": 13,
+            "tn": 74
+          },
+          "after": {
+            "tp": 90,
+            "fp": 0,
+            "fn": 13,
+            "tn": 74
+          },
+          "delta_tp": 0,
+          "delta_fp": 0,
+          "f1_before": 0.9326424870466321,
+          "f1_after": 0.9326424870466321
+        },
+        "mozilla firefox": {
+          "before": {
+            "tp": 1073,
+            "fp": 127,
+            "fn": 47,
+            "tn": 2751
+          },
+          "after": {
+            "tp": 1075,
+            "fp": 127,
+            "fn": 45,
+            "tn": 2751
+          },
+          "delta_tp": 2,
+          "delta_fp": 0,
+          "f1_before": 0.925,
+          "f1_after": 0.9259259259259259
+        },
+        "php": {
+          "before": {
+            "tp": 346,
+            "fp": 49,
+            "fn": 61,
+            "tn": 540
+          },
+          "after": {
+            "tp": 348,
+            "fp": 49,
+            "fn": 59,
+            "tn": 540
+          },
+          "delta_tp": 2,
+          "delta_fp": 0,
+          "f1_before": 0.8628428927680798,
+          "f1_after": 0.8656716417910447
+        },
+        "radare2": {
+          "before": {
+            "tp": 167,
+            "fp": 6,
+            "fn": 6,
+            "tn": 100
+          },
+          "after": {
+            "tp": 167,
+            "fp": 6,
+            "fn": 6,
+            "tn": 100
+          },
+          "delta_tp": 0,
+          "delta_fp": 0,
+          "f1_before": 0.9653179190751445,
+          "f1_after": 0.9653179190751445
+        }
+      },
+      "matched_cohort": {
+        "before": {
+          "tp": 103,
+          "fp": 201,
+          "fn": 369,
+          "tn": 4732
+        },
+        "after": {
+          "tp": 107,
+          "fp": 202,
+          "fn": 365,
+          "tn": 4731
+        },
+        "delta_tp": 4,
+        "delta_fp": 1,
+        "f1_before": 0.2654639175257732,
+        "f1_after": 0.2740076824583867
+      },
+      "standalone_ap": 0.14895450068616284,
+      "fused_ap": 0.280445152299016
+    },
+    "linked_prior_0.5": {
+      "project_tp": 2,
+      "frozen": {
+        "before": {
+          "tp": 2450,
+          "fp": 286,
+          "fn": 404,
+          "tn": 4759
+        },
+        "after": {
+          "tp": 2458,
+          "fp": 298,
+          "fn": 396,
+          "tn": 4747
+        },
+        "delta_tp": 8,
+        "delta_fp": 12,
+        "f1_before": 0.8765652951699463,
+        "f1_after": 0.8762923351158646
+      },
+      "per_project": {
+        "android": {
+          "before": {
+            "tp": 656,
+            "fp": 83,
+            "fn": 251,
+            "tn": 1011
+          },
+          "after": {
+            "tp": 655,
+            "fp": 83,
+            "fn": 252,
+            "tn": 1011
+          },
+          "delta_tp": -1,
+          "delta_fp": 0,
+          "f1_before": 0.7970838396111786,
+          "f1_after": 0.7963525835866262
+        },
+        "file": {
+          "before": {
+            "tp": 35,
+            "fp": 0,
+            "fn": 2,
+            "tn": 18
+          },
+          "after": {
+            "tp": 35,
+            "fp": 0,
+            "fn": 2,
+            "tn": 18
+          },
+          "delta_tp": 0,
+          "delta_fp": 0,
+          "f1_before": 0.9722222222222222,
+          "f1_after": 0.9722222222222222
+        },
+        "imagemagick": {
+          "before": {
+            "tp": 87,
+            "fp": 21,
+            "fn": 20,
+            "tn": 265
+          },
+          "after": {
+            "tp": 87,
+            "fp": 21,
+            "fn": 20,
+            "tn": 265
+          },
+          "delta_tp": 0,
+          "delta_fp": 0,
+          "f1_before": 0.8093023255813954,
+          "f1_after": 0.8093023255813954
+        },
+        "krb5": {
+          "before": {
+            "tp": 90,
+            "fp": 0,
+            "fn": 13,
+            "tn": 74
+          },
+          "after": {
+            "tp": 90,
+            "fp": 0,
+            "fn": 13,
+            "tn": 74
+          },
+          "delta_tp": 0,
+          "delta_fp": 0,
+          "f1_before": 0.9326424870466321,
+          "f1_after": 0.9326424870466321
+        },
+        "mozilla firefox": {
+          "before": {
+            "tp": 1073,
+            "fp": 127,
+            "fn": 47,
+            "tn": 2751
+          },
+          "after": {
+            "tp": 1074,
+            "fp": 127,
+            "fn": 46,
+            "tn": 2751
+          },
+          "delta_tp": 1,
+          "delta_fp": 0,
+          "f1_before": 0.925,
+          "f1_after": 0.925463162429987
+        },
+        "php": {
+          "before": {
+            "tp": 346,
+            "fp": 49,
+            "fn": 61,
+            "tn": 540
+          },
+          "after": {
+            "tp": 348,
+            "fp": 49,
+            "fn": 59,
+            "tn": 540
+          },
+          "delta_tp": 2,
+          "delta_fp": 0,
+          "f1_before": 0.8628428927680798,
+          "f1_after": 0.8656716417910447
+        },
+        "radare2": {
+          "before": {
+            "tp": 167,
+            "fp": 6,
+            "fn": 6,
+            "tn": 100
+          },
+          "after": {
+            "tp": 167,
+            "fp": 6,
+            "fn": 6,
+            "tn": 100
+          },
+          "delta_tp": 0,
+          "delta_fp": 0,
+          "f1_before": 0.9653179190751445,
+          "f1_after": 0.9653179190751445
+        }
+      },
+      "matched_cohort": {
+        "before": {
+          "tp": 103,
+          "fp": 201,
+          "fn": 369,
+          "tn": 4732
+        },
+        "after": {
+          "tp": 107,
+          "fp": 202,
+          "fn": 365,
+          "tn": 4731
+        },
+        "delta_tp": 4,
+        "delta_fp": 1,
+        "f1_before": 0.2654639175257732,
+        "f1_after": 0.2740076824583867
+      },
+      "standalone_ap": 0.14895450068616284,
+      "fused_ap": 0.280445152299016
+    },
+    "linked_prior_1": {
+      "project_tp": 2,
+      "frozen": {
+        "before": {
+          "tp": 2450,
+          "fp": 286,
+          "fn": 404,
+          "tn": 4759
+        },
+        "after": {
+          "tp": 2464,
+          "fp": 306,
+          "fn": 390,
+          "tn": 4739
+        },
+        "delta_tp": 14,
+        "delta_fp": 20,
+        "f1_before": 0.8765652951699463,
+        "f1_after": 0.8762446657183499
+      },
+      "per_project": {
+        "android": {
+          "before": {
+            "tp": 656,
+            "fp": 83,
+            "fn": 251,
+            "tn": 1011
+          },
+          "after": {
+            "tp": 654,
+            "fp": 83,
+            "fn": 253,
+            "tn": 1011
+          },
+          "delta_tp": -2,
+          "delta_fp": 0,
+          "f1_before": 0.7970838396111786,
+          "f1_after": 0.7956204379562044
+        },
+        "file": {
+          "before": {
+            "tp": 35,
+            "fp": 0,
+            "fn": 2,
+            "tn": 18
+          },
+          "after": {
+            "tp": 35,
+            "fp": 0,
+            "fn": 2,
+            "tn": 18
+          },
+          "delta_tp": 0,
+          "delta_fp": 0,
+          "f1_before": 0.9722222222222222,
+          "f1_after": 0.9722222222222222
+        },
+        "imagemagick": {
+          "before": {
+            "tp": 87,
+            "fp": 21,
+            "fn": 20,
+            "tn": 265
+          },
+          "after": {
+            "tp": 87,
+            "fp": 21,
+            "fn": 20,
+            "tn": 265
+          },
+          "delta_tp": 0,
+          "delta_fp": 0,
+          "f1_before": 0.8093023255813954,
+          "f1_after": 0.8093023255813954
+        },
+        "krb5": {
+          "before": {
+            "tp": 90,
+            "fp": 0,
+            "fn": 13,
+            "tn": 74
+          },
+          "after": {
+            "tp": 90,
+            "fp": 0,
+            "fn": 13,
+            "tn": 74
+          },
+          "delta_tp": 0,
+          "delta_fp": 0,
+          "f1_before": 0.9326424870466321,
+          "f1_after": 0.9326424870466321
+        },
+        "mozilla firefox": {
+          "before": {
+            "tp": 1073,
+            "fp": 127,
+            "fn": 47,
+            "tn": 2751
+          },
+          "after": {
+            "tp": 1075,
+            "fp": 127,
+            "fn": 45,
+            "tn": 2751
+          },
+          "delta_tp": 2,
+          "delta_fp": 0,
+          "f1_before": 0.925,
+          "f1_after": 0.9259259259259259
+        },
+        "php": {
+          "before": {
+            "tp": 346,
+            "fp": 49,
+            "fn": 61,
+            "tn": 540
+          },
+          "after": {
+            "tp": 348,
+            "fp": 49,
+            "fn": 59,
+            "tn": 540
+          },
+          "delta_tp": 2,
+          "delta_fp": 0,
+          "f1_before": 0.8628428927680798,
+          "f1_after": 0.8656716417910447
+        },
+        "radare2": {
+          "before": {
+            "tp": 167,
+            "fp": 6,
+            "fn": 6,
+            "tn": 100
+          },
+          "after": {
+            "tp": 167,
+            "fp": 6,
+            "fn": 6,
+            "tn": 100
+          },
+          "delta_tp": 0,
+          "delta_fp": 0,
+          "f1_before": 0.9653179190751445,
+          "f1_after": 0.9653179190751445
+        }
+      },
+      "matched_cohort": {
+        "before": {
+          "tp": 103,
+          "fp": 201,
+          "fn": 369,
+          "tn": 4732
+        },
+        "after": {
+          "tp": 107,
+          "fp": 202,
+          "fn": 365,
+          "tn": 4731
+        },
+        "delta_tp": 4,
+        "delta_fp": 1,
+        "f1_before": 0.2654639175257732,
+        "f1_after": 0.2740076824583867
+      },
+      "standalone_ap": 0.14895450068616284,
+      "fused_ap": 0.280445152299016
+    },
+    "combined_observed_0.5": {
+      "project_tp": 1,
+      "frozen": {
+        "before": {
+          "tp": 2450,
+          "fp": 286,
+          "fn": 404,
+          "tn": 4759
+        },
+        "after": {
+          "tp": 2461,
+          "fp": 322,
+          "fn": 393,
+          "tn": 4723
+        },
+        "delta_tp": 11,
+        "delta_fp": 36,
+        "f1_before": 0.8765652951699463,
+        "f1_after": 0.8731594819939684
+      },
+      "per_project": {
+        "android": {
+          "before": {
+            "tp": 656,
+            "fp": 83,
+            "fn": 251,
+            "tn": 1011
+          },
+          "after": {
+            "tp": 656,
+            "fp": 83,
+            "fn": 251,
+            "tn": 1011
+          },
+          "delta_tp": 0,
+          "delta_fp": 0,
+          "f1_before": 0.7970838396111786,
+          "f1_after": 0.7970838396111786
+        },
+        "file": {
+          "before": {
+            "tp": 35,
+            "fp": 0,
+            "fn": 2,
+            "tn": 18
+          },
+          "after": {
+            "tp": 35,
+            "fp": 0,
+            "fn": 2,
+            "tn": 18
+          },
+          "delta_tp": 0,
+          "delta_fp": 0,
+          "f1_before": 0.9722222222222222,
+          "f1_after": 0.9722222222222222
+        },
+        "imagemagick": {
+          "before": {
+            "tp": 87,
+            "fp": 21,
+            "fn": 20,
+            "tn": 265
+          },
+          "after": {
+            "tp": 86,
+            "fp": 21,
+            "fn": 21,
+            "tn": 265
+          },
+          "delta_tp": -1,
+          "delta_fp": 0,
+          "f1_before": 0.8093023255813954,
+          "f1_after": 0.8037383177570093
+        },
+        "krb5": {
+          "before": {
+            "tp": 90,
+            "fp": 0,
+            "fn": 13,
+            "tn": 74
+          },
+          "after": {
+            "tp": 90,
+            "fp": 0,
+            "fn": 13,
+            "tn": 74
+          },
+          "delta_tp": 0,
+          "delta_fp": 0,
+          "f1_before": 0.9326424870466321,
+          "f1_after": 0.9326424870466321
+        },
+        "mozilla firefox": {
+          "before": {
+            "tp": 1073,
+            "fp": 127,
+            "fn": 47,
+            "tn": 2751
+          },
+          "after": {
+            "tp": 1073,
+            "fp": 127,
+            "fn": 47,
+            "tn": 2751
+          },
+          "delta_tp": 0,
+          "delta_fp": 0,
+          "f1_before": 0.925,
+          "f1_after": 0.925
+        },
+        "php": {
+          "before": {
+            "tp": 346,
+            "fp": 49,
+            "fn": 61,
+            "tn": 540
+          },
+          "after": {
+            "tp": 348,
+            "fp": 49,
+            "fn": 59,
+            "tn": 540
+          },
+          "delta_tp": 2,
+          "delta_fp": 0,
+          "f1_before": 0.8628428927680798,
+          "f1_after": 0.8656716417910447
+        },
+        "radare2": {
+          "before": {
+            "tp": 167,
+            "fp": 6,
+            "fn": 6,
+            "tn": 100
+          },
+          "after": {
+            "tp": 167,
+            "fp": 6,
+            "fn": 6,
+            "tn": 100
+          },
+          "delta_tp": 0,
+          "delta_fp": 0,
+          "f1_before": 0.9653179190751445,
+          "f1_after": 0.9653179190751445
+        }
+      },
+      "matched_cohort": {
+        "before": {
+          "tp": 103,
+          "fp": 201,
+          "fn": 369,
+          "tn": 4732
+        },
+        "after": {
+          "tp": 108,
+          "fp": 202,
+          "fn": 364,
+          "tn": 4731
+        },
+        "delta_tp": 5,
+        "delta_fp": 1,
+        "f1_before": 0.2654639175257732,
+        "f1_after": 0.27621483375959077
+      },
+      "standalone_ap": 0.2007096389114431,
+      "fused_ap": 0.2712424756616954
+    },
+    "combined_observed_1": {
+      "project_tp": 3,
+      "frozen": {
+        "before": {
+          "tp": 2450,
+          "fp": 286,
+          "fn": 404,
+          "tn": 4759
+        },
+        "after": {
+          "tp": 2485,
+          "fp": 405,
+          "fn": 369,
+          "tn": 4640
+        },
+        "delta_tp": 35,
+        "delta_fp": 119,
+        "f1_before": 0.8765652951699463,
+        "f1_after": 0.8652506963788301
+      },
+      "per_project": {
+        "android": {
+          "before": {
+            "tp": 656,
+            "fp": 83,
+            "fn": 251,
+            "tn": 1011
+          },
+          "after": {
+            "tp": 658,
+            "fp": 83,
+            "fn": 249,
+            "tn": 1011
+          },
+          "delta_tp": 2,
+          "delta_fp": 0,
+          "f1_before": 0.7970838396111786,
+          "f1_after": 0.7985436893203883
+        },
+        "file": {
+          "before": {
+            "tp": 35,
+            "fp": 0,
+            "fn": 2,
+            "tn": 18
+          },
+          "after": {
+            "tp": 35,
+            "fp": 0,
+            "fn": 2,
+            "tn": 18
+          },
+          "delta_tp": 0,
+          "delta_fp": 0,
+          "f1_before": 0.9722222222222222,
+          "f1_after": 0.9722222222222222
+        },
+        "imagemagick": {
+          "before": {
+            "tp": 87,
+            "fp": 21,
+            "fn": 20,
+            "tn": 265
+          },
+          "after": {
+            "tp": 85,
+            "fp": 21,
+            "fn": 22,
+            "tn": 265
+          },
+          "delta_tp": -2,
+          "delta_fp": 0,
+          "f1_before": 0.8093023255813954,
+          "f1_after": 0.7981220657276995
+        },
+        "krb5": {
+          "before": {
+            "tp": 90,
+            "fp": 0,
+            "fn": 13,
+            "tn": 74
+          },
+          "after": {
+            "tp": 90,
+            "fp": 0,
+            "fn": 13,
+            "tn": 74
+          },
+          "delta_tp": 0,
+          "delta_fp": 0,
+          "f1_before": 0.9326424870466321,
+          "f1_after": 0.9326424870466321
+        },
+        "mozilla firefox": {
+          "before": {
+            "tp": 1073,
+            "fp": 127,
+            "fn": 47,
+            "tn": 2751
+          },
+          "after": {
+            "tp": 1072,
+            "fp": 127,
+            "fn": 48,
+            "tn": 2751
+          },
+          "delta_tp": -1,
+          "delta_fp": 0,
+          "f1_before": 0.925,
+          "f1_after": 0.9245364381198793
+        },
+        "php": {
+          "before": {
+            "tp": 346,
+            "fp": 49,
+            "fn": 61,
+            "tn": 540
+          },
+          "after": {
+            "tp": 350,
+            "fp": 49,
+            "fn": 57,
+            "tn": 540
+          },
+          "delta_tp": 4,
+          "delta_fp": 0,
+          "f1_before": 0.8628428927680798,
+          "f1_after": 0.8684863523573201
+        },
+        "radare2": {
+          "before": {
+            "tp": 167,
+            "fp": 6,
+            "fn": 6,
+            "tn": 100
+          },
+          "after": {
+            "tp": 167,
+            "fp": 6,
+            "fn": 6,
+            "tn": 100
+          },
+          "delta_tp": 0,
+          "delta_fp": 0,
+          "f1_before": 0.9653179190751445,
+          "f1_after": 0.9653179190751445
+        }
+      },
+      "matched_cohort": {
+        "before": {
+          "tp": 103,
+          "fp": 201,
+          "fn": 369,
+          "tn": 4732
+        },
+        "after": {
+          "tp": 112,
+          "fp": 202,
+          "fn": 360,
+          "tn": 4731
+        },
+        "delta_tp": 9,
+        "delta_fp": 1,
+        "f1_before": 0.2654639175257732,
+        "f1_after": 0.28498727735368956
+      },
+      "standalone_ap": 0.2007096389114431,
+      "fused_ap": 0.2712424756616954
+    },
+    "combined_prior_0.5": {
+      "project_tp": 1,
+      "frozen": {
+        "before": {
+          "tp": 2450,
+          "fp": 286,
+          "fn": 404,
+          "tn": 4759
+        },
+        "after": {
+          "tp": 2460,
+          "fp": 322,
+          "fn": 394,
+          "tn": 4723
+        },
+        "delta_tp": 10,
+        "delta_fp": 36,
+        "f1_before": 0.8765652951699463,
+        "f1_after": 0.872959545777147
+      },
+      "per_project": {
+        "android": {
+          "before": {
+            "tp": 656,
+            "fp": 83,
+            "fn": 251,
+            "tn": 1011
+          },
+          "after": {
+            "tp": 656,
+            "fp": 83,
+            "fn": 251,
+            "tn": 1011
+          },
+          "delta_tp": 0,
+          "delta_fp": 0,
+          "f1_before": 0.7970838396111786,
+          "f1_after": 0.7970838396111786
+        },
+        "file": {
+          "before": {
+            "tp": 35,
+            "fp": 0,
+            "fn": 2,
+            "tn": 18
+          },
+          "after": {
+            "tp": 35,
+            "fp": 0,
+            "fn": 2,
+            "tn": 18
+          },
+          "delta_tp": 0,
+          "delta_fp": 0,
+          "f1_before": 0.9722222222222222,
+          "f1_after": 0.9722222222222222
+        },
+        "imagemagick": {
+          "before": {
+            "tp": 87,
+            "fp": 21,
+            "fn": 20,
+            "tn": 265
+          },
+          "after": {
+            "tp": 86,
+            "fp": 21,
+            "fn": 21,
+            "tn": 265
+          },
+          "delta_tp": -1,
+          "delta_fp": 0,
+          "f1_before": 0.8093023255813954,
+          "f1_after": 0.8037383177570093
+        },
+        "krb5": {
+          "before": {
+            "tp": 90,
+            "fp": 0,
+            "fn": 13,
+            "tn": 74
+          },
+          "after": {
+            "tp": 90,
+            "fp": 0,
+            "fn": 13,
+            "tn": 74
+          },
+          "delta_tp": 0,
+          "delta_fp": 0,
+          "f1_before": 0.9326424870466321,
+          "f1_after": 0.9326424870466321
+        },
+        "mozilla firefox": {
+          "before": {
+            "tp": 1073,
+            "fp": 127,
+            "fn": 47,
+            "tn": 2751
+          },
+          "after": {
+            "tp": 1073,
+            "fp": 127,
+            "fn": 47,
+            "tn": 2751
+          },
+          "delta_tp": 0,
+          "delta_fp": 0,
+          "f1_before": 0.925,
+          "f1_after": 0.925
+        },
+        "php": {
+          "before": {
+            "tp": 346,
+            "fp": 49,
+            "fn": 61,
+            "tn": 540
+          },
+          "after": {
+            "tp": 348,
+            "fp": 49,
+            "fn": 59,
+            "tn": 540
+          },
+          "delta_tp": 2,
+          "delta_fp": 0,
+          "f1_before": 0.8628428927680798,
+          "f1_after": 0.8656716417910447
+        },
+        "radare2": {
+          "before": {
+            "tp": 167,
+            "fp": 6,
+            "fn": 6,
+            "tn": 100
+          },
+          "after": {
+            "tp": 167,
+            "fp": 6,
+            "fn": 6,
+            "tn": 100
+          },
+          "delta_tp": 0,
+          "delta_fp": 0,
+          "f1_before": 0.9653179190751445,
+          "f1_after": 0.9653179190751445
+        }
+      },
+      "matched_cohort": {
+        "before": {
+          "tp": 103,
+          "fp": 201,
+          "fn": 369,
+          "tn": 4732
+        },
+        "after": {
+          "tp": 108,
+          "fp": 202,
+          "fn": 364,
+          "tn": 4731
+        },
+        "delta_tp": 5,
+        "delta_fp": 1,
+        "f1_before": 0.2654639175257732,
+        "f1_after": 0.27621483375959077
+      },
+      "standalone_ap": 0.2007096389114431,
+      "fused_ap": 0.2712424756616954
+    },
+    "combined_prior_1": {
+      "project_tp": 3,
+      "frozen": {
+        "before": {
+          "tp": 2450,
+          "fp": 286,
+          "fn": 404,
+          "tn": 4759
+        },
+        "after": {
+          "tp": 2485,
+          "fp": 416,
+          "fn": 369,
+          "tn": 4629
+        },
+        "delta_tp": 35,
+        "delta_fp": 130,
+        "f1_before": 0.8765652951699463,
+        "f1_after": 0.8635968722849696
+      },
+      "per_project": {
+        "android": {
+          "before": {
+            "tp": 656,
+            "fp": 83,
+            "fn": 251,
+            "tn": 1011
+          },
+          "after": {
+            "tp": 658,
+            "fp": 83,
+            "fn": 249,
+            "tn": 1011
+          },
+          "delta_tp": 2,
+          "delta_fp": 0,
+          "f1_before": 0.7970838396111786,
+          "f1_after": 0.7985436893203883
+        },
+        "file": {
+          "before": {
+            "tp": 35,
+            "fp": 0,
+            "fn": 2,
+            "tn": 18
+          },
+          "after": {
+            "tp": 35,
+            "fp": 0,
+            "fn": 2,
+            "tn": 18
+          },
+          "delta_tp": 0,
+          "delta_fp": 0,
+          "f1_before": 0.9722222222222222,
+          "f1_after": 0.9722222222222222
+        },
+        "imagemagick": {
+          "before": {
+            "tp": 87,
+            "fp": 21,
+            "fn": 20,
+            "tn": 265
+          },
+          "after": {
+            "tp": 85,
+            "fp": 21,
+            "fn": 22,
+            "tn": 265
+          },
+          "delta_tp": -2,
+          "delta_fp": 0,
+          "f1_before": 0.8093023255813954,
+          "f1_after": 0.7981220657276995
+        },
+        "krb5": {
+          "before": {
+            "tp": 90,
+            "fp": 0,
+            "fn": 13,
+            "tn": 74
+          },
+          "after": {
+            "tp": 90,
+            "fp": 0,
+            "fn": 13,
+            "tn": 74
+          },
+          "delta_tp": 0,
+          "delta_fp": 0,
+          "f1_before": 0.9326424870466321,
+          "f1_after": 0.9326424870466321
+        },
+        "mozilla firefox": {
+          "before": {
+            "tp": 1073,
+            "fp": 127,
+            "fn": 47,
+            "tn": 2751
+          },
+          "after": {
+            "tp": 1072,
+            "fp": 127,
+            "fn": 48,
+            "tn": 2751
+          },
+          "delta_tp": -1,
+          "delta_fp": 0,
+          "f1_before": 0.925,
+          "f1_after": 0.9245364381198793
+        },
+        "php": {
+          "before": {
+            "tp": 346,
+            "fp": 49,
+            "fn": 61,
+            "tn": 540
+          },
+          "after": {
+            "tp": 350,
+            "fp": 49,
+            "fn": 57,
+            "tn": 540
+          },
+          "delta_tp": 4,
+          "delta_fp": 0,
+          "f1_before": 0.8628428927680798,
+          "f1_after": 0.8684863523573201
+        },
+        "radare2": {
+          "before": {
+            "tp": 167,
+            "fp": 6,
+            "fn": 6,
+            "tn": 100
+          },
+          "after": {
+            "tp": 167,
+            "fp": 6,
+            "fn": 6,
+            "tn": 100
+          },
+          "delta_tp": 0,
+          "delta_fp": 0,
+          "f1_before": 0.9653179190751445,
+          "f1_after": 0.9653179190751445
+        }
+      },
+      "matched_cohort": {
+        "before": {
+          "tp": 103,
+          "fp": 201,
+          "fn": 369,
+          "tn": 4732
+        },
+        "after": {
+          "tp": 112,
+          "fp": 202,
+          "fn": 360,
+          "tn": 4731
+        },
+        "delta_tp": 9,
+        "delta_fp": 1,
+        "f1_before": 0.2654639175257732,
+        "f1_after": 0.28498727735368956
+      },
+      "standalone_ap": 0.2007096389114431,
+      "fused_ap": 0.2712424756616954
+    }
+  },
+  "policy_sha256": "9f217aa2b77506cb578c2f33f1c7dbf58a3a2234d40217d1ac53977d1871840b",
+  "calibrators_sha256": "f81e15812b26ee41063848f181fdacd448e7659b4189093cb366361b717df813"
+}

@@ -1,0 +1,57 @@
+{
+  "score": 0.9647211005823113,
+  "paired_reference_score": 0.9646199363614312,
+  "target_gap": 0.005278899417688665,
+  "quality": {
+    "vulnerability": {
+      "precision": 0.9576237227008616,
+      "recall": 0.9509550338241146,
+      "f1": 0.9542777278626335
+    },
+    "MAT": {
+      "precision": 1.0,
+      "recall": 0.8792079207920792,
+      "f1": 0.9357218124341412
+    },
+    "mean": {
+      "precision": 0.9788118613504309,
+      "recall": 0.9150814773080969,
+      "f1": 0.9449997701483874
+    }
+  },
+  "cost": {
+    "forward_seconds": 6.469568969449028,
+    "wall_seconds": 8.034278048900887,
+    "analytic_gflops": 14772.715692469994,
+    "projection_gflops": 0.085552128,
+    "new_rows": 1290,
+    "routed": 1990,
+    "scanner_calls": 7279,
+    "retained_bytes": 7047855796,
+    "eager_rows": 0,
+    "late_rows": 277
+  },
+  "vulnerability": {
+    "tp": 9559,
+    "fp": 423,
+    "fn": 493,
+    "tn": 20180
+  },
+  "MAT": {
+    "tp": 444,
+    "fp": 0,
+    "fn": 61,
+    "tn": 30150
+  },
+  "changes_to_target_at_fixed_cost": {
+    "tp_v": 343,
+    "fp_v": 363,
+    "tp_m": 16
+  },
+  "archive_sha256": "debd19f64365645bb2bf56ce5096bd96e9e1e6ae14685fb2427a8387e834f9d7",
+  "checkpoint_sha256": "b5f2b25d3fb1db3adac8e95623e88ba4e5ff787e8b7c002423966031c86392a1",
+  "public_sha256": "4d5e1fcffa59d08ee3f285209c9538c425cd2723dbeefb2530e1520364a1b2b0",
+  "scored_decisions": 61310,
+  "measurement_sha256": "8c5f381e6c147641fc75e642061d64eac4c7fb55d6cd91d05fe4326522785934",
+  "audit_sha256": "34dd216ec717084a7e563dcdc53d978d33eea0d3e5b684e9a427d3978461d3a5"
+}

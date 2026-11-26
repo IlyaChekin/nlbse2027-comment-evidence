@@ -1,0 +1,1779 @@
+{
+  "family": {
+    "score": "sparse:point_1.7_1:fixed",
+    "retain_tp": "sparse:point_0.8_1:tp"
+  },
+  "options": [
+    "sparse:point_1.7_1:fixed",
+    "sparse:point_0.8_1:tp"
+  ],
+  "variants": {
+    "sparse:point_0.8_0.7:tp": {
+      "cut": -0.6345682177931681,
+      "cal": {
+        "before": {
+          "tp": 1341,
+          "fp": 93,
+          "fn": 47,
+          "tn": 2811
+        },
+        "after": {
+          "tp": 1341,
+          "fp": 89,
+          "fn": 47,
+          "tn": 2815
+        },
+        "delta_tp": 0,
+        "delta_fp": -4,
+        "f1_before": 0.9503897944720057,
+        "f1_after": 0.9517388218594748
+      },
+      "frozen": {
+        "before": {
+          "tp": 1330,
+          "fp": 101,
+          "fn": 53,
+          "tn": 2810
+        },
+        "after": {
+          "tp": 1328,
+          "fp": 94,
+          "fn": 55,
+          "tn": 2817
+        },
+        "delta_tp": -2,
+        "delta_fp": -7,
+        "f1_before": 0.945273631840796,
+        "f1_after": 0.9468805704099822
+      },
+      "proxy": 0.0003703426813158892,
+      "project_tp": [
+        0,
+        3
+      ],
+      "source_sha256": "6cadda2e58e0e01ea03c17f707db757d133445793390279ace418eac22850e5e",
+      "mode": "point",
+      "cal_calls": 125,
+      "setting": {
+        "kind": "sparse",
+        "width": 0.8,
+        "mix": 0.7,
+        "cut": -0.6345682177931681
+      }
+    },
+    "sparse:point_0.8_0.7:fixed": {
+      "cut": 0.0,
+      "cal": {
+        "before": {
+          "tp": 1341,
+          "fp": 93,
+          "fn": 47,
+          "tn": 2811
+        },
+        "after": {
+          "tp": 1326,
+          "fp": 63,
+          "fn": 62,
+          "tn": 2841
+        },
+        "delta_tp": -15,
+        "delta_fp": -30,
+        "f1_before": 0.9503897944720057,
+        "f1_after": 0.9549873964710118
+      },
+      "frozen": {
+        "before": {
+          "tp": 1330,
+          "fp": 101,
+          "fn": 53,
+          "tn": 2810
+        },
+        "after": {
+          "tp": 1314,
+          "fp": 62,
+          "fn": 69,
+          "tn": 2849
+        },
+        "delta_tp": -16,
+        "delta_fp": -39,
+        "f1_before": 0.945273631840796,
+        "f1_after": 0.9525190286335629
+      },
+      "proxy": 0.0013449150647770033,
+      "project_tp": [
+        0,
+        3
+      ],
+      "source_sha256": "6cadda2e58e0e01ea03c17f707db757d133445793390279ace418eac22850e5e",
+      "mode": "point",
+      "cal_calls": 125,
+      "setting": {
+        "kind": "sparse",
+        "width": 0.8,
+        "mix": 0.7,
+        "cut": 0.0
+      }
+    },
+    "sparse:point_0.8_1:tp": {
+      "cut": -0.939447920530874,
+      "cal": {
+        "before": {
+          "tp": 1341,
+          "fp": 93,
+          "fn": 47,
+          "tn": 2811
+        },
+        "after": {
+          "tp": 1341,
+          "fp": 85,
+          "fn": 47,
+          "tn": 2819
+        },
+        "delta_tp": 0,
+        "delta_fp": -8,
+        "f1_before": 0.9503897944720057,
+        "f1_after": 0.9530916844349681
+      },
+      "frozen": {
+        "before": {
+          "tp": 1330,
+          "fp": 101,
+          "fn": 53,
+          "tn": 2810
+        },
+        "after": {
+          "tp": 1326,
+          "fp": 91,
+          "fn": 57,
+          "tn": 2820
+        },
+        "delta_tp": -4,
+        "delta_fp": -10,
+        "f1_before": 0.945273631840796,
+        "f1_after": 0.9471428571428572
+      },
+      "proxy": 0.0007762014539638714,
+      "project_tp": [
+        7,
+        3
+      ],
+      "source_sha256": "6cadda2e58e0e01ea03c17f707db757d133445793390279ace418eac22850e5e",
+      "mode": "point",
+      "cal_calls": 125,
+      "setting": {
+        "kind": "sparse",
+        "width": 0.8,
+        "mix": 1.0,
+        "cut": -0.939447920530874
+      }
+    },
+    "sparse:point_0.8_1:fixed": {
+      "cut": 0.0,
+      "cal": {
+        "before": {
+          "tp": 1341,
+          "fp": 93,
+          "fn": 47,
+          "tn": 2811
+        },
+        "after": {
+          "tp": 1322,
+          "fp": 58,
+          "fn": 66,
+          "tn": 2846
+        },
+        "delta_tp": -19,
+        "delta_fp": -35,
+        "f1_before": 0.9503897944720057,
+        "f1_after": 0.9552023121387283
+      },
+      "frozen": {
+        "before": {
+          "tp": 1330,
+          "fp": 101,
+          "fn": 53,
+          "tn": 2810
+        },
+        "after": {
+          "tp": 1312,
+          "fp": 61,
+          "fn": 71,
+          "tn": 2850
+        },
+        "delta_tp": -18,
+        "delta_fp": -40,
+        "f1_before": 0.945273631840796,
+        "f1_after": 0.9521044992743106
+      },
+      "proxy": 0.001409389765091946,
+      "project_tp": [
+        7,
+        3
+      ],
+      "source_sha256": "6cadda2e58e0e01ea03c17f707db757d133445793390279ace418eac22850e5e",
+      "mode": "point",
+      "cal_calls": 125,
+      "setting": {
+        "kind": "sparse",
+        "width": 0.8,
+        "mix": 1.0,
+        "cut": 0.0
+      }
+    },
+    "sparse:point_1.7_0.7:tp": {
+      "cut": -0.6345682177931681,
+      "cal": {
+        "before": {
+          "tp": 1341,
+          "fp": 93,
+          "fn": 47,
+          "tn": 2811
+        },
+        "after": {
+          "tp": 1341,
+          "fp": 89,
+          "fn": 47,
+          "tn": 2815
+        },
+        "delta_tp": 0,
+        "delta_fp": -4,
+        "f1_before": 0.9503897944720057,
+        "f1_after": 0.9517388218594748
+      },
+      "frozen": {
+        "before": {
+          "tp": 1330,
+          "fp": 101,
+          "fn": 53,
+          "tn": 2810
+        },
+        "after": {
+          "tp": 1328,
+          "fp": 94,
+          "fn": 55,
+          "tn": 2817
+        },
+        "delta_tp": -2,
+        "delta_fp": -7,
+        "f1_before": 0.945273631840796,
+        "f1_after": 0.9468805704099822
+      },
+      "proxy": 0.00032524341435964183,
+      "project_tp": [
+        0,
+        3
+      ],
+      "source_sha256": "6cadda2e58e0e01ea03c17f707db757d133445793390279ace418eac22850e5e",
+      "mode": "point",
+      "cal_calls": 337,
+      "setting": {
+        "kind": "sparse",
+        "width": 1.7,
+        "mix": 0.7,
+        "cut": -0.6345682177931681
+      }
+    },
+    "sparse:point_1.7_0.7:fixed": {
+      "cut": 0.0,
+      "cal": {
+        "before": {
+          "tp": 1341,
+          "fp": 93,
+          "fn": 47,
+          "tn": 2811
+        },
+        "after": {
+          "tp": 1323,
+          "fp": 61,
+          "fn": 65,
+          "tn": 2843
+        },
+        "delta_tp": -18,
+        "delta_fp": -32,
+        "f1_before": 0.9503897944720057,
+        "f1_after": 0.9545454545454546
+      },
+      "frozen": {
+        "before": {
+          "tp": 1330,
+          "fp": 101,
+          "fn": 53,
+          "tn": 2810
+        },
+        "after": {
+          "tp": 1313,
+          "fp": 61,
+          "fn": 70,
+          "tn": 2850
+        },
+        "delta_tp": -17,
+        "delta_fp": -40,
+        "f1_before": 0.945273631840796,
+        "f1_after": 0.9524845846935074
+      },
+      "proxy": 0.0011672332201535828,
+      "project_tp": [
+        0,
+        3
+      ],
+      "source_sha256": "6cadda2e58e0e01ea03c17f707db757d133445793390279ace418eac22850e5e",
+      "mode": "point",
+      "cal_calls": 337,
+      "setting": {
+        "kind": "sparse",
+        "width": 1.7,
+        "mix": 0.7,
+        "cut": 0.0
+      }
+    },
+    "sparse:point_1.7_1:tp": {
+      "cut": -0.939447920530874,
+      "cal": {
+        "before": {
+          "tp": 1341,
+          "fp": 93,
+          "fn": 47,
+          "tn": 2811
+        },
+        "after": {
+          "tp": 1341,
+          "fp": 85,
+          "fn": 47,
+          "tn": 2819
+        },
+        "delta_tp": 0,
+        "delta_fp": -8,
+        "f1_before": 0.9503897944720057,
+        "f1_after": 0.9530916844349681
+      },
+      "frozen": {
+        "before": {
+          "tp": 1330,
+          "fp": 101,
+          "fn": 53,
+          "tn": 2810
+        },
+        "after": {
+          "tp": 1326,
+          "fp": 91,
+          "fn": 57,
+          "tn": 2820
+        },
+        "delta_tp": -4,
+        "delta_fp": -10,
+        "f1_before": 0.945273631840796,
+        "f1_after": 0.9471428571428572
+      },
+      "proxy": 0.0007311021870076241,
+      "project_tp": [
+        8,
+        3
+      ],
+      "source_sha256": "6cadda2e58e0e01ea03c17f707db757d133445793390279ace418eac22850e5e",
+      "mode": "point",
+      "cal_calls": 337,
+      "setting": {
+        "kind": "sparse",
+        "width": 1.7,
+        "mix": 1.0,
+        "cut": -0.939447920530874
+      }
+    },
+    "sparse:point_1.7_1:fixed": {
+      "cut": 0.0,
+      "cal": {
+        "before": {
+          "tp": 1341,
+          "fp": 93,
+          "fn": 47,
+          "tn": 2811
+        },
+        "after": {
+          "tp": 1314,
+          "fp": 47,
+          "fn": 74,
+          "tn": 2857
+        },
+        "delta_tp": -27,
+        "delta_fp": -46,
+        "f1_before": 0.9503897944720057,
+        "f1_after": 0.9559839941797017
+      },
+      "frozen": {
+        "before": {
+          "tp": 1330,
+          "fp": 101,
+          "fn": 53,
+          "tn": 2810
+        },
+        "after": {
+          "tp": 1305,
+          "fp": 53,
+          "fn": 78,
+          "tn": 2858
+        },
+        "delta_tp": -25,
+        "delta_fp": -48,
+        "f1_before": 0.945273631840796,
+        "f1_after": 0.952207223641007
+      },
+      "proxy": 0.0015987951104277176,
+      "project_tp": [
+        8,
+        3
+      ],
+      "source_sha256": "6cadda2e58e0e01ea03c17f707db757d133445793390279ace418eac22850e5e",
+      "mode": "point",
+      "cal_calls": 337,
+      "setting": {
+        "kind": "sparse",
+        "width": 1.7,
+        "mix": 1.0,
+        "cut": 0.0
+      }
+    },
+    "sparse:point_3.2_0.7:tp": {
+      "cut": -0.6345682177931681,
+      "cal": {
+        "before": {
+          "tp": 1341,
+          "fp": 93,
+          "fn": 47,
+          "tn": 2811
+        },
+        "after": {
+          "tp": 1341,
+          "fp": 89,
+          "fn": 47,
+          "tn": 2815
+        },
+        "delta_tp": 0,
+        "delta_fp": -4,
+        "f1_before": 0.9503897944720057,
+        "f1_after": 0.9517388218594748
+      },
+      "frozen": {
+        "before": {
+          "tp": 1330,
+          "fp": 101,
+          "fn": 53,
+          "tn": 2810
+        },
+        "after": {
+          "tp": 1328,
+          "fp": 94,
+          "fn": 55,
+          "tn": 2817
+        },
+        "delta_tp": -2,
+        "delta_fp": -7,
+        "f1_before": 0.945273631840796,
+        "f1_after": 0.9468805704099822
+      },
+      "proxy": 0.00026344013747232523,
+      "project_tp": [
+        0,
+        3
+      ],
+      "source_sha256": "6cadda2e58e0e01ea03c17f707db757d133445793390279ace418eac22850e5e",
+      "mode": "point",
+      "cal_calls": 605,
+      "setting": {
+        "kind": "sparse",
+        "width": 3.2,
+        "mix": 0.7,
+        "cut": -0.6345682177931681
+      }
+    },
+    "sparse:point_3.2_0.7:fixed": {
+      "cut": 0.0,
+      "cal": {
+        "before": {
+          "tp": 1341,
+          "fp": 93,
+          "fn": 47,
+          "tn": 2811
+        },
+        "after": {
+          "tp": 1323,
+          "fp": 61,
+          "fn": 65,
+          "tn": 2843
+        },
+        "delta_tp": -18,
+        "delta_fp": -32,
+        "f1_before": 0.9503897944720057,
+        "f1_after": 0.9545454545454546
+      },
+      "frozen": {
+        "before": {
+          "tp": 1330,
+          "fp": 101,
+          "fn": 53,
+          "tn": 2810
+        },
+        "after": {
+          "tp": 1313,
+          "fp": 61,
+          "fn": 70,
+          "tn": 2850
+        },
+        "delta_tp": -17,
+        "delta_fp": -40,
+        "f1_before": 0.945273631840796,
+        "f1_after": 0.9524845846935074
+      },
+      "proxy": 0.0011054299432662663,
+      "project_tp": [
+        0,
+        3
+      ],
+      "source_sha256": "6cadda2e58e0e01ea03c17f707db757d133445793390279ace418eac22850e5e",
+      "mode": "point",
+      "cal_calls": 605,
+      "setting": {
+        "kind": "sparse",
+        "width": 3.2,
+        "mix": 0.7,
+        "cut": 0.0
+      }
+    },
+    "sparse:point_3.2_1:tp": {
+      "cut": -0.939447920530874,
+      "cal": {
+        "before": {
+          "tp": 1341,
+          "fp": 93,
+          "fn": 47,
+          "tn": 2811
+        },
+        "after": {
+          "tp": 1341,
+          "fp": 85,
+          "fn": 47,
+          "tn": 2819
+        },
+        "delta_tp": 0,
+        "delta_fp": -8,
+        "f1_before": 0.9503897944720057,
+        "f1_after": 0.9530916844349681
+      },
+      "frozen": {
+        "before": {
+          "tp": 1330,
+          "fp": 101,
+          "fn": 53,
+          "tn": 2810
+        },
+        "after": {
+          "tp": 1326,
+          "fp": 91,
+          "fn": 57,
+          "tn": 2820
+        },
+        "delta_tp": -4,
+        "delta_fp": -10,
+        "f1_before": 0.945273631840796,
+        "f1_after": 0.9471428571428572
+      },
+      "proxy": 0.0006692989101203075,
+      "project_tp": [
+        8,
+        3
+      ],
+      "source_sha256": "6cadda2e58e0e01ea03c17f707db757d133445793390279ace418eac22850e5e",
+      "mode": "point",
+      "cal_calls": 605,
+      "setting": {
+        "kind": "sparse",
+        "width": 3.2,
+        "mix": 1.0,
+        "cut": -0.939447920530874
+      }
+    },
+    "sparse:point_3.2_1:fixed": {
+      "cut": 0.0,
+      "cal": {
+        "before": {
+          "tp": 1341,
+          "fp": 93,
+          "fn": 47,
+          "tn": 2811
+        },
+        "after": {
+          "tp": 1314,
+          "fp": 47,
+          "fn": 74,
+          "tn": 2857
+        },
+        "delta_tp": -27,
+        "delta_fp": -46,
+        "f1_before": 0.9503897944720057,
+        "f1_after": 0.9559839941797017
+      },
+      "frozen": {
+        "before": {
+          "tp": 1330,
+          "fp": 101,
+          "fn": 53,
+          "tn": 2810
+        },
+        "after": {
+          "tp": 1305,
+          "fp": 53,
+          "fn": 78,
+          "tn": 2858
+        },
+        "delta_tp": -25,
+        "delta_fp": -48,
+        "f1_before": 0.945273631840796,
+        "f1_after": 0.952207223641007
+      },
+      "proxy": 0.0015369918335404011,
+      "project_tp": [
+        8,
+        3
+      ],
+      "source_sha256": "6cadda2e58e0e01ea03c17f707db757d133445793390279ace418eac22850e5e",
+      "mode": "point",
+      "cal_calls": 605,
+      "setting": {
+        "kind": "sparse",
+        "width": 3.2,
+        "mix": 1.0,
+        "cut": 0.0
+      }
+    },
+    "sparse:point_all_0.7:tp": {
+      "cut": -0.6345682177931681,
+      "cal": {
+        "before": {
+          "tp": 1341,
+          "fp": 93,
+          "fn": 47,
+          "tn": 2811
+        },
+        "after": {
+          "tp": 1341,
+          "fp": 89,
+          "fn": 47,
+          "tn": 2815
+        },
+        "delta_tp": 0,
+        "delta_fp": -4,
+        "f1_before": 0.9503897944720057,
+        "f1_after": 0.9517388218594748
+      },
+      "frozen": {
+        "before": {
+          "tp": 1330,
+          "fp": 101,
+          "fn": 53,
+          "tn": 2810
+        },
+        "after": {
+          "tp": 1328,
+          "fp": 94,
+          "fn": 55,
+          "tn": 2817
+        },
+        "delta_tp": -2,
+        "delta_fp": -7,
+        "f1_before": 0.945273631840796,
+        "f1_after": 0.9468805704099822
+      },
+      "proxy": 0.00024786447682490344,
+      "project_tp": [
+        0,
+        3
+      ],
+      "source_sha256": "6cadda2e58e0e01ea03c17f707db757d133445793390279ace418eac22850e5e",
+      "mode": "point",
+      "cal_calls": 645,
+      "setting": {
+        "kind": "sparse",
+        "width": null,
+        "mix": 0.7,
+        "cut": -0.6345682177931681
+      }
+    },
+    "sparse:point_all_0.7:fixed": {
+      "cut": 0.0,
+      "cal": {
+        "before": {
+          "tp": 1341,
+          "fp": 93,
+          "fn": 47,
+          "tn": 2811
+        },
+        "after": {
+          "tp": 1323,
+          "fp": 61,
+          "fn": 65,
+          "tn": 2843
+        },
+        "delta_tp": -18,
+        "delta_fp": -32,
+        "f1_before": 0.9503897944720057,
+        "f1_after": 0.9545454545454546
+      },
+      "frozen": {
+        "before": {
+          "tp": 1330,
+          "fp": 101,
+          "fn": 53,
+          "tn": 2810
+        },
+        "after": {
+          "tp": 1313,
+          "fp": 61,
+          "fn": 70,
+          "tn": 2850
+        },
+        "delta_tp": -17,
+        "delta_fp": -40,
+        "f1_before": 0.945273631840796,
+        "f1_after": 0.9524845846935074
+      },
+      "proxy": 0.0010898542826188445,
+      "project_tp": [
+        0,
+        3
+      ],
+      "source_sha256": "6cadda2e58e0e01ea03c17f707db757d133445793390279ace418eac22850e5e",
+      "mode": "point",
+      "cal_calls": 645,
+      "setting": {
+        "kind": "sparse",
+        "width": null,
+        "mix": 0.7,
+        "cut": 0.0
+      }
+    },
+    "sparse:point_all_1:tp": {
+      "cut": -0.939447920530874,
+      "cal": {
+        "before": {
+          "tp": 1341,
+          "fp": 93,
+          "fn": 47,
+          "tn": 2811
+        },
+        "after": {
+          "tp": 1341,
+          "fp": 85,
+          "fn": 47,
+          "tn": 2819
+        },
+        "delta_tp": 0,
+        "delta_fp": -8,
+        "f1_before": 0.9503897944720057,
+        "f1_after": 0.9530916844349681
+      },
+      "frozen": {
+        "before": {
+          "tp": 1330,
+          "fp": 101,
+          "fn": 53,
+          "tn": 2810
+        },
+        "after": {
+          "tp": 1326,
+          "fp": 91,
+          "fn": 57,
+          "tn": 2820
+        },
+        "delta_tp": -4,
+        "delta_fp": -10,
+        "f1_before": 0.945273631840796,
+        "f1_after": 0.9471428571428572
+      },
+      "proxy": 0.0006537232494728856,
+      "project_tp": [
+        8,
+        3
+      ],
+      "source_sha256": "6cadda2e58e0e01ea03c17f707db757d133445793390279ace418eac22850e5e",
+      "mode": "point",
+      "cal_calls": 645,
+      "setting": {
+        "kind": "sparse",
+        "width": null,
+        "mix": 1.0,
+        "cut": -0.939447920530874
+      }
+    },
+    "sparse:point_all_1:fixed": {
+      "cut": 0.0,
+      "cal": {
+        "before": {
+          "tp": 1341,
+          "fp": 93,
+          "fn": 47,
+          "tn": 2811
+        },
+        "after": {
+          "tp": 1314,
+          "fp": 47,
+          "fn": 74,
+          "tn": 2857
+        },
+        "delta_tp": -27,
+        "delta_fp": -46,
+        "f1_before": 0.9503897944720057,
+        "f1_after": 0.9559839941797017
+      },
+      "frozen": {
+        "before": {
+          "tp": 1330,
+          "fp": 101,
+          "fn": 53,
+          "tn": 2810
+        },
+        "after": {
+          "tp": 1305,
+          "fp": 53,
+          "fn": 78,
+          "tn": 2858
+        },
+        "delta_tp": -25,
+        "delta_fp": -48,
+        "f1_before": 0.945273631840796,
+        "f1_after": 0.952207223641007
+      },
+      "proxy": 0.0015214161728929793,
+      "project_tp": [
+        8,
+        3
+      ],
+      "source_sha256": "6cadda2e58e0e01ea03c17f707db757d133445793390279ace418eac22850e5e",
+      "mode": "point",
+      "cal_calls": 645,
+      "setting": {
+        "kind": "sparse",
+        "width": null,
+        "mix": 1.0,
+        "cut": 0.0
+      }
+    },
+    "sparse:pair_0.35_0.35:fixed": {
+      "cut": 0.0,
+      "cal": {
+        "before": {
+          "tp": 1341,
+          "fp": 93,
+          "fn": 47,
+          "tn": 2811
+        },
+        "after": {
+          "tp": 1338,
+          "fp": 81,
+          "fn": 50,
+          "tn": 2823
+        },
+        "delta_tp": -3,
+        "delta_fp": -12,
+        "f1_before": 0.9503897944720057,
+        "f1_after": 0.9533309583184895
+      },
+      "frozen": {
+        "before": {
+          "tp": 1330,
+          "fp": 101,
+          "fn": 53,
+          "tn": 2810
+        },
+        "after": {
+          "tp": 1326,
+          "fp": 86,
+          "fn": 57,
+          "tn": 2825
+        },
+        "delta_tp": -4,
+        "delta_fp": -15,
+        "f1_before": 0.945273631840796,
+        "f1_after": 0.9488372093023256
+      },
+      "proxy": 0.0008758065523100832,
+      "project_tp": [
+        1,
+        1
+      ],
+      "source_sha256": "6cadda2e58e0e01ea03c17f707db757d133445793390279ace418eac22850e5e",
+      "mode": "pair",
+      "cal_calls": 37,
+      "setting": {
+        "kind": "sparse",
+        "width": 0.35,
+        "mix": 0.35,
+        "cut": 0.0
+      }
+    },
+    "sparse:pair_0.8_0.35:fixed": {
+      "cut": 0.0,
+      "cal": {
+        "before": {
+          "tp": 1341,
+          "fp": 93,
+          "fn": 47,
+          "tn": 2811
+        },
+        "after": {
+          "tp": 1337,
+          "fp": 78,
+          "fn": 51,
+          "tn": 2826
+        },
+        "delta_tp": -4,
+        "delta_fp": -15,
+        "f1_before": 0.9503897944720057,
+        "f1_after": 0.953977880841955
+      },
+      "frozen": {
+        "before": {
+          "tp": 1330,
+          "fp": 101,
+          "fn": 53,
+          "tn": 2810
+        },
+        "after": {
+          "tp": 1325,
+          "fp": 79,
+          "fn": 58,
+          "tn": 2832
+        },
+        "delta_tp": -5,
+        "delta_fp": -22,
+        "f1_before": 0.945273631840796,
+        "f1_after": 0.950843200574094
+      },
+      "proxy": 0.001039118567185589,
+      "project_tp": [
+        0,
+        1
+      ],
+      "source_sha256": "6cadda2e58e0e01ea03c17f707db757d133445793390279ace418eac22850e5e",
+      "mode": "pair",
+      "cal_calls": 125,
+      "setting": {
+        "kind": "sparse",
+        "width": 0.8,
+        "mix": 0.35,
+        "cut": 0.0
+      }
+    },
+    "sparse:pair_0.8_1:fixed": {
+      "cut": 0.0,
+      "cal": {
+        "before": {
+          "tp": 1341,
+          "fp": 93,
+          "fn": 47,
+          "tn": 2811
+        },
+        "after": {
+          "tp": 1325,
+          "fp": 61,
+          "fn": 63,
+          "tn": 2843
+        },
+        "delta_tp": -16,
+        "delta_fp": -32,
+        "f1_before": 0.9503897944720057,
+        "f1_after": 0.9552992069214131
+      },
+      "frozen": {
+        "before": {
+          "tp": 1330,
+          "fp": 101,
+          "fn": 53,
+          "tn": 2810
+        },
+        "after": {
+          "tp": 1312,
+          "fp": 61,
+          "fn": 71,
+          "tn": 2850
+        },
+        "delta_tp": -18,
+        "delta_fp": -40,
+        "f1_before": 0.945273631840796,
+        "f1_after": 0.9521044992743106
+      },
+      "proxy": 0.0014355163910230245,
+      "project_tp": [
+        2,
+        0
+      ],
+      "source_sha256": "6cadda2e58e0e01ea03c17f707db757d133445793390279ace418eac22850e5e",
+      "mode": "pair",
+      "cal_calls": 125,
+      "setting": {
+        "kind": "sparse",
+        "width": 0.8,
+        "mix": 1.0,
+        "cut": 0.0
+      }
+    },
+    "sparse:pair_1.7_0.35:fixed": {
+      "cut": 0.0,
+      "cal": {
+        "before": {
+          "tp": 1341,
+          "fp": 93,
+          "fn": 47,
+          "tn": 2811
+        },
+        "after": {
+          "tp": 1337,
+          "fp": 78,
+          "fn": 51,
+          "tn": 2826
+        },
+        "delta_tp": -4,
+        "delta_fp": -15,
+        "f1_before": 0.9503897944720057,
+        "f1_after": 0.953977880841955
+      },
+      "frozen": {
+        "before": {
+          "tp": 1330,
+          "fp": 101,
+          "fn": 53,
+          "tn": 2810
+        },
+        "after": {
+          "tp": 1325,
+          "fp": 79,
+          "fn": 58,
+          "tn": 2832
+        },
+        "delta_tp": -5,
+        "delta_fp": -22,
+        "f1_before": 0.945273631840796,
+        "f1_after": 0.950843200574094
+      },
+      "proxy": 0.0009958068849732315,
+      "project_tp": [
+        0,
+        1
+      ],
+      "source_sha256": "6cadda2e58e0e01ea03c17f707db757d133445793390279ace418eac22850e5e",
+      "mode": "pair",
+      "cal_calls": 337,
+      "setting": {
+        "kind": "sparse",
+        "width": 1.7,
+        "mix": 0.35,
+        "cut": 0.0
+      }
+    },
+    "sparse:pair_1.7_1:fixed": {
+      "cut": 0.0,
+      "cal": {
+        "before": {
+          "tp": 1341,
+          "fp": 93,
+          "fn": 47,
+          "tn": 2811
+        },
+        "after": {
+          "tp": 1316,
+          "fp": 50,
+          "fn": 72,
+          "tn": 2854
+        },
+        "delta_tp": -25,
+        "delta_fp": -43,
+        "f1_before": 0.9503897944720057,
+        "f1_after": 0.9557007988380537
+      },
+      "frozen": {
+        "before": {
+          "tp": 1330,
+          "fp": 101,
+          "fn": 53,
+          "tn": 2810
+        },
+        "after": {
+          "tp": 1307,
+          "fp": 53,
+          "fn": 76,
+          "tn": 2858
+        },
+        "delta_tp": -23,
+        "delta_fp": -48,
+        "f1_before": 0.945273631840796,
+        "f1_after": 0.9529711994166971
+      },
+      "proxy": 0.0015126822838028397,
+      "project_tp": [
+        3,
+        0
+      ],
+      "source_sha256": "6cadda2e58e0e01ea03c17f707db757d133445793390279ace418eac22850e5e",
+      "mode": "pair",
+      "cal_calls": 337,
+      "setting": {
+        "kind": "sparse",
+        "width": 1.7,
+        "mix": 1.0,
+        "cut": 0.0
+      }
+    },
+    "sparse:pair_3.2_0.35:fixed": {
+      "cut": 0.0,
+      "cal": {
+        "before": {
+          "tp": 1341,
+          "fp": 93,
+          "fn": 47,
+          "tn": 2811
+        },
+        "after": {
+          "tp": 1337,
+          "fp": 78,
+          "fn": 51,
+          "tn": 2826
+        },
+        "delta_tp": -4,
+        "delta_fp": -15,
+        "f1_before": 0.9503897944720057,
+        "f1_after": 0.953977880841955
+      },
+      "frozen": {
+        "before": {
+          "tp": 1330,
+          "fp": 101,
+          "fn": 53,
+          "tn": 2810
+        },
+        "after": {
+          "tp": 1325,
+          "fp": 79,
+          "fn": 58,
+          "tn": 2832
+        },
+        "delta_tp": -5,
+        "delta_fp": -22,
+        "f1_before": 0.945273631840796,
+        "f1_after": 0.950843200574094
+      },
+      "proxy": 0.0009207132921564365,
+      "project_tp": [
+        0,
+        1
+      ],
+      "source_sha256": "6cadda2e58e0e01ea03c17f707db757d133445793390279ace418eac22850e5e",
+      "mode": "pair",
+      "cal_calls": 605,
+      "setting": {
+        "kind": "sparse",
+        "width": 3.2,
+        "mix": 0.35,
+        "cut": 0.0
+      }
+    },
+    "sparse:pair_3.2_1:fixed": {
+      "cut": 0.0,
+      "cal": {
+        "before": {
+          "tp": 1341,
+          "fp": 93,
+          "fn": 47,
+          "tn": 2811
+        },
+        "after": {
+          "tp": 1316,
+          "fp": 50,
+          "fn": 72,
+          "tn": 2854
+        },
+        "delta_tp": -25,
+        "delta_fp": -43,
+        "f1_before": 0.9503897944720057,
+        "f1_after": 0.9557007988380537
+      },
+      "frozen": {
+        "before": {
+          "tp": 1330,
+          "fp": 101,
+          "fn": 53,
+          "tn": 2810
+        },
+        "after": {
+          "tp": 1307,
+          "fp": 53,
+          "fn": 76,
+          "tn": 2858
+        },
+        "delta_tp": -23,
+        "delta_fp": -48,
+        "f1_before": 0.945273631840796,
+        "f1_after": 0.9529711994166971
+      },
+      "proxy": 0.0014375886909860447,
+      "project_tp": [
+        3,
+        0
+      ],
+      "source_sha256": "6cadda2e58e0e01ea03c17f707db757d133445793390279ace418eac22850e5e",
+      "mode": "pair",
+      "cal_calls": 605,
+      "setting": {
+        "kind": "sparse",
+        "width": 3.2,
+        "mix": 1.0,
+        "cut": 0.0
+      }
+    },
+    "sparse:pair_all_0.35:fixed": {
+      "cut": 0.0,
+      "cal": {
+        "before": {
+          "tp": 1341,
+          "fp": 93,
+          "fn": 47,
+          "tn": 2811
+        },
+        "after": {
+          "tp": 1337,
+          "fp": 78,
+          "fn": 51,
+          "tn": 2826
+        },
+        "delta_tp": -4,
+        "delta_fp": -15,
+        "f1_before": 0.9503897944720057,
+        "f1_after": 0.953977880841955
+      },
+      "frozen": {
+        "before": {
+          "tp": 1330,
+          "fp": 101,
+          "fn": 53,
+          "tn": 2810
+        },
+        "after": {
+          "tp": 1325,
+          "fp": 79,
+          "fn": 58,
+          "tn": 2832
+        },
+        "delta_tp": -5,
+        "delta_fp": -22,
+        "f1_before": 0.945273631840796,
+        "f1_after": 0.950843200574094
+      },
+      "proxy": 0.0009144503883632966,
+      "project_tp": [
+        0,
+        1
+      ],
+      "source_sha256": "6cadda2e58e0e01ea03c17f707db757d133445793390279ace418eac22850e5e",
+      "mode": "pair",
+      "cal_calls": 645,
+      "setting": {
+        "kind": "sparse",
+        "width": null,
+        "mix": 0.35,
+        "cut": 0.0
+      }
+    },
+    "sparse:pair_all_1:fixed": {
+      "cut": 0.0,
+      "cal": {
+        "before": {
+          "tp": 1341,
+          "fp": 93,
+          "fn": 47,
+          "tn": 2811
+        },
+        "after": {
+          "tp": 1316,
+          "fp": 50,
+          "fn": 72,
+          "tn": 2854
+        },
+        "delta_tp": -25,
+        "delta_fp": -43,
+        "f1_before": 0.9503897944720057,
+        "f1_after": 0.9557007988380537
+      },
+      "frozen": {
+        "before": {
+          "tp": 1330,
+          "fp": 101,
+          "fn": 53,
+          "tn": 2810
+        },
+        "after": {
+          "tp": 1307,
+          "fp": 53,
+          "fn": 76,
+          "tn": 2858
+        },
+        "delta_tp": -23,
+        "delta_fp": -48,
+        "f1_before": 0.945273631840796,
+        "f1_after": 0.9529711994166971
+      },
+      "proxy": 0.0014313257871929048,
+      "project_tp": [
+        3,
+        0
+      ],
+      "source_sha256": "6cadda2e58e0e01ea03c17f707db757d133445793390279ace418eac22850e5e",
+      "mode": "pair",
+      "cal_calls": 645,
+      "setting": {
+        "kind": "sparse",
+        "width": null,
+        "mix": 1.0,
+        "cut": 0.0
+      }
+    },
+    "canonical:pair_0.35_0.35:tp": {
+      "cut": -0.2451673808482061,
+      "cal": {
+        "before": {
+          "tp": 1341,
+          "fp": 93,
+          "fn": 47,
+          "tn": 2811
+        },
+        "after": {
+          "tp": 1341,
+          "fp": 92,
+          "fn": 47,
+          "tn": 2812
+        },
+        "delta_tp": 0,
+        "delta_fp": -1,
+        "f1_before": 0.9503897944720057,
+        "f1_after": 0.9507266926621766
+      },
+      "frozen": {
+        "before": {
+          "tp": 1330,
+          "fp": 101,
+          "fn": 53,
+          "tn": 2810
+        },
+        "after": {
+          "tp": 1328,
+          "fp": 96,
+          "fn": 55,
+          "tn": 2815
+        },
+        "delta_tp": -2,
+        "delta_fp": -5,
+        "f1_before": 0.945273631840796,
+        "f1_after": 0.9462059137869612
+      },
+      "proxy": 9.007040981287694e-05,
+      "project_tp": [
+        1,
+        0
+      ],
+      "source_sha256": "729fa54c278d80845808f6fb68c124c960d6748bc4d2f1bd9651e6fbae5ec8a1",
+      "mode": "pair",
+      "cal_calls": 37,
+      "setting": {
+        "kind": "canonical",
+        "width": 0.35,
+        "mix": 0.35,
+        "cut": -0.2451673808482061
+      }
+    },
+    "canonical:pair_0.35_0.35:fixed": {
+      "cut": 0.0,
+      "cal": {
+        "before": {
+          "tp": 1341,
+          "fp": 93,
+          "fn": 47,
+          "tn": 2811
+        },
+        "after": {
+          "tp": 1337,
+          "fp": 81,
+          "fn": 51,
+          "tn": 2823
+        },
+        "delta_tp": -4,
+        "delta_fp": -12,
+        "f1_before": 0.9503897944720057,
+        "f1_after": 0.9529579472558802
+      },
+      "frozen": {
+        "before": {
+          "tp": 1330,
+          "fp": 101,
+          "fn": 53,
+          "tn": 2810
+        },
+        "after": {
+          "tp": 1326,
+          "fp": 86,
+          "fn": 57,
+          "tn": 2825
+        },
+        "delta_tp": -4,
+        "delta_fp": -15,
+        "f1_before": 0.945273631840796,
+        "f1_after": 0.9488372093023256
+      },
+      "proxy": 0.0007594467879239742,
+      "project_tp": [
+        1,
+        0
+      ],
+      "source_sha256": "729fa54c278d80845808f6fb68c124c960d6748bc4d2f1bd9651e6fbae5ec8a1",
+      "mode": "pair",
+      "cal_calls": 37,
+      "setting": {
+        "kind": "canonical",
+        "width": 0.35,
+        "mix": 0.35,
+        "cut": 0.0
+      }
+    },
+    "canonical:pair_0.8_0.35:tp": {
+      "cut": -0.2451673808482061,
+      "cal": {
+        "before": {
+          "tp": 1341,
+          "fp": 93,
+          "fn": 47,
+          "tn": 2811
+        },
+        "after": {
+          "tp": 1341,
+          "fp": 92,
+          "fn": 47,
+          "tn": 2812
+        },
+        "delta_tp": 0,
+        "delta_fp": -1,
+        "f1_before": 0.9503897944720057,
+        "f1_after": 0.9507266926621766
+      },
+      "frozen": {
+        "before": {
+          "tp": 1330,
+          "fp": 101,
+          "fn": 53,
+          "tn": 2810
+        },
+        "after": {
+          "tp": 1328,
+          "fp": 95,
+          "fn": 55,
+          "tn": 2816
+        },
+        "delta_tp": -2,
+        "delta_fp": -6,
+        "f1_before": 0.945273631840796,
+        "f1_after": 0.9465431218816821
+      },
+      "proxy": 6.504111534298704e-05,
+      "project_tp": [
+        1,
+        0
+      ],
+      "source_sha256": "729fa54c278d80845808f6fb68c124c960d6748bc4d2f1bd9651e6fbae5ec8a1",
+      "mode": "pair",
+      "cal_calls": 125,
+      "setting": {
+        "kind": "canonical",
+        "width": 0.8,
+        "mix": 0.35,
+        "cut": -0.2451673808482061
+      }
+    },
+    "canonical:pair_0.8_0.35:fixed": {
+      "cut": 0.0,
+      "cal": {
+        "before": {
+          "tp": 1341,
+          "fp": 93,
+          "fn": 47,
+          "tn": 2811
+        },
+        "after": {
+          "tp": 1336,
+          "fp": 78,
+          "fn": 52,
+          "tn": 2826
+        },
+        "delta_tp": -5,
+        "delta_fp": -15,
+        "f1_before": 0.9503897944720057,
+        "f1_after": 0.953604568165596
+      },
+      "frozen": {
+        "before": {
+          "tp": 1330,
+          "fp": 101,
+          "fn": 53,
+          "tn": 2810
+        },
+        "after": {
+          "tp": 1325,
+          "fp": 81,
+          "fn": 58,
+          "tn": 2830
+        },
+        "delta_tp": -5,
+        "delta_fp": -20,
+        "f1_before": 0.945273631840796,
+        "f1_after": 0.95016134815346
+      },
+      "proxy": 0.0009284037663688211,
+      "project_tp": [
+        1,
+        0
+      ],
+      "source_sha256": "729fa54c278d80845808f6fb68c124c960d6748bc4d2f1bd9651e6fbae5ec8a1",
+      "mode": "pair",
+      "cal_calls": 125,
+      "setting": {
+        "kind": "canonical",
+        "width": 0.8,
+        "mix": 0.35,
+        "cut": 0.0
+      }
+    },
+    "canonical:pair_1.7_0.35:tp": {
+      "cut": -0.2451673808482061,
+      "cal": {
+        "before": {
+          "tp": 1341,
+          "fp": 93,
+          "fn": 47,
+          "tn": 2811
+        },
+        "after": {
+          "tp": 1341,
+          "fp": 92,
+          "fn": 47,
+          "tn": 2812
+        },
+        "delta_tp": 0,
+        "delta_fp": -1,
+        "f1_before": 0.9503897944720057,
+        "f1_after": 0.9507266926621766
+      },
+      "frozen": {
+        "before": {
+          "tp": 1330,
+          "fp": 101,
+          "fn": 53,
+          "tn": 2810
+        },
+        "after": {
+          "tp": 1328,
+          "fp": 95,
+          "fn": 55,
+          "tn": 2816
+        },
+        "delta_tp": -2,
+        "delta_fp": -6,
+        "f1_before": 0.945273631840796,
+        "f1_after": 0.9465431218816821
+      },
+      "proxy": 4.5787041265672154e-06,
+      "project_tp": [
+        1,
+        0
+      ],
+      "source_sha256": "729fa54c278d80845808f6fb68c124c960d6748bc4d2f1bd9651e6fbae5ec8a1",
+      "mode": "pair",
+      "cal_calls": 337,
+      "setting": {
+        "kind": "canonical",
+        "width": 1.7,
+        "mix": 0.35,
+        "cut": -0.2451673808482061
+      }
+    },
+    "canonical:pair_1.7_0.35:fixed": {
+      "cut": 0.0,
+      "cal": {
+        "before": {
+          "tp": 1341,
+          "fp": 93,
+          "fn": 47,
+          "tn": 2811
+        },
+        "after": {
+          "tp": 1336,
+          "fp": 78,
+          "fn": 52,
+          "tn": 2826
+        },
+        "delta_tp": -5,
+        "delta_fp": -15,
+        "f1_before": 0.9503897944720057,
+        "f1_after": 0.953604568165596
+      },
+      "frozen": {
+        "before": {
+          "tp": 1330,
+          "fp": 101,
+          "fn": 53,
+          "tn": 2810
+        },
+        "after": {
+          "tp": 1325,
+          "fp": 81,
+          "fn": 58,
+          "tn": 2830
+        },
+        "delta_tp": -5,
+        "delta_fp": -20,
+        "f1_before": 0.945273631840796,
+        "f1_after": 0.95016134815346
+      },
+      "proxy": 0.0008679413551524013,
+      "project_tp": [
+        1,
+        0
+      ],
+      "source_sha256": "729fa54c278d80845808f6fb68c124c960d6748bc4d2f1bd9651e6fbae5ec8a1",
+      "mode": "pair",
+      "cal_calls": 337,
+      "setting": {
+        "kind": "canonical",
+        "width": 1.7,
+        "mix": 0.35,
+        "cut": 0.0
+      }
+    },
+    "canonical:pair_3.2_0.35:fixed": {
+      "cut": 0.0,
+      "cal": {
+        "before": {
+          "tp": 1341,
+          "fp": 93,
+          "fn": 47,
+          "tn": 2811
+        },
+        "after": {
+          "tp": 1336,
+          "fp": 78,
+          "fn": 52,
+          "tn": 2826
+        },
+        "delta_tp": -5,
+        "delta_fp": -15,
+        "f1_before": 0.9503897944720057,
+        "f1_after": 0.953604568165596
+      },
+      "frozen": {
+        "before": {
+          "tp": 1330,
+          "fp": 101,
+          "fn": 53,
+          "tn": 2810
+        },
+        "after": {
+          "tp": 1325,
+          "fp": 81,
+          "fn": 58,
+          "tn": 2830
+        },
+        "delta_tp": -5,
+        "delta_fp": -20,
+        "f1_before": 0.945273631840796,
+        "f1_after": 0.95016134815346
+      },
+      "proxy": 0.0007906458658449879,
+      "project_tp": [
+        1,
+        0
+      ],
+      "source_sha256": "729fa54c278d80845808f6fb68c124c960d6748bc4d2f1bd9651e6fbae5ec8a1",
+      "mode": "pair",
+      "cal_calls": 605,
+      "setting": {
+        "kind": "canonical",
+        "width": 3.2,
+        "mix": 0.35,
+        "cut": 0.0
+      }
+    },
+    "canonical:pair_all_0.35:fixed": {
+      "cut": 0.0,
+      "cal": {
+        "before": {
+          "tp": 1341,
+          "fp": 93,
+          "fn": 47,
+          "tn": 2811
+        },
+        "after": {
+          "tp": 1336,
+          "fp": 78,
+          "fn": 52,
+          "tn": 2826
+        },
+        "delta_tp": -5,
+        "delta_fp": -15,
+        "f1_before": 0.9503897944720057,
+        "f1_after": 0.953604568165596
+      },
+      "frozen": {
+        "before": {
+          "tp": 1330,
+          "fp": 101,
+          "fn": 53,
+          "tn": 2810
+        },
+        "after": {
+          "tp": 1325,
+          "fp": 81,
+          "fn": 58,
+          "tn": 2830
+        },
+        "delta_tp": -5,
+        "delta_fp": -20,
+        "f1_before": 0.945273631840796,
+        "f1_after": 0.95016134815346
+      },
+      "proxy": 0.0007835933797220075,
+      "project_tp": [
+        1,
+        0
+      ],
+      "source_sha256": "729fa54c278d80845808f6fb68c124c960d6748bc4d2f1bd9651e6fbae5ec8a1",
+      "mode": "pair",
+      "cal_calls": 645,
+      "setting": {
+        "kind": "canonical",
+        "width": null,
+        "mix": 0.35,
+        "cut": 0.0
+      }
+    }
+  },
+  "tables_sha256": {
+    "head": {
+      "test_a": "173000e929419cd56959a98191010c2eedbd4fb23802ce79eb8bd182a88f6b48",
+      "test_b": "a4f2c918ac51a1bc986e4e26072195a321819daeab30664609c87aef92d37407",
+      "official": "c196dd405a025ddfcfa4383070401f6d8679e75c2f96f1f044d4bbcc74066274"
+    },
+    "sparse": {
+      "test_a": "ee7c642fb1dfa08209de657d66cd95147d425e27ff081dd5d364c6fd5326379a",
+      "test_b": "996224109c202f9585a7128686511cf02ca579b3d85ff4a04023ca41759e9508",
+      "official": "7581c83eda252ff080fab4bded5c22f796240666af8c3f4b192c56f5c1a8d031"
+    },
+    "canonical": {
+      "test_a": "60eb9bce3ff0c1b459b724d511c301ef966249958394b3e87d49f3856887fdb1",
+      "test_b": "1d14ea661f0f2d22748cd6638f7297c819d14aa3cf8bb3dc72e34e3a73c842ad",
+      "official": "11dea7d990152526daa4559015bd465d1e01ff8c1e0532db6925c9eca63d13e3"
+    }
+  },
+  "current_sha256": "2ec64f692110bc431f8c68d7799bebf1e35cd7c319ac2110a9fcb1b43273adcf"
+}

@@ -1,0 +1,164 @@
+{
+  "test_a": {
+    "rows": 31098,
+    "mat_positive": 830,
+    "tp": 746,
+    "fp": 2,
+    "fn": 84,
+    "false_negative_scope": {
+      "no_parsed_comment": 54,
+      "comment_without_base_tag": 30
+    },
+    "missed_evidence": {
+      "known_tag": {
+        "fn": 0,
+        "other_negative": 0
+      },
+      "known_tag_later": {
+        "fn": 0,
+        "other_negative": 0
+      },
+      "stem_in_comment": {
+        "fn": 3,
+        "other_negative": 6
+      },
+      "stem_head_in_comment": {
+        "fn": 0,
+        "other_negative": 3
+      },
+      "stem_upper_in_comment": {
+        "fn": 0,
+        "other_negative": 6
+      },
+      "split_tag_in_comment": {
+        "fn": 2,
+        "other_negative": 42
+      },
+      "debt_phrase": {
+        "fn": 0,
+        "other_negative": 16
+      },
+      "literal_or_code_tag": {
+        "fn": 1,
+        "other_negative": 10
+      },
+      "loose_comment_tag": {
+        "fn": 0,
+        "other_negative": 0
+      },
+      "any_comment": {
+        "fn": 30,
+        "other_negative": 3366
+      },
+      "leading_comment": {
+        "fn": 0,
+        "other_negative": 1
+      },
+      "preprocessor_stub": {
+        "fn": 2,
+        "other_negative": 35
+      },
+      "comment_spacing_variant": {
+        "fn": 2,
+        "other_negative": 42
+      },
+      "concat_word_tag": {
+        "fn": 0,
+        "other_negative": 0
+      }
+    },
+    "miss_chars_quartiles": [
+      453.75,
+      704.5,
+      992.75
+    ],
+    "projects": {
+      "chromium": 24709,
+      "ffmpeg": 2074,
+      "qemu": 4315
+    }
+  },
+  "test_b": {
+    "rows": 7899,
+    "mat_positive": 204,
+    "tp": 180,
+    "fp": 0,
+    "fn": 24,
+    "false_negative_scope": {
+      "no_parsed_comment": 21,
+      "comment_without_base_tag": 3
+    },
+    "missed_evidence": {
+      "known_tag": {
+        "fn": 0,
+        "other_negative": 0
+      },
+      "known_tag_later": {
+        "fn": 0,
+        "other_negative": 0
+      },
+      "stem_in_comment": {
+        "fn": 0,
+        "other_negative": 6
+      },
+      "stem_head_in_comment": {
+        "fn": 0,
+        "other_negative": 6
+      },
+      "stem_upper_in_comment": {
+        "fn": 0,
+        "other_negative": 6
+      },
+      "split_tag_in_comment": {
+        "fn": 0,
+        "other_negative": 13
+      },
+      "debt_phrase": {
+        "fn": 1,
+        "other_negative": 8
+      },
+      "literal_or_code_tag": {
+        "fn": 0,
+        "other_negative": 2
+      },
+      "loose_comment_tag": {
+        "fn": 0,
+        "other_negative": 0
+      },
+      "any_comment": {
+        "fn": 3,
+        "other_negative": 1366
+      },
+      "leading_comment": {
+        "fn": 1,
+        "other_negative": 0
+      },
+      "preprocessor_stub": {
+        "fn": 0,
+        "other_negative": 24
+      },
+      "comment_spacing_variant": {
+        "fn": 0,
+        "other_negative": 13
+      },
+      "concat_word_tag": {
+        "fn": 0,
+        "other_negative": 0
+      }
+    },
+    "miss_chars_quartiles": [
+      387.75,
+      667.5,
+      815.0
+    ],
+    "projects": {
+      "mozilla firefox": 3998,
+      "android": 2001,
+      "php": 996,
+      "file": 55,
+      "radare2": 279,
+      "krb5": 177,
+      "imagemagick": 393
+    }
+  }
+}

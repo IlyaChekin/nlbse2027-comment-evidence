@@ -1,0 +1,368 @@
+{
+  "reference_threshold": 0.36398876404494385,
+  "development_budget": 1414,
+  "models": {
+    "uncertainty/0.02": {
+      "mode": "uncertainty",
+      "eligibility_cutoff": -0.1740599678985073,
+      "teacher_weight": 0.3,
+      "fraction": 0.02,
+      "threshold": 0.3113221526145935,
+      "development": {
+        "before": {
+          "tp": 6268,
+          "fp": 1414,
+          "fn": 3276,
+          "tn": 20295
+        },
+        "after": {
+          "tp": 6290,
+          "fp": 1414,
+          "fn": 3254,
+          "tn": 20295
+        },
+        "delta_tp": 22,
+        "delta_fp": 0,
+        "f1_before": 0.7277371415302449,
+        "f1_after": 0.7293599257884972,
+        "corrected_confident_fp": 0,
+        "removed_fp": 95,
+        "added_fp": 95
+      },
+      "actual_fraction": 0.019901130348443985,
+      "dev_routed": 395
+    },
+    "uncertainty/0.05": {
+      "mode": "uncertainty",
+      "eligibility_cutoff": -0.42384048233113747,
+      "teacher_weight": 0.3,
+      "fraction": 0.05,
+      "threshold": 0.2603894770145416,
+      "development": {
+        "before": {
+          "tp": 6268,
+          "fp": 1414,
+          "fn": 3276,
+          "tn": 20295
+        },
+        "after": {
+          "tp": 6359,
+          "fp": 1414,
+          "fn": 3185,
+          "tn": 20295
+        },
+        "delta_tp": 91,
+        "delta_fp": 0,
+        "f1_before": 0.7277371415302449,
+        "f1_after": 0.7344228215048796,
+        "corrected_confident_fp": 0,
+        "removed_fp": 151,
+        "added_fp": 151
+      },
+      "actual_fraction": 0.04988979920744896,
+      "dev_routed": 997
+    },
+    "uncertainty/0.1": {
+      "mode": "uncertainty",
+      "eligibility_cutoff": -0.8498413669101192,
+      "teacher_weight": 0.55,
+      "fraction": 0.1,
+      "threshold": 0.18713268637657166,
+      "development": {
+        "before": {
+          "tp": 6268,
+          "fp": 1414,
+          "fn": 3276,
+          "tn": 20295
+        },
+        "after": {
+          "tp": 6419,
+          "fp": 1414,
+          "fn": 3125,
+          "tn": 20295
+        },
+        "delta_tp": 151,
+        "delta_fp": 0,
+        "f1_before": 0.7277371415302449,
+        "f1_after": 0.7387926569603499,
+        "corrected_confident_fp": 0,
+        "removed_fp": 268,
+        "added_fp": 268
+      },
+      "actual_fraction": 0.09993751347064972,
+      "dev_routed": 2004
+    },
+    "uncertainty/0.25": {
+      "mode": "uncertainty",
+      "eligibility_cutoff": -1.990734894371848,
+      "teacher_weight": 0.8,
+      "fraction": 0.25,
+      "threshold": 0.13805456459522247,
+      "development": {
+        "before": {
+          "tp": 6268,
+          "fp": 1414,
+          "fn": 3276,
+          "tn": 20295
+        },
+        "after": {
+          "tp": 6548,
+          "fp": 1414,
+          "fn": 2996,
+          "tn": 20295
+        },
+        "delta_tp": 280,
+        "delta_fp": 0,
+        "f1_before": 0.7277371415302449,
+        "f1_after": 0.7480863703872958,
+        "corrected_confident_fp": 0,
+        "removed_fp": 474,
+        "added_fp": 474
+      },
+      "actual_fraction": 0.24981625378131866,
+      "dev_routed": 5217
+    },
+    "uncertainty/0.5": {
+      "mode": "uncertainty",
+      "eligibility_cutoff": -3.609875519371848,
+      "teacher_weight": 1.0,
+      "fraction": 0.5,
+      "threshold": 0.1367236226797104,
+      "development": {
+        "before": {
+          "tp": 6268,
+          "fp": 1414,
+          "fn": 3276,
+          "tn": 20295
+        },
+        "after": {
+          "tp": 6611,
+          "fp": 1414,
+          "fn": 2933,
+          "tn": 20295
+        },
+        "delta_tp": 343,
+        "delta_fp": 0,
+        "f1_before": 0.7277371415302449,
+        "f1_after": 0.7525755592236325,
+        "corrected_confident_fp": 0,
+        "removed_fp": 655,
+        "added_fp": 655
+      },
+      "actual_fraction": 0.4996291399002075,
+      "dev_routed": 12286
+    },
+    "uncertainty/1": {
+      "mode": "uncertainty",
+      "eligibility_cutoff": -1e+20,
+      "teacher_weight": 0.8,
+      "fraction": 1.0,
+      "threshold": 0.15497614443302155,
+      "development": {
+        "before": {
+          "tp": 6268,
+          "fp": 1414,
+          "fn": 3276,
+          "tn": 20295
+        },
+        "after": {
+          "tp": 6629,
+          "fp": 1414,
+          "fn": 2915,
+          "tn": 20295
+        },
+        "delta_tp": 361,
+        "delta_fp": 0,
+        "f1_before": 0.7277371415302449,
+        "f1_after": 0.7538522772502416,
+        "corrected_confident_fp": 0,
+        "removed_fp": 575,
+        "added_fp": 575
+      },
+      "actual_fraction": 1.0,
+      "dev_routed": 31253
+    },
+    "loss_gain/0.02": {
+      "mode": "loss_gain",
+      "eligibility_cutoff": 0.013090172874389976,
+      "teacher_weight": 0.55,
+      "fraction": 0.02,
+      "threshold": 0.32028958201408386,
+      "development": {
+        "before": {
+          "tp": 6268,
+          "fp": 1414,
+          "fn": 3276,
+          "tn": 20295
+        },
+        "after": {
+          "tp": 6334,
+          "fp": 1414,
+          "fn": 3210,
+          "tn": 20295
+        },
+        "delta_tp": 66,
+        "delta_fp": 0,
+        "f1_before": 0.7277371415302449,
+        "f1_after": 0.7325931066389082,
+        "corrected_confident_fp": 0,
+        "removed_fp": 152,
+        "added_fp": 152
+      },
+      "actual_fraction": 0.01999901980161667,
+      "dev_routed": 1296
+    },
+    "loss_gain/0.05": {
+      "mode": "loss_gain",
+      "eligibility_cutoff": 0.009430071747376173,
+      "teacher_weight": 0.8,
+      "fraction": 0.05,
+      "threshold": 0.25982561707496643,
+      "development": {
+        "before": {
+          "tp": 6268,
+          "fp": 1414,
+          "fn": 3276,
+          "tn": 20295
+        },
+        "after": {
+          "tp": 6403,
+          "fp": 1414,
+          "fn": 3141,
+          "tn": 20295
+        },
+        "delta_tp": 135,
+        "delta_fp": 0,
+        "f1_before": 0.7277371415302449,
+        "f1_after": 0.7376303208340533,
+        "corrected_confident_fp": 0,
+        "removed_fp": 344,
+        "added_fp": 344
+      },
+      "actual_fraction": 0.049969881772994995,
+      "dev_routed": 2437
+    },
+    "loss_gain/0.1": {
+      "mode": "loss_gain",
+      "eligibility_cutoff": 0.007490605780126662,
+      "teacher_weight": 0.8,
+      "fraction": 0.1,
+      "threshold": 0.21157968044281006,
+      "development": {
+        "before": {
+          "tp": 6268,
+          "fp": 1414,
+          "fn": 3276,
+          "tn": 20295
+        },
+        "after": {
+          "tp": 6465,
+          "fp": 1414,
+          "fn": 3079,
+          "tn": 20295
+        },
+        "delta_tp": 197,
+        "delta_fp": 0,
+        "f1_before": 0.7277371415302449,
+        "f1_after": 0.7421224817769615,
+        "corrected_confident_fp": 0,
+        "removed_fp": 455,
+        "added_fp": 455
+      },
+      "actual_fraction": 0.0999111756682396,
+      "dev_routed": 3649
+    },
+    "loss_gain/0.25": {
+      "mode": "loss_gain",
+      "eligibility_cutoff": 0.005299573557349647,
+      "teacher_weight": 1.0,
+      "fraction": 0.25,
+      "threshold": 0.1395135521888733,
+      "development": {
+        "before": {
+          "tp": 6268,
+          "fp": 1414,
+          "fn": 3276,
+          "tn": 20295
+        },
+        "after": {
+          "tp": 6557,
+          "fp": 1414,
+          "fn": 2987,
+          "tn": 20295
+        },
+        "delta_tp": 289,
+        "delta_fp": 0,
+        "f1_before": 0.7277371415302449,
+        "f1_after": 0.748729660291179,
+        "corrected_confident_fp": 0,
+        "removed_fp": 636,
+        "added_fp": 636
+      },
+      "actual_fraction": 0.2499961405992508,
+      "dev_routed": 6028
+    },
+    "loss_gain/0.5": {
+      "mode": "loss_gain",
+      "eligibility_cutoff": 0.0017342769579860669,
+      "teacher_weight": 0.8,
+      "fraction": 0.5,
+      "threshold": 0.1452123075723648,
+      "development": {
+        "before": {
+          "tp": 6268,
+          "fp": 1414,
+          "fn": 3276,
+          "tn": 20295
+        },
+        "after": {
+          "tp": 6593,
+          "fp": 1414,
+          "fn": 2951,
+          "tn": 20295
+        },
+        "delta_tp": 325,
+        "delta_fp": 0,
+        "f1_before": 0.7277371415302449,
+        "f1_after": 0.751296222437468,
+        "corrected_confident_fp": 0,
+        "removed_fp": 548,
+        "added_fp": 548
+      },
+      "actual_fraction": 0.49996885657310486,
+      "dev_routed": 12248
+    },
+    "loss_gain/1": {
+      "mode": "loss_gain",
+      "eligibility_cutoff": -1e+20,
+      "teacher_weight": 0.8,
+      "fraction": 1.0,
+      "threshold": 0.15497614443302155,
+      "development": {
+        "before": {
+          "tp": 6268,
+          "fp": 1414,
+          "fn": 3276,
+          "tn": 20295
+        },
+        "after": {
+          "tp": 6629,
+          "fp": 1414,
+          "fn": 2915,
+          "tn": 20295
+        },
+        "delta_tp": 361,
+        "delta_fp": 0,
+        "f1_before": 0.7277371415302449,
+        "f1_after": 0.7538522772502416,
+        "corrected_confident_fp": 0,
+        "removed_fp": 575,
+        "added_fp": 575
+      },
+      "actual_fraction": 1.0,
+      "dev_routed": 31253
+    }
+  },
+  "proxy": "length in characters capped at 2200",
+  "regressor_sha256": "bb054d702ca978b607b70800971edd0cb435d0a15836e825e0d64a0097d49cb1"
+}

@@ -1,0 +1,252 @@
+{
+  "chosen": {
+    "view": "selective",
+    "lower": 0.24,
+    "upper": 0.81,
+    "threshold": 0.3845505617977528,
+    "dev_objective": 0.8466606097302773,
+    "dev_fraction": 0.09014557670772676
+  },
+  "grid": [
+    {
+      "view": "selective",
+      "lower": 0.24,
+      "upper": 0.58,
+      "threshold": 0.3331460674157304,
+      "dev_objective": 0.846429139263442,
+      "dev_fraction": 0.05795072788353863
+    },
+    {
+      "view": "selective",
+      "lower": 0.24,
+      "upper": 0.65,
+      "threshold": 0.3331460674157304,
+      "dev_objective": 0.846429139263442,
+      "dev_fraction": 0.06690929451287794
+    },
+    {
+      "view": "selective",
+      "lower": 0.24,
+      "upper": 0.73,
+      "threshold": 0.3845505617977528,
+      "dev_objective": 0.8465318195117909,
+      "dev_fraction": 0.07852743561030236
+    },
+    {
+      "view": "selective",
+      "lower": 0.24,
+      "upper": 0.81,
+      "threshold": 0.3845505617977528,
+      "dev_objective": 0.8466606097302773,
+      "dev_fraction": 0.09014557670772676
+    },
+    {
+      "view": "selective",
+      "lower": 0.24,
+      "upper": 0.89,
+      "threshold": 0.3845505617977528,
+      "dev_objective": 0.8466606097302773,
+      "dev_fraction": 0.10708286674132139
+    },
+    {
+      "view": "selective",
+      "lower": 0.31,
+      "upper": 0.58,
+      "threshold": 0.3125842696629213,
+      "dev_objective": 0.8452179398791793,
+      "dev_fraction": 0.04171332586786114
+    },
+    {
+      "view": "selective",
+      "lower": 0.31,
+      "upper": 0.65,
+      "threshold": 0.3125842696629213,
+      "dev_objective": 0.8452179398791793,
+      "dev_fraction": 0.05067189249720045
+    },
+    {
+      "view": "selective",
+      "lower": 0.31,
+      "upper": 0.73,
+      "threshold": 0.3845505617977528,
+      "dev_objective": 0.8454409756290426,
+      "dev_fraction": 0.06229003359462486
+    },
+    {
+      "view": "selective",
+      "lower": 0.31,
+      "upper": 0.81,
+      "threshold": 0.3845505617977528,
+      "dev_objective": 0.8455700087757315,
+      "dev_fraction": 0.07390817469204927
+    },
+    {
+      "view": "selective",
+      "lower": 0.31,
+      "upper": 0.89,
+      "threshold": 0.5,
+      "dev_objective": 0.8456679106863945,
+      "dev_fraction": 0.09084546472564389
+    },
+    {
+      "view": "selective",
+      "lower": 0.36,
+      "upper": 0.58,
+      "threshold": 0.5,
+      "dev_objective": 0.8430846037595476,
+      "dev_fraction": 0.03345464725643897
+    },
+    {
+      "view": "selective",
+      "lower": 0.36,
+      "upper": 0.65,
+      "threshold": 0.5,
+      "dev_objective": 0.8438030248372371,
+      "dev_fraction": 0.042413213885778275
+    },
+    {
+      "view": "selective",
+      "lower": 0.36,
+      "upper": 0.73,
+      "threshold": 0.5,
+      "dev_objective": 0.8441465932223868,
+      "dev_fraction": 0.05403135498320269
+    },
+    {
+      "view": "selective",
+      "lower": 0.36,
+      "upper": 0.81,
+      "threshold": 0.5,
+      "dev_objective": 0.8444100695214616,
+      "dev_fraction": 0.0656494960806271
+    },
+    {
+      "view": "selective",
+      "lower": 0.36,
+      "upper": 0.89,
+      "threshold": 0.5,
+      "dev_objective": 0.8446272997963632,
+      "dev_fraction": 0.08258678611422172
+    },
+    {
+      "view": "selective",
+      "lower": 0.4,
+      "upper": 0.58,
+      "threshold": 0.3228651685393259,
+      "dev_objective": 0.8420648456004103,
+      "dev_fraction": 0.02645576707726764
+    },
+    {
+      "view": "selective",
+      "lower": 0.4,
+      "upper": 0.65,
+      "threshold": 0.5079213483146068,
+      "dev_objective": 0.8424322334994642,
+      "dev_fraction": 0.035414333706606946
+    },
+    {
+      "view": "selective",
+      "lower": 0.4,
+      "upper": 0.73,
+      "threshold": 0.5079213483146068,
+      "dev_objective": 0.8427735183270915,
+      "dev_fraction": 0.04703247480403135
+    },
+    {
+      "view": "selective",
+      "lower": 0.4,
+      "upper": 0.81,
+      "threshold": 0.5,
+      "dev_objective": 0.842892199074123,
+      "dev_fraction": 0.05865061590145577
+    },
+    {
+      "view": "selective",
+      "lower": 0.4,
+      "upper": 0.89,
+      "threshold": 0.5,
+      "dev_objective": 0.8431089581436738,
+      "dev_fraction": 0.0755879059350504
+    },
+    {
+      "view": "selective",
+      "lower": 0.45,
+      "upper": 0.58,
+      "threshold": 0.43595505617977526,
+      "dev_objective": 0.8448111077890419,
+      "dev_fraction": 0.01721724524076148
+    },
+    {
+      "view": "selective",
+      "lower": 0.45,
+      "upper": 0.65,
+      "threshold": 0.5079213483146068,
+      "dev_objective": 0.8456344281688007,
+      "dev_fraction": 0.026175811870100783
+    },
+    {
+      "view": "selective",
+      "lower": 0.45,
+      "upper": 0.73,
+      "threshold": 0.5079213483146068,
+      "dev_objective": 0.845978778020662,
+      "dev_fraction": 0.0377939529675252
+    },
+    {
+      "view": "selective",
+      "lower": 0.45,
+      "upper": 0.81,
+      "threshold": 0.5,
+      "dev_objective": 0.8460986614843093,
+      "dev_fraction": 0.049412094064949605
+    },
+    {
+      "view": "selective",
+      "lower": 0.45,
+      "upper": 0.89,
+      "threshold": 0.5,
+      "dev_objective": 0.846317460764122,
+      "dev_fraction": 0.06634938409854424
+    },
+    {
+      "view": "selective",
+      "lower": 0.52,
+      "upper": 0.58,
+      "threshold": 0.43595505617977526,
+      "dev_objective": 0.845105560230498,
+      "dev_fraction": 0.008258678611422172
+    },
+    {
+      "view": "selective",
+      "lower": 0.52,
+      "upper": 0.65,
+      "threshold": 0.43595505617977526,
+      "dev_objective": 0.8457695627595128,
+      "dev_fraction": 0.01721724524076148
+    },
+    {
+      "view": "selective",
+      "lower": 0.52,
+      "upper": 0.73,
+      "threshold": 0.43595505617977526,
+      "dev_objective": 0.846190230828759,
+      "dev_fraction": 0.02883538633818589
+    },
+    {
+      "view": "selective",
+      "lower": 0.52,
+      "upper": 0.81,
+      "threshold": 0.43595505617977526,
+      "dev_objective": 0.8463208811244496,
+      "dev_fraction": 0.0404535274356103
+    },
+    {
+      "view": "selective",
+      "lower": 0.52,
+      "upper": 0.89,
+      "threshold": 0.43595505617977526,
+      "dev_objective": 0.8465824015622817,
+      "dev_fraction": 0.05739081746920493
+    }
+  ]
+}

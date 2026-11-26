@@ -1,0 +1,611 @@
+{
+  "dev": {
+    "baseline": {
+      "tp": 278,
+      "fp": 0,
+      "fn": 44,
+      "f1": 0.9266666666666666,
+      "recovered": 0,
+      "delta_fp": 0,
+      "recovered_without_comment": 0
+    },
+    "results": {
+      "strict_exact": {
+        "frozen": {
+          "tp": 307,
+          "fp": 0,
+          "fn": 15,
+          "f1": 0.9761526232114467,
+          "recovered": 29,
+          "delta_fp": 0,
+          "recovered_without_comment": 28
+        },
+        "matched": {
+          "tp": 307,
+          "fp": 0,
+          "fn": 15,
+          "f1": 0.9761526232114467,
+          "recovered": 29,
+          "delta_fp": 0,
+          "recovered_without_comment": 28
+        },
+        "average_precision": 0.659787967504404,
+        "projects": {
+          "linux": {
+            "tp": 294,
+            "fp": 0,
+            "fn": 13,
+            "f1": 0.978369384359401,
+            "recovered": 29,
+            "delta_fp": 0,
+            "recovered_without_comment": 28,
+            "cut": 0.0
+          },
+          "tcpdump": {
+            "tp": 13,
+            "fp": 0,
+            "fn": 2,
+            "f1": 0.9285714285714286,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0,
+            "cut": 0.0
+          }
+        }
+      },
+      "owner_exact": {
+        "frozen": {
+          "tp": 304,
+          "fp": 0,
+          "fn": 18,
+          "f1": 0.9712460063897763,
+          "recovered": 26,
+          "delta_fp": 0,
+          "recovered_without_comment": 25
+        },
+        "matched": {
+          "tp": 304,
+          "fp": 0,
+          "fn": 18,
+          "f1": 0.9712460063897763,
+          "recovered": 26,
+          "delta_fp": 0,
+          "recovered_without_comment": 25
+        },
+        "average_precision": 0.591745561005285,
+        "projects": {
+          "linux": {
+            "tp": 291,
+            "fp": 0,
+            "fn": 16,
+            "f1": 0.9732441471571907,
+            "recovered": 26,
+            "delta_fp": 0,
+            "recovered_without_comment": 25,
+            "cut": 0.0
+          },
+          "tcpdump": {
+            "tp": 13,
+            "fp": 0,
+            "fn": 2,
+            "f1": 0.9285714285714286,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0,
+            "cut": 0.0
+          }
+        }
+      },
+      "owner_aligned": {
+        "frozen": {
+          "tp": 307,
+          "fp": 0,
+          "fn": 15,
+          "f1": 0.9761526232114467,
+          "recovered": 29,
+          "delta_fp": 0,
+          "recovered_without_comment": 28
+        },
+        "matched": {
+          "tp": 307,
+          "fp": 0,
+          "fn": 15,
+          "f1": 0.9761526232114467,
+          "recovered": 29,
+          "delta_fp": 0,
+          "recovered_without_comment": 28
+        },
+        "average_precision": 0.659787967504404,
+        "projects": {
+          "linux": {
+            "tp": 294,
+            "fp": 0,
+            "fn": 13,
+            "f1": 0.978369384359401,
+            "recovered": 29,
+            "delta_fp": 0,
+            "recovered_without_comment": 28,
+            "cut": 0.0
+          },
+          "tcpdump": {
+            "tp": 13,
+            "fp": 0,
+            "fn": 2,
+            "f1": 0.9285714285714286,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0,
+            "cut": 0.0
+          }
+        }
+      }
+    },
+    "predictions_sha256": "5b5827f8a2f2e7f38df36b9f5e17c6b3e765e6b3dcf08235f61e3ac260514b12"
+  },
+  "test_a": {
+    "baseline": {
+      "tp": 753,
+      "fp": 0,
+      "fn": 77,
+      "f1": 0.9513581806696146,
+      "recovered": 0,
+      "delta_fp": 0,
+      "recovered_without_comment": 0
+    },
+    "results": {
+      "strict_exact": {
+        "frozen": {
+          "tp": 768,
+          "fp": 4,
+          "fn": 62,
+          "f1": 0.9588014981273408,
+          "recovered": 15,
+          "delta_fp": 4,
+          "recovered_without_comment": 15
+        },
+        "matched": {
+          "tp": 753,
+          "fp": 0,
+          "fn": 77,
+          "f1": 0.9513581806696146,
+          "recovered": 0,
+          "delta_fp": 0,
+          "recovered_without_comment": 0
+        },
+        "average_precision": 0.14337274829248708,
+        "projects": {
+          "chromium": {
+            "tp": 276,
+            "fp": 0,
+            "fn": 42,
+            "f1": 0.9292929292929293,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0,
+            "cut": 7.0
+          },
+          "ffmpeg": {
+            "tp": 155,
+            "fp": 0,
+            "fn": 17,
+            "f1": 0.9480122324159022,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0,
+            "cut": 0.0
+          },
+          "qemu": {
+            "tp": 322,
+            "fp": 0,
+            "fn": 18,
+            "f1": 0.972809667673716,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0,
+            "cut": 0.0
+          }
+        }
+      },
+      "owner_exact": {
+        "frozen": {
+          "tp": 766,
+          "fp": 4,
+          "fn": 64,
+          "f1": 0.9575,
+          "recovered": 13,
+          "delta_fp": 4,
+          "recovered_without_comment": 13
+        },
+        "matched": {
+          "tp": 753,
+          "fp": 0,
+          "fn": 77,
+          "f1": 0.9513581806696146,
+          "recovered": 0,
+          "delta_fp": 0,
+          "recovered_without_comment": 0
+        },
+        "average_precision": 0.12308474191815763,
+        "projects": {
+          "chromium": {
+            "tp": 276,
+            "fp": 0,
+            "fn": 42,
+            "f1": 0.9292929292929293,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0,
+            "cut": 7.0
+          },
+          "ffmpeg": {
+            "tp": 155,
+            "fp": 0,
+            "fn": 17,
+            "f1": 0.9480122324159022,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0,
+            "cut": 0.0
+          },
+          "qemu": {
+            "tp": 322,
+            "fp": 0,
+            "fn": 18,
+            "f1": 0.972809667673716,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0,
+            "cut": 0.0
+          }
+        }
+      },
+      "owner_aligned": {
+        "frozen": {
+          "tp": 768,
+          "fp": 7,
+          "fn": 62,
+          "f1": 0.9570093457943926,
+          "recovered": 15,
+          "delta_fp": 7,
+          "recovered_without_comment": 15
+        },
+        "matched": {
+          "tp": 753,
+          "fp": 0,
+          "fn": 77,
+          "f1": 0.9513581806696146,
+          "recovered": 0,
+          "delta_fp": 0,
+          "recovered_without_comment": 0
+        },
+        "average_precision": 0.12314648756926203,
+        "projects": {
+          "chromium": {
+            "tp": 276,
+            "fp": 0,
+            "fn": 42,
+            "f1": 0.9292929292929293,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0,
+            "cut": 7.0
+          },
+          "ffmpeg": {
+            "tp": 155,
+            "fp": 0,
+            "fn": 17,
+            "f1": 0.9480122324159022,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0,
+            "cut": 0.0
+          },
+          "qemu": {
+            "tp": 322,
+            "fp": 0,
+            "fn": 18,
+            "f1": 0.972809667673716,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0,
+            "cut": 0.0
+          }
+        }
+      }
+    },
+    "predictions_sha256": "b3f9d266293a94303213b4380df0adb45347b284acd950b48cae42f7a9dadf81"
+  },
+  "test_b": {
+    "baseline": {
+      "tp": 181,
+      "fp": 0,
+      "fn": 23,
+      "f1": 0.9402597402597402,
+      "recovered": 0,
+      "delta_fp": 0,
+      "recovered_without_comment": 0
+    },
+    "results": {
+      "strict_exact": {
+        "frozen": {
+          "tp": 194,
+          "fp": 0,
+          "fn": 10,
+          "f1": 0.9748743718592965,
+          "recovered": 13,
+          "delta_fp": 0,
+          "recovered_without_comment": 13
+        },
+        "matched": {
+          "tp": 194,
+          "fp": 0,
+          "fn": 10,
+          "f1": 0.9748743718592965,
+          "recovered": 13,
+          "delta_fp": 0,
+          "recovered_without_comment": 13
+        },
+        "average_precision": 0.5665130637583514,
+        "projects": {
+          "android": {
+            "tp": 32,
+            "fp": 0,
+            "fn": 2,
+            "f1": 0.9696969696969697,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0,
+            "cut": 0.0
+          },
+          "file": {
+            "tp": 1,
+            "fp": 0,
+            "fn": 0,
+            "f1": 1.0,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0,
+            "cut": 0.0
+          },
+          "imagemagick": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 0,
+            "f1": 0.0,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0,
+            "cut": 0.0
+          },
+          "krb5": {
+            "tp": 2,
+            "fp": 0,
+            "fn": 2,
+            "f1": 0.6666666666666666,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0,
+            "cut": 0.0
+          },
+          "mozilla firefox": {
+            "tp": 133,
+            "fp": 0,
+            "fn": 2,
+            "f1": 0.9925373134328358,
+            "recovered": 13,
+            "delta_fp": 0,
+            "recovered_without_comment": 13,
+            "cut": 0.0
+          },
+          "php": {
+            "tp": 11,
+            "fp": 0,
+            "fn": 1,
+            "f1": 0.9565217391304348,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0,
+            "cut": 0.0
+          },
+          "radare2": {
+            "tp": 15,
+            "fp": 0,
+            "fn": 3,
+            "f1": 0.9090909090909091,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0,
+            "cut": 0.0
+          }
+        }
+      },
+      "owner_exact": {
+        "frozen": {
+          "tp": 194,
+          "fp": 0,
+          "fn": 10,
+          "f1": 0.9748743718592965,
+          "recovered": 13,
+          "delta_fp": 0,
+          "recovered_without_comment": 13
+        },
+        "matched": {
+          "tp": 194,
+          "fp": 0,
+          "fn": 10,
+          "f1": 0.9748743718592965,
+          "recovered": 13,
+          "delta_fp": 0,
+          "recovered_without_comment": 13
+        },
+        "average_precision": 0.5665130637583514,
+        "projects": {
+          "android": {
+            "tp": 32,
+            "fp": 0,
+            "fn": 2,
+            "f1": 0.9696969696969697,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0,
+            "cut": 0.0
+          },
+          "file": {
+            "tp": 1,
+            "fp": 0,
+            "fn": 0,
+            "f1": 1.0,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0,
+            "cut": 0.0
+          },
+          "imagemagick": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 0,
+            "f1": 0.0,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0,
+            "cut": 0.0
+          },
+          "krb5": {
+            "tp": 2,
+            "fp": 0,
+            "fn": 2,
+            "f1": 0.6666666666666666,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0,
+            "cut": 0.0
+          },
+          "mozilla firefox": {
+            "tp": 133,
+            "fp": 0,
+            "fn": 2,
+            "f1": 0.9925373134328358,
+            "recovered": 13,
+            "delta_fp": 0,
+            "recovered_without_comment": 13,
+            "cut": 0.0
+          },
+          "php": {
+            "tp": 11,
+            "fp": 0,
+            "fn": 1,
+            "f1": 0.9565217391304348,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0,
+            "cut": 0.0
+          },
+          "radare2": {
+            "tp": 15,
+            "fp": 0,
+            "fn": 3,
+            "f1": 0.9090909090909091,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0,
+            "cut": 0.0
+          }
+        }
+      },
+      "owner_aligned": {
+        "frozen": {
+          "tp": 195,
+          "fp": 0,
+          "fn": 9,
+          "f1": 0.9774436090225563,
+          "recovered": 14,
+          "delta_fp": 0,
+          "recovered_without_comment": 14
+        },
+        "matched": {
+          "tp": 195,
+          "fp": 0,
+          "fn": 9,
+          "f1": 0.9774436090225563,
+          "recovered": 14,
+          "delta_fp": 0,
+          "recovered_without_comment": 14
+        },
+        "average_precision": 0.6098617573825164,
+        "projects": {
+          "android": {
+            "tp": 32,
+            "fp": 0,
+            "fn": 2,
+            "f1": 0.9696969696969697,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0,
+            "cut": 0.0
+          },
+          "file": {
+            "tp": 1,
+            "fp": 0,
+            "fn": 0,
+            "f1": 1.0,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0,
+            "cut": 0.0
+          },
+          "imagemagick": {
+            "tp": 0,
+            "fp": 0,
+            "fn": 0,
+            "f1": 0.0,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0,
+            "cut": 0.0
+          },
+          "krb5": {
+            "tp": 2,
+            "fp": 0,
+            "fn": 2,
+            "f1": 0.6666666666666666,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0,
+            "cut": 0.0
+          },
+          "mozilla firefox": {
+            "tp": 134,
+            "fp": 0,
+            "fn": 1,
+            "f1": 0.9962825278810409,
+            "recovered": 14,
+            "delta_fp": 0,
+            "recovered_without_comment": 14,
+            "cut": 0.0
+          },
+          "php": {
+            "tp": 11,
+            "fp": 0,
+            "fn": 1,
+            "f1": 0.9565217391304348,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0,
+            "cut": 0.0
+          },
+          "radare2": {
+            "tp": 15,
+            "fp": 0,
+            "fn": 3,
+            "f1": 0.9090909090909091,
+            "recovered": 0,
+            "delta_fp": 0,
+            "recovered_without_comment": 0,
+            "cut": 0.0
+          }
+        }
+      }
+    },
+    "predictions_sha256": "0217b00db3284f6b64b5f50c3eb31ff698c6993eb706d29f391cebe081b45fa8"
+  }
+}

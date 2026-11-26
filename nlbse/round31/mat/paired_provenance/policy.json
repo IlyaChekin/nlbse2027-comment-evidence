@@ -1,0 +1,26 @@
+{
+  "training": {
+    "all_located": {
+      "cases": 250,
+      "controls": 1333,
+      "pairs": 1464
+    },
+    "preceding": {
+      "cases": 230,
+      "controls": 1215,
+      "pairs": 1332
+    }
+  },
+  "cutoffs": {
+    "residual": -0.20917029715592328,
+    "all_located": 2.035598617182827,
+    "all_located_blend": 1.254499508467635,
+    "preceding": 2.027030728730951,
+    "preceding_blend": 1.2335152301841765
+  },
+  "audit_sha256": "5e9af6588ca283b8cf331df8f4335df0996470076b017f8e3093e333724c39c5",
+  "code_sha256": "4fc8316e55835d75805ed9371692da5f65f57cdc2f9490109ad7de8090eeebaf",
+  "partition_sha256": "2823097d9b25fadebffcc6a3daa50034854d7a59c5df5c90d4e6d6d48231cfc9",
+  "weights_sha256": "c51843370463c33a4a8262dc5814c372d79c531356de033a3e25da072b2d6ee4",
+  "residual_sha256": "b92cdced2034ae18212d82fe0d6d999983dfdffbab77e634e5a4293aa99eabe6"
+}

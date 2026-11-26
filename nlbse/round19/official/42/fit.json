@@ -1,0 +1,78 @@
+{
+  "config": {
+    "epochs": 1,
+    "seed": 42,
+    "rows": 193100,
+    "steps": 1509,
+    "warmup": 0.04,
+    "lr_emb": 0.00012,
+    "lr_model": 0.00025,
+    "weight_decay": 0.025,
+    "normalize_probability": 0.45,
+    "temperature": 0.15,
+    "project_mix": 0.7,
+    "smoothing": 0.07,
+    "weight_cap": 8.0,
+    "distillation_temperature": 1.7,
+    "domain_gradient": 0.24
+  },
+  "source_sha256": "6bac2292b7abcdef62261ea4c4f62cd1527d72a34d091bc292ec6b1b98c2fda5",
+  "teacher_and_data": {
+    "teacher": "5c9baca0d58a2c82fbdf1f4317708168173f6b07f108361215e79952a4ae71e7",
+    "train": "668a958c873060904e611bd3f45088acdbdb48631e6f626afda8ea7831fa6319"
+  },
+  "group_rows": {
+    "android": 1813,
+    "chromium": 22222,
+    "ffmpeg": 1866,
+    "file": 53,
+    "imagemagick": 359,
+    "krb5": 157,
+    "linux": 157865,
+    "mozilla firefox": 3587,
+    "php": 893,
+    "qemu": 3891,
+    "radare2": 253,
+    "tcpdump": 141
+  },
+  "modes": {
+    "pooled": {
+      "checkpoint": "pooled.pt",
+      "sha256": "c9fecbbeabdca933589d3dbc5b92af39604bbc8ec853e8b28ca923c0721bdf9b",
+      "seconds": 21.359251458197832,
+      "group_weights": {
+        "android": 1.0,
+        "chromium": 1.0,
+        "ffmpeg": 1.0,
+        "file": 1.0,
+        "imagemagick": 1.0,
+        "krb5": 1.0,
+        "linux": 1.0,
+        "mozilla firefox": 1.0,
+        "php": 1.0,
+        "qemu": 1.0,
+        "radare2": 1.0,
+        "tcpdump": 1.0
+      }
+    },
+    "balanced": {
+      "checkpoint": "balanced.pt",
+      "sha256": "6e76a6c3088f69d5a964b3df5b6ba8b4b35f3b9422e44767636faf78ce2dc41c",
+      "seconds": 21.3558267718181,
+      "group_weights": {
+        "android": 4.0979461669921875,
+        "chromium": 1.388376235961914,
+        "ffmpeg": 4.043692111968994,
+        "file": 8.132892608642578,
+        "imagemagick": 8.132892608642578,
+        "krb5": 8.132892608642578,
+        "linux": 0.7114591598510742,
+        "mozilla firefox": 3.001554250717163,
+        "php": 5.709436893463135,
+        "qemu": 2.8940718173980713,
+        "radare2": 8.132892608642578,
+        "tcpdump": 8.132892608642578
+      }
+    }
+  }
+}

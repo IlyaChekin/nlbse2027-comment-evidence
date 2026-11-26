@@ -1,0 +1,26 @@
+{
+  "training": {
+    "comment_positive": 1627,
+    "comment_negative": 37563,
+    "source_rows": 151748,
+    "natural_positive": 302,
+    "provenance_weighted": 241,
+    "erased_leading": 1
+  },
+  "cutoffs": {
+    "signature": -0.13239907703801812,
+    "signature_body": -0.12542862960415846,
+    "comment": 1.7292015186252172,
+    "comment_placement": 1.7292015186252172,
+    "joint": -2.8105063590149966,
+    "lexical": 0.0,
+    "license_line": 0.0,
+    "line_splice": 0.0,
+    "debt_lexicon": 1.0
+  },
+  "fit_source_sha256": "5e9af6588ca283b8cf331df8f4335df0996470076b017f8e3093e333724c39c5",
+  "weights_sha256": "4f8e7bc70ff24dab45aa45fc08248447f520a93f19dc6971963457f8ef5d0fd7",
+  "data_manifest_sha256": "8cd6dc7cf3101d2e3a055ff7c7154653402fbb6491959f4f636504cd378b56ef",
+  "partition_sha256": "2823097d9b25fadebffcc6a3daa50034854d7a59c5df5c90d4e6d6d48231cfc9",
+  "code_sha256": "8d9cc469ac7e493bc4f608cd5110b1341912a16c2ccbefb3a1dd9dded434f647"
+}

@@ -1,0 +1,205 @@
+"""Benchmark the frozen regional correction on the signed public input."""
+import argparse
+from functools import partial
+from pathlib import Path
+from statistics import median
+from time import perf_counter
+
+import joblib
+import numpy as np
+import torch
+
+from section37 import HERE, ROOT, f, checksum, json_at, write_json, NATIVE, SECTIONS, OUTPUTS
+from section37 import prepare, section_scores
+from section37 import lexical_features, ordered_batches, batch_plan, batch, small, pooling
+from eval37 import features
+from eval35 import cut
+from live35 import forward, heads, load_choice, recipe, packages, full_context
+from pipeline import PUBLIC, load
+
+DEST = HERE/'public'
+BASE = ROOT/'round34'
+
+
+@torch.inference_mode()
+def encode(model,tok,texts,projection,use_regions,accelerator=None,deferred=None):
+    first = perf_counter()
+    n = len(texts)
+    raw = np.empty((n,2),np.float32)
+    aux = np.empty((n,22),np.float32)
+    profile_width = NATIVE+(SECTIONS*(OUTPUTS+1) if use_regions else 0)
+    values = np.empty((n,3 if deferred is not None else 2+profile_width),np.float32)
+    pay,ops,extra = 0.,0.,0.
+    if deferred is not None:
+        deferred.start(model,tok,texts)
+    def prepare_chunk(i):
+        src = texts[i:i+2048]
+        if use_regions and deferred is None:
+            return prepare(src,tok)
+        return full_context(src,tok),None,lexical_features(src)
+    with torch.autocast('cuda',dtype=torch.float16):
+        for i,(sequence,limits,lexical) in ordered_batches(range(0,n,2048),prepare_chunk,True):
+            raw[i:i+len(sequence),1] = lexical[:,:4].any(axis=1)
+            side = torch.as_tensor(lexical,device='cuda')
+            limits = None if limits is None else torch.as_tensor(limits,device='cuda')
+            for row in batch_plan(list(range(len(sequence))),sequence,small.BATCH):
+                x,mask = batch(row,sequence,tok.pad_token_id)
+                t = perf_counter()
+                states = model.encoder.token_states(x,mask)
+                core = model.encoder.readout(states,mask,side[row])
+                pooled_state = pooling(states,mask)
+                pooled = model.rule_head[0](pooled_state)
+                rules = model.rule_head[1](pooled)
+                with torch.autocast('cuda',enabled=False):
+                    approved = projection(pooled.half().float())
+                idx = i+np.asarray(row)
+                if deferred is not None:
+                    deferred.record(idx,states,mask,side[row],core,rules,pooled_state)
+                    profile = None
+                elif accelerator is not None:
+                    profile,surcharge = accelerator(states,mask,side[row],model,limits[row],core,rules,pooled_state)
+                    extra += surcharge/1e9
+                elif use_regions:
+                    profile,surcharge = section_scores(states,mask,side[row],model,limits[row],core,rules)
+                    extra += surcharge/1e9
+                else:
+                    profile = torch.cat((core[:,[0]],rules),1)
+                original = torch.cat((core,rules),1).float().sigmoid()
+                blocks = (original,approved) if profile is None else (original,approved,profile.float())
+                merged = torch.cat(blocks,1).cpu().numpy()
+                raw[idx,0],aux[idx] = merged[:,0],merged[:,2:24]
+                values[idx,:merged.shape[1]-24] = merged[:,24:]
+                if deferred is not None:
+                    values[idx,2] = idx
+                pay += perf_counter()-t
+                width = model.width
+                ops += small.operations(len(row),x.shape[1],width)+len(row)*width*(4*22+6+8)/1e9
+    return raw,aux,values,dict(forward_seconds=pay,wall_seconds=perf_counter()-first,
+                               analytic_gflops=ops+extra,projection_gflops=extra)
+
+
+def main(arm, optimized=None):
+    plan = HERE/'selection.json'
+    policy = json_at(plan)
+    selected = policy['selected'] if arm=='primary' else policy['best'][arm]
+    if not selected:
+        raise ValueError('No supported new candidate')
+    table = HERE/'comparison/official/results.json'
+    assert checksum(table)==policy['source_table']['official']
+    models = table.with_name('readouts.joblib')
+    assert checksum(models)==json_at(table)['weights_sha256']
+    model = joblib.load(models)[selected['source'],selected['mode']]
+    regional = not selected['mode'].startswith('native')
+    old_path = BASE/'selection_approx.json'
+    old = json_at(old_path)['selected']
+    projection,calibrator,_ = heads(old,old_path)
+    report = BASE/'public_approx/results.json'
+    reference = report.with_name('candidate.npz')
+    assert checksum(reference)==json_at(report)['comparison']['candidate']['predictions_sha256']
+    with np.load(reference) as z:
+        expected, y = z['pred'],z['truth']
+    texts, labels,_ = load(PUBLIC)
+    assert np.array_equal(y,labels)
+    rule,coef,_ = load_choice()
+    encoder = f.pipe('official',f.small.tokenizer())
+    score_config = recipe()
+    common = (encoder,score_config,packages(),rule,coef,old,projection,calibrator)
+    encode_new = encode
+    extra_design = features
+    capture = None
+    stamps = {}
+    expected_semantic = None
+    if optimized is not None:
+        if arm!='semantic' or selected['mode'].split('_')[0]!='regions':
+            raise ValueError('Two-region optimization requires the frozen declaration/body arm')
+        original = HERE/'public_semantic'
+        receipt = json_at(original/'results.json')
+        candidate = original/'candidate.npz'
+        assert checksum(candidate)==receipt['comparison']['candidate']['predictions_sha256']
+        assert receipt['selected']==selected and receipt['receipt']['selection_sha256']==checksum(plan)
+        with np.load(candidate) as z:
+            expected_semantic = z['pred']
+        stamps = dict(optimized=optimized,semantic_sha256=checksum(candidate),fast_sha256=checksum(HERE/'fast37.py'))
+        if optimized=='deferred':
+            from deferred37 import ScopedStates
+            capture = ScopedStates(score_config,f.pinned()[0])
+            encode_new = partial(encode,deferred=capture)
+            extra_design = capture.features
+            stamps['deferred_sha256'] = checksum(HERE/'deferred37.py')
+        else:
+            from fast37 import TwoRegions
+            accel = TwoRegions(score_config,f.pinned()[0],gated=optimized=='gated')
+            encode_new = partial(encode,accelerator=accel)
+    def run(text,candidate):
+        if candidate:
+            result = forward(text,*common,selected,regional,model,encode_new,extra_design)
+            if capture is not None:
+                t = perf_counter()
+                cost = result[-1]
+                capture.finish(cost)
+                elapsed = perf_counter()-t
+                cost['forward_seconds'] += elapsed
+                cost['wall_seconds'] += elapsed
+            return result
+        return forward(text,*common)
+    kept,series = {}, {'reference':[], 'candidate':[]}
+    for k in (False,True):
+        run(texts[:4096],k)
+    for i in range(5):
+        for k in ((False,True) if i%2==0 else (True,False)):
+            bits,margin,eligible,cost = run(texts,k)
+            role = 'candidate' if k else 'reference'
+            if role in kept:
+                assert np.array_equal(bits,kept[role][0])
+            kept[role] = bits,margin,eligible
+            if k:
+                assert np.array_equal(bits[:,1],expected[:,1])
+                assert np.array_equal(bits[~eligible],expected[~eligible])
+                if expected_semantic is not None:
+                    changed = int((bits!=expected_semantic).sum())
+                    if changed:
+                        raise ValueError(f'Optimized profile changed {changed} decisions')
+            else:
+                assert np.array_equal(bits,expected)
+            quality = f.metric(y,bits)
+            score = f.competition_formula(quality['mean']['f1'],cost['forward_seconds'],cost['analytic_gflops'])
+            series[role].append(cost | {'score':score})
+            print(i,role,score,cost,flush=True)
+    output = DEST if arm=='primary' else HERE/f'public_{arm}'
+    if optimized:
+        output = HERE/f'public_{arm}_{optimized}'
+    output.mkdir(exist_ok=True)
+    result = {}
+    for name,(bits,margin,mask) in kept.items():
+        profile = series[name]
+        cost = {k:median(t[k] for t in profile) for k in profile[0] if k!='score'}
+        quality = f.metric(y,bits)
+        score = f.competition_formula(quality['mean']['f1'],cost['forward_seconds'],cost['analytic_gflops'])
+        path = output/f'{name}.npz'
+        np.savez_compressed(path,pred=bits,truth=y,margin=margin,scope=mask)
+        result[name] = dict(score=score,quality=quality,cost=cost,trials=profile,predictions_sha256=checksum(path))
+    gold,old = y[:,0].astype(bool),expected[:,0]
+    bits,margin,eligible = kept['candidate']
+    quality = {'frozen':f.comparison(gold,old,bits[:,0])}
+    for budget in ('tp','fp'):
+        proposed = old.copy()
+        bound = cut(gold[eligible],old[eligible],margin[eligible],budget)
+        proposed[eligible] = margin[eligible]>bound
+        quality[budget] = f.comparison(gold,old,proposed)
+    paired = [b['score']-a['score'] for a,b in zip(series['reference'],series['candidate'],strict=True)]
+    archive = ROOT/'submission/NLBSE2027_round34_pooled_projection_tool.zip'
+    assert checksum(archive)==policy['base_archive_sha256']
+    result = dict(arm=arm,selected=selected,comparison=result,paired=paired,quality=quality,
+                  receipt=stamps | dict(selection_sha256=checksum(plan),model_sha256=checksum(models),
+                      code_sha256=checksum(Path(__file__)),core_sha256=checksum(ROOT/'round35/live35.py'),
+                      public_sha256=checksum(PUBLIC),reference_sha256=checksum(reference),archive_sha256=checksum(archive)))
+    write_json(output/'results.json',result)
+    print(quality,paired,flush=True)
+
+
+if __name__=='__main__':
+    cli = argparse.ArgumentParser(description=__doc__)
+    cli.add_argument('--arm',choices=('primary','native','semantic'),default='primary')
+    cli.add_argument('--optimized',choices=('gated','dense','deferred'))
+    arg = cli.parse_args()
+    main(arg.arm,arg.optimized)

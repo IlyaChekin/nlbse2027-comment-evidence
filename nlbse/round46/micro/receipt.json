@@ -1,0 +1,86 @@
+{
+  "rows": 1500,
+  "model_sha256": "aff8914ec707fcaf9e2d4dc97197cded50b1c63e1d3a7a82e56f54d83ea47f80",
+  "rows_sha256": "49efcba23afe0b28f76fa4ac92270cf4d2dca7f931406945527701579dcb6c28",
+  "tokenizer_trials": [
+    0.9750342450570315,
+    0.9592766559217125,
+    0.8092241650447249,
+    0.9392472840845585,
+    0.8481169349979609
+  ],
+  "tokenizer_median": 0.9392472840845585,
+  "forward": {
+    "full": [
+      {
+        "forward_seconds": 0.7783250692300498,
+        "wall_seconds": 0.788663760991767,
+        "analytic_gflops": 73947.10295347199
+      },
+      {
+        "forward_seconds": 0.7771660834550858,
+        "wall_seconds": 0.7881166730076075,
+        "analytic_gflops": 73947.10295347199
+      },
+      {
+        "forward_seconds": 0.7807363322935998,
+        "wall_seconds": 0.7918068410363048,
+        "analytic_gflops": 73947.10295347199
+      },
+      {
+        "forward_seconds": 0.7777433164883405,
+        "wall_seconds": 0.7883276301436126,
+        "analytic_gflops": 73947.10295347199
+      },
+      {
+        "forward_seconds": 0.7784755062311888,
+        "wall_seconds": 0.7891555451788008,
+        "analytic_gflops": 73947.10295347199
+      }
+    ],
+    "partial": [
+      {
+        "forward_seconds": 0.40544124529697,
+        "wall_seconds": 0.4159672900568694,
+        "analytic_gflops": 36973.55147673599
+      },
+      {
+        "forward_seconds": 0.4060348637867719,
+        "wall_seconds": 0.41650705481879413,
+        "analytic_gflops": 36973.55147673599
+      },
+      {
+        "forward_seconds": 0.40808114199899137,
+        "wall_seconds": 0.41888222307898104,
+        "analytic_gflops": 36973.55147673599
+      },
+      {
+        "forward_seconds": 0.4075192289892584,
+        "wall_seconds": 0.418152793077752,
+        "analytic_gflops": 36973.55147673599
+      },
+      {
+        "forward_seconds": 0.4065868160687387,
+        "wall_seconds": 0.4171888919081539,
+        "analytic_gflops": 36973.55147673599
+      }
+    ]
+  },
+  "median": {
+    "full": {
+      "forward_seconds": 0.7783250692300498,
+      "wall_seconds": 0.788663760991767,
+      "analytic_gflops": 73947.10295347199
+    },
+    "partial": {
+      "forward_seconds": 0.4065868160687387,
+      "wall_seconds": 0.4171888919081539,
+      "analytic_gflops": 36973.55147673599
+    }
+  },
+  "intermediate_exact_rows": 128,
+  "same_states": true,
+  "code_sha256": "49e65c2b5f82c41241203f79a87014004f667bffd38fc6a355ac059f626b212e",
+  "extractor_sha256": "86e4669cf0f3e295d9d0ae59923a26bf6d6f58278d1c35b149ab875acb0c1167",
+  "wall_seconds": 16.296230082167313
+}

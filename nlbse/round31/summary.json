@@ -1,0 +1,44 @@
+{
+  "continuation": {
+    "candidates": 54,
+    "retuned_reference_tp": [
+      1,
+      4
+    ],
+    "public_eligible": []
+  },
+  "target": {
+    "public_score": 0.963999805489185,
+    "counts": {
+      "vulnerability": {
+        "tp": 9540,
+        "fp": 460,
+        "fn": 512,
+        "tn": 20143
+      },
+      "MAT": {
+        "tp": 444,
+        "fp": 0,
+        "fn": 61,
+        "tn": 30150
+      }
+    },
+    "target": 0.97,
+    "target_gap": 0.006000194510815016,
+    "same_cost_minimum_changes": {
+      "additional_mat_tp": 19,
+      "additional_vulnerability_tp": 390,
+      "remove_vulnerability_fp": 413
+    },
+    "no_cost_at_current_f1": 0.9661743534250359,
+    "condition_18_mat_tp": 0.9699430342511867,
+    "condition_19_mat_tp": 0.9702667328333228,
+    "condition_20_mat_tp": 0.9705897633069301,
+    "condition_10_mat_tp_minimum_vulnerability_fp_removal": 186,
+    "scored_seconds": 5.9485509167425334,
+    "gflops": 14772.566287536041,
+    "archived_predictions_sha256": "357f025f178ce1eede911d60bb32eac09e284bbfa1c5836ab05834712c2a268a",
+    "archive_sha256": "ff131957ac0c7a1205bf62a22921bade0b51473c4e78209a6ea1fe89a46ed86d"
+  },
+  "reference_audit_sha256": "065a9cfb7e33d9944ab31caf0866bf2e3096049511ea2038e794b9b583b88575"
+}

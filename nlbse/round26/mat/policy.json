@@ -1,0 +1,38 @@
+{
+  "thresholds": {
+    "ordered/positive": 0.9526703953742981,
+    "ordered/contrast_half": 0.6051656007766724,
+    "ordered/contrast": 0.49285703897476196,
+    "ordered/consensus": 0.05,
+    "anchors/positive": 0.9354709386825562,
+    "anchors/contrast_half": 0.5212562084197998,
+    "anchors/contrast": 0.4501728415489197,
+    "anchors/consensus": 0.05
+  },
+  "selected": "canonical",
+  "checkpoints": {
+    "ordered": {
+      "sha256": "fde9f3da95eb25e22a1947f2a0897ef4d1c1b3c14295fd9c9bc2609fbc374218",
+      "dimensions": [
+        3069191,
+        153628
+      ],
+      "indexed_rows": 153628,
+      "seconds": 21.516319182002917
+    },
+    "anchors": {
+      "sha256": "8e0ad7d3fa852d689887b7e7e933c29ec9e3e8b566841fcd4b3a8b4dd8b7cfdd",
+      "dimensions": [
+        2031311,
+        153628
+      ],
+      "indexed_rows": 153628,
+      "seconds": 12.805017055012286
+    }
+  },
+  "training_rows": 153628,
+  "training_positives": 2183,
+  "split_sha256": "2823097d9b25fadebffcc6a3daa50034854d7a59c5df5c90d4e6d6d48231cfc9",
+  "code_sha256": "cd20f7d1e96a4b6ce2f5eeee7789ed0c8e2c1800d2b61ee0cdb83e608e70ea51",
+  "data_manifest_sha256": "8cd6dc7cf3101d2e3a055ff7c7154653402fbb6491959f4f636504cd378b56ef"
+}

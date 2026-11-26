@@ -1,0 +1,13 @@
+{
+  "rotation": "official",
+  "base_sha256": "3927c6f13a77c0a0aa6ace0223ce58e2641693b13f8250468f34516c0d290b25",
+  "pairs_sha256": "9a736956406e632f82c2fa97a3475280fe3cf1e22f2fc73d9b7541dcb6b942d7",
+  "source_sha256": "3c209a8460890cb8236a4bb96f69909b28e5b12a7553e9a01993f0f93dc07755",
+  "scores_sha256": "1c2298418ee4bc9491e92425f69a4a2336236027df72b8c4bcf80ddc7e1b99df",
+  "oof_coverage": 49828,
+  "oof_rows": 49828,
+  "held": {
+    "dev": 2155
+  },
+  "code_sha256": "acb5efcb11eef6aaa1a10bb94edb1c0cb7c473f16f554cd5fd251823bb837daa"
+}

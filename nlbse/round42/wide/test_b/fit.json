@@ -1,0 +1,65 @@
+{
+  "matrix_sha256": "60b77f55b6ceccfedf9419153dd4aefc11b825afc2f52765e71f105815b50196",
+  "fit_sources": [
+    "13d208358a6434bb27a6d6b233f833ab694fc83b2a035aa27e73fd3888033242",
+    "b4a1f4defdf0f1cbf891d8e7bfed5bebc9bf5922805740b87571c235f06a32e5"
+  ],
+  "pair_source_sha256": "b98678762b5d1991288d158e2bb1be2496d9908821e56ff4996f26764652599b",
+  "hashes": {
+    "roster.npz": "a5f1deb3b13e10f97b3f3c5896efd01fe172f0b15a3fbfcc1e77a5bbc9471ce3",
+    "weights.joblib": "2fbee6b6869abda8f50f1f187b6a77eb2f01b01d91049e0021cc82e4993587d9",
+    "scores.npz": "7d97640a2413e0971a8fd28e7b08c05d5e1994627c4cb603c2a1eb9bca8c3d48"
+  },
+  "notes": {
+    "strict/0": {
+      "rows": 253,
+      "anchors": 205,
+      "negative_teacher_order": 0,
+      "mean_teacher_margin": 0.6210145950317383
+    },
+    "broad/0": {
+      "rows": 2491,
+      "anchors": 1293,
+      "negative_teacher_order": 0,
+      "mean_teacher_margin": 1.0697804689407349
+    },
+    "broad_gold/0": {
+      "rows": 2491,
+      "anchors": 1293,
+      "negative_teacher_order": 0,
+      "mean_teacher_margin": 1.0697804689407349
+    },
+    "broad_contrast/0": {
+      "rows": 737,
+      "anchors": 565,
+      "negative_teacher_order": 390,
+      "mean_teacher_margin": -0.026700424030423164
+    },
+    "strict/2": {
+      "rows": 115,
+      "anchors": 92,
+      "negative_teacher_order": 0,
+      "mean_teacher_margin": 0.954798698425293
+    },
+    "broad/2": {
+      "rows": 742,
+      "anchors": 497,
+      "negative_teacher_order": 0,
+      "mean_teacher_margin": 1.7558965682983398
+    },
+    "broad_gold/2": {
+      "rows": 742,
+      "anchors": 497,
+      "negative_teacher_order": 0,
+      "mean_teacher_margin": 1.7558965682983398
+    },
+    "broad_contrast/2": {
+      "rows": 242,
+      "anchors": 183,
+      "negative_teacher_order": 100,
+      "mean_teacher_margin": 0.17438118159770966
+    }
+  },
+  "code_sha256": "f864133379425e9183ee0a9af5f22a19a309541b0e7d797f03d71d938cae65b4",
+  "seconds": 16.781340586021543
+}

@@ -1,0 +1,45 @@
+{
+  "config": {
+    "epochs": 1,
+    "seed": 101,
+    "rows": 180019,
+    "steps": 1407,
+    "warmup": 0.04,
+    "lr_emb": 0.00012,
+    "lr_model": 0.00025,
+    "weight_decay": 0.025,
+    "normalize_probability": 0.45,
+    "temperature": 0.15,
+    "project_mix": 0.7,
+    "smoothing": 0.07,
+    "weight_cap": 8.0,
+    "distillation_temperature": 1.7,
+    "domain_gradient": 0.24
+  },
+  "source_sha256": "d230266ed3d64499dbd2dab60c93445b291d34096fc605d07b376e500868d881",
+  "teacher_and_data": {
+    "rotation": "132b1c5775346ea14c0b36a3320530bb6dc017703ae3f1334fd011769ade05ad",
+    "train": "668a958c873060904e611bd3f45088acdbdb48631e6f626afda8ea7831fa6319",
+    "fit_teacher": "95f928cfdee573d2465961cf500cac3b5ccc50b4f5686e4106360e55538fe24d",
+    "dev_teacher": "3f9a66cdea90d9a84a89e54944c20e070550173c29f6a9adaab522ae7856b451"
+  },
+  "group_rows": {
+    "chromium": 21061,
+    "ffmpeg": 1765,
+    "linux": 153628,
+    "qemu": 3565
+  },
+  "modes": {
+    "invariant": {
+      "checkpoint": "invariant.pt",
+      "sha256": "0dfce7a55ec43a52d5388c621b39ea5e82afb83896446f9b34b8151fbba34bf2",
+      "seconds": 21.553160927956924,
+      "group_weights": {
+        "chromium": 1.0,
+        "ffmpeg": 1.0,
+        "linux": 1.0,
+        "qemu": 1.0
+      }
+    }
+  }
+}

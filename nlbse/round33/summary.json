@@ -1,0 +1,37 @@
+{
+  "release_score": 0.9643754685152179,
+  "round33_scores": {
+    "reference": 0.9643768536205077,
+    "candidate": 0.9643122074002541
+  },
+  "candidate_winning_pairs": 1,
+  "candidate_total_pairs": 5,
+  "target": 0.97,
+  "oracle": {
+    "same_budget_witness": {
+      "with_previous_cost": 0.9689499082063091,
+      "with_zero_cost": 0.9711023004068002,
+      "delta_tp": 248,
+      "delta_fp": -51
+    },
+    "any_budget_published_threshold": {
+      "with_previous_cost": 0.9689499082063091,
+      "with_zero_cost": 0.9711023004068002,
+      "delta_tp": 248,
+      "delta_fp": -51
+    },
+    "any_budget_any_shared_threshold": {
+      "with_previous_cost": 0.9690954900654636,
+      "with_zero_cost": 0.9712478822659547,
+      "delta_tp": 204,
+      "delta_fp": -108
+    }
+  },
+  "matched_veto_sha256": "37e3213ee9226408ff1bb481a2f9b3eab17f7dbfb684e29a5d71819d18d10c83",
+  "maximum_measured_seconds_at_oracle_f1_and_current_gflops": 1.3152225495533334,
+  "sha256": {
+    "results.json": "92d8ea282cd198e6449d589af992809a12728c52a5321932a2cf2faa9cbc6801",
+    "audit.json": "3c9f57d891299f04b13f8b28c5c0568550def67d6d3f28b9a9c3226680bead72",
+    "ceiling.json": "c2f9b23cf0c72691b35d884f50736e5d56ef520eef5e8ac0e236beb2d3e81207"
+  }
+}

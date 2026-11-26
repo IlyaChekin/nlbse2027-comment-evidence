@@ -1,0 +1,38 @@
+{
+  "selected": {
+    "stage": "approx_comparison",
+    "key": "0.75_ridge_hi_fit_1",
+    "protocol": "fixed",
+    "mode": "ridge_hi",
+    "source": "fit",
+    "width": 0.75,
+    "strength": 1.0,
+    "cut": 0.0,
+    "cal_f1": 0.0001810290715635876,
+    "cal_over_recut": 0.0001810290715635876,
+    "review_f1": 0.0004139517951939897,
+    "cal_tp": 6,
+    "cal_fp": 6,
+    "review_tp": 2,
+    "review_fp": 1,
+    "a_tp": 5,
+    "b_tp": 2,
+    "a_fp_saved": 13,
+    "b_fp_saved": 9,
+    "a_tp_paired": 4,
+    "b_tp_paired": 0,
+    "a_fp_paired": 8,
+    "b_fp_paired": -2,
+    "cal_calls": 86,
+    "review_calls": 82
+  },
+  "eligible": 1,
+  "tested": 495,
+  "receipts": {
+    "approx_comparison": {
+      "test_a": "ee4afeebdadf215f81fef9b754410e303fd2722e3652e84723c43428ecc7d7db",
+      "test_b": "6d6455df8447a72b78facf2857f684951503684277c87bd1a521c2a3dd914309",
+      "official": "4132313a59e3405f4e55a1915b25792f14fe0ef7c0da9b64bc09b61c520e378e"
+    }
+  }
+}

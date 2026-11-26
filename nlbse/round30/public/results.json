@@ -1,0 +1,238 @@
+{
+  "results": {
+    "reference": {
+      "score": 0.9639557559201984,
+      "quality": {
+        "vulnerability": {
+          "precision": 0.954,
+          "recall": 0.9490648627138878,
+          "f1": 0.9515260323159784
+        },
+        "MAT": {
+          "precision": 1.0,
+          "recall": 0.8792079207920792,
+          "f1": 0.9357218124341412
+        },
+        "mean": {
+          "precision": 0.977,
+          "recall": 0.9141363917529834,
+          "f1": 0.9436239223750598
+        }
+      },
+      "timing": {
+        "wall_seconds": 7.839323973981664,
+        "forward_seconds": 6.168798761675134,
+        "analytic_gflops": 14772.566287536041,
+        "routed": 1990,
+        "extra_gflops": 0.0,
+        "new_rows": 0
+      },
+      "trials": [
+        {
+          "wall_seconds": 8.464947749860585,
+          "forward_seconds": 6.542897312436253,
+          "analytic_gflops": 14772.566287536041,
+          "routed": 1990,
+          "extra_gflops": 0.0,
+          "new_rows": 0
+        },
+        {
+          "wall_seconds": 7.653851971030235,
+          "forward_seconds": 5.677147551905364,
+          "analytic_gflops": 14772.566287536041,
+          "routed": 1990,
+          "extra_gflops": 0.0,
+          "new_rows": 0
+        },
+        {
+          "wall_seconds": 8.01851599290967,
+          "forward_seconds": 6.301531675970182,
+          "analytic_gflops": 14772.566287536041,
+          "routed": 1990,
+          "extra_gflops": 0.0,
+          "new_rows": 0
+        },
+        {
+          "wall_seconds": 7.839323973981664,
+          "forward_seconds": 5.660692885285243,
+          "analytic_gflops": 14772.566287536041,
+          "routed": 1990,
+          "extra_gflops": 0.0,
+          "new_rows": 0
+        },
+        {
+          "wall_seconds": 7.834266848163679,
+          "forward_seconds": 6.168798761675134,
+          "analytic_gflops": 14772.566287536041,
+          "routed": 1990,
+          "extra_gflops": 0.0,
+          "new_rows": 0
+        }
+      ],
+      "frozen": {
+        "before": {
+          "tp": 9540,
+          "fp": 460,
+          "fn": 512,
+          "tn": 20143
+        },
+        "after": {
+          "tp": 9540,
+          "fp": 460,
+          "fn": 512,
+          "tn": 20143
+        },
+        "delta_tp": 0,
+        "delta_fp": 0,
+        "f1_before": 0.9515260323159784,
+        "f1_after": 0.9515260323159784
+      },
+      "matched": {
+        "before": {
+          "tp": 9540,
+          "fp": 460,
+          "fn": 512,
+          "tn": 20143
+        },
+        "after": {
+          "tp": 9540,
+          "fp": 460,
+          "fn": 512,
+          "tn": 20143
+        },
+        "delta_tp": 0,
+        "delta_fp": 0,
+        "f1_before": 0.9515260323159784,
+        "f1_after": 0.9515260323159784
+      },
+      "predictions_sha256": "73d16f6779328631db231517d337bd73dc094d1919c4b0e7afd9659aebd98c38"
+    },
+    "all:frozen_0.4_0.35:tp": {
+      "score": 0.9640111039623589,
+      "quality": {
+        "vulnerability": {
+          "precision": 0.9553884711779449,
+          "recall": 0.9480700358137684,
+          "f1": 0.9517151845009237
+        },
+        "MAT": {
+          "precision": 1.0,
+          "recall": 0.8792079207920792,
+          "f1": 0.9357218124341412
+        },
+        "mean": {
+          "precision": 0.9776942355889724,
+          "recall": 0.9136389783029237,
+          "f1": 0.9437184984675324
+        }
+      },
+      "timing": {
+        "forward_seconds": 6.171434849500656,
+        "wall_seconds": 7.849642381770536,
+        "extra_gflops": 13.055934272,
+        "analytic_gflops": 14785.622223904042,
+        "routed": 1990,
+        "new_rows": 262
+      },
+      "trials": [
+        {
+          "forward_seconds": 5.99211902776733,
+          "wall_seconds": 7.640815778169781,
+          "extra_gflops": 13.055934272,
+          "analytic_gflops": 14785.622223904042,
+          "routed": 1990,
+          "new_rows": 262
+        },
+        {
+          "forward_seconds": 6.415854441234842,
+          "wall_seconds": 8.201932225143537,
+          "extra_gflops": 13.055934272,
+          "analytic_gflops": 14785.622223904042,
+          "routed": 1990,
+          "new_rows": 262
+        },
+        {
+          "forward_seconds": 6.171434849500656,
+          "wall_seconds": 7.849642381770536,
+          "extra_gflops": 13.055934272,
+          "analytic_gflops": 14785.622223904042,
+          "routed": 1990,
+          "new_rows": 262
+        },
+        {
+          "forward_seconds": 6.30954626458697,
+          "wall_seconds": 7.90572456503287,
+          "extra_gflops": 13.055934272,
+          "analytic_gflops": 14785.622223904042,
+          "routed": 1990,
+          "new_rows": 262
+        },
+        {
+          "forward_seconds": 5.66521680704318,
+          "wall_seconds": 7.2227198258042336,
+          "extra_gflops": 13.055934272,
+          "analytic_gflops": 14785.622223904042,
+          "routed": 1990,
+          "new_rows": 262
+        }
+      ],
+      "frozen": {
+        "before": {
+          "tp": 9540,
+          "fp": 460,
+          "fn": 512,
+          "tn": 20143
+        },
+        "after": {
+          "tp": 9530,
+          "fp": 445,
+          "fn": 522,
+          "tn": 20158
+        },
+        "delta_tp": -10,
+        "delta_fp": -15,
+        "f1_before": 0.9515260323159784,
+        "f1_after": 0.9517151845009237
+      },
+      "matched": {
+        "before": {
+          "tp": 9540,
+          "fp": 460,
+          "fn": 512,
+          "tn": 20143
+        },
+        "after": {
+          "tp": 9545,
+          "fp": 460,
+          "fn": 507,
+          "tn": 20143
+        },
+        "delta_tp": 5,
+        "delta_fp": 0,
+        "f1_before": 0.9515260323159784,
+        "f1_after": 0.9517874058932043
+      },
+      "predictions_sha256": "0c5fa39077be468e671ec4668ce7e274f585e26549f964c6a7f813a10417ba21"
+    }
+  },
+  "pairs": {
+    "reference": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "all:frozen_0.4_0.35:tp": [
+      0.00016603091665934322,
+      -9.186611814027135e-05,
+      8.189462501939637e-05,
+      -7.389541613467276e-05,
+      0.00015659165065196046
+    ]
+  },
+  "selected": "all:frozen_0.4_0.35:tp",
+  "policy_sha256": "cea61141ee7776c66c3ccf99d15086a8c8556410460e094c198ae9720faa7b00",
+  "public_sha256": "4d5e1fcffa59d08ee3f285209c9538c425cd2723dbeefb2530e1520364a1b2b0",
+  "scanner_sha256": "5fa7468518a1b36889acc92d7e33295ab8749b70da761c8ab22d557f6058b273"
+}

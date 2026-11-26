@@ -1,0 +1,276 @@
+{
+  "modes": {
+    "reference": {
+      "kind": "reference",
+      "share": 0.0,
+      "eligibility": -1e+20,
+      "weight": 0.5,
+      "threshold": 0.36398876404494385,
+      "dev": {
+        "before": {
+          "tp": 6291,
+          "fp": 1414,
+          "fn": 3253,
+          "tn": 20295
+        },
+        "after": {
+          "tp": 6291,
+          "fp": 1414,
+          "fn": 3253,
+          "tn": 20295
+        },
+        "delta_tp": 0,
+        "delta_fp": 0,
+        "f1_before": 0.729433590353064,
+        "f1_after": 0.729433590353064
+      },
+      "review": {
+        "before": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 0,
+          "tn": 0
+        },
+        "after": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 0,
+          "tn": 0
+        },
+        "delta_tp": 0,
+        "delta_fp": 0,
+        "f1_before": 0.0,
+        "f1_after": 0.0
+      },
+      "selected_rows": 1933,
+      "estimated_share": 0.1024784702993975
+    },
+    "threshold": {
+      "kind": "threshold",
+      "share": 0.0,
+      "eligibility": -1e+20,
+      "weight": 0.5,
+      "threshold": 0.3146820068359375,
+      "dev": {
+        "before": {
+          "tp": 6291,
+          "fp": 1414,
+          "fn": 3253,
+          "tn": 20295
+        },
+        "after": {
+          "tp": 6291,
+          "fp": 1414,
+          "fn": 3253,
+          "tn": 20295
+        },
+        "delta_tp": 0,
+        "delta_fp": 0,
+        "f1_before": 0.729433590353064,
+        "f1_after": 0.729433590353064
+      },
+      "review": {
+        "before": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 0,
+          "tn": 0
+        },
+        "after": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 0,
+          "tn": 0
+        },
+        "delta_tp": 0,
+        "delta_fp": 0,
+        "f1_before": 0.0,
+        "f1_after": 0.0
+      },
+      "selected_rows": 1933,
+      "estimated_share": 0.1024784702993975
+    },
+    "raw": {
+      "kind": "raw",
+      "share": 0.0,
+      "eligibility": -1e+20,
+      "weight": 0.5,
+      "threshold": 0.3664763569831848,
+      "dev": {
+        "before": {
+          "tp": 6291,
+          "fp": 1414,
+          "fn": 3253,
+          "tn": 20295
+        },
+        "after": {
+          "tp": 6280,
+          "fp": 1414,
+          "fn": 3264,
+          "tn": 20295
+        },
+        "delta_tp": -11,
+        "delta_fp": 0,
+        "f1_before": 0.729433590353064,
+        "f1_after": 0.7286228100707739
+      },
+      "review": {
+        "before": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 0,
+          "tn": 0
+        },
+        "after": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 0,
+          "tn": 0
+        },
+        "delta_tp": 0,
+        "delta_fp": 0,
+        "f1_before": 0.0,
+        "f1_after": 0.0
+      },
+      "selected_rows": 0,
+      "estimated_share": 0.0
+    },
+    "edge": {
+      "kind": "edge",
+      "share": 0.13,
+      "eligibility": -1.0952272010811375,
+      "weight": 0.5,
+      "threshold": 0.3421415686607361,
+      "dev": {
+        "before": {
+          "tp": 6291,
+          "fp": 1414,
+          "fn": 3253,
+          "tn": 20295
+        },
+        "after": {
+          "tp": 6307,
+          "fp": 1414,
+          "fn": 3237,
+          "tn": 20295
+        },
+        "delta_tp": 16,
+        "delta_fp": 0,
+        "f1_before": 0.729433590353064,
+        "f1_after": 0.7306110628439039
+      },
+      "review": {
+        "before": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 0,
+          "tn": 0
+        },
+        "after": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 0,
+          "tn": 0
+        },
+        "delta_tp": 0,
+        "delta_fp": 0,
+        "f1_before": 0.0,
+        "f1_after": 0.0
+      },
+      "selected_rows": 2621,
+      "estimated_share": 0.12993200199998398
+    },
+    "loss": {
+      "kind": "loss",
+      "share": 0.13,
+      "eligibility": 0.010247261439091873,
+      "weight": 0.7,
+      "threshold": 0.3123700022697449,
+      "dev": {
+        "before": {
+          "tp": 6291,
+          "fp": 1414,
+          "fn": 3253,
+          "tn": 20295
+        },
+        "after": {
+          "tp": 6320,
+          "fp": 1414,
+          "fn": 3224,
+          "tn": 20295
+        },
+        "delta_tp": 29,
+        "delta_fp": 0,
+        "f1_before": 0.729433590353064,
+        "f1_after": 0.7315661534899872
+      },
+      "review": {
+        "before": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 0,
+          "tn": 0
+        },
+        "after": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 0,
+          "tn": 0
+        },
+        "delta_tp": 0,
+        "delta_fp": 0,
+        "f1_before": 0.0,
+        "f1_after": 0.0
+      },
+      "selected_rows": 3453,
+      "estimated_share": 0.12998327855123035
+    },
+    "utility": {
+      "kind": "utility",
+      "share": 0.09,
+      "eligibility": 0.00516603548521572,
+      "weight": 0.7,
+      "threshold": 0.27776673436164856,
+      "dev": {
+        "before": {
+          "tp": 6291,
+          "fp": 1414,
+          "fn": 3253,
+          "tn": 20295
+        },
+        "after": {
+          "tp": 6318,
+          "fp": 1414,
+          "fn": 3226,
+          "tn": 20295
+        },
+        "delta_tp": 27,
+        "delta_fp": 0,
+        "f1_before": 0.729433590353064,
+        "f1_after": 0.7314193100254689
+      },
+      "review": {
+        "before": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 0,
+          "tn": 0
+        },
+        "after": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 0,
+          "tn": 0
+        },
+        "delta_tp": 0,
+        "delta_fp": 0,
+        "f1_before": 0.0,
+        "f1_after": 0.0
+      },
+      "selected_rows": 1853,
+      "estimated_share": 0.08998571600690507
+    }
+  },
+  "selected": "loss",
+  "fp": 1414
+}

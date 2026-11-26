@@ -1,0 +1,40 @@
+{
+  "data_sha256": "547e06c20d9e5a405b3fb897763802e3b40323cb6572e3b79b0f60a91b5a7cf7",
+  "code_sha256": "6c9317f37ae5a52a6713ac875a7caf3d10b616bc7cb72d847dffe99c438bf673",
+  "pairing_sha256": "a8a3f0e8e70d9e69f97f9267ea87a8c1772440f7cd084021e78762eb8d470c78",
+  "scanner_sha256": "466c407a6cd1d4cbc5cde666581cbf9e0da58a224931d46c4cec225f049377b6",
+  "funds": {
+    "test_a_cal": {
+      "rows": 968,
+      "mapped": 966,
+      "initially_missed": 62
+    },
+    "test_a_held": {
+      "rows": 2686,
+      "mapped": 2656,
+      "initially_missed": 330
+    },
+    "test_b_cal": {
+      "rows": 915,
+      "mapped": 908,
+      "initially_missed": 73
+    },
+    "test_b_held": {
+      "rows": 660,
+      "mapped": 659,
+      "initially_missed": 123
+    },
+    "official_cal": {
+      "rows": 317,
+      "mapped": 316,
+      "initially_missed": 17
+    },
+    "official_held": {
+      "rows": 351,
+      "mapped": 351,
+      "initially_missed": 23
+    }
+  },
+  "seconds": 1.4534200730267912,
+  "total": 4834
+}

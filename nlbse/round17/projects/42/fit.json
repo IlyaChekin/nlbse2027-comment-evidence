@@ -1,0 +1,40 @@
+{
+  "scope": "projects",
+  "seed": 42,
+  "rows": 153628,
+  "kept_long": 10588,
+  "pairable": 14660,
+  "teacher_sha256": "95f928cfdee573d2465961cf500cac3b5ccc50b4f5686e4106360e55538fe24d",
+  "selection_sha256": "d2951402b86228c7217436170a777ada4deb491efad08546a59da8703e2447c3",
+  "initial_sha256": "d230266ed3d64499dbd2dab60c93445b291d34096fc605d07b376e500868d881",
+  "modes": {
+    "crop": {
+      "path": "crop.pt",
+      "sha256": "66f5657d15ba33c6a35a292f535d5675ab502a25a5ac77d95a278410bf202bbc",
+      "pairs": 0,
+      "steps": 1201,
+      "seconds": 15.534733824897557
+    },
+    "full": {
+      "path": "full.pt",
+      "sha256": "dc4d81cea1aa6c5b6776ce23a736bc6e449cde6605ce9b3b172f11b7c6671f7e",
+      "pairs": 0,
+      "steps": 1201,
+      "seconds": 16.335863265907392
+    },
+    "paired": {
+      "path": "paired.pt",
+      "sha256": "43339b7b76709745eba703c1160e492faf1a60aa0622e7141d15bf67c4016f63",
+      "pairs": 14660,
+      "steps": 1201,
+      "seconds": 23.512365009868518
+    },
+    "consistent": {
+      "path": "consistent.pt",
+      "sha256": "c4119ce86d4866d76a284672e03dfdcac0cb578928664c4a84974afaa321920a",
+      "pairs": 14660,
+      "steps": 1201,
+      "seconds": 24.15345688094385
+    }
+  }
+}

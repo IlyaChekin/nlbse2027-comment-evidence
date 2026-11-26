@@ -1,0 +1,160 @@
+{
+  "config": {
+    "seed": 42
+  },
+  "modes": {
+    "seed_mean": {
+      "checkpoint": "seed_mean.pt",
+      "sha256": "d9aac5305c1be77f2c2bfc220f688264000c96a7b40c577fe0b49a3405bb5a2b",
+      "seconds": 0.32484100316651165,
+      "sources": [
+        {
+          "file": "round19/test_b/42/pooled.pt",
+          "sha256": "9d19b76549a9ab0d9c86c554a4794aac1d1fb95bf93e99bf3897d748da28410f",
+          "weight": 0.5
+        },
+        {
+          "file": "round19/test_b/101/pooled.pt",
+          "sha256": "29033e5eb231adf600a7f7f1c5eaff5ab8641b26c55d97b7768c918e1103f999",
+          "weight": 0.5
+        }
+      ]
+    },
+    "project_mean": {
+      "checkpoint": "project_mean.pt",
+      "sha256": "8822d55e64636acbfac75cec9347565c65586e537f413a649d60c4902304ffae",
+      "seconds": 0.736253639915958,
+      "sources": [
+        {
+          "file": "round19/test_b/42/pooled.pt",
+          "sha256": "9d19b76549a9ab0d9c86c554a4794aac1d1fb95bf93e99bf3897d748da28410f",
+          "weight": 0.16666666666666666
+        },
+        {
+          "file": "round19/test_b/101/pooled.pt",
+          "sha256": "29033e5eb231adf600a7f7f1c5eaff5ab8641b26c55d97b7768c918e1103f999",
+          "weight": 0.16666666666666666
+        },
+        {
+          "file": "round19/test_b/42/balanced.pt",
+          "sha256": "6fef8df2887209dcdc48e20d87c3f848929c0b8f5cd386a84c652335079805ab",
+          "weight": 0.16666666666666666
+        },
+        {
+          "file": "round19/test_b/42/robust.pt",
+          "sha256": "ae466233216975cdd53948f36c7633e250b6c26cd03dd204d425b147aa67dab6",
+          "weight": 0.16666666666666666
+        },
+        {
+          "file": "round19/test_b/101/balanced.pt",
+          "sha256": "9cc85d704a53b3c66244e9222c03cb749fbefe2f58280184e48d2b774bafdf31",
+          "weight": 0.16666666666666666
+        },
+        {
+          "file": "round19/test_b/101/robust.pt",
+          "sha256": "fe850ad72888edb25332e696f8e600f8f377fad4ed7235509041b8324135a191",
+          "weight": 0.16666666666666666
+        }
+      ]
+    },
+    "invariant_mean": {
+      "checkpoint": "invariant_mean.pt",
+      "sha256": "682929aa05df215ed3b6a0b413e74a07cdfa4d737d916dfa623f987fb142d7f6",
+      "seconds": 0.8372956200037152,
+      "sources": [
+        {
+          "file": "round19/test_b/42/pooled.pt",
+          "sha256": "9d19b76549a9ab0d9c86c554a4794aac1d1fb95bf93e99bf3897d748da28410f",
+          "weight": 0.125
+        },
+        {
+          "file": "round19/test_b/101/pooled.pt",
+          "sha256": "29033e5eb231adf600a7f7f1c5eaff5ab8641b26c55d97b7768c918e1103f999",
+          "weight": 0.125
+        },
+        {
+          "file": "round19/test_b/42/balanced.pt",
+          "sha256": "6fef8df2887209dcdc48e20d87c3f848929c0b8f5cd386a84c652335079805ab",
+          "weight": 0.125
+        },
+        {
+          "file": "round19/test_b/42/robust.pt",
+          "sha256": "ae466233216975cdd53948f36c7633e250b6c26cd03dd204d425b147aa67dab6",
+          "weight": 0.125
+        },
+        {
+          "file": "round19/test_b/101/balanced.pt",
+          "sha256": "9cc85d704a53b3c66244e9222c03cb749fbefe2f58280184e48d2b774bafdf31",
+          "weight": 0.125
+        },
+        {
+          "file": "round19/test_b/101/robust.pt",
+          "sha256": "fe850ad72888edb25332e696f8e600f8f377fad4ed7235509041b8324135a191",
+          "weight": 0.125
+        },
+        {
+          "file": "round19/adversary/test_b/42/invariant.pt",
+          "sha256": "9e8c2d674e896206a5c57e3246bbe96d2e958a19f764b33b2c4545b0553808c0",
+          "weight": 0.125
+        },
+        {
+          "file": "round19/adversary/test_b/101/invariant.pt",
+          "sha256": "0dfce7a55ec43a52d5388c621b39ea5e82afb83896446f9b34b8151fbba34bf2",
+          "weight": 0.125
+        }
+      ]
+    },
+    "anchored": {
+      "checkpoint": "anchored.pt",
+      "sha256": "45b079ab885a3d355466e17999203256769f3b644d1f91da73e64bfead8a431d",
+      "seconds": 0.8820919170975685,
+      "sources": [
+        {
+          "file": "round13/backbones/compact/epoch5.pt",
+          "sha256": "d230266ed3d64499dbd2dab60c93445b291d34096fc605d07b376e500868d881",
+          "weight": 0.4
+        },
+        {
+          "file": "round19/test_b/42/pooled.pt",
+          "sha256": "9d19b76549a9ab0d9c86c554a4794aac1d1fb95bf93e99bf3897d748da28410f",
+          "weight": 0.075
+        },
+        {
+          "file": "round19/test_b/101/pooled.pt",
+          "sha256": "29033e5eb231adf600a7f7f1c5eaff5ab8641b26c55d97b7768c918e1103f999",
+          "weight": 0.075
+        },
+        {
+          "file": "round19/test_b/42/balanced.pt",
+          "sha256": "6fef8df2887209dcdc48e20d87c3f848929c0b8f5cd386a84c652335079805ab",
+          "weight": 0.075
+        },
+        {
+          "file": "round19/test_b/42/robust.pt",
+          "sha256": "ae466233216975cdd53948f36c7633e250b6c26cd03dd204d425b147aa67dab6",
+          "weight": 0.075
+        },
+        {
+          "file": "round19/test_b/101/balanced.pt",
+          "sha256": "9cc85d704a53b3c66244e9222c03cb749fbefe2f58280184e48d2b774bafdf31",
+          "weight": 0.075
+        },
+        {
+          "file": "round19/test_b/101/robust.pt",
+          "sha256": "fe850ad72888edb25332e696f8e600f8f377fad4ed7235509041b8324135a191",
+          "weight": 0.075
+        },
+        {
+          "file": "round19/adversary/test_b/42/invariant.pt",
+          "sha256": "9e8c2d674e896206a5c57e3246bbe96d2e958a19f764b33b2c4545b0553808c0",
+          "weight": 0.075
+        },
+        {
+          "file": "round19/adversary/test_b/101/invariant.pt",
+          "sha256": "0dfce7a55ec43a52d5388c621b39ea5e82afb83896446f9b34b8151fbba34bf2",
+          "weight": 0.075
+        }
+      ]
+    }
+  }
+}

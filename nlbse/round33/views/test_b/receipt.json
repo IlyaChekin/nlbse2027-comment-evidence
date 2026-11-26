@@ -1,0 +1,11 @@
+{
+  "code_sha256": "a912b35366c0922d55f888c0bf2c6a1572ee28b5b0831052c7f8cf283d3199b0",
+  "points_sha256": "6f553d4aba4f335ecdc41a33d8bfa2d81993fd1db5f3f1072a33f04a8b02ffe1",
+  "source_sha256": "467132ed043c789b92d194b805788b9e95f53d1108edcf533d18555c2eb6b75b",
+  "predictions_sha256": "4fe995316781b9959a013d9ff03b78bedd608ff0c88668f85b2aeda691ce4b20",
+  "size": {
+    "dev": 1528,
+    "test": 564,
+    "oof": 20964
+  }
+}

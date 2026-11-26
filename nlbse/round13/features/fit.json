@@ -1,0 +1,11 @@
+{
+  "rows": 28577,
+  "positives": [
+    1625,
+    75
+  ],
+  "wall_seconds": 3.4873697028961033,
+  "length": 169,
+  "workers": 3,
+  "partition": "2823097d9b25fadebffcc6a3daa50034854d7a59c5df5c90d4e6d6d48231cfc9"
+}

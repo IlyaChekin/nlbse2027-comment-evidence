@@ -1,0 +1,74 @@
+{
+  "neighbor_only": {
+    "chosen": {
+      "name": "trees",
+      "threshold": 0.3750000000000001,
+      "calibration": 0.7324966974900925,
+      "review": 0.7212894560107455
+    },
+    "baseline_review": null,
+    "variants": [
+      {
+        "name": "logistic",
+        "threshold": 0.3750000000000001,
+        "calibration": 0.7180296810862015,
+        "review": 0.718323277230867
+      },
+      {
+        "name": "trees",
+        "threshold": 0.3750000000000001,
+        "calibration": 0.7324966974900925,
+        "review": 0.7212894560107455
+      }
+    ],
+    "sha256": "2551aedc628de8a821469c90fc5094203aa296177ec50675b46b74e162c914c1"
+  },
+  "t5_small": {
+    "chosen": {
+      "name": "logistic",
+      "threshold": 0.5250000000000002,
+      "calibration": 0.9288307915758897,
+      "review": 0.9279180387852177
+    },
+    "baseline_review": 0.9237410071942446,
+    "variants": [
+      {
+        "name": "logistic",
+        "threshold": 0.5250000000000002,
+        "calibration": 0.9288307915758897,
+        "review": 0.9279180387852177
+      },
+      {
+        "name": "trees",
+        "threshold": 0.4750000000000002,
+        "calibration": 0.9282882882882882,
+        "review": 0.9296081277213353
+      }
+    ],
+    "sha256": "a6c3f1883fe3761ca5f108e8f4586c42bcb5f5d5b7cbbf08d173ac78aabf3eaa"
+  },
+  "unixcoder9": {
+    "chosen": {
+      "name": "logistic",
+      "threshold": 0.4750000000000002,
+      "calibration": 0.9454022988505747,
+      "review": 0.9437635183850036
+    },
+    "baseline_review": 0.9418521177315147,
+    "variants": [
+      {
+        "name": "logistic",
+        "threshold": 0.4750000000000002,
+        "calibration": 0.9454022988505747,
+        "review": 0.9437635183850036
+      },
+      {
+        "name": "trees",
+        "threshold": 0.32500000000000007,
+        "calibration": 0.9399217916814788,
+        "review": 0.9367897727272727
+      }
+    ],
+    "sha256": "feb7a677abf4875f6806519d78e6138160185fbc22af26b785678c537bb8d931"
+  }
+}

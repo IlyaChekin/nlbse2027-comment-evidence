@@ -1,0 +1,67 @@
+{
+  "input_sha256": "668a958c873060904e611bd3f45088acdbdb48631e6f626afda8ea7831fa6319",
+  "partition_sha256": "2823097d9b25fadebffcc6a3daa50034854d7a59c5df5c90d4e6d6d48231cfc9",
+  "short_chars_max": 169,
+  "jointly_low_cutoff": 0.05,
+  "excluded_cross_role_token_copies": {
+    "test": 0,
+    "dev": 6,
+    "probe": 0,
+    "fit": 158
+  },
+  "roles": {
+    "test": {
+      "rows": 7899,
+      "projects": {
+        "mozilla firefox": 3998,
+        "android": 2001,
+        "php": 996,
+        "file": 55,
+        "radare2": 279,
+        "krb5": 177,
+        "imagemagick": 393
+      },
+      "labels": [
+        2854,
+        204
+      ],
+      "short_rows": 1862
+    },
+    "dev": {
+      "rows": 31253,
+      "projects": {
+        "chromium": 24709,
+        "tcpdump": 155,
+        "ffmpeg": 2074,
+        "qemu": 4315
+      },
+      "labels": [
+        9544,
+        845
+      ],
+      "short_rows": 7811
+    },
+    "probe": {
+      "rows": 21642,
+      "projects": {
+        "linux": 21642
+      },
+      "labels": [
+        7141,
+        307
+      ],
+      "short_rows": 4106
+    },
+    "fit": {
+      "rows": 153628,
+      "projects": {
+        "linux": 153628
+      },
+      "labels": [
+        50779,
+        2183
+      ],
+      "short_rows": 28577
+    }
+  }
+}

@@ -1,0 +1,271 @@
+{
+  "dev": {
+    "ordered/positive": {
+      "recovered": 0,
+      "first_comment_free_tp_min_fp": 18,
+      "no_score_floor_recovered": 0,
+      "no_score_floor_fp": 0
+    },
+    "ordered/contrast_half": {
+      "recovered": 0,
+      "first_comment_free_tp_min_fp": 9,
+      "no_score_floor_recovered": 0,
+      "no_score_floor_fp": 0
+    },
+    "ordered/contrast": {
+      "recovered": 0,
+      "first_comment_free_tp_min_fp": 4,
+      "no_score_floor_recovered": 0,
+      "no_score_floor_fp": 0
+    },
+    "ordered/consensus": {
+      "recovered": 0,
+      "first_comment_free_tp_min_fp": null,
+      "no_score_floor_recovered": 0,
+      "no_score_floor_fp": 0
+    },
+    "anchors/positive": {
+      "recovered": 0,
+      "first_comment_free_tp_min_fp": 28,
+      "no_score_floor_recovered": 0,
+      "no_score_floor_fp": 0
+    },
+    "anchors/contrast_half": {
+      "recovered": 0,
+      "first_comment_free_tp_min_fp": 24,
+      "no_score_floor_recovered": 0,
+      "no_score_floor_fp": 0
+    },
+    "anchors/contrast": {
+      "recovered": 0,
+      "first_comment_free_tp_min_fp": 9,
+      "no_score_floor_recovered": 0,
+      "no_score_floor_fp": 0
+    },
+    "anchors/consensus": {
+      "recovered": 0,
+      "first_comment_free_tp_min_fp": null,
+      "no_score_floor_recovered": 0,
+      "no_score_floor_fp": 0
+    }
+  },
+  "test_a": {
+    "ordered/positive": {
+      "recovered": 0,
+      "first_comment_free_tp_min_fp": 609,
+      "no_score_floor_recovered": 0,
+      "no_score_floor_fp": 2
+    },
+    "ordered/contrast_half": {
+      "recovered": 0,
+      "first_comment_free_tp_min_fp": null,
+      "no_score_floor_recovered": 0,
+      "no_score_floor_fp": 2
+    },
+    "ordered/contrast": {
+      "recovered": 0,
+      "first_comment_free_tp_min_fp": null,
+      "no_score_floor_recovered": 0,
+      "no_score_floor_fp": 2
+    },
+    "ordered/consensus": {
+      "recovered": 0,
+      "first_comment_free_tp_min_fp": null,
+      "no_score_floor_recovered": 0,
+      "no_score_floor_fp": 0
+    },
+    "anchors/positive": {
+      "recovered": 0,
+      "first_comment_free_tp_min_fp": null,
+      "no_score_floor_recovered": 0,
+      "no_score_floor_fp": 2
+    },
+    "anchors/contrast_half": {
+      "recovered": 0,
+      "first_comment_free_tp_min_fp": null,
+      "no_score_floor_recovered": 0,
+      "no_score_floor_fp": 2
+    },
+    "anchors/contrast": {
+      "recovered": 0,
+      "first_comment_free_tp_min_fp": null,
+      "no_score_floor_recovered": 0,
+      "no_score_floor_fp": 2
+    },
+    "anchors/consensus": {
+      "recovered": 0,
+      "first_comment_free_tp_min_fp": null,
+      "no_score_floor_recovered": 0,
+      "no_score_floor_fp": 0
+    }
+  },
+  "test_b": {
+    "ordered/positive": {
+      "recovered": 0,
+      "first_comment_free_tp_min_fp": null,
+      "no_score_floor_recovered": 0,
+      "no_score_floor_fp": 0
+    },
+    "ordered/contrast_half": {
+      "recovered": 0,
+      "first_comment_free_tp_min_fp": null,
+      "no_score_floor_recovered": 0,
+      "no_score_floor_fp": 0
+    },
+    "ordered/contrast": {
+      "recovered": 0,
+      "first_comment_free_tp_min_fp": null,
+      "no_score_floor_recovered": 0,
+      "no_score_floor_fp": 0
+    },
+    "ordered/consensus": {
+      "recovered": 0,
+      "first_comment_free_tp_min_fp": null,
+      "no_score_floor_recovered": 0,
+      "no_score_floor_fp": 0
+    },
+    "anchors/positive": {
+      "recovered": 0,
+      "first_comment_free_tp_min_fp": null,
+      "no_score_floor_recovered": 0,
+      "no_score_floor_fp": 0
+    },
+    "anchors/contrast_half": {
+      "recovered": 0,
+      "first_comment_free_tp_min_fp": null,
+      "no_score_floor_recovered": 0,
+      "no_score_floor_fp": 0
+    },
+    "anchors/contrast": {
+      "recovered": 0,
+      "first_comment_free_tp_min_fp": null,
+      "no_score_floor_recovered": 0,
+      "no_score_floor_fp": 0
+    },
+    "anchors/consensus": {
+      "recovered": 0,
+      "first_comment_free_tp_min_fp": null,
+      "no_score_floor_recovered": 0,
+      "no_score_floor_fp": 0
+    }
+  },
+  "public": {
+    "groups": {
+      "all": {
+        "tp": 444,
+        "fp": 0,
+        "fn": 61,
+        "fn_with_comment": 18,
+        "fn_without_comment": 43,
+        "fn_with_identical_opposite_label": 0
+      },
+      "android": {
+        "tp": 4,
+        "fp": 0,
+        "fn": 1,
+        "fn_with_comment": 0,
+        "fn_without_comment": 1,
+        "fn_with_identical_opposite_label": 0
+      },
+      "chromium": {
+        "tp": 35,
+        "fp": 0,
+        "fn": 3,
+        "fn_with_comment": 1,
+        "fn_without_comment": 2,
+        "fn_with_identical_opposite_label": 0
+      },
+      "ffmpeg": {
+        "tp": 22,
+        "fp": 0,
+        "fn": 5,
+        "fn_with_comment": 3,
+        "fn_without_comment": 2,
+        "fn_with_identical_opposite_label": 0
+      },
+      "file": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 0,
+        "fn_with_comment": 0,
+        "fn_without_comment": 0,
+        "fn_with_identical_opposite_label": 0
+      },
+      "imagemagick": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 0,
+        "fn_with_comment": 0,
+        "fn_without_comment": 0,
+        "fn_with_identical_opposite_label": 0
+      },
+      "krb5": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 1,
+        "fn_with_comment": 0,
+        "fn_without_comment": 1,
+        "fn_with_identical_opposite_label": 0
+      },
+      "linux": {
+        "tp": 308,
+        "fp": 0,
+        "fn": 48,
+        "fn_with_comment": 14,
+        "fn_without_comment": 34,
+        "fn_with_identical_opposite_label": 0
+      },
+      "mozilla firefox": {
+        "tp": 16,
+        "fp": 0,
+        "fn": 2,
+        "fn_with_comment": 0,
+        "fn_without_comment": 2,
+        "fn_with_identical_opposite_label": 0
+      },
+      "php": {
+        "tp": 3,
+        "fp": 0,
+        "fn": 0,
+        "fn_with_comment": 0,
+        "fn_without_comment": 0,
+        "fn_with_identical_opposite_label": 0
+      },
+      "qemu": {
+        "tp": 50,
+        "fp": 0,
+        "fn": 1,
+        "fn_with_comment": 0,
+        "fn_without_comment": 1,
+        "fn_with_identical_opposite_label": 0
+      },
+      "radare2": {
+        "tp": 5,
+        "fp": 0,
+        "fn": 0,
+        "fn_with_comment": 0,
+        "fn_without_comment": 0,
+        "fn_with_identical_opposite_label": 0
+      },
+      "tcpdump": {
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "fn_with_comment": 0,
+        "fn_without_comment": 0,
+        "fn_with_identical_opposite_label": 0
+      }
+    },
+    "identical_mixed_labels_distinct_texts": 0,
+    "score_if_all_visible_misses_fixed": 0.968800498309046,
+    "extra_mat_tp_for_097": 22,
+    "provenance": {
+      "missed_with_confirmed_hidden_marker": 41,
+      "with_visible_comments": 11,
+      "without_comments": 30,
+      "score_if_other_misses_fixed": 0.9694472273647895,
+      "visible_source_sha256": "84484741b5f058404da4f8f0ad4649b8b194441984b636eb5be56bcb4fc363b8",
+      "original_source_sha256": "bde9cb8020e0b207f4d22ba3c93d348a554dc99c13c077bdda02949c2ef32f55"
+    }
+  }
+}

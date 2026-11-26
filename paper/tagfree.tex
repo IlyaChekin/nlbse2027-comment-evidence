@@ -1,0 +1,18 @@
+\begin{table}[t]
+\centering
+\small\setlength{\tabcolsep}{3pt}
+\caption{Tag-free human labels at 512 tokens. Cells give F1 / average precision.}
+\label{tab:tagfree}
+\begin{tabular}{lrr}
+\toprule
+Method & CppSATD & Tesoro \\
+\midrule
+Frozen MAT, head & 0.000 / 0.088 & 0.000 / 0.024 \\
+Frozen MAT, full window & 0.000 / 0.083 & 0.000 / 0.096 \\
+Human-label probe, seen & 0.227 / 0.182 & 0.046 / 0.024 \\
+Probe, compact + max & 0.233 / 0.450 & 0.052 / 0.024 \\
+Probe, ignore hidden head & 0.273 / 0.501 & 0.167 / 0.106 \\
+Lexical, compact only & 0.453 / 0.458 & 0.146 / 0.163 \\
+\bottomrule
+\end{tabular}
+\end{table}

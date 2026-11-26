@@ -1,0 +1,142 @@
+{
+  "rotation": "test_a",
+  "rows": 33335,
+  "base_sha256": "82560c352569e647754dfb74ae47f3700c1275a2f1795556190b6a0569c07d7f",
+  "folds": {
+    "0": {
+      "point": {
+        "seconds": 1.2904445009771734,
+        "updates": 552,
+        "loss": [
+          0.21190054714679718,
+          0.09430940449237823
+        ],
+        "weights_sha256": "fcc531b84424ff16f9c3d093002c707a6e764c5f025d555194339b0f9ccc4033",
+        "fit": 25229,
+        "held": 8084,
+        "pairs": 4388
+      },
+      "pair": {
+        "seconds": 1.166916779940948,
+        "updates": 552,
+        "loss": [
+          0.20691867172718048,
+          0.07480937242507935
+        ],
+        "weights_sha256": "313bb287823a364afbe4c8bdc10bb89309f52089f3b3a4019ee1d8123bed9dae",
+        "fit": 25229,
+        "held": 8084,
+        "pairs": 4388
+      }
+    },
+    "1": {
+      "point": {
+        "seconds": 1.0548785678111017,
+        "updates": 552,
+        "loss": [
+          0.21680806577205658,
+          0.0982353612780571
+        ],
+        "weights_sha256": "425b3f5247b9550891fedf86c7dc07a3d95bfb267abbcdac2b5560b80fcf1ad8",
+        "fit": 24739,
+        "held": 8574,
+        "pairs": 4405
+      },
+      "pair": {
+        "seconds": 1.1993196189869195,
+        "updates": 552,
+        "loss": [
+          0.2047119438648224,
+          0.07309624552726746
+        ],
+        "weights_sha256": "a064ab3471177d53d406f497d91cfba2b6194615ddd82626d93323a17a339deb",
+        "fit": 24739,
+        "held": 8574,
+        "pairs": 4405
+      }
+    },
+    "2": {
+      "point": {
+        "seconds": 1.0753757238853723,
+        "updates": 552,
+        "loss": [
+          0.20631903409957886,
+          0.09034836292266846
+        ],
+        "weights_sha256": "26c405dc8c725dad088cb4002205b247cae2106a85652b051c716c472604acbd",
+        "fit": 25038,
+        "held": 8278,
+        "pairs": 4415
+      },
+      "pair": {
+        "seconds": 1.1801475759129971,
+        "updates": 552,
+        "loss": [
+          0.19927114248275757,
+          0.07112099230289459
+        ],
+        "weights_sha256": "1632fa16e7e953ad1a7aa361f19bddb50803321c276aed4466496ebf314140cb",
+        "fit": 25038,
+        "held": 8278,
+        "pairs": 4415
+      }
+    },
+    "3": {
+      "point": {
+        "seconds": 1.023810985032469,
+        "updates": 536,
+        "loss": [
+          0.21513701975345612,
+          0.09925438463687897
+        ],
+        "weights_sha256": "6b51cb377f4002dcd755b7044d00d2da1eb0f7bbc83a596b86d065363022f0ef",
+        "fit": 24912,
+        "held": 8399,
+        "pairs": 4238
+      },
+      "pair": {
+        "seconds": 1.112960410071537,
+        "updates": 536,
+        "loss": [
+          0.21174179017543793,
+          0.07946957647800446
+        ],
+        "weights_sha256": "4757b24a2f0525d949c42c5a6182f315da5a678c40743701628d7128fa4e56e0",
+        "fit": 24912,
+        "held": 8399,
+        "pairs": 4238
+      }
+    }
+  },
+  "embedding_sha256": "5049bbf96e5224c76f4c77e5b219e979c7fba6242ecfd604278f58465b661deb",
+  "pairs_sha256": "728d6d3c3d2dba36f5ec39a4d5d573eaa0df847e411892f65fe08d3a02b52935",
+  "epochs": 8,
+  "pair_audit": {
+    "reference": {
+      "pair_win": 0.8923514622204579,
+      "interval": [
+        0.8814666642692754,
+        0.9033806530251023
+      ],
+      "unique_positive": 2519
+    },
+    "point": {
+      "pair_win": 0.8061400026465528,
+      "interval": [
+        0.7918062149679835,
+        0.8204977819069061
+      ],
+      "unique_positive": 2519
+    },
+    "pair": {
+      "pair_win": 0.7987296546248511,
+      "interval": [
+        0.7836398573925943,
+        0.8135798232634517
+      ],
+      "unique_positive": 2519
+    }
+  },
+  "scores_sha256": "ba75b69c2ed23e97a5e0b8abb2347036413ab4c4fa005d853c7565c4e9787872",
+  "code_sha256": "7efe5c4a0405ccc742b6616fdfff4ce99ae873a4b2564c8cf4dc06cb69dc5420"
+}

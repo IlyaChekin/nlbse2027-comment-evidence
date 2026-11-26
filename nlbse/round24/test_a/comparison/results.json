@@ -1,0 +1,5000 @@
+{
+  "selected": "token_veto_near_0.5",
+  "reference_cutoff": 0.139944389462471,
+  "dev_fp": 354,
+  "options": {
+    "token_blend_exact_0.5": {
+      "dev": {
+        "before": {
+          "tp": 3788,
+          "fp": 354,
+          "fn": 89,
+          "tn": 7445
+        },
+        "after": {
+          "tp": 3788,
+          "fp": 354,
+          "fn": 89,
+          "tn": 7445
+        },
+        "delta_tp": 0,
+        "delta_fp": 0,
+        "f1_before": 0.9447562040154632,
+        "f1_after": 0.9447562040154632
+      },
+      "project_tp": -45,
+      "project": {
+        "chromium": {
+          "before": {
+            "tp": 3669,
+            "fp": 825,
+            "fn": 1211,
+            "tn": 19004
+          },
+          "after": {
+            "tp": 3616,
+            "fp": 825,
+            "fn": 1264,
+            "tn": 19004
+          },
+          "delta_tp": -53,
+          "delta_fp": 0,
+          "f1_before": 0.7828034990398975,
+          "f1_after": 0.77588241604978
+        },
+        "ffmpeg": {
+          "before": {
+            "tp": 1318,
+            "fp": 36,
+            "fn": 293,
+            "tn": 427
+          },
+          "after": {
+            "tp": 1321,
+            "fp": 36,
+            "fn": 290,
+            "tn": 427
+          },
+          "delta_tp": 3,
+          "delta_fp": 0,
+          "f1_before": 0.8890387858347386,
+          "f1_after": 0.8901617250673854
+        },
+        "qemu": {
+          "before": {
+            "tp": 1692,
+            "fp": 42,
+            "fn": 1266,
+            "tn": 1315
+          },
+          "after": {
+            "tp": 1697,
+            "fp": 42,
+            "fn": 1261,
+            "tn": 1315
+          },
+          "delta_tp": 5,
+          "delta_fp": 0,
+          "f1_before": 0.7212276214833759,
+          "f1_after": 0.7225888865233128
+        }
+      },
+      "frozen": {
+        "before": {
+          "tp": 6675,
+          "fp": 903,
+          "fn": 2774,
+          "tn": 20746
+        },
+        "after": {
+          "tp": 6974,
+          "fp": 2868,
+          "fn": 2475,
+          "tn": 18781
+        },
+        "delta_tp": 299,
+        "delta_fp": 1965,
+        "f1_before": 0.7840488635696247,
+        "f1_after": 0.7230314654502099
+      },
+      "if_same_fp": {
+        "fn_recovered": 92,
+        "fp_removed": 249,
+        "tp_lost": 133,
+        "fp_added": 249
+      },
+      "threshold": 0.1342868208885193,
+      "cal_rows": 2802,
+      "test_queries": 15721
+    },
+    "token_blend_exact_1": {
+      "dev": {
+        "before": {
+          "tp": 3788,
+          "fp": 354,
+          "fn": 89,
+          "tn": 7445
+        },
+        "after": {
+          "tp": 3789,
+          "fp": 354,
+          "fn": 88,
+          "tn": 7445
+        },
+        "delta_tp": 1,
+        "delta_fp": 0,
+        "f1_before": 0.9447562040154632,
+        "f1_after": 0.9448877805486284
+      },
+      "project_tp": -96,
+      "project": {
+        "chromium": {
+          "before": {
+            "tp": 3669,
+            "fp": 825,
+            "fn": 1211,
+            "tn": 19004
+          },
+          "after": {
+            "tp": 3562,
+            "fp": 825,
+            "fn": 1318,
+            "tn": 19004
+          },
+          "delta_tp": -107,
+          "delta_fp": 0,
+          "f1_before": 0.7828034990398975,
+          "f1_after": 0.7687493255638287
+        },
+        "ffmpeg": {
+          "before": {
+            "tp": 1318,
+            "fp": 36,
+            "fn": 293,
+            "tn": 427
+          },
+          "after": {
+            "tp": 1321,
+            "fp": 36,
+            "fn": 290,
+            "tn": 427
+          },
+          "delta_tp": 3,
+          "delta_fp": 0,
+          "f1_before": 0.8890387858347386,
+          "f1_after": 0.8901617250673854
+        },
+        "qemu": {
+          "before": {
+            "tp": 1692,
+            "fp": 42,
+            "fn": 1266,
+            "tn": 1315
+          },
+          "after": {
+            "tp": 1700,
+            "fp": 42,
+            "fn": 1258,
+            "tn": 1315
+          },
+          "delta_tp": 8,
+          "delta_fp": 0,
+          "f1_before": 0.7212276214833759,
+          "f1_after": 0.723404255319149
+        }
+      },
+      "frozen": {
+        "before": {
+          "tp": 6675,
+          "fp": 903,
+          "fn": 2774,
+          "tn": 20746
+        },
+        "after": {
+          "tp": 7120,
+          "fp": 4647,
+          "fn": 2329,
+          "tn": 17002
+        },
+        "delta_tp": 445,
+        "delta_fp": 3744,
+        "f1_before": 0.7840488635696247,
+        "f1_after": 0.6711915535444947
+      },
+      "if_same_fp": {
+        "fn_recovered": 126,
+        "fp_removed": 360,
+        "tp_lost": 218,
+        "fp_added": 360
+      },
+      "threshold": 0.13254216313362122,
+      "cal_rows": 2802,
+      "test_queries": 15721
+    },
+    "token_blend_near_0.5": {
+      "dev": {
+        "before": {
+          "tp": 3788,
+          "fp": 354,
+          "fn": 89,
+          "tn": 7445
+        },
+        "after": {
+          "tp": 3788,
+          "fp": 354,
+          "fn": 89,
+          "tn": 7445
+        },
+        "delta_tp": 0,
+        "delta_fp": 0,
+        "f1_before": 0.9447562040154632,
+        "f1_after": 0.9447562040154632
+      },
+      "project_tp": -26,
+      "project": {
+        "chromium": {
+          "before": {
+            "tp": 3669,
+            "fp": 825,
+            "fn": 1211,
+            "tn": 19004
+          },
+          "after": {
+            "tp": 3634,
+            "fp": 825,
+            "fn": 1246,
+            "tn": 19004
+          },
+          "delta_tp": -35,
+          "delta_fp": 0,
+          "f1_before": 0.7828034990398975,
+          "f1_after": 0.7782417817753506
+        },
+        "ffmpeg": {
+          "before": {
+            "tp": 1318,
+            "fp": 36,
+            "fn": 293,
+            "tn": 427
+          },
+          "after": {
+            "tp": 1321,
+            "fp": 36,
+            "fn": 290,
+            "tn": 427
+          },
+          "delta_tp": 3,
+          "delta_fp": 0,
+          "f1_before": 0.8890387858347386,
+          "f1_after": 0.8901617250673854
+        },
+        "qemu": {
+          "before": {
+            "tp": 1692,
+            "fp": 42,
+            "fn": 1266,
+            "tn": 1315
+          },
+          "after": {
+            "tp": 1698,
+            "fp": 42,
+            "fn": 1260,
+            "tn": 1315
+          },
+          "delta_tp": 6,
+          "delta_fp": 0,
+          "f1_before": 0.7212276214833759,
+          "f1_after": 0.722860791826309
+        }
+      },
+      "frozen": {
+        "before": {
+          "tp": 6675,
+          "fp": 903,
+          "fn": 2774,
+          "tn": 20746
+        },
+        "after": {
+          "tp": 6955,
+          "fp": 2816,
+          "fn": 2494,
+          "tn": 18833
+        },
+        "delta_tp": 280,
+        "delta_fp": 1913,
+        "f1_before": 0.7840488635696247,
+        "f1_after": 0.7237252861602498
+      },
+      "if_same_fp": {
+        "fn_recovered": 93,
+        "fp_removed": 247,
+        "tp_lost": 115,
+        "fp_added": 247
+      },
+      "threshold": 0.13380855321884155,
+      "cal_rows": 727,
+      "test_queries": 8663
+    },
+    "token_blend_near_1": {
+      "dev": {
+        "before": {
+          "tp": 3788,
+          "fp": 354,
+          "fn": 89,
+          "tn": 7445
+        },
+        "after": {
+          "tp": 3786,
+          "fp": 354,
+          "fn": 91,
+          "tn": 7445
+        },
+        "delta_tp": -2,
+        "delta_fp": 0,
+        "f1_before": 0.9447562040154632,
+        "f1_after": 0.9444929524759885
+      },
+      "project_tp": -60,
+      "project": {
+        "chromium": {
+          "before": {
+            "tp": 3669,
+            "fp": 825,
+            "fn": 1211,
+            "tn": 19004
+          },
+          "after": {
+            "tp": 3603,
+            "fp": 825,
+            "fn": 1277,
+            "tn": 19004
+          },
+          "delta_tp": -66,
+          "delta_fp": 0,
+          "f1_before": 0.7828034990398975,
+          "f1_after": 0.774172754619682
+        },
+        "ffmpeg": {
+          "before": {
+            "tp": 1318,
+            "fp": 36,
+            "fn": 293,
+            "tn": 427
+          },
+          "after": {
+            "tp": 1320,
+            "fp": 36,
+            "fn": 291,
+            "tn": 427
+          },
+          "delta_tp": 2,
+          "delta_fp": 0,
+          "f1_before": 0.8890387858347386,
+          "f1_after": 0.8897876643073812
+        },
+        "qemu": {
+          "before": {
+            "tp": 1692,
+            "fp": 42,
+            "fn": 1266,
+            "tn": 1315
+          },
+          "after": {
+            "tp": 1696,
+            "fp": 42,
+            "fn": 1262,
+            "tn": 1315
+          },
+          "delta_tp": 4,
+          "delta_fp": 0,
+          "f1_before": 0.7212276214833759,
+          "f1_after": 0.7223168654173765
+        }
+      },
+      "frozen": {
+        "before": {
+          "tp": 6675,
+          "fp": 903,
+          "fn": 2774,
+          "tn": 20746
+        },
+        "after": {
+          "tp": 7056,
+          "fp": 3980,
+          "fn": 2393,
+          "tn": 17669
+        },
+        "delta_tp": 381,
+        "delta_fp": 3077,
+        "f1_before": 0.7840488635696247,
+        "f1_after": 0.6888943129118867
+      },
+      "if_same_fp": {
+        "fn_recovered": 135,
+        "fp_removed": 426,
+        "tp_lost": 191,
+        "fp_added": 426
+      },
+      "threshold": 0.14143690466880798,
+      "cal_rows": 727,
+      "test_queries": 8663
+    },
+    "token_blend_wide_0.5": {
+      "dev": {
+        "before": {
+          "tp": 3788,
+          "fp": 354,
+          "fn": 89,
+          "tn": 7445
+        },
+        "after": {
+          "tp": 3788,
+          "fp": 354,
+          "fn": 89,
+          "tn": 7445
+        },
+        "delta_tp": 0,
+        "delta_fp": 0,
+        "f1_before": 0.9447562040154632,
+        "f1_after": 0.9447562040154632
+      },
+      "project_tp": -41,
+      "project": {
+        "chromium": {
+          "before": {
+            "tp": 3669,
+            "fp": 825,
+            "fn": 1211,
+            "tn": 19004
+          },
+          "after": {
+            "tp": 3620,
+            "fp": 825,
+            "fn": 1260,
+            "tn": 19004
+          },
+          "delta_tp": -49,
+          "delta_fp": 0,
+          "f1_before": 0.7828034990398975,
+          "f1_after": 0.7764075067024129
+        },
+        "ffmpeg": {
+          "before": {
+            "tp": 1318,
+            "fp": 36,
+            "fn": 293,
+            "tn": 427
+          },
+          "after": {
+            "tp": 1321,
+            "fp": 36,
+            "fn": 290,
+            "tn": 427
+          },
+          "delta_tp": 3,
+          "delta_fp": 0,
+          "f1_before": 0.8890387858347386,
+          "f1_after": 0.8901617250673854
+        },
+        "qemu": {
+          "before": {
+            "tp": 1692,
+            "fp": 42,
+            "fn": 1266,
+            "tn": 1315
+          },
+          "after": {
+            "tp": 1697,
+            "fp": 42,
+            "fn": 1261,
+            "tn": 1315
+          },
+          "delta_tp": 5,
+          "delta_fp": 0,
+          "f1_before": 0.7212276214833759,
+          "f1_after": 0.7225888865233128
+        }
+      },
+      "frozen": {
+        "before": {
+          "tp": 6675,
+          "fp": 903,
+          "fn": 2774,
+          "tn": 20746
+        },
+        "after": {
+          "tp": 6979,
+          "fp": 2920,
+          "fn": 2470,
+          "tn": 18729
+        },
+        "delta_tp": 304,
+        "delta_fp": 2017,
+        "f1_before": 0.7840488635696247,
+        "f1_after": 0.7214182344428365
+      },
+      "if_same_fp": {
+        "fn_recovered": 91,
+        "fp_removed": 248,
+        "tp_lost": 128,
+        "fp_added": 248
+      },
+      "threshold": 0.13380855321884155,
+      "cal_rows": 2369,
+      "test_queries": 19466
+    },
+    "token_blend_wide_1": {
+      "dev": {
+        "before": {
+          "tp": 3788,
+          "fp": 354,
+          "fn": 89,
+          "tn": 7445
+        },
+        "after": {
+          "tp": 3789,
+          "fp": 354,
+          "fn": 88,
+          "tn": 7445
+        },
+        "delta_tp": 1,
+        "delta_fp": 0,
+        "f1_before": 0.9447562040154632,
+        "f1_after": 0.9448877805486284
+      },
+      "project_tp": -67,
+      "project": {
+        "chromium": {
+          "before": {
+            "tp": 3669,
+            "fp": 825,
+            "fn": 1211,
+            "tn": 19004
+          },
+          "after": {
+            "tp": 3591,
+            "fp": 825,
+            "fn": 1289,
+            "tn": 19004
+          },
+          "delta_tp": -78,
+          "delta_fp": 0,
+          "f1_before": 0.7828034990398975,
+          "f1_after": 0.7725903614457831
+        },
+        "ffmpeg": {
+          "before": {
+            "tp": 1318,
+            "fp": 36,
+            "fn": 293,
+            "tn": 427
+          },
+          "after": {
+            "tp": 1322,
+            "fp": 36,
+            "fn": 289,
+            "tn": 427
+          },
+          "delta_tp": 4,
+          "delta_fp": 0,
+          "f1_before": 0.8890387858347386,
+          "f1_after": 0.8905355338497811
+        },
+        "qemu": {
+          "before": {
+            "tp": 1692,
+            "fp": 42,
+            "fn": 1266,
+            "tn": 1315
+          },
+          "after": {
+            "tp": 1699,
+            "fp": 42,
+            "fn": 1259,
+            "tn": 1315
+          },
+          "delta_tp": 7,
+          "delta_fp": 0,
+          "f1_before": 0.7212276214833759,
+          "f1_after": 0.7231325814002979
+        }
+      },
+      "frozen": {
+        "before": {
+          "tp": 6675,
+          "fp": 903,
+          "fn": 2774,
+          "tn": 20746
+        },
+        "after": {
+          "tp": 7122,
+          "fp": 4796,
+          "fn": 2327,
+          "tn": 16853
+        },
+        "delta_tp": 447,
+        "delta_fp": 3893,
+        "f1_before": 0.7840488635696247,
+        "f1_after": 0.666635465905368
+      },
+      "if_same_fp": {
+        "fn_recovered": 126,
+        "fp_removed": 356,
+        "tp_lost": 189,
+        "fp_added": 356
+      },
+      "threshold": 0.1376785933971405,
+      "cal_rows": 2369,
+      "test_queries": 19466
+    },
+    "token_veto_exact_0.5": {
+      "dev": {
+        "before": {
+          "tp": 3788,
+          "fp": 354,
+          "fn": 89,
+          "tn": 7445
+        },
+        "after": {
+          "tp": 3789,
+          "fp": 354,
+          "fn": 88,
+          "tn": 7445
+        },
+        "delta_tp": 1,
+        "delta_fp": 0,
+        "f1_before": 0.9447562040154632,
+        "f1_after": 0.9448877805486284
+      },
+      "project_tp": -23,
+      "project": {
+        "chromium": {
+          "before": {
+            "tp": 3669,
+            "fp": 825,
+            "fn": 1211,
+            "tn": 19004
+          },
+          "after": {
+            "tp": 3643,
+            "fp": 825,
+            "fn": 1237,
+            "tn": 19004
+          },
+          "delta_tp": -26,
+          "delta_fp": 0,
+          "f1_before": 0.7828034990398975,
+          "f1_after": 0.7794180573384681
+        },
+        "ffmpeg": {
+          "before": {
+            "tp": 1318,
+            "fp": 36,
+            "fn": 293,
+            "tn": 427
+          },
+          "after": {
+            "tp": 1321,
+            "fp": 36,
+            "fn": 290,
+            "tn": 427
+          },
+          "delta_tp": 3,
+          "delta_fp": 0,
+          "f1_before": 0.8890387858347386,
+          "f1_after": 0.8901617250673854
+        },
+        "qemu": {
+          "before": {
+            "tp": 1692,
+            "fp": 42,
+            "fn": 1266,
+            "tn": 1315
+          },
+          "after": {
+            "tp": 1692,
+            "fp": 42,
+            "fn": 1266,
+            "tn": 1315
+          },
+          "delta_tp": 0,
+          "delta_fp": 0,
+          "f1_before": 0.7212276214833759,
+          "f1_after": 0.7212276214833759
+        }
+      },
+      "frozen": {
+        "before": {
+          "tp": 6675,
+          "fp": 903,
+          "fn": 2774,
+          "tn": 20746
+        },
+        "after": {
+          "tp": 6698,
+          "fp": 1020,
+          "fn": 2751,
+          "tn": 20629
+        },
+        "delta_tp": 23,
+        "delta_fp": 117,
+        "f1_before": 0.7840488635696247,
+        "f1_after": 0.7803343624395643
+      },
+      "if_same_fp": {
+        "fn_recovered": 18,
+        "fp_removed": 30,
+        "tp_lost": 37,
+        "fp_added": 30
+      },
+      "threshold": 0.12477840483188629,
+      "cal_rows": 2802,
+      "test_queries": 15721
+    },
+    "token_veto_exact_1": {
+      "dev": {
+        "before": {
+          "tp": 3788,
+          "fp": 354,
+          "fn": 89,
+          "tn": 7445
+        },
+        "after": {
+          "tp": 3788,
+          "fp": 354,
+          "fn": 89,
+          "tn": 7445
+        },
+        "delta_tp": 0,
+        "delta_fp": 0,
+        "f1_before": 0.9447562040154632,
+        "f1_after": 0.9447562040154632
+      },
+      "project_tp": -51,
+      "project": {
+        "chromium": {
+          "before": {
+            "tp": 3669,
+            "fp": 825,
+            "fn": 1211,
+            "tn": 19004
+          },
+          "after": {
+            "tp": 3610,
+            "fp": 825,
+            "fn": 1270,
+            "tn": 19004
+          },
+          "delta_tp": -59,
+          "delta_fp": 0,
+          "f1_before": 0.7828034990398975,
+          "f1_after": 0.7750939345142244
+        },
+        "ffmpeg": {
+          "before": {
+            "tp": 1318,
+            "fp": 36,
+            "fn": 293,
+            "tn": 427
+          },
+          "after": {
+            "tp": 1322,
+            "fp": 36,
+            "fn": 289,
+            "tn": 427
+          },
+          "delta_tp": 4,
+          "delta_fp": 0,
+          "f1_before": 0.8890387858347386,
+          "f1_after": 0.8905355338497811
+        },
+        "qemu": {
+          "before": {
+            "tp": 1692,
+            "fp": 42,
+            "fn": 1266,
+            "tn": 1315
+          },
+          "after": {
+            "tp": 1696,
+            "fp": 42,
+            "fn": 1262,
+            "tn": 1315
+          },
+          "delta_tp": 4,
+          "delta_fp": 0,
+          "f1_before": 0.7212276214833759,
+          "f1_after": 0.7223168654173765
+        }
+      },
+      "frozen": {
+        "before": {
+          "tp": 6675,
+          "fp": 903,
+          "fn": 2774,
+          "tn": 20746
+        },
+        "after": {
+          "tp": 6699,
+          "fp": 1189,
+          "fn": 2750,
+          "tn": 20460
+        },
+        "delta_tp": 24,
+        "delta_fp": 286,
+        "f1_before": 0.7840488635696247,
+        "f1_after": 0.772798061948434
+      },
+      "if_same_fp": {
+        "fn_recovered": 39,
+        "fp_removed": 66,
+        "tp_lost": 86,
+        "fp_added": 66
+      },
+      "threshold": 0.11207079887390137,
+      "cal_rows": 2802,
+      "test_queries": 15721
+    },
+    "token_veto_near_0.5": {
+      "dev": {
+        "before": {
+          "tp": 3788,
+          "fp": 354,
+          "fn": 89,
+          "tn": 7445
+        },
+        "after": {
+          "tp": 3789,
+          "fp": 354,
+          "fn": 88,
+          "tn": 7445
+        },
+        "delta_tp": 1,
+        "delta_fp": 0,
+        "f1_before": 0.9447562040154632,
+        "f1_after": 0.9448877805486284
+      },
+      "project_tp": -23,
+      "project": {
+        "chromium": {
+          "before": {
+            "tp": 3669,
+            "fp": 825,
+            "fn": 1211,
+            "tn": 19004
+          },
+          "after": {
+            "tp": 3643,
+            "fp": 825,
+            "fn": 1237,
+            "tn": 19004
+          },
+          "delta_tp": -26,
+          "delta_fp": 0,
+          "f1_before": 0.7828034990398975,
+          "f1_after": 0.7794180573384681
+        },
+        "ffmpeg": {
+          "before": {
+            "tp": 1318,
+            "fp": 36,
+            "fn": 293,
+            "tn": 427
+          },
+          "after": {
+            "tp": 1321,
+            "fp": 36,
+            "fn": 290,
+            "tn": 427
+          },
+          "delta_tp": 3,
+          "delta_fp": 0,
+          "f1_before": 0.8890387858347386,
+          "f1_after": 0.8901617250673854
+        },
+        "qemu": {
+          "before": {
+            "tp": 1692,
+            "fp": 42,
+            "fn": 1266,
+            "tn": 1315
+          },
+          "after": {
+            "tp": 1692,
+            "fp": 42,
+            "fn": 1266,
+            "tn": 1315
+          },
+          "delta_tp": 0,
+          "delta_fp": 0,
+          "f1_before": 0.7212276214833759,
+          "f1_after": 0.7212276214833759
+        }
+      },
+      "frozen": {
+        "before": {
+          "tp": 6675,
+          "fp": 903,
+          "fn": 2774,
+          "tn": 20746
+        },
+        "after": {
+          "tp": 6698,
+          "fp": 1020,
+          "fn": 2751,
+          "tn": 20629
+        },
+        "delta_tp": 23,
+        "delta_fp": 117,
+        "f1_before": 0.7840488635696247,
+        "f1_after": 0.7803343624395643
+      },
+      "if_same_fp": {
+        "fn_recovered": 18,
+        "fp_removed": 29,
+        "tp_lost": 37,
+        "fp_added": 29
+      },
+      "threshold": 0.12477840483188629,
+      "cal_rows": 727,
+      "test_queries": 8663
+    },
+    "token_veto_near_1": {
+      "dev": {
+        "before": {
+          "tp": 3788,
+          "fp": 354,
+          "fn": 89,
+          "tn": 7445
+        },
+        "after": {
+          "tp": 3787,
+          "fp": 354,
+          "fn": 90,
+          "tn": 7445
+        },
+        "delta_tp": -1,
+        "delta_fp": 0,
+        "f1_before": 0.9447562040154632,
+        "f1_after": 0.9446245946620104
+      },
+      "project_tp": -41,
+      "project": {
+        "chromium": {
+          "before": {
+            "tp": 3669,
+            "fp": 825,
+            "fn": 1211,
+            "tn": 19004
+          },
+          "after": {
+            "tp": 3630,
+            "fp": 825,
+            "fn": 1250,
+            "tn": 19004
+          },
+          "delta_tp": -39,
+          "delta_fp": 0,
+          "f1_before": 0.7828034990398975,
+          "f1_after": 0.7777182645956079
+        },
+        "ffmpeg": {
+          "before": {
+            "tp": 1318,
+            "fp": 36,
+            "fn": 293,
+            "tn": 427
+          },
+          "after": {
+            "tp": 1318,
+            "fp": 36,
+            "fn": 293,
+            "tn": 427
+          },
+          "delta_tp": 0,
+          "delta_fp": 0,
+          "f1_before": 0.8890387858347386,
+          "f1_after": 0.8890387858347386
+        },
+        "qemu": {
+          "before": {
+            "tp": 1692,
+            "fp": 42,
+            "fn": 1266,
+            "tn": 1315
+          },
+          "after": {
+            "tp": 1690,
+            "fp": 42,
+            "fn": 1268,
+            "tn": 1315
+          },
+          "delta_tp": -2,
+          "delta_fp": 0,
+          "f1_before": 0.7212276214833759,
+          "f1_after": 0.720682302771855
+        }
+      },
+      "frozen": {
+        "before": {
+          "tp": 6675,
+          "fp": 903,
+          "fn": 2774,
+          "tn": 20746
+        },
+        "after": {
+          "tp": 6709,
+          "fp": 1146,
+          "fn": 2740,
+          "tn": 20503
+        },
+        "delta_tp": 34,
+        "delta_fp": 243,
+        "f1_before": 0.7840488635696247,
+        "f1_after": 0.77542764678687
+      },
+      "if_same_fp": {
+        "fn_recovered": 19,
+        "fp_removed": 48,
+        "tp_lost": 56,
+        "fp_added": 48
+      },
+      "threshold": 0.11515460163354874,
+      "cal_rows": 727,
+      "test_queries": 8663
+    },
+    "token_veto_wide_0.5": {
+      "dev": {
+        "before": {
+          "tp": 3788,
+          "fp": 354,
+          "fn": 89,
+          "tn": 7445
+        },
+        "after": {
+          "tp": 3789,
+          "fp": 354,
+          "fn": 88,
+          "tn": 7445
+        },
+        "delta_tp": 1,
+        "delta_fp": 0,
+        "f1_before": 0.9447562040154632,
+        "f1_after": 0.9448877805486284
+      },
+      "project_tp": -23,
+      "project": {
+        "chromium": {
+          "before": {
+            "tp": 3669,
+            "fp": 825,
+            "fn": 1211,
+            "tn": 19004
+          },
+          "after": {
+            "tp": 3643,
+            "fp": 825,
+            "fn": 1237,
+            "tn": 19004
+          },
+          "delta_tp": -26,
+          "delta_fp": 0,
+          "f1_before": 0.7828034990398975,
+          "f1_after": 0.7794180573384681
+        },
+        "ffmpeg": {
+          "before": {
+            "tp": 1318,
+            "fp": 36,
+            "fn": 293,
+            "tn": 427
+          },
+          "after": {
+            "tp": 1321,
+            "fp": 36,
+            "fn": 290,
+            "tn": 427
+          },
+          "delta_tp": 3,
+          "delta_fp": 0,
+          "f1_before": 0.8890387858347386,
+          "f1_after": 0.8901617250673854
+        },
+        "qemu": {
+          "before": {
+            "tp": 1692,
+            "fp": 42,
+            "fn": 1266,
+            "tn": 1315
+          },
+          "after": {
+            "tp": 1692,
+            "fp": 42,
+            "fn": 1266,
+            "tn": 1315
+          },
+          "delta_tp": 0,
+          "delta_fp": 0,
+          "f1_before": 0.7212276214833759,
+          "f1_after": 0.7212276214833759
+        }
+      },
+      "frozen": {
+        "before": {
+          "tp": 6675,
+          "fp": 903,
+          "fn": 2774,
+          "tn": 20746
+        },
+        "after": {
+          "tp": 6698,
+          "fp": 1020,
+          "fn": 2751,
+          "tn": 20629
+        },
+        "delta_tp": 23,
+        "delta_fp": 117,
+        "f1_before": 0.7840488635696247,
+        "f1_after": 0.7803343624395643
+      },
+      "if_same_fp": {
+        "fn_recovered": 18,
+        "fp_removed": 30,
+        "tp_lost": 37,
+        "fp_added": 30
+      },
+      "threshold": 0.12477840483188629,
+      "cal_rows": 2369,
+      "test_queries": 19466
+    },
+    "token_veto_wide_1": {
+      "dev": {
+        "before": {
+          "tp": 3788,
+          "fp": 354,
+          "fn": 89,
+          "tn": 7445
+        },
+        "after": {
+          "tp": 3788,
+          "fp": 354,
+          "fn": 89,
+          "tn": 7445
+        },
+        "delta_tp": 0,
+        "delta_fp": 0,
+        "f1_before": 0.9447562040154632,
+        "f1_after": 0.9447562040154632
+      },
+      "project_tp": -41,
+      "project": {
+        "chromium": {
+          "before": {
+            "tp": 3669,
+            "fp": 825,
+            "fn": 1211,
+            "tn": 19004
+          },
+          "after": {
+            "tp": 3620,
+            "fp": 825,
+            "fn": 1260,
+            "tn": 19004
+          },
+          "delta_tp": -49,
+          "delta_fp": 0,
+          "f1_before": 0.7828034990398975,
+          "f1_after": 0.7764075067024129
+        },
+        "ffmpeg": {
+          "before": {
+            "tp": 1318,
+            "fp": 36,
+            "fn": 293,
+            "tn": 427
+          },
+          "after": {
+            "tp": 1322,
+            "fp": 36,
+            "fn": 289,
+            "tn": 427
+          },
+          "delta_tp": 4,
+          "delta_fp": 0,
+          "f1_before": 0.8890387858347386,
+          "f1_after": 0.8905355338497811
+        },
+        "qemu": {
+          "before": {
+            "tp": 1692,
+            "fp": 42,
+            "fn": 1266,
+            "tn": 1315
+          },
+          "after": {
+            "tp": 1696,
+            "fp": 42,
+            "fn": 1262,
+            "tn": 1315
+          },
+          "delta_tp": 4,
+          "delta_fp": 0,
+          "f1_before": 0.7212276214833759,
+          "f1_after": 0.7223168654173765
+        }
+      },
+      "frozen": {
+        "before": {
+          "tp": 6675,
+          "fp": 903,
+          "fn": 2774,
+          "tn": 20746
+        },
+        "after": {
+          "tp": 6704,
+          "fp": 1173,
+          "fn": 2745,
+          "tn": 20476
+        },
+        "delta_tp": 29,
+        "delta_fp": 270,
+        "f1_before": 0.7840488635696247,
+        "f1_after": 0.7738658663280619
+      },
+      "if_same_fp": {
+        "fn_recovered": 38,
+        "fp_removed": 65,
+        "tp_lost": 75,
+        "fp_added": 65
+      },
+      "threshold": 0.11290817707777023,
+      "cal_rows": 2369,
+      "test_queries": 19466
+    },
+    "token_promote_exact_0.5": {
+      "dev": {
+        "before": {
+          "tp": 3788,
+          "fp": 354,
+          "fn": 89,
+          "tn": 7445
+        },
+        "after": {
+          "tp": 3787,
+          "fp": 354,
+          "fn": 90,
+          "tn": 7445
+        },
+        "delta_tp": -1,
+        "delta_fp": 0,
+        "f1_before": 0.9447562040154632,
+        "f1_after": 0.9446245946620104
+      },
+      "project_tp": -24,
+      "project": {
+        "chromium": {
+          "before": {
+            "tp": 3669,
+            "fp": 825,
+            "fn": 1211,
+            "tn": 19004
+          },
+          "after": {
+            "tp": 3637,
+            "fp": 825,
+            "fn": 1243,
+            "tn": 19004
+          },
+          "delta_tp": -32,
+          "delta_fp": 0,
+          "f1_before": 0.7828034990398975,
+          "f1_after": 0.7786341254549347
+        },
+        "ffmpeg": {
+          "before": {
+            "tp": 1318,
+            "fp": 36,
+            "fn": 293,
+            "tn": 427
+          },
+          "after": {
+            "tp": 1320,
+            "fp": 36,
+            "fn": 291,
+            "tn": 427
+          },
+          "delta_tp": 2,
+          "delta_fp": 0,
+          "f1_before": 0.8890387858347386,
+          "f1_after": 0.8897876643073812
+        },
+        "qemu": {
+          "before": {
+            "tp": 1692,
+            "fp": 42,
+            "fn": 1266,
+            "tn": 1315
+          },
+          "after": {
+            "tp": 1698,
+            "fp": 42,
+            "fn": 1260,
+            "tn": 1315
+          },
+          "delta_tp": 6,
+          "delta_fp": 0,
+          "f1_before": 0.7212276214833759,
+          "f1_after": 0.722860791826309
+        }
+      },
+      "frozen": {
+        "before": {
+          "tp": 6675,
+          "fp": 903,
+          "fn": 2774,
+          "tn": 20746
+        },
+        "after": {
+          "tp": 6912,
+          "fp": 2363,
+          "fn": 2537,
+          "tn": 19286
+        },
+        "delta_tp": 237,
+        "delta_fp": 1460,
+        "f1_before": 0.7840488635696247,
+        "f1_after": 0.7383037812433241
+      },
+      "if_same_fp": {
+        "fn_recovered": 117,
+        "fp_removed": 415,
+        "tp_lost": 137,
+        "fp_added": 415
+      },
+      "threshold": 0.15312322974205017,
+      "cal_rows": 2802,
+      "test_queries": 15721
+    },
+    "token_promote_exact_1": {
+      "dev": {
+        "before": {
+          "tp": 3788,
+          "fp": 354,
+          "fn": 89,
+          "tn": 7445
+        },
+        "after": {
+          "tp": 3786,
+          "fp": 354,
+          "fn": 91,
+          "tn": 7445
+        },
+        "delta_tp": -2,
+        "delta_fp": 0,
+        "f1_before": 0.9447562040154632,
+        "f1_after": 0.9444929524759885
+      },
+      "project_tp": -55,
+      "project": {
+        "chromium": {
+          "before": {
+            "tp": 3669,
+            "fp": 825,
+            "fn": 1211,
+            "tn": 19004
+          },
+          "after": {
+            "tp": 3602,
+            "fp": 825,
+            "fn": 1278,
+            "tn": 19004
+          },
+          "delta_tp": -67,
+          "delta_fp": 0,
+          "f1_before": 0.7828034990398975,
+          "f1_after": 0.7740410443752015
+        },
+        "ffmpeg": {
+          "before": {
+            "tp": 1318,
+            "fp": 36,
+            "fn": 293,
+            "tn": 427
+          },
+          "after": {
+            "tp": 1324,
+            "fp": 36,
+            "fn": 287,
+            "tn": 427
+          },
+          "delta_tp": 6,
+          "delta_fp": 0,
+          "f1_before": 0.8890387858347386,
+          "f1_after": 0.8912823964994951
+        },
+        "qemu": {
+          "before": {
+            "tp": 1692,
+            "fp": 42,
+            "fn": 1266,
+            "tn": 1315
+          },
+          "after": {
+            "tp": 1698,
+            "fp": 42,
+            "fn": 1260,
+            "tn": 1315
+          },
+          "delta_tp": 6,
+          "delta_fp": 0,
+          "f1_before": 0.7212276214833759,
+          "f1_after": 0.722860791826309
+        }
+      },
+      "frozen": {
+        "before": {
+          "tp": 6675,
+          "fp": 903,
+          "fn": 2774,
+          "tn": 20746
+        },
+        "after": {
+          "tp": 7038,
+          "fp": 3639,
+          "fn": 2411,
+          "tn": 18010
+        },
+        "delta_tp": 363,
+        "delta_fp": 2736,
+        "f1_before": 0.7840488635696247,
+        "f1_after": 0.6993938189406738
+      },
+      "if_same_fp": {
+        "fn_recovered": 165,
+        "fp_removed": 603,
+        "tp_lost": 216,
+        "fp_added": 603
+      },
+      "threshold": 0.16504643857479095,
+      "cal_rows": 2802,
+      "test_queries": 15721
+    },
+    "token_promote_near_0.5": {
+      "dev": {
+        "before": {
+          "tp": 3788,
+          "fp": 354,
+          "fn": 89,
+          "tn": 7445
+        },
+        "after": {
+          "tp": 3787,
+          "fp": 354,
+          "fn": 90,
+          "tn": 7445
+        },
+        "delta_tp": -1,
+        "delta_fp": 0,
+        "f1_before": 0.9447562040154632,
+        "f1_after": 0.9446245946620104
+      },
+      "project_tp": -24,
+      "project": {
+        "chromium": {
+          "before": {
+            "tp": 3669,
+            "fp": 825,
+            "fn": 1211,
+            "tn": 19004
+          },
+          "after": {
+            "tp": 3637,
+            "fp": 825,
+            "fn": 1243,
+            "tn": 19004
+          },
+          "delta_tp": -32,
+          "delta_fp": 0,
+          "f1_before": 0.7828034990398975,
+          "f1_after": 0.7786341254549347
+        },
+        "ffmpeg": {
+          "before": {
+            "tp": 1318,
+            "fp": 36,
+            "fn": 293,
+            "tn": 427
+          },
+          "after": {
+            "tp": 1320,
+            "fp": 36,
+            "fn": 291,
+            "tn": 427
+          },
+          "delta_tp": 2,
+          "delta_fp": 0,
+          "f1_before": 0.8890387858347386,
+          "f1_after": 0.8897876643073812
+        },
+        "qemu": {
+          "before": {
+            "tp": 1692,
+            "fp": 42,
+            "fn": 1266,
+            "tn": 1315
+          },
+          "after": {
+            "tp": 1698,
+            "fp": 42,
+            "fn": 1260,
+            "tn": 1315
+          },
+          "delta_tp": 6,
+          "delta_fp": 0,
+          "f1_before": 0.7212276214833759,
+          "f1_after": 0.722860791826309
+        }
+      },
+      "frozen": {
+        "before": {
+          "tp": 6675,
+          "fp": 903,
+          "fn": 2774,
+          "tn": 20746
+        },
+        "after": {
+          "tp": 6902,
+          "fp": 2333,
+          "fn": 2547,
+          "tn": 19316
+        },
+        "delta_tp": 227,
+        "delta_fp": 1430,
+        "f1_before": 0.7840488635696247,
+        "f1_after": 0.7388139584671377
+      },
+      "if_same_fp": {
+        "fn_recovered": 117,
+        "fp_removed": 413,
+        "tp_lost": 137,
+        "fp_added": 413
+      },
+      "threshold": 0.15310655534267426,
+      "cal_rows": 727,
+      "test_queries": 8663
+    },
+    "token_promote_near_1": {
+      "dev": {
+        "before": {
+          "tp": 3788,
+          "fp": 354,
+          "fn": 89,
+          "tn": 7445
+        },
+        "after": {
+          "tp": 3786,
+          "fp": 354,
+          "fn": 91,
+          "tn": 7445
+        },
+        "delta_tp": -2,
+        "delta_fp": 0,
+        "f1_before": 0.9447562040154632,
+        "f1_after": 0.9444929524759885
+      },
+      "project_tp": -51,
+      "project": {
+        "chromium": {
+          "before": {
+            "tp": 3669,
+            "fp": 825,
+            "fn": 1211,
+            "tn": 19004
+          },
+          "after": {
+            "tp": 3604,
+            "fp": 825,
+            "fn": 1276,
+            "tn": 19004
+          },
+          "delta_tp": -65,
+          "delta_fp": 0,
+          "f1_before": 0.7828034990398975,
+          "f1_after": 0.7743044365667634
+        },
+        "ffmpeg": {
+          "before": {
+            "tp": 1318,
+            "fp": 36,
+            "fn": 293,
+            "tn": 427
+          },
+          "after": {
+            "tp": 1324,
+            "fp": 36,
+            "fn": 287,
+            "tn": 427
+          },
+          "delta_tp": 6,
+          "delta_fp": 0,
+          "f1_before": 0.8890387858347386,
+          "f1_after": 0.8912823964994951
+        },
+        "qemu": {
+          "before": {
+            "tp": 1692,
+            "fp": 42,
+            "fn": 1266,
+            "tn": 1315
+          },
+          "after": {
+            "tp": 1700,
+            "fp": 42,
+            "fn": 1258,
+            "tn": 1315
+          },
+          "delta_tp": 8,
+          "delta_fp": 0,
+          "f1_before": 0.7212276214833759,
+          "f1_after": 0.723404255319149
+        }
+      },
+      "frozen": {
+        "before": {
+          "tp": 6675,
+          "fp": 903,
+          "fn": 2774,
+          "tn": 20746
+        },
+        "after": {
+          "tp": 7003,
+          "fp": 3398,
+          "fn": 2446,
+          "tn": 18251
+        },
+        "delta_tp": 328,
+        "delta_fp": 2495,
+        "f1_before": 0.7840488635696247,
+        "f1_after": 0.7055919395465995
+      },
+      "if_same_fp": {
+        "fn_recovered": 166,
+        "fp_removed": 601,
+        "tp_lost": 213,
+        "fp_added": 601
+      },
+      "threshold": 0.16389594972133636,
+      "cal_rows": 727,
+      "test_queries": 8663
+    },
+    "token_promote_wide_0.5": {
+      "dev": {
+        "before": {
+          "tp": 3788,
+          "fp": 354,
+          "fn": 89,
+          "tn": 7445
+        },
+        "after": {
+          "tp": 3787,
+          "fp": 354,
+          "fn": 90,
+          "tn": 7445
+        },
+        "delta_tp": -1,
+        "delta_fp": 0,
+        "f1_before": 0.9447562040154632,
+        "f1_after": 0.9446245946620104
+      },
+      "project_tp": -26,
+      "project": {
+        "chromium": {
+          "before": {
+            "tp": 3669,
+            "fp": 825,
+            "fn": 1211,
+            "tn": 19004
+          },
+          "after": {
+            "tp": 3636,
+            "fp": 825,
+            "fn": 1244,
+            "tn": 19004
+          },
+          "delta_tp": -33,
+          "delta_fp": 0,
+          "f1_before": 0.7828034990398975,
+          "f1_after": 0.7785033722299539
+        },
+        "ffmpeg": {
+          "before": {
+            "tp": 1318,
+            "fp": 36,
+            "fn": 293,
+            "tn": 427
+          },
+          "after": {
+            "tp": 1320,
+            "fp": 36,
+            "fn": 291,
+            "tn": 427
+          },
+          "delta_tp": 2,
+          "delta_fp": 0,
+          "f1_before": 0.8890387858347386,
+          "f1_after": 0.8897876643073812
+        },
+        "qemu": {
+          "before": {
+            "tp": 1692,
+            "fp": 42,
+            "fn": 1266,
+            "tn": 1315
+          },
+          "after": {
+            "tp": 1697,
+            "fp": 42,
+            "fn": 1261,
+            "tn": 1315
+          },
+          "delta_tp": 5,
+          "delta_fp": 0,
+          "f1_before": 0.7212276214833759,
+          "f1_after": 0.7225888865233128
+        }
+      },
+      "frozen": {
+        "before": {
+          "tp": 6675,
+          "fp": 903,
+          "fn": 2774,
+          "tn": 20746
+        },
+        "after": {
+          "tp": 6913,
+          "fp": 2384,
+          "fn": 2536,
+          "tn": 19265
+        },
+        "delta_tp": 238,
+        "delta_fp": 1481,
+        "f1_before": 0.7840488635696247,
+        "f1_after": 0.7375440093886696
+      },
+      "if_same_fp": {
+        "fn_recovered": 115,
+        "fp_removed": 417,
+        "tp_lost": 137,
+        "fp_added": 417
+      },
+      "threshold": 0.15310655534267426,
+      "cal_rows": 2369,
+      "test_queries": 19466
+    },
+    "token_promote_wide_1": {
+      "dev": {
+        "before": {
+          "tp": 3788,
+          "fp": 354,
+          "fn": 89,
+          "tn": 7445
+        },
+        "after": {
+          "tp": 3786,
+          "fp": 354,
+          "fn": 91,
+          "tn": 7445
+        },
+        "delta_tp": -2,
+        "delta_fp": 0,
+        "f1_before": 0.9447562040154632,
+        "f1_after": 0.9444929524759885
+      },
+      "project_tp": -53,
+      "project": {
+        "chromium": {
+          "before": {
+            "tp": 3669,
+            "fp": 825,
+            "fn": 1211,
+            "tn": 19004
+          },
+          "after": {
+            "tp": 3602,
+            "fp": 825,
+            "fn": 1278,
+            "tn": 19004
+          },
+          "delta_tp": -67,
+          "delta_fp": 0,
+          "f1_before": 0.7828034990398975,
+          "f1_after": 0.7740410443752015
+        },
+        "ffmpeg": {
+          "before": {
+            "tp": 1318,
+            "fp": 36,
+            "fn": 293,
+            "tn": 427
+          },
+          "after": {
+            "tp": 1326,
+            "fp": 36,
+            "fn": 285,
+            "tn": 427
+          },
+          "delta_tp": 8,
+          "delta_fp": 0,
+          "f1_before": 0.8890387858347386,
+          "f1_after": 0.8920282542885973
+        },
+        "qemu": {
+          "before": {
+            "tp": 1692,
+            "fp": 42,
+            "fn": 1266,
+            "tn": 1315
+          },
+          "after": {
+            "tp": 1698,
+            "fp": 42,
+            "fn": 1260,
+            "tn": 1315
+          },
+          "delta_tp": 6,
+          "delta_fp": 0,
+          "f1_before": 0.7212276214833759,
+          "f1_after": 0.722860791826309
+        }
+      },
+      "frozen": {
+        "before": {
+          "tp": 6675,
+          "fp": 903,
+          "fn": 2774,
+          "tn": 20746
+        },
+        "after": {
+          "tp": 7049,
+          "fp": 3830,
+          "fn": 2400,
+          "tn": 17819
+        },
+        "delta_tp": 374,
+        "delta_fp": 2927,
+        "f1_before": 0.7840488635696247,
+        "f1_after": 0.6935261707988981
+      },
+      "if_same_fp": {
+        "fn_recovered": 167,
+        "fp_removed": 605,
+        "tp_lost": 216,
+        "fp_added": 605
+      },
+      "threshold": 0.16453905403614044,
+      "cal_rows": 2369,
+      "test_queries": 19466
+    },
+    "token_two_gate_exact_0.5": {
+      "dev": {
+        "before": {
+          "tp": 3788,
+          "fp": 354,
+          "fn": 89,
+          "tn": 7445
+        },
+        "after": {
+          "tp": 3787,
+          "fp": 354,
+          "fn": 90,
+          "tn": 7445
+        },
+        "delta_tp": -1,
+        "delta_fp": 0,
+        "f1_before": 0.9447562040154632,
+        "f1_after": 0.9446245946620104
+      },
+      "project_tp": -43,
+      "project": {
+        "chromium": {
+          "before": {
+            "tp": 3669,
+            "fp": 825,
+            "fn": 1211,
+            "tn": 19004
+          },
+          "after": {
+            "tp": 3618,
+            "fp": 825,
+            "fn": 1262,
+            "tn": 19004
+          },
+          "delta_tp": -51,
+          "delta_fp": 0,
+          "f1_before": 0.7828034990398975,
+          "f1_after": 0.7761450176981658
+        },
+        "ffmpeg": {
+          "before": {
+            "tp": 1318,
+            "fp": 36,
+            "fn": 293,
+            "tn": 427
+          },
+          "after": {
+            "tp": 1320,
+            "fp": 36,
+            "fn": 291,
+            "tn": 427
+          },
+          "delta_tp": 2,
+          "delta_fp": 0,
+          "f1_before": 0.8890387858347386,
+          "f1_after": 0.8897876643073812
+        },
+        "qemu": {
+          "before": {
+            "tp": 1692,
+            "fp": 42,
+            "fn": 1266,
+            "tn": 1315
+          },
+          "after": {
+            "tp": 1698,
+            "fp": 42,
+            "fn": 1260,
+            "tn": 1315
+          },
+          "delta_tp": 6,
+          "delta_fp": 0,
+          "f1_before": 0.7212276214833759,
+          "f1_after": 0.722860791826309
+        }
+      },
+      "frozen": {
+        "before": {
+          "tp": 6675,
+          "fp": 903,
+          "fn": 2774,
+          "tn": 20746
+        },
+        "after": {
+          "tp": 6906,
+          "fp": 2421,
+          "fn": 2543,
+          "tn": 19228
+        },
+        "delta_tp": 231,
+        "delta_fp": 1518,
+        "f1_before": 0.7840488635696247,
+        "f1_after": 0.7356199403493822
+      },
+      "if_same_fp": {
+        "fn_recovered": 108,
+        "fp_removed": 391,
+        "tp_lost": 147,
+        "fp_added": 391
+      },
+      "threshold": 0.1369154304265976,
+      "cal_rows": 2802,
+      "test_queries": 15721
+    },
+    "token_two_gate_exact_1": {
+      "dev": {
+        "before": {
+          "tp": 3788,
+          "fp": 354,
+          "fn": 89,
+          "tn": 7445
+        },
+        "after": {
+          "tp": 3782,
+          "fp": 354,
+          "fn": 95,
+          "tn": 7445
+        },
+        "delta_tp": -6,
+        "delta_fp": 0,
+        "f1_before": 0.9447562040154632,
+        "f1_after": 0.9439660551603644
+      },
+      "project_tp": -80,
+      "project": {
+        "chromium": {
+          "before": {
+            "tp": 3669,
+            "fp": 825,
+            "fn": 1211,
+            "tn": 19004
+          },
+          "after": {
+            "tp": 3575,
+            "fp": 825,
+            "fn": 1305,
+            "tn": 19004
+          },
+          "delta_tp": -94,
+          "delta_fp": 0,
+          "f1_before": 0.7828034990398975,
+          "f1_after": 0.7704741379310345
+        },
+        "ffmpeg": {
+          "before": {
+            "tp": 1318,
+            "fp": 36,
+            "fn": 293,
+            "tn": 427
+          },
+          "after": {
+            "tp": 1324,
+            "fp": 36,
+            "fn": 287,
+            "tn": 427
+          },
+          "delta_tp": 6,
+          "delta_fp": 0,
+          "f1_before": 0.8890387858347386,
+          "f1_after": 0.8912823964994951
+        },
+        "qemu": {
+          "before": {
+            "tp": 1692,
+            "fp": 42,
+            "fn": 1266,
+            "tn": 1315
+          },
+          "after": {
+            "tp": 1700,
+            "fp": 42,
+            "fn": 1258,
+            "tn": 1315
+          },
+          "delta_tp": 8,
+          "delta_fp": 0,
+          "f1_before": 0.7212276214833759,
+          "f1_after": 0.723404255319149
+        }
+      },
+      "frozen": {
+        "before": {
+          "tp": 6675,
+          "fp": 903,
+          "fn": 2774,
+          "tn": 20746
+        },
+        "after": {
+          "tp": 7096,
+          "fp": 4288,
+          "fn": 2353,
+          "tn": 17361
+        },
+        "delta_tp": 421,
+        "delta_fp": 3385,
+        "f1_before": 0.7840488635696247,
+        "f1_after": 0.6812268996303941
+      },
+      "if_same_fp": {
+        "fn_recovered": 176,
+        "fp_removed": 604,
+        "tp_lost": 252,
+        "fp_added": 604
+      },
+      "threshold": 0.12917250394821167,
+      "cal_rows": 2802,
+      "test_queries": 15721
+    },
+    "token_two_gate_near_0.5": {
+      "dev": {
+        "before": {
+          "tp": 3788,
+          "fp": 354,
+          "fn": 89,
+          "tn": 7445
+        },
+        "after": {
+          "tp": 3787,
+          "fp": 354,
+          "fn": 90,
+          "tn": 7445
+        },
+        "delta_tp": -1,
+        "delta_fp": 0,
+        "f1_before": 0.9447562040154632,
+        "f1_after": 0.9446245946620104
+      },
+      "project_tp": -24,
+      "project": {
+        "chromium": {
+          "before": {
+            "tp": 3669,
+            "fp": 825,
+            "fn": 1211,
+            "tn": 19004
+          },
+          "after": {
+            "tp": 3637,
+            "fp": 825,
+            "fn": 1243,
+            "tn": 19004
+          },
+          "delta_tp": -32,
+          "delta_fp": 0,
+          "f1_before": 0.7828034990398975,
+          "f1_after": 0.7786341254549347
+        },
+        "ffmpeg": {
+          "before": {
+            "tp": 1318,
+            "fp": 36,
+            "fn": 293,
+            "tn": 427
+          },
+          "after": {
+            "tp": 1320,
+            "fp": 36,
+            "fn": 291,
+            "tn": 427
+          },
+          "delta_tp": 2,
+          "delta_fp": 0,
+          "f1_before": 0.8890387858347386,
+          "f1_after": 0.8897876643073812
+        },
+        "qemu": {
+          "before": {
+            "tp": 1692,
+            "fp": 42,
+            "fn": 1266,
+            "tn": 1315
+          },
+          "after": {
+            "tp": 1698,
+            "fp": 42,
+            "fn": 1260,
+            "tn": 1315
+          },
+          "delta_tp": 6,
+          "delta_fp": 0,
+          "f1_before": 0.7212276214833759,
+          "f1_after": 0.722860791826309
+        }
+      },
+      "frozen": {
+        "before": {
+          "tp": 6675,
+          "fp": 903,
+          "fn": 2774,
+          "tn": 20746
+        },
+        "after": {
+          "tp": 6896,
+          "fp": 2382,
+          "fn": 2553,
+          "tn": 19267
+        },
+        "delta_tp": 221,
+        "delta_fp": 1479,
+        "f1_before": 0.7840488635696247,
+        "f1_after": 0.7364767448069632
+      },
+      "if_same_fp": {
+        "fn_recovered": 109,
+        "fp_removed": 377,
+        "tp_lost": 129,
+        "fp_added": 377
+      },
+      "threshold": 0.13688834011554718,
+      "cal_rows": 727,
+      "test_queries": 8663
+    },
+    "token_two_gate_near_1": {
+      "dev": {
+        "before": {
+          "tp": 3788,
+          "fp": 354,
+          "fn": 89,
+          "tn": 7445
+        },
+        "after": {
+          "tp": 3785,
+          "fp": 354,
+          "fn": 92,
+          "tn": 7445
+        },
+        "delta_tp": -3,
+        "delta_fp": 0,
+        "f1_before": 0.9447562040154632,
+        "f1_after": 0.9443612774451098
+      },
+      "project_tp": -39,
+      "project": {
+        "chromium": {
+          "before": {
+            "tp": 3669,
+            "fp": 825,
+            "fn": 1211,
+            "tn": 19004
+          },
+          "after": {
+            "tp": 3620,
+            "fp": 825,
+            "fn": 1260,
+            "tn": 19004
+          },
+          "delta_tp": -49,
+          "delta_fp": 0,
+          "f1_before": 0.7828034990398975,
+          "f1_after": 0.7764075067024129
+        },
+        "ffmpeg": {
+          "before": {
+            "tp": 1318,
+            "fp": 36,
+            "fn": 293,
+            "tn": 427
+          },
+          "after": {
+            "tp": 1322,
+            "fp": 36,
+            "fn": 289,
+            "tn": 427
+          },
+          "delta_tp": 4,
+          "delta_fp": 0,
+          "f1_before": 0.8890387858347386,
+          "f1_after": 0.8905355338497811
+        },
+        "qemu": {
+          "before": {
+            "tp": 1692,
+            "fp": 42,
+            "fn": 1266,
+            "tn": 1315
+          },
+          "after": {
+            "tp": 1698,
+            "fp": 42,
+            "fn": 1260,
+            "tn": 1315
+          },
+          "delta_tp": 6,
+          "delta_fp": 0,
+          "f1_before": 0.7212276214833759,
+          "f1_after": 0.722860791826309
+        }
+      },
+      "frozen": {
+        "before": {
+          "tp": 6675,
+          "fp": 903,
+          "fn": 2774,
+          "tn": 20746
+        },
+        "after": {
+          "tp": 7018,
+          "fp": 3640,
+          "fn": 2431,
+          "tn": 18009
+        },
+        "delta_tp": 343,
+        "delta_fp": 2737,
+        "f1_before": 0.7840488635696247,
+        "f1_after": 0.6980653503754911
+      },
+      "if_same_fp": {
+        "fn_recovered": 158,
+        "fp_removed": 556,
+        "tp_lost": 193,
+        "fp_added": 556
+      },
+      "threshold": 0.13594648241996765,
+      "cal_rows": 727,
+      "test_queries": 8663
+    },
+    "token_two_gate_wide_0.5": {
+      "dev": {
+        "before": {
+          "tp": 3788,
+          "fp": 354,
+          "fn": 89,
+          "tn": 7445
+        },
+        "after": {
+          "tp": 3787,
+          "fp": 354,
+          "fn": 90,
+          "tn": 7445
+        },
+        "delta_tp": -1,
+        "delta_fp": 0,
+        "f1_before": 0.9447562040154632,
+        "f1_after": 0.9446245946620104
+      },
+      "project_tp": -41,
+      "project": {
+        "chromium": {
+          "before": {
+            "tp": 3669,
+            "fp": 825,
+            "fn": 1211,
+            "tn": 19004
+          },
+          "after": {
+            "tp": 3620,
+            "fp": 825,
+            "fn": 1260,
+            "tn": 19004
+          },
+          "delta_tp": -49,
+          "delta_fp": 0,
+          "f1_before": 0.7828034990398975,
+          "f1_after": 0.7764075067024129
+        },
+        "ffmpeg": {
+          "before": {
+            "tp": 1318,
+            "fp": 36,
+            "fn": 293,
+            "tn": 427
+          },
+          "after": {
+            "tp": 1320,
+            "fp": 36,
+            "fn": 291,
+            "tn": 427
+          },
+          "delta_tp": 2,
+          "delta_fp": 0,
+          "f1_before": 0.8890387858347386,
+          "f1_after": 0.8897876643073812
+        },
+        "qemu": {
+          "before": {
+            "tp": 1692,
+            "fp": 42,
+            "fn": 1266,
+            "tn": 1315
+          },
+          "after": {
+            "tp": 1698,
+            "fp": 42,
+            "fn": 1260,
+            "tn": 1315
+          },
+          "delta_tp": 6,
+          "delta_fp": 0,
+          "f1_before": 0.7212276214833759,
+          "f1_after": 0.722860791826309
+        }
+      },
+      "frozen": {
+        "before": {
+          "tp": 6675,
+          "fp": 903,
+          "fn": 2774,
+          "tn": 20746
+        },
+        "after": {
+          "tp": 6907,
+          "fp": 2425,
+          "fn": 2542,
+          "tn": 19224
+        },
+        "delta_tp": 232,
+        "delta_fp": 1522,
+        "f1_before": 0.7840488635696247,
+        "f1_after": 0.7355305894254832
+      },
+      "if_same_fp": {
+        "fn_recovered": 109,
+        "fp_removed": 391,
+        "tp_lost": 146,
+        "fp_added": 391
+      },
+      "threshold": 0.13688834011554718,
+      "cal_rows": 2369,
+      "test_queries": 19466
+    },
+    "token_two_gate_wide_1": {
+      "dev": {
+        "before": {
+          "tp": 3788,
+          "fp": 354,
+          "fn": 89,
+          "tn": 7445
+        },
+        "after": {
+          "tp": 3784,
+          "fp": 354,
+          "fn": 93,
+          "tn": 7445
+        },
+        "delta_tp": -4,
+        "delta_fp": 0,
+        "f1_before": 0.9447562040154632,
+        "f1_after": 0.9442295695570805
+      },
+      "project_tp": -53,
+      "project": {
+        "chromium": {
+          "before": {
+            "tp": 3669,
+            "fp": 825,
+            "fn": 1211,
+            "tn": 19004
+          },
+          "after": {
+            "tp": 3602,
+            "fp": 825,
+            "fn": 1278,
+            "tn": 19004
+          },
+          "delta_tp": -67,
+          "delta_fp": 0,
+          "f1_before": 0.7828034990398975,
+          "f1_after": 0.7740410443752015
+        },
+        "ffmpeg": {
+          "before": {
+            "tp": 1318,
+            "fp": 36,
+            "fn": 293,
+            "tn": 427
+          },
+          "after": {
+            "tp": 1325,
+            "fp": 36,
+            "fn": 286,
+            "tn": 427
+          },
+          "delta_tp": 7,
+          "delta_fp": 0,
+          "f1_before": 0.8890387858347386,
+          "f1_after": 0.8916554508748318
+        },
+        "qemu": {
+          "before": {
+            "tp": 1692,
+            "fp": 42,
+            "fn": 1266,
+            "tn": 1315
+          },
+          "after": {
+            "tp": 1699,
+            "fp": 42,
+            "fn": 1259,
+            "tn": 1315
+          },
+          "delta_tp": 7,
+          "delta_fp": 0,
+          "f1_before": 0.7212276214833759,
+          "f1_after": 0.7231325814002979
+        }
+      },
+      "frozen": {
+        "before": {
+          "tp": 6675,
+          "fp": 903,
+          "fn": 2774,
+          "tn": 20746
+        },
+        "after": {
+          "tp": 7097,
+          "fp": 4339,
+          "fn": 2352,
+          "tn": 17310
+        },
+        "delta_tp": 422,
+        "delta_fp": 3436,
+        "f1_before": 0.7840488635696247,
+        "f1_after": 0.6796265262149869
+      },
+      "if_same_fp": {
+        "fn_recovered": 168,
+        "fp_removed": 594,
+        "tp_lost": 217,
+        "fp_added": 594
+      },
+      "threshold": 0.13079038262367249,
+      "cal_rows": 2369,
+      "test_queries": 19466
+    },
+    "both_blend_exact_0.5": {
+      "dev": {
+        "before": {
+          "tp": 3788,
+          "fp": 354,
+          "fn": 89,
+          "tn": 7445
+        },
+        "after": {
+          "tp": 3788,
+          "fp": 354,
+          "fn": 89,
+          "tn": 7445
+        },
+        "delta_tp": 0,
+        "delta_fp": 0,
+        "f1_before": 0.9447562040154632,
+        "f1_after": 0.9447562040154632
+      },
+      "project_tp": -47,
+      "project": {
+        "chromium": {
+          "before": {
+            "tp": 3669,
+            "fp": 825,
+            "fn": 1211,
+            "tn": 19004
+          },
+          "after": {
+            "tp": 3617,
+            "fp": 825,
+            "fn": 1263,
+            "tn": 19004
+          },
+          "delta_tp": -52,
+          "delta_fp": 0,
+          "f1_before": 0.7828034990398975,
+          "f1_after": 0.7760137309590217
+        },
+        "ffmpeg": {
+          "before": {
+            "tp": 1318,
+            "fp": 36,
+            "fn": 293,
+            "tn": 427
+          },
+          "after": {
+            "tp": 1318,
+            "fp": 36,
+            "fn": 293,
+            "tn": 427
+          },
+          "delta_tp": 0,
+          "delta_fp": 0,
+          "f1_before": 0.8890387858347386,
+          "f1_after": 0.8890387858347386
+        },
+        "qemu": {
+          "before": {
+            "tp": 1692,
+            "fp": 42,
+            "fn": 1266,
+            "tn": 1315
+          },
+          "after": {
+            "tp": 1697,
+            "fp": 42,
+            "fn": 1261,
+            "tn": 1315
+          },
+          "delta_tp": 5,
+          "delta_fp": 0,
+          "f1_before": 0.7212276214833759,
+          "f1_after": 0.7225888865233128
+        }
+      },
+      "frozen": {
+        "before": {
+          "tp": 6675,
+          "fp": 903,
+          "fn": 2774,
+          "tn": 20746
+        },
+        "after": {
+          "tp": 6944,
+          "fp": 2598,
+          "fn": 2505,
+          "tn": 19051
+        },
+        "delta_tp": 269,
+        "delta_fp": 1695,
+        "f1_before": 0.7840488635696247,
+        "f1_after": 0.7312937707335053
+      },
+      "if_same_fp": {
+        "fn_recovered": 79,
+        "fp_removed": 247,
+        "tp_lost": 122,
+        "fp_added": 247
+      },
+      "threshold": 0.13325701653957367,
+      "cal_rows": 2802,
+      "test_queries": 15721
+    },
+    "both_blend_exact_1": {
+      "dev": {
+        "before": {
+          "tp": 3788,
+          "fp": 354,
+          "fn": 89,
+          "tn": 7445
+        },
+        "after": {
+          "tp": 3788,
+          "fp": 354,
+          "fn": 89,
+          "tn": 7445
+        },
+        "delta_tp": 0,
+        "delta_fp": 0,
+        "f1_before": 0.9447562040154632,
+        "f1_after": 0.9447562040154632
+      },
+      "project_tp": -98,
+      "project": {
+        "chromium": {
+          "before": {
+            "tp": 3669,
+            "fp": 825,
+            "fn": 1211,
+            "tn": 19004
+          },
+          "after": {
+            "tp": 3563,
+            "fp": 825,
+            "fn": 1317,
+            "tn": 19004
+          },
+          "delta_tp": -106,
+          "delta_fp": 0,
+          "f1_before": 0.7828034990398975,
+          "f1_after": 0.7688821752265861
+        },
+        "ffmpeg": {
+          "before": {
+            "tp": 1318,
+            "fp": 36,
+            "fn": 293,
+            "tn": 427
+          },
+          "after": {
+            "tp": 1318,
+            "fp": 36,
+            "fn": 293,
+            "tn": 427
+          },
+          "delta_tp": 0,
+          "delta_fp": 0,
+          "f1_before": 0.8890387858347386,
+          "f1_after": 0.8890387858347386
+        },
+        "qemu": {
+          "before": {
+            "tp": 1692,
+            "fp": 42,
+            "fn": 1266,
+            "tn": 1315
+          },
+          "after": {
+            "tp": 1700,
+            "fp": 42,
+            "fn": 1258,
+            "tn": 1315
+          },
+          "delta_tp": 8,
+          "delta_fp": 0,
+          "f1_before": 0.7212276214833759,
+          "f1_after": 0.723404255319149
+        }
+      },
+      "frozen": {
+        "before": {
+          "tp": 6675,
+          "fp": 903,
+          "fn": 2774,
+          "tn": 20746
+        },
+        "after": {
+          "tp": 7080,
+          "fp": 4060,
+          "fn": 2369,
+          "tn": 17589
+        },
+        "delta_tp": 405,
+        "delta_fp": 3157,
+        "f1_before": 0.7840488635696247,
+        "f1_after": 0.6877458837243188
+      },
+      "if_same_fp": {
+        "fn_recovered": 111,
+        "fp_removed": 364,
+        "tp_lost": 205,
+        "fp_added": 364
+      },
+      "threshold": 0.13836483657360077,
+      "cal_rows": 2802,
+      "test_queries": 15721
+    },
+    "both_blend_near_0.5": {
+      "dev": {
+        "before": {
+          "tp": 3788,
+          "fp": 354,
+          "fn": 89,
+          "tn": 7445
+        },
+        "after": {
+          "tp": 3788,
+          "fp": 354,
+          "fn": 89,
+          "tn": 7445
+        },
+        "delta_tp": 0,
+        "delta_fp": 0,
+        "f1_before": 0.9447562040154632,
+        "f1_after": 0.9447562040154632
+      },
+      "project_tp": -29,
+      "project": {
+        "chromium": {
+          "before": {
+            "tp": 3669,
+            "fp": 825,
+            "fn": 1211,
+            "tn": 19004
+          },
+          "after": {
+            "tp": 3635,
+            "fp": 825,
+            "fn": 1245,
+            "tn": 19004
+          },
+          "delta_tp": -34,
+          "delta_fp": 0,
+          "f1_before": 0.7828034990398975,
+          "f1_after": 0.778372591006424
+        },
+        "ffmpeg": {
+          "before": {
+            "tp": 1318,
+            "fp": 36,
+            "fn": 293,
+            "tn": 427
+          },
+          "after": {
+            "tp": 1318,
+            "fp": 36,
+            "fn": 293,
+            "tn": 427
+          },
+          "delta_tp": 0,
+          "delta_fp": 0,
+          "f1_before": 0.8890387858347386,
+          "f1_after": 0.8890387858347386
+        },
+        "qemu": {
+          "before": {
+            "tp": 1692,
+            "fp": 42,
+            "fn": 1266,
+            "tn": 1315
+          },
+          "after": {
+            "tp": 1697,
+            "fp": 42,
+            "fn": 1261,
+            "tn": 1315
+          },
+          "delta_tp": 5,
+          "delta_fp": 0,
+          "f1_before": 0.7212276214833759,
+          "f1_after": 0.7225888865233128
+        }
+      },
+      "frozen": {
+        "before": {
+          "tp": 6675,
+          "fp": 903,
+          "fn": 2774,
+          "tn": 20746
+        },
+        "after": {
+          "tp": 6934,
+          "fp": 2551,
+          "fn": 2515,
+          "tn": 19098
+        },
+        "delta_tp": 259,
+        "delta_fp": 1648,
+        "f1_before": 0.7840488635696247,
+        "f1_after": 0.732438998626809
+      },
+      "if_same_fp": {
+        "fn_recovered": 75,
+        "fp_removed": 236,
+        "tp_lost": 100,
+        "fp_added": 236
+      },
+      "threshold": 0.13284343481063843,
+      "cal_rows": 727,
+      "test_queries": 8663
+    },
+    "both_blend_near_1": {
+      "dev": {
+        "before": {
+          "tp": 3788,
+          "fp": 354,
+          "fn": 89,
+          "tn": 7445
+        },
+        "after": {
+          "tp": 3784,
+          "fp": 354,
+          "fn": 93,
+          "tn": 7445
+        },
+        "delta_tp": -4,
+        "delta_fp": 0,
+        "f1_before": 0.9447562040154632,
+        "f1_after": 0.9442295695570805
+      },
+      "project_tp": -65,
+      "project": {
+        "chromium": {
+          "before": {
+            "tp": 3669,
+            "fp": 825,
+            "fn": 1211,
+            "tn": 19004
+          },
+          "after": {
+            "tp": 3598,
+            "fp": 825,
+            "fn": 1282,
+            "tn": 19004
+          },
+          "delta_tp": -71,
+          "delta_fp": 0,
+          "f1_before": 0.7828034990398975,
+          "f1_after": 0.7735139202407826
+        },
+        "ffmpeg": {
+          "before": {
+            "tp": 1318,
+            "fp": 36,
+            "fn": 293,
+            "tn": 427
+          },
+          "after": {
+            "tp": 1317,
+            "fp": 36,
+            "fn": 294,
+            "tn": 427
+          },
+          "delta_tp": -1,
+          "delta_fp": 0,
+          "f1_before": 0.8890387858347386,
+          "f1_after": 0.888663967611336
+        },
+        "qemu": {
+          "before": {
+            "tp": 1692,
+            "fp": 42,
+            "fn": 1266,
+            "tn": 1315
+          },
+          "after": {
+            "tp": 1699,
+            "fp": 42,
+            "fn": 1259,
+            "tn": 1315
+          },
+          "delta_tp": 7,
+          "delta_fp": 0,
+          "f1_before": 0.7212276214833759,
+          "f1_after": 0.7231325814002979
+        }
+      },
+      "frozen": {
+        "before": {
+          "tp": 6675,
+          "fp": 903,
+          "fn": 2774,
+          "tn": 20746
+        },
+        "after": {
+          "tp": 7004,
+          "fp": 3348,
+          "fn": 2445,
+          "tn": 18301
+        },
+        "delta_tp": 329,
+        "delta_fp": 2445,
+        "f1_before": 0.7840488635696247,
+        "f1_after": 0.7074390182314024
+      },
+      "if_same_fp": {
+        "fn_recovered": 115,
+        "fp_removed": 421,
+        "tp_lost": 176,
+        "fp_added": 421
+      },
+      "threshold": 0.1501416563987732,
+      "cal_rows": 727,
+      "test_queries": 8663
+    },
+    "both_blend_wide_0.5": {
+      "dev": {
+        "before": {
+          "tp": 3788,
+          "fp": 354,
+          "fn": 89,
+          "tn": 7445
+        },
+        "after": {
+          "tp": 3788,
+          "fp": 354,
+          "fn": 89,
+          "tn": 7445
+        },
+        "delta_tp": 0,
+        "delta_fp": 0,
+        "f1_before": 0.9447562040154632,
+        "f1_after": 0.9447562040154632
+      },
+      "project_tp": -47,
+      "project": {
+        "chromium": {
+          "before": {
+            "tp": 3669,
+            "fp": 825,
+            "fn": 1211,
+            "tn": 19004
+          },
+          "after": {
+            "tp": 3620,
+            "fp": 825,
+            "fn": 1260,
+            "tn": 19004
+          },
+          "delta_tp": -49,
+          "delta_fp": 0,
+          "f1_before": 0.7828034990398975,
+          "f1_after": 0.7764075067024129
+        },
+        "ffmpeg": {
+          "before": {
+            "tp": 1318,
+            "fp": 36,
+            "fn": 293,
+            "tn": 427
+          },
+          "after": {
+            "tp": 1318,
+            "fp": 36,
+            "fn": 293,
+            "tn": 427
+          },
+          "delta_tp": 0,
+          "delta_fp": 0,
+          "f1_before": 0.8890387858347386,
+          "f1_after": 0.8890387858347386
+        },
+        "qemu": {
+          "before": {
+            "tp": 1692,
+            "fp": 42,
+            "fn": 1266,
+            "tn": 1315
+          },
+          "after": {
+            "tp": 1694,
+            "fp": 42,
+            "fn": 1264,
+            "tn": 1315
+          },
+          "delta_tp": 2,
+          "delta_fp": 0,
+          "f1_before": 0.7212276214833759,
+          "f1_after": 0.7217724755006392
+        }
+      },
+      "frozen": {
+        "before": {
+          "tp": 6675,
+          "fp": 903,
+          "fn": 2774,
+          "tn": 20746
+        },
+        "after": {
+          "tp": 6949,
+          "fp": 2634,
+          "fn": 2500,
+          "tn": 19015
+        },
+        "delta_tp": 274,
+        "delta_fp": 1731,
+        "f1_before": 0.7840488635696247,
+        "f1_after": 0.730243799915931
+      },
+      "if_same_fp": {
+        "fn_recovered": 77,
+        "fp_removed": 249,
+        "tp_lost": 120,
+        "fp_added": 249
+      },
+      "threshold": 0.13284343481063843,
+      "cal_rows": 2369,
+      "test_queries": 19466
+    },
+    "both_blend_wide_1": {
+      "dev": {
+        "before": {
+          "tp": 3788,
+          "fp": 354,
+          "fn": 89,
+          "tn": 7445
+        },
+        "after": {
+          "tp": 3788,
+          "fp": 354,
+          "fn": 89,
+          "tn": 7445
+        },
+        "delta_tp": 0,
+        "delta_fp": 0,
+        "f1_before": 0.9447562040154632,
+        "f1_after": 0.9447562040154632
+      },
+      "project_tp": -60,
+      "project": {
+        "chromium": {
+          "before": {
+            "tp": 3669,
+            "fp": 825,
+            "fn": 1211,
+            "tn": 19004
+          },
+          "after": {
+            "tp": 3595,
+            "fp": 825,
+            "fn": 1285,
+            "tn": 19004
+          },
+          "delta_tp": -74,
+          "delta_fp": 0,
+          "f1_before": 0.7828034990398975,
+          "f1_after": 0.7731182795698924
+        },
+        "ffmpeg": {
+          "before": {
+            "tp": 1318,
+            "fp": 36,
+            "fn": 293,
+            "tn": 427
+          },
+          "after": {
+            "tp": 1321,
+            "fp": 36,
+            "fn": 290,
+            "tn": 427
+          },
+          "delta_tp": 3,
+          "delta_fp": 0,
+          "f1_before": 0.8890387858347386,
+          "f1_after": 0.8901617250673854
+        },
+        "qemu": {
+          "before": {
+            "tp": 1692,
+            "fp": 42,
+            "fn": 1266,
+            "tn": 1315
+          },
+          "after": {
+            "tp": 1703,
+            "fp": 42,
+            "fn": 1255,
+            "tn": 1315
+          },
+          "delta_tp": 11,
+          "delta_fp": 0,
+          "f1_before": 0.7212276214833759,
+          "f1_after": 0.7242185838826282
+        }
+      },
+      "frozen": {
+        "before": {
+          "tp": 6675,
+          "fp": 903,
+          "fn": 2774,
+          "tn": 20746
+        },
+        "after": {
+          "tp": 7107,
+          "fp": 4186,
+          "fn": 2342,
+          "tn": 17463
+        },
+        "delta_tp": 432,
+        "delta_fp": 3283,
+        "f1_before": 0.7840488635696247,
+        "f1_after": 0.6852762510847555
+      },
+      "if_same_fp": {
+        "fn_recovered": 114,
+        "fp_removed": 360,
+        "tp_lost": 170,
+        "fp_added": 360
+      },
+      "threshold": 0.13920636475086212,
+      "cal_rows": 2369,
+      "test_queries": 19466
+    },
+    "both_veto_exact_0.5": {
+      "dev": {
+        "before": {
+          "tp": 3788,
+          "fp": 354,
+          "fn": 89,
+          "tn": 7445
+        },
+        "after": {
+          "tp": 3789,
+          "fp": 354,
+          "fn": 88,
+          "tn": 7445
+        },
+        "delta_tp": 1,
+        "delta_fp": 0,
+        "f1_before": 0.9447562040154632,
+        "f1_after": 0.9448877805486284
+      },
+      "project_tp": -16,
+      "project": {
+        "chromium": {
+          "before": {
+            "tp": 3669,
+            "fp": 825,
+            "fn": 1211,
+            "tn": 19004
+          },
+          "after": {
+            "tp": 3649,
+            "fp": 825,
+            "fn": 1231,
+            "tn": 19004
+          },
+          "delta_tp": -20,
+          "delta_fp": 0,
+          "f1_before": 0.7828034990398975,
+          "f1_after": 0.780200983536455
+        },
+        "ffmpeg": {
+          "before": {
+            "tp": 1318,
+            "fp": 36,
+            "fn": 293,
+            "tn": 427
+          },
+          "after": {
+            "tp": 1320,
+            "fp": 36,
+            "fn": 291,
+            "tn": 427
+          },
+          "delta_tp": 2,
+          "delta_fp": 0,
+          "f1_before": 0.8890387858347386,
+          "f1_after": 0.8897876643073812
+        },
+        "qemu": {
+          "before": {
+            "tp": 1692,
+            "fp": 42,
+            "fn": 1266,
+            "tn": 1315
+          },
+          "after": {
+            "tp": 1694,
+            "fp": 42,
+            "fn": 1264,
+            "tn": 1315
+          },
+          "delta_tp": 2,
+          "delta_fp": 0,
+          "f1_before": 0.7212276214833759,
+          "f1_after": 0.7217724755006392
+        }
+      },
+      "frozen": {
+        "before": {
+          "tp": 6675,
+          "fp": 903,
+          "fn": 2774,
+          "tn": 20746
+        },
+        "after": {
+          "tp": 6714,
+          "fp": 1071,
+          "fn": 2735,
+          "tn": 20578
+        },
+        "delta_tp": 39,
+        "delta_fp": 168,
+        "f1_before": 0.7840488635696247,
+        "f1_after": 0.7791574794011837
+      },
+      "if_same_fp": {
+        "fn_recovered": 17,
+        "fp_removed": 33,
+        "tp_lost": 29,
+        "fp_added": 33
+      },
+      "threshold": 0.12217559665441513,
+      "cal_rows": 2802,
+      "test_queries": 15721
+    },
+    "both_veto_exact_1": {
+      "dev": {
+        "before": {
+          "tp": 3788,
+          "fp": 354,
+          "fn": 89,
+          "tn": 7445
+        },
+        "after": {
+          "tp": 3785,
+          "fp": 354,
+          "fn": 92,
+          "tn": 7445
+        },
+        "delta_tp": -3,
+        "delta_fp": 0,
+        "f1_before": 0.9447562040154632,
+        "f1_after": 0.9443612774451098
+      },
+      "project_tp": -32,
+      "project": {
+        "chromium": {
+          "before": {
+            "tp": 3669,
+            "fp": 825,
+            "fn": 1211,
+            "tn": 19004
+          },
+          "after": {
+            "tp": 3625,
+            "fp": 825,
+            "fn": 1255,
+            "tn": 19004
+          },
+          "delta_tp": -44,
+          "delta_fp": 0,
+          "f1_before": 0.7828034990398975,
+          "f1_after": 0.7770632368703109
+        },
+        "ffmpeg": {
+          "before": {
+            "tp": 1318,
+            "fp": 36,
+            "fn": 293,
+            "tn": 427
+          },
+          "after": {
+            "tp": 1319,
+            "fp": 36,
+            "fn": 292,
+            "tn": 427
+          },
+          "delta_tp": 1,
+          "delta_fp": 0,
+          "f1_before": 0.8890387858347386,
+          "f1_after": 0.8894133513149022
+        },
+        "qemu": {
+          "before": {
+            "tp": 1692,
+            "fp": 42,
+            "fn": 1266,
+            "tn": 1315
+          },
+          "after": {
+            "tp": 1703,
+            "fp": 42,
+            "fn": 1255,
+            "tn": 1315
+          },
+          "delta_tp": 11,
+          "delta_fp": 0,
+          "f1_before": 0.7212276214833759,
+          "f1_after": 0.7242185838826282
+        }
+      },
+      "frozen": {
+        "before": {
+          "tp": 6675,
+          "fp": 903,
+          "fn": 2774,
+          "tn": 20746
+        },
+        "after": {
+          "tp": 6724,
+          "fp": 1199,
+          "fn": 2725,
+          "tn": 20450
+        },
+        "delta_tp": 49,
+        "delta_fp": 296,
+        "f1_before": 0.7840488635696247,
+        "f1_after": 0.7741192723923556
+      },
+      "if_same_fp": {
+        "fn_recovered": 40,
+        "fp_removed": 69,
+        "tp_lost": 68,
+        "fp_added": 69
+      },
+      "threshold": 0.11115618050098419,
+      "cal_rows": 2802,
+      "test_queries": 15721
+    },
+    "both_veto_near_0.5": {
+      "dev": {
+        "before": {
+          "tp": 3788,
+          "fp": 354,
+          "fn": 89,
+          "tn": 7445
+        },
+        "after": {
+          "tp": 3789,
+          "fp": 354,
+          "fn": 88,
+          "tn": 7445
+        },
+        "delta_tp": 1,
+        "delta_fp": 0,
+        "f1_before": 0.9447562040154632,
+        "f1_after": 0.9448877805486284
+      },
+      "project_tp": -16,
+      "project": {
+        "chromium": {
+          "before": {
+            "tp": 3669,
+            "fp": 825,
+            "fn": 1211,
+            "tn": 19004
+          },
+          "after": {
+            "tp": 3649,
+            "fp": 825,
+            "fn": 1231,
+            "tn": 19004
+          },
+          "delta_tp": -20,
+          "delta_fp": 0,
+          "f1_before": 0.7828034990398975,
+          "f1_after": 0.780200983536455
+        },
+        "ffmpeg": {
+          "before": {
+            "tp": 1318,
+            "fp": 36,
+            "fn": 293,
+            "tn": 427
+          },
+          "after": {
+            "tp": 1320,
+            "fp": 36,
+            "fn": 291,
+            "tn": 427
+          },
+          "delta_tp": 2,
+          "delta_fp": 0,
+          "f1_before": 0.8890387858347386,
+          "f1_after": 0.8897876643073812
+        },
+        "qemu": {
+          "before": {
+            "tp": 1692,
+            "fp": 42,
+            "fn": 1266,
+            "tn": 1315
+          },
+          "after": {
+            "tp": 1694,
+            "fp": 42,
+            "fn": 1264,
+            "tn": 1315
+          },
+          "delta_tp": 2,
+          "delta_fp": 0,
+          "f1_before": 0.7212276214833759,
+          "f1_after": 0.7217724755006392
+        }
+      },
+      "frozen": {
+        "before": {
+          "tp": 6675,
+          "fp": 903,
+          "fn": 2774,
+          "tn": 20746
+        },
+        "after": {
+          "tp": 6714,
+          "fp": 1071,
+          "fn": 2735,
+          "tn": 20578
+        },
+        "delta_tp": 39,
+        "delta_fp": 168,
+        "f1_before": 0.7840488635696247,
+        "f1_after": 0.7791574794011837
+      },
+      "if_same_fp": {
+        "fn_recovered": 17,
+        "fp_removed": 33,
+        "tp_lost": 29,
+        "fp_added": 33
+      },
+      "threshold": 0.12217559665441513,
+      "cal_rows": 727,
+      "test_queries": 8663
+    },
+    "both_veto_near_1": {
+      "dev": {
+        "before": {
+          "tp": 3788,
+          "fp": 354,
+          "fn": 89,
+          "tn": 7445
+        },
+        "after": {
+          "tp": 3785,
+          "fp": 354,
+          "fn": 92,
+          "tn": 7445
+        },
+        "delta_tp": -3,
+        "delta_fp": 0,
+        "f1_before": 0.9447562040154632,
+        "f1_after": 0.9443612774451098
+      },
+      "project_tp": -28,
+      "project": {
+        "chromium": {
+          "before": {
+            "tp": 3669,
+            "fp": 825,
+            "fn": 1211,
+            "tn": 19004
+          },
+          "after": {
+            "tp": 3633,
+            "fp": 825,
+            "fn": 1247,
+            "tn": 19004
+          },
+          "delta_tp": -36,
+          "delta_fp": 0,
+          "f1_before": 0.7828034990398975,
+          "f1_after": 0.7781109445277361
+        },
+        "ffmpeg": {
+          "before": {
+            "tp": 1318,
+            "fp": 36,
+            "fn": 293,
+            "tn": 427
+          },
+          "after": {
+            "tp": 1319,
+            "fp": 36,
+            "fn": 292,
+            "tn": 427
+          },
+          "delta_tp": 1,
+          "delta_fp": 0,
+          "f1_before": 0.8890387858347386,
+          "f1_after": 0.8894133513149022
+        },
+        "qemu": {
+          "before": {
+            "tp": 1692,
+            "fp": 42,
+            "fn": 1266,
+            "tn": 1315
+          },
+          "after": {
+            "tp": 1699,
+            "fp": 42,
+            "fn": 1259,
+            "tn": 1315
+          },
+          "delta_tp": 7,
+          "delta_fp": 0,
+          "f1_before": 0.7212276214833759,
+          "f1_after": 0.7231325814002979
+        }
+      },
+      "frozen": {
+        "before": {
+          "tp": 6675,
+          "fp": 903,
+          "fn": 2774,
+          "tn": 20746
+        },
+        "after": {
+          "tp": 6724,
+          "fp": 1159,
+          "fn": 2725,
+          "tn": 20490
+        },
+        "delta_tp": 49,
+        "delta_fp": 256,
+        "f1_before": 0.7840488635696247,
+        "f1_after": 0.7759058389106854
+      },
+      "if_same_fp": {
+        "fn_recovered": 27,
+        "fp_removed": 54,
+        "tp_lost": 51,
+        "fp_added": 54
+      },
+      "threshold": 0.1138102114200592,
+      "cal_rows": 727,
+      "test_queries": 8663
+    },
+    "both_veto_wide_0.5": {
+      "dev": {
+        "before": {
+          "tp": 3788,
+          "fp": 354,
+          "fn": 89,
+          "tn": 7445
+        },
+        "after": {
+          "tp": 3789,
+          "fp": 354,
+          "fn": 88,
+          "tn": 7445
+        },
+        "delta_tp": 1,
+        "delta_fp": 0,
+        "f1_before": 0.9447562040154632,
+        "f1_after": 0.9448877805486284
+      },
+      "project_tp": -16,
+      "project": {
+        "chromium": {
+          "before": {
+            "tp": 3669,
+            "fp": 825,
+            "fn": 1211,
+            "tn": 19004
+          },
+          "after": {
+            "tp": 3649,
+            "fp": 825,
+            "fn": 1231,
+            "tn": 19004
+          },
+          "delta_tp": -20,
+          "delta_fp": 0,
+          "f1_before": 0.7828034990398975,
+          "f1_after": 0.780200983536455
+        },
+        "ffmpeg": {
+          "before": {
+            "tp": 1318,
+            "fp": 36,
+            "fn": 293,
+            "tn": 427
+          },
+          "after": {
+            "tp": 1320,
+            "fp": 36,
+            "fn": 291,
+            "tn": 427
+          },
+          "delta_tp": 2,
+          "delta_fp": 0,
+          "f1_before": 0.8890387858347386,
+          "f1_after": 0.8897876643073812
+        },
+        "qemu": {
+          "before": {
+            "tp": 1692,
+            "fp": 42,
+            "fn": 1266,
+            "tn": 1315
+          },
+          "after": {
+            "tp": 1694,
+            "fp": 42,
+            "fn": 1264,
+            "tn": 1315
+          },
+          "delta_tp": 2,
+          "delta_fp": 0,
+          "f1_before": 0.7212276214833759,
+          "f1_after": 0.7217724755006392
+        }
+      },
+      "frozen": {
+        "before": {
+          "tp": 6675,
+          "fp": 903,
+          "fn": 2774,
+          "tn": 20746
+        },
+        "after": {
+          "tp": 6714,
+          "fp": 1071,
+          "fn": 2735,
+          "tn": 20578
+        },
+        "delta_tp": 39,
+        "delta_fp": 168,
+        "f1_before": 0.7840488635696247,
+        "f1_after": 0.7791574794011837
+      },
+      "if_same_fp": {
+        "fn_recovered": 17,
+        "fp_removed": 34,
+        "tp_lost": 29,
+        "fp_added": 34
+      },
+      "threshold": 0.12217559665441513,
+      "cal_rows": 2369,
+      "test_queries": 19466
+    },
+    "both_veto_wide_1": {
+      "dev": {
+        "before": {
+          "tp": 3788,
+          "fp": 354,
+          "fn": 89,
+          "tn": 7445
+        },
+        "after": {
+          "tp": 3785,
+          "fp": 354,
+          "fn": 92,
+          "tn": 7445
+        },
+        "delta_tp": -3,
+        "delta_fp": 0,
+        "f1_before": 0.9447562040154632,
+        "f1_after": 0.9443612774451098
+      },
+      "project_tp": -28,
+      "project": {
+        "chromium": {
+          "before": {
+            "tp": 3669,
+            "fp": 825,
+            "fn": 1211,
+            "tn": 19004
+          },
+          "after": {
+            "tp": 3630,
+            "fp": 825,
+            "fn": 1250,
+            "tn": 19004
+          },
+          "delta_tp": -39,
+          "delta_fp": 0,
+          "f1_before": 0.7828034990398975,
+          "f1_after": 0.7777182645956079
+        },
+        "ffmpeg": {
+          "before": {
+            "tp": 1318,
+            "fp": 36,
+            "fn": 293,
+            "tn": 427
+          },
+          "after": {
+            "tp": 1319,
+            "fp": 36,
+            "fn": 292,
+            "tn": 427
+          },
+          "delta_tp": 1,
+          "delta_fp": 0,
+          "f1_before": 0.8890387858347386,
+          "f1_after": 0.8894133513149022
+        },
+        "qemu": {
+          "before": {
+            "tp": 1692,
+            "fp": 42,
+            "fn": 1266,
+            "tn": 1315
+          },
+          "after": {
+            "tp": 1702,
+            "fp": 42,
+            "fn": 1256,
+            "tn": 1315
+          },
+          "delta_tp": 10,
+          "delta_fp": 0,
+          "f1_before": 0.7212276214833759,
+          "f1_after": 0.7239472564866014
+        }
+      },
+      "frozen": {
+        "before": {
+          "tp": 6675,
+          "fp": 903,
+          "fn": 2774,
+          "tn": 20746
+        },
+        "after": {
+          "tp": 6724,
+          "fp": 1183,
+          "fn": 2725,
+          "tn": 20466
+        },
+        "delta_tp": 49,
+        "delta_fp": 280,
+        "f1_before": 0.7840488635696247,
+        "f1_after": 0.7748329108089421
+      },
+      "if_same_fp": {
+        "fn_recovered": 39,
+        "fp_removed": 67,
+        "tp_lost": 63,
+        "fp_added": 67
+      },
+      "threshold": 0.11207079887390137,
+      "cal_rows": 2369,
+      "test_queries": 19466
+    },
+    "both_promote_exact_0.5": {
+      "dev": {
+        "before": {
+          "tp": 3788,
+          "fp": 354,
+          "fn": 89,
+          "tn": 7445
+        },
+        "after": {
+          "tp": 3786,
+          "fp": 354,
+          "fn": 91,
+          "tn": 7445
+        },
+        "delta_tp": -2,
+        "delta_fp": 0,
+        "f1_before": 0.9447562040154632,
+        "f1_after": 0.9444929524759885
+      },
+      "project_tp": -29,
+      "project": {
+        "chromium": {
+          "before": {
+            "tp": 3669,
+            "fp": 825,
+            "fn": 1211,
+            "tn": 19004
+          },
+          "after": {
+            "tp": 3639,
+            "fp": 825,
+            "fn": 1241,
+            "tn": 19004
+          },
+          "delta_tp": -30,
+          "delta_fp": 0,
+          "f1_before": 0.7828034990398975,
+          "f1_after": 0.7788955479452054
+        },
+        "ffmpeg": {
+          "before": {
+            "tp": 1318,
+            "fp": 36,
+            "fn": 293,
+            "tn": 427
+          },
+          "after": {
+            "tp": 1318,
+            "fp": 36,
+            "fn": 293,
+            "tn": 427
+          },
+          "delta_tp": 0,
+          "delta_fp": 0,
+          "f1_before": 0.8890387858347386,
+          "f1_after": 0.8890387858347386
+        },
+        "qemu": {
+          "before": {
+            "tp": 1692,
+            "fp": 42,
+            "fn": 1266,
+            "tn": 1315
+          },
+          "after": {
+            "tp": 1693,
+            "fp": 42,
+            "fn": 1265,
+            "tn": 1315
+          },
+          "delta_tp": 1,
+          "delta_fp": 0,
+          "f1_before": 0.7212276214833759,
+          "f1_after": 0.7215001065416577
+        }
+      },
+      "frozen": {
+        "before": {
+          "tp": 6675,
+          "fp": 903,
+          "fn": 2774,
+          "tn": 20746
+        },
+        "after": {
+          "tp": 6882,
+          "fp": 2132,
+          "fn": 2567,
+          "tn": 19517
+        },
+        "delta_tp": 207,
+        "delta_fp": 1229,
+        "f1_before": 0.7840488635696247,
+        "f1_after": 0.7454909819639278
+      },
+      "if_same_fp": {
+        "fn_recovered": 102,
+        "fp_removed": 393,
+        "tp_lost": 127,
+        "fp_added": 393
+      },
+      "threshold": 0.1512945592403412,
+      "cal_rows": 2802,
+      "test_queries": 15721
+    },
+    "both_promote_exact_1": {
+      "dev": {
+        "before": {
+          "tp": 3788,
+          "fp": 354,
+          "fn": 89,
+          "tn": 7445
+        },
+        "after": {
+          "tp": 3787,
+          "fp": 354,
+          "fn": 90,
+          "tn": 7445
+        },
+        "delta_tp": -1,
+        "delta_fp": 0,
+        "f1_before": 0.9447562040154632,
+        "f1_after": 0.9446245946620104
+      },
+      "project_tp": -63,
+      "project": {
+        "chromium": {
+          "before": {
+            "tp": 3669,
+            "fp": 825,
+            "fn": 1211,
+            "tn": 19004
+          },
+          "after": {
+            "tp": 3599,
+            "fp": 825,
+            "fn": 1281,
+            "tn": 19004
+          },
+          "delta_tp": -70,
+          "delta_fp": 0,
+          "f1_before": 0.7828034990398975,
+          "f1_after": 0.773645743766122
+        },
+        "ffmpeg": {
+          "before": {
+            "tp": 1318,
+            "fp": 36,
+            "fn": 293,
+            "tn": 427
+          },
+          "after": {
+            "tp": 1318,
+            "fp": 36,
+            "fn": 293,
+            "tn": 427
+          },
+          "delta_tp": 0,
+          "delta_fp": 0,
+          "f1_before": 0.8890387858347386,
+          "f1_after": 0.8890387858347386
+        },
+        "qemu": {
+          "before": {
+            "tp": 1692,
+            "fp": 42,
+            "fn": 1266,
+            "tn": 1315
+          },
+          "after": {
+            "tp": 1699,
+            "fp": 42,
+            "fn": 1259,
+            "tn": 1315
+          },
+          "delta_tp": 7,
+          "delta_fp": 0,
+          "f1_before": 0.7212276214833759,
+          "f1_after": 0.7231325814002979
+        }
+      },
+      "frozen": {
+        "before": {
+          "tp": 6675,
+          "fp": 903,
+          "fn": 2774,
+          "tn": 20746
+        },
+        "after": {
+          "tp": 7016,
+          "fp": 3194,
+          "fn": 2433,
+          "tn": 18455
+        },
+        "delta_tp": 341,
+        "delta_fp": 2291,
+        "f1_before": 0.7840488635696247,
+        "f1_after": 0.7137697746579175
+      },
+      "if_same_fp": {
+        "fn_recovered": 142,
+        "fp_removed": 581,
+        "tp_lost": 201,
+        "fp_added": 581
+      },
+      "threshold": 0.16589701175689697,
+      "cal_rows": 2802,
+      "test_queries": 15721
+    },
+    "both_promote_near_0.5": {
+      "dev": {
+        "before": {
+          "tp": 3788,
+          "fp": 354,
+          "fn": 89,
+          "tn": 7445
+        },
+        "after": {
+          "tp": 3787,
+          "fp": 354,
+          "fn": 90,
+          "tn": 7445
+        },
+        "delta_tp": -1,
+        "delta_fp": 0,
+        "f1_before": 0.9447562040154632,
+        "f1_after": 0.9446245946620104
+      },
+      "project_tp": -26,
+      "project": {
+        "chromium": {
+          "before": {
+            "tp": 3669,
+            "fp": 825,
+            "fn": 1211,
+            "tn": 19004
+          },
+          "after": {
+            "tp": 3638,
+            "fp": 825,
+            "fn": 1242,
+            "tn": 19004
+          },
+          "delta_tp": -31,
+          "delta_fp": 0,
+          "f1_before": 0.7828034990398975,
+          "f1_after": 0.7787648506903564
+        },
+        "ffmpeg": {
+          "before": {
+            "tp": 1318,
+            "fp": 36,
+            "fn": 293,
+            "tn": 427
+          },
+          "after": {
+            "tp": 1318,
+            "fp": 36,
+            "fn": 293,
+            "tn": 427
+          },
+          "delta_tp": 0,
+          "delta_fp": 0,
+          "f1_before": 0.8890387858347386,
+          "f1_after": 0.8890387858347386
+        },
+        "qemu": {
+          "before": {
+            "tp": 1692,
+            "fp": 42,
+            "fn": 1266,
+            "tn": 1315
+          },
+          "after": {
+            "tp": 1697,
+            "fp": 42,
+            "fn": 1261,
+            "tn": 1315
+          },
+          "delta_tp": 5,
+          "delta_fp": 0,
+          "f1_before": 0.7212276214833759,
+          "f1_after": 0.7225888865233128
+        }
+      },
+      "frozen": {
+        "before": {
+          "tp": 6675,
+          "fp": 903,
+          "fn": 2774,
+          "tn": 20746
+        },
+        "after": {
+          "tp": 6882,
+          "fp": 2120,
+          "fn": 2567,
+          "tn": 19529
+        },
+        "delta_tp": 207,
+        "delta_fp": 1217,
+        "f1_before": 0.7840488635696247,
+        "f1_after": 0.7459758278684082
+      },
+      "if_same_fp": {
+        "fn_recovered": 103,
+        "fp_removed": 393,
+        "tp_lost": 125,
+        "fp_added": 393
+      },
+      "threshold": 0.15066131949424744,
+      "cal_rows": 727,
+      "test_queries": 8663
+    },
+    "both_promote_near_1": {
+      "dev": {
+        "before": {
+          "tp": 3788,
+          "fp": 354,
+          "fn": 89,
+          "tn": 7445
+        },
+        "after": {
+          "tp": 3786,
+          "fp": 354,
+          "fn": 91,
+          "tn": 7445
+        },
+        "delta_tp": -2,
+        "delta_fp": 0,
+        "f1_before": 0.9447562040154632,
+        "f1_after": 0.9444929524759885
+      },
+      "project_tp": -62,
+      "project": {
+        "chromium": {
+          "before": {
+            "tp": 3669,
+            "fp": 825,
+            "fn": 1211,
+            "tn": 19004
+          },
+          "after": {
+            "tp": 3600,
+            "fp": 825,
+            "fn": 1280,
+            "tn": 19004
+          },
+          "delta_tp": -69,
+          "delta_fp": 0,
+          "f1_before": 0.7828034990398975,
+          "f1_after": 0.7737775389575497
+        },
+        "ffmpeg": {
+          "before": {
+            "tp": 1318,
+            "fp": 36,
+            "fn": 293,
+            "tn": 427
+          },
+          "after": {
+            "tp": 1318,
+            "fp": 36,
+            "fn": 293,
+            "tn": 427
+          },
+          "delta_tp": 0,
+          "delta_fp": 0,
+          "f1_before": 0.8890387858347386,
+          "f1_after": 0.8890387858347386
+        },
+        "qemu": {
+          "before": {
+            "tp": 1692,
+            "fp": 42,
+            "fn": 1266,
+            "tn": 1315
+          },
+          "after": {
+            "tp": 1699,
+            "fp": 42,
+            "fn": 1259,
+            "tn": 1315
+          },
+          "delta_tp": 7,
+          "delta_fp": 0,
+          "f1_before": 0.7212276214833759,
+          "f1_after": 0.7231325814002979
+        }
+      },
+      "frozen": {
+        "before": {
+          "tp": 6675,
+          "fp": 903,
+          "fn": 2774,
+          "tn": 20746
+        },
+        "after": {
+          "tp": 6976,
+          "fp": 2940,
+          "fn": 2473,
+          "tn": 18709
+        },
+        "delta_tp": 301,
+        "delta_fp": 2037,
+        "f1_before": 0.7840488635696247,
+        "f1_after": 0.7204750839142784
+      },
+      "if_same_fp": {
+        "fn_recovered": 140,
+        "fp_removed": 580,
+        "tp_lost": 198,
+        "fp_added": 580
+      },
+      "threshold": 0.1651422381401062,
+      "cal_rows": 727,
+      "test_queries": 8663
+    },
+    "both_promote_wide_0.5": {
+      "dev": {
+        "before": {
+          "tp": 3788,
+          "fp": 354,
+          "fn": 89,
+          "tn": 7445
+        },
+        "after": {
+          "tp": 3787,
+          "fp": 354,
+          "fn": 90,
+          "tn": 7445
+        },
+        "delta_tp": -1,
+        "delta_fp": 0,
+        "f1_before": 0.9447562040154632,
+        "f1_after": 0.9446245946620104
+      },
+      "project_tp": -29,
+      "project": {
+        "chromium": {
+          "before": {
+            "tp": 3669,
+            "fp": 825,
+            "fn": 1211,
+            "tn": 19004
+          },
+          "after": {
+            "tp": 3639,
+            "fp": 825,
+            "fn": 1241,
+            "tn": 19004
+          },
+          "delta_tp": -30,
+          "delta_fp": 0,
+          "f1_before": 0.7828034990398975,
+          "f1_after": 0.7788955479452054
+        },
+        "ffmpeg": {
+          "before": {
+            "tp": 1318,
+            "fp": 36,
+            "fn": 293,
+            "tn": 427
+          },
+          "after": {
+            "tp": 1318,
+            "fp": 36,
+            "fn": 293,
+            "tn": 427
+          },
+          "delta_tp": 0,
+          "delta_fp": 0,
+          "f1_before": 0.8890387858347386,
+          "f1_after": 0.8890387858347386
+        },
+        "qemu": {
+          "before": {
+            "tp": 1692,
+            "fp": 42,
+            "fn": 1266,
+            "tn": 1315
+          },
+          "after": {
+            "tp": 1693,
+            "fp": 42,
+            "fn": 1265,
+            "tn": 1315
+          },
+          "delta_tp": 1,
+          "delta_fp": 0,
+          "f1_before": 0.7212276214833759,
+          "f1_after": 0.7215001065416577
+        }
+      },
+      "frozen": {
+        "before": {
+          "tp": 6675,
+          "fp": 903,
+          "fn": 2774,
+          "tn": 20746
+        },
+        "after": {
+          "tp": 6892,
+          "fp": 2159,
+          "fn": 2557,
+          "tn": 19490
+        },
+        "delta_tp": 217,
+        "delta_fp": 1256,
+        "f1_before": 0.7840488635696247,
+        "f1_after": 0.7450810810810811
+      },
+      "if_same_fp": {
+        "fn_recovered": 102,
+        "fp_removed": 394,
+        "tp_lost": 127,
+        "fp_added": 394
+      },
+      "threshold": 0.15066131949424744,
+      "cal_rows": 2369,
+      "test_queries": 19466
+    },
+    "both_promote_wide_1": {
+      "dev": {
+        "before": {
+          "tp": 3788,
+          "fp": 354,
+          "fn": 89,
+          "tn": 7445
+        },
+        "after": {
+          "tp": 3787,
+          "fp": 354,
+          "fn": 90,
+          "tn": 7445
+        },
+        "delta_tp": -1,
+        "delta_fp": 0,
+        "f1_before": 0.9447562040154632,
+        "f1_after": 0.9446245946620104
+      },
+      "project_tp": -60,
+      "project": {
+        "chromium": {
+          "before": {
+            "tp": 3669,
+            "fp": 825,
+            "fn": 1211,
+            "tn": 19004
+          },
+          "after": {
+            "tp": 3598,
+            "fp": 825,
+            "fn": 1282,
+            "tn": 19004
+          },
+          "delta_tp": -71,
+          "delta_fp": 0,
+          "f1_before": 0.7828034990398975,
+          "f1_after": 0.7735139202407826
+        },
+        "ffmpeg": {
+          "before": {
+            "tp": 1318,
+            "fp": 36,
+            "fn": 293,
+            "tn": 427
+          },
+          "after": {
+            "tp": 1322,
+            "fp": 36,
+            "fn": 289,
+            "tn": 427
+          },
+          "delta_tp": 4,
+          "delta_fp": 0,
+          "f1_before": 0.8890387858347386,
+          "f1_after": 0.8905355338497811
+        },
+        "qemu": {
+          "before": {
+            "tp": 1692,
+            "fp": 42,
+            "fn": 1266,
+            "tn": 1315
+          },
+          "after": {
+            "tp": 1699,
+            "fp": 42,
+            "fn": 1259,
+            "tn": 1315
+          },
+          "delta_tp": 7,
+          "delta_fp": 0,
+          "f1_before": 0.7212276214833759,
+          "f1_after": 0.7231325814002979
+        }
+      },
+      "frozen": {
+        "before": {
+          "tp": 6675,
+          "fp": 903,
+          "fn": 2774,
+          "tn": 20746
+        },
+        "after": {
+          "tp": 7033,
+          "fp": 3296,
+          "fn": 2416,
+          "tn": 18353
+        },
+        "delta_tp": 358,
+        "delta_fp": 2393,
+        "f1_before": 0.7840488635696247,
+        "f1_after": 0.7111942562443119
+      },
+      "if_same_fp": {
+        "fn_recovered": 147,
+        "fp_removed": 586,
+        "tp_lost": 203,
+        "fp_added": 586
+      },
+      "threshold": 0.16525831818580627,
+      "cal_rows": 2369,
+      "test_queries": 19466
+    },
+    "both_two_gate_exact_0.5": {
+      "dev": {
+        "before": {
+          "tp": 3788,
+          "fp": 354,
+          "fn": 89,
+          "tn": 7445
+        },
+        "after": {
+          "tp": 3786,
+          "fp": 354,
+          "fn": 91,
+          "tn": 7445
+        },
+        "delta_tp": -2,
+        "delta_fp": 0,
+        "f1_before": 0.9447562040154632,
+        "f1_after": 0.9444929524759885
+      },
+      "project_tp": -32,
+      "project": {
+        "chromium": {
+          "before": {
+            "tp": 3669,
+            "fp": 825,
+            "fn": 1211,
+            "tn": 19004
+          },
+          "after": {
+            "tp": 3634,
+            "fp": 825,
+            "fn": 1246,
+            "tn": 19004
+          },
+          "delta_tp": -35,
+          "delta_fp": 0,
+          "f1_before": 0.7828034990398975,
+          "f1_after": 0.7782417817753506
+        },
+        "ffmpeg": {
+          "before": {
+            "tp": 1318,
+            "fp": 36,
+            "fn": 293,
+            "tn": 427
+          },
+          "after": {
+            "tp": 1317,
+            "fp": 36,
+            "fn": 294,
+            "tn": 427
+          },
+          "delta_tp": -1,
+          "delta_fp": 0,
+          "f1_before": 0.8890387858347386,
+          "f1_after": 0.888663967611336
+        },
+        "qemu": {
+          "before": {
+            "tp": 1692,
+            "fp": 42,
+            "fn": 1266,
+            "tn": 1315
+          },
+          "after": {
+            "tp": 1696,
+            "fp": 42,
+            "fn": 1262,
+            "tn": 1315
+          },
+          "delta_tp": 4,
+          "delta_fp": 0,
+          "f1_before": 0.7212276214833759,
+          "f1_after": 0.7223168654173765
+        }
+      },
+      "frozen": {
+        "before": {
+          "tp": 6675,
+          "fp": 903,
+          "fn": 2774,
+          "tn": 20746
+        },
+        "after": {
+          "tp": 6888,
+          "fp": 2185,
+          "fn": 2561,
+          "tn": 19464
+        },
+        "delta_tp": 213,
+        "delta_fp": 1282,
+        "f1_before": 0.7840488635696247,
+        "f1_after": 0.7437641723356009
+      },
+      "if_same_fp": {
+        "fn_recovered": 103,
+        "fp_removed": 360,
+        "tp_lost": 131,
+        "fp_added": 360
+      },
+      "threshold": 0.13410381972789764,
+      "cal_rows": 2802,
+      "test_queries": 15721
+    },
+    "both_two_gate_exact_1": {
+      "dev": {
+        "before": {
+          "tp": 3788,
+          "fp": 354,
+          "fn": 89,
+          "tn": 7445
+        },
+        "after": {
+          "tp": 3784,
+          "fp": 354,
+          "fn": 93,
+          "tn": 7445
+        },
+        "delta_tp": -4,
+        "delta_fp": 0,
+        "f1_before": 0.9447562040154632,
+        "f1_after": 0.9442295695570805
+      },
+      "project_tp": -106,
+      "project": {
+        "chromium": {
+          "before": {
+            "tp": 3669,
+            "fp": 825,
+            "fn": 1211,
+            "tn": 19004
+          },
+          "after": {
+            "tp": 3558,
+            "fp": 825,
+            "fn": 1322,
+            "tn": 19004
+          },
+          "delta_tp": -111,
+          "delta_fp": 0,
+          "f1_before": 0.7828034990398975,
+          "f1_after": 0.7682176400734103
+        },
+        "ffmpeg": {
+          "before": {
+            "tp": 1318,
+            "fp": 36,
+            "fn": 293,
+            "tn": 427
+          },
+          "after": {
+            "tp": 1319,
+            "fp": 36,
+            "fn": 292,
+            "tn": 427
+          },
+          "delta_tp": 1,
+          "delta_fp": 0,
+          "f1_before": 0.8890387858347386,
+          "f1_after": 0.8894133513149022
+        },
+        "qemu": {
+          "before": {
+            "tp": 1692,
+            "fp": 42,
+            "fn": 1266,
+            "tn": 1315
+          },
+          "after": {
+            "tp": 1696,
+            "fp": 42,
+            "fn": 1262,
+            "tn": 1315
+          },
+          "delta_tp": 4,
+          "delta_fp": 0,
+          "f1_before": 0.7212276214833759,
+          "f1_after": 0.7223168654173765
+        }
+      },
+      "frozen": {
+        "before": {
+          "tp": 6675,
+          "fp": 903,
+          "fn": 2774,
+          "tn": 20746
+        },
+        "after": {
+          "tp": 7040,
+          "fp": 3743,
+          "fn": 2409,
+          "tn": 17906
+        },
+        "delta_tp": 365,
+        "delta_fp": 2840,
+        "f1_before": 0.7840488635696247,
+        "f1_after": 0.6959272439699487
+      },
+      "if_same_fp": {
+        "fn_recovered": 147,
+        "fp_removed": 576,
+        "tp_lost": 249,
+        "fp_added": 576
+      },
+      "threshold": 0.13353917002677917,
+      "cal_rows": 2802,
+      "test_queries": 15721
+    },
+    "both_two_gate_near_0.5": {
+      "dev": {
+        "before": {
+          "tp": 3788,
+          "fp": 354,
+          "fn": 89,
+          "tn": 7445
+        },
+        "after": {
+          "tp": 3786,
+          "fp": 354,
+          "fn": 91,
+          "tn": 7445
+        },
+        "delta_tp": -2,
+        "delta_fp": 0,
+        "f1_before": 0.9447562040154632,
+        "f1_after": 0.9444929524759885
+      },
+      "project_tp": -24,
+      "project": {
+        "chromium": {
+          "before": {
+            "tp": 3669,
+            "fp": 825,
+            "fn": 1211,
+            "tn": 19004
+          },
+          "after": {
+            "tp": 3642,
+            "fp": 825,
+            "fn": 1238,
+            "tn": 19004
+          },
+          "delta_tp": -27,
+          "delta_fp": 0,
+          "f1_before": 0.7828034990398975,
+          "f1_after": 0.7792874719161228
+        },
+        "ffmpeg": {
+          "before": {
+            "tp": 1318,
+            "fp": 36,
+            "fn": 293,
+            "tn": 427
+          },
+          "after": {
+            "tp": 1317,
+            "fp": 36,
+            "fn": 294,
+            "tn": 427
+          },
+          "delta_tp": -1,
+          "delta_fp": 0,
+          "f1_before": 0.8890387858347386,
+          "f1_after": 0.888663967611336
+        },
+        "qemu": {
+          "before": {
+            "tp": 1692,
+            "fp": 42,
+            "fn": 1266,
+            "tn": 1315
+          },
+          "after": {
+            "tp": 1696,
+            "fp": 42,
+            "fn": 1262,
+            "tn": 1315
+          },
+          "delta_tp": 4,
+          "delta_fp": 0,
+          "f1_before": 0.7212276214833759,
+          "f1_after": 0.7223168654173765
+        }
+      },
+      "frozen": {
+        "before": {
+          "tp": 6675,
+          "fp": 903,
+          "fn": 2774,
+          "tn": 20746
+        },
+        "after": {
+          "tp": 6881,
+          "fp": 2161,
+          "fn": 2568,
+          "tn": 19488
+        },
+        "delta_tp": 206,
+        "delta_fp": 1258,
+        "f1_before": 0.7840488635696247,
+        "f1_after": 0.7442539613866205
+      },
+      "if_same_fp": {
+        "fn_recovered": 103,
+        "fp_removed": 351,
+        "tp_lost": 123,
+        "fp_added": 351
+      },
+      "threshold": 0.13390646874904633,
+      "cal_rows": 727,
+      "test_queries": 8663
+    },
+    "both_two_gate_near_1": {
+      "dev": {
+        "before": {
+          "tp": 3788,
+          "fp": 354,
+          "fn": 89,
+          "tn": 7445
+        },
+        "after": {
+          "tp": 3785,
+          "fp": 354,
+          "fn": 92,
+          "tn": 7445
+        },
+        "delta_tp": -3,
+        "delta_fp": 0,
+        "f1_before": 0.9447562040154632,
+        "f1_after": 0.9443612774451098
+      },
+      "project_tp": -49,
+      "project": {
+        "chromium": {
+          "before": {
+            "tp": 3669,
+            "fp": 825,
+            "fn": 1211,
+            "tn": 19004
+          },
+          "after": {
+            "tp": 3615,
+            "fp": 825,
+            "fn": 1265,
+            "tn": 19004
+          },
+          "delta_tp": -54,
+          "delta_fp": 0,
+          "f1_before": 0.7828034990398975,
+          "f1_after": 0.7757510729613734
+        },
+        "ffmpeg": {
+          "before": {
+            "tp": 1318,
+            "fp": 36,
+            "fn": 293,
+            "tn": 427
+          },
+          "after": {
+            "tp": 1319,
+            "fp": 36,
+            "fn": 292,
+            "tn": 427
+          },
+          "delta_tp": 1,
+          "delta_fp": 0,
+          "f1_before": 0.8890387858347386,
+          "f1_after": 0.8894133513149022
+        },
+        "qemu": {
+          "before": {
+            "tp": 1692,
+            "fp": 42,
+            "fn": 1266,
+            "tn": 1315
+          },
+          "after": {
+            "tp": 1696,
+            "fp": 42,
+            "fn": 1262,
+            "tn": 1315
+          },
+          "delta_tp": 4,
+          "delta_fp": 0,
+          "f1_before": 0.7212276214833759,
+          "f1_after": 0.7223168654173765
+        }
+      },
+      "frozen": {
+        "before": {
+          "tp": 6675,
+          "fp": 903,
+          "fn": 2774,
+          "tn": 20746
+        },
+        "after": {
+          "tp": 6970,
+          "fp": 3082,
+          "fn": 2479,
+          "tn": 18567
+        },
+        "delta_tp": 295,
+        "delta_fp": 2179,
+        "f1_before": 0.7840488635696247,
+        "f1_after": 0.7148351366596585
+      },
+      "if_same_fp": {
+        "fn_recovered": 137,
+        "fp_removed": 528,
+        "tp_lost": 182,
+        "fp_added": 528
+      },
+      "threshold": 0.14169444143772125,
+      "cal_rows": 727,
+      "test_queries": 8663
+    },
+    "both_two_gate_wide_0.5": {
+      "dev": {
+        "before": {
+          "tp": 3788,
+          "fp": 354,
+          "fn": 89,
+          "tn": 7445
+        },
+        "after": {
+          "tp": 3786,
+          "fp": 354,
+          "fn": 91,
+          "tn": 7445
+        },
+        "delta_tp": -2,
+        "delta_fp": 0,
+        "f1_before": 0.9447562040154632,
+        "f1_after": 0.9444929524759885
+      },
+      "project_tp": -31,
+      "project": {
+        "chromium": {
+          "before": {
+            "tp": 3669,
+            "fp": 825,
+            "fn": 1211,
+            "tn": 19004
+          },
+          "after": {
+            "tp": 3635,
+            "fp": 825,
+            "fn": 1245,
+            "tn": 19004
+          },
+          "delta_tp": -34,
+          "delta_fp": 0,
+          "f1_before": 0.7828034990398975,
+          "f1_after": 0.778372591006424
+        },
+        "ffmpeg": {
+          "before": {
+            "tp": 1318,
+            "fp": 36,
+            "fn": 293,
+            "tn": 427
+          },
+          "after": {
+            "tp": 1317,
+            "fp": 36,
+            "fn": 294,
+            "tn": 427
+          },
+          "delta_tp": -1,
+          "delta_fp": 0,
+          "f1_before": 0.8890387858347386,
+          "f1_after": 0.888663967611336
+        },
+        "qemu": {
+          "before": {
+            "tp": 1692,
+            "fp": 42,
+            "fn": 1266,
+            "tn": 1315
+          },
+          "after": {
+            "tp": 1696,
+            "fp": 42,
+            "fn": 1262,
+            "tn": 1315
+          },
+          "delta_tp": 4,
+          "delta_fp": 0,
+          "f1_before": 0.7212276214833759,
+          "f1_after": 0.7223168654173765
+        }
+      },
+      "frozen": {
+        "before": {
+          "tp": 6675,
+          "fp": 903,
+          "fn": 2774,
+          "tn": 20746
+        },
+        "after": {
+          "tp": 6889,
+          "fp": 2190,
+          "fn": 2560,
+          "tn": 19459
+        },
+        "delta_tp": 214,
+        "delta_fp": 1287,
+        "f1_before": 0.7840488635696247,
+        "f1_after": 0.7436312607944733
+      },
+      "if_same_fp": {
+        "fn_recovered": 104,
+        "fp_removed": 360,
+        "tp_lost": 131,
+        "fp_added": 360
+      },
+      "threshold": 0.13390646874904633,
+      "cal_rows": 2369,
+      "test_queries": 19466
+    },
+    "both_two_gate_wide_1": {
+      "dev": {
+        "before": {
+          "tp": 3788,
+          "fp": 354,
+          "fn": 89,
+          "tn": 7445
+        },
+        "after": {
+          "tp": 3786,
+          "fp": 354,
+          "fn": 91,
+          "tn": 7445
+        },
+        "delta_tp": -2,
+        "delta_fp": 0,
+        "f1_before": 0.9447562040154632,
+        "f1_after": 0.9444929524759885
+      },
+      "project_tp": -70,
+      "project": {
+        "chromium": {
+          "before": {
+            "tp": 3669,
+            "fp": 825,
+            "fn": 1211,
+            "tn": 19004
+          },
+          "after": {
+            "tp": 3588,
+            "fp": 825,
+            "fn": 1292,
+            "tn": 19004
+          },
+          "delta_tp": -81,
+          "delta_fp": 0,
+          "f1_before": 0.7828034990398975,
+          "f1_after": 0.7721941246099214
+        },
+        "ffmpeg": {
+          "before": {
+            "tp": 1318,
+            "fp": 36,
+            "fn": 293,
+            "tn": 427
+          },
+          "after": {
+            "tp": 1322,
+            "fp": 36,
+            "fn": 289,
+            "tn": 427
+          },
+          "delta_tp": 4,
+          "delta_fp": 0,
+          "f1_before": 0.8890387858347386,
+          "f1_after": 0.8905355338497811
+        },
+        "qemu": {
+          "before": {
+            "tp": 1692,
+            "fp": 42,
+            "fn": 1266,
+            "tn": 1315
+          },
+          "after": {
+            "tp": 1699,
+            "fp": 42,
+            "fn": 1259,
+            "tn": 1315
+          },
+          "delta_tp": 7,
+          "delta_fp": 0,
+          "f1_before": 0.7212276214833759,
+          "f1_after": 0.7231325814002979
+        }
+      },
+      "frozen": {
+        "before": {
+          "tp": 6675,
+          "fp": 903,
+          "fn": 2774,
+          "tn": 20746
+        },
+        "after": {
+          "tp": 7049,
+          "fp": 3741,
+          "fn": 2400,
+          "tn": 17908
+        },
+        "delta_tp": 374,
+        "delta_fp": 2838,
+        "f1_before": 0.7840488635696247,
+        "f1_after": 0.6965759177824992
+      },
+      "if_same_fp": {
+        "fn_recovered": 152,
+        "fp_removed": 569,
+        "tp_lost": 218,
+        "fp_added": 569
+      },
+      "threshold": 0.13463184237480164,
+      "cal_rows": 2369,
+      "test_queries": 19466
+    }
+  },
+  "combinations_sha256": "8f3038724632228d0990f81aac50062baf50cfabb48cccf623c5074dfa456efc"
+}

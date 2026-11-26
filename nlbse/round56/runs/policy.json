@@ -1,0 +1,22 @@
+{
+  "window_tokens": 64,
+  "content_tokens": 62,
+  "minimum_margin": -3.8,
+  "scope": "observed scanner negative and baseline margin in (-3.8,0]",
+  "calibration_rows": 442,
+  "calibration_positives": 38,
+  "coefficients": [
+    [
+      0.9973054227864638,
+      -0.1904892903965508,
+      0.02148783406306071
+    ]
+  ],
+  "intercept": [
+    -0.6491261010606496
+  ],
+  "threshold": 0.0,
+  "matrix_sha256": "e66efb0e64cdfdc3ef8c8c7e0b52075e72d6cd0cc30284e1c00c597e9a6ab29e",
+  "source_fit_sha256": "6fb998846dbbeb18c2d2ed4f3609e8a20f9bcf85a1641786569b98c213aa954b",
+  "span_head_sha256": "566086bb29e6f7a7020c554e06c5a89f56abe4e9beda31dff999a7d30002fef6"
+}

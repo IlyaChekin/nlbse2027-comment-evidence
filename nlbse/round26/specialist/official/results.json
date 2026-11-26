@@ -1,0 +1,653 @@
+{
+  "options": {
+    "plain_0.4_0.4": {
+      "calibration": {
+        "before": {
+          "tp": 1341,
+          "fp": 100,
+          "fn": 47,
+          "tn": 2804
+        },
+        "after": {
+          "tp": 1340,
+          "fp": 100,
+          "fn": 48,
+          "tn": 2804
+        },
+        "delta_tp": -1,
+        "delta_fp": 0,
+        "f1_before": 0.9480381760339343,
+        "f1_after": 0.9476661951909476
+      },
+      "frozen": {
+        "before": {
+          "tp": 1330,
+          "fp": 108,
+          "fn": 53,
+          "tn": 2803
+        },
+        "after": {
+          "tp": 1329,
+          "fp": 108,
+          "fn": 54,
+          "tn": 2803
+        },
+        "delta_tp": -1,
+        "delta_fp": 0,
+        "f1_before": 0.9429280397022333,
+        "f1_after": 0.9425531914893617
+      },
+      "eval_calls": 47,
+      "cal_calls": 44,
+      "threshold": -0.41540511932009877,
+      "width": 0.4,
+      "weight": 0.4,
+      "measured_query_full_negative_cohort": {
+        "wall_seconds": 0.530036173062399,
+        "forward_seconds": 0.19551043421961367,
+        "analytic_gflops": 1683.856781436
+      },
+      "measured_cal": {
+        "wall_seconds": 0.009211909957230091,
+        "forward_seconds": 0.003053409978747368,
+        "analytic_gflops": 55.673604976
+      },
+      "proxy": -0.00014246534965328269
+    },
+    "plain_0.4_0.8": {
+      "calibration": {
+        "before": {
+          "tp": 1341,
+          "fp": 100,
+          "fn": 47,
+          "tn": 2804
+        },
+        "after": {
+          "tp": 1340,
+          "fp": 100,
+          "fn": 48,
+          "tn": 2804
+        },
+        "delta_tp": -1,
+        "delta_fp": 0,
+        "f1_before": 0.9480381760339343,
+        "f1_after": 0.9476661951909476
+      },
+      "frozen": {
+        "before": {
+          "tp": 1330,
+          "fp": 108,
+          "fn": 53,
+          "tn": 2803
+        },
+        "after": {
+          "tp": 1330,
+          "fp": 106,
+          "fn": 53,
+          "tn": 2805
+        },
+        "delta_tp": 0,
+        "delta_fp": -2,
+        "f1_before": 0.9429280397022333,
+        "f1_after": 0.9435970202199362
+      },
+      "eval_calls": 47,
+      "cal_calls": 44,
+      "threshold": -0.7896054361360257,
+      "width": 0.4,
+      "weight": 0.8,
+      "measured_query_full_negative_cohort": {
+        "wall_seconds": 0.530036173062399,
+        "forward_seconds": 0.19551043421961367,
+        "analytic_gflops": 1683.856781436
+      },
+      "measured_cal": {
+        "wall_seconds": 0.009211909957230091,
+        "forward_seconds": 0.003053409978747368,
+        "analytic_gflops": 55.673604976
+      },
+      "proxy": -0.00014246534965328269
+    },
+    "plain_1_0.4": {
+      "calibration": {
+        "before": {
+          "tp": 1341,
+          "fp": 100,
+          "fn": 47,
+          "tn": 2804
+        },
+        "after": {
+          "tp": 1340,
+          "fp": 100,
+          "fn": 48,
+          "tn": 2804
+        },
+        "delta_tp": -1,
+        "delta_fp": 0,
+        "f1_before": 0.9480381760339343,
+        "f1_after": 0.9476661951909476
+      },
+      "frozen": {
+        "before": {
+          "tp": 1330,
+          "fp": 108,
+          "fn": 53,
+          "tn": 2803
+        },
+        "after": {
+          "tp": 1329,
+          "fp": 108,
+          "fn": 54,
+          "tn": 2803
+        },
+        "delta_tp": -1,
+        "delta_fp": 0,
+        "f1_before": 0.9429280397022333,
+        "f1_after": 0.9425531914893617
+      },
+      "eval_calls": 171,
+      "cal_calls": 185,
+      "threshold": -0.41540511932009877,
+      "width": 1.0,
+      "weight": 0.4,
+      "measured_query_full_negative_cohort": {
+        "wall_seconds": 0.530036173062399,
+        "forward_seconds": 0.19551043421961367,
+        "analytic_gflops": 1683.856781436
+      },
+      "measured_cal": {
+        "wall_seconds": 0.03100715600885451,
+        "forward_seconds": 0.007608016952872276,
+        "analytic_gflops": 142.65335922000003
+      },
+      "proxy": -0.00019038751176457842
+    },
+    "plain_1_0.8": {
+      "calibration": {
+        "before": {
+          "tp": 1341,
+          "fp": 100,
+          "fn": 47,
+          "tn": 2804
+        },
+        "after": {
+          "tp": 1340,
+          "fp": 100,
+          "fn": 48,
+          "tn": 2804
+        },
+        "delta_tp": -1,
+        "delta_fp": 0,
+        "f1_before": 0.9480381760339343,
+        "f1_after": 0.9476661951909476
+      },
+      "frozen": {
+        "before": {
+          "tp": 1330,
+          "fp": 108,
+          "fn": 53,
+          "tn": 2803
+        },
+        "after": {
+          "tp": 1331,
+          "fp": 107,
+          "fn": 52,
+          "tn": 2804
+        },
+        "delta_tp": 1,
+        "delta_fp": -1,
+        "f1_before": 0.9429280397022333,
+        "f1_after": 0.9436370081531372
+      },
+      "eval_calls": 171,
+      "cal_calls": 185,
+      "threshold": -0.7974194124702735,
+      "width": 1.0,
+      "weight": 0.8,
+      "measured_query_full_negative_cohort": {
+        "wall_seconds": 0.530036173062399,
+        "forward_seconds": 0.19551043421961367,
+        "analytic_gflops": 1683.856781436
+      },
+      "measured_cal": {
+        "wall_seconds": 0.03100715600885451,
+        "forward_seconds": 0.007608016952872276,
+        "analytic_gflops": 142.65335922000003
+      },
+      "proxy": -0.00019038751176457842
+    },
+    "plain_2_0.4": {
+      "calibration": {
+        "before": {
+          "tp": 1341,
+          "fp": 100,
+          "fn": 47,
+          "tn": 2804
+        },
+        "after": {
+          "tp": 1340,
+          "fp": 100,
+          "fn": 48,
+          "tn": 2804
+        },
+        "delta_tp": -1,
+        "delta_fp": 0,
+        "f1_before": 0.9480381760339343,
+        "f1_after": 0.9476661951909476
+      },
+      "frozen": {
+        "before": {
+          "tp": 1330,
+          "fp": 108,
+          "fn": 53,
+          "tn": 2803
+        },
+        "after": {
+          "tp": 1329,
+          "fp": 108,
+          "fn": 54,
+          "tn": 2803
+        },
+        "delta_tp": -1,
+        "delta_fp": 0,
+        "f1_before": 0.9429280397022333,
+        "f1_after": 0.9425531914893617
+      },
+      "eval_calls": 375,
+      "cal_calls": 407,
+      "threshold": -0.41540511932009877,
+      "width": 2.0,
+      "weight": 0.4,
+      "measured_query_full_negative_cohort": {
+        "wall_seconds": 0.530036173062399,
+        "forward_seconds": 0.19551043421961367,
+        "analytic_gflops": 1683.856781436
+      },
+      "measured_cal": {
+        "wall_seconds": 0.07421805313788354,
+        "forward_seconds": 0.021056978963315487,
+        "analytic_gflops": 269.532369356
+      },
+      "proxy": -0.00027001332485885443
+    },
+    "plain_2_0.8": {
+      "calibration": {
+        "before": {
+          "tp": 1341,
+          "fp": 100,
+          "fn": 47,
+          "tn": 2804
+        },
+        "after": {
+          "tp": 1340,
+          "fp": 100,
+          "fn": 48,
+          "tn": 2804
+        },
+        "delta_tp": -1,
+        "delta_fp": 0,
+        "f1_before": 0.9480381760339343,
+        "f1_after": 0.9476661951909476
+      },
+      "frozen": {
+        "before": {
+          "tp": 1330,
+          "fp": 108,
+          "fn": 53,
+          "tn": 2803
+        },
+        "after": {
+          "tp": 1331,
+          "fp": 107,
+          "fn": 52,
+          "tn": 2804
+        },
+        "delta_tp": 1,
+        "delta_fp": -1,
+        "f1_before": 0.9429280397022333,
+        "f1_after": 0.9436370081531372
+      },
+      "eval_calls": 375,
+      "cal_calls": 407,
+      "threshold": -0.7974194124702735,
+      "width": 2.0,
+      "weight": 0.8,
+      "measured_query_full_negative_cohort": {
+        "wall_seconds": 0.530036173062399,
+        "forward_seconds": 0.19551043421961367,
+        "analytic_gflops": 1683.856781436
+      },
+      "measured_cal": {
+        "wall_seconds": 0.07421805313788354,
+        "forward_seconds": 0.021056978963315487,
+        "analytic_gflops": 269.532369356
+      },
+      "proxy": -0.00027001332485885443
+    },
+    "shared_0.4_0.4": {
+      "calibration": {
+        "before": {
+          "tp": 1341,
+          "fp": 100,
+          "fn": 47,
+          "tn": 2804
+        },
+        "after": {
+          "tp": 1341,
+          "fp": 100,
+          "fn": 47,
+          "tn": 2804
+        },
+        "delta_tp": 0,
+        "delta_fp": 0,
+        "f1_before": 0.9480381760339343,
+        "f1_after": 0.9480381760339343
+      },
+      "frozen": {
+        "before": {
+          "tp": 1330,
+          "fp": 108,
+          "fn": 53,
+          "tn": 2803
+        },
+        "after": {
+          "tp": 1331,
+          "fp": 111,
+          "fn": 52,
+          "tn": 2800
+        },
+        "delta_tp": 1,
+        "delta_fp": 3,
+        "f1_before": 0.9429280397022333,
+        "f1_after": 0.9423008849557523
+      },
+      "eval_calls": 47,
+      "cal_calls": 44,
+      "threshold": -0.45834126759137633,
+      "width": 0.4,
+      "weight": 0.4,
+      "measured_query_full_negative_cohort": {
+        "wall_seconds": 0.498781108064577,
+        "forward_seconds": 0.15431650588288903,
+        "analytic_gflops": 1683.856781436
+      },
+      "measured_cal": {
+        "wall_seconds": 0.011875648982822895,
+        "forward_seconds": 0.004831758793443441,
+        "analytic_gflops": 55.673604976
+      },
+      "proxy": -3.341141748956673e-05
+    },
+    "shared_0.4_0.8": {
+      "calibration": {
+        "before": {
+          "tp": 1341,
+          "fp": 100,
+          "fn": 47,
+          "tn": 2804
+        },
+        "after": {
+          "tp": 1340,
+          "fp": 100,
+          "fn": 48,
+          "tn": 2804
+        },
+        "delta_tp": -1,
+        "delta_fp": 0,
+        "f1_before": 0.9480381760339343,
+        "f1_after": 0.9476661951909476
+      },
+      "frozen": {
+        "before": {
+          "tp": 1330,
+          "fp": 108,
+          "fn": 53,
+          "tn": 2803
+        },
+        "after": {
+          "tp": 1331,
+          "fp": 112,
+          "fn": 52,
+          "tn": 2799
+        },
+        "delta_tp": 1,
+        "delta_fp": 4,
+        "f1_before": 0.9429280397022333,
+        "f1_after": 0.9419674451521586
+      },
+      "eval_calls": 47,
+      "cal_calls": 44,
+      "threshold": -0.8822479040797545,
+      "width": 0.4,
+      "weight": 0.8,
+      "measured_query_full_negative_cohort": {
+        "wall_seconds": 0.498781108064577,
+        "forward_seconds": 0.15431650588288903,
+        "analytic_gflops": 1683.856781436
+      },
+      "measured_cal": {
+        "wall_seconds": 0.011875648982822895,
+        "forward_seconds": 0.004831758793443441,
+        "analytic_gflops": 55.673604976
+      },
+      "proxy": -0.0001450056703855524
+    },
+    "shared_1_0.4": {
+      "calibration": {
+        "before": {
+          "tp": 1341,
+          "fp": 100,
+          "fn": 47,
+          "tn": 2804
+        },
+        "after": {
+          "tp": 1341,
+          "fp": 100,
+          "fn": 47,
+          "tn": 2804
+        },
+        "delta_tp": 0,
+        "delta_fp": 0,
+        "f1_before": 0.9480381760339343,
+        "f1_after": 0.9480381760339343
+      },
+      "frozen": {
+        "before": {
+          "tp": 1330,
+          "fp": 108,
+          "fn": 53,
+          "tn": 2803
+        },
+        "after": {
+          "tp": 1331,
+          "fp": 111,
+          "fn": 52,
+          "tn": 2800
+        },
+        "delta_tp": 1,
+        "delta_fp": 3,
+        "f1_before": 0.9429280397022333,
+        "f1_after": 0.9423008849557523
+      },
+      "eval_calls": 171,
+      "cal_calls": 185,
+      "threshold": -0.45834126759137633,
+      "width": 1.0,
+      "weight": 0.4,
+      "measured_query_full_negative_cohort": {
+        "wall_seconds": 0.498781108064577,
+        "forward_seconds": 0.15431650588288903,
+        "analytic_gflops": 1683.856781436
+      },
+      "measured_cal": {
+        "wall_seconds": 0.03262333502061665,
+        "forward_seconds": 0.007300262106582522,
+        "analytic_gflops": 142.65335922000003
+      },
+      "proxy": -7.835363981859215e-05
+    },
+    "shared_1_0.8": {
+      "calibration": {
+        "before": {
+          "tp": 1341,
+          "fp": 100,
+          "fn": 47,
+          "tn": 2804
+        },
+        "after": {
+          "tp": 1340,
+          "fp": 100,
+          "fn": 48,
+          "tn": 2804
+        },
+        "delta_tp": -1,
+        "delta_fp": 0,
+        "f1_before": 0.9480381760339343,
+        "f1_after": 0.9476661951909476
+      },
+      "frozen": {
+        "before": {
+          "tp": 1330,
+          "fp": 108,
+          "fn": 53,
+          "tn": 2803
+        },
+        "after": {
+          "tp": 1331,
+          "fp": 112,
+          "fn": 52,
+          "tn": 2799
+        },
+        "delta_tp": 1,
+        "delta_fp": 4,
+        "f1_before": 0.9429280397022333,
+        "f1_after": 0.9419674451521586
+      },
+      "eval_calls": 171,
+      "cal_calls": 185,
+      "threshold": -0.8822479040797545,
+      "width": 1.0,
+      "weight": 0.8,
+      "measured_query_full_negative_cohort": {
+        "wall_seconds": 0.498781108064577,
+        "forward_seconds": 0.15431650588288903,
+        "analytic_gflops": 1683.856781436
+      },
+      "measured_cal": {
+        "wall_seconds": 0.03262333502061665,
+        "forward_seconds": 0.007300262106582522,
+        "analytic_gflops": 142.65335922000003
+      },
+      "proxy": -0.00018994789271457781
+    },
+    "shared_2_0.4": {
+      "calibration": {
+        "before": {
+          "tp": 1341,
+          "fp": 100,
+          "fn": 47,
+          "tn": 2804
+        },
+        "after": {
+          "tp": 1341,
+          "fp": 100,
+          "fn": 47,
+          "tn": 2804
+        },
+        "delta_tp": 0,
+        "delta_fp": 0,
+        "f1_before": 0.9480381760339343,
+        "f1_after": 0.9480381760339343
+      },
+      "frozen": {
+        "before": {
+          "tp": 1330,
+          "fp": 108,
+          "fn": 53,
+          "tn": 2803
+        },
+        "after": {
+          "tp": 1331,
+          "fp": 111,
+          "fn": 52,
+          "tn": 2800
+        },
+        "delta_tp": 1,
+        "delta_fp": 3,
+        "f1_before": 0.9429280397022333,
+        "f1_after": 0.9423008849557523
+      },
+      "eval_calls": 375,
+      "cal_calls": 407,
+      "threshold": -0.45834126759137633,
+      "width": 2.0,
+      "weight": 0.4,
+      "measured_query_full_negative_cohort": {
+        "wall_seconds": 0.498781108064577,
+        "forward_seconds": 0.15431650588288903,
+        "analytic_gflops": 1683.856781436
+      },
+      "measured_cal": {
+        "wall_seconds": 0.08170254994183779,
+        "forward_seconds": 0.02117648907005787,
+        "analytic_gflops": 269.532369356
+      },
+      "proxy": -0.00015858978875327824
+    },
+    "shared_2_0.8": {
+      "calibration": {
+        "before": {
+          "tp": 1341,
+          "fp": 100,
+          "fn": 47,
+          "tn": 2804
+        },
+        "after": {
+          "tp": 1340,
+          "fp": 100,
+          "fn": 48,
+          "tn": 2804
+        },
+        "delta_tp": -1,
+        "delta_fp": 0,
+        "f1_before": 0.9480381760339343,
+        "f1_after": 0.9476661951909476
+      },
+      "frozen": {
+        "before": {
+          "tp": 1330,
+          "fp": 108,
+          "fn": 53,
+          "tn": 2803
+        },
+        "after": {
+          "tp": 1331,
+          "fp": 112,
+          "fn": 52,
+          "tn": 2799
+        },
+        "delta_tp": 1,
+        "delta_fp": 4,
+        "f1_before": 0.9429280397022333,
+        "f1_after": 0.9419674451521586
+      },
+      "eval_calls": 375,
+      "cal_calls": 407,
+      "threshold": -0.8822479040797545,
+      "width": 2.0,
+      "weight": 0.8,
+      "measured_query_full_negative_cohort": {
+        "wall_seconds": 0.498781108064577,
+        "forward_seconds": 0.15431650588288903,
+        "analytic_gflops": 1683.856781436
+      },
+      "measured_cal": {
+        "wall_seconds": 0.08170254994183779,
+        "forward_seconds": 0.02117648907005787,
+        "analytic_gflops": 269.532369356
+      },
+      "proxy": -0.0002701840416492639
+    }
+  },
+  "weights_sha256": "c30b12aab05b94f759a6720bee88fb3a997268e1067d7ee74eb00492e81c9a41"
+}

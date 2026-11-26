@@ -1,0 +1,100 @@
+{
+  "seed": 42,
+  "study": "advisor",
+  "tag": "advisor_42",
+  "chosen": "control",
+  "base_threshold": 0.36398876404494385,
+  "dev_budget": 1414,
+  "modes": {
+    "control": {
+      "threshold": 0.35142233967781067,
+      "reference": {
+        "before": {
+          "tp": 6268,
+          "fp": 1414,
+          "fn": 3276,
+          "tn": 20295
+        },
+        "after": {
+          "tp": 6308,
+          "fp": 1414,
+          "fn": 3236,
+          "tn": 20295
+        },
+        "delta_tp": 40,
+        "delta_fp": 0,
+        "f1_before": 0.7277371415302449,
+        "f1_after": 0.7306845824163095,
+        "corrected_confident_fp": 0,
+        "removed_fp": 162,
+        "added_fp": 162
+      },
+      "control": {
+        "before": {
+          "tp": 6308,
+          "fp": 1414,
+          "fn": 3236,
+          "tn": 20295
+        },
+        "after": {
+          "tp": 6308,
+          "fp": 1414,
+          "fn": 3236,
+          "tn": 20295
+        },
+        "delta_tp": 0,
+        "delta_fp": 0,
+        "f1_before": 0.7306845824163095,
+        "f1_after": 0.7306845824163095,
+        "corrected_confident_fp": 0,
+        "removed_fp": 0,
+        "added_fp": 0
+      }
+    },
+    "advisor": {
+      "threshold": 0.4001045823097229,
+      "reference": {
+        "before": {
+          "tp": 6268,
+          "fp": 1414,
+          "fn": 3276,
+          "tn": 20295
+        },
+        "after": {
+          "tp": 6170,
+          "fp": 1414,
+          "fn": 3374,
+          "tn": 20295
+        },
+        "delta_tp": -98,
+        "delta_fp": 0,
+        "f1_before": 0.7277371415302449,
+        "f1_after": 0.720457730032695,
+        "corrected_confident_fp": 0,
+        "removed_fp": 165,
+        "added_fp": 165
+      },
+      "control": {
+        "before": {
+          "tp": 6308,
+          "fp": 1414,
+          "fn": 3236,
+          "tn": 20295
+        },
+        "after": {
+          "tp": 6170,
+          "fp": 1414,
+          "fn": 3374,
+          "tn": 20295
+        },
+        "delta_tp": -138,
+        "delta_fp": 0,
+        "f1_before": 0.7306845824163095,
+        "f1_after": 0.720457730032695,
+        "corrected_confident_fp": 0,
+        "removed_fp": 168,
+        "added_fp": 168
+      }
+    }
+  }
+}

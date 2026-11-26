@@ -1,0 +1,17 @@
+{
+  "weights_sha256": {
+    "frozen": "fbf4c38bcecfab5d2c0be2e1374c080006e91eafad4d1c8ae7efd996e34d1f8a",
+    "fixed384": "6de33476f7deed14075e692c6278f9cbf07b4080aa93ae89c9d77a89bfde4374",
+    "mixed": "36340828ec8f71f03d86109fb0009f59c90b67665b179528820b7a2bf9434c85",
+    "cross_project": "fcc1e0259f20d55a677dadbe46ecd0c2fd961c533e7cd0391806964d2f4bf01d"
+  },
+  "router_sha256": "0f91491dae375c6b917081a02d2972274d69b2924f2b1fab621ffe10a6ce73c0",
+  "dataset_revision": "feca19b90d1cc9fcf8ba5d6e693c4a94e249585c",
+  "public_policy": "fixed384/comment384",
+  "project_rows": 31104,
+  "output_order": [
+    "vulnerability",
+    "MAT"
+  ],
+  "supplement": "nlbse/paper/context_followup.pdf"
+}

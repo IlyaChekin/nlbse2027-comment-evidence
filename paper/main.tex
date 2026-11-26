@@ -1,0 +1,207 @@
+\documentclass[10pt,conference]{IEEEtran}
+\usepackage{booktabs}
+\usepackage{amsmath}
+\usepackage[hidelinks]{hyperref}
+
+\begin{document}
+\title{Preserving Comment Evidence with a Compact Joint Code Classifier}
+\author{\IEEEauthorblockN{Ilya Chekin}}
+\IfFileExists{submission-metadata.tex}{\input{submission-metadata}}{}
+\providecommand{\ArtifactURL}{\href{https://github.com/IlyaChekin/nlbse2027-comment-evidence/releases/tag/v1.0.0}{GitHub Release v1.0.0}}
+\hypersetup{pdfauthor={Ilya Chekin},pdftitle={Preserving Comment Evidence with a Compact Joint Code Classifier}}
+\maketitle
+
+\begin{abstract}
+We study which context improves joint vulnerability and self-admitted technical debt classification. Reading comments lost to truncation increases MAT F1 from 0.9048 to 0.9266 on 30,655 public NLBSE functions and recovers 19 positives without adding false positives. Masking the four annotation tags erases the gain. Two human-labeled corpora test transfer to untagged comments. An audit of MADE-WIC and pinned upstream files finds omitted leading tags for all 61 public MAT false negatives of the final tool. Our compact tool retains the full function, scans its comments, and selectively rereads a canonical identifier view with the same encoder. A compact conditional model estimates the value of an exact WeakSATD check before
+requesting it. It reaches mean F1 of 0.9450 and a local score of 0.9647 with
+rule scanning time included.
+\end{abstract}
+
+\begin{IEEEkeywords}
+code classification, self-admitted technical debt, truncation, conditional inference
+\end{IEEEkeywords}
+
+\section{Task and data}
+The NLBSE 2027 tool competition asks for one multitask model that reads a source function with inline comments and returns two bits in the order \texttt{[vulnerability, MAT]} \cite{nlbse,rules,madewic,russo}. MAT denotes Matches task Annotation Tags, a proxy for self-admitted technical debt (SATD) \cite{russo}. The organizer's ranking weights mean per-label F1, elapsed inference time, and GFLOPs at 60\%, 20\%, and 20\%. The final evaluation uses a hidden set in the organizers' Colab T4 environment.
+
+We separate 214,586 official training rows into 193,100 fitting rows and 21,486 holdout rows, grouping identical function texts. The original thresholds are calibrated on 3,042 holdout rows. The other 18,444 serve for policy selection. The official public validation split contains 30,655 functions. We use it for comparison and a prespecified quality guard on the chosen policy. This split also supported the earlier baseline analyses. We use a separate project holdout to test the context finding with unseen supervised project families.
+
+\section{Tool}
+\subsection{Joint classifier}
+We initialize from the 220M CodeT5+ checkpoint \cite{codet5p} and retain encoder blocks 0, 2, 4, 6, 8, and 10, preserving the first block's relative positional bias. Masked mean pooling feeds layer normalization, dropout of 0.1, and a shared two-logit linear head. We warm-start for two epochs on a stratified 20,000-row sample with AdamW at $3 \times 10^{-5}$, followed by one epoch on all fitting rows at $2 \times 10^{-5}$. We use batch size 32, seed 42, and weighted binary cross-entropy with per-label positive weights capped at five. Training uses BF16 and the exported encoder uses FP16 weights. The original output thresholds are 0.70 for vulnerability and 0.50 for MAT.
+
+\subsection{Original conditional reading}
+The head reads 510 content tokens and two boundary tokens. We map tokenizer character offsets to line and block comments with a C-style scanner that handles quoted literals and C++ raw strings. Any comment token beyond the head is omitted, including the suffix of a comment that crosses the truncation boundary. If the head predicts MAT negative, we generate candidate spans of up to 126 content tokens by placing each omitted comment token near either end of a window, clipping to the valid range. We read the candidate containing the most omitted comment tokens, with deterministic tie breaking and two boundary tokens.
+
+The same classifier reads both windows. Vulnerability comes from the head and MAT takes the maximum of both probabilities. A positive head MAT bit already survives this maximum, so its extra pass can be skipped. We batch by sorted length in input blocks of 2,048 functions, use batches of up to 32, and restore output order. The CLI consumes a \texttt{Function} column and produces \texttt{vulnerability,MAT} in input order.
+
+\section{What makes the second window help?}
+\subsection{Matched windows}
+The scanner finds omitted comment tokens in 258 public functions, including 64 with a comment crossing the boundary. Using the same weights, the same 258 functions, and extra windows of the same length, rereading an already seen fragment gives mean F1 of 0.9167, reading the tail gives 0.9264, and targeting omitted comments gives 0.9276. The targeted window recovers 19 MAT true positives with zero additional false positives. This changes MAT F1 from 0.9048 to 0.9266. The paired 95\% interval for the mean F1 gain over the head is $+0.61$ to $+1.62$ percentage points.
+
+\input{masking}
+\subsection{Attention masking and held-out projects}
+To identify which content drives the gain, we hold the selected windows fixed and compare full reading, retaining only comment tokens, and retaining only adjacent code. We keep original token IDs, positions, input shapes, and boundary tokens. Masked tokens are excluded both from attention and from mean pooling. The first pass and its vulnerability decision are fixed (Table~\ref{tab:masking}). Across 238 selected public windows, comment-only reading recovers all 19 additional true positives of the full window with one additional false positive. The code-only intervention leaves every MAT decision at its head value.
+
+For the project check we group repository aliases and reserve all 31,104 official training functions of three families, comprising Chromium including Chrome (24,715), QEMU (4,315), and FFmpeg (2,074). We train a fresh six-block classifier from the original CodeT5+ initialization for two epochs on 40,000 functions from the remaining families and calibrate thresholds on 3,530 separate functions from those remaining families. We exclude held-out exact texts from both fitting and calibration. Among the 156 selected extra windows, reading only the comments gives identical binary decisions to reading the full window. Both add 14 true positives and one false positive relative to the head. The paired 95\% intervals for comment-only minus code-only MAT F1 are $+1.12$ to $+3.17$ points on public data and $+0.41$ to $+1.40$ on the project holdout. Intervals resample groups defined by project and file. The intervention locates the source of the MAT gain within the selected comments.
+
+\subsection{Omitted tokens and annotation tags}
+We partition the comment mask at the 510-content-token cutoff and replay the same second windows. Retaining only the previously unseen comment tokens reproduces the comment-only decisions on both splits. Retaining only previously seen comment tokens reproduces the head. We then hide any tokens in the omitted mask that overlap case-insensitive whole-word \texttt{TODO}, \texttt{FIXME}, \texttt{XXX}, or \texttt{HACK} spans. MAT F1 falls to 0.9038 on public validation and 0.9302 on the project holdout. These four tags describe the MAT annotation approach \cite{russo}. All 19 public and all 14 project true positives recovered by the full window have an omitted tag.
+
+As a diagnostic, we replace the second-pass MAT score with the presence of any of those four tags in the same omitted span, still keeping the head decision when it is positive. This reproduces every public decision and removes one false positive on the project holdout. A rule scanning all comments reaches MAT F1 of 0.9336 and 0.9455 respectively. We use these rules to audit the benchmark gains. Detecting untagged debt requires evaluation against independently assigned labels.
+
+Packing just the omitted comment tokens preserves all public decisions. It cuts extra-pass operations by 60.4\% and measured extra-pass time from 91.9 to 88.8\,ms. End-to-end times are 22.94 and 23.01\,s.
+
+\section{Testing beyond annotation tags}
+We evaluate 218 naturally clipped CppSATD examples (20 positive) and 870 clipped Tesoro examples (21 positive) at the 512-token limit using independent human annotations \cite{cppsatd,cppsatddata,tesoro}. The inputs contain one aligned target comment and none of the four MAT tags. CppSATD provides adjacent C++ code from five projects outside the NLBSE supervised training set. For the Java comparison, we remove other comments from Tesoro methods and preserve line breaks before applying the cutoff. We exclude duplicated comments and remove Tesoro comments matching the CppSATD training collection. We compare the same eligible examples within each cutoff.
+
+The frozen MAT classifier recovers zero true positives from the full second window at its published threshold on either corpus (Table~\ref{tab:tagfree}). The Java ranking improves. We fit a logistic classifier over frozen CodeT5+ comment embeddings on the CppSATD human labels, leaving out the test project. Tesoro receives the probe trained on the C++ data. For the C++ probe the 512-token matched comparison improves average precision from 0.182 to 0.450, with a paired 95\% interval of $+0.090$ to $+0.451$. At a shorter 256-token stress limit (845 examples), max combination gives F1 of 0.291 after reading the omitted tokens versus 0.221 after rereading a 126-content-token seen window (paired difference $+3.20$ to $+11.28$ F1 points).
+
+\input{tagfree}
+We test a position-based combination rule for human-labeled SATD. If the entire annotated comment falls outside the head, we use only its reread score. If part of the comment is visible, we combine scores by maximum. Relative to always taking the maximum, F1 at 512 changes from 0.233 to 0.273 in C++ and from 0.052 to 0.167 in Java. The position rule removes 19 and 527 false positives respectively, and loses zero and four true positives. Paired differences are $+1.84$ to $+6.85$ and $+5.35$ to $+24.48$ F1 points. This exploratory control suggests that head scores can add false positives when the first input omits all tokens of the target comment. A character TF-IDF baseline on compact comments remains competitive. These results use human labels and a separate readout as diagnostic comparisons.
+
+\section{Routing at a shorter input budget}
+At 384 first-pass tokens, a targeted 64-token window raises mean F1 from 0.8888 to 0.9179. A learned ridge router uses the frozen encoder's pooled output and nine confidence and span features. It estimates the benefit of stopping, reading the short comment window, or rerunning at 768 tokens, with a per-block operation cap \cite{cascade}. The router picks 59 extra windows instead of the rule's 910, preserves all 49 recovered MAT true positives, and raises mean F1 to 0.9184. Average total operations fall by 0.92\%. Separate fits at fixed and varying input lengths are reported in the artifact. At the same 384+64 budget the difference between these fits is small.
+
+\section{Selective token updates}
+We also update only selected tokens in the final two frozen CodeT5+ blocks
+while retaining all keys and values \cite{powerbert,mod}. The 50\% policy
+reaches mean F1 0.9311 with 14.0\% fewer estimated operations than full
+updates. At a matched 65\% of updated tokens, retaining the other keys
+and values yields 0.9329 F1. Dropping them yields 0.9098. Overlapping
+preprocessing and inference preserves all baseline decisions and reduces
+end-to-end time from 23.00 to 15.64\,s on RTX 4090.
+
+\input{public}
+
+\section{Compact deployment}
+The compact base uses one 256-dimensional encoder with four depthwise convolution blocks at dilations 1, 2, 4, and 8. One attention layer queries individual tokens against keys and values pooled in groups of four. The vulnerability readout combines mean and max pooling with lexical features. We train the compact encoder with hard labels and soft predictions from a stronger teacher. The MAT output scans comments for the four whole-word annotation tags over the supplied text. The encoder keeps all tokens and rereads a canonical identifier view when the raw vulnerability probability is between 0.35 and 0.85. It averages both probabilities and uses a cutoff of 0.59008 selected on internal files.
+
+On the 30,655 public functions, this configuration scores 0.9303 vulnerability F1 and 0.9336 MAT F1. The additional view runs for 2,084 functions. On a warmed RTX 4090, three interleaved trials give median end-to-end time of 4.14\,s, scored inference time of 1.61\,s and an estimated 14,886 GFLOPs. The public score from these local measurements is 0.9579. A clean extraction of the artifact reproduces all 61,310 binary decisions.
+
+\subsection{Conditional rule queries}
+The contest weakness label combines Devign, Big-Vul and WeakSATD
+\cite{rules,madewic,weaksatd}. We replay rules from the MADE-WIC
+replication source on the supplied function. A compact encoder predicts
+the rule event and vulnerability conditional on either outcome. We calibrate
+both conditional estimates and the event probability on internal files.
+The query gate uses their disagreement, event uncertainty, and distance
+from the calibrated threshold. After a query the observed event selects
+its conditional estimate. We index literal function names and verify
+all 4,077,134 rule counts on training. The frozen conditional policy
+reaches vulnerability F1 of 0.9457.
+
+\paragraph{Recovering marker variants}
+We supplement the whole-word detector with the MADE-WIC replication package's
+MAT letter normalization and prefix or suffix checks inside parsed comments \cite{madewic}.
+We choose the union on development files outside both held-out groups.
+It recovers 7 of 84 and 1 of 24 MAT false negatives, at the same false-positive
+count in every project. Six of the nine recovered cases across both groups
+and public validation require joining letters across punctuation. Public
+MAT F1 is 0.9347. Using the released annotator's comment boundaries and
+normalization as the final decision removes three false positives on fitting
+data, two on the first project group and one on public validation without
+losing any true positives. The second group has identical decisions.
+
+\paragraph{Exact early exit and correction}
+Early exit preserves the rule union and its validity on all 214,586 training
+functions. Median public scanner time drops from 3.99 to 3.06\,s. A sparse
+token ranker corrects verified negatives. On held-out projects it recovers
+56 and 9 positives at matched false positives. A regularized correction
+for verified positives uses the first successful rule, its match count,
+and compact and sparse scores. These stages are covered by the artifact.
+
+\paragraph{Deferred correction on negative responses}
+A pooled projection of a token-attention readout trained with
+within-file pairs and UniXcoder distillation reaches a score of
+0.964473. We then substitute the token mean of the declaration
+or body while retaining the global maximum. A bounded buffer
+holds first-pass states until scanning selects 277 functions.
+The deferred correction raises the local score to 0.964573.
+
+\paragraph{Paired correction on positive responses}
+We fit a linear residual on the observed first rule, its count,
+and the encoder's rule scores. The loss ranks correctly accepted
+functions above false positives from the same file. The frozen
+public policy removes 18 false positives and loses four true
+positives. At the previous false-positive count it recovers five
+true positives. The score is 0.964721 versus 0.964620 over five
+interleaved pairs. Vulnerability F1 reaches 0.9543 and MAT F1 is
+0.9357. Median end-to-end time is 8.03 versus 7.71\,s on RTX 4090.
+The file-bootstrap 95\% interval for the change in vulnerability
+F1 is $+0.005$ to $+0.130$ percentage points.
+
+\paragraph{Matched code windows}
+For 3,225 identical functions with negative scanner results, we compare
+one 64-token window centered on the strongest learned token with one
+centered in the function. Both use the same calibration and retain the MAT
+output. Vulnerability F1 is 0.95429 and 0.95470, respectively. Median
+end-to-end times over five paired runs are 9.16 and 8.58\,s. On internal
+review, the center window leaves F1 unchanged and the localized window
+adds one false positive. The released tool uses the full-function policy.
+
+\section{Limits and reproducibility}
+The public split shares projects and 251 exact function texts with training.
+Project holdouts control supervised overlap. Pretraining overlap is unknown.
+Few human-labeled positives exceed 512 tokens. Official ranking uses hidden
+data and T4 measurements.
+
+\paragraph{Missing source context}
+The final tool has 61 public MAT false negatives. We link each missed function
+to MADE-WIC v3 \cite{madewicv3} by project, file, and exact code-token sequence,
+excluding comments and whitespace while preserving literal tokens. The dedicated
+\texttt{LeadingComment} field in the matched source records contains a MAT tag
+for 58 of the 61 public misses and 77 and 22 of the 77 and 23 misses in
+two project holdouts. MADE-WIC v2 contains 57 of the 58 public leading tags.
+Two more public functions match uniquely after normalizing C backslash-newline
+continuations. A pinned Linux snapshot confirms the leading tag for the final
+miss. All 61 public misses have a tagged leading comment absent from
+\texttt{Function}. The strict context check adds zero false positives among
+2,004 matched negative controls from the audited files across the three splits.
+We selected files containing a miss and checked all their available functions.
+The provenance check uses additional fields. The competition predictor receives
+\texttt{Function}.
+
+An extraction-boundary ranker fitted on 230 verified omissions and same-file
+controls recovers no misses at its development threshold on both holdouts.
+A comparison of named actions and body effects recovers zero of 77 and
+zero of 23 misses at the original zero false positives per project.
+
+\paragraph{Formatting and weakness labels}
+Exact token alignment recovers unambiguous annotation components for 212,114
+training rows. An audit of 781 stratified functions finds 391 discrepancies
+between the formatted scanner output and the original \texttt{W}. Masking
+comments preserves 390. A controlled replay restores only gaps whose original
+line breaks differ, preserving code and comment tokens. It corrects 270 and
+112 \texttt{W} decisions and introduces 2 and 5 errors on the two project
+holdouts. Restoring widths within lines corrects none. Learned whitespace
+restoration from \texttt{Function} fails held-out selection.
+
+The artifact includes the selected weights and thresholds, pinned data revisions, ordered predictions, and code for training, policy selection, evaluation, routing, and masking. It also includes the experiment records.
+\ifdefined\ArtifactURL
+The artifact is available at \ArtifactURL.
+\else
+
+\noindent\textit{Public artifact URL to be supplied before submission.}
+\fi
+
+OpenAI Codex \cite{codex} assisted with experimental and analysis code and with drafting the abstract and main text.
+
+\begin{thebibliography}{00}
+\bibitem{nlbse} M. Mock et al., ``The NLBSE'27 Tool Competition and Challenge,'' in \emph{Proc. NLBSE}, 2027, forthcoming. \href{https://nlbse2027.github.io/tools/}{Organizer citation}.
+\bibitem{rules} NLBSE 2027 organizers, ``NLBSE'27 Tool Competition: Multitask Code Classification,'' \href{https://github.com/nlbse2027/code-comment-classification}{official competition repository}.
+\bibitem{madewic} M. Mock et al., ``MADE-WIC: Multiple Annotated Datasets for Exploring Weaknesses In Code,'' in \emph{Proc. ASE}, 2024, pp. 2346--2349. \href{https://tore.tuhh.de/handle/11420/52816}{doi: \mbox{10.1145/3691620.3695348}}.
+\bibitem{russo} B. Russo, J. Melegati, and M. Mock, ``Leveraging Multi-Task Learning to Improve the Detection of SATD and Vulnerability,'' in \emph{Proc. ICPC}, 2025, pp. 1--12. \href{https://arxiv.org/abs/2501.15934}{doi: \mbox{10.1109/ICPC66645.2025.00017}}.
+\bibitem{codet5p} Y. Wang et al., ``CodeT5+: Open Code Large Language Models for Code Understanding and Generation,'' in \emph{Proc. EMNLP}, 2023, pp. 1069--1088. \href{https://aclanthology.org/2023.emnlp-main.68/}{doi: \mbox{10.18653/v1/2023.emnlp-main.68}}.
+\bibitem{cppsatd} P. Pham, M. Sridharan, M. Esposito, and V. Lenarduzzi, ``Descriptor: C++ Self-Admitted Technical Debt Dataset (CppSATD),'' \emph{IEEE Data Descriptions}, vol. 2, pp. 179--186, 2025. \href{https://oulurepo.oulu.fi/handle/10024/56697}{doi: \mbox{10.1109/IEEEDATA.2025.3576339}}.
+\bibitem{cppsatddata} P. Pham, M. Sridharan, M. Esposito, and V. Lenarduzzi, ``CppSATD: A Reusable Self-Admitted Technical Debt Dataset in C++,'' Zenodo, ver. 2, 2025. \href{https://zenodo.org/records/15284981}{doi: \mbox{10.5281/zenodo.15284981}}.
+\bibitem{tesoro} N. Le Hai, A. M. T. Bui, P. T. Nguyen, D. Di Ruscio, and R. Kazman, ``Detection of Technical Debt in Java Source Code,'' \emph{ACM Trans. Softw. Eng. Methodol.}, 2026. \href{https://zenodo.org/records/22899655}{doi: \mbox{10.1145/3801745}}.
+\bibitem{cascade} K. Trapeznikov and V. Saligrama, ``Supervised Sequential Classification Under Budget Constraints,'' in \emph{Proc. AISTATS}, PMLR, vol. 31, 2013, \href{https://proceedings.mlr.press/v31/trapeznikov13a.html}{pp. 581--589}.
+\bibitem{powerbert} S. Goyal et al., ``PoWER-BERT: Accelerating BERT Inference via Progressive Word-vector Elimination,'' in \emph{Proc. ICML}, PMLR, vol. 119, 2020, \href{https://proceedings.mlr.press/v119/goyal20a.html}{pp. 3690--3699}.
+\bibitem{mod} D. Raposo et al., ``Mixture-of-Depths: Dynamically allocating compute in transformer-based language models,'' \href{https://arxiv.org/abs/2404.02258}{arXiv:2404.02258}, 2024.
+\bibitem{codebert} Z. Feng et al., ``CodeBERT: A Pre-Trained Model for Programming and Natural Languages,'' in \emph{Findings of EMNLP}, 2020, pp. 1536--1547. \href{https://aclanthology.org/2020.findings-emnlp.139/}{doi: \mbox{10.18653/v1/2020.findings-emnlp.139}}.
+\bibitem{weaksatd} B. Russo, M. Camilli, and M. Mock, ``WeakSATD: Detecting Weak Self-admitted Technical Debt,'' in \emph{Proc. MSR}, 2022, pp. 448--453. \href{https://re.public.polimi.it/retrieve/89e31863-1e03-4233-b575-22e449dc4d22/3524842.3528469.pdf}{doi: \mbox{10.1145/3524842.3528469}}.
+\bibitem{madewicv3} M. Mock et al., ``MADE-WIC: Multiple Annotated Datasets for Exploring Weaknesses In Code and Replication Package,'' Zenodo, ver. 3, deposited 2025. \href{https://zenodo.org/records/15126132}{doi: \mbox{10.5281/zenodo.15126132}}.
+\bibitem{codex} OpenAI, ``Codex,'' software development agent. \url{https://openai.com/codex/}.
+\end{thebibliography}
+\end{document}

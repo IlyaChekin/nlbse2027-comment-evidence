@@ -1,0 +1,11 @@
+{
+  "mode": "fp90",
+  "seed": 42,
+  "epochs": 1,
+  "rows": 153628,
+  "nbatches": 1201,
+  "out_of_fold_sha256": "d2951402b86228c7217436170a777ada4deb491efad08546a59da8703e2447c3",
+  "initial_checkpoint_manifest_sha256": "cea74567d5a837958d832b54f4e4ad0942f1a5be102012b2fdc7217740703b3c",
+  "checkpoint_sha256": "fe79e4d5cb9534e5afe8e5f0eb1166ee92d140c1de3ae48718858199d9a816c3",
+  "seconds": 17.6573112080805
+}

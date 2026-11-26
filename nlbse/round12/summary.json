@@ -1,0 +1,132 @@
+{
+  "holdout_rows": 31104,
+  "shared_errors": {
+    "false_negative": 2913,
+    "false_positive": 370
+  },
+  "selected_compact_feature": "token_motifs_logistic",
+  "baseline_compact": {
+    "vulnerability": {
+      "precision": 0.7965597516813243,
+      "recall": 0.6517460317460317,
+      "f1": 0.7169130485391689
+    },
+    "MAT": {
+      "precision": 0.9946666666666667,
+      "recall": 0.8987951807228916,
+      "f1": 0.9443037974683545
+    },
+    "mean": {
+      "precision": 0.8956132091739955,
+      "recall": 0.7752706062344616,
+      "f1": 0.8306084230037617
+    }
+  },
+  "augmented_compact": {
+    "vulnerability": {
+      "precision": 0.8386432298819005,
+      "recall": 0.6462433862433863,
+      "f1": 0.7299784843413818
+    },
+    "MAT": {
+      "precision": 0.9946666666666667,
+      "recall": 0.8987951807228916,
+      "f1": 0.9443037974683545
+    },
+    "mean": {
+      "precision": 0.9166549482742836,
+      "recall": 0.7725192834831389,
+      "f1": 0.8371411409048681
+    }
+  },
+  "public_results": [
+    {
+      "scope": "official_public",
+      "model": "official/comparator",
+      "vulnerability_f1": 0.9198994974874372,
+      "mat_f1": 0.9336143308746049,
+      "mean_f1": 0.926756914181021,
+      "wall_seconds": 5.2317452118732035,
+      "forward_seconds": 2.8631026444491,
+      "gflops": 12699.205259195998,
+      "local_formula": 0.9546349142957764
+    },
+    {
+      "scope": "official_public",
+      "model": "official/structure",
+      "vulnerability_f1": 0.9198525327003687,
+      "mat_f1": 0.9336143308746049,
+      "mean_f1": 0.9267334317874868,
+      "wall_seconds": 5.878371892962605,
+      "forward_seconds": 3.142319354461506,
+      "gflops": 12699.205259195998,
+      "local_formula": 0.9545649815176535
+    },
+    {
+      "scope": "official_public",
+      "model": "official_aug/official_aug",
+      "vulnerability_f1": 0.9255163359087007,
+      "mat_f1": 0.9336143308746049,
+      "mean_f1": 0.9295653333916528,
+      "wall_seconds": 10.321178887039423,
+      "forward_seconds": 5.332999815931544,
+      "gflops": 26309.655110311996,
+      "local_formula": 0.9549186230644513
+    },
+    {
+      "scope": "official_public",
+      "model": "fast_mat/learned",
+      "vulnerability_f1": 0.9198994974874372,
+      "mat_f1": 0.9336143308746049,
+      "mean_f1": 0.926756914181021,
+      "wall_seconds": 5.400506119942293,
+      "forward_seconds": 2.9915802713949233,
+      "gflops": 12699.205259195998,
+      "local_formula": 0.9546092187703872
+    },
+    {
+      "scope": "official_public",
+      "model": "fast_mat/reuse_tags",
+      "vulnerability_f1": 0.9198994974874372,
+      "mat_f1": 0.9336143308746049,
+      "mean_f1": 0.926756914181021,
+      "wall_seconds": 3.758571093901992,
+      "forward_seconds": 1.1679919043090194,
+      "gflops": 12699.204801260004,
+      "local_formula": 0.9549739364743334
+    },
+    {
+      "scope": "official_public",
+      "model": "efficient_aug/raw",
+      "vulnerability_f1": 0.9226972855919827,
+      "mat_f1": 0.9336143308746049,
+      "mean_f1": 0.9281558082332938,
+      "wall_seconds": 3.6415329191368073,
+      "forward_seconds": 1.1819787540007383,
+      "gflops": 12699.204801260004,
+      "local_formula": 0.9558104755357588
+    },
+    {
+      "scope": "official_public",
+      "model": "efficient_aug/selective",
+      "vulnerability_f1": 0.9263126192149382,
+      "mat_f1": 0.9336143308746049,
+      "mean_f1": 0.9299634750447716,
+      "wall_seconds": 4.34299528086558,
+      "forward_seconds": 1.509573990944773,
+      "gflops": 13860.222378532004,
+      "local_formula": 0.9567521554034386
+    },
+    {
+      "scope": "official_public",
+      "model": "efficient_aug/norm",
+      "vulnerability_f1": 0.9248814574494635,
+      "mat_f1": 0.9336143308746049,
+      "mean_f1": 0.9292478941620341,
+      "wall_seconds": 6.692210278939456,
+      "forward_seconds": 3.9703105858061463,
+      "gflops": 13610.449851116007,
+      "local_formula": 0.9558473110566515
+    }
+  ]
+}

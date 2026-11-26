@@ -1,0 +1,2897 @@
+{
+  "dev": {
+    "canonical": {
+      "base": {
+        "tp": 278,
+        "fp": 0,
+        "fn": 44,
+        "f1": 0.9266666666666666
+      },
+      "candidate": {
+        "tp": 278,
+        "fp": 0,
+        "fn": 44,
+        "f1": 0.9266666666666666
+      },
+      "recovered": 0,
+      "lost": 0,
+      "extra_fp": 0
+    },
+    "has_comment_misses": 11,
+    "no_comment_misses": 33,
+    "elapsed_seconds": {
+      "tokenize": 0.8738353690132499,
+      "ordered": 25.910933616105467,
+      "anchors": 17.65990964299999
+    },
+    "options": {
+      "ordered/positive": {
+        "cutoff": 0.9526703953742981,
+        "frozen": {
+          "base": {
+            "tp": 278,
+            "fp": 0,
+            "fn": 44,
+            "f1": 0.9266666666666666
+          },
+          "candidate": {
+            "tp": 278,
+            "fp": 0,
+            "fn": 44,
+            "f1": 0.9266666666666666
+          },
+          "recovered": 0,
+          "lost": 0,
+          "extra_fp": 0,
+          "recovered_without_comment": 0
+        },
+        "matched": {
+          "base": {
+            "tp": 278,
+            "fp": 0,
+            "fn": 44,
+            "f1": 0.9266666666666666
+          },
+          "candidate": {
+            "tp": 278,
+            "fp": 0,
+            "fn": 44,
+            "f1": 0.9266666666666666
+          },
+          "recovered": 0,
+          "lost": 0,
+          "extra_fp": 0,
+          "recovered_without_comment": 0
+        },
+        "project": {
+          "linux": {
+            "cutoff": 0.9526703953742981,
+            "base": {
+              "tp": 265,
+              "fp": 0,
+              "fn": 42,
+              "f1": 0.9265734265734266
+            },
+            "candidate": {
+              "tp": 265,
+              "fp": 0,
+              "fn": 42,
+              "f1": 0.9265734265734266
+            },
+            "recovered": 0,
+            "lost": 0,
+            "extra_fp": 0,
+            "recovered_without_comment": 0
+          },
+          "tcpdump": {
+            "cutoff": 0.05,
+            "base": {
+              "tp": 13,
+              "fp": 0,
+              "fn": 2,
+              "f1": 0.9285714285714286
+            },
+            "candidate": {
+              "tp": 13,
+              "fp": 0,
+              "fn": 2,
+              "f1": 0.9285714285714286
+            },
+            "recovered": 0,
+            "lost": 0,
+            "extra_fp": 0,
+            "recovered_without_comment": 0
+          }
+        }
+      },
+      "ordered/contrast_half": {
+        "cutoff": 0.6051656007766724,
+        "frozen": {
+          "base": {
+            "tp": 278,
+            "fp": 0,
+            "fn": 44,
+            "f1": 0.9266666666666666
+          },
+          "candidate": {
+            "tp": 278,
+            "fp": 0,
+            "fn": 44,
+            "f1": 0.9266666666666666
+          },
+          "recovered": 0,
+          "lost": 0,
+          "extra_fp": 0,
+          "recovered_without_comment": 0
+        },
+        "matched": {
+          "base": {
+            "tp": 278,
+            "fp": 0,
+            "fn": 44,
+            "f1": 0.9266666666666666
+          },
+          "candidate": {
+            "tp": 278,
+            "fp": 0,
+            "fn": 44,
+            "f1": 0.9266666666666666
+          },
+          "recovered": 0,
+          "lost": 0,
+          "extra_fp": 0,
+          "recovered_without_comment": 0
+        },
+        "project": {
+          "linux": {
+            "cutoff": 0.6051656007766724,
+            "base": {
+              "tp": 265,
+              "fp": 0,
+              "fn": 42,
+              "f1": 0.9265734265734266
+            },
+            "candidate": {
+              "tp": 265,
+              "fp": 0,
+              "fn": 42,
+              "f1": 0.9265734265734266
+            },
+            "recovered": 0,
+            "lost": 0,
+            "extra_fp": 0,
+            "recovered_without_comment": 0
+          },
+          "tcpdump": {
+            "cutoff": 0.05,
+            "base": {
+              "tp": 13,
+              "fp": 0,
+              "fn": 2,
+              "f1": 0.9285714285714286
+            },
+            "candidate": {
+              "tp": 13,
+              "fp": 0,
+              "fn": 2,
+              "f1": 0.9285714285714286
+            },
+            "recovered": 0,
+            "lost": 0,
+            "extra_fp": 0,
+            "recovered_without_comment": 0
+          }
+        }
+      },
+      "ordered/contrast": {
+        "cutoff": 0.49285703897476196,
+        "frozen": {
+          "base": {
+            "tp": 278,
+            "fp": 0,
+            "fn": 44,
+            "f1": 0.9266666666666666
+          },
+          "candidate": {
+            "tp": 278,
+            "fp": 0,
+            "fn": 44,
+            "f1": 0.9266666666666666
+          },
+          "recovered": 0,
+          "lost": 0,
+          "extra_fp": 0,
+          "recovered_without_comment": 0
+        },
+        "matched": {
+          "base": {
+            "tp": 278,
+            "fp": 0,
+            "fn": 44,
+            "f1": 0.9266666666666666
+          },
+          "candidate": {
+            "tp": 278,
+            "fp": 0,
+            "fn": 44,
+            "f1": 0.9266666666666666
+          },
+          "recovered": 0,
+          "lost": 0,
+          "extra_fp": 0,
+          "recovered_without_comment": 0
+        },
+        "project": {
+          "linux": {
+            "cutoff": 0.49285703897476196,
+            "base": {
+              "tp": 265,
+              "fp": 0,
+              "fn": 42,
+              "f1": 0.9265734265734266
+            },
+            "candidate": {
+              "tp": 265,
+              "fp": 0,
+              "fn": 42,
+              "f1": 0.9265734265734266
+            },
+            "recovered": 0,
+            "lost": 0,
+            "extra_fp": 0,
+            "recovered_without_comment": 0
+          },
+          "tcpdump": {
+            "cutoff": 0.05,
+            "base": {
+              "tp": 13,
+              "fp": 0,
+              "fn": 2,
+              "f1": 0.9285714285714286
+            },
+            "candidate": {
+              "tp": 13,
+              "fp": 0,
+              "fn": 2,
+              "f1": 0.9285714285714286
+            },
+            "recovered": 0,
+            "lost": 0,
+            "extra_fp": 0,
+            "recovered_without_comment": 0
+          }
+        }
+      },
+      "ordered/consensus": {
+        "cutoff": 0.05,
+        "frozen": {
+          "base": {
+            "tp": 278,
+            "fp": 0,
+            "fn": 44,
+            "f1": 0.9266666666666666
+          },
+          "candidate": {
+            "tp": 278,
+            "fp": 0,
+            "fn": 44,
+            "f1": 0.9266666666666666
+          },
+          "recovered": 0,
+          "lost": 0,
+          "extra_fp": 0,
+          "recovered_without_comment": 0
+        },
+        "matched": {
+          "base": {
+            "tp": 278,
+            "fp": 0,
+            "fn": 44,
+            "f1": 0.9266666666666666
+          },
+          "candidate": {
+            "tp": 278,
+            "fp": 0,
+            "fn": 44,
+            "f1": 0.9266666666666666
+          },
+          "recovered": 0,
+          "lost": 0,
+          "extra_fp": 0,
+          "recovered_without_comment": 0
+        },
+        "project": {
+          "linux": {
+            "cutoff": 0.05,
+            "base": {
+              "tp": 265,
+              "fp": 0,
+              "fn": 42,
+              "f1": 0.9265734265734266
+            },
+            "candidate": {
+              "tp": 265,
+              "fp": 0,
+              "fn": 42,
+              "f1": 0.9265734265734266
+            },
+            "recovered": 0,
+            "lost": 0,
+            "extra_fp": 0,
+            "recovered_without_comment": 0
+          },
+          "tcpdump": {
+            "cutoff": 0.05,
+            "base": {
+              "tp": 13,
+              "fp": 0,
+              "fn": 2,
+              "f1": 0.9285714285714286
+            },
+            "candidate": {
+              "tp": 13,
+              "fp": 0,
+              "fn": 2,
+              "f1": 0.9285714285714286
+            },
+            "recovered": 0,
+            "lost": 0,
+            "extra_fp": 0,
+            "recovered_without_comment": 0
+          }
+        }
+      },
+      "anchors/positive": {
+        "cutoff": 0.9354709386825562,
+        "frozen": {
+          "base": {
+            "tp": 278,
+            "fp": 0,
+            "fn": 44,
+            "f1": 0.9266666666666666
+          },
+          "candidate": {
+            "tp": 278,
+            "fp": 0,
+            "fn": 44,
+            "f1": 0.9266666666666666
+          },
+          "recovered": 0,
+          "lost": 0,
+          "extra_fp": 0,
+          "recovered_without_comment": 0
+        },
+        "matched": {
+          "base": {
+            "tp": 278,
+            "fp": 0,
+            "fn": 44,
+            "f1": 0.9266666666666666
+          },
+          "candidate": {
+            "tp": 278,
+            "fp": 0,
+            "fn": 44,
+            "f1": 0.9266666666666666
+          },
+          "recovered": 0,
+          "lost": 0,
+          "extra_fp": 0,
+          "recovered_without_comment": 0
+        },
+        "project": {
+          "linux": {
+            "cutoff": 0.9354709386825562,
+            "base": {
+              "tp": 265,
+              "fp": 0,
+              "fn": 42,
+              "f1": 0.9265734265734266
+            },
+            "candidate": {
+              "tp": 265,
+              "fp": 0,
+              "fn": 42,
+              "f1": 0.9265734265734266
+            },
+            "recovered": 0,
+            "lost": 0,
+            "extra_fp": 0,
+            "recovered_without_comment": 0
+          },
+          "tcpdump": {
+            "cutoff": 0.10954926162958145,
+            "base": {
+              "tp": 13,
+              "fp": 0,
+              "fn": 2,
+              "f1": 0.9285714285714286
+            },
+            "candidate": {
+              "tp": 13,
+              "fp": 0,
+              "fn": 2,
+              "f1": 0.9285714285714286
+            },
+            "recovered": 0,
+            "lost": 0,
+            "extra_fp": 0,
+            "recovered_without_comment": 0
+          }
+        }
+      },
+      "anchors/contrast_half": {
+        "cutoff": 0.5212562084197998,
+        "frozen": {
+          "base": {
+            "tp": 278,
+            "fp": 0,
+            "fn": 44,
+            "f1": 0.9266666666666666
+          },
+          "candidate": {
+            "tp": 278,
+            "fp": 0,
+            "fn": 44,
+            "f1": 0.9266666666666666
+          },
+          "recovered": 0,
+          "lost": 0,
+          "extra_fp": 0,
+          "recovered_without_comment": 0
+        },
+        "matched": {
+          "base": {
+            "tp": 278,
+            "fp": 0,
+            "fn": 44,
+            "f1": 0.9266666666666666
+          },
+          "candidate": {
+            "tp": 278,
+            "fp": 0,
+            "fn": 44,
+            "f1": 0.9266666666666666
+          },
+          "recovered": 0,
+          "lost": 0,
+          "extra_fp": 0,
+          "recovered_without_comment": 0
+        },
+        "project": {
+          "linux": {
+            "cutoff": 0.5212562084197998,
+            "base": {
+              "tp": 265,
+              "fp": 0,
+              "fn": 42,
+              "f1": 0.9265734265734266
+            },
+            "candidate": {
+              "tp": 265,
+              "fp": 0,
+              "fn": 42,
+              "f1": 0.9265734265734266
+            },
+            "recovered": 0,
+            "lost": 0,
+            "extra_fp": 0,
+            "recovered_without_comment": 0
+          },
+          "tcpdump": {
+            "cutoff": 0.05,
+            "base": {
+              "tp": 13,
+              "fp": 0,
+              "fn": 2,
+              "f1": 0.9285714285714286
+            },
+            "candidate": {
+              "tp": 13,
+              "fp": 0,
+              "fn": 2,
+              "f1": 0.9285714285714286
+            },
+            "recovered": 0,
+            "lost": 0,
+            "extra_fp": 0,
+            "recovered_without_comment": 0
+          }
+        }
+      },
+      "anchors/contrast": {
+        "cutoff": 0.4501728415489197,
+        "frozen": {
+          "base": {
+            "tp": 278,
+            "fp": 0,
+            "fn": 44,
+            "f1": 0.9266666666666666
+          },
+          "candidate": {
+            "tp": 278,
+            "fp": 0,
+            "fn": 44,
+            "f1": 0.9266666666666666
+          },
+          "recovered": 0,
+          "lost": 0,
+          "extra_fp": 0,
+          "recovered_without_comment": 0
+        },
+        "matched": {
+          "base": {
+            "tp": 278,
+            "fp": 0,
+            "fn": 44,
+            "f1": 0.9266666666666666
+          },
+          "candidate": {
+            "tp": 278,
+            "fp": 0,
+            "fn": 44,
+            "f1": 0.9266666666666666
+          },
+          "recovered": 0,
+          "lost": 0,
+          "extra_fp": 0,
+          "recovered_without_comment": 0
+        },
+        "project": {
+          "linux": {
+            "cutoff": 0.4501728415489197,
+            "base": {
+              "tp": 265,
+              "fp": 0,
+              "fn": 42,
+              "f1": 0.9265734265734266
+            },
+            "candidate": {
+              "tp": 265,
+              "fp": 0,
+              "fn": 42,
+              "f1": 0.9265734265734266
+            },
+            "recovered": 0,
+            "lost": 0,
+            "extra_fp": 0,
+            "recovered_without_comment": 0
+          },
+          "tcpdump": {
+            "cutoff": 0.05,
+            "base": {
+              "tp": 13,
+              "fp": 0,
+              "fn": 2,
+              "f1": 0.9285714285714286
+            },
+            "candidate": {
+              "tp": 13,
+              "fp": 0,
+              "fn": 2,
+              "f1": 0.9285714285714286
+            },
+            "recovered": 0,
+            "lost": 0,
+            "extra_fp": 0,
+            "recovered_without_comment": 0
+          }
+        }
+      },
+      "anchors/consensus": {
+        "cutoff": 0.05,
+        "frozen": {
+          "base": {
+            "tp": 278,
+            "fp": 0,
+            "fn": 44,
+            "f1": 0.9266666666666666
+          },
+          "candidate": {
+            "tp": 278,
+            "fp": 0,
+            "fn": 44,
+            "f1": 0.9266666666666666
+          },
+          "recovered": 0,
+          "lost": 0,
+          "extra_fp": 0,
+          "recovered_without_comment": 0
+        },
+        "matched": {
+          "base": {
+            "tp": 278,
+            "fp": 0,
+            "fn": 44,
+            "f1": 0.9266666666666666
+          },
+          "candidate": {
+            "tp": 278,
+            "fp": 0,
+            "fn": 44,
+            "f1": 0.9266666666666666
+          },
+          "recovered": 0,
+          "lost": 0,
+          "extra_fp": 0,
+          "recovered_without_comment": 0
+        },
+        "project": {
+          "linux": {
+            "cutoff": 0.05,
+            "base": {
+              "tp": 265,
+              "fp": 0,
+              "fn": 42,
+              "f1": 0.9265734265734266
+            },
+            "candidate": {
+              "tp": 265,
+              "fp": 0,
+              "fn": 42,
+              "f1": 0.9265734265734266
+            },
+            "recovered": 0,
+            "lost": 0,
+            "extra_fp": 0,
+            "recovered_without_comment": 0
+          },
+          "tcpdump": {
+            "cutoff": 0.05,
+            "base": {
+              "tp": 13,
+              "fp": 0,
+              "fn": 2,
+              "f1": 0.9285714285714286
+            },
+            "candidate": {
+              "tp": 13,
+              "fp": 0,
+              "fn": 2,
+              "f1": 0.9285714285714286
+            },
+            "recovered": 0,
+            "lost": 0,
+            "extra_fp": 0,
+            "recovered_without_comment": 0
+          }
+        }
+      }
+    },
+    "predictions_sha256": "778844a7660b36539fb5908a2427489f2894303a97284f4e422fdfe597c4ffcc"
+  },
+  "test_a": {
+    "canonical": {
+      "base": {
+        "tp": 753,
+        "fp": 2,
+        "fn": 77,
+        "f1": 0.9501577287066246
+      },
+      "candidate": {
+        "tp": 753,
+        "fp": 0,
+        "fn": 77,
+        "f1": 0.9513581806696146
+      },
+      "recovered": 0,
+      "lost": 0,
+      "extra_fp": -2
+    },
+    "has_comment_misses": 23,
+    "no_comment_misses": 54,
+    "elapsed_seconds": {
+      "tokenize": 1.1272497500758618,
+      "ordered": 34.00879321596585,
+      "anchors": 21.185642475029454
+    },
+    "options": {
+      "ordered/positive": {
+        "cutoff": 0.9526703953742981,
+        "frozen": {
+          "base": {
+            "tp": 753,
+            "fp": 2,
+            "fn": 77,
+            "f1": 0.9501577287066246
+          },
+          "candidate": {
+            "tp": 753,
+            "fp": 0,
+            "fn": 77,
+            "f1": 0.9513581806696146
+          },
+          "recovered": 0,
+          "lost": 0,
+          "extra_fp": -2,
+          "recovered_without_comment": 0
+        },
+        "matched": {
+          "base": {
+            "tp": 753,
+            "fp": 2,
+            "fn": 77,
+            "f1": 0.9501577287066246
+          },
+          "candidate": {
+            "tp": 753,
+            "fp": 2,
+            "fn": 77,
+            "f1": 0.9501577287066246
+          },
+          "recovered": 0,
+          "lost": 0,
+          "extra_fp": 0,
+          "recovered_without_comment": 0
+        },
+        "project": {
+          "chromium": {
+            "cutoff": 0.2597907483577728,
+            "base": {
+              "tp": 276,
+              "fp": 0,
+              "fn": 42,
+              "f1": 0.9292929292929293
+            },
+            "candidate": {
+              "tp": 276,
+              "fp": 0,
+              "fn": 42,
+              "f1": 0.9292929292929293
+            },
+            "recovered": 0,
+            "lost": 0,
+            "extra_fp": 0,
+            "recovered_without_comment": 0
+          },
+          "ffmpeg": {
+            "cutoff": 0.11484619975090027,
+            "base": {
+              "tp": 155,
+              "fp": 1,
+              "fn": 17,
+              "f1": 0.9451219512195121
+            },
+            "candidate": {
+              "tp": 155,
+              "fp": 1,
+              "fn": 17,
+              "f1": 0.9451219512195121
+            },
+            "recovered": 0,
+            "lost": 0,
+            "extra_fp": 0,
+            "recovered_without_comment": 0
+          },
+          "qemu": {
+            "cutoff": 0.21172867715358734,
+            "base": {
+              "tp": 322,
+              "fp": 1,
+              "fn": 18,
+              "f1": 0.971342383107089
+            },
+            "candidate": {
+              "tp": 322,
+              "fp": 1,
+              "fn": 18,
+              "f1": 0.971342383107089
+            },
+            "recovered": 0,
+            "lost": 0,
+            "extra_fp": 0,
+            "recovered_without_comment": 0
+          }
+        }
+      },
+      "ordered/contrast_half": {
+        "cutoff": 0.6051656007766724,
+        "frozen": {
+          "base": {
+            "tp": 753,
+            "fp": 2,
+            "fn": 77,
+            "f1": 0.9501577287066246
+          },
+          "candidate": {
+            "tp": 753,
+            "fp": 0,
+            "fn": 77,
+            "f1": 0.9513581806696146
+          },
+          "recovered": 0,
+          "lost": 0,
+          "extra_fp": -2,
+          "recovered_without_comment": 0
+        },
+        "matched": {
+          "base": {
+            "tp": 753,
+            "fp": 2,
+            "fn": 77,
+            "f1": 0.9501577287066246
+          },
+          "candidate": {
+            "tp": 753,
+            "fp": 2,
+            "fn": 77,
+            "f1": 0.9501577287066246
+          },
+          "recovered": 0,
+          "lost": 0,
+          "extra_fp": 0,
+          "recovered_without_comment": 0
+        },
+        "project": {
+          "chromium": {
+            "cutoff": 0.18040895462036133,
+            "base": {
+              "tp": 276,
+              "fp": 0,
+              "fn": 42,
+              "f1": 0.9292929292929293
+            },
+            "candidate": {
+              "tp": 276,
+              "fp": 0,
+              "fn": 42,
+              "f1": 0.9292929292929293
+            },
+            "recovered": 0,
+            "lost": 0,
+            "extra_fp": 0,
+            "recovered_without_comment": 0
+          },
+          "ffmpeg": {
+            "cutoff": 0.051593609154224396,
+            "base": {
+              "tp": 155,
+              "fp": 1,
+              "fn": 17,
+              "f1": 0.9451219512195121
+            },
+            "candidate": {
+              "tp": 155,
+              "fp": 1,
+              "fn": 17,
+              "f1": 0.9451219512195121
+            },
+            "recovered": 0,
+            "lost": 0,
+            "extra_fp": 0,
+            "recovered_without_comment": 0
+          },
+          "qemu": {
+            "cutoff": 0.12896303832530975,
+            "base": {
+              "tp": 322,
+              "fp": 1,
+              "fn": 18,
+              "f1": 0.971342383107089
+            },
+            "candidate": {
+              "tp": 322,
+              "fp": 1,
+              "fn": 18,
+              "f1": 0.971342383107089
+            },
+            "recovered": 0,
+            "lost": 0,
+            "extra_fp": 0,
+            "recovered_without_comment": 0
+          }
+        }
+      },
+      "ordered/contrast": {
+        "cutoff": 0.49285703897476196,
+        "frozen": {
+          "base": {
+            "tp": 753,
+            "fp": 2,
+            "fn": 77,
+            "f1": 0.9501577287066246
+          },
+          "candidate": {
+            "tp": 753,
+            "fp": 0,
+            "fn": 77,
+            "f1": 0.9513581806696146
+          },
+          "recovered": 0,
+          "lost": 0,
+          "extra_fp": -2,
+          "recovered_without_comment": 0
+        },
+        "matched": {
+          "base": {
+            "tp": 753,
+            "fp": 2,
+            "fn": 77,
+            "f1": 0.9501577287066246
+          },
+          "candidate": {
+            "tp": 753,
+            "fp": 1,
+            "fn": 77,
+            "f1": 0.9507575757575758
+          },
+          "recovered": 0,
+          "lost": 0,
+          "extra_fp": -1,
+          "recovered_without_comment": 0
+        },
+        "project": {
+          "chromium": {
+            "cutoff": 0.10102716088294983,
+            "base": {
+              "tp": 276,
+              "fp": 0,
+              "fn": 42,
+              "f1": 0.9292929292929293
+            },
+            "candidate": {
+              "tp": 276,
+              "fp": 0,
+              "fn": 42,
+              "f1": 0.9292929292929293
+            },
+            "recovered": 0,
+            "lost": 0,
+            "extra_fp": 0,
+            "recovered_without_comment": 0
+          },
+          "ffmpeg": {
+            "cutoff": 0.05,
+            "base": {
+              "tp": 155,
+              "fp": 1,
+              "fn": 17,
+              "f1": 0.9451219512195121
+            },
+            "candidate": {
+              "tp": 155,
+              "fp": 0,
+              "fn": 17,
+              "f1": 0.9480122324159022
+            },
+            "recovered": 0,
+            "lost": 0,
+            "extra_fp": -1,
+            "recovered_without_comment": 0
+          },
+          "qemu": {
+            "cutoff": 0.06574684381484985,
+            "base": {
+              "tp": 322,
+              "fp": 1,
+              "fn": 18,
+              "f1": 0.971342383107089
+            },
+            "candidate": {
+              "tp": 322,
+              "fp": 1,
+              "fn": 18,
+              "f1": 0.971342383107089
+            },
+            "recovered": 0,
+            "lost": 0,
+            "extra_fp": 0,
+            "recovered_without_comment": 0
+          }
+        }
+      },
+      "ordered/consensus": {
+        "cutoff": 0.05,
+        "frozen": {
+          "base": {
+            "tp": 753,
+            "fp": 2,
+            "fn": 77,
+            "f1": 0.9501577287066246
+          },
+          "candidate": {
+            "tp": 753,
+            "fp": 0,
+            "fn": 77,
+            "f1": 0.9513581806696146
+          },
+          "recovered": 0,
+          "lost": 0,
+          "extra_fp": -2,
+          "recovered_without_comment": 0
+        },
+        "matched": {
+          "base": {
+            "tp": 753,
+            "fp": 2,
+            "fn": 77,
+            "f1": 0.9501577287066246
+          },
+          "candidate": {
+            "tp": 753,
+            "fp": 0,
+            "fn": 77,
+            "f1": 0.9513581806696146
+          },
+          "recovered": 0,
+          "lost": 0,
+          "extra_fp": -2,
+          "recovered_without_comment": 0
+        },
+        "project": {
+          "chromium": {
+            "cutoff": 0.05,
+            "base": {
+              "tp": 276,
+              "fp": 0,
+              "fn": 42,
+              "f1": 0.9292929292929293
+            },
+            "candidate": {
+              "tp": 276,
+              "fp": 0,
+              "fn": 42,
+              "f1": 0.9292929292929293
+            },
+            "recovered": 0,
+            "lost": 0,
+            "extra_fp": 0,
+            "recovered_without_comment": 0
+          },
+          "ffmpeg": {
+            "cutoff": 0.05,
+            "base": {
+              "tp": 155,
+              "fp": 1,
+              "fn": 17,
+              "f1": 0.9451219512195121
+            },
+            "candidate": {
+              "tp": 155,
+              "fp": 0,
+              "fn": 17,
+              "f1": 0.9480122324159022
+            },
+            "recovered": 0,
+            "lost": 0,
+            "extra_fp": -1,
+            "recovered_without_comment": 0
+          },
+          "qemu": {
+            "cutoff": 0.05,
+            "base": {
+              "tp": 322,
+              "fp": 1,
+              "fn": 18,
+              "f1": 0.971342383107089
+            },
+            "candidate": {
+              "tp": 322,
+              "fp": 0,
+              "fn": 18,
+              "f1": 0.972809667673716
+            },
+            "recovered": 0,
+            "lost": 0,
+            "extra_fp": -1,
+            "recovered_without_comment": 0
+          }
+        }
+      },
+      "anchors/positive": {
+        "cutoff": 0.9354709386825562,
+        "frozen": {
+          "base": {
+            "tp": 753,
+            "fp": 2,
+            "fn": 77,
+            "f1": 0.9501577287066246
+          },
+          "candidate": {
+            "tp": 753,
+            "fp": 0,
+            "fn": 77,
+            "f1": 0.9513581806696146
+          },
+          "recovered": 0,
+          "lost": 0,
+          "extra_fp": -2,
+          "recovered_without_comment": 0
+        },
+        "matched": {
+          "base": {
+            "tp": 753,
+            "fp": 2,
+            "fn": 77,
+            "f1": 0.9501577287066246
+          },
+          "candidate": {
+            "tp": 753,
+            "fp": 2,
+            "fn": 77,
+            "f1": 0.9501577287066246
+          },
+          "recovered": 0,
+          "lost": 0,
+          "extra_fp": 0,
+          "recovered_without_comment": 0
+        },
+        "project": {
+          "chromium": {
+            "cutoff": 0.31183144450187683,
+            "base": {
+              "tp": 276,
+              "fp": 0,
+              "fn": 42,
+              "f1": 0.9292929292929293
+            },
+            "candidate": {
+              "tp": 276,
+              "fp": 0,
+              "fn": 42,
+              "f1": 0.9292929292929293
+            },
+            "recovered": 0,
+            "lost": 0,
+            "extra_fp": 0,
+            "recovered_without_comment": 0
+          },
+          "ffmpeg": {
+            "cutoff": 0.11784173548221588,
+            "base": {
+              "tp": 155,
+              "fp": 1,
+              "fn": 17,
+              "f1": 0.9451219512195121
+            },
+            "candidate": {
+              "tp": 155,
+              "fp": 1,
+              "fn": 17,
+              "f1": 0.9451219512195121
+            },
+            "recovered": 0,
+            "lost": 0,
+            "extra_fp": 0,
+            "recovered_without_comment": 0
+          },
+          "qemu": {
+            "cutoff": 0.17353186011314392,
+            "base": {
+              "tp": 322,
+              "fp": 1,
+              "fn": 18,
+              "f1": 0.971342383107089
+            },
+            "candidate": {
+              "tp": 322,
+              "fp": 1,
+              "fn": 18,
+              "f1": 0.971342383107089
+            },
+            "recovered": 0,
+            "lost": 0,
+            "extra_fp": 0,
+            "recovered_without_comment": 0
+          }
+        }
+      },
+      "anchors/contrast_half": {
+        "cutoff": 0.5212562084197998,
+        "frozen": {
+          "base": {
+            "tp": 753,
+            "fp": 2,
+            "fn": 77,
+            "f1": 0.9501577287066246
+          },
+          "candidate": {
+            "tp": 753,
+            "fp": 0,
+            "fn": 77,
+            "f1": 0.9513581806696146
+          },
+          "recovered": 0,
+          "lost": 0,
+          "extra_fp": -2,
+          "recovered_without_comment": 0
+        },
+        "matched": {
+          "base": {
+            "tp": 753,
+            "fp": 2,
+            "fn": 77,
+            "f1": 0.9501577287066246
+          },
+          "candidate": {
+            "tp": 753,
+            "fp": 2,
+            "fn": 77,
+            "f1": 0.9501577287066246
+          },
+          "recovered": 0,
+          "lost": 0,
+          "extra_fp": 0,
+          "recovered_without_comment": 0
+        },
+        "project": {
+          "chromium": {
+            "cutoff": 0.24231559038162231,
+            "base": {
+              "tp": 276,
+              "fp": 0,
+              "fn": 42,
+              "f1": 0.9292929292929293
+            },
+            "candidate": {
+              "tp": 276,
+              "fp": 0,
+              "fn": 42,
+              "f1": 0.9292929292929293
+            },
+            "recovered": 0,
+            "lost": 0,
+            "extra_fp": 0,
+            "recovered_without_comment": 0
+          },
+          "ffmpeg": {
+            "cutoff": 0.054133541882038116,
+            "base": {
+              "tp": 155,
+              "fp": 1,
+              "fn": 17,
+              "f1": 0.9451219512195121
+            },
+            "candidate": {
+              "tp": 155,
+              "fp": 1,
+              "fn": 17,
+              "f1": 0.9451219512195121
+            },
+            "recovered": 0,
+            "lost": 0,
+            "extra_fp": 0,
+            "recovered_without_comment": 0
+          },
+          "qemu": {
+            "cutoff": 0.1085909903049469,
+            "base": {
+              "tp": 322,
+              "fp": 1,
+              "fn": 18,
+              "f1": 0.971342383107089
+            },
+            "candidate": {
+              "tp": 322,
+              "fp": 1,
+              "fn": 18,
+              "f1": 0.971342383107089
+            },
+            "recovered": 0,
+            "lost": 0,
+            "extra_fp": 0,
+            "recovered_without_comment": 0
+          }
+        }
+      },
+      "anchors/contrast": {
+        "cutoff": 0.4501728415489197,
+        "frozen": {
+          "base": {
+            "tp": 753,
+            "fp": 2,
+            "fn": 77,
+            "f1": 0.9501577287066246
+          },
+          "candidate": {
+            "tp": 753,
+            "fp": 0,
+            "fn": 77,
+            "f1": 0.9513581806696146
+          },
+          "recovered": 0,
+          "lost": 0,
+          "extra_fp": -2,
+          "recovered_without_comment": 0
+        },
+        "matched": {
+          "base": {
+            "tp": 753,
+            "fp": 2,
+            "fn": 77,
+            "f1": 0.9501577287066246
+          },
+          "candidate": {
+            "tp": 753,
+            "fp": 1,
+            "fn": 77,
+            "f1": 0.9507575757575758
+          },
+          "recovered": 0,
+          "lost": 0,
+          "extra_fp": -1,
+          "recovered_without_comment": 0
+        },
+        "project": {
+          "chromium": {
+            "cutoff": 0.172799751162529,
+            "base": {
+              "tp": 276,
+              "fp": 0,
+              "fn": 42,
+              "f1": 0.9292929292929293
+            },
+            "candidate": {
+              "tp": 276,
+              "fp": 0,
+              "fn": 42,
+              "f1": 0.9292929292929293
+            },
+            "recovered": 0,
+            "lost": 0,
+            "extra_fp": 0,
+            "recovered_without_comment": 0
+          },
+          "ffmpeg": {
+            "cutoff": 0.05,
+            "base": {
+              "tp": 155,
+              "fp": 1,
+              "fn": 17,
+              "f1": 0.9451219512195121
+            },
+            "candidate": {
+              "tp": 155,
+              "fp": 0,
+              "fn": 17,
+              "f1": 0.9480122324159022
+            },
+            "recovered": 0,
+            "lost": 0,
+            "extra_fp": -1,
+            "recovered_without_comment": 0
+          },
+          "qemu": {
+            "cutoff": 0.08413254469633102,
+            "base": {
+              "tp": 322,
+              "fp": 1,
+              "fn": 18,
+              "f1": 0.971342383107089
+            },
+            "candidate": {
+              "tp": 322,
+              "fp": 1,
+              "fn": 18,
+              "f1": 0.971342383107089
+            },
+            "recovered": 0,
+            "lost": 0,
+            "extra_fp": 0,
+            "recovered_without_comment": 0
+          }
+        }
+      },
+      "anchors/consensus": {
+        "cutoff": 0.05,
+        "frozen": {
+          "base": {
+            "tp": 753,
+            "fp": 2,
+            "fn": 77,
+            "f1": 0.9501577287066246
+          },
+          "candidate": {
+            "tp": 753,
+            "fp": 0,
+            "fn": 77,
+            "f1": 0.9513581806696146
+          },
+          "recovered": 0,
+          "lost": 0,
+          "extra_fp": -2,
+          "recovered_without_comment": 0
+        },
+        "matched": {
+          "base": {
+            "tp": 753,
+            "fp": 2,
+            "fn": 77,
+            "f1": 0.9501577287066246
+          },
+          "candidate": {
+            "tp": 753,
+            "fp": 0,
+            "fn": 77,
+            "f1": 0.9513581806696146
+          },
+          "recovered": 0,
+          "lost": 0,
+          "extra_fp": -2,
+          "recovered_without_comment": 0
+        },
+        "project": {
+          "chromium": {
+            "cutoff": 0.05,
+            "base": {
+              "tp": 276,
+              "fp": 0,
+              "fn": 42,
+              "f1": 0.9292929292929293
+            },
+            "candidate": {
+              "tp": 276,
+              "fp": 0,
+              "fn": 42,
+              "f1": 0.9292929292929293
+            },
+            "recovered": 0,
+            "lost": 0,
+            "extra_fp": 0,
+            "recovered_without_comment": 0
+          },
+          "ffmpeg": {
+            "cutoff": 0.05,
+            "base": {
+              "tp": 155,
+              "fp": 1,
+              "fn": 17,
+              "f1": 0.9451219512195121
+            },
+            "candidate": {
+              "tp": 155,
+              "fp": 0,
+              "fn": 17,
+              "f1": 0.9480122324159022
+            },
+            "recovered": 0,
+            "lost": 0,
+            "extra_fp": -1,
+            "recovered_without_comment": 0
+          },
+          "qemu": {
+            "cutoff": 0.05,
+            "base": {
+              "tp": 322,
+              "fp": 1,
+              "fn": 18,
+              "f1": 0.971342383107089
+            },
+            "candidate": {
+              "tp": 322,
+              "fp": 0,
+              "fn": 18,
+              "f1": 0.972809667673716
+            },
+            "recovered": 0,
+            "lost": 0,
+            "extra_fp": -1,
+            "recovered_without_comment": 0
+          }
+        }
+      }
+    },
+    "predictions_sha256": "04fdef1a2e1fa76e93e9656e6c4eb971259f64dc673c03d36db758a1ea07686d"
+  },
+  "test_b": {
+    "canonical": {
+      "base": {
+        "tp": 181,
+        "fp": 0,
+        "fn": 23,
+        "f1": 0.9402597402597402
+      },
+      "candidate": {
+        "tp": 181,
+        "fp": 0,
+        "fn": 23,
+        "f1": 0.9402597402597402
+      },
+      "recovered": 0,
+      "lost": 0,
+      "extra_fp": 0
+    },
+    "has_comment_misses": 2,
+    "no_comment_misses": 21,
+    "elapsed_seconds": {
+      "tokenize": 0.31688088295049965,
+      "ordered": 8.852273728931323,
+      "anchors": 5.4326310670003295
+    },
+    "options": {
+      "ordered/positive": {
+        "cutoff": 0.9526703953742981,
+        "frozen": {
+          "base": {
+            "tp": 181,
+            "fp": 0,
+            "fn": 23,
+            "f1": 0.9402597402597402
+          },
+          "candidate": {
+            "tp": 181,
+            "fp": 0,
+            "fn": 23,
+            "f1": 0.9402597402597402
+          },
+          "recovered": 0,
+          "lost": 0,
+          "extra_fp": 0,
+          "recovered_without_comment": 0
+        },
+        "matched": {
+          "base": {
+            "tp": 181,
+            "fp": 0,
+            "fn": 23,
+            "f1": 0.9402597402597402
+          },
+          "candidate": {
+            "tp": 181,
+            "fp": 0,
+            "fn": 23,
+            "f1": 0.9402597402597402
+          },
+          "recovered": 0,
+          "lost": 0,
+          "extra_fp": 0,
+          "recovered_without_comment": 0
+        },
+        "project": {
+          "android": {
+            "cutoff": 0.17125847935676575,
+            "base": {
+              "tp": 32,
+              "fp": 0,
+              "fn": 2,
+              "f1": 0.9696969696969697
+            },
+            "candidate": {
+              "tp": 32,
+              "fp": 0,
+              "fn": 2,
+              "f1": 0.9696969696969697
+            },
+            "recovered": 0,
+            "lost": 0,
+            "extra_fp": 0,
+            "recovered_without_comment": 0
+          },
+          "file": {
+            "cutoff": 0.17220774292945862,
+            "base": {
+              "tp": 1,
+              "fp": 0,
+              "fn": 0,
+              "f1": 1.0
+            },
+            "candidate": {
+              "tp": 1,
+              "fp": 0,
+              "fn": 0,
+              "f1": 1.0
+            },
+            "recovered": 0,
+            "lost": 0,
+            "extra_fp": 0,
+            "recovered_without_comment": 0
+          },
+          "imagemagick": {
+            "cutoff": 0.19651122391223907,
+            "base": {
+              "tp": 0,
+              "fp": 0,
+              "fn": 0,
+              "f1": 0.0
+            },
+            "candidate": {
+              "tp": 0,
+              "fp": 0,
+              "fn": 0,
+              "f1": 0.0
+            },
+            "recovered": 0,
+            "lost": 0,
+            "extra_fp": 0,
+            "recovered_without_comment": 0
+          },
+          "krb5": {
+            "cutoff": 0.05,
+            "base": {
+              "tp": 2,
+              "fp": 0,
+              "fn": 2,
+              "f1": 0.6666666666666666
+            },
+            "candidate": {
+              "tp": 2,
+              "fp": 0,
+              "fn": 2,
+              "f1": 0.6666666666666666
+            },
+            "recovered": 0,
+            "lost": 0,
+            "extra_fp": 0,
+            "recovered_without_comment": 0
+          },
+          "mozilla firefox": {
+            "cutoff": 0.3069581389427185,
+            "base": {
+              "tp": 120,
+              "fp": 0,
+              "fn": 15,
+              "f1": 0.9411764705882353
+            },
+            "candidate": {
+              "tp": 120,
+              "fp": 0,
+              "fn": 15,
+              "f1": 0.9411764705882353
+            },
+            "recovered": 0,
+            "lost": 0,
+            "extra_fp": 0,
+            "recovered_without_comment": 0
+          },
+          "php": {
+            "cutoff": 0.13176986575126648,
+            "base": {
+              "tp": 11,
+              "fp": 0,
+              "fn": 1,
+              "f1": 0.9565217391304348
+            },
+            "candidate": {
+              "tp": 11,
+              "fp": 0,
+              "fn": 1,
+              "f1": 0.9565217391304348
+            },
+            "recovered": 0,
+            "lost": 0,
+            "extra_fp": 0,
+            "recovered_without_comment": 0
+          },
+          "radare2": {
+            "cutoff": 0.1405693143606186,
+            "base": {
+              "tp": 15,
+              "fp": 0,
+              "fn": 3,
+              "f1": 0.9090909090909091
+            },
+            "candidate": {
+              "tp": 15,
+              "fp": 0,
+              "fn": 3,
+              "f1": 0.9090909090909091
+            },
+            "recovered": 0,
+            "lost": 0,
+            "extra_fp": 0,
+            "recovered_without_comment": 0
+          }
+        }
+      },
+      "ordered/contrast_half": {
+        "cutoff": 0.6051656007766724,
+        "frozen": {
+          "base": {
+            "tp": 181,
+            "fp": 0,
+            "fn": 23,
+            "f1": 0.9402597402597402
+          },
+          "candidate": {
+            "tp": 181,
+            "fp": 0,
+            "fn": 23,
+            "f1": 0.9402597402597402
+          },
+          "recovered": 0,
+          "lost": 0,
+          "extra_fp": 0,
+          "recovered_without_comment": 0
+        },
+        "matched": {
+          "base": {
+            "tp": 181,
+            "fp": 0,
+            "fn": 23,
+            "f1": 0.9402597402597402
+          },
+          "candidate": {
+            "tp": 181,
+            "fp": 0,
+            "fn": 23,
+            "f1": 0.9402597402597402
+          },
+          "recovered": 0,
+          "lost": 0,
+          "extra_fp": 0,
+          "recovered_without_comment": 0
+        },
+        "project": {
+          "android": {
+            "cutoff": 0.0592096745967865,
+            "base": {
+              "tp": 32,
+              "fp": 0,
+              "fn": 2,
+              "f1": 0.9696969696969697
+            },
+            "candidate": {
+              "tp": 32,
+              "fp": 0,
+              "fn": 2,
+              "f1": 0.9696969696969697
+            },
+            "recovered": 0,
+            "lost": 0,
+            "extra_fp": 0,
+            "recovered_without_comment": 0
+          },
+          "file": {
+            "cutoff": 0.05,
+            "base": {
+              "tp": 1,
+              "fp": 0,
+              "fn": 0,
+              "f1": 1.0
+            },
+            "candidate": {
+              "tp": 1,
+              "fp": 0,
+              "fn": 0,
+              "f1": 1.0
+            },
+            "recovered": 0,
+            "lost": 0,
+            "extra_fp": 0,
+            "recovered_without_comment": 0
+          },
+          "imagemagick": {
+            "cutoff": 0.09064523875713348,
+            "base": {
+              "tp": 0,
+              "fp": 0,
+              "fn": 0,
+              "f1": 0.0
+            },
+            "candidate": {
+              "tp": 0,
+              "fp": 0,
+              "fn": 0,
+              "f1": 0.0
+            },
+            "recovered": 0,
+            "lost": 0,
+            "extra_fp": 0,
+            "recovered_without_comment": 0
+          },
+          "krb5": {
+            "cutoff": 0.05,
+            "base": {
+              "tp": 2,
+              "fp": 0,
+              "fn": 2,
+              "f1": 0.6666666666666666
+            },
+            "candidate": {
+              "tp": 2,
+              "fp": 0,
+              "fn": 2,
+              "f1": 0.6666666666666666
+            },
+            "recovered": 0,
+            "lost": 0,
+            "extra_fp": 0,
+            "recovered_without_comment": 0
+          },
+          "mozilla firefox": {
+            "cutoff": 0.13849200308322906,
+            "base": {
+              "tp": 120,
+              "fp": 0,
+              "fn": 15,
+              "f1": 0.9411764705882353
+            },
+            "candidate": {
+              "tp": 120,
+              "fp": 0,
+              "fn": 15,
+              "f1": 0.9411764705882353
+            },
+            "recovered": 0,
+            "lost": 0,
+            "extra_fp": 0,
+            "recovered_without_comment": 0
+          },
+          "php": {
+            "cutoff": 0.05,
+            "base": {
+              "tp": 11,
+              "fp": 0,
+              "fn": 1,
+              "f1": 0.9565217391304348
+            },
+            "candidate": {
+              "tp": 11,
+              "fp": 0,
+              "fn": 1,
+              "f1": 0.9565217391304348
+            },
+            "recovered": 0,
+            "lost": 0,
+            "extra_fp": 0,
+            "recovered_without_comment": 0
+          },
+          "radare2": {
+            "cutoff": 0.05,
+            "base": {
+              "tp": 15,
+              "fp": 0,
+              "fn": 3,
+              "f1": 0.9090909090909091
+            },
+            "candidate": {
+              "tp": 15,
+              "fp": 0,
+              "fn": 3,
+              "f1": 0.9090909090909091
+            },
+            "recovered": 0,
+            "lost": 0,
+            "extra_fp": 0,
+            "recovered_without_comment": 0
+          }
+        }
+      },
+      "ordered/contrast": {
+        "cutoff": 0.49285703897476196,
+        "frozen": {
+          "base": {
+            "tp": 181,
+            "fp": 0,
+            "fn": 23,
+            "f1": 0.9402597402597402
+          },
+          "candidate": {
+            "tp": 181,
+            "fp": 0,
+            "fn": 23,
+            "f1": 0.9402597402597402
+          },
+          "recovered": 0,
+          "lost": 0,
+          "extra_fp": 0,
+          "recovered_without_comment": 0
+        },
+        "matched": {
+          "base": {
+            "tp": 181,
+            "fp": 0,
+            "fn": 23,
+            "f1": 0.9402597402597402
+          },
+          "candidate": {
+            "tp": 181,
+            "fp": 0,
+            "fn": 23,
+            "f1": 0.9402597402597402
+          },
+          "recovered": 0,
+          "lost": 0,
+          "extra_fp": 0,
+          "recovered_without_comment": 0
+        },
+        "project": {
+          "android": {
+            "cutoff": 0.05,
+            "base": {
+              "tp": 32,
+              "fp": 0,
+              "fn": 2,
+              "f1": 0.9696969696969697
+            },
+            "candidate": {
+              "tp": 32,
+              "fp": 0,
+              "fn": 2,
+              "f1": 0.9696969696969697
+            },
+            "recovered": 0,
+            "lost": 0,
+            "extra_fp": 0,
+            "recovered_without_comment": 0
+          },
+          "file": {
+            "cutoff": 0.05,
+            "base": {
+              "tp": 1,
+              "fp": 0,
+              "fn": 0,
+              "f1": 1.0
+            },
+            "candidate": {
+              "tp": 1,
+              "fp": 0,
+              "fn": 0,
+              "f1": 1.0
+            },
+            "recovered": 0,
+            "lost": 0,
+            "extra_fp": 0,
+            "recovered_without_comment": 0
+          },
+          "imagemagick": {
+            "cutoff": 0.05391883850097656,
+            "base": {
+              "tp": 0,
+              "fp": 0,
+              "fn": 0,
+              "f1": 0.0
+            },
+            "candidate": {
+              "tp": 0,
+              "fp": 0,
+              "fn": 0,
+              "f1": 0.0
+            },
+            "recovered": 0,
+            "lost": 0,
+            "extra_fp": 0,
+            "recovered_without_comment": 0
+          },
+          "krb5": {
+            "cutoff": 0.05,
+            "base": {
+              "tp": 2,
+              "fp": 0,
+              "fn": 2,
+              "f1": 0.6666666666666666
+            },
+            "candidate": {
+              "tp": 2,
+              "fp": 0,
+              "fn": 2,
+              "f1": 0.6666666666666666
+            },
+            "recovered": 0,
+            "lost": 0,
+            "extra_fp": 0,
+            "recovered_without_comment": 0
+          },
+          "mozilla firefox": {
+            "cutoff": 0.05,
+            "base": {
+              "tp": 120,
+              "fp": 0,
+              "fn": 15,
+              "f1": 0.9411764705882353
+            },
+            "candidate": {
+              "tp": 120,
+              "fp": 0,
+              "fn": 15,
+              "f1": 0.9411764705882353
+            },
+            "recovered": 0,
+            "lost": 0,
+            "extra_fp": 0,
+            "recovered_without_comment": 0
+          },
+          "php": {
+            "cutoff": 0.05,
+            "base": {
+              "tp": 11,
+              "fp": 0,
+              "fn": 1,
+              "f1": 0.9565217391304348
+            },
+            "candidate": {
+              "tp": 11,
+              "fp": 0,
+              "fn": 1,
+              "f1": 0.9565217391304348
+            },
+            "recovered": 0,
+            "lost": 0,
+            "extra_fp": 0,
+            "recovered_without_comment": 0
+          },
+          "radare2": {
+            "cutoff": 0.05,
+            "base": {
+              "tp": 15,
+              "fp": 0,
+              "fn": 3,
+              "f1": 0.9090909090909091
+            },
+            "candidate": {
+              "tp": 15,
+              "fp": 0,
+              "fn": 3,
+              "f1": 0.9090909090909091
+            },
+            "recovered": 0,
+            "lost": 0,
+            "extra_fp": 0,
+            "recovered_without_comment": 0
+          }
+        }
+      },
+      "ordered/consensus": {
+        "cutoff": 0.05,
+        "frozen": {
+          "base": {
+            "tp": 181,
+            "fp": 0,
+            "fn": 23,
+            "f1": 0.9402597402597402
+          },
+          "candidate": {
+            "tp": 181,
+            "fp": 0,
+            "fn": 23,
+            "f1": 0.9402597402597402
+          },
+          "recovered": 0,
+          "lost": 0,
+          "extra_fp": 0,
+          "recovered_without_comment": 0
+        },
+        "matched": {
+          "base": {
+            "tp": 181,
+            "fp": 0,
+            "fn": 23,
+            "f1": 0.9402597402597402
+          },
+          "candidate": {
+            "tp": 181,
+            "fp": 0,
+            "fn": 23,
+            "f1": 0.9402597402597402
+          },
+          "recovered": 0,
+          "lost": 0,
+          "extra_fp": 0,
+          "recovered_without_comment": 0
+        },
+        "project": {
+          "android": {
+            "cutoff": 0.05,
+            "base": {
+              "tp": 32,
+              "fp": 0,
+              "fn": 2,
+              "f1": 0.9696969696969697
+            },
+            "candidate": {
+              "tp": 32,
+              "fp": 0,
+              "fn": 2,
+              "f1": 0.9696969696969697
+            },
+            "recovered": 0,
+            "lost": 0,
+            "extra_fp": 0,
+            "recovered_without_comment": 0
+          },
+          "file": {
+            "cutoff": 0.05,
+            "base": {
+              "tp": 1,
+              "fp": 0,
+              "fn": 0,
+              "f1": 1.0
+            },
+            "candidate": {
+              "tp": 1,
+              "fp": 0,
+              "fn": 0,
+              "f1": 1.0
+            },
+            "recovered": 0,
+            "lost": 0,
+            "extra_fp": 0,
+            "recovered_without_comment": 0
+          },
+          "imagemagick": {
+            "cutoff": 0.05,
+            "base": {
+              "tp": 0,
+              "fp": 0,
+              "fn": 0,
+              "f1": 0.0
+            },
+            "candidate": {
+              "tp": 0,
+              "fp": 0,
+              "fn": 0,
+              "f1": 0.0
+            },
+            "recovered": 0,
+            "lost": 0,
+            "extra_fp": 0,
+            "recovered_without_comment": 0
+          },
+          "krb5": {
+            "cutoff": 0.05,
+            "base": {
+              "tp": 2,
+              "fp": 0,
+              "fn": 2,
+              "f1": 0.6666666666666666
+            },
+            "candidate": {
+              "tp": 2,
+              "fp": 0,
+              "fn": 2,
+              "f1": 0.6666666666666666
+            },
+            "recovered": 0,
+            "lost": 0,
+            "extra_fp": 0,
+            "recovered_without_comment": 0
+          },
+          "mozilla firefox": {
+            "cutoff": 0.05,
+            "base": {
+              "tp": 120,
+              "fp": 0,
+              "fn": 15,
+              "f1": 0.9411764705882353
+            },
+            "candidate": {
+              "tp": 120,
+              "fp": 0,
+              "fn": 15,
+              "f1": 0.9411764705882353
+            },
+            "recovered": 0,
+            "lost": 0,
+            "extra_fp": 0,
+            "recovered_without_comment": 0
+          },
+          "php": {
+            "cutoff": 0.05,
+            "base": {
+              "tp": 11,
+              "fp": 0,
+              "fn": 1,
+              "f1": 0.9565217391304348
+            },
+            "candidate": {
+              "tp": 11,
+              "fp": 0,
+              "fn": 1,
+              "f1": 0.9565217391304348
+            },
+            "recovered": 0,
+            "lost": 0,
+            "extra_fp": 0,
+            "recovered_without_comment": 0
+          },
+          "radare2": {
+            "cutoff": 0.05,
+            "base": {
+              "tp": 15,
+              "fp": 0,
+              "fn": 3,
+              "f1": 0.9090909090909091
+            },
+            "candidate": {
+              "tp": 15,
+              "fp": 0,
+              "fn": 3,
+              "f1": 0.9090909090909091
+            },
+            "recovered": 0,
+            "lost": 0,
+            "extra_fp": 0,
+            "recovered_without_comment": 0
+          }
+        }
+      },
+      "anchors/positive": {
+        "cutoff": 0.9354709386825562,
+        "frozen": {
+          "base": {
+            "tp": 181,
+            "fp": 0,
+            "fn": 23,
+            "f1": 0.9402597402597402
+          },
+          "candidate": {
+            "tp": 181,
+            "fp": 0,
+            "fn": 23,
+            "f1": 0.9402597402597402
+          },
+          "recovered": 0,
+          "lost": 0,
+          "extra_fp": 0,
+          "recovered_without_comment": 0
+        },
+        "matched": {
+          "base": {
+            "tp": 181,
+            "fp": 0,
+            "fn": 23,
+            "f1": 0.9402597402597402
+          },
+          "candidate": {
+            "tp": 181,
+            "fp": 0,
+            "fn": 23,
+            "f1": 0.9402597402597402
+          },
+          "recovered": 0,
+          "lost": 0,
+          "extra_fp": 0,
+          "recovered_without_comment": 0
+        },
+        "project": {
+          "android": {
+            "cutoff": 0.16270923614501953,
+            "base": {
+              "tp": 32,
+              "fp": 0,
+              "fn": 2,
+              "f1": 0.9696969696969697
+            },
+            "candidate": {
+              "tp": 32,
+              "fp": 0,
+              "fn": 2,
+              "f1": 0.9696969696969697
+            },
+            "recovered": 0,
+            "lost": 0,
+            "extra_fp": 0,
+            "recovered_without_comment": 0
+          },
+          "file": {
+            "cutoff": 0.0559009313583374,
+            "base": {
+              "tp": 1,
+              "fp": 0,
+              "fn": 0,
+              "f1": 1.0
+            },
+            "candidate": {
+              "tp": 1,
+              "fp": 0,
+              "fn": 0,
+              "f1": 1.0
+            },
+            "recovered": 0,
+            "lost": 0,
+            "extra_fp": 0,
+            "recovered_without_comment": 0
+          },
+          "imagemagick": {
+            "cutoff": 0.08948308974504471,
+            "base": {
+              "tp": 0,
+              "fp": 0,
+              "fn": 0,
+              "f1": 0.0
+            },
+            "candidate": {
+              "tp": 0,
+              "fp": 0,
+              "fn": 0,
+              "f1": 0.0
+            },
+            "recovered": 0,
+            "lost": 0,
+            "extra_fp": 0,
+            "recovered_without_comment": 0
+          },
+          "krb5": {
+            "cutoff": 0.07404521852731705,
+            "base": {
+              "tp": 2,
+              "fp": 0,
+              "fn": 2,
+              "f1": 0.6666666666666666
+            },
+            "candidate": {
+              "tp": 2,
+              "fp": 0,
+              "fn": 2,
+              "f1": 0.6666666666666666
+            },
+            "recovered": 0,
+            "lost": 0,
+            "extra_fp": 0,
+            "recovered_without_comment": 0
+          },
+          "mozilla firefox": {
+            "cutoff": 0.42273852229118347,
+            "base": {
+              "tp": 120,
+              "fp": 0,
+              "fn": 15,
+              "f1": 0.9411764705882353
+            },
+            "candidate": {
+              "tp": 120,
+              "fp": 0,
+              "fn": 15,
+              "f1": 0.9411764705882353
+            },
+            "recovered": 0,
+            "lost": 0,
+            "extra_fp": 0,
+            "recovered_without_comment": 0
+          },
+          "php": {
+            "cutoff": 0.10000798106193542,
+            "base": {
+              "tp": 11,
+              "fp": 0,
+              "fn": 1,
+              "f1": 0.9565217391304348
+            },
+            "candidate": {
+              "tp": 11,
+              "fp": 0,
+              "fn": 1,
+              "f1": 0.9565217391304348
+            },
+            "recovered": 0,
+            "lost": 0,
+            "extra_fp": 0,
+            "recovered_without_comment": 0
+          },
+          "radare2": {
+            "cutoff": 0.1274738907814026,
+            "base": {
+              "tp": 15,
+              "fp": 0,
+              "fn": 3,
+              "f1": 0.9090909090909091
+            },
+            "candidate": {
+              "tp": 15,
+              "fp": 0,
+              "fn": 3,
+              "f1": 0.9090909090909091
+            },
+            "recovered": 0,
+            "lost": 0,
+            "extra_fp": 0,
+            "recovered_without_comment": 0
+          }
+        }
+      },
+      "anchors/contrast_half": {
+        "cutoff": 0.5212562084197998,
+        "frozen": {
+          "base": {
+            "tp": 181,
+            "fp": 0,
+            "fn": 23,
+            "f1": 0.9402597402597402
+          },
+          "candidate": {
+            "tp": 181,
+            "fp": 0,
+            "fn": 23,
+            "f1": 0.9402597402597402
+          },
+          "recovered": 0,
+          "lost": 0,
+          "extra_fp": 0,
+          "recovered_without_comment": 0
+        },
+        "matched": {
+          "base": {
+            "tp": 181,
+            "fp": 0,
+            "fn": 23,
+            "f1": 0.9402597402597402
+          },
+          "candidate": {
+            "tp": 181,
+            "fp": 0,
+            "fn": 23,
+            "f1": 0.9402597402597402
+          },
+          "recovered": 0,
+          "lost": 0,
+          "extra_fp": 0,
+          "recovered_without_comment": 0
+        },
+        "project": {
+          "android": {
+            "cutoff": 0.06675119698047638,
+            "base": {
+              "tp": 32,
+              "fp": 0,
+              "fn": 2,
+              "f1": 0.9696969696969697
+            },
+            "candidate": {
+              "tp": 32,
+              "fp": 0,
+              "fn": 2,
+              "f1": 0.9696969696969697
+            },
+            "recovered": 0,
+            "lost": 0,
+            "extra_fp": 0,
+            "recovered_without_comment": 0
+          },
+          "file": {
+            "cutoff": 0.05,
+            "base": {
+              "tp": 1,
+              "fp": 0,
+              "fn": 0,
+              "f1": 1.0
+            },
+            "candidate": {
+              "tp": 1,
+              "fp": 0,
+              "fn": 0,
+              "f1": 1.0
+            },
+            "recovered": 0,
+            "lost": 0,
+            "extra_fp": 0,
+            "recovered_without_comment": 0
+          },
+          "imagemagick": {
+            "cutoff": 0.05,
+            "base": {
+              "tp": 0,
+              "fp": 0,
+              "fn": 0,
+              "f1": 0.0
+            },
+            "candidate": {
+              "tp": 0,
+              "fp": 0,
+              "fn": 0,
+              "f1": 0.0
+            },
+            "recovered": 0,
+            "lost": 0,
+            "extra_fp": 0,
+            "recovered_without_comment": 0
+          },
+          "krb5": {
+            "cutoff": 0.05,
+            "base": {
+              "tp": 2,
+              "fp": 0,
+              "fn": 2,
+              "f1": 0.6666666666666666
+            },
+            "candidate": {
+              "tp": 2,
+              "fp": 0,
+              "fn": 2,
+              "f1": 0.6666666666666666
+            },
+            "recovered": 0,
+            "lost": 0,
+            "extra_fp": 0,
+            "recovered_without_comment": 0
+          },
+          "mozilla firefox": {
+            "cutoff": 0.3284984230995178,
+            "base": {
+              "tp": 120,
+              "fp": 0,
+              "fn": 15,
+              "f1": 0.9411764705882353
+            },
+            "candidate": {
+              "tp": 120,
+              "fp": 0,
+              "fn": 15,
+              "f1": 0.9411764705882353
+            },
+            "recovered": 0,
+            "lost": 0,
+            "extra_fp": 0,
+            "recovered_without_comment": 0
+          },
+          "php": {
+            "cutoff": 0.052036359906196594,
+            "base": {
+              "tp": 11,
+              "fp": 0,
+              "fn": 1,
+              "f1": 0.9565217391304348
+            },
+            "candidate": {
+              "tp": 11,
+              "fp": 0,
+              "fn": 1,
+              "f1": 0.9565217391304348
+            },
+            "recovered": 0,
+            "lost": 0,
+            "extra_fp": 0,
+            "recovered_without_comment": 0
+          },
+          "radare2": {
+            "cutoff": 0.09861891716718674,
+            "base": {
+              "tp": 15,
+              "fp": 0,
+              "fn": 3,
+              "f1": 0.9090909090909091
+            },
+            "candidate": {
+              "tp": 15,
+              "fp": 0,
+              "fn": 3,
+              "f1": 0.9090909090909091
+            },
+            "recovered": 0,
+            "lost": 0,
+            "extra_fp": 0,
+            "recovered_without_comment": 0
+          }
+        }
+      },
+      "anchors/contrast": {
+        "cutoff": 0.4501728415489197,
+        "frozen": {
+          "base": {
+            "tp": 181,
+            "fp": 0,
+            "fn": 23,
+            "f1": 0.9402597402597402
+          },
+          "candidate": {
+            "tp": 181,
+            "fp": 0,
+            "fn": 23,
+            "f1": 0.9402597402597402
+          },
+          "recovered": 0,
+          "lost": 0,
+          "extra_fp": 0,
+          "recovered_without_comment": 0
+        },
+        "matched": {
+          "base": {
+            "tp": 181,
+            "fp": 0,
+            "fn": 23,
+            "f1": 0.9402597402597402
+          },
+          "candidate": {
+            "tp": 181,
+            "fp": 0,
+            "fn": 23,
+            "f1": 0.9402597402597402
+          },
+          "recovered": 0,
+          "lost": 0,
+          "extra_fp": 0,
+          "recovered_without_comment": 0
+        },
+        "project": {
+          "android": {
+            "cutoff": 0.05,
+            "base": {
+              "tp": 32,
+              "fp": 0,
+              "fn": 2,
+              "f1": 0.9696969696969697
+            },
+            "candidate": {
+              "tp": 32,
+              "fp": 0,
+              "fn": 2,
+              "f1": 0.9696969696969697
+            },
+            "recovered": 0,
+            "lost": 0,
+            "extra_fp": 0,
+            "recovered_without_comment": 0
+          },
+          "file": {
+            "cutoff": 0.05,
+            "base": {
+              "tp": 1,
+              "fp": 0,
+              "fn": 0,
+              "f1": 1.0
+            },
+            "candidate": {
+              "tp": 1,
+              "fp": 0,
+              "fn": 0,
+              "f1": 1.0
+            },
+            "recovered": 0,
+            "lost": 0,
+            "extra_fp": 0,
+            "recovered_without_comment": 0
+          },
+          "imagemagick": {
+            "cutoff": 0.05,
+            "base": {
+              "tp": 0,
+              "fp": 0,
+              "fn": 0,
+              "f1": 0.0
+            },
+            "candidate": {
+              "tp": 0,
+              "fp": 0,
+              "fn": 0,
+              "f1": 0.0
+            },
+            "recovered": 0,
+            "lost": 0,
+            "extra_fp": 0,
+            "recovered_without_comment": 0
+          },
+          "krb5": {
+            "cutoff": 0.05,
+            "base": {
+              "tp": 2,
+              "fp": 0,
+              "fn": 2,
+              "f1": 0.6666666666666666
+            },
+            "candidate": {
+              "tp": 2,
+              "fp": 0,
+              "fn": 2,
+              "f1": 0.6666666666666666
+            },
+            "recovered": 0,
+            "lost": 0,
+            "extra_fp": 0,
+            "recovered_without_comment": 0
+          },
+          "mozilla firefox": {
+            "cutoff": 0.23425832390785217,
+            "base": {
+              "tp": 120,
+              "fp": 0,
+              "fn": 15,
+              "f1": 0.9411764705882353
+            },
+            "candidate": {
+              "tp": 120,
+              "fp": 0,
+              "fn": 15,
+              "f1": 0.9411764705882353
+            },
+            "recovered": 0,
+            "lost": 0,
+            "extra_fp": 0,
+            "recovered_without_comment": 0
+          },
+          "php": {
+            "cutoff": 0.05,
+            "base": {
+              "tp": 11,
+              "fp": 0,
+              "fn": 1,
+              "f1": 0.9565217391304348
+            },
+            "candidate": {
+              "tp": 11,
+              "fp": 0,
+              "fn": 1,
+              "f1": 0.9565217391304348
+            },
+            "recovered": 0,
+            "lost": 0,
+            "extra_fp": 0,
+            "recovered_without_comment": 0
+          },
+          "radare2": {
+            "cutoff": 0.06976394355297089,
+            "base": {
+              "tp": 15,
+              "fp": 0,
+              "fn": 3,
+              "f1": 0.9090909090909091
+            },
+            "candidate": {
+              "tp": 15,
+              "fp": 0,
+              "fn": 3,
+              "f1": 0.9090909090909091
+            },
+            "recovered": 0,
+            "lost": 0,
+            "extra_fp": 0,
+            "recovered_without_comment": 0
+          }
+        }
+      },
+      "anchors/consensus": {
+        "cutoff": 0.05,
+        "frozen": {
+          "base": {
+            "tp": 181,
+            "fp": 0,
+            "fn": 23,
+            "f1": 0.9402597402597402
+          },
+          "candidate": {
+            "tp": 181,
+            "fp": 0,
+            "fn": 23,
+            "f1": 0.9402597402597402
+          },
+          "recovered": 0,
+          "lost": 0,
+          "extra_fp": 0,
+          "recovered_without_comment": 0
+        },
+        "matched": {
+          "base": {
+            "tp": 181,
+            "fp": 0,
+            "fn": 23,
+            "f1": 0.9402597402597402
+          },
+          "candidate": {
+            "tp": 181,
+            "fp": 0,
+            "fn": 23,
+            "f1": 0.9402597402597402
+          },
+          "recovered": 0,
+          "lost": 0,
+          "extra_fp": 0,
+          "recovered_without_comment": 0
+        },
+        "project": {
+          "android": {
+            "cutoff": 0.05,
+            "base": {
+              "tp": 32,
+              "fp": 0,
+              "fn": 2,
+              "f1": 0.9696969696969697
+            },
+            "candidate": {
+              "tp": 32,
+              "fp": 0,
+              "fn": 2,
+              "f1": 0.9696969696969697
+            },
+            "recovered": 0,
+            "lost": 0,
+            "extra_fp": 0,
+            "recovered_without_comment": 0
+          },
+          "file": {
+            "cutoff": 0.05,
+            "base": {
+              "tp": 1,
+              "fp": 0,
+              "fn": 0,
+              "f1": 1.0
+            },
+            "candidate": {
+              "tp": 1,
+              "fp": 0,
+              "fn": 0,
+              "f1": 1.0
+            },
+            "recovered": 0,
+            "lost": 0,
+            "extra_fp": 0,
+            "recovered_without_comment": 0
+          },
+          "imagemagick": {
+            "cutoff": 0.05,
+            "base": {
+              "tp": 0,
+              "fp": 0,
+              "fn": 0,
+              "f1": 0.0
+            },
+            "candidate": {
+              "tp": 0,
+              "fp": 0,
+              "fn": 0,
+              "f1": 0.0
+            },
+            "recovered": 0,
+            "lost": 0,
+            "extra_fp": 0,
+            "recovered_without_comment": 0
+          },
+          "krb5": {
+            "cutoff": 0.05,
+            "base": {
+              "tp": 2,
+              "fp": 0,
+              "fn": 2,
+              "f1": 0.6666666666666666
+            },
+            "candidate": {
+              "tp": 2,
+              "fp": 0,
+              "fn": 2,
+              "f1": 0.6666666666666666
+            },
+            "recovered": 0,
+            "lost": 0,
+            "extra_fp": 0,
+            "recovered_without_comment": 0
+          },
+          "mozilla firefox": {
+            "cutoff": 0.05,
+            "base": {
+              "tp": 120,
+              "fp": 0,
+              "fn": 15,
+              "f1": 0.9411764705882353
+            },
+            "candidate": {
+              "tp": 120,
+              "fp": 0,
+              "fn": 15,
+              "f1": 0.9411764705882353
+            },
+            "recovered": 0,
+            "lost": 0,
+            "extra_fp": 0,
+            "recovered_without_comment": 0
+          },
+          "php": {
+            "cutoff": 0.05,
+            "base": {
+              "tp": 11,
+              "fp": 0,
+              "fn": 1,
+              "f1": 0.9565217391304348
+            },
+            "candidate": {
+              "tp": 11,
+              "fp": 0,
+              "fn": 1,
+              "f1": 0.9565217391304348
+            },
+            "recovered": 0,
+            "lost": 0,
+            "extra_fp": 0,
+            "recovered_without_comment": 0
+          },
+          "radare2": {
+            "cutoff": 0.05,
+            "base": {
+              "tp": 15,
+              "fp": 0,
+              "fn": 3,
+              "f1": 0.9090909090909091
+            },
+            "candidate": {
+              "tp": 15,
+              "fp": 0,
+              "fn": 3,
+              "f1": 0.9090909090909091
+            },
+            "recovered": 0,
+            "lost": 0,
+            "extra_fp": 0,
+            "recovered_without_comment": 0
+          }
+        }
+      }
+    },
+    "predictions_sha256": "063cd8da64f05f2f79d658453ea1ee14964c32db3622aebd988b69a01cb46d12"
+  }
+}

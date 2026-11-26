@@ -1,0 +1,90 @@
+{
+  "selected": "baseline",
+  "methods": {
+    "untyped": {
+      "threshold": 0.4391770830598596,
+      "metrics": {
+        "base": {
+          "tp": 271,
+          "fp": 0,
+          "fn": 51,
+          "f1": 0.9139966273187183
+        },
+        "candidate": {
+          "tp": 271,
+          "fp": 0,
+          "fn": 51,
+          "f1": 0.9139966273187183
+        },
+        "recovered": 0,
+        "lost": 0,
+        "extra_fp": 0,
+        "recovered_with_comment": 0,
+        "recovered_without_comment": 0,
+        "baseline_missed_with_comment": 18,
+        "baseline_missed_without_comment": 33
+      },
+      "residual_ap": 0.005727411033670843,
+      "fit_rows": 151780
+    },
+    "by_role": {
+      "threshold": 0.5738047569055902,
+      "metrics": {
+        "base": {
+          "tp": 271,
+          "fp": 0,
+          "fn": 51,
+          "f1": 0.9139966273187183
+        },
+        "candidate": {
+          "tp": 271,
+          "fp": 0,
+          "fn": 51,
+          "f1": 0.9139966273187183
+        },
+        "recovered": 0,
+        "lost": 0,
+        "extra_fp": 0,
+        "recovered_with_comment": 0,
+        "recovered_without_comment": 0,
+        "baseline_missed_with_comment": 18,
+        "baseline_missed_without_comment": 33
+      },
+      "residual_ap": 0.0085948209089768,
+      "fit_rows": 151780
+    },
+    "by_role_erasure": {
+      "threshold": 0.6852193944309041,
+      "metrics": {
+        "base": {
+          "tp": 271,
+          "fp": 0,
+          "fn": 51,
+          "f1": 0.9139966273187183
+        },
+        "candidate": {
+          "tp": 271,
+          "fp": 0,
+          "fn": 51,
+          "f1": 0.9139966273187183
+        },
+        "recovered": 0,
+        "lost": 0,
+        "extra_fp": 0,
+        "recovered_with_comment": 0,
+        "recovered_without_comment": 0,
+        "baseline_missed_with_comment": 18,
+        "baseline_missed_without_comment": 33
+      },
+      "residual_ap": 0.007073059826381388,
+      "fit_rows": 153625
+    }
+  },
+  "fit_rows": 153628,
+  "dev_rows": 21797,
+  "train_data_sha256": "668a958c873060904e611bd3f45088acdbdb48631e6f626afda8ea7831fa6319",
+  "public_data_sha256": "4d5e1fcffa59d08ee3f285209c9538c425cd2723dbeefb2530e1520364a1b2b0",
+  "partition_sha256": "2823097d9b25fadebffcc6a3daa50034854d7a59c5df5c90d4e6d6d48231cfc9",
+  "code_sha256": "26e1c05bc2ddf2afd093806f088961f4d2ad74c1400a41870c55f87605f31a05",
+  "weights_sha256": "e22429bd6af73c1a70c8deba84861cea2bc45ee377b5396915fb2d5c182be56b"
+}

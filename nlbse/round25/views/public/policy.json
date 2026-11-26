@@ -1,0 +1,394 @@
+{
+  "selected": "regions_all_0.8_margin0.035",
+  "support": {
+    "regions_all_0.8_margin0.035": {
+      "cal": {
+        "before": {
+          "tp": 1,
+          "fp": 6,
+          "fn": 1,
+          "tn": 10
+        },
+        "after": {
+          "tp": 2,
+          "fp": 6,
+          "fn": 0,
+          "tn": 10
+        },
+        "delta_tp": 1,
+        "delta_fp": 0,
+        "f1_before": 0.2222222222222222,
+        "f1_after": 0.4
+      },
+      "cal_full": {
+        "before": {
+          "tp": 1340,
+          "fp": 100,
+          "fn": 48,
+          "tn": 2804
+        },
+        "after": {
+          "tp": 1341,
+          "fp": 100,
+          "fn": 47,
+          "tn": 2804
+        },
+        "delta_tp": 1,
+        "delta_fp": 0,
+        "f1_before": 0.9476661951909476,
+        "f1_after": 0.9480381760339343
+      },
+      "frozen": {
+        "before": {
+          "tp": 1332,
+          "fp": 111,
+          "fn": 51,
+          "tn": 2800
+        },
+        "after": {
+          "tp": 1330,
+          "fp": 108,
+          "fn": 53,
+          "tn": 2803
+        },
+        "delta_tp": -2,
+        "delta_fp": -3,
+        "f1_before": 0.9426751592356688,
+        "f1_after": 0.9429280397022333
+      },
+      "threshold": 0.26928537473226843,
+      "rows": 28,
+      "cal_rows": 18,
+      "region": "regions",
+      "branch": "all",
+      "damping": 0.8,
+      "distance": 0.035,
+      "cost": {
+        "sec": 0.002646025037392974,
+        "trials": [
+          0.0026921979151666164,
+          0.002643312094733119,
+          0.002646025037392974
+        ],
+        "nnz": 2397
+      },
+      "proxy": 0.0001078144767778747,
+      "project_tp": [
+        10,
+        1
+      ]
+    },
+    "segments_long_0.4_margin0.035": {
+      "cal": {
+        "before": {
+          "tp": 1,
+          "fp": 3,
+          "fn": 1,
+          "tn": 3
+        },
+        "after": {
+          "tp": 2,
+          "fp": 3,
+          "fn": 0,
+          "tn": 3
+        },
+        "delta_tp": 1,
+        "delta_fp": 0,
+        "f1_before": 0.3333333333333333,
+        "f1_after": 0.5714285714285714
+      },
+      "cal_full": {
+        "before": {
+          "tp": 1340,
+          "fp": 100,
+          "fn": 48,
+          "tn": 2804
+        },
+        "after": {
+          "tp": 1341,
+          "fp": 100,
+          "fn": 47,
+          "tn": 2804
+        },
+        "delta_tp": 1,
+        "delta_fp": 0,
+        "f1_before": 0.9476661951909476,
+        "f1_after": 0.9480381760339343
+      },
+      "frozen": {
+        "before": {
+          "tp": 1332,
+          "fp": 111,
+          "fn": 51,
+          "tn": 2800
+        },
+        "after": {
+          "tp": 1332,
+          "fp": 116,
+          "fn": 51,
+          "tn": 2795
+        },
+        "delta_tp": 0,
+        "delta_fp": 5,
+        "f1_before": 0.9426751592356688,
+        "f1_after": 0.9410102437301306
+      },
+      "threshold": 0.22824598836603854,
+      "rows": 18,
+      "cal_rows": 8,
+      "region": "segments",
+      "branch": "long",
+      "damping": 0.4,
+      "distance": 0.035,
+      "cost": {
+        "sec": 0.003966247895732522,
+        "trials": [
+          0.003966247895732522,
+          0.003938036039471626,
+          0.004034525016322732
+        ],
+        "nnz": 1837
+      },
+      "proxy": 0.00010592857701863275,
+      "project_tp": [
+        2,
+        1
+      ]
+    },
+    "segments_long_0.8_margin0.16": {
+      "cal": {
+        "before": {
+          "tp": 9,
+          "fp": 17,
+          "fn": 8,
+          "tn": 62
+        },
+        "after": {
+          "tp": 10,
+          "fp": 17,
+          "fn": 7,
+          "tn": 62
+        },
+        "delta_tp": 1,
+        "delta_fp": 0,
+        "f1_before": 0.4186046511627907,
+        "f1_after": 0.45454545454545453
+      },
+      "cal_full": {
+        "before": {
+          "tp": 1340,
+          "fp": 100,
+          "fn": 48,
+          "tn": 2804
+        },
+        "after": {
+          "tp": 1341,
+          "fp": 100,
+          "fn": 47,
+          "tn": 2804
+        },
+        "delta_tp": 1,
+        "delta_fp": 0,
+        "f1_before": 0.9476661951909476,
+        "f1_after": 0.9480381760339343
+      },
+      "frozen": {
+        "before": {
+          "tp": 1332,
+          "fp": 111,
+          "fn": 51,
+          "tn": 2800
+        },
+        "after": {
+          "tp": 1331,
+          "fp": 110,
+          "fn": 52,
+          "tn": 2801
+        },
+        "delta_tp": -1,
+        "delta_fp": -1,
+        "f1_before": 0.9426751592356688,
+        "f1_after": 0.9426345609065155
+      },
+      "threshold": 0.258269522261113,
+      "rows": 102,
+      "cal_rows": 96,
+      "region": "segments",
+      "branch": "long",
+      "damping": 0.8,
+      "distance": 0.16,
+      "cost": {
+        "sec": 0.04057079879567027,
+        "trials": [
+          0.0405694788787514,
+          0.04057079879567027,
+          0.040678405202925205
+        ],
+        "nnz": 23850
+      },
+      "proxy": 5.363997461498512e-05,
+      "project_tp": [
+        7,
+        3
+      ]
+    },
+    "segments_long_0.8_margin0.075": {
+      "cal": {
+        "before": {
+          "tp": 3,
+          "fp": 8,
+          "fn": 3,
+          "tn": 10
+        },
+        "after": {
+          "tp": 4,
+          "fp": 8,
+          "fn": 2,
+          "tn": 10
+        },
+        "delta_tp": 1,
+        "delta_fp": 0,
+        "f1_before": 0.35294117647058826,
+        "f1_after": 0.4444444444444444
+      },
+      "cal_full": {
+        "before": {
+          "tp": 1340,
+          "fp": 100,
+          "fn": 48,
+          "tn": 2804
+        },
+        "after": {
+          "tp": 1341,
+          "fp": 100,
+          "fn": 47,
+          "tn": 2804
+        },
+        "delta_tp": 1,
+        "delta_fp": 0,
+        "f1_before": 0.9476661951909476,
+        "f1_after": 0.9480381760339343
+      },
+      "frozen": {
+        "before": {
+          "tp": 1332,
+          "fp": 111,
+          "fn": 51,
+          "tn": 2800
+        },
+        "after": {
+          "tp": 1331,
+          "fp": 110,
+          "fn": 52,
+          "tn": 2801
+        },
+        "delta_tp": -1,
+        "delta_fp": -1,
+        "f1_before": 0.9426751592356688,
+        "f1_after": 0.9426345609065155
+      },
+      "threshold": 0.258269522261113,
+      "rows": 30,
+      "cal_rows": 24,
+      "region": "segments",
+      "branch": "long",
+      "damping": 0.8,
+      "distance": 0.075,
+      "cost": {
+        "sec": 0.01063800510019064,
+        "trials": [
+          0.01051600300706923,
+          0.01063800510019064,
+          0.012100656982511282
+        ],
+        "nnz": 5612
+      },
+      "proxy": 9.639815430663383e-05,
+      "project_tp": [
+        8,
+        3
+      ]
+    },
+    "segments_long_0.8_margin0.035": {
+      "cal": {
+        "before": {
+          "tp": 1,
+          "fp": 3,
+          "fn": 1,
+          "tn": 3
+        },
+        "after": {
+          "tp": 2,
+          "fp": 3,
+          "fn": 0,
+          "tn": 3
+        },
+        "delta_tp": 1,
+        "delta_fp": 0,
+        "f1_before": 0.3333333333333333,
+        "f1_after": 0.5714285714285714
+      },
+      "cal_full": {
+        "before": {
+          "tp": 1340,
+          "fp": 100,
+          "fn": 48,
+          "tn": 2804
+        },
+        "after": {
+          "tp": 1341,
+          "fp": 100,
+          "fn": 47,
+          "tn": 2804
+        },
+        "delta_tp": 1,
+        "delta_fp": 0,
+        "f1_before": 0.9476661951909476,
+        "f1_after": 0.9480381760339343
+      },
+      "frozen": {
+        "before": {
+          "tp": 1332,
+          "fp": 111,
+          "fn": 51,
+          "tn": 2800
+        },
+        "after": {
+          "tp": 1331,
+          "fp": 116,
+          "fn": 52,
+          "tn": 2795
+        },
+        "delta_tp": -1,
+        "delta_fp": 5,
+        "f1_before": 0.9426751592356688,
+        "f1_after": 0.9406360424028268
+      },
+      "threshold": 0.22600100764644251,
+      "rows": 18,
+      "cal_rows": 8,
+      "region": "segments",
+      "branch": "long",
+      "damping": 0.8,
+      "distance": 0.035,
+      "cost": {
+        "sec": 0.002907895017415285,
+        "trials": [
+          0.002907895017415285,
+          0.0027567509096115828,
+          0.0029115770012140274
+        ],
+        "nnz": 1837
+      },
+      "proxy": 0.00010744040402165302,
+      "project_tp": [
+        5,
+        0
+      ]
+    }
+  },
+  "length_cutoff": 523,
+  "source_policy_sha256": "57965154c87d16520daaeda154d1101a07a8fd8f6b0d64e2c1621b96c66a551a",
+  "calibrator_sha256": "bdaf91e4078f3a3585aa597d9ddaec073613af6eeeefb1facc646de344edf04f",
+  "scoped_source_sha256": "6009f7ca2ec612b490c582ea850c5a3cf9bef9df58b1627bfc0e09c397594b5f"
+}

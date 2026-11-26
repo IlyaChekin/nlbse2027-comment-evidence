@@ -1,0 +1,93 @@
+{
+  "tested": 216,
+  "eligible": 0,
+  "top": [
+    {
+      "key": "new/tree/0.28/0.35",
+      "method": "fixed",
+      "cal_f1": -0.0002883916870184411,
+      "review_f1": -0.0005384488441861901,
+      "cal_over": 0.0013827031118096578,
+      "a_tp": 14,
+      "b_tp": -17,
+      "a_fp": 24,
+      "b_fp": -38,
+      "eligible": false,
+      "cal_tp": 2,
+      "cal_fp": 3,
+      "held_tp": 5,
+      "held_fp": 7
+    },
+    {
+      "key": "new/tree/0.55/0.35",
+      "method": "fixed",
+      "cal_f1": -0.0002883916870184411,
+      "review_f1": -0.0005384488441861901,
+      "cal_over": 0.0013827031118096578,
+      "a_tp": 14,
+      "b_tp": -17,
+      "a_fp": 24,
+      "b_fp": -38,
+      "eligible": false,
+      "cal_tp": 2,
+      "cal_fp": 3,
+      "held_tp": 5,
+      "held_fp": 7
+    },
+    {
+      "key": "new/tree/1/0.35",
+      "method": "fixed",
+      "cal_f1": -0.0002883916870184411,
+      "review_f1": -0.0005384488441861901,
+      "cal_over": 0.0013827031118096578,
+      "a_tp": 14,
+      "b_tp": -17,
+      "a_fp": 24,
+      "b_fp": -38,
+      "eligible": false,
+      "cal_tp": 2,
+      "cal_fp": 3,
+      "held_tp": 5,
+      "held_fp": 7
+    },
+    {
+      "key": "new/ridge/0.12/0.7",
+      "method": "fixed",
+      "cal_f1": 0.0003470297726980709,
+      "review_f1": -0.0006970117148930033,
+      "cal_over": 0.0007523651367180584,
+      "a_tp": 73,
+      "b_tp": -3,
+      "a_fp": 6,
+      "b_fp": 11,
+      "eligible": false,
+      "cal_tp": 0,
+      "cal_fp": -1,
+      "held_tp": 0,
+      "held_fp": 2
+    },
+    {
+      "key": "new/ridge/0.12/0.7",
+      "method": "tp",
+      "cal_f1": 0.0003470297726980709,
+      "review_f1": -0.0006970117148930033,
+      "cal_over": 0.0003470297726980709,
+      "a_tp": 73,
+      "b_tp": -3,
+      "a_fp": 6,
+      "b_fp": 11,
+      "eligible": false,
+      "cal_tp": 0,
+      "cal_fp": -1,
+      "held_tp": 0,
+      "held_fp": 2
+    }
+  ],
+  "receipts": {
+    "test_a": "7424ea66f37785bef5d7bcfd2f096d408f58931bae783d4766390d66abd33b1b",
+    "test_b": "2b36579ab275069df05fc7305b9ddcbd9872e79240d11fbef3f52d81fa35eed7",
+    "official": "0a7f890ebfef22348b4f4b73ab232a187d716a7c82794e9b9f4d763b3e35b983"
+  },
+  "compare_sha256": "a857c0ec9bd7f5a8537629a5f2c5ff69464d0676efd946571f5018d25777f4d2",
+  "code_sha256": "83c0004ac8c4d9f341cc744bed7daaffdbadf92726f4a875689831cb1e6e3826"
+}

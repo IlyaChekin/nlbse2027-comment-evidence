@@ -1,0 +1,11 @@
+{
+  "rows": 143833,
+  "dimensions": 1536,
+  "layers": 12,
+  "cap": 384,
+  "seconds": 48.48546596686356,
+  "source_model_sha256": "e28385bb916434983692dfdd57f5c78c64f92d4a26614965d1e9d150b4a37145",
+  "cohort_sha256": "c5d74ea7f7e5ce182168c6a2b2172f4d06a57b53cfc67b61beecc9ae1a803f63",
+  "data_sha256": "190c6ef0d07da7145bb4409537b181fa34a26818b3c75dccb2f415dfaf47496a",
+  "rows_sha256": "4aec6d9e2d7c3e5fcaba48e2088a40b1e8509b17ee7746edc2c18d965d161353"
+}

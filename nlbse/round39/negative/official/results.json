@@ -1,0 +1,3200 @@
+{
+  "rotation": "official",
+  "rows": 49828,
+  "pairs": 2084,
+  "base_sha256": "7fa235f00f9895db39881f1d3c88287b28b15db6dcf84bf2563e450676f675f4",
+  "geometry_sha256": "7c24f4e06aebece9d6b98b2843f075a01d55587087c0ba5ead1f4a3be954d993",
+  "pairs_sha256": "9a736956406e632f82c2fa97a3475280fe3cf1e22f2fc73d9b7541dcb6b942d7",
+  "code_sha256": "17f1817b294ea12baff2d9e519171fab71d2be22add8448f41d0c61f36d248ee",
+  "predictions_sha256": "34d6891aa087744fff4ad953b10a18bb29648741be65e8469269aad61174d804",
+  "weights_sha256": "a83e8a752d0a868fb645697edad70842d4bd0536468d0c827dff27dca30ffcef",
+  "features_sha256": "190c6ef0d07da7145bb4409537b181fa34a26818b3c75dccb2f415dfaf47496a",
+  "diagnostics": {
+    "control": {
+      "pair_win": 0.6345098039215686,
+      "interval": [
+        0.6071907180209177,
+        0.6631251574657462
+      ],
+      "unique_positive": 850
+    },
+    "2_only": {
+      "pair_win": 0.5317647058823529,
+      "interval": [
+        0.5036795274700836,
+        0.5608486749294637
+      ],
+      "unique_positive": 850
+    },
+    "2_with_control": {
+      "pair_win": 0.6331372549019607,
+      "interval": [
+        0.6052420835121649,
+        0.6612650681341723
+      ],
+      "unique_positive": 850
+    },
+    "6_only": {
+      "pair_win": 0.5160784313725489,
+      "interval": [
+        0.4858473091364204,
+        0.546337168277674
+      ],
+      "unique_positive": 850
+    },
+    "6_with_control": {
+      "pair_win": 0.6454901960784313,
+      "interval": [
+        0.6178958112312783,
+        0.6744682419125683
+      ],
+      "unique_positive": 850
+    }
+  },
+  "options": {
+    "1.25/0.3/base": {
+      "fixed": {
+        "cal": {
+          "before": {
+            "tp": 1328,
+            "fp": 51,
+            "fn": 60,
+            "tn": 2853
+          },
+          "after": {
+            "tp": 1328,
+            "fp": 51,
+            "fn": 60,
+            "tn": 2853
+          },
+          "delta_tp": 0,
+          "delta_fp": 0,
+          "f1_before": 0.959884351282978,
+          "f1_after": 0.959884351282978,
+          "recovered": 0,
+          "lost": 0
+        },
+        "held": {
+          "before": {
+            "tp": 1313,
+            "fp": 48,
+            "fn": 70,
+            "tn": 2863
+          },
+          "after": {
+            "tp": 1313,
+            "fp": 48,
+            "fn": 70,
+            "tn": 2863
+          },
+          "delta_tp": 0,
+          "delta_fp": 0,
+          "f1_before": 0.956997084548105,
+          "f1_after": 0.956997084548105,
+          "recovered": 0,
+          "lost": 0
+        },
+        "cut": 0.0
+      },
+      "fp": {
+        "cal": {
+          "before": {
+            "tp": 1328,
+            "fp": 51,
+            "fn": 60,
+            "tn": 2853
+          },
+          "after": {
+            "tp": 1328,
+            "fp": 51,
+            "fn": 60,
+            "tn": 2853
+          },
+          "delta_tp": 0,
+          "delta_fp": 0,
+          "f1_before": 0.959884351282978,
+          "f1_after": 0.959884351282978,
+          "recovered": 0,
+          "lost": 0
+        },
+        "held": {
+          "before": {
+            "tp": 1313,
+            "fp": 48,
+            "fn": 70,
+            "tn": 2863
+          },
+          "after": {
+            "tp": 1313,
+            "fp": 48,
+            "fn": 70,
+            "tn": 2863
+          },
+          "delta_tp": 0,
+          "delta_fp": 0,
+          "f1_before": 0.956997084548105,
+          "f1_after": 0.956997084548105,
+          "recovered": 0,
+          "lost": 0
+        },
+        "cut": -0.05574590823126402
+      },
+      "tp": {
+        "cal": {
+          "before": {
+            "tp": 1328,
+            "fp": 51,
+            "fn": 60,
+            "tn": 2853
+          },
+          "after": {
+            "tp": 1328,
+            "fp": 51,
+            "fn": 60,
+            "tn": 2853
+          },
+          "delta_tp": 0,
+          "delta_fp": 0,
+          "f1_before": 0.959884351282978,
+          "f1_after": 0.959884351282978,
+          "recovered": 0,
+          "lost": 0
+        },
+        "held": {
+          "before": {
+            "tp": 1313,
+            "fp": 48,
+            "fn": 70,
+            "tn": 2863
+          },
+          "after": {
+            "tp": 1313,
+            "fp": 48,
+            "fn": 70,
+            "tn": 2863
+          },
+          "delta_tp": 0,
+          "delta_fp": 0,
+          "f1_before": 0.956997084548105,
+          "f1_after": 0.956997084548105,
+          "recovered": 0,
+          "lost": 0
+        },
+        "cut": 5.551115123125782e-17
+      }
+    },
+    "1.25/0.3/teacher": {
+      "fixed": {
+        "cal": {
+          "before": {
+            "tp": 1328,
+            "fp": 51,
+            "fn": 60,
+            "tn": 2853
+          },
+          "after": {
+            "tp": 1328,
+            "fp": 51,
+            "fn": 60,
+            "tn": 2853
+          },
+          "delta_tp": 0,
+          "delta_fp": 0,
+          "f1_before": 0.959884351282978,
+          "f1_after": 0.959884351282978,
+          "recovered": 0,
+          "lost": 0
+        },
+        "held": {
+          "before": {
+            "tp": 1313,
+            "fp": 48,
+            "fn": 70,
+            "tn": 2863
+          },
+          "after": {
+            "tp": 1313,
+            "fp": 48,
+            "fn": 70,
+            "tn": 2863
+          },
+          "delta_tp": 0,
+          "delta_fp": 0,
+          "f1_before": 0.956997084548105,
+          "f1_after": 0.956997084548105,
+          "recovered": 0,
+          "lost": 0
+        },
+        "cut": 0.0
+      },
+      "fp": {
+        "cal": {
+          "before": {
+            "tp": 1328,
+            "fp": 51,
+            "fn": 60,
+            "tn": 2853
+          },
+          "after": {
+            "tp": 1328,
+            "fp": 51,
+            "fn": 60,
+            "tn": 2853
+          },
+          "delta_tp": 0,
+          "delta_fp": 0,
+          "f1_before": 0.959884351282978,
+          "f1_after": 0.959884351282978,
+          "recovered": 0,
+          "lost": 0
+        },
+        "held": {
+          "before": {
+            "tp": 1313,
+            "fp": 48,
+            "fn": 70,
+            "tn": 2863
+          },
+          "after": {
+            "tp": 1313,
+            "fp": 49,
+            "fn": 70,
+            "tn": 2862
+          },
+          "delta_tp": 0,
+          "delta_fp": 1,
+          "f1_before": 0.956997084548105,
+          "f1_after": 0.9566484517304189,
+          "recovered": 0,
+          "lost": 0
+        },
+        "cut": -0.21870825242070455
+      },
+      "tp": {
+        "cal": {
+          "before": {
+            "tp": 1328,
+            "fp": 51,
+            "fn": 60,
+            "tn": 2853
+          },
+          "after": {
+            "tp": 1328,
+            "fp": 51,
+            "fn": 60,
+            "tn": 2853
+          },
+          "delta_tp": 0,
+          "delta_fp": 0,
+          "f1_before": 0.959884351282978,
+          "f1_after": 0.959884351282978,
+          "recovered": 0,
+          "lost": 0
+        },
+        "held": {
+          "before": {
+            "tp": 1313,
+            "fp": 48,
+            "fn": 70,
+            "tn": 2863
+          },
+          "after": {
+            "tp": 1313,
+            "fp": 48,
+            "fn": 70,
+            "tn": 2863
+          },
+          "delta_tp": 0,
+          "delta_fp": 0,
+          "f1_before": 0.956997084548105,
+          "f1_after": 0.956997084548105,
+          "recovered": 0,
+          "lost": 0
+        },
+        "cut": 5.551115123125782e-17
+      }
+    },
+    "1.25/0.3/prototype": {
+      "fixed": {
+        "cal": {
+          "before": {
+            "tp": 1328,
+            "fp": 51,
+            "fn": 60,
+            "tn": 2853
+          },
+          "after": {
+            "tp": 1328,
+            "fp": 51,
+            "fn": 60,
+            "tn": 2853
+          },
+          "delta_tp": 0,
+          "delta_fp": 0,
+          "f1_before": 0.959884351282978,
+          "f1_after": 0.959884351282978,
+          "recovered": 0,
+          "lost": 0
+        },
+        "held": {
+          "before": {
+            "tp": 1313,
+            "fp": 48,
+            "fn": 70,
+            "tn": 2863
+          },
+          "after": {
+            "tp": 1313,
+            "fp": 48,
+            "fn": 70,
+            "tn": 2863
+          },
+          "delta_tp": 0,
+          "delta_fp": 0,
+          "f1_before": 0.956997084548105,
+          "f1_after": 0.956997084548105,
+          "recovered": 0,
+          "lost": 0
+        },
+        "cut": 0.0
+      },
+      "fp": {
+        "cal": {
+          "before": {
+            "tp": 1328,
+            "fp": 51,
+            "fn": 60,
+            "tn": 2853
+          },
+          "after": {
+            "tp": 1328,
+            "fp": 51,
+            "fn": 60,
+            "tn": 2853
+          },
+          "delta_tp": 0,
+          "delta_fp": 0,
+          "f1_before": 0.959884351282978,
+          "f1_after": 0.959884351282978,
+          "recovered": 0,
+          "lost": 0
+        },
+        "held": {
+          "before": {
+            "tp": 1313,
+            "fp": 48,
+            "fn": 70,
+            "tn": 2863
+          },
+          "after": {
+            "tp": 1313,
+            "fp": 48,
+            "fn": 70,
+            "tn": 2863
+          },
+          "delta_tp": 0,
+          "delta_fp": 0,
+          "f1_before": 0.956997084548105,
+          "f1_after": 0.956997084548105,
+          "recovered": 0,
+          "lost": 0
+        },
+        "cut": -0.057178636256301874
+      },
+      "tp": {
+        "cal": {
+          "before": {
+            "tp": 1328,
+            "fp": 51,
+            "fn": 60,
+            "tn": 2853
+          },
+          "after": {
+            "tp": 1328,
+            "fp": 51,
+            "fn": 60,
+            "tn": 2853
+          },
+          "delta_tp": 0,
+          "delta_fp": 0,
+          "f1_before": 0.959884351282978,
+          "f1_after": 0.959884351282978,
+          "recovered": 0,
+          "lost": 0
+        },
+        "held": {
+          "before": {
+            "tp": 1313,
+            "fp": 48,
+            "fn": 70,
+            "tn": 2863
+          },
+          "after": {
+            "tp": 1313,
+            "fp": 48,
+            "fn": 70,
+            "tn": 2863
+          },
+          "delta_tp": 0,
+          "delta_fp": 0,
+          "f1_before": 0.956997084548105,
+          "f1_after": 0.956997084548105,
+          "recovered": 0,
+          "lost": 0
+        },
+        "cut": 5.551115123125782e-17
+      }
+    },
+    "1.25/0.3/both": {
+      "fixed": {
+        "cal": {
+          "before": {
+            "tp": 1328,
+            "fp": 51,
+            "fn": 60,
+            "tn": 2853
+          },
+          "after": {
+            "tp": 1328,
+            "fp": 51,
+            "fn": 60,
+            "tn": 2853
+          },
+          "delta_tp": 0,
+          "delta_fp": 0,
+          "f1_before": 0.959884351282978,
+          "f1_after": 0.959884351282978,
+          "recovered": 0,
+          "lost": 0
+        },
+        "held": {
+          "before": {
+            "tp": 1313,
+            "fp": 48,
+            "fn": 70,
+            "tn": 2863
+          },
+          "after": {
+            "tp": 1313,
+            "fp": 48,
+            "fn": 70,
+            "tn": 2863
+          },
+          "delta_tp": 0,
+          "delta_fp": 0,
+          "f1_before": 0.956997084548105,
+          "f1_after": 0.956997084548105,
+          "recovered": 0,
+          "lost": 0
+        },
+        "cut": 0.0
+      },
+      "fp": {
+        "cal": {
+          "before": {
+            "tp": 1328,
+            "fp": 51,
+            "fn": 60,
+            "tn": 2853
+          },
+          "after": {
+            "tp": 1328,
+            "fp": 51,
+            "fn": 60,
+            "tn": 2853
+          },
+          "delta_tp": 0,
+          "delta_fp": 0,
+          "f1_before": 0.959884351282978,
+          "f1_after": 0.959884351282978,
+          "recovered": 0,
+          "lost": 0
+        },
+        "held": {
+          "before": {
+            "tp": 1313,
+            "fp": 48,
+            "fn": 70,
+            "tn": 2863
+          },
+          "after": {
+            "tp": 1313,
+            "fp": 50,
+            "fn": 70,
+            "tn": 2861
+          },
+          "delta_tp": 0,
+          "delta_fp": 2,
+          "f1_before": 0.956997084548105,
+          "f1_after": 0.956300072833212,
+          "recovered": 0,
+          "lost": 0
+        },
+        "cut": -0.2282029089839402
+      },
+      "tp": {
+        "cal": {
+          "before": {
+            "tp": 1328,
+            "fp": 51,
+            "fn": 60,
+            "tn": 2853
+          },
+          "after": {
+            "tp": 1328,
+            "fp": 51,
+            "fn": 60,
+            "tn": 2853
+          },
+          "delta_tp": 0,
+          "delta_fp": 0,
+          "f1_before": 0.959884351282978,
+          "f1_after": 0.959884351282978,
+          "recovered": 0,
+          "lost": 0
+        },
+        "held": {
+          "before": {
+            "tp": 1313,
+            "fp": 48,
+            "fn": 70,
+            "tn": 2863
+          },
+          "after": {
+            "tp": 1313,
+            "fp": 48,
+            "fn": 70,
+            "tn": 2863
+          },
+          "delta_tp": 0,
+          "delta_fp": 0,
+          "f1_before": 0.956997084548105,
+          "f1_after": 0.956997084548105,
+          "recovered": 0,
+          "lost": 0
+        },
+        "cut": 5.551115123125782e-17
+      }
+    },
+    "1.25/0.7/base": {
+      "fixed": {
+        "cal": {
+          "before": {
+            "tp": 1328,
+            "fp": 51,
+            "fn": 60,
+            "tn": 2853
+          },
+          "after": {
+            "tp": 1329,
+            "fp": 52,
+            "fn": 59,
+            "tn": 2852
+          },
+          "delta_tp": 1,
+          "delta_fp": 1,
+          "f1_before": 0.959884351282978,
+          "f1_after": 0.9599133261105092,
+          "recovered": 1,
+          "lost": 0
+        },
+        "held": {
+          "before": {
+            "tp": 1313,
+            "fp": 48,
+            "fn": 70,
+            "tn": 2863
+          },
+          "after": {
+            "tp": 1313,
+            "fp": 49,
+            "fn": 70,
+            "tn": 2862
+          },
+          "delta_tp": 0,
+          "delta_fp": 1,
+          "f1_before": 0.956997084548105,
+          "f1_after": 0.9566484517304189,
+          "recovered": 0,
+          "lost": 0
+        },
+        "cut": 0.0
+      },
+      "fp": {
+        "cal": {
+          "before": {
+            "tp": 1328,
+            "fp": 51,
+            "fn": 60,
+            "tn": 2853
+          },
+          "after": {
+            "tp": 1324,
+            "fp": 51,
+            "fn": 64,
+            "tn": 2853
+          },
+          "delta_tp": -4,
+          "delta_fp": 0,
+          "f1_before": 0.959884351282978,
+          "f1_after": 0.9583785740137531,
+          "recovered": 0,
+          "lost": 4
+        },
+        "held": {
+          "before": {
+            "tp": 1313,
+            "fp": 48,
+            "fn": 70,
+            "tn": 2863
+          },
+          "after": {
+            "tp": 1309,
+            "fp": 48,
+            "fn": 74,
+            "tn": 2863
+          },
+          "delta_tp": -4,
+          "delta_fp": 0,
+          "f1_before": 0.956997084548105,
+          "f1_after": 0.9554744525547445,
+          "recovered": 0,
+          "lost": 4
+        },
+        "cut": 0.3857532905167088
+      },
+      "tp": {
+        "cal": {
+          "before": {
+            "tp": 1328,
+            "fp": 51,
+            "fn": 60,
+            "tn": 2853
+          },
+          "after": {
+            "tp": 1328,
+            "fp": 52,
+            "fn": 60,
+            "tn": 2852
+          },
+          "delta_tp": 0,
+          "delta_fp": 1,
+          "f1_before": 0.959884351282978,
+          "f1_after": 0.9595375722543352,
+          "recovered": 1,
+          "lost": 1
+        },
+        "held": {
+          "before": {
+            "tp": 1313,
+            "fp": 48,
+            "fn": 70,
+            "tn": 2863
+          },
+          "after": {
+            "tp": 1313,
+            "fp": 49,
+            "fn": 70,
+            "tn": 2862
+          },
+          "delta_tp": 0,
+          "delta_fp": 1,
+          "f1_before": 0.956997084548105,
+          "f1_after": 0.9566484517304189,
+          "recovered": 0,
+          "lost": 0
+        },
+        "cut": 0.004402258819884069
+      }
+    },
+    "1.25/0.7/teacher": {
+      "fixed": {
+        "cal": {
+          "before": {
+            "tp": 1328,
+            "fp": 51,
+            "fn": 60,
+            "tn": 2853
+          },
+          "after": {
+            "tp": 1328,
+            "fp": 52,
+            "fn": 60,
+            "tn": 2852
+          },
+          "delta_tp": 0,
+          "delta_fp": 1,
+          "f1_before": 0.959884351282978,
+          "f1_after": 0.9595375722543352,
+          "recovered": 0,
+          "lost": 0
+        },
+        "held": {
+          "before": {
+            "tp": 1313,
+            "fp": 48,
+            "fn": 70,
+            "tn": 2863
+          },
+          "after": {
+            "tp": 1313,
+            "fp": 49,
+            "fn": 70,
+            "tn": 2862
+          },
+          "delta_tp": 0,
+          "delta_fp": 1,
+          "f1_before": 0.956997084548105,
+          "f1_after": 0.9566484517304189,
+          "recovered": 0,
+          "lost": 0
+        },
+        "cut": 0.0
+      },
+      "fp": {
+        "cal": {
+          "before": {
+            "tp": 1328,
+            "fp": 51,
+            "fn": 60,
+            "tn": 2853
+          },
+          "after": {
+            "tp": 1327,
+            "fp": 51,
+            "fn": 61,
+            "tn": 2853
+          },
+          "delta_tp": -1,
+          "delta_fp": 0,
+          "f1_before": 0.959884351282978,
+          "f1_after": 0.9595083152566883,
+          "recovered": 0,
+          "lost": 1
+        },
+        "held": {
+          "before": {
+            "tp": 1313,
+            "fp": 48,
+            "fn": 70,
+            "tn": 2863
+          },
+          "after": {
+            "tp": 1313,
+            "fp": 49,
+            "fn": 70,
+            "tn": 2862
+          },
+          "delta_tp": 0,
+          "delta_fp": 1,
+          "f1_before": 0.956997084548105,
+          "f1_after": 0.9566484517304189,
+          "recovered": 0,
+          "lost": 0
+        },
+        "cut": 0.005507820741347563
+      },
+      "tp": {
+        "cal": {
+          "before": {
+            "tp": 1328,
+            "fp": 51,
+            "fn": 60,
+            "tn": 2853
+          },
+          "after": {
+            "tp": 1328,
+            "fp": 52,
+            "fn": 60,
+            "tn": 2852
+          },
+          "delta_tp": 0,
+          "delta_fp": 1,
+          "f1_before": 0.959884351282978,
+          "f1_after": 0.9595375722543352,
+          "recovered": 0,
+          "lost": 0
+        },
+        "held": {
+          "before": {
+            "tp": 1313,
+            "fp": 48,
+            "fn": 70,
+            "tn": 2863
+          },
+          "after": {
+            "tp": 1313,
+            "fp": 49,
+            "fn": 70,
+            "tn": 2862
+          },
+          "delta_tp": 0,
+          "delta_fp": 1,
+          "f1_before": 0.956997084548105,
+          "f1_after": 0.9566484517304189,
+          "recovered": 0,
+          "lost": 0
+        },
+        "cut": 5.551115123125782e-17
+      }
+    },
+    "1.25/0.7/prototype": {
+      "fixed": {
+        "cal": {
+          "before": {
+            "tp": 1328,
+            "fp": 51,
+            "fn": 60,
+            "tn": 2853
+          },
+          "after": {
+            "tp": 1328,
+            "fp": 52,
+            "fn": 60,
+            "tn": 2852
+          },
+          "delta_tp": 0,
+          "delta_fp": 1,
+          "f1_before": 0.959884351282978,
+          "f1_after": 0.9595375722543352,
+          "recovered": 0,
+          "lost": 0
+        },
+        "held": {
+          "before": {
+            "tp": 1313,
+            "fp": 48,
+            "fn": 70,
+            "tn": 2863
+          },
+          "after": {
+            "tp": 1313,
+            "fp": 49,
+            "fn": 70,
+            "tn": 2862
+          },
+          "delta_tp": 0,
+          "delta_fp": 1,
+          "f1_before": 0.956997084548105,
+          "f1_after": 0.9566484517304189,
+          "recovered": 0,
+          "lost": 0
+        },
+        "cut": 0.0
+      },
+      "fp": {
+        "cal": {
+          "before": {
+            "tp": 1328,
+            "fp": 51,
+            "fn": 60,
+            "tn": 2853
+          },
+          "after": {
+            "tp": 1324,
+            "fp": 51,
+            "fn": 64,
+            "tn": 2853
+          },
+          "delta_tp": -4,
+          "delta_fp": 0,
+          "f1_before": 0.959884351282978,
+          "f1_after": 0.9583785740137531,
+          "recovered": 0,
+          "lost": 4
+        },
+        "held": {
+          "before": {
+            "tp": 1313,
+            "fp": 48,
+            "fn": 70,
+            "tn": 2863
+          },
+          "after": {
+            "tp": 1309,
+            "fp": 48,
+            "fn": 74,
+            "tn": 2863
+          },
+          "delta_tp": -4,
+          "delta_fp": 0,
+          "f1_before": 0.956997084548105,
+          "f1_after": 0.9554744525547445,
+          "recovered": 0,
+          "lost": 4
+        },
+        "cut": 0.38241025845828713
+      },
+      "tp": {
+        "cal": {
+          "before": {
+            "tp": 1328,
+            "fp": 51,
+            "fn": 60,
+            "tn": 2853
+          },
+          "after": {
+            "tp": 1328,
+            "fp": 52,
+            "fn": 60,
+            "tn": 2852
+          },
+          "delta_tp": 0,
+          "delta_fp": 1,
+          "f1_before": 0.959884351282978,
+          "f1_after": 0.9595375722543352,
+          "recovered": 0,
+          "lost": 0
+        },
+        "held": {
+          "before": {
+            "tp": 1313,
+            "fp": 48,
+            "fn": 70,
+            "tn": 2863
+          },
+          "after": {
+            "tp": 1313,
+            "fp": 49,
+            "fn": 70,
+            "tn": 2862
+          },
+          "delta_tp": 0,
+          "delta_fp": 1,
+          "f1_before": 0.956997084548105,
+          "f1_after": 0.9566484517304189,
+          "recovered": 0,
+          "lost": 0
+        },
+        "cut": 5.551115123125782e-17
+      }
+    },
+    "1.25/0.7/both": {
+      "fixed": {
+        "cal": {
+          "before": {
+            "tp": 1328,
+            "fp": 51,
+            "fn": 60,
+            "tn": 2853
+          },
+          "after": {
+            "tp": 1328,
+            "fp": 51,
+            "fn": 60,
+            "tn": 2853
+          },
+          "delta_tp": 0,
+          "delta_fp": 0,
+          "f1_before": 0.959884351282978,
+          "f1_after": 0.959884351282978,
+          "recovered": 0,
+          "lost": 0
+        },
+        "held": {
+          "before": {
+            "tp": 1313,
+            "fp": 48,
+            "fn": 70,
+            "tn": 2863
+          },
+          "after": {
+            "tp": 1313,
+            "fp": 49,
+            "fn": 70,
+            "tn": 2862
+          },
+          "delta_tp": 0,
+          "delta_fp": 1,
+          "f1_before": 0.956997084548105,
+          "f1_after": 0.9566484517304189,
+          "recovered": 0,
+          "lost": 0
+        },
+        "cut": 0.0
+      },
+      "fp": {
+        "cal": {
+          "before": {
+            "tp": 1328,
+            "fp": 51,
+            "fn": 60,
+            "tn": 2853
+          },
+          "after": {
+            "tp": 1328,
+            "fp": 51,
+            "fn": 60,
+            "tn": 2853
+          },
+          "delta_tp": 0,
+          "delta_fp": 0,
+          "f1_before": 0.959884351282978,
+          "f1_after": 0.959884351282978,
+          "recovered": 0,
+          "lost": 0
+        },
+        "held": {
+          "before": {
+            "tp": 1313,
+            "fp": 48,
+            "fn": 70,
+            "tn": 2863
+          },
+          "after": {
+            "tp": 1313,
+            "fp": 49,
+            "fn": 70,
+            "tn": 2862
+          },
+          "delta_tp": 0,
+          "delta_fp": 1,
+          "f1_before": 0.956997084548105,
+          "f1_after": 0.9566484517304189,
+          "recovered": 0,
+          "lost": 0
+        },
+        "cut": -0.016646377906202228
+      },
+      "tp": {
+        "cal": {
+          "before": {
+            "tp": 1328,
+            "fp": 51,
+            "fn": 60,
+            "tn": 2853
+          },
+          "after": {
+            "tp": 1328,
+            "fp": 51,
+            "fn": 60,
+            "tn": 2853
+          },
+          "delta_tp": 0,
+          "delta_fp": 0,
+          "f1_before": 0.959884351282978,
+          "f1_after": 0.959884351282978,
+          "recovered": 0,
+          "lost": 0
+        },
+        "held": {
+          "before": {
+            "tp": 1313,
+            "fp": 48,
+            "fn": 70,
+            "tn": 2863
+          },
+          "after": {
+            "tp": 1313,
+            "fp": 49,
+            "fn": 70,
+            "tn": 2862
+          },
+          "delta_tp": 0,
+          "delta_fp": 1,
+          "f1_before": 0.956997084548105,
+          "f1_after": 0.9566484517304189,
+          "recovered": 0,
+          "lost": 0
+        },
+        "cut": 5.551115123125782e-17
+      }
+    },
+    "3.8/0.3/base": {
+      "fixed": {
+        "cal": {
+          "before": {
+            "tp": 1328,
+            "fp": 51,
+            "fn": 60,
+            "tn": 2853
+          },
+          "after": {
+            "tp": 1328,
+            "fp": 51,
+            "fn": 60,
+            "tn": 2853
+          },
+          "delta_tp": 0,
+          "delta_fp": 0,
+          "f1_before": 0.959884351282978,
+          "f1_after": 0.959884351282978,
+          "recovered": 0,
+          "lost": 0
+        },
+        "held": {
+          "before": {
+            "tp": 1313,
+            "fp": 48,
+            "fn": 70,
+            "tn": 2863
+          },
+          "after": {
+            "tp": 1313,
+            "fp": 48,
+            "fn": 70,
+            "tn": 2863
+          },
+          "delta_tp": 0,
+          "delta_fp": 0,
+          "f1_before": 0.956997084548105,
+          "f1_after": 0.956997084548105,
+          "recovered": 0,
+          "lost": 0
+        },
+        "cut": 0.0
+      },
+      "fp": {
+        "cal": {
+          "before": {
+            "tp": 1328,
+            "fp": 51,
+            "fn": 60,
+            "tn": 2853
+          },
+          "after": {
+            "tp": 1328,
+            "fp": 51,
+            "fn": 60,
+            "tn": 2853
+          },
+          "delta_tp": 0,
+          "delta_fp": 0,
+          "f1_before": 0.959884351282978,
+          "f1_after": 0.959884351282978,
+          "recovered": 0,
+          "lost": 0
+        },
+        "held": {
+          "before": {
+            "tp": 1313,
+            "fp": 48,
+            "fn": 70,
+            "tn": 2863
+          },
+          "after": {
+            "tp": 1313,
+            "fp": 48,
+            "fn": 70,
+            "tn": 2863
+          },
+          "delta_tp": 0,
+          "delta_fp": 0,
+          "f1_before": 0.956997084548105,
+          "f1_after": 0.956997084548105,
+          "recovered": 0,
+          "lost": 0
+        },
+        "cut": -0.05574590823126402
+      },
+      "tp": {
+        "cal": {
+          "before": {
+            "tp": 1328,
+            "fp": 51,
+            "fn": 60,
+            "tn": 2853
+          },
+          "after": {
+            "tp": 1328,
+            "fp": 51,
+            "fn": 60,
+            "tn": 2853
+          },
+          "delta_tp": 0,
+          "delta_fp": 0,
+          "f1_before": 0.959884351282978,
+          "f1_after": 0.959884351282978,
+          "recovered": 0,
+          "lost": 0
+        },
+        "held": {
+          "before": {
+            "tp": 1313,
+            "fp": 48,
+            "fn": 70,
+            "tn": 2863
+          },
+          "after": {
+            "tp": 1313,
+            "fp": 48,
+            "fn": 70,
+            "tn": 2863
+          },
+          "delta_tp": 0,
+          "delta_fp": 0,
+          "f1_before": 0.956997084548105,
+          "f1_after": 0.956997084548105,
+          "recovered": 0,
+          "lost": 0
+        },
+        "cut": 5.551115123125782e-17
+      }
+    },
+    "3.8/0.3/teacher": {
+      "fixed": {
+        "cal": {
+          "before": {
+            "tp": 1328,
+            "fp": 51,
+            "fn": 60,
+            "tn": 2853
+          },
+          "after": {
+            "tp": 1328,
+            "fp": 51,
+            "fn": 60,
+            "tn": 2853
+          },
+          "delta_tp": 0,
+          "delta_fp": 0,
+          "f1_before": 0.959884351282978,
+          "f1_after": 0.959884351282978,
+          "recovered": 0,
+          "lost": 0
+        },
+        "held": {
+          "before": {
+            "tp": 1313,
+            "fp": 48,
+            "fn": 70,
+            "tn": 2863
+          },
+          "after": {
+            "tp": 1313,
+            "fp": 48,
+            "fn": 70,
+            "tn": 2863
+          },
+          "delta_tp": 0,
+          "delta_fp": 0,
+          "f1_before": 0.956997084548105,
+          "f1_after": 0.956997084548105,
+          "recovered": 0,
+          "lost": 0
+        },
+        "cut": 0.0
+      },
+      "fp": {
+        "cal": {
+          "before": {
+            "tp": 1328,
+            "fp": 51,
+            "fn": 60,
+            "tn": 2853
+          },
+          "after": {
+            "tp": 1328,
+            "fp": 51,
+            "fn": 60,
+            "tn": 2853
+          },
+          "delta_tp": 0,
+          "delta_fp": 0,
+          "f1_before": 0.959884351282978,
+          "f1_after": 0.959884351282978,
+          "recovered": 0,
+          "lost": 0
+        },
+        "held": {
+          "before": {
+            "tp": 1313,
+            "fp": 48,
+            "fn": 70,
+            "tn": 2863
+          },
+          "after": {
+            "tp": 1313,
+            "fp": 49,
+            "fn": 70,
+            "tn": 2862
+          },
+          "delta_tp": 0,
+          "delta_fp": 1,
+          "f1_before": 0.956997084548105,
+          "f1_after": 0.9566484517304189,
+          "recovered": 0,
+          "lost": 0
+        },
+        "cut": -0.21870825242070455
+      },
+      "tp": {
+        "cal": {
+          "before": {
+            "tp": 1328,
+            "fp": 51,
+            "fn": 60,
+            "tn": 2853
+          },
+          "after": {
+            "tp": 1328,
+            "fp": 51,
+            "fn": 60,
+            "tn": 2853
+          },
+          "delta_tp": 0,
+          "delta_fp": 0,
+          "f1_before": 0.959884351282978,
+          "f1_after": 0.959884351282978,
+          "recovered": 0,
+          "lost": 0
+        },
+        "held": {
+          "before": {
+            "tp": 1313,
+            "fp": 48,
+            "fn": 70,
+            "tn": 2863
+          },
+          "after": {
+            "tp": 1313,
+            "fp": 48,
+            "fn": 70,
+            "tn": 2863
+          },
+          "delta_tp": 0,
+          "delta_fp": 0,
+          "f1_before": 0.956997084548105,
+          "f1_after": 0.956997084548105,
+          "recovered": 0,
+          "lost": 0
+        },
+        "cut": 5.551115123125782e-17
+      }
+    },
+    "3.8/0.3/prototype": {
+      "fixed": {
+        "cal": {
+          "before": {
+            "tp": 1328,
+            "fp": 51,
+            "fn": 60,
+            "tn": 2853
+          },
+          "after": {
+            "tp": 1328,
+            "fp": 51,
+            "fn": 60,
+            "tn": 2853
+          },
+          "delta_tp": 0,
+          "delta_fp": 0,
+          "f1_before": 0.959884351282978,
+          "f1_after": 0.959884351282978,
+          "recovered": 0,
+          "lost": 0
+        },
+        "held": {
+          "before": {
+            "tp": 1313,
+            "fp": 48,
+            "fn": 70,
+            "tn": 2863
+          },
+          "after": {
+            "tp": 1313,
+            "fp": 48,
+            "fn": 70,
+            "tn": 2863
+          },
+          "delta_tp": 0,
+          "delta_fp": 0,
+          "f1_before": 0.956997084548105,
+          "f1_after": 0.956997084548105,
+          "recovered": 0,
+          "lost": 0
+        },
+        "cut": 0.0
+      },
+      "fp": {
+        "cal": {
+          "before": {
+            "tp": 1328,
+            "fp": 51,
+            "fn": 60,
+            "tn": 2853
+          },
+          "after": {
+            "tp": 1328,
+            "fp": 51,
+            "fn": 60,
+            "tn": 2853
+          },
+          "delta_tp": 0,
+          "delta_fp": 0,
+          "f1_before": 0.959884351282978,
+          "f1_after": 0.959884351282978,
+          "recovered": 0,
+          "lost": 0
+        },
+        "held": {
+          "before": {
+            "tp": 1313,
+            "fp": 48,
+            "fn": 70,
+            "tn": 2863
+          },
+          "after": {
+            "tp": 1313,
+            "fp": 48,
+            "fn": 70,
+            "tn": 2863
+          },
+          "delta_tp": 0,
+          "delta_fp": 0,
+          "f1_before": 0.956997084548105,
+          "f1_after": 0.956997084548105,
+          "recovered": 0,
+          "lost": 0
+        },
+        "cut": -0.057178636256301874
+      },
+      "tp": {
+        "cal": {
+          "before": {
+            "tp": 1328,
+            "fp": 51,
+            "fn": 60,
+            "tn": 2853
+          },
+          "after": {
+            "tp": 1328,
+            "fp": 51,
+            "fn": 60,
+            "tn": 2853
+          },
+          "delta_tp": 0,
+          "delta_fp": 0,
+          "f1_before": 0.959884351282978,
+          "f1_after": 0.959884351282978,
+          "recovered": 0,
+          "lost": 0
+        },
+        "held": {
+          "before": {
+            "tp": 1313,
+            "fp": 48,
+            "fn": 70,
+            "tn": 2863
+          },
+          "after": {
+            "tp": 1313,
+            "fp": 48,
+            "fn": 70,
+            "tn": 2863
+          },
+          "delta_tp": 0,
+          "delta_fp": 0,
+          "f1_before": 0.956997084548105,
+          "f1_after": 0.956997084548105,
+          "recovered": 0,
+          "lost": 0
+        },
+        "cut": 5.551115123125782e-17
+      }
+    },
+    "3.8/0.3/both": {
+      "fixed": {
+        "cal": {
+          "before": {
+            "tp": 1328,
+            "fp": 51,
+            "fn": 60,
+            "tn": 2853
+          },
+          "after": {
+            "tp": 1328,
+            "fp": 51,
+            "fn": 60,
+            "tn": 2853
+          },
+          "delta_tp": 0,
+          "delta_fp": 0,
+          "f1_before": 0.959884351282978,
+          "f1_after": 0.959884351282978,
+          "recovered": 0,
+          "lost": 0
+        },
+        "held": {
+          "before": {
+            "tp": 1313,
+            "fp": 48,
+            "fn": 70,
+            "tn": 2863
+          },
+          "after": {
+            "tp": 1313,
+            "fp": 48,
+            "fn": 70,
+            "tn": 2863
+          },
+          "delta_tp": 0,
+          "delta_fp": 0,
+          "f1_before": 0.956997084548105,
+          "f1_after": 0.956997084548105,
+          "recovered": 0,
+          "lost": 0
+        },
+        "cut": 0.0
+      },
+      "fp": {
+        "cal": {
+          "before": {
+            "tp": 1328,
+            "fp": 51,
+            "fn": 60,
+            "tn": 2853
+          },
+          "after": {
+            "tp": 1328,
+            "fp": 51,
+            "fn": 60,
+            "tn": 2853
+          },
+          "delta_tp": 0,
+          "delta_fp": 0,
+          "f1_before": 0.959884351282978,
+          "f1_after": 0.959884351282978,
+          "recovered": 0,
+          "lost": 0
+        },
+        "held": {
+          "before": {
+            "tp": 1313,
+            "fp": 48,
+            "fn": 70,
+            "tn": 2863
+          },
+          "after": {
+            "tp": 1313,
+            "fp": 50,
+            "fn": 70,
+            "tn": 2861
+          },
+          "delta_tp": 0,
+          "delta_fp": 2,
+          "f1_before": 0.956997084548105,
+          "f1_after": 0.956300072833212,
+          "recovered": 0,
+          "lost": 0
+        },
+        "cut": -0.2282029089839402
+      },
+      "tp": {
+        "cal": {
+          "before": {
+            "tp": 1328,
+            "fp": 51,
+            "fn": 60,
+            "tn": 2853
+          },
+          "after": {
+            "tp": 1328,
+            "fp": 51,
+            "fn": 60,
+            "tn": 2853
+          },
+          "delta_tp": 0,
+          "delta_fp": 0,
+          "f1_before": 0.959884351282978,
+          "f1_after": 0.959884351282978,
+          "recovered": 0,
+          "lost": 0
+        },
+        "held": {
+          "before": {
+            "tp": 1313,
+            "fp": 48,
+            "fn": 70,
+            "tn": 2863
+          },
+          "after": {
+            "tp": 1313,
+            "fp": 48,
+            "fn": 70,
+            "tn": 2863
+          },
+          "delta_tp": 0,
+          "delta_fp": 0,
+          "f1_before": 0.956997084548105,
+          "f1_after": 0.956997084548105,
+          "recovered": 0,
+          "lost": 0
+        },
+        "cut": 5.551115123125782e-17
+      }
+    },
+    "3.8/0.7/base": {
+      "fixed": {
+        "cal": {
+          "before": {
+            "tp": 1328,
+            "fp": 51,
+            "fn": 60,
+            "tn": 2853
+          },
+          "after": {
+            "tp": 1329,
+            "fp": 52,
+            "fn": 59,
+            "tn": 2852
+          },
+          "delta_tp": 1,
+          "delta_fp": 1,
+          "f1_before": 0.959884351282978,
+          "f1_after": 0.9599133261105092,
+          "recovered": 1,
+          "lost": 0
+        },
+        "held": {
+          "before": {
+            "tp": 1313,
+            "fp": 48,
+            "fn": 70,
+            "tn": 2863
+          },
+          "after": {
+            "tp": 1313,
+            "fp": 49,
+            "fn": 70,
+            "tn": 2862
+          },
+          "delta_tp": 0,
+          "delta_fp": 1,
+          "f1_before": 0.956997084548105,
+          "f1_after": 0.9566484517304189,
+          "recovered": 0,
+          "lost": 0
+        },
+        "cut": 0.0
+      },
+      "fp": {
+        "cal": {
+          "before": {
+            "tp": 1328,
+            "fp": 51,
+            "fn": 60,
+            "tn": 2853
+          },
+          "after": {
+            "tp": 1324,
+            "fp": 51,
+            "fn": 64,
+            "tn": 2853
+          },
+          "delta_tp": -4,
+          "delta_fp": 0,
+          "f1_before": 0.959884351282978,
+          "f1_after": 0.9583785740137531,
+          "recovered": 0,
+          "lost": 4
+        },
+        "held": {
+          "before": {
+            "tp": 1313,
+            "fp": 48,
+            "fn": 70,
+            "tn": 2863
+          },
+          "after": {
+            "tp": 1309,
+            "fp": 48,
+            "fn": 74,
+            "tn": 2863
+          },
+          "delta_tp": -4,
+          "delta_fp": 0,
+          "f1_before": 0.956997084548105,
+          "f1_after": 0.9554744525547445,
+          "recovered": 0,
+          "lost": 4
+        },
+        "cut": 0.3857532905167088
+      },
+      "tp": {
+        "cal": {
+          "before": {
+            "tp": 1328,
+            "fp": 51,
+            "fn": 60,
+            "tn": 2853
+          },
+          "after": {
+            "tp": 1328,
+            "fp": 52,
+            "fn": 60,
+            "tn": 2852
+          },
+          "delta_tp": 0,
+          "delta_fp": 1,
+          "f1_before": 0.959884351282978,
+          "f1_after": 0.9595375722543352,
+          "recovered": 1,
+          "lost": 1
+        },
+        "held": {
+          "before": {
+            "tp": 1313,
+            "fp": 48,
+            "fn": 70,
+            "tn": 2863
+          },
+          "after": {
+            "tp": 1313,
+            "fp": 49,
+            "fn": 70,
+            "tn": 2862
+          },
+          "delta_tp": 0,
+          "delta_fp": 1,
+          "f1_before": 0.956997084548105,
+          "f1_after": 0.9566484517304189,
+          "recovered": 0,
+          "lost": 0
+        },
+        "cut": 0.004402258819884069
+      }
+    },
+    "3.8/0.7/teacher": {
+      "fixed": {
+        "cal": {
+          "before": {
+            "tp": 1328,
+            "fp": 51,
+            "fn": 60,
+            "tn": 2853
+          },
+          "after": {
+            "tp": 1328,
+            "fp": 52,
+            "fn": 60,
+            "tn": 2852
+          },
+          "delta_tp": 0,
+          "delta_fp": 1,
+          "f1_before": 0.959884351282978,
+          "f1_after": 0.9595375722543352,
+          "recovered": 0,
+          "lost": 0
+        },
+        "held": {
+          "before": {
+            "tp": 1313,
+            "fp": 48,
+            "fn": 70,
+            "tn": 2863
+          },
+          "after": {
+            "tp": 1313,
+            "fp": 49,
+            "fn": 70,
+            "tn": 2862
+          },
+          "delta_tp": 0,
+          "delta_fp": 1,
+          "f1_before": 0.956997084548105,
+          "f1_after": 0.9566484517304189,
+          "recovered": 0,
+          "lost": 0
+        },
+        "cut": 0.0
+      },
+      "fp": {
+        "cal": {
+          "before": {
+            "tp": 1328,
+            "fp": 51,
+            "fn": 60,
+            "tn": 2853
+          },
+          "after": {
+            "tp": 1327,
+            "fp": 51,
+            "fn": 61,
+            "tn": 2853
+          },
+          "delta_tp": -1,
+          "delta_fp": 0,
+          "f1_before": 0.959884351282978,
+          "f1_after": 0.9595083152566883,
+          "recovered": 0,
+          "lost": 1
+        },
+        "held": {
+          "before": {
+            "tp": 1313,
+            "fp": 48,
+            "fn": 70,
+            "tn": 2863
+          },
+          "after": {
+            "tp": 1313,
+            "fp": 49,
+            "fn": 70,
+            "tn": 2862
+          },
+          "delta_tp": 0,
+          "delta_fp": 1,
+          "f1_before": 0.956997084548105,
+          "f1_after": 0.9566484517304189,
+          "recovered": 0,
+          "lost": 0
+        },
+        "cut": 0.005507820741347563
+      },
+      "tp": {
+        "cal": {
+          "before": {
+            "tp": 1328,
+            "fp": 51,
+            "fn": 60,
+            "tn": 2853
+          },
+          "after": {
+            "tp": 1328,
+            "fp": 52,
+            "fn": 60,
+            "tn": 2852
+          },
+          "delta_tp": 0,
+          "delta_fp": 1,
+          "f1_before": 0.959884351282978,
+          "f1_after": 0.9595375722543352,
+          "recovered": 0,
+          "lost": 0
+        },
+        "held": {
+          "before": {
+            "tp": 1313,
+            "fp": 48,
+            "fn": 70,
+            "tn": 2863
+          },
+          "after": {
+            "tp": 1313,
+            "fp": 49,
+            "fn": 70,
+            "tn": 2862
+          },
+          "delta_tp": 0,
+          "delta_fp": 1,
+          "f1_before": 0.956997084548105,
+          "f1_after": 0.9566484517304189,
+          "recovered": 0,
+          "lost": 0
+        },
+        "cut": 5.551115123125782e-17
+      }
+    },
+    "3.8/0.7/prototype": {
+      "fixed": {
+        "cal": {
+          "before": {
+            "tp": 1328,
+            "fp": 51,
+            "fn": 60,
+            "tn": 2853
+          },
+          "after": {
+            "tp": 1328,
+            "fp": 52,
+            "fn": 60,
+            "tn": 2852
+          },
+          "delta_tp": 0,
+          "delta_fp": 1,
+          "f1_before": 0.959884351282978,
+          "f1_after": 0.9595375722543352,
+          "recovered": 0,
+          "lost": 0
+        },
+        "held": {
+          "before": {
+            "tp": 1313,
+            "fp": 48,
+            "fn": 70,
+            "tn": 2863
+          },
+          "after": {
+            "tp": 1313,
+            "fp": 49,
+            "fn": 70,
+            "tn": 2862
+          },
+          "delta_tp": 0,
+          "delta_fp": 1,
+          "f1_before": 0.956997084548105,
+          "f1_after": 0.9566484517304189,
+          "recovered": 0,
+          "lost": 0
+        },
+        "cut": 0.0
+      },
+      "fp": {
+        "cal": {
+          "before": {
+            "tp": 1328,
+            "fp": 51,
+            "fn": 60,
+            "tn": 2853
+          },
+          "after": {
+            "tp": 1324,
+            "fp": 51,
+            "fn": 64,
+            "tn": 2853
+          },
+          "delta_tp": -4,
+          "delta_fp": 0,
+          "f1_before": 0.959884351282978,
+          "f1_after": 0.9583785740137531,
+          "recovered": 0,
+          "lost": 4
+        },
+        "held": {
+          "before": {
+            "tp": 1313,
+            "fp": 48,
+            "fn": 70,
+            "tn": 2863
+          },
+          "after": {
+            "tp": 1309,
+            "fp": 48,
+            "fn": 74,
+            "tn": 2863
+          },
+          "delta_tp": -4,
+          "delta_fp": 0,
+          "f1_before": 0.956997084548105,
+          "f1_after": 0.9554744525547445,
+          "recovered": 0,
+          "lost": 4
+        },
+        "cut": 0.38241025845828713
+      },
+      "tp": {
+        "cal": {
+          "before": {
+            "tp": 1328,
+            "fp": 51,
+            "fn": 60,
+            "tn": 2853
+          },
+          "after": {
+            "tp": 1328,
+            "fp": 52,
+            "fn": 60,
+            "tn": 2852
+          },
+          "delta_tp": 0,
+          "delta_fp": 1,
+          "f1_before": 0.959884351282978,
+          "f1_after": 0.9595375722543352,
+          "recovered": 0,
+          "lost": 0
+        },
+        "held": {
+          "before": {
+            "tp": 1313,
+            "fp": 48,
+            "fn": 70,
+            "tn": 2863
+          },
+          "after": {
+            "tp": 1313,
+            "fp": 49,
+            "fn": 70,
+            "tn": 2862
+          },
+          "delta_tp": 0,
+          "delta_fp": 1,
+          "f1_before": 0.956997084548105,
+          "f1_after": 0.9566484517304189,
+          "recovered": 0,
+          "lost": 0
+        },
+        "cut": 5.551115123125782e-17
+      }
+    },
+    "3.8/0.7/both": {
+      "fixed": {
+        "cal": {
+          "before": {
+            "tp": 1328,
+            "fp": 51,
+            "fn": 60,
+            "tn": 2853
+          },
+          "after": {
+            "tp": 1328,
+            "fp": 51,
+            "fn": 60,
+            "tn": 2853
+          },
+          "delta_tp": 0,
+          "delta_fp": 0,
+          "f1_before": 0.959884351282978,
+          "f1_after": 0.959884351282978,
+          "recovered": 0,
+          "lost": 0
+        },
+        "held": {
+          "before": {
+            "tp": 1313,
+            "fp": 48,
+            "fn": 70,
+            "tn": 2863
+          },
+          "after": {
+            "tp": 1313,
+            "fp": 49,
+            "fn": 70,
+            "tn": 2862
+          },
+          "delta_tp": 0,
+          "delta_fp": 1,
+          "f1_before": 0.956997084548105,
+          "f1_after": 0.9566484517304189,
+          "recovered": 0,
+          "lost": 0
+        },
+        "cut": 0.0
+      },
+      "fp": {
+        "cal": {
+          "before": {
+            "tp": 1328,
+            "fp": 51,
+            "fn": 60,
+            "tn": 2853
+          },
+          "after": {
+            "tp": 1328,
+            "fp": 51,
+            "fn": 60,
+            "tn": 2853
+          },
+          "delta_tp": 0,
+          "delta_fp": 0,
+          "f1_before": 0.959884351282978,
+          "f1_after": 0.959884351282978,
+          "recovered": 0,
+          "lost": 0
+        },
+        "held": {
+          "before": {
+            "tp": 1313,
+            "fp": 48,
+            "fn": 70,
+            "tn": 2863
+          },
+          "after": {
+            "tp": 1313,
+            "fp": 49,
+            "fn": 70,
+            "tn": 2862
+          },
+          "delta_tp": 0,
+          "delta_fp": 1,
+          "f1_before": 0.956997084548105,
+          "f1_after": 0.9566484517304189,
+          "recovered": 0,
+          "lost": 0
+        },
+        "cut": -0.016646377906202228
+      },
+      "tp": {
+        "cal": {
+          "before": {
+            "tp": 1328,
+            "fp": 51,
+            "fn": 60,
+            "tn": 2853
+          },
+          "after": {
+            "tp": 1328,
+            "fp": 51,
+            "fn": 60,
+            "tn": 2853
+          },
+          "delta_tp": 0,
+          "delta_fp": 0,
+          "f1_before": 0.959884351282978,
+          "f1_after": 0.959884351282978,
+          "recovered": 0,
+          "lost": 0
+        },
+        "held": {
+          "before": {
+            "tp": 1313,
+            "fp": 48,
+            "fn": 70,
+            "tn": 2863
+          },
+          "after": {
+            "tp": 1313,
+            "fp": 49,
+            "fn": 70,
+            "tn": 2862
+          },
+          "delta_tp": 0,
+          "delta_fp": 1,
+          "f1_before": 0.956997084548105,
+          "f1_after": 0.9566484517304189,
+          "recovered": 0,
+          "lost": 0
+        },
+        "cut": 5.551115123125782e-17
+      }
+    },
+    "None/0.3/base": {
+      "fixed": {
+        "cal": {
+          "before": {
+            "tp": 1328,
+            "fp": 51,
+            "fn": 60,
+            "tn": 2853
+          },
+          "after": {
+            "tp": 1328,
+            "fp": 51,
+            "fn": 60,
+            "tn": 2853
+          },
+          "delta_tp": 0,
+          "delta_fp": 0,
+          "f1_before": 0.959884351282978,
+          "f1_after": 0.959884351282978,
+          "recovered": 0,
+          "lost": 0
+        },
+        "held": {
+          "before": {
+            "tp": 1313,
+            "fp": 48,
+            "fn": 70,
+            "tn": 2863
+          },
+          "after": {
+            "tp": 1313,
+            "fp": 48,
+            "fn": 70,
+            "tn": 2863
+          },
+          "delta_tp": 0,
+          "delta_fp": 0,
+          "f1_before": 0.956997084548105,
+          "f1_after": 0.956997084548105,
+          "recovered": 0,
+          "lost": 0
+        },
+        "cut": 0.0
+      },
+      "fp": {
+        "cal": {
+          "before": {
+            "tp": 1328,
+            "fp": 51,
+            "fn": 60,
+            "tn": 2853
+          },
+          "after": {
+            "tp": 1328,
+            "fp": 51,
+            "fn": 60,
+            "tn": 2853
+          },
+          "delta_tp": 0,
+          "delta_fp": 0,
+          "f1_before": 0.959884351282978,
+          "f1_after": 0.959884351282978,
+          "recovered": 0,
+          "lost": 0
+        },
+        "held": {
+          "before": {
+            "tp": 1313,
+            "fp": 48,
+            "fn": 70,
+            "tn": 2863
+          },
+          "after": {
+            "tp": 1313,
+            "fp": 48,
+            "fn": 70,
+            "tn": 2863
+          },
+          "delta_tp": 0,
+          "delta_fp": 0,
+          "f1_before": 0.956997084548105,
+          "f1_after": 0.956997084548105,
+          "recovered": 0,
+          "lost": 0
+        },
+        "cut": -0.05574590823126402
+      },
+      "tp": {
+        "cal": {
+          "before": {
+            "tp": 1328,
+            "fp": 51,
+            "fn": 60,
+            "tn": 2853
+          },
+          "after": {
+            "tp": 1328,
+            "fp": 51,
+            "fn": 60,
+            "tn": 2853
+          },
+          "delta_tp": 0,
+          "delta_fp": 0,
+          "f1_before": 0.959884351282978,
+          "f1_after": 0.959884351282978,
+          "recovered": 0,
+          "lost": 0
+        },
+        "held": {
+          "before": {
+            "tp": 1313,
+            "fp": 48,
+            "fn": 70,
+            "tn": 2863
+          },
+          "after": {
+            "tp": 1313,
+            "fp": 48,
+            "fn": 70,
+            "tn": 2863
+          },
+          "delta_tp": 0,
+          "delta_fp": 0,
+          "f1_before": 0.956997084548105,
+          "f1_after": 0.956997084548105,
+          "recovered": 0,
+          "lost": 0
+        },
+        "cut": 5.551115123125782e-17
+      }
+    },
+    "None/0.3/teacher": {
+      "fixed": {
+        "cal": {
+          "before": {
+            "tp": 1328,
+            "fp": 51,
+            "fn": 60,
+            "tn": 2853
+          },
+          "after": {
+            "tp": 1328,
+            "fp": 51,
+            "fn": 60,
+            "tn": 2853
+          },
+          "delta_tp": 0,
+          "delta_fp": 0,
+          "f1_before": 0.959884351282978,
+          "f1_after": 0.959884351282978,
+          "recovered": 0,
+          "lost": 0
+        },
+        "held": {
+          "before": {
+            "tp": 1313,
+            "fp": 48,
+            "fn": 70,
+            "tn": 2863
+          },
+          "after": {
+            "tp": 1313,
+            "fp": 48,
+            "fn": 70,
+            "tn": 2863
+          },
+          "delta_tp": 0,
+          "delta_fp": 0,
+          "f1_before": 0.956997084548105,
+          "f1_after": 0.956997084548105,
+          "recovered": 0,
+          "lost": 0
+        },
+        "cut": 0.0
+      },
+      "fp": {
+        "cal": {
+          "before": {
+            "tp": 1328,
+            "fp": 51,
+            "fn": 60,
+            "tn": 2853
+          },
+          "after": {
+            "tp": 1328,
+            "fp": 51,
+            "fn": 60,
+            "tn": 2853
+          },
+          "delta_tp": 0,
+          "delta_fp": 0,
+          "f1_before": 0.959884351282978,
+          "f1_after": 0.959884351282978,
+          "recovered": 0,
+          "lost": 0
+        },
+        "held": {
+          "before": {
+            "tp": 1313,
+            "fp": 48,
+            "fn": 70,
+            "tn": 2863
+          },
+          "after": {
+            "tp": 1313,
+            "fp": 49,
+            "fn": 70,
+            "tn": 2862
+          },
+          "delta_tp": 0,
+          "delta_fp": 1,
+          "f1_before": 0.956997084548105,
+          "f1_after": 0.9566484517304189,
+          "recovered": 0,
+          "lost": 0
+        },
+        "cut": -0.21870825242070455
+      },
+      "tp": {
+        "cal": {
+          "before": {
+            "tp": 1328,
+            "fp": 51,
+            "fn": 60,
+            "tn": 2853
+          },
+          "after": {
+            "tp": 1328,
+            "fp": 51,
+            "fn": 60,
+            "tn": 2853
+          },
+          "delta_tp": 0,
+          "delta_fp": 0,
+          "f1_before": 0.959884351282978,
+          "f1_after": 0.959884351282978,
+          "recovered": 0,
+          "lost": 0
+        },
+        "held": {
+          "before": {
+            "tp": 1313,
+            "fp": 48,
+            "fn": 70,
+            "tn": 2863
+          },
+          "after": {
+            "tp": 1313,
+            "fp": 48,
+            "fn": 70,
+            "tn": 2863
+          },
+          "delta_tp": 0,
+          "delta_fp": 0,
+          "f1_before": 0.956997084548105,
+          "f1_after": 0.956997084548105,
+          "recovered": 0,
+          "lost": 0
+        },
+        "cut": 5.551115123125782e-17
+      }
+    },
+    "None/0.3/prototype": {
+      "fixed": {
+        "cal": {
+          "before": {
+            "tp": 1328,
+            "fp": 51,
+            "fn": 60,
+            "tn": 2853
+          },
+          "after": {
+            "tp": 1328,
+            "fp": 51,
+            "fn": 60,
+            "tn": 2853
+          },
+          "delta_tp": 0,
+          "delta_fp": 0,
+          "f1_before": 0.959884351282978,
+          "f1_after": 0.959884351282978,
+          "recovered": 0,
+          "lost": 0
+        },
+        "held": {
+          "before": {
+            "tp": 1313,
+            "fp": 48,
+            "fn": 70,
+            "tn": 2863
+          },
+          "after": {
+            "tp": 1313,
+            "fp": 48,
+            "fn": 70,
+            "tn": 2863
+          },
+          "delta_tp": 0,
+          "delta_fp": 0,
+          "f1_before": 0.956997084548105,
+          "f1_after": 0.956997084548105,
+          "recovered": 0,
+          "lost": 0
+        },
+        "cut": 0.0
+      },
+      "fp": {
+        "cal": {
+          "before": {
+            "tp": 1328,
+            "fp": 51,
+            "fn": 60,
+            "tn": 2853
+          },
+          "after": {
+            "tp": 1328,
+            "fp": 51,
+            "fn": 60,
+            "tn": 2853
+          },
+          "delta_tp": 0,
+          "delta_fp": 0,
+          "f1_before": 0.959884351282978,
+          "f1_after": 0.959884351282978,
+          "recovered": 0,
+          "lost": 0
+        },
+        "held": {
+          "before": {
+            "tp": 1313,
+            "fp": 48,
+            "fn": 70,
+            "tn": 2863
+          },
+          "after": {
+            "tp": 1313,
+            "fp": 48,
+            "fn": 70,
+            "tn": 2863
+          },
+          "delta_tp": 0,
+          "delta_fp": 0,
+          "f1_before": 0.956997084548105,
+          "f1_after": 0.956997084548105,
+          "recovered": 0,
+          "lost": 0
+        },
+        "cut": -0.057178636256301874
+      },
+      "tp": {
+        "cal": {
+          "before": {
+            "tp": 1328,
+            "fp": 51,
+            "fn": 60,
+            "tn": 2853
+          },
+          "after": {
+            "tp": 1328,
+            "fp": 51,
+            "fn": 60,
+            "tn": 2853
+          },
+          "delta_tp": 0,
+          "delta_fp": 0,
+          "f1_before": 0.959884351282978,
+          "f1_after": 0.959884351282978,
+          "recovered": 0,
+          "lost": 0
+        },
+        "held": {
+          "before": {
+            "tp": 1313,
+            "fp": 48,
+            "fn": 70,
+            "tn": 2863
+          },
+          "after": {
+            "tp": 1313,
+            "fp": 48,
+            "fn": 70,
+            "tn": 2863
+          },
+          "delta_tp": 0,
+          "delta_fp": 0,
+          "f1_before": 0.956997084548105,
+          "f1_after": 0.956997084548105,
+          "recovered": 0,
+          "lost": 0
+        },
+        "cut": 5.551115123125782e-17
+      }
+    },
+    "None/0.3/both": {
+      "fixed": {
+        "cal": {
+          "before": {
+            "tp": 1328,
+            "fp": 51,
+            "fn": 60,
+            "tn": 2853
+          },
+          "after": {
+            "tp": 1328,
+            "fp": 51,
+            "fn": 60,
+            "tn": 2853
+          },
+          "delta_tp": 0,
+          "delta_fp": 0,
+          "f1_before": 0.959884351282978,
+          "f1_after": 0.959884351282978,
+          "recovered": 0,
+          "lost": 0
+        },
+        "held": {
+          "before": {
+            "tp": 1313,
+            "fp": 48,
+            "fn": 70,
+            "tn": 2863
+          },
+          "after": {
+            "tp": 1313,
+            "fp": 48,
+            "fn": 70,
+            "tn": 2863
+          },
+          "delta_tp": 0,
+          "delta_fp": 0,
+          "f1_before": 0.956997084548105,
+          "f1_after": 0.956997084548105,
+          "recovered": 0,
+          "lost": 0
+        },
+        "cut": 0.0
+      },
+      "fp": {
+        "cal": {
+          "before": {
+            "tp": 1328,
+            "fp": 51,
+            "fn": 60,
+            "tn": 2853
+          },
+          "after": {
+            "tp": 1328,
+            "fp": 51,
+            "fn": 60,
+            "tn": 2853
+          },
+          "delta_tp": 0,
+          "delta_fp": 0,
+          "f1_before": 0.959884351282978,
+          "f1_after": 0.959884351282978,
+          "recovered": 0,
+          "lost": 0
+        },
+        "held": {
+          "before": {
+            "tp": 1313,
+            "fp": 48,
+            "fn": 70,
+            "tn": 2863
+          },
+          "after": {
+            "tp": 1313,
+            "fp": 50,
+            "fn": 70,
+            "tn": 2861
+          },
+          "delta_tp": 0,
+          "delta_fp": 2,
+          "f1_before": 0.956997084548105,
+          "f1_after": 0.956300072833212,
+          "recovered": 0,
+          "lost": 0
+        },
+        "cut": -0.2282029089839402
+      },
+      "tp": {
+        "cal": {
+          "before": {
+            "tp": 1328,
+            "fp": 51,
+            "fn": 60,
+            "tn": 2853
+          },
+          "after": {
+            "tp": 1328,
+            "fp": 51,
+            "fn": 60,
+            "tn": 2853
+          },
+          "delta_tp": 0,
+          "delta_fp": 0,
+          "f1_before": 0.959884351282978,
+          "f1_after": 0.959884351282978,
+          "recovered": 0,
+          "lost": 0
+        },
+        "held": {
+          "before": {
+            "tp": 1313,
+            "fp": 48,
+            "fn": 70,
+            "tn": 2863
+          },
+          "after": {
+            "tp": 1313,
+            "fp": 48,
+            "fn": 70,
+            "tn": 2863
+          },
+          "delta_tp": 0,
+          "delta_fp": 0,
+          "f1_before": 0.956997084548105,
+          "f1_after": 0.956997084548105,
+          "recovered": 0,
+          "lost": 0
+        },
+        "cut": 5.551115123125782e-17
+      }
+    },
+    "None/0.7/base": {
+      "fixed": {
+        "cal": {
+          "before": {
+            "tp": 1328,
+            "fp": 51,
+            "fn": 60,
+            "tn": 2853
+          },
+          "after": {
+            "tp": 1329,
+            "fp": 52,
+            "fn": 59,
+            "tn": 2852
+          },
+          "delta_tp": 1,
+          "delta_fp": 1,
+          "f1_before": 0.959884351282978,
+          "f1_after": 0.9599133261105092,
+          "recovered": 1,
+          "lost": 0
+        },
+        "held": {
+          "before": {
+            "tp": 1313,
+            "fp": 48,
+            "fn": 70,
+            "tn": 2863
+          },
+          "after": {
+            "tp": 1313,
+            "fp": 49,
+            "fn": 70,
+            "tn": 2862
+          },
+          "delta_tp": 0,
+          "delta_fp": 1,
+          "f1_before": 0.956997084548105,
+          "f1_after": 0.9566484517304189,
+          "recovered": 0,
+          "lost": 0
+        },
+        "cut": 0.0
+      },
+      "fp": {
+        "cal": {
+          "before": {
+            "tp": 1328,
+            "fp": 51,
+            "fn": 60,
+            "tn": 2853
+          },
+          "after": {
+            "tp": 1324,
+            "fp": 51,
+            "fn": 64,
+            "tn": 2853
+          },
+          "delta_tp": -4,
+          "delta_fp": 0,
+          "f1_before": 0.959884351282978,
+          "f1_after": 0.9583785740137531,
+          "recovered": 0,
+          "lost": 4
+        },
+        "held": {
+          "before": {
+            "tp": 1313,
+            "fp": 48,
+            "fn": 70,
+            "tn": 2863
+          },
+          "after": {
+            "tp": 1309,
+            "fp": 48,
+            "fn": 74,
+            "tn": 2863
+          },
+          "delta_tp": -4,
+          "delta_fp": 0,
+          "f1_before": 0.956997084548105,
+          "f1_after": 0.9554744525547445,
+          "recovered": 0,
+          "lost": 4
+        },
+        "cut": 0.3857532905167088
+      },
+      "tp": {
+        "cal": {
+          "before": {
+            "tp": 1328,
+            "fp": 51,
+            "fn": 60,
+            "tn": 2853
+          },
+          "after": {
+            "tp": 1328,
+            "fp": 52,
+            "fn": 60,
+            "tn": 2852
+          },
+          "delta_tp": 0,
+          "delta_fp": 1,
+          "f1_before": 0.959884351282978,
+          "f1_after": 0.9595375722543352,
+          "recovered": 1,
+          "lost": 1
+        },
+        "held": {
+          "before": {
+            "tp": 1313,
+            "fp": 48,
+            "fn": 70,
+            "tn": 2863
+          },
+          "after": {
+            "tp": 1313,
+            "fp": 49,
+            "fn": 70,
+            "tn": 2862
+          },
+          "delta_tp": 0,
+          "delta_fp": 1,
+          "f1_before": 0.956997084548105,
+          "f1_after": 0.9566484517304189,
+          "recovered": 0,
+          "lost": 0
+        },
+        "cut": 0.004402258819884069
+      }
+    },
+    "None/0.7/teacher": {
+      "fixed": {
+        "cal": {
+          "before": {
+            "tp": 1328,
+            "fp": 51,
+            "fn": 60,
+            "tn": 2853
+          },
+          "after": {
+            "tp": 1328,
+            "fp": 52,
+            "fn": 60,
+            "tn": 2852
+          },
+          "delta_tp": 0,
+          "delta_fp": 1,
+          "f1_before": 0.959884351282978,
+          "f1_after": 0.9595375722543352,
+          "recovered": 0,
+          "lost": 0
+        },
+        "held": {
+          "before": {
+            "tp": 1313,
+            "fp": 48,
+            "fn": 70,
+            "tn": 2863
+          },
+          "after": {
+            "tp": 1313,
+            "fp": 49,
+            "fn": 70,
+            "tn": 2862
+          },
+          "delta_tp": 0,
+          "delta_fp": 1,
+          "f1_before": 0.956997084548105,
+          "f1_after": 0.9566484517304189,
+          "recovered": 0,
+          "lost": 0
+        },
+        "cut": 0.0
+      },
+      "fp": {
+        "cal": {
+          "before": {
+            "tp": 1328,
+            "fp": 51,
+            "fn": 60,
+            "tn": 2853
+          },
+          "after": {
+            "tp": 1327,
+            "fp": 51,
+            "fn": 61,
+            "tn": 2853
+          },
+          "delta_tp": -1,
+          "delta_fp": 0,
+          "f1_before": 0.959884351282978,
+          "f1_after": 0.9595083152566883,
+          "recovered": 0,
+          "lost": 1
+        },
+        "held": {
+          "before": {
+            "tp": 1313,
+            "fp": 48,
+            "fn": 70,
+            "tn": 2863
+          },
+          "after": {
+            "tp": 1313,
+            "fp": 49,
+            "fn": 70,
+            "tn": 2862
+          },
+          "delta_tp": 0,
+          "delta_fp": 1,
+          "f1_before": 0.956997084548105,
+          "f1_after": 0.9566484517304189,
+          "recovered": 0,
+          "lost": 0
+        },
+        "cut": 0.005507820741347563
+      },
+      "tp": {
+        "cal": {
+          "before": {
+            "tp": 1328,
+            "fp": 51,
+            "fn": 60,
+            "tn": 2853
+          },
+          "after": {
+            "tp": 1328,
+            "fp": 52,
+            "fn": 60,
+            "tn": 2852
+          },
+          "delta_tp": 0,
+          "delta_fp": 1,
+          "f1_before": 0.959884351282978,
+          "f1_after": 0.9595375722543352,
+          "recovered": 0,
+          "lost": 0
+        },
+        "held": {
+          "before": {
+            "tp": 1313,
+            "fp": 48,
+            "fn": 70,
+            "tn": 2863
+          },
+          "after": {
+            "tp": 1313,
+            "fp": 49,
+            "fn": 70,
+            "tn": 2862
+          },
+          "delta_tp": 0,
+          "delta_fp": 1,
+          "f1_before": 0.956997084548105,
+          "f1_after": 0.9566484517304189,
+          "recovered": 0,
+          "lost": 0
+        },
+        "cut": 5.551115123125782e-17
+      }
+    },
+    "None/0.7/prototype": {
+      "fixed": {
+        "cal": {
+          "before": {
+            "tp": 1328,
+            "fp": 51,
+            "fn": 60,
+            "tn": 2853
+          },
+          "after": {
+            "tp": 1328,
+            "fp": 52,
+            "fn": 60,
+            "tn": 2852
+          },
+          "delta_tp": 0,
+          "delta_fp": 1,
+          "f1_before": 0.959884351282978,
+          "f1_after": 0.9595375722543352,
+          "recovered": 0,
+          "lost": 0
+        },
+        "held": {
+          "before": {
+            "tp": 1313,
+            "fp": 48,
+            "fn": 70,
+            "tn": 2863
+          },
+          "after": {
+            "tp": 1313,
+            "fp": 49,
+            "fn": 70,
+            "tn": 2862
+          },
+          "delta_tp": 0,
+          "delta_fp": 1,
+          "f1_before": 0.956997084548105,
+          "f1_after": 0.9566484517304189,
+          "recovered": 0,
+          "lost": 0
+        },
+        "cut": 0.0
+      },
+      "fp": {
+        "cal": {
+          "before": {
+            "tp": 1328,
+            "fp": 51,
+            "fn": 60,
+            "tn": 2853
+          },
+          "after": {
+            "tp": 1324,
+            "fp": 51,
+            "fn": 64,
+            "tn": 2853
+          },
+          "delta_tp": -4,
+          "delta_fp": 0,
+          "f1_before": 0.959884351282978,
+          "f1_after": 0.9583785740137531,
+          "recovered": 0,
+          "lost": 4
+        },
+        "held": {
+          "before": {
+            "tp": 1313,
+            "fp": 48,
+            "fn": 70,
+            "tn": 2863
+          },
+          "after": {
+            "tp": 1309,
+            "fp": 48,
+            "fn": 74,
+            "tn": 2863
+          },
+          "delta_tp": -4,
+          "delta_fp": 0,
+          "f1_before": 0.956997084548105,
+          "f1_after": 0.9554744525547445,
+          "recovered": 0,
+          "lost": 4
+        },
+        "cut": 0.38241025845828713
+      },
+      "tp": {
+        "cal": {
+          "before": {
+            "tp": 1328,
+            "fp": 51,
+            "fn": 60,
+            "tn": 2853
+          },
+          "after": {
+            "tp": 1328,
+            "fp": 52,
+            "fn": 60,
+            "tn": 2852
+          },
+          "delta_tp": 0,
+          "delta_fp": 1,
+          "f1_before": 0.959884351282978,
+          "f1_after": 0.9595375722543352,
+          "recovered": 0,
+          "lost": 0
+        },
+        "held": {
+          "before": {
+            "tp": 1313,
+            "fp": 48,
+            "fn": 70,
+            "tn": 2863
+          },
+          "after": {
+            "tp": 1313,
+            "fp": 49,
+            "fn": 70,
+            "tn": 2862
+          },
+          "delta_tp": 0,
+          "delta_fp": 1,
+          "f1_before": 0.956997084548105,
+          "f1_after": 0.9566484517304189,
+          "recovered": 0,
+          "lost": 0
+        },
+        "cut": 5.551115123125782e-17
+      }
+    },
+    "None/0.7/both": {
+      "fixed": {
+        "cal": {
+          "before": {
+            "tp": 1328,
+            "fp": 51,
+            "fn": 60,
+            "tn": 2853
+          },
+          "after": {
+            "tp": 1328,
+            "fp": 51,
+            "fn": 60,
+            "tn": 2853
+          },
+          "delta_tp": 0,
+          "delta_fp": 0,
+          "f1_before": 0.959884351282978,
+          "f1_after": 0.959884351282978,
+          "recovered": 0,
+          "lost": 0
+        },
+        "held": {
+          "before": {
+            "tp": 1313,
+            "fp": 48,
+            "fn": 70,
+            "tn": 2863
+          },
+          "after": {
+            "tp": 1313,
+            "fp": 49,
+            "fn": 70,
+            "tn": 2862
+          },
+          "delta_tp": 0,
+          "delta_fp": 1,
+          "f1_before": 0.956997084548105,
+          "f1_after": 0.9566484517304189,
+          "recovered": 0,
+          "lost": 0
+        },
+        "cut": 0.0
+      },
+      "fp": {
+        "cal": {
+          "before": {
+            "tp": 1328,
+            "fp": 51,
+            "fn": 60,
+            "tn": 2853
+          },
+          "after": {
+            "tp": 1328,
+            "fp": 51,
+            "fn": 60,
+            "tn": 2853
+          },
+          "delta_tp": 0,
+          "delta_fp": 0,
+          "f1_before": 0.959884351282978,
+          "f1_after": 0.959884351282978,
+          "recovered": 0,
+          "lost": 0
+        },
+        "held": {
+          "before": {
+            "tp": 1313,
+            "fp": 48,
+            "fn": 70,
+            "tn": 2863
+          },
+          "after": {
+            "tp": 1313,
+            "fp": 49,
+            "fn": 70,
+            "tn": 2862
+          },
+          "delta_tp": 0,
+          "delta_fp": 1,
+          "f1_before": 0.956997084548105,
+          "f1_after": 0.9566484517304189,
+          "recovered": 0,
+          "lost": 0
+        },
+        "cut": -0.016646377906202228
+      },
+      "tp": {
+        "cal": {
+          "before": {
+            "tp": 1328,
+            "fp": 51,
+            "fn": 60,
+            "tn": 2853
+          },
+          "after": {
+            "tp": 1328,
+            "fp": 51,
+            "fn": 60,
+            "tn": 2853
+          },
+          "delta_tp": 0,
+          "delta_fp": 0,
+          "f1_before": 0.959884351282978,
+          "f1_after": 0.959884351282978,
+          "recovered": 0,
+          "lost": 0
+        },
+        "held": {
+          "before": {
+            "tp": 1313,
+            "fp": 48,
+            "fn": 70,
+            "tn": 2863
+          },
+          "after": {
+            "tp": 1313,
+            "fp": 49,
+            "fn": 70,
+            "tn": 2862
+          },
+          "delta_tp": 0,
+          "delta_fp": 1,
+          "f1_before": 0.956997084548105,
+          "f1_after": 0.9566484517304189,
+          "recovered": 0,
+          "lost": 0
+        },
+        "cut": 5.551115123125782e-17
+      }
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "interval": {
+    "vulnerability": [
+      -0.00010929073157122381,
+      0.0014205088629563125
+    ],
+    "MAT": [
+      0.0,
+      0.0
+    ],
+    "mean": [
+      -5.4645365785611906e-05,
+      0.0007102544314781563
+    ]
+  },
+  "selected_rows": 185,
+  "altered_decisions": 62,
+  "full_exact_negative": 4476,
+  "inside_rule_negative": {
+    "before": {
+      "tp": 336,
+      "fp": 331,
+      "fn": 230,
+      "tn": 3579
+    },
+    "after": {
+      "tp": 337,
+      "fp": 318,
+      "fn": 229,
+      "tn": 3592
+    },
+    "delta_tp": 1,
+    "delta_fp": -13,
+    "f1_before": 0.5450121654501217,
+    "f1_after": 0.552006552006552
+  },
+  "required_vulnerability_f1_if_others_fixed": 0.9722739612757684,
+  "gap": 0.007419123203634803,
+  "profile_sha256": "026490e12dd75a3dd6476f08fa394cc9ca2661b2edcf6c48e31786648c076e6c"
+}

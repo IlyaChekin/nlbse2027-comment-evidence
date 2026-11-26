@@ -1,0 +1,11 @@
+{
+  "mode": "joint_errors",
+  "seed": 42,
+  "epochs": 1,
+  "rows": 153628,
+  "nbatches": 1201,
+  "out_of_fold_sha256": "d2951402b86228c7217436170a777ada4deb491efad08546a59da8703e2447c3",
+  "initial_checkpoint_manifest_sha256": "cea74567d5a837958d832b54f4e4ad0942f1a5be102012b2fdc7217740703b3c",
+  "checkpoint_sha256": "b44e1d83fd99a90169fbba518890ded2be996ef6fc3898af2942cad27c765c78",
+  "seconds": 17.99134949920699
+}

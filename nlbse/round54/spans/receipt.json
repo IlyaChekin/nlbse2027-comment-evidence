@@ -1,0 +1,67 @@
+{
+  "pairs_sha256": "a8a3f0e8e70d9e69f97f9267ea87a8c1772440f7cd084021e78762eb8d470c78",
+  "scanner_sha256": "466c407a6cd1d4cbc5cde666581cbf9e0da58a224931d46c4cec225f049377b6",
+  "oracle_sha256": "3f4a62d8fe7a04c33a0f3bc74f931ec37decd332845536acc45d5464c794ade2",
+  "code_sha256": "1c54f867a7d2d59e185295f6ae9d1faee662302334ad921bc1a17852b5c81f2b",
+  "file_sha256": "e357d84b6056ed6a73c8d533f3fb646537b8572bd41300b42afcf63d6c2ef50c",
+  "aux_shape": [
+    16024,
+    2,
+    4
+  ],
+  "scan_seconds": 7.604030858026817,
+  "parts": {
+    "test_a": {
+      "rows": 6603,
+      "positive": 2864,
+      "located": 2863,
+      "hidden": 980,
+      "hidden_located": 980,
+      "hidden_by_rule": {
+        "3": 215,
+        "2": 593,
+        "5": 154,
+        "7": 6,
+        "8": 1,
+        "4": 8,
+        "6": 1,
+        "1": 2
+      }
+    },
+    "test_b": {
+      "rows": 6605,
+      "positive": 2869,
+      "located": 2867,
+      "hidden": 1000,
+      "hidden_located": 998,
+      "hidden_by_rule": {
+        "2": 699,
+        "9": 2,
+        "3": 82,
+        "5": 199,
+        "7": 6,
+        "8": 1,
+        "4": 7,
+        "6": 1,
+        "1": 1
+      }
+    },
+    "official": {
+      "rows": 6064,
+      "positive": 2462,
+      "located": 2458,
+      "hidden": 554,
+      "hidden_located": 554,
+      "hidden_by_rule": {
+        "2": 295,
+        "7": 4,
+        "9": 2,
+        "3": 132,
+        "5": 118,
+        "4": 1,
+        "1": 2
+      }
+    }
+  },
+  "total_rows": 16024
+}

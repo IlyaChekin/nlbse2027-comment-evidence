@@ -1,0 +1,16 @@
+\begin{table*}[t]
+\centering
+\small\setlength{\tabcolsep}{3pt}
+\caption{Public validation. P, R, and F1 are positive-class metrics. The organizer row is the reported baseline.}
+\label{tab:validation}
+\begin{tabular}{lrrrrrrrrr}
+\toprule
+System & Vul. P & Vul. R & Vul. F1 & MAT P & MAT R & MAT F1 & Mean P & Mean R & Mean F1 \\
+\midrule
+Organizer CodeBERT \cite{codebert} & 0.943 & 0.935 & 0.939 & 0.978 & 0.802 & 0.881 & 0.961 & 0.869 & 0.910 \\
+Original CodeT5+ 512+128 & 0.9289 & 0.9281 & 0.9285 & 0.9844 & 0.8752 & 0.9266 & 0.9567 & 0.9017 & 0.9276 \\
+CodeT5+, full 768-token computation & 0.9385 & 0.9231 & 0.9307 & 0.9978 & 0.8792 & 0.9347 & 0.9681 & 0.9012 & 0.9327 \\
+CodeT5+, selective token updates & 0.9372 & 0.9177 & 0.9274 & 0.9978 & 0.8792 & 0.9347 & 0.9675 & 0.8985 & 0.9311 \\
+\bottomrule
+\end{tabular}
+\end{table*}

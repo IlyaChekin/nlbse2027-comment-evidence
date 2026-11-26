@@ -1,0 +1,41 @@
+{
+  "rotation": "test_b",
+  "baseline_sha256": "6d6455df8447a72b78facf2857f684951503684277c87bd1a521c2a3dd914309",
+  "cohorts_sha256": "390b4b8cd36c7408ba09fecee76cddc55c49cc27c36b314cd089433826254f25",
+  "code_sha256": "778d44004fce3e0f871be62bf44924c9f80df32cad3e00adce9dee01d89d5ee9",
+  "points": {
+    "dev": "29e0b124af3c33252262b94fad570e52f83e6f6543474067421457053dfa021e",
+    "test": "9a19af061b689863a91553a93da7ad14bd033d12bc85a1fe620bf6dc0ec3f9f0",
+    "oof": "2dcfce5e3e935bf2b9d18cb91dbaf961e4d32366ac31d79fc09a43ca46208f6a"
+  },
+  "state_sha256": "e7302c755489f066b95b7adc71d6b2b43267d61995f26e222387073fd562f96b",
+  "compact_manifest_sha256": "37bacdbf5a1cd232b2e636f187166da5a89960ec765d0f70bfc6d8ecd38bb84b",
+  "approx_quantile_error": 0.00022066012024879456,
+  "seam_tokens": 48,
+  "timings": {
+    "oof_0": {
+      "forward_seconds": 1.8746895026415586,
+      "wall_seconds": 2.8500990089960396
+    },
+    "oof_1": {
+      "forward_seconds": 1.1668780359905213,
+      "wall_seconds": 2.2961524052079767
+    },
+    "oof_2": {
+      "forward_seconds": 1.2940809773281217,
+      "wall_seconds": 2.508682501036674
+    },
+    "oof_3": {
+      "forward_seconds": 1.561388063710183,
+      "wall_seconds": 2.8780580528546125
+    },
+    "dev": {
+      "forward_seconds": 0.3990714317187667,
+      "wall_seconds": 0.9828154500573874
+    },
+    "test": {
+      "forward_seconds": 0.25700758723542094,
+      "wall_seconds": 0.5578147377818823
+    }
+  }
+}

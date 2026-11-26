@@ -1,0 +1,153 @@
+{
+  "interval_95": {
+    "vulnerability": [
+      9.09065897777922e-05,
+      0.0010695126378695542
+    ],
+    "MAT": [
+      0.0,
+      0.0
+    ],
+    "mean": [
+      4.54532948888961e-05,
+      0.0005347563189347771
+    ]
+  },
+  "cohorts": {
+    "positive": {
+      "before": {
+        "tp": 2324,
+        "fp": 294,
+        "fn": 9,
+        "tn": 176
+      },
+      "after": {
+        "tp": 2317,
+        "fp": 274,
+        "fn": 16,
+        "tn": 196
+      },
+      "delta_tp": -7,
+      "delta_fp": -20,
+      "f1_before": 0.9388002423752777,
+      "f1_after": 0.9411047928513404
+    },
+    "negative": {
+      "before": {
+        "tp": 337,
+        "fp": 318,
+        "fn": 229,
+        "tn": 3592
+      },
+      "after": {
+        "tp": 337,
+        "fp": 318,
+        "fn": 229,
+        "tn": 3592
+      },
+      "delta_tp": 0,
+      "delta_fp": 0,
+      "f1_before": 0.552006552006552,
+      "f1_after": 0.552006552006552
+    },
+    "other": {
+      "before": {
+        "tp": 7021,
+        "fp": 90,
+        "fn": 132,
+        "tn": 16133
+      },
+      "after": {
+        "tp": 7021,
+        "fp": 90,
+        "fn": 132,
+        "tn": 16133
+      },
+      "delta_tp": 0,
+      "delta_fp": 0,
+      "f1_before": 0.9844363432417275,
+      "f1_after": 0.9844363432417275
+    }
+  },
+  "scope_count": 186,
+  "score": 0.9630037360503729,
+  "unobserved_outcome_diagnostic": {
+    "positive_unobserved": {
+      "before": {
+        "tp": 6820,
+        "fp": 49,
+        "fn": 43,
+        "tn": 410
+      },
+      "after": {
+        "tp": 6820,
+        "fp": 49,
+        "fn": 43,
+        "tn": 410
+      },
+      "delta_tp": 0,
+      "delta_fp": 0,
+      "f1_before": 0.9933003204194581,
+      "f1_after": 0.9933003204194581
+    },
+    "remaining": {
+      "before": {
+        "tp": 201,
+        "fp": 41,
+        "fn": 89,
+        "tn": 15723
+      },
+      "after": {
+        "tp": 201,
+        "fp": 41,
+        "fn": 89,
+        "tn": 15723
+      },
+      "delta_tp": 0,
+      "delta_fp": 0,
+      "f1_before": 0.7556390977443609,
+      "f1_after": 0.7556390977443609
+    }
+  },
+  "offline_detector_sha256": "86526ec51f7f96a5ce41907c1b12fc46f7ae106f4bc545e49e11b759cb1d35ce",
+  "gap": 0.006996263949627046,
+  "limits": {
+    "additional_fp_to_remove_with_fixed_recall": 490,
+    "score_if_no_fn_at_same_fp": 0.9687272341493871,
+    "score_if_no_runtime_or_operations": 0.9651498819633748,
+    "perfect_positive_at_same_cost": 0.9671218344705084,
+    "perfect_negative_at_same_cost": 0.9710113426991303,
+    "perfect_other_at_same_cost": 0.9662922696083509
+  },
+  "profile_sha256": "5545a36433ac53af3e71b77392c87f5d2b11d83f4a99750c2aea4bce14cb8acd",
+  "best_supported": {
+    "joint": {
+      "study": "joint",
+      "method": "token_contrast_0.8_0.35_blend",
+      "criterion": "tp",
+      "project_a_tp": 12,
+      "project_b_tp": 4,
+      "project_support": true,
+      "internal_tp": 0,
+      "internal_fp": -7,
+      "internal_review_tp": 0,
+      "internal_review_fp": -7,
+      "paid_calls": 26,
+      "proxy_delta": 0.0006994192815579234
+    },
+    "teacher": {
+      "study": "teacher",
+      "method": "blend_0.28_0.35_blend",
+      "criterion": "tp",
+      "project_a_tp": 22,
+      "project_b_tp": 4,
+      "project_support": true,
+      "internal_tp": 0,
+      "internal_fp": -6,
+      "internal_review_tp": 0,
+      "internal_review_fp": -4,
+      "paid_calls": 8,
+      "proxy_delta": 0.00043425826295667773
+    }
+  }
+}

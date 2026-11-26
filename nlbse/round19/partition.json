@@ -1,0 +1,124 @@
+{
+  "parent_sha256": "2823097d9b25fadebffcc6a3daa50034854d7a59c5df5c90d4e6d6d48231cfc9",
+  "train_sha256": "668a958c873060904e611bd3f45088acdbdb48631e6f626afda8ea7831fa6319",
+  "rotations": {
+    "test_a": {
+      "heldout_projects": [
+        "chromium",
+        "ffmpeg",
+        "qemu"
+      ],
+      "partition_file": "test_a.npz",
+      "partition_sha256": "bdfd7027975f3ee940a1ef0caba0fb1db091b4b286484023feab3f081c4bf278",
+      "removed_training_copies": 18,
+      "roles": {
+        "fit": {
+          "rows": 160035,
+          "labels": [
+            53102,
+            2349
+          ],
+          "projects": {
+            "linux": 153628,
+            "mozilla firefox": 3180,
+            "android": 1649,
+            "php": 741,
+            "file": 47,
+            "radare2": 269,
+            "krb5": 165,
+            "imagemagick": 356
+          }
+        },
+        "dev": {
+          "rows": 23271,
+          "labels": [
+            7762,
+            360
+          ],
+          "projects": {
+            "linux": 21642,
+            "mozilla firefox": 802,
+            "android": 352,
+            "php": 253,
+            "tcpdump": 155,
+            "file": 8,
+            "radare2": 10,
+            "krb5": 12,
+            "imagemagick": 37
+          }
+        },
+        "test": {
+          "rows": 31098,
+          "labels": [
+            9449,
+            830
+          ],
+          "projects": {
+            "chromium": 24709,
+            "ffmpeg": 2074,
+            "qemu": 4315
+          }
+        }
+      }
+    },
+    "test_b": {
+      "heldout_projects": [
+        "android",
+        "file",
+        "imagemagick",
+        "krb5",
+        "mozilla firefox",
+        "php",
+        "radare2"
+      ],
+      "partition_file": "test_b.npz",
+      "partition_sha256": "132b1c5775346ea14c0b36a3320530bb6dc017703ae3f1334fd011769ade05ad",
+      "removed_training_copies": 20,
+      "roles": {
+        "fit": {
+          "rows": 180019,
+          "labels": [
+            58682,
+            2885
+          ],
+          "projects": {
+            "chromium": 21061,
+            "linux": 153628,
+            "ffmpeg": 1765,
+            "qemu": 3565
+          }
+        },
+        "dev": {
+          "rows": 26484,
+          "labels": [
+            8774,
+            448
+          ],
+          "projects": {
+            "chromium": 3633,
+            "linux": 21642,
+            "tcpdump": 155,
+            "ffmpeg": 306,
+            "qemu": 748
+          }
+        },
+        "test": {
+          "rows": 7899,
+          "labels": [
+            2854,
+            204
+          ],
+          "projects": {
+            "mozilla firefox": 3998,
+            "android": 2001,
+            "php": 996,
+            "file": 55,
+            "radare2": 279,
+            "krb5": 177,
+            "imagemagick": 393
+          }
+        }
+      }
+    }
+  }
+}

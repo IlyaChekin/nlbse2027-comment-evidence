@@ -1,0 +1,12 @@
+{
+  "model": "existing six-block CodeBERT student, SHA-256 32deb09f1b00607ceccf9f2597cc4ebe68f2865268c685b9b53e8620b49de61d",
+  "checkpoint": "nlbse/submission/entry_checkpoint",
+  "output_order": ["vulnerability", "MAT"],
+  "thresholds": [0.72, 0.50],
+  "batch_size": 32,
+  "packing_window": 2048,
+  "head_tokens": 512,
+  "comment_window_tokens": 128,
+  "gate": "a token of a C-style comment lies beyond the first 510 content tokens",
+  "aggregation": ["head probability", "maximum of head and comment-window probabilities"]
+}

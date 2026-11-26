@@ -1,0 +1,35 @@
+{
+  "fit_sha256": "a52b79638792a510e67d92b3f02a1c9799b7f06070f796e300da80c4a2bb86e6",
+  "matrix_sha256": "1ab131c284d8a7e0e0334cf45dbc8f2b34ffa528a69a62ecfd26ff57e399e4e7",
+  "mix": 0.75,
+  "targets": {
+    "lex": {
+      "up": {
+        "cases": 23,
+        "good": 7,
+        "harm": 16
+      },
+      "down": {
+        "cases": 24,
+        "good": 23,
+        "harm": 1
+      }
+    },
+    "dense": {
+      "up": {
+        "cases": 29,
+        "good": 5,
+        "harm": 24
+      },
+      "down": {
+        "cases": 26,
+        "good": 24,
+        "harm": 2
+      }
+    }
+  },
+  "scores_sha256": "21700d6dc2798271253d2d63d9709d11f394edd92752d92355c227d92612bc82",
+  "weights_sha256": "26af4e5e9fa4d71d30421f093f2ac900e04d48e27abcdcd22d799d319b66abcf",
+  "seconds": 6.127889242954552,
+  "code_sha256": "045f5139fa772f7d09bec62aa416e61aa4fd87cefb3cfffd75525303706cea58"
+}

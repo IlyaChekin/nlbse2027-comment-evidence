@@ -1,0 +1,36 @@
+{
+  "scope": "official",
+  "seed": 42,
+  "rows": 193100,
+  "kept_long": 12896,
+  "pairable": 18570,
+  "teacher_sha256": "5c9baca0d58a2c82fbdf1f4317708168173f6b07f108361215e79952a4ae71e7",
+  "selection_sha256": "d2951402b86228c7217436170a777ada4deb491efad08546a59da8703e2447c3",
+  "initial_sha256": "6bac2292b7abcdef62261ea4c4f62cd1527d72a34d091bc292ec6b1b98c2fda5",
+  "representation_sha256": null,
+  "teacher_override": {
+    "structural_sha256": "75bd58ee3e65e10e8fd54551c1e6fcfd49a0e741b3c81cb461ba0af20e4aaeb9",
+    "neural_oof_sha256": "d2951402b86228c7217436170a777ada4deb491efad08546a59da8703e2447c3",
+    "teacher_rows": 138268,
+    "positive_advice": 1369,
+    "negative_advice": 3883,
+    "fraction_with_advice": 0.03798420458819105,
+    "mean_advice_weight": 0.0100106755271554
+  },
+  "modes": {
+    "full": {
+      "path": "full.pt",
+      "sha256": "c0729f099704fd159d0c0208974a956615db1baef35e62da9d6a78566ac05e62",
+      "pairs": 0,
+      "steps": 1509,
+      "seconds": 20.838625244796276
+    },
+    "structure": {
+      "path": "structure.pt",
+      "sha256": "6f0a1c45b8263216ba521e7272fc22b965a46d5ec0904340d7b82c9793575240",
+      "pairs": 0,
+      "steps": 1509,
+      "seconds": 20.156377819832414
+    }
+  }
+}

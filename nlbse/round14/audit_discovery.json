@@ -1,0 +1,157 @@
+{
+  "fit": {
+    "rows": 153628,
+    "mat_positive": 2183,
+    "tp": 1845,
+    "fp": 3,
+    "fn": 338,
+    "false_negative_scope": {
+      "comment_without_base_tag": 115,
+      "no_parsed_comment": 223
+    },
+    "missed_evidence": {
+      "known_tag": {
+        "fn": 0,
+        "other_negative": 0
+      },
+      "known_tag_later": {
+        "fn": 0,
+        "other_negative": 0
+      },
+      "stem_in_comment": {
+        "fn": 26,
+        "other_negative": 20
+      },
+      "stem_head_in_comment": {
+        "fn": 3,
+        "other_negative": 3
+      },
+      "stem_upper_in_comment": {
+        "fn": 6,
+        "other_negative": 6
+      },
+      "split_tag_in_comment": {
+        "fn": 5,
+        "other_negative": 212
+      },
+      "debt_phrase": {
+        "fn": 2,
+        "other_negative": 163
+      },
+      "literal_or_code_tag": {
+        "fn": 4,
+        "other_negative": 42
+      },
+      "loose_comment_tag": {
+        "fn": 1,
+        "other_negative": 0
+      },
+      "any_comment": {
+        "fn": 115,
+        "other_negative": 19563
+      },
+      "leading_comment": {
+        "fn": 3,
+        "other_negative": 47
+      },
+      "preprocessor_stub": {
+        "fn": 1,
+        "other_negative": 157
+      },
+      "comment_spacing_variant": {
+        "fn": 5,
+        "other_negative": 214
+      },
+      "concat_word_tag": {
+        "fn": 1,
+        "other_negative": 0
+      }
+    },
+    "miss_chars_quartiles": [
+      319.5,
+      569.5,
+      896.75
+    ],
+    "projects": {
+      "linux": 153628
+    }
+  },
+  "dev": {
+    "rows": 21797,
+    "mat_positive": 322,
+    "tp": 271,
+    "fp": 0,
+    "fn": 51,
+    "false_negative_scope": {
+      "comment_without_base_tag": 18,
+      "no_parsed_comment": 33
+    },
+    "missed_evidence": {
+      "known_tag": {
+        "fn": 0,
+        "other_negative": 0
+      },
+      "known_tag_later": {
+        "fn": 0,
+        "other_negative": 0
+      },
+      "stem_in_comment": {
+        "fn": 4,
+        "other_negative": 2
+      },
+      "stem_head_in_comment": {
+        "fn": 0,
+        "other_negative": 0
+      },
+      "stem_upper_in_comment": {
+        "fn": 0,
+        "other_negative": 1
+      },
+      "split_tag_in_comment": {
+        "fn": 1,
+        "other_negative": 39
+      },
+      "debt_phrase": {
+        "fn": 0,
+        "other_negative": 17
+      },
+      "literal_or_code_tag": {
+        "fn": 0,
+        "other_negative": 8
+      },
+      "loose_comment_tag": {
+        "fn": 0,
+        "other_negative": 0
+      },
+      "any_comment": {
+        "fn": 18,
+        "other_negative": 2846
+      },
+      "leading_comment": {
+        "fn": 0,
+        "other_negative": 5
+      },
+      "preprocessor_stub": {
+        "fn": 0,
+        "other_negative": 10
+      },
+      "comment_spacing_variant": {
+        "fn": 1,
+        "other_negative": 39
+      },
+      "concat_word_tag": {
+        "fn": 1,
+        "other_negative": 0
+      }
+    },
+    "miss_chars_quartiles": [
+      400.0,
+      730.0,
+      1216.0
+    ],
+    "projects": {
+      "linux": 21642,
+      "tcpdump": 155
+    }
+  }
+}

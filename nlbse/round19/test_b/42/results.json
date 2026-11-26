@@ -1,0 +1,1379 @@
+{
+  "selected": "balanced",
+  "dev": {
+    "reference": {
+      "equal": {
+        "before": {
+          "tp": 7840,
+          "fp": 794,
+          "fn": 934,
+          "tn": 16916
+        },
+        "after": {
+          "tp": 7840,
+          "fp": 794,
+          "fn": 934,
+          "tn": 16916
+        },
+        "delta_tp": 0,
+        "delta_fp": 0,
+        "f1_before": 0.9007352941176471,
+        "f1_after": 0.9007352941176471
+      },
+      "frozen": {
+        "before": {
+          "tp": 7838,
+          "fp": 794,
+          "fn": 936,
+          "tn": 16916
+        },
+        "after": {
+          "tp": 7840,
+          "fp": 794,
+          "fn": 934,
+          "tn": 16916
+        },
+        "delta_tp": 2,
+        "delta_fp": 0,
+        "f1_before": 0.9006089854073308,
+        "f1_after": 0.9007352941176471
+      },
+      "by_project": {
+        "chromium": {
+          "before": {
+            "tp": 522,
+            "fp": 162,
+            "fn": 256,
+            "tn": 2693
+          },
+          "after": {
+            "tp": 522,
+            "fp": 162,
+            "fn": 256,
+            "tn": 2693
+          },
+          "delta_tp": 0,
+          "delta_fp": 0,
+          "f1_before": 0.7140902872777017,
+          "f1_after": 0.7140902872777017
+        },
+        "ffmpeg": {
+          "before": {
+            "tp": 182,
+            "fp": 6,
+            "fn": 44,
+            "tn": 74
+          },
+          "after": {
+            "tp": 182,
+            "fp": 6,
+            "fn": 44,
+            "tn": 74
+          },
+          "delta_tp": 0,
+          "delta_fp": 0,
+          "f1_before": 0.8792270531400966,
+          "f1_after": 0.8792270531400966
+        },
+        "linux": {
+          "before": {
+            "tp": 6749,
+            "fp": 601,
+            "fn": 392,
+            "tn": 13900
+          },
+          "after": {
+            "tp": 6749,
+            "fp": 601,
+            "fn": 392,
+            "tn": 13900
+          },
+          "delta_tp": 0,
+          "delta_fp": 0,
+          "f1_before": 0.9314747084397212,
+          "f1_after": 0.9314747084397212
+        },
+        "qemu": {
+          "before": {
+            "tp": 310,
+            "fp": 15,
+            "fn": 224,
+            "tn": 199
+          },
+          "after": {
+            "tp": 310,
+            "fp": 15,
+            "fn": 224,
+            "tn": 199
+          },
+          "delta_tp": 0,
+          "delta_fp": 0,
+          "f1_before": 0.7217694994179278,
+          "f1_after": 0.7217694994179278
+        },
+        "tcpdump": {
+          "before": {
+            "tp": 83,
+            "fp": 10,
+            "fn": 12,
+            "tn": 50
+          },
+          "after": {
+            "tp": 83,
+            "fp": 10,
+            "fn": 12,
+            "tn": 50
+          },
+          "delta_tp": 0,
+          "delta_fp": 0,
+          "f1_before": 0.8829787234042553,
+          "f1_after": 0.8829787234042553
+        }
+      },
+      "matched_each_project": {
+        "before": {
+          "tp": 7846,
+          "fp": 794,
+          "fn": 928,
+          "tn": 16916
+        },
+        "after": {
+          "tp": 7846,
+          "fp": 794,
+          "fn": 928,
+          "tn": 16916
+        },
+        "delta_tp": 0,
+        "delta_fp": 0,
+        "f1_before": 0.9011140461697484,
+        "f1_after": 0.9011140461697484
+      },
+      "paired_interval": null,
+      "routed": 1206,
+      "rows": 26484,
+      "budget": 794
+    },
+    "pooled": {
+      "equal": {
+        "before": {
+          "tp": 7840,
+          "fp": 794,
+          "fn": 934,
+          "tn": 16916
+        },
+        "after": {
+          "tp": 7970,
+          "fp": 794,
+          "fn": 804,
+          "tn": 16916
+        },
+        "delta_tp": 130,
+        "delta_fp": 0,
+        "f1_before": 0.9007352941176471,
+        "f1_after": 0.9088835671114152
+      },
+      "frozen": {
+        "before": {
+          "tp": 7838,
+          "fp": 794,
+          "fn": 936,
+          "tn": 16916
+        },
+        "after": {
+          "tp": 7970,
+          "fp": 794,
+          "fn": 804,
+          "tn": 16916
+        },
+        "delta_tp": 132,
+        "delta_fp": 0,
+        "f1_before": 0.9006089854073308,
+        "f1_after": 0.9088835671114152
+      },
+      "by_project": {
+        "chromium": {
+          "before": {
+            "tp": 522,
+            "fp": 162,
+            "fn": 256,
+            "tn": 2693
+          },
+          "after": {
+            "tp": 544,
+            "fp": 162,
+            "fn": 234,
+            "tn": 2693
+          },
+          "delta_tp": 22,
+          "delta_fp": 0,
+          "f1_before": 0.7140902872777017,
+          "f1_after": 0.7331536388140162
+        },
+        "ffmpeg": {
+          "before": {
+            "tp": 182,
+            "fp": 6,
+            "fn": 44,
+            "tn": 74
+          },
+          "after": {
+            "tp": 189,
+            "fp": 6,
+            "fn": 37,
+            "tn": 74
+          },
+          "delta_tp": 7,
+          "delta_fp": 0,
+          "f1_before": 0.8792270531400966,
+          "f1_after": 0.8978622327790974
+        },
+        "linux": {
+          "before": {
+            "tp": 6749,
+            "fp": 601,
+            "fn": 392,
+            "tn": 13900
+          },
+          "after": {
+            "tp": 6781,
+            "fp": 601,
+            "fn": 360,
+            "tn": 13900
+          },
+          "delta_tp": 32,
+          "delta_fp": 0,
+          "f1_before": 0.9314747084397212,
+          "f1_after": 0.9338290986710734
+        },
+        "qemu": {
+          "before": {
+            "tp": 310,
+            "fp": 15,
+            "fn": 224,
+            "tn": 199
+          },
+          "after": {
+            "tp": 312,
+            "fp": 15,
+            "fn": 222,
+            "tn": 199
+          },
+          "delta_tp": 2,
+          "delta_fp": 0,
+          "f1_before": 0.7217694994179278,
+          "f1_after": 0.7247386759581882
+        },
+        "tcpdump": {
+          "before": {
+            "tp": 83,
+            "fp": 10,
+            "fn": 12,
+            "tn": 50
+          },
+          "after": {
+            "tp": 83,
+            "fp": 10,
+            "fn": 12,
+            "tn": 50
+          },
+          "delta_tp": 0,
+          "delta_fp": 0,
+          "f1_before": 0.8829787234042553,
+          "f1_after": 0.8829787234042553
+        }
+      },
+      "matched_each_project": {
+        "before": {
+          "tp": 7846,
+          "fp": 794,
+          "fn": 928,
+          "tn": 16916
+        },
+        "after": {
+          "tp": 7909,
+          "fp": 794,
+          "fn": 865,
+          "tn": 16916
+        },
+        "delta_tp": 63,
+        "delta_fp": 0,
+        "f1_before": 0.9011140461697484,
+        "f1_after": 0.9050752417462952
+      },
+      "paired_interval": null,
+      "routed": 1491,
+      "rows": 26484,
+      "budget": 794
+    },
+    "balanced": {
+      "equal": {
+        "before": {
+          "tp": 7840,
+          "fp": 794,
+          "fn": 934,
+          "tn": 16916
+        },
+        "after": {
+          "tp": 7980,
+          "fp": 794,
+          "fn": 794,
+          "tn": 16916
+        },
+        "delta_tp": 140,
+        "delta_fp": 0,
+        "f1_before": 0.9007352941176471,
+        "f1_after": 0.9095053567358103
+      },
+      "frozen": {
+        "before": {
+          "tp": 7838,
+          "fp": 794,
+          "fn": 936,
+          "tn": 16916
+        },
+        "after": {
+          "tp": 7980,
+          "fp": 794,
+          "fn": 794,
+          "tn": 16916
+        },
+        "delta_tp": 142,
+        "delta_fp": 0,
+        "f1_before": 0.9006089854073308,
+        "f1_after": 0.9095053567358103
+      },
+      "by_project": {
+        "chromium": {
+          "before": {
+            "tp": 522,
+            "fp": 162,
+            "fn": 256,
+            "tn": 2693
+          },
+          "after": {
+            "tp": 547,
+            "fp": 162,
+            "fn": 231,
+            "tn": 2693
+          },
+          "delta_tp": 25,
+          "delta_fp": 0,
+          "f1_before": 0.7140902872777017,
+          "f1_after": 0.7357094821788837
+        },
+        "ffmpeg": {
+          "before": {
+            "tp": 182,
+            "fp": 6,
+            "fn": 44,
+            "tn": 74
+          },
+          "after": {
+            "tp": 190,
+            "fp": 6,
+            "fn": 36,
+            "tn": 74
+          },
+          "delta_tp": 8,
+          "delta_fp": 0,
+          "f1_before": 0.8792270531400966,
+          "f1_after": 0.9004739336492891
+        },
+        "linux": {
+          "before": {
+            "tp": 6749,
+            "fp": 601,
+            "fn": 392,
+            "tn": 13900
+          },
+          "after": {
+            "tp": 6771,
+            "fp": 601,
+            "fn": 370,
+            "tn": 13900
+          },
+          "delta_tp": 22,
+          "delta_fp": 0,
+          "f1_before": 0.9314747084397212,
+          "f1_after": 0.9330944670295597
+        },
+        "qemu": {
+          "before": {
+            "tp": 310,
+            "fp": 15,
+            "fn": 224,
+            "tn": 199
+          },
+          "after": {
+            "tp": 317,
+            "fp": 15,
+            "fn": 217,
+            "tn": 199
+          },
+          "delta_tp": 7,
+          "delta_fp": 0,
+          "f1_before": 0.7217694994179278,
+          "f1_after": 0.7321016166281755
+        },
+        "tcpdump": {
+          "before": {
+            "tp": 83,
+            "fp": 10,
+            "fn": 12,
+            "tn": 50
+          },
+          "after": {
+            "tp": 84,
+            "fp": 10,
+            "fn": 11,
+            "tn": 50
+          },
+          "delta_tp": 1,
+          "delta_fp": 0,
+          "f1_before": 0.8829787234042553,
+          "f1_after": 0.8888888888888888
+        }
+      },
+      "matched_each_project": {
+        "before": {
+          "tp": 7846,
+          "fp": 794,
+          "fn": 928,
+          "tn": 16916
+        },
+        "after": {
+          "tp": 7909,
+          "fp": 794,
+          "fn": 865,
+          "tn": 16916
+        },
+        "delta_tp": 63,
+        "delta_fp": 0,
+        "f1_before": 0.9011140461697484,
+        "f1_after": 0.9050752417462952
+      },
+      "paired_interval": null,
+      "routed": 1720,
+      "rows": 26484,
+      "budget": 794
+    },
+    "robust": {
+      "equal": {
+        "before": {
+          "tp": 7840,
+          "fp": 794,
+          "fn": 934,
+          "tn": 16916
+        },
+        "after": {
+          "tp": 7961,
+          "fp": 794,
+          "fn": 813,
+          "tn": 16916
+        },
+        "delta_tp": 121,
+        "delta_fp": 0,
+        "f1_before": 0.9007352941176471,
+        "f1_after": 0.9083233498773461
+      },
+      "frozen": {
+        "before": {
+          "tp": 7838,
+          "fp": 794,
+          "fn": 936,
+          "tn": 16916
+        },
+        "after": {
+          "tp": 7961,
+          "fp": 794,
+          "fn": 813,
+          "tn": 16916
+        },
+        "delta_tp": 123,
+        "delta_fp": 0,
+        "f1_before": 0.9006089854073308,
+        "f1_after": 0.9083233498773461
+      },
+      "by_project": {
+        "chromium": {
+          "before": {
+            "tp": 522,
+            "fp": 162,
+            "fn": 256,
+            "tn": 2693
+          },
+          "after": {
+            "tp": 548,
+            "fp": 162,
+            "fn": 230,
+            "tn": 2693
+          },
+          "delta_tp": 26,
+          "delta_fp": 0,
+          "f1_before": 0.7140902872777017,
+          "f1_after": 0.7365591397849462
+        },
+        "ffmpeg": {
+          "before": {
+            "tp": 182,
+            "fp": 6,
+            "fn": 44,
+            "tn": 74
+          },
+          "after": {
+            "tp": 187,
+            "fp": 6,
+            "fn": 39,
+            "tn": 74
+          },
+          "delta_tp": 5,
+          "delta_fp": 0,
+          "f1_before": 0.8792270531400966,
+          "f1_after": 0.8926014319809069
+        },
+        "linux": {
+          "before": {
+            "tp": 6749,
+            "fp": 601,
+            "fn": 392,
+            "tn": 13900
+          },
+          "after": {
+            "tp": 6756,
+            "fp": 601,
+            "fn": 385,
+            "tn": 13900
+          },
+          "delta_tp": 7,
+          "delta_fp": 0,
+          "f1_before": 0.9314747084397212,
+          "f1_after": 0.9319906193957788
+        },
+        "qemu": {
+          "before": {
+            "tp": 310,
+            "fp": 15,
+            "fn": 224,
+            "tn": 199
+          },
+          "after": {
+            "tp": 319,
+            "fp": 15,
+            "fn": 215,
+            "tn": 199
+          },
+          "delta_tp": 9,
+          "delta_fp": 0,
+          "f1_before": 0.7217694994179278,
+          "f1_after": 0.7350230414746544
+        },
+        "tcpdump": {
+          "before": {
+            "tp": 83,
+            "fp": 10,
+            "fn": 12,
+            "tn": 50
+          },
+          "after": {
+            "tp": 85,
+            "fp": 10,
+            "fn": 10,
+            "tn": 50
+          },
+          "delta_tp": 2,
+          "delta_fp": 0,
+          "f1_before": 0.8829787234042553,
+          "f1_after": 0.8947368421052632
+        }
+      },
+      "matched_each_project": {
+        "before": {
+          "tp": 7846,
+          "fp": 794,
+          "fn": 928,
+          "tn": 16916
+        },
+        "after": {
+          "tp": 7895,
+          "fp": 794,
+          "fn": 879,
+          "tn": 16916
+        },
+        "delta_tp": 49,
+        "delta_fp": 0,
+        "f1_before": 0.9011140461697484,
+        "f1_after": 0.9041974460287465
+      },
+      "paired_interval": null,
+      "routed": 1903,
+      "rows": 26484,
+      "budget": 794
+    }
+  },
+  "test": {
+    "reference": {
+      "equal": {
+        "before": {
+          "tp": 2375,
+          "fp": 388,
+          "fn": 479,
+          "tn": 4657
+        },
+        "after": {
+          "tp": 2375,
+          "fp": 388,
+          "fn": 479,
+          "tn": 4657
+        },
+        "delta_tp": 0,
+        "delta_fp": 0,
+        "f1_before": 0.8456471426028129,
+        "f1_after": 0.8456471426028129
+      },
+      "frozen": {
+        "before": {
+          "tp": 2375,
+          "fp": 389,
+          "fn": 479,
+          "tn": 4656
+        },
+        "after": {
+          "tp": 2375,
+          "fp": 389,
+          "fn": 479,
+          "tn": 4656
+        },
+        "delta_tp": 0,
+        "delta_fp": 0,
+        "f1_before": 0.8454966180135279,
+        "f1_after": 0.8454966180135279
+      },
+      "by_project": {
+        "android": {
+          "before": {
+            "tp": 639,
+            "fp": 104,
+            "fn": 268,
+            "tn": 990
+          },
+          "after": {
+            "tp": 639,
+            "fp": 104,
+            "fn": 268,
+            "tn": 990
+          },
+          "delta_tp": 0,
+          "delta_fp": 0,
+          "f1_before": 0.7745454545454545,
+          "f1_after": 0.7745454545454545
+        },
+        "file": {
+          "before": {
+            "tp": 36,
+            "fp": 2,
+            "fn": 1,
+            "tn": 16
+          },
+          "after": {
+            "tp": 36,
+            "fp": 2,
+            "fn": 1,
+            "tn": 16
+          },
+          "delta_tp": 0,
+          "delta_fp": 0,
+          "f1_before": 0.96,
+          "f1_after": 0.96
+        },
+        "imagemagick": {
+          "before": {
+            "tp": 80,
+            "fp": 36,
+            "fn": 27,
+            "tn": 250
+          },
+          "after": {
+            "tp": 80,
+            "fp": 36,
+            "fn": 27,
+            "tn": 250
+          },
+          "delta_tp": 0,
+          "delta_fp": 0,
+          "f1_before": 0.7174887892376681,
+          "f1_after": 0.7174887892376681
+        },
+        "krb5": {
+          "before": {
+            "tp": 86,
+            "fp": 1,
+            "fn": 17,
+            "tn": 73
+          },
+          "after": {
+            "tp": 86,
+            "fp": 1,
+            "fn": 17,
+            "tn": 73
+          },
+          "delta_tp": 0,
+          "delta_fp": 0,
+          "f1_before": 0.9052631578947369,
+          "f1_after": 0.9052631578947369
+        },
+        "mozilla firefox": {
+          "before": {
+            "tp": 1031,
+            "fp": 186,
+            "fn": 89,
+            "tn": 2692
+          },
+          "after": {
+            "tp": 1031,
+            "fp": 186,
+            "fn": 89,
+            "tn": 2692
+          },
+          "delta_tp": 0,
+          "delta_fp": 0,
+          "f1_before": 0.8823277706461276,
+          "f1_after": 0.8823277706461276
+        },
+        "php": {
+          "before": {
+            "tp": 344,
+            "fp": 48,
+            "fn": 63,
+            "tn": 541
+          },
+          "after": {
+            "tp": 344,
+            "fp": 48,
+            "fn": 63,
+            "tn": 541
+          },
+          "delta_tp": 0,
+          "delta_fp": 0,
+          "f1_before": 0.8610763454317898,
+          "f1_after": 0.8610763454317898
+        },
+        "radare2": {
+          "before": {
+            "tp": 165,
+            "fp": 11,
+            "fn": 8,
+            "tn": 95
+          },
+          "after": {
+            "tp": 165,
+            "fp": 11,
+            "fn": 8,
+            "tn": 95
+          },
+          "delta_tp": 0,
+          "delta_fp": 0,
+          "f1_before": 0.9455587392550143,
+          "f1_after": 0.9455587392550143
+        }
+      },
+      "matched_each_project": {
+        "before": {
+          "tp": 2381,
+          "fp": 388,
+          "fn": 473,
+          "tn": 4657
+        },
+        "after": {
+          "tp": 2381,
+          "fp": 388,
+          "fn": 473,
+          "tn": 4657
+        },
+        "delta_tp": 0,
+        "delta_fp": 0,
+        "f1_before": 0.8468788902720967,
+        "f1_after": 0.8468788902720967
+      },
+      "paired_interval": [
+        0.0,
+        0.0
+      ],
+      "routed": 483,
+      "rows": 7899,
+      "budget": 388
+    },
+    "pooled": {
+      "equal": {
+        "before": {
+          "tp": 2375,
+          "fp": 388,
+          "fn": 479,
+          "tn": 4657
+        },
+        "after": {
+          "tp": 2381,
+          "fp": 388,
+          "fn": 473,
+          "tn": 4657
+        },
+        "delta_tp": 6,
+        "delta_fp": 0,
+        "f1_before": 0.8456471426028129,
+        "f1_after": 0.8468788902720967
+      },
+      "frozen": {
+        "before": {
+          "tp": 2375,
+          "fp": 389,
+          "fn": 479,
+          "tn": 4656
+        },
+        "after": {
+          "tp": 2382,
+          "fp": 394,
+          "fn": 472,
+          "tn": 4651
+        },
+        "delta_tp": 7,
+        "delta_fp": 5,
+        "f1_before": 0.8454966180135279,
+        "f1_after": 0.8461811722912966
+      },
+      "by_project": {
+        "android": {
+          "before": {
+            "tp": 639,
+            "fp": 104,
+            "fn": 268,
+            "tn": 990
+          },
+          "after": {
+            "tp": 640,
+            "fp": 104,
+            "fn": 267,
+            "tn": 990
+          },
+          "delta_tp": 1,
+          "delta_fp": 0,
+          "f1_before": 0.7745454545454545,
+          "f1_after": 0.7752877044215627
+        },
+        "file": {
+          "before": {
+            "tp": 36,
+            "fp": 2,
+            "fn": 1,
+            "tn": 16
+          },
+          "after": {
+            "tp": 36,
+            "fp": 2,
+            "fn": 1,
+            "tn": 16
+          },
+          "delta_tp": 0,
+          "delta_fp": 0,
+          "f1_before": 0.96,
+          "f1_after": 0.96
+        },
+        "imagemagick": {
+          "before": {
+            "tp": 80,
+            "fp": 36,
+            "fn": 27,
+            "tn": 250
+          },
+          "after": {
+            "tp": 82,
+            "fp": 36,
+            "fn": 25,
+            "tn": 250
+          },
+          "delta_tp": 2,
+          "delta_fp": 0,
+          "f1_before": 0.7174887892376681,
+          "f1_after": 0.7288888888888889
+        },
+        "krb5": {
+          "before": {
+            "tp": 86,
+            "fp": 1,
+            "fn": 17,
+            "tn": 73
+          },
+          "after": {
+            "tp": 86,
+            "fp": 1,
+            "fn": 17,
+            "tn": 73
+          },
+          "delta_tp": 0,
+          "delta_fp": 0,
+          "f1_before": 0.9052631578947369,
+          "f1_after": 0.9052631578947369
+        },
+        "mozilla firefox": {
+          "before": {
+            "tp": 1031,
+            "fp": 186,
+            "fn": 89,
+            "tn": 2692
+          },
+          "after": {
+            "tp": 1031,
+            "fp": 186,
+            "fn": 89,
+            "tn": 2692
+          },
+          "delta_tp": 0,
+          "delta_fp": 0,
+          "f1_before": 0.8823277706461276,
+          "f1_after": 0.8823277706461276
+        },
+        "php": {
+          "before": {
+            "tp": 344,
+            "fp": 48,
+            "fn": 63,
+            "tn": 541
+          },
+          "after": {
+            "tp": 340,
+            "fp": 48,
+            "fn": 67,
+            "tn": 541
+          },
+          "delta_tp": -4,
+          "delta_fp": 0,
+          "f1_before": 0.8610763454317898,
+          "f1_after": 0.8553459119496856
+        },
+        "radare2": {
+          "before": {
+            "tp": 165,
+            "fp": 11,
+            "fn": 8,
+            "tn": 95
+          },
+          "after": {
+            "tp": 167,
+            "fp": 11,
+            "fn": 6,
+            "tn": 95
+          },
+          "delta_tp": 2,
+          "delta_fp": 0,
+          "f1_before": 0.9455587392550143,
+          "f1_after": 0.9515669515669516
+        }
+      },
+      "matched_each_project": {
+        "before": {
+          "tp": 2381,
+          "fp": 388,
+          "fn": 473,
+          "tn": 4657
+        },
+        "after": {
+          "tp": 2382,
+          "fp": 388,
+          "fn": 472,
+          "tn": 4657
+        },
+        "delta_tp": 1,
+        "delta_fp": 0,
+        "f1_before": 0.8468788902720967,
+        "f1_after": 0.8470839260312945
+      },
+      "paired_interval": [
+        -0.0032894650640805517,
+        0.004751070392260212
+      ],
+      "routed": 568,
+      "rows": 7899,
+      "budget": 388
+    },
+    "balanced": {
+      "equal": {
+        "before": {
+          "tp": 2375,
+          "fp": 388,
+          "fn": 479,
+          "tn": 4657
+        },
+        "after": {
+          "tp": 2377,
+          "fp": 388,
+          "fn": 477,
+          "tn": 4657
+        },
+        "delta_tp": 2,
+        "delta_fp": 0,
+        "f1_before": 0.8456471426028129,
+        "f1_after": 0.8460580174408258
+      },
+      "frozen": {
+        "before": {
+          "tp": 2375,
+          "fp": 389,
+          "fn": 479,
+          "tn": 4656
+        },
+        "after": {
+          "tp": 2378,
+          "fp": 390,
+          "fn": 476,
+          "tn": 4655
+        },
+        "delta_tp": 3,
+        "delta_fp": 1,
+        "f1_before": 0.8454966180135279,
+        "f1_after": 0.8459622909996443
+      },
+      "by_project": {
+        "android": {
+          "before": {
+            "tp": 639,
+            "fp": 104,
+            "fn": 268,
+            "tn": 990
+          },
+          "after": {
+            "tp": 646,
+            "fp": 104,
+            "fn": 261,
+            "tn": 990
+          },
+          "delta_tp": 7,
+          "delta_fp": 0,
+          "f1_before": 0.7745454545454545,
+          "f1_after": 0.7797223898611949
+        },
+        "file": {
+          "before": {
+            "tp": 36,
+            "fp": 2,
+            "fn": 1,
+            "tn": 16
+          },
+          "after": {
+            "tp": 36,
+            "fp": 2,
+            "fn": 1,
+            "tn": 16
+          },
+          "delta_tp": 0,
+          "delta_fp": 0,
+          "f1_before": 0.96,
+          "f1_after": 0.96
+        },
+        "imagemagick": {
+          "before": {
+            "tp": 80,
+            "fp": 36,
+            "fn": 27,
+            "tn": 250
+          },
+          "after": {
+            "tp": 83,
+            "fp": 36,
+            "fn": 24,
+            "tn": 250
+          },
+          "delta_tp": 3,
+          "delta_fp": 0,
+          "f1_before": 0.7174887892376681,
+          "f1_after": 0.7345132743362832
+        },
+        "krb5": {
+          "before": {
+            "tp": 86,
+            "fp": 1,
+            "fn": 17,
+            "tn": 73
+          },
+          "after": {
+            "tp": 85,
+            "fp": 1,
+            "fn": 18,
+            "tn": 73
+          },
+          "delta_tp": -1,
+          "delta_fp": 0,
+          "f1_before": 0.9052631578947369,
+          "f1_after": 0.8994708994708994
+        },
+        "mozilla firefox": {
+          "before": {
+            "tp": 1031,
+            "fp": 186,
+            "fn": 89,
+            "tn": 2692
+          },
+          "after": {
+            "tp": 1031,
+            "fp": 186,
+            "fn": 89,
+            "tn": 2692
+          },
+          "delta_tp": 0,
+          "delta_fp": 0,
+          "f1_before": 0.8823277706461276,
+          "f1_after": 0.8823277706461276
+        },
+        "php": {
+          "before": {
+            "tp": 344,
+            "fp": 48,
+            "fn": 63,
+            "tn": 541
+          },
+          "after": {
+            "tp": 336,
+            "fp": 48,
+            "fn": 71,
+            "tn": 541
+          },
+          "delta_tp": -8,
+          "delta_fp": 0,
+          "f1_before": 0.8610763454317898,
+          "f1_after": 0.8495575221238938
+        },
+        "radare2": {
+          "before": {
+            "tp": 165,
+            "fp": 11,
+            "fn": 8,
+            "tn": 95
+          },
+          "after": {
+            "tp": 165,
+            "fp": 11,
+            "fn": 8,
+            "tn": 95
+          },
+          "delta_tp": 0,
+          "delta_fp": 0,
+          "f1_before": 0.9455587392550143,
+          "f1_after": 0.9455587392550143
+        }
+      },
+      "matched_each_project": {
+        "before": {
+          "tp": 2381,
+          "fp": 388,
+          "fn": 473,
+          "tn": 4657
+        },
+        "after": {
+          "tp": 2382,
+          "fp": 388,
+          "fn": 472,
+          "tn": 4657
+        },
+        "delta_tp": 1,
+        "delta_fp": 0,
+        "f1_before": 0.8468788902720967,
+        "f1_after": 0.8470839260312945
+      },
+      "paired_interval": [
+        -0.0038604532302743606,
+        0.005003601974443657
+      ],
+      "routed": 654,
+      "rows": 7899,
+      "budget": 388
+    },
+    "robust": {
+      "equal": {
+        "before": {
+          "tp": 2375,
+          "fp": 388,
+          "fn": 479,
+          "tn": 4657
+        },
+        "after": {
+          "tp": 2381,
+          "fp": 388,
+          "fn": 473,
+          "tn": 4657
+        },
+        "delta_tp": 6,
+        "delta_fp": 0,
+        "f1_before": 0.8456471426028129,
+        "f1_after": 0.8468788902720967
+      },
+      "frozen": {
+        "before": {
+          "tp": 2375,
+          "fp": 389,
+          "fn": 479,
+          "tn": 4656
+        },
+        "after": {
+          "tp": 2383,
+          "fp": 400,
+          "fn": 471,
+          "tn": 4645
+        },
+        "delta_tp": 8,
+        "delta_fp": 11,
+        "f1_before": 0.8454966180135279,
+        "f1_after": 0.8454851871562888
+      },
+      "by_project": {
+        "android": {
+          "before": {
+            "tp": 639,
+            "fp": 104,
+            "fn": 268,
+            "tn": 990
+          },
+          "after": {
+            "tp": 653,
+            "fp": 104,
+            "fn": 254,
+            "tn": 990
+          },
+          "delta_tp": 14,
+          "delta_fp": 0,
+          "f1_before": 0.7745454545454545,
+          "f1_after": 0.7848557692307693
+        },
+        "file": {
+          "before": {
+            "tp": 36,
+            "fp": 2,
+            "fn": 1,
+            "tn": 16
+          },
+          "after": {
+            "tp": 36,
+            "fp": 2,
+            "fn": 1,
+            "tn": 16
+          },
+          "delta_tp": 0,
+          "delta_fp": 0,
+          "f1_before": 0.96,
+          "f1_after": 0.96
+        },
+        "imagemagick": {
+          "before": {
+            "tp": 80,
+            "fp": 36,
+            "fn": 27,
+            "tn": 250
+          },
+          "after": {
+            "tp": 82,
+            "fp": 36,
+            "fn": 25,
+            "tn": 250
+          },
+          "delta_tp": 2,
+          "delta_fp": 0,
+          "f1_before": 0.7174887892376681,
+          "f1_after": 0.7288888888888889
+        },
+        "krb5": {
+          "before": {
+            "tp": 86,
+            "fp": 1,
+            "fn": 17,
+            "tn": 73
+          },
+          "after": {
+            "tp": 85,
+            "fp": 1,
+            "fn": 18,
+            "tn": 73
+          },
+          "delta_tp": -1,
+          "delta_fp": 0,
+          "f1_before": 0.9052631578947369,
+          "f1_after": 0.8994708994708994
+        },
+        "mozilla firefox": {
+          "before": {
+            "tp": 1031,
+            "fp": 186,
+            "fn": 89,
+            "tn": 2692
+          },
+          "after": {
+            "tp": 1028,
+            "fp": 186,
+            "fn": 92,
+            "tn": 2692
+          },
+          "delta_tp": -3,
+          "delta_fp": 0,
+          "f1_before": 0.8823277706461276,
+          "f1_after": 0.8808911739502999
+        },
+        "php": {
+          "before": {
+            "tp": 344,
+            "fp": 48,
+            "fn": 63,
+            "tn": 541
+          },
+          "after": {
+            "tp": 332,
+            "fp": 48,
+            "fn": 75,
+            "tn": 541
+          },
+          "delta_tp": -12,
+          "delta_fp": 0,
+          "f1_before": 0.8610763454317898,
+          "f1_after": 0.843710292249047
+        },
+        "radare2": {
+          "before": {
+            "tp": 165,
+            "fp": 11,
+            "fn": 8,
+            "tn": 95
+          },
+          "after": {
+            "tp": 164,
+            "fp": 11,
+            "fn": 9,
+            "tn": 95
+          },
+          "delta_tp": -1,
+          "delta_fp": 0,
+          "f1_before": 0.9455587392550143,
+          "f1_after": 0.9425287356321839
+        }
+      },
+      "matched_each_project": {
+        "before": {
+          "tp": 2381,
+          "fp": 388,
+          "fn": 473,
+          "tn": 4657
+        },
+        "after": {
+          "tp": 2380,
+          "fp": 388,
+          "fn": 474,
+          "tn": 4657
+        },
+        "delta_tp": -1,
+        "delta_fp": 0,
+        "f1_before": 0.8468788902720967,
+        "f1_after": 0.8466737815723941
+      },
+      "paired_interval": [
+        -0.0051933018429328095,
+        0.0051382566697996245
+      ],
+      "routed": 777,
+      "rows": 7899,
+      "budget": 388
+    }
+  }
+}

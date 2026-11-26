@@ -1,0 +1,99 @@
+{
+  "matrix_sha256": "1ab131c284d8a7e0e0334cf45dbc8f2b34ffa528a69a62ecfd26ff57e399e4e7",
+  "exclude_copies": 0,
+  "teacher_sha256": "46aeb4c8d40afc0a32d1046667af4e7cf863c2c55e7bcf109641020f26f20992",
+  "compact_sha256": "538884c3a378619ac6080ad3f59091b4e287ee31c4a9ddd5e5bf8fcc1d05edfe",
+  "pair_source_sha256": "728d6d3c3d2dba36f5ec39a4d5d573eaa0df847e411892f65fe08d3a02b52935",
+  "pair_roster_sha256": "ac437167c4d502d7d5acfafa4a7d5bf5cde59c4d2d5ec5119416dde6c08d4f3d",
+  "pair_count": 174,
+  "cohorts": {
+    "negative_consensus": {
+      "available": 580,
+      "selected": 49,
+      "anchors": 40,
+      "baseline_rate": 0.5758620689655173,
+      "graph_rate": 0.596551724137931,
+      "unix_rate": 0.5362068965517242
+    },
+    "negative_veto": {
+      "available": 1455,
+      "selected": 77,
+      "anchors": 67,
+      "baseline_rate": 0.6749140893470791,
+      "graph_rate": 0.6405498281786941,
+      "unix_rate": 0.6646048109965635
+    },
+    "negative_retained": {
+      "available": 1,
+      "selected": 0,
+      "anchors": 0,
+      "baseline_rate": 1.0,
+      "graph_rate": 0.0,
+      "unix_rate": 0.0
+    },
+    "unqueried_miss": {
+      "available": 358,
+      "selected": 39,
+      "anchors": 33,
+      "baseline_rate": 0.6675977653631285,
+      "graph_rate": 0.5921787709497207,
+      "unix_rate": 0.6703910614525139
+    },
+    "unqueried_fp": {
+      "available": 313,
+      "selected": 9,
+      "anchors": 9,
+      "baseline_rate": 0.7955271565495208,
+      "graph_rate": 0.8019169329073482,
+      "unix_rate": 0.7795527156549521
+    }
+  },
+  "arms": {
+    "label": [
+      false,
+      null,
+      0
+    ],
+    "soft": [
+      true,
+      null,
+      0
+    ],
+    "pair_gold": [
+      false,
+      "gold",
+      0
+    ],
+    "pair_order": [
+      false,
+      "order",
+      0
+    ],
+    "pair_joint": [
+      true,
+      "order",
+      0
+    ],
+    "pair_residual": [
+      true,
+      "residual",
+      0
+    ],
+    "soft_mlp": [
+      true,
+      null,
+      24
+    ],
+    "pair_mlp": [
+      true,
+      "order",
+      24
+    ]
+  },
+  "inputs": 539,
+  "epochs": 16,
+  "scores_sha256": "e069e122e1ec819464e650efecd9ceaa34dbce4e81734b3583a158e5637538db",
+  "weights_sha256": "f8d86144b8f21250e59c9e9b3e44fd6e58ede0d3dde973051b34b703d35bfbf8",
+  "code_sha256": "aec85addf20d88c70b42d6a8b8fef00514f2f865ed10757fa1acb44868d79140",
+  "seconds": 23.49644105718471
+}

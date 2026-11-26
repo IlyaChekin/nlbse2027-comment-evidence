@@ -1,0 +1,111 @@
+{
+  "public": {
+    "win_fixed": {
+      "before": {
+        "tp": 9559,
+        "fp": 423,
+        "fn": 493,
+        "tn": 20180
+      },
+      "after": {
+        "tp": 9793,
+        "fp": 353,
+        "fn": 259,
+        "tn": 20250
+      },
+      "delta_tp": 234,
+      "delta_fp": -70,
+      "f1_before": 0.9542777278626335,
+      "f1_after": 0.9696999702940885
+    },
+    "ceiling": 0.9695632802314894,
+    "seconds_needed_even_at_ceiling": 4.285970126896214,
+    "archive_sha256": "debd19f64365645bb2bf56ce5096bd96e9e1e6ae14685fb2427a8387e834f9d7",
+    "results_sha256": "f988db988a6446c3ded67367f7f7baab4e8d6bae92ae1c0cbb1fce941c2f8342"
+  },
+  "format_audit": {
+    "correspondence_rows": 212114,
+    "audit_rows": 781,
+    "formatted_mismatches": 391,
+    "masked_original_mismatches": 1,
+    "results_sha256": "744ac7bdb194fd0d1d62ba14b13c5a81dbe78c89ebb556f9ca8c3c31de9f6e97"
+  },
+  "styles": {
+    "matched_test_changes": {
+      "LLVM": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "GNU": [
+        [
+          1,
+          275
+        ],
+        [
+          22,
+          42
+        ],
+        [
+          -16,
+          23
+        ]
+      ],
+      "Chromium": [
+        [
+          -21,
+          -45
+        ],
+        [
+          -8,
+          -5
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "WebKit": [
+        [
+          43,
+          223
+        ],
+        [
+          22,
+          28
+        ],
+        [
+          -8,
+          15
+        ]
+      ],
+      "Microsoft": [
+        [
+          122,
+          348
+        ],
+        [
+          38,
+          59
+        ],
+        [
+          -3,
+          24
+        ]
+      ]
+    },
+    "trace_sha256": "e0af256a5f4e7d592bf03dcd7578eaf2565aa188d4910701ba6269f5b7a321e8"
+  },
+  "routing_selection": "da1aba7db8c408557794feaaf7f7dbc3735e324b4b393bb2be0a05b8b7f79704",
+  "component_selection": "eb398736d064c29c33a2add64e57a3dc0c3be3ed9e90cc6019a60f533c5d5c9b",
+  "code_sha256": "247371990722ab8edac87db77fde85f41749e89e21d3275f7f0aa7bd503baabf"
+}

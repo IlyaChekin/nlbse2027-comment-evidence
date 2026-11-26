@@ -1,0 +1,23 @@
+{
+  "rows": 104210,
+  "positive": 2724,
+  "cohort_sha256": "c5d74ea7f7e5ce182168c6a2b2172f4d06a57b53cfc67b61beecc9ae1a803f63",
+  "mode": {
+    "plain": {
+      "sec": 10.452203309163451,
+      "sha256": "36b18ce6b36880c10be0cb773aa50e404281fef27e72febe8f5a2bdb6912631b"
+    },
+    "shared": {
+      "sec": 10.275830628117546,
+      "sha256": "d4281902e3c030eb60be6f8edc21f5a2edcec7545098a71df99fd01160bd23fe"
+    }
+  },
+  "oof_targets": {
+    "source": "102f5f53f91dfc4a0b5565cbfb7514ece11216926001c16f175a30c4a1fcbf58",
+    "covered": 99804,
+    "shared_false_alarm": 59,
+    "shared_missed": 738
+  },
+  "seed": 42,
+  "code_sha256": "cb150dc808b88573286c7cc7a276ea763d77e1ed25c97bda1fdb9d845cf4e054"
+}

@@ -1,0 +1,58 @@
+{
+  "selected": null,
+  "stages": {
+    "public": {
+      "selected": false,
+      "candidate": 0.9644833353643982,
+      "reference": 0.9645261904905457,
+      "release_score": 0.964473011244635,
+      "wins": 2,
+      "pairs": 5,
+      "scope": 388,
+      "changes": 11,
+      "interval": {
+        "vulnerability": [
+          -0.0003933616219966102,
+          0.00028077895117239164
+        ],
+        "MAT": [
+          0.0,
+          0.0
+        ],
+        "mean": [
+          -0.0001966808109983051,
+          0.00014038947558619582
+        ]
+      },
+      "source_sha256": "042477ce9bad1fee8cd540ca3cc909daeef2befaae29c26d16fa251833b82953",
+      "release_archive_sha256": "3f2c8f9e131517586d128b81db28a2c97049e088fe05fbccc6c5a9df598c7857"
+    },
+    "public_sparse": {
+      "selected": false,
+      "candidate": 0.9644462090983392,
+      "reference": 0.9644591231037304,
+      "release_score": 0.964473011244635,
+      "wins": 3,
+      "pairs": 5,
+      "scope": 388,
+      "changes": 18,
+      "interval": {
+        "vulnerability": [
+          -0.0004783956710937315,
+          0.00031721756136251757
+        ],
+        "MAT": [
+          0.0,
+          0.0
+        ],
+        "mean": [
+          -0.00023919783554686574,
+          0.00015860878068125878
+        ]
+      },
+      "source_sha256": "485a1e1b68e55068cc77ac9fd52defd091addf045407feefbfbd70e6e57a8df6",
+      "release_archive_sha256": "3f2c8f9e131517586d128b81db28a2c97049e088fe05fbccc6c5a9df598c7857"
+    }
+  },
+  "code_sha256": "64ef1ae0b765977f4ceb3a5a4821d217bd26773ed1b8b60c1bf262388a329d64"
+}

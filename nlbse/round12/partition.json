@@ -1,0 +1,69 @@
+{
+  "input_sha256": "668a958c873060904e611bd3f45088acdbdb48631e6f626afda8ea7831fa6319",
+  "partition_sha256": "940973d138251fd6abe1a4fa7ce15def9b3262408d131943230e32cba537a2c5",
+  "aliases": {
+    "chrome": "chromium",
+    "linux kernel": "linux",
+    "php-src": "php"
+  },
+  "normalized_copy_exclusions": {
+    "test": 0,
+    "dev": 6,
+    "probe": 0,
+    "fit": 127
+  },
+  "roles": {
+    "test": {
+      "rows": 31104,
+      "positives": [
+        9450,
+        830
+      ],
+      "projects": {
+        "chromium": 24715,
+        "ffmpeg": 2074,
+        "qemu": 4315
+      }
+    },
+    "dev": {
+      "rows": 7144,
+      "positives": [
+        2528,
+        196
+      ],
+      "projects": {
+        "mozilla firefox": 3993,
+        "android": 2000,
+        "php": 996,
+        "tcpdump": 155
+      }
+    },
+    "probe": {
+      "rows": 17379,
+      "positives": [
+        5853,
+        259
+      ],
+      "projects": {
+        "linux": 17273,
+        "radare2": 51,
+        "krb5": 21,
+        "imagemagick": 34
+      }
+    },
+    "fit": {
+      "rows": 158826,
+      "positives": [
+        52520,
+        2251
+      ],
+      "projects": {
+        "linux": 158028,
+        "file": 55,
+        "radare2": 228,
+        "krb5": 156,
+        "imagemagick": 359
+      }
+    }
+  }
+}

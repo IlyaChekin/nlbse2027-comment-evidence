@@ -1,0 +1,322 @@
+{
+  "choices": {
+    "compact": {
+      "frozen": "token_motifs_logistic",
+      "candidates": {
+        "raw": {
+          "objective": 0.8387788661876685,
+          "pooled_f1": 0.8350494649707249,
+          "cutoff": 0.4770786516853932,
+          "feature": "raw",
+          "recipe": "fixed",
+          "project_dev": true
+        },
+        "logit_logistic": {
+          "objective": 0.838858034257212,
+          "pooled_f1": 0.8351160443995964,
+          "cutoff": 0.34342696629213487,
+          "feature": "logit",
+          "recipe": "logistic",
+          "project_dev": true
+        },
+        "layout_logistic": {
+          "objective": 0.837310252111292,
+          "pooled_f1": 0.832509392920704,
+          "cutoff": 0.3331460674157304,
+          "feature": "layout",
+          "recipe": "logistic",
+          "project_dev": true
+        },
+        "layout_hgb": {
+          "objective": 0.8370643582543577,
+          "pooled_f1": 0.8332,
+          "cutoff": 0.37426966292134833,
+          "feature": "layout",
+          "recipe": "hgb",
+          "project_dev": true
+        },
+        "ast_counts_logistic": {
+          "objective": 0.8408326748438502,
+          "pooled_f1": 0.8382970217869279,
+          "cutoff": 0.3331460674157304,
+          "feature": "ast_counts",
+          "recipe": "logistic",
+          "project_dev": true
+        },
+        "ast_counts_hgb": {
+          "objective": 0.838598214473131,
+          "pooled_f1": 0.8334661354581673,
+          "cutoff": 0.37426966292134833,
+          "feature": "ast_counts",
+          "recipe": "hgb",
+          "project_dev": true
+        },
+        "token_motifs_logistic": {
+          "objective": 0.8453713355441558,
+          "pooled_f1": 0.8420838420838421,
+          "cutoff": 0.3845505617977528,
+          "feature": "token_motifs",
+          "recipe": "logistic",
+          "project_dev": true
+        },
+        "ast_motifs_logistic": {
+          "objective": 0.8426351893190849,
+          "pooled_f1": 0.8385803088028875,
+          "cutoff": 0.3331460674157304,
+          "feature": "ast_motifs",
+          "recipe": "logistic",
+          "project_dev": true
+        },
+        "all_logistic": {
+          "objective": 0.8409695800307753,
+          "pooled_f1": 0.8369543147208122,
+          "cutoff": 0.42567415730337077,
+          "feature": "all",
+          "recipe": "logistic",
+          "project_dev": true
+        },
+        "all_hgb": {
+          "objective": 0.8419721786503254,
+          "pooled_f1": 0.8369081343585593,
+          "cutoff": 0.43595505617977526,
+          "feature": "all",
+          "recipe": "hgb",
+          "project_dev": true
+        }
+      },
+      "representatives": {
+        "logit": "logit_logistic",
+        "layout": "layout_logistic",
+        "ast_counts": "ast_counts_logistic",
+        "token_motifs": "token_motifs_logistic",
+        "ast_motifs": "ast_motifs_logistic",
+        "all": "all_hgb"
+      }
+    },
+    "unix": {
+      "frozen": "raw",
+      "candidates": {
+        "raw": {
+          "objective": 0.8598770690737267,
+          "pooled_f1": 0.8570249638951929,
+          "cutoff": 0.5079213483146068,
+          "feature": "raw",
+          "recipe": "fixed",
+          "project_dev": true
+        },
+        "logit_logistic": {
+          "objective": 0.8594738857943127,
+          "pooled_f1": 0.8566707971912433,
+          "cutoff": 0.3023033707865168,
+          "feature": "logit",
+          "recipe": "logistic",
+          "project_dev": true
+        },
+        "layout_logistic": {
+          "objective": 0.8587874382173708,
+          "pooled_f1": 0.8564929693961952,
+          "cutoff": 0.3228651685393259,
+          "feature": "layout",
+          "recipe": "logistic",
+          "project_dev": true
+        },
+        "layout_hgb": {
+          "objective": 0.8563972339574746,
+          "pooled_f1": 0.8539137714524906,
+          "cutoff": 0.3845505617977528,
+          "feature": "layout",
+          "recipe": "hgb",
+          "project_dev": true
+        },
+        "ast_counts_logistic": {
+          "objective": 0.8560348720118461,
+          "pooled_f1": 0.8528856243441763,
+          "cutoff": 0.42567415730337077,
+          "feature": "ast_counts",
+          "recipe": "logistic",
+          "project_dev": true
+        },
+        "ast_counts_hgb": {
+          "objective": 0.8546648718816203,
+          "pooled_f1": 0.8527876383378576,
+          "cutoff": 0.3845505617977528,
+          "feature": "ast_counts",
+          "recipe": "hgb",
+          "project_dev": true
+        },
+        "token_motifs_logistic": {
+          "objective": 0.8588119153785854,
+          "pooled_f1": 0.8557851239669422,
+          "cutoff": 0.3228651685393259,
+          "feature": "token_motifs",
+          "recipe": "logistic",
+          "project_dev": true
+        },
+        "ast_motifs_logistic": {
+          "objective": 0.8595461889361395,
+          "pooled_f1": 0.8563752841496177,
+          "cutoff": 0.3125842696629213,
+          "feature": "ast_motifs",
+          "recipe": "logistic",
+          "project_dev": true
+        },
+        "all_logistic": {
+          "objective": 0.856968480292383,
+          "pooled_f1": 0.8530283778060144,
+          "cutoff": 0.5182022471910113,
+          "feature": "all",
+          "recipe": "logistic",
+          "project_dev": true
+        },
+        "all_hgb": {
+          "objective": 0.8564774952127346,
+          "pooled_f1": 0.854157960718763,
+          "cutoff": 0.3948314606741573,
+          "feature": "all",
+          "recipe": "hgb",
+          "project_dev": true
+        }
+      },
+      "representatives": {
+        "logit": "logit_logistic",
+        "layout": "layout_logistic",
+        "ast_counts": "ast_counts_logistic",
+        "token_motifs": "token_motifs_logistic",
+        "ast_motifs": "ast_motifs_logistic",
+        "all": "all_logistic"
+      }
+    },
+    "joint": {
+      "frozen": "token_motifs_logistic",
+      "candidates": {
+        "raw": {
+          "objective": 0.8607511981051421,
+          "pooled_f1": 0.8583708555055259,
+          "cutoff": 0.5,
+          "feature": "raw",
+          "recipe": "fixed",
+          "project_dev": true
+        },
+        "logit_logistic": {
+          "objective": 0.8601409653726595,
+          "pooled_f1": 0.8565409732462608,
+          "cutoff": 0.4667977528089887,
+          "feature": "logit",
+          "recipe": "logistic",
+          "project_dev": true
+        },
+        "layout_logistic": {
+          "objective": 0.8605995227725285,
+          "pooled_f1": 0.8573216520650814,
+          "cutoff": 0.4051123595505618,
+          "feature": "layout",
+          "recipe": "logistic",
+          "project_dev": true
+        },
+        "layout_hgb": {
+          "objective": 0.8584864428487265,
+          "pooled_f1": 0.856425282544998,
+          "cutoff": 0.4051123595505618,
+          "feature": "layout",
+          "recipe": "hgb",
+          "project_dev": true
+        },
+        "ast_counts_logistic": {
+          "objective": 0.8590745449793626,
+          "pooled_f1": 0.8566084788029925,
+          "cutoff": 0.3845505617977528,
+          "feature": "ast_counts",
+          "recipe": "logistic",
+          "project_dev": true
+        },
+        "ast_counts_hgb": {
+          "objective": 0.857872291811336,
+          "pooled_f1": 0.855583543240974,
+          "cutoff": 0.45651685393258423,
+          "feature": "ast_counts",
+          "recipe": "hgb",
+          "project_dev": true
+        },
+        "token_motifs_logistic": {
+          "objective": 0.8613117520286533,
+          "pooled_f1": 0.8587453261321146,
+          "cutoff": 0.37426966292134833,
+          "feature": "token_motifs",
+          "recipe": "logistic",
+          "project_dev": true
+        },
+        "ast_motifs_logistic": {
+          "objective": 0.8606262999955152,
+          "pooled_f1": 0.8578563995837669,
+          "cutoff": 0.37426966292134833,
+          "feature": "ast_motifs",
+          "recipe": "logistic",
+          "project_dev": true
+        },
+        "all_logistic": {
+          "objective": 0.8592345412599204,
+          "pooled_f1": 0.8557611438183347,
+          "cutoff": 0.4770786516853932,
+          "feature": "all",
+          "recipe": "logistic",
+          "project_dev": true
+        },
+        "all_hgb": {
+          "objective": 0.8580314815160683,
+          "pooled_f1": 0.8559837728194726,
+          "cutoff": 0.26117977528089886,
+          "feature": "all",
+          "recipe": "hgb",
+          "project_dev": true
+        }
+      },
+      "representatives": {
+        "logit": "logit_logistic",
+        "layout": "layout_logistic",
+        "ast_counts": "ast_counts_logistic",
+        "token_motifs": "token_motifs_logistic",
+        "ast_motifs": "ast_motifs_logistic",
+        "all": "all_logistic"
+      }
+    }
+  },
+  "mat": {
+    "objective": 0.9456728646343698,
+    "pooled_f1": 0.9433962264150944,
+    "cutoff": 0.5,
+    "name": "ngrams",
+    "calibration_ap": 0.9040567657483308
+  },
+  "mat_controls": [
+    {
+      "objective": 0.9456728646343698,
+      "pooled_f1": 0.9433962264150944,
+      "cutoff": 0.5,
+      "name": "comment",
+      "calibration_ap": 0.9040141300685081
+    },
+    {
+      "objective": 0.9456728646343698,
+      "pooled_f1": 0.9433962264150944,
+      "cutoff": 0.5,
+      "name": "ngrams",
+      "calibration_ap": 0.9040567657483308
+    },
+    {
+      "objective": 0.9456728646343698,
+      "pooled_f1": 0.9433962264150944,
+      "cutoff": 0.5182022471910113,
+      "name": "untagged",
+      "calibration_ap": 0.9030053266544809
+    },
+    {
+      "name": "tags",
+      "objective": 0.9456728646343698,
+      "cutoff": 0.5,
+      "pooled_f1": 0.9433962264150944,
+      "calibration_ap": 0.8957966725323948
+    }
+  ],
+  "checkpoint_sha256": "8f522dd7720f96e56de2fb7b665246be7cc8868d9541798de5f1b5fa9a51e22d",
+  "selection": "mean of pooled vulnerability F1 and unweighted project F1 on disjoint development projects"
+}

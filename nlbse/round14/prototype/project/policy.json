@@ -1,0 +1,125 @@
+{
+  "chosen": "missing_margin",
+  "candidates": {
+    "raw": {
+      "threshold": 0.9570704102516174,
+      "dev": {
+        "base": {
+          "tp": 271,
+          "fp": 0,
+          "fn": 51,
+          "f1": 0.9139966273187183
+        },
+        "candidate": {
+          "tp": 271,
+          "fp": 0,
+          "fn": 51,
+          "f1": 0.9139966273187183
+        },
+        "recovered": 0,
+        "lost": 0,
+        "extra_fp": 0
+      },
+      "residual_average_precision": 0.005083064578880187
+    },
+    "tagged": {
+      "threshold": 0.897555947303772,
+      "dev": {
+        "base": {
+          "tp": 271,
+          "fp": 0,
+          "fn": 51,
+          "f1": 0.9139966273187183
+        },
+        "candidate": {
+          "tp": 271,
+          "fp": 0,
+          "fn": 51,
+          "f1": 0.9139966273187183
+        },
+        "recovered": 0,
+        "lost": 0,
+        "extra_fp": 0
+      },
+      "residual_average_precision": 0.003496946197625559
+    },
+    "margin": {
+      "threshold": 0.33742523193359375,
+      "dev": {
+        "base": {
+          "tp": 271,
+          "fp": 0,
+          "fn": 51,
+          "f1": 0.9139966273187183
+        },
+        "candidate": {
+          "tp": 271,
+          "fp": 0,
+          "fn": 51,
+          "f1": 0.9139966273187183
+        },
+        "recovered": 0,
+        "lost": 0,
+        "extra_fp": 0
+      },
+      "residual_average_precision": 0.0067733109626172345
+    },
+    "missing_margin": {
+      "threshold": 0.07295800745487213,
+      "dev": {
+        "base": {
+          "tp": 271,
+          "fp": 0,
+          "fn": 51,
+          "f1": 0.9139966273187183
+        },
+        "candidate": {
+          "tp": 272,
+          "fp": 0,
+          "fn": 50,
+          "f1": 0.9158249158249159
+        },
+        "recovered": 1,
+        "lost": 0,
+        "extra_fp": 0
+      },
+      "residual_average_precision": 0.026786120933554133
+    },
+    "agreement": {
+      "threshold": 0.008251105435192585,
+      "dev": {
+        "base": {
+          "tp": 271,
+          "fp": 0,
+          "fn": 51,
+          "f1": 0.9139966273187183
+        },
+        "candidate": {
+          "tp": 271,
+          "fp": 0,
+          "fn": 51,
+          "f1": 0.9139966273187183
+        },
+        "recovered": 0,
+        "lost": 0,
+        "extra_fp": 0
+      },
+      "residual_average_precision": 0.00624434108866068
+    }
+  },
+  "reference_shape": [
+    153628,
+    1048576
+  ],
+  "reference_nonzero": 21169698,
+  "seconds": 48.31581947696395,
+  "training_label_families": {
+    "0": 151445,
+    "2": 338,
+    "1": 1845
+  },
+  "sha256": {
+    "training.npz": "e4803c097ca5df6a7bc468e2740cf311a124244c09ecbc2df876d851bfac2bee",
+    "metadata.npz": "1b8355496f3e2ffb97ed0006a52bede01b5f8b10710d40efd24af2d76555b23e"
+  }
+}

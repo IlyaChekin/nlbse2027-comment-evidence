@@ -1,0 +1,8 @@
+{
+  "rows": 30655,
+  "identical_binary_decisions": 61310,
+  "archive_sha256": "97195d9378ca531ef12f5ea74404e216c883c08ac7d3cf243942e8e649a083c6",
+  "public_sha256": "4d5e1fcffa59d08ee3f285209c9538c425cd2723dbeefb2530e1520364a1b2b0",
+  "checkpoint_sha256": "b5f2b25d3fb1db3adac8e95623e88ba4e5ff787e8b7c002423966031c86392a1",
+  "predictions_sha256": "73e2dcb8bd58df3cefe3d2661bdb0a4f4b960a632092db64eea448f409c3d87d"
+}

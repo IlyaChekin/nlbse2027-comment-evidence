@@ -1,0 +1,37 @@
+{
+  "points": {
+    "dev": "29e0b124af3c33252262b94fad570e52f83e6f6543474067421457053dfa021e",
+    "test": "9a19af061b689863a91553a93da7ad14bd033d12bc85a1fe620bf6dc0ec3f9f0",
+    "oof": "2dcfce5e3e935bf2b9d18cb91dbaf961e4d32366ac31d79fc09a43ca46208f6a"
+  },
+  "teacher_sha256": "a50448446e3cb5dbb53e6338a81e75987f065f7e95b70ab2693f15953a600d95",
+  "source_sha256": "e0233017e0726b148d2c29dcd43e11eddde1b626b103b7552620b9ff9cc4f253",
+  "code_sha256": "c880ee0dafd37044a4943a2638d8c210222d32ac8cf8d9a89fe60104a524d8b0",
+  "predictions_sha256": "7d99fa245802f1352222027848f0545a28804641be5db1eba6141c806ef8c39b",
+  "heads": {
+    "ridge_lo": {
+      "sha256": "b8b82a071e676590d4d01f7ff5001408af3e1b806c5e5aeda4ad56b74ad0f9ec",
+      "reg": 0.04,
+      "errors": [
+        1.5169085264205933,
+        0.5973513722419739
+      ]
+    },
+    "ridge_med": {
+      "sha256": "ee2a415534c954bbf8486f05b627cfe81978135e7aa9d7cefc87d6a58467381b",
+      "reg": 0.18,
+      "errors": [
+        1.5599089860916138,
+        0.6547470092773438
+      ]
+    },
+    "ridge_hi": {
+      "sha256": "48e91263daf7e651d6d8b19d447513812ecb21fd3a21f40ceb425346d9b4e5ac",
+      "reg": 0.6,
+      "errors": [
+        1.608940601348877,
+        0.718715250492096
+      ]
+    }
+  }
+}

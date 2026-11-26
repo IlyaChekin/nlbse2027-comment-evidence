@@ -1,0 +1,9 @@
+{
+  "rows": 214586,
+  "nonzero": 42625267,
+  "dimensions": 262144,
+  "data_sha256": "668a958c873060904e611bd3f45088acdbdb48631e6f626afda8ea7831fa6319",
+  "matrix_sha256": "86fb23005b440661e9ce2693c293b35b8ba3edace10abdaa4d6f4dab6d619c97",
+  "seconds": 23.019547563046217,
+  "code_sha256": "ffc719a8bb2bf8f5232de64e40ad3334dd53e0d39c4e77935c037d66c362336e"
+}
